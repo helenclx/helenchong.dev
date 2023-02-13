@@ -212,7 +212,6 @@ nav ul li {
   margin: 10px;
 }
 
-/*
 .btn-container {
   display: flex;
   align-items: center;
@@ -220,8 +219,7 @@ nav ul li {
 }
 
 .link-btn {
-  width: 20rem;
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px 0;
   background-color: var(--primary-color);
   color: #fff;
@@ -238,7 +236,6 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
-*/
 
 .contact {
   margin-top: 2rem;
