@@ -212,6 +212,34 @@ nav ul li {
   margin: 10px;
 }
 
+/*
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-btn {
+  width: 20rem;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.link-btn:hover {
+  color: var(--primary-color);
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+*/
+
 .contact {
   margin-top: 2rem;
 }
