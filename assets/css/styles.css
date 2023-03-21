@@ -136,6 +136,11 @@ nav ul li {
   padding: 0.4rem;
 }
 
+.more-about ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
 .skills {
   max-width: 68.75rem;
   margin: auto;
