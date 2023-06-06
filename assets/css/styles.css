@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
-
 /* Variables */
 :root {
     --font-family: "Roboto", Arial, sans-serf;
@@ -123,7 +121,7 @@ nav ul li {
 
 .more-about {
     background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 1rem 30rem;
 }
 
 .more-about h2 {
@@ -191,16 +189,6 @@ nav ul li {
     margin-bottom: 1rem;
 }
 
-.project-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
-}
-
-.project-container p {
-    padding: 0.4rem;
-}
-
 .project-title {
     margin-bottom: var(--bottom-margin);
 }
@@ -213,7 +201,9 @@ nav ul li {
     background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
     margin: 10px;
 }
 
@@ -423,6 +413,11 @@ footer {
 
     .bio {
         width: 18.3rem;
+    }
+
+    .more-about {
+        margin-top: 2rem;
+        padding: 1rem 2.5rem;
     }
 
     .project-container {
