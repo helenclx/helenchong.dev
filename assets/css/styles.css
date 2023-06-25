@@ -169,13 +169,14 @@ nav ul li {
 
 .projects {
     background-color: var(--bg-color);
-    padding: 32px 0;
+    padding: 2rem 0;
     margin-top: 2rem;
 }
 
 .project-pic {
     width: 65%;
     height: 60%;
+    margin-bottom: var(--bottom-margin);
 }
 
 .projects-container {
@@ -202,35 +203,40 @@ nav ul li {
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
     text-align: center;
-    width: 21.875rem;
+    max-width: 21.875rem;
     padding: 1rem;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0.3rem;
+    width: 100%;
 }
 
-.link-btn {
-    padding: 10px 20px;
-    margin: 10px 0;
+.more-projects-link {
     background-color: var(--primary-color);
     color: #fff;
-    border: 2px solid var(--primary-color);
-    border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: var(--bold-font);
+    border: 0.15rem solid var(--primary-color);
+    border-radius: 0.6rem;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1.2rem;
     transition: var(--transition);
 }
 
-.link-btn:hover {
+.more-projects-link:hover {
     color: var(--primary-color);
     background-color: #fff;
-    border: 2px solid var(--primary-color);
     cursor: pointer;
-}
+}  
 
 .contact {
     margin-top: 2rem;
@@ -264,6 +270,7 @@ nav ul li {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 0.5rem;
     border-radius: 5px;
     border: none;
     border: 2px outset var(--primary-color);
@@ -276,6 +283,7 @@ nav ul li {
     color: var(--primary-color);
 }
 
+.link-btn,
 .submit-btn {
     width: 100%;
     padding: 10px;
@@ -289,6 +297,7 @@ nav ul li {
     transition: var(--transition);
 }
 
+.link-btn:hover,
 .submit-btn:hover {
     color: #fff;
     background-color: var(--primary-color);
