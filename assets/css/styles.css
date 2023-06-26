@@ -554,6 +554,10 @@ footer {
 
 /* Desktop screen size */
 @media only screen and (min-width: 60rem) {
+    nav {
+        padding: 1.3rem 1.5rem;
+    }
+    
     .hero {
         width: 80%;
     }
