@@ -192,6 +192,7 @@ main {
     justify-content: center;
 	flex-direction: column;
     width: 100%;
+    padding-top: 2rem;
 }
 
 .hero img {
@@ -567,7 +568,7 @@ footer {
     }
 
     .bio {
-        min-width: 25rem;
+        min-width: 27rem;
     }
 
     .more-about {
