@@ -9,7 +9,7 @@
     --secondary-color: #ff7235;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
-    --bottom-margin: 1rem;
+    --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
     --transition: 0.3s;
@@ -100,14 +100,9 @@ body {
     justify-content: center;
 }
 
-h2 {
-    font-size: 1.7rem;
-}
-
 a {
-    /* text-decoration: none; */
+    text-decoration: none;
     color: var(--primary-color);
-    font-weight: 700;
 }
 
 a:hover {
@@ -116,7 +111,7 @@ a:hover {
 }
 
 nav {
-    padding: 0.7rem 1rem;
+    padding: 1.5rem 1rem;
     position: sticky;
     top: 0;
     left: 0;
@@ -136,7 +131,6 @@ nav h1 {
 nav a {
     color: var(--primary-color);
     transition: var(--transition);
-    text-decoration: none;
 }
 
 nav a:hover {
@@ -168,7 +162,7 @@ nav ul li {
 .burger-menu {
     display: block;
     color: var(--primary-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 0;
     background-color: transparent;
     cursor: pointer;
@@ -187,11 +181,13 @@ main {
 }
 
 .hero {
+	margin-top: -4rem;
     display: flex;
     align-items: center;
     justify-content: center;
 	flex-direction: column;
-    width: 100%;
+	gap: 0;
+    max-width: 68.75rem;
 }
 
 .hero img {
@@ -200,7 +196,7 @@ main {
 }
 
 .bio {
-    width: 85%;
+    width: 18.3rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -228,11 +224,13 @@ main {
 }
 
 .more-about p {
+	text-align: justify;
     line-height: var(--line-height);
-    padding: 1rem 0;
+    padding: 0.4rem;
 }
 
 .more-about ul {
+    list-style-type: disc;
     padding-left: 2rem;
 }
 
@@ -290,7 +288,7 @@ main {
 
 .projects-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 	flex-direction: column;
     gap: 1.2rem;
@@ -330,41 +328,15 @@ main {
     width: 100%;
 }
 
-.link-btn {
-    width: 100%;
-    padding: 0.4rem;
-    margin: 0.625rem 0;
-    background-color: #fff;
-    color: var(--primary-color);
-    border: 0.13rem solid var(--primary-color);
-    border-radius: 0.35rem;
-    font-size: 1rem;
-    font-weight: var(--bold-font);
-    transition: var(--transition);
-}
-
-.link-btn {
-    text-decoration: none;
-}
-
-.link-btn:hover,
-.submit-btn:hover {
-    color: #fff;
-    background-color: var(--primary-color);
-    border: 0.13rem solid var(--primary-color);
-    cursor: pointer;
-}
-
 .more-projects-link {
     background-color: var(--primary-color);
     color: #fff;
     font-size: 1.25rem;
     font-weight: var(--bold-font);
-    text-decoration: none;
     border: 0.15rem solid var(--primary-color);
     border-radius: 0.6rem;
     padding: 0.75rem 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
     transition: var(--transition);
 }
 
@@ -387,8 +359,8 @@ main {
     max-width: 17.75rem;
     margin: 0 auto;
     padding: 0.938rem;
-    border-radius: 0.2rem;
-    box-shadow: 0 0.17rem 0.625rem var(--secondary-shadow);
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
 }
 
 .contact-form-container label {
@@ -399,15 +371,15 @@ main {
 
 .contact-form-container textarea {
     min-height: 6.25rem;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 
 .contact-form-container .input-field {
     width: 100%;
-    padding: 0.5rem 0.4rem;
+    padding: 0.6rem 0.3rem;
     border-radius: 0.35rem;
     border: none;
-    border: 0.13rem outset var(--primary-color);
+    border: 0.1rem outset var(--primary-color);
     font-size: 0.875rem;
     outline: none;
 }
@@ -417,17 +389,26 @@ main {
     color: var(--primary-color);
 }
 
+.link-btn,
 .submit-btn {
     width: 100%;
     padding: 0.625rem;
-    margin: 0.625rem 0;
+    margin: 10px 0;
     background-color: #fff;
     color: var(--primary-color);
-    border: 0.13rem solid var(--primary-color);
+    border: 0.1rem solid var(--primary-color);
     border-radius: 0.35rem;
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
+}
+
+.link-btn:hover,
+.submit-btn:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
 }
 
 .socials {
@@ -481,9 +462,21 @@ footer {
         margin: 0;
     }
 
+    .hero {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    /* .hero img {
+        max-width: 25rem;
+    }
+
+    .bio {
+        max-width: 20rem;
+    } */
+
     .more-about {
-        padding: 1rem;
-        max-width: 80%;
+        padding: 1rem 3.5rem;
     }
 
     .projects-container {
@@ -504,30 +497,27 @@ footer {
     }
 
     .hero {
-        width: 90%;
-        display: grid;
-        grid-template-columns: 2fr 1fr;
         margin: auto;
-        gap: 1rem;
+        gap: 2.5rem;
+        flex-direction: row;
     }
 
     .hero img {
-        max-width: 35rem;
+        width: 37.5rem;
+        height: 37.5rem;
     }
 
     .bio {
-        min-width: 18rem;
-        padding: 1rem;
+        width: 25rem;
     }
 
     .more-about {
-        padding: 1rem 0;
-        max-width: 85%;
+        padding: 1rem 2.5rem;
     }
     
     .icon {
-        width: 10rem;
-        height: 10rem;
+        width: 11.875rem;
+        height: 11.25rem;
     }
 
     .projects {
@@ -544,30 +534,5 @@ footer {
 
     .contact-form-container {
         max-width: 40.75rem;
-    }
-
-    .socicon {
-        width: 2.2rem;
-        height: 2.2rem;
-    }
-}
-
-/* Desktop screen size */
-@media only screen and (min-width: 60rem) {
-    .hero {
-        width: 80%;
-    }
-
-    .bio {
-        min-width: 25rem;
-    }
-
-    .more-about {
-        max-width: 50rem;
-    }
-    
-    .socicon {
-        width: 2.5rem;
-        height: 2.5rem;
     }
 }
