@@ -558,6 +558,10 @@ footer {
         width: 80%;
     }
 
+    .hero img {
+        max-width: 100%;
+    }
+
     .bio {
         min-width: 25rem;
     }
