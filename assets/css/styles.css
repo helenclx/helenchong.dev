@@ -525,6 +525,10 @@ footer {
         padding: 1rem 0;
         max-width: 85%;
     }
+
+    .skills-wrapper {
+        gap: 1.2rem;
+    }
     
     .icon {
         width: 10rem;
