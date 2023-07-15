@@ -92,6 +92,8 @@ select {
 }
 
 /* STYLING BEGINS */
+
+/* General styles */
 body {
     font-family: var(--font-family);
     display: flex;
@@ -224,12 +226,12 @@ main {
     padding-top: 2rem;
 }
 
-.hero img {
+.hero__img {
     width: 100%;
     height: auto;
 }
 
-.bio {
+.hero__bio {
     width: 85%;
     padding: 0.625rem;
     border-radius: 6px;
@@ -237,11 +239,12 @@ main {
     background-color: var(--bg-color);
 }
 
-.bio__text {
+.hero__bio--text {
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
 
+/* More about me section */
 .more-about {
     margin-top: 2rem;
     padding: 1rem 2rem;
@@ -262,6 +265,7 @@ main {
     padding-left: 2rem;
 }
 
+/* Skills section */
 .skills {
     max-width: 68.75rem;
     margin: auto;
@@ -293,6 +297,7 @@ main {
 	height: 6rem;
 }
 
+/* Projects section */
 .projects {
     background-color: var(--bg-color);
     padding: 2rem 0;
@@ -366,6 +371,7 @@ main {
     cursor: pointer;
 }
 
+/* Contact section */
 .contact {
     margin-top: 2rem;
 }
@@ -408,6 +414,7 @@ main {
     padding: 0.625rem;
 }
 
+/* Socials section */
 .socials {
     display: flex;
     flex-direction: column;
@@ -421,6 +428,7 @@ main {
     height: 2rem;
 }
 
+/* Footer */
 footer {
     background-color: var(--bg-color);
     padding: 1.25rem;
@@ -428,6 +436,7 @@ footer {
     margin: 2rem 0 0;
 }
 
+/* Scroll to top button */
 .scroll-up {
     position: fixed;
     right: 0.5%;
@@ -493,7 +502,7 @@ footer {
         max-width: 35rem;
     }
 
-    .bio {
+    .hero__bio {
         min-width: 18rem;
         padding: 1rem;
     }
@@ -548,7 +557,7 @@ footer {
         max-width: 100%;
     }
 
-    .bio {
+    .hero__bio {
         min-width: 27rem;
     }
 
