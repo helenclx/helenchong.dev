@@ -115,6 +115,7 @@ a:hover {
     color: var(--secondary-color);
 }
 
+/* Navigation bar */
 nav {
     padding: 0.7rem 1rem;
     position: sticky;
@@ -144,7 +145,7 @@ nav a:hover {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-nav ul {
+.nav__list {
     position: fixed;
     background-color: var(--bg-color);
     list-style: none;
@@ -160,7 +161,7 @@ nav ul {
     gap: 1.9rem;
 }
 
-nav ul li {
+.nav__list li {
     margin: 0.5rem;
     font-weight: var(--bold-font);
 }
@@ -178,6 +179,7 @@ nav ul li {
     transform: translateX(0);
 }
 
+/* Main content styles */
 main {
     max-width: 95%;
     display: flex;
@@ -186,6 +188,33 @@ main {
     justify-content: center;
 }
 
+.section__title {
+	text-align: center;
+    margin-bottom: var(--bottom-margin);
+}
+
+.btn {
+    width: 100%;
+    padding: 0.4rem;
+    margin: 0.625rem 0;
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 0.13rem solid var(--primary-color);
+    border-radius: 0.35rem;
+    font-size: 1rem;
+    font-weight: var(--bold-font);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border: 0.13rem solid var(--primary-color);
+    cursor: pointer;
+}
+
+/* Hero section */
 .hero {
     display: flex;
     align-items: center;
@@ -208,11 +237,7 @@ main {
     background-color: var(--bg-color);
 }
 
-.bio h1 {
-    margin-bottom: var(--bottom-margin);
-}
-
-.bio p {
+.bio__text {
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
@@ -244,11 +269,7 @@ main {
     margin-top: 2.5rem;
 }
 
-.skill-header {
-    margin-bottom: 1rem;
-}
-
-.skills-wrapper {
+.skills__wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,20 +277,20 @@ main {
     gap: 0.7rem;
 }
 
-.skills-wrapper img {
+.skills__wrapper img {
     padding: 0.8rem;
 }
 
-.icon {
-	width: 6rem;
-	height: 6rem;
-}
-
-.icon-card {
+.skills__card {
     background-color: #fff;
     border-radius: 0.8rem;
     box-shadow: 0 0.15rem 0.625rem var(--secondary-shadow);
     padding: 1rem;
+}
+
+.skills__icon {
+	width: 6rem;
+	height: 6rem;
 }
 
 .projects {
@@ -283,13 +304,13 @@ main {
     width: 90%;
 }
 
-.project-pic {
+.project__img {
     width: 65%;
     height: 60%;
     margin-bottom: var(--bottom-margin);
 }
 
-.projects-container {
+.projects__container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -297,12 +318,7 @@ main {
     gap: 1.2rem;
 }
 
-.projects-title {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
-.project-card {
+.project__card {
     background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
@@ -315,15 +331,15 @@ main {
     align-items: center;
 }
 
-.project-title {
+.project__title {
     margin-bottom: var(--bottom-margin);
 }
 
-.project-details {
+.project__details {
     margin-bottom: var(--bottom-margin);
 }
 
-.btn-container {
+.project__card--btns {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,32 +347,7 @@ main {
     width: 100%;
 }
 
-.link-btn {
-    width: 100%;
-    padding: 0.4rem;
-    margin: 0.625rem 0;
-    background-color: #fff;
-    color: var(--primary-color);
-    border: 0.13rem solid var(--primary-color);
-    border-radius: 0.35rem;
-    font-size: 1rem;
-    font-weight: var(--bold-font);
-    transition: var(--transition);
-}
-
-.link-btn {
-    text-decoration: none;
-}
-
-.link-btn:hover,
-.submit-btn:hover {
-    color: #fff;
-    background-color: var(--primary-color);
-    border: 0.13rem solid var(--primary-color);
-    cursor: pointer;
-}
-
-.more-projects-link {
+.project__more {
     background-color: var(--primary-color);
     color: #fff;
     font-size: 1.25rem;
@@ -369,7 +360,7 @@ main {
     transition: var(--transition);
 }
 
-.more-projects-link:hover {
+.project__more:hover {
     color: var(--primary-color);
     background-color: #fff;
     cursor: pointer;
@@ -379,12 +370,7 @@ main {
     margin-top: 2rem;
 }
 
-.contact h2 {
-    text-align: center;
-    margin-bottom: var(--bottom-margin-2);
-}
-
-.contact-form-container {
+.contact__form {
     max-width: 17.75rem;
     margin: 0 auto;
     padding: 0.938rem;
@@ -392,18 +378,18 @@ main {
     box-shadow: 0 0.17rem 0.625rem var(--secondary-shadow);
 }
 
-.contact-form-container label {
+.contact__form label {
     line-height: 2.7em;
     font-weight: var(--bold-font);
     color: var(--primary-color);
 }
 
-.contact-form-container textarea {
+.contact__form textarea {
     min-height: 6.25rem;
     font-size: 0.9rem;
 }
 
-.contact-form-container .input-field {
+.contact__form .contact__form--input-field {
     width: 100%;
     padding: 0.5rem 0.4rem;
     border-radius: 0.35rem;
@@ -413,22 +399,13 @@ main {
     outline: none;
 }
 
-.input-field::placeholder {
+.contact__form--input-field::placeholder {
     padding: 0.5rem;
     color: var(--primary-color);
 }
 
-.submit-btn {
-    width: 100%;
+.contact__form--submit-btn {
     padding: 0.625rem;
-    margin: 0.625rem 0;
-    background-color: #fff;
-    color: var(--primary-color);
-    border: 0.13rem solid var(--primary-color);
-    border-radius: 0.35rem;
-    font-size: 1rem;
-    font-weight: var(--bold-font);
-    transition: var(--transition);
 }
 
 .socials {
@@ -436,10 +413,10 @@ main {
     flex-direction: column;
     position: fixed;
     right: 1%;
-    bottom: 50%;
+    bottom: 40%;
 }
 
-.socicon {
+.socials__icon {
     width: 2rem;
     height: 2rem;
 }
@@ -469,7 +446,7 @@ footer {
         display: none;
     }
 
-    nav ul {
+    .nav__list {
         flex-direction: row;
         position: static;
         background-color: none;
@@ -487,13 +464,13 @@ footer {
         max-width: 80%;
     }
 
-    .projects-container {
+    .projects__container {
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
     }
     
-    .contact-form-container {
+    .contact__form {
         max-width: 23.75rem;
     }
 }
@@ -526,11 +503,11 @@ footer {
         max-width: 85%;
     }
 
-    .skills-wrapper {
+    .skills__wrapper {
         gap: 1.2rem;
     }
     
-    .icon {
+    .skills__icon {
         width: 10rem;
         height: 10rem;
     }
@@ -539,19 +516,19 @@ footer {
         width: 100%;
     }
 
-    .projects-container {
+    .projects__container {
         gap: 1.6rem;
     }
 
-    .project-card {
+    .project__card {
         max-width: 22rem;
     }
 
-    .contact-form-container {
+    .contact__form {
         max-width: 40.75rem;
     }
 
-    .socicon {
+    .socials__icon {
         width: 2.2rem;
         height: 2.2rem;
     }
@@ -579,7 +556,7 @@ footer {
         max-width: 50rem;
     }
     
-    .socicon {
+    .socials__icon {
         width: 2.5rem;
         height: 2.5rem;
     }

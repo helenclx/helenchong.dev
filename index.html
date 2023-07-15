@@ -30,13 +30,13 @@
         <!-- Navbar -->
         <nav>
             <h1>HELEN CHONG</h1>
-            <ul class="navigation">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+            <ul class="nav__list">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
             </ul>
-            <button class="burger-menu" id="burger-menu">
+            <button class="burger-menu" aria-label="Toggle navigation menu">
                 <ion-icon class="bars" name="menu-outline"></ion-icon>
             </button>
         </nav>
@@ -46,15 +46,15 @@
             <section class="hero" id="about">
                 <img src="assets/images/web_development_0l6v.svg" alt="" loading="lazy" class="hero-img"/>
                 <div class="bio animate__animated animate__shakeX">
-                    <h2 class="bio-title">About Me</h2>
-                    <p class="bio-text">
+                    <h2>About Me</h2>
+                    <p class="bio__text">
                         Welcome to my developer portfolio! I am a self-taught web developer with 8 years of working experience as a graphic designer.
                     </p>
                 </div>
             </section>
             <!-- More about -->
             <section class="more-about">
-                <h2>More About Me</h2>
+                <h2 class="section__title">More About Me</h2>
                 <p>Currently I specialise in front-end web development. I intend to transfer my graphic design experience into web design and web development expertise.</p>
                 <h3>My Certificates:</h3>
                 <ul>
@@ -65,114 +65,108 @@
 
             <!-- Skills section -->
             <section class="skills" id="skills">
-                <h2 class="skill-header">My Skills</h2>
-                <div class="skills-wrapper animate__animated animate__pulse">
-                    <img src="assets/icons/skills/icons8-html-5.svg" alt="HTML 5" loading="lazy" class="icon icon-card"/>
-                    <img src="assets/icons/skills/icons8-css3.svg" alt="CSS 3" loading="lazy" class="icon icon-card"/>
-                    <img src="assets/icons/skills/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card"/>
-                    <img src="assets/icons/skills/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card"/>
-                    <img src="assets/icons/skills/icons8-git.svg" alt="Git" loading="lazy" class="icon icon-card"/>
-                    <img src="assets/icons/skills/icons8-c-programming.svg" alt="C" loading="lazy" class="icon icon-card"/>
+                <h2  class="section__title">My Skills</h2>
+                <div class="skills__wrapper animate__animated animate__pulse">
+                    <img src="assets/icons/skills/icons8-html-5.svg" alt="HTML 5" loading="lazy" class="skills__card skills__icon"/>
+                    <img src="assets/icons/skills/icons8-css3.svg" alt="CSS 3" loading="lazy" class="skills__card skills__icon"/>
+                    <img src="assets/icons/skills/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="skills__card skills__icon"/>
+                    <img src="assets/icons/skills/icons8-react-native.svg" alt="React" loading="lazy" class="skills__card skills__icon"/>
+                    <img src="assets/icons/skills/icons8-git.svg" alt="Git" loading="lazy" class="skills__card skills__icon"/>
+                    <img src="assets/icons/skills/icons8-c-programming.svg" alt="C" loading="lazy" class="skills__card skills__icon"/>
                 </div>
             </section>
 
             <!-- Projects section -->
             <section class="projects" id="projects">
-                <h2 class="projects-title">My Recent Projects</h2>
+                <h2 class="section__title">My Recent Projects</h2>
                 
-                <div class="projects-container">
-                    <div class="project-card">
-                        <img src="assets/images/Tenzies-Game.png" alt="Tenzies Game" loading="lazy" class="project-pic"/>
-                        <h3 class="project-title">Tenzies Game</h3>
-                        <p class="project-details">
+                <div class="projects__container">
+                    <div class="project__card">
+                        <img src="assets/images/Tenzies-Game.png" alt="Tenzies Game" loading="lazy" class="project__img"/>
+                        <h3 class="project__title">Tenzies Game</h3>
+                        <p class="project__details">
                             Roll until all dice are the same.
                         </p>
-                        <div class="btn-container">
-                            <a class="link-btn" href="https://helenclx.github.io/Tenzies-Game" target="_blank">Live Site</a>
-                            <a class="link-btn" href="https://github.com/helenclx/Tenzies-Game" target="_blank">Repository</a>
+                        <div class="project__card--btns">
+                            <a class="btn" href="https://helenclx.github.io/Tenzies-Game" target="_blank">Live Site</a>
+                            <a class="btn" href="https://github.com/helenclx/Tenzies-Game" target="_blank">Repository</a>
                         </div>
                     </div>
 
-                    <div class="project-card">
-                        <img src="assets/images/Color-Lightener-and-Darkener.png" alt="Color Lightener and Darkener" loading="lazy" class="project-pic"/>
-                        <h3 class="project-title">Color Lightener and Darkener</h3>
-                        <p class="project-details">
+                    <div class="project__card">
+                        <img src="assets/images/Color-Lightener-and-Darkener.png" alt="Color Lightener and Darkener" loading="lazy" class="project__img"/>
+                        <h3 class="project__title">Color Lightener and Darkener</h3>
+                        <p class="project__details">
                             A web tool to lighten or darken a color.
                         </p>
-                        <div class="btn-container">
-                            <a class="link-btn" href="https://helenclx.github.io/Color-Lightener-and-Darkener" target="_blank">Live Site</a>
-                            <a class="link-btn" href="https://github.com/helenclx/Color-Lightener-and-Darkener" target="_blank">Repository</a>
+                        <div class="project__card--btns">
+                            <a class="btn" href="https://helenclx.github.io/Color-Lightener-and-Darkener" target="_blank">Live Site</a>
+                            <a class="btn" href="https://github.com/helenclx/Color-Lightener-and-Darkener" target="_blank">Repository</a>
                         </div>
                     </div>
     
-                    <div class="project-card">
-                        <img src="assets/images/Duck-Maze.png" alt="Duck Maze" loading="lazy" class="project-pic"/>
-                        <h3 class="project-title">Duck Maze</h3>
-                        <p class="project-details">
+                    <div class="project__card">
+                        <img src="assets/images/Duck-Maze.png" alt="Duck Maze" loading="lazy" class="project__img"/>
+                        <h3 class="project__title">Duck Maze</h3>
+                        <p class="project__details">
                             A maze game about a duck who is finding its way back home. Built on Scratch.
                         </p>
-                        <div class="btn-container">
-                            <a class="link-btn" href="https://helenclx.github.io/Duck-Maze" target="_blank">Live Site</a>
-                            <a class="link-btn" href="https://github.com/helenclx/Duck-Maze" target="_blank">Repository</a>
+                        <div class="project__card--btns">
+                            <a class="btn" href="https://helenclx.github.io/Duck-Maze" target="_blank">Live Site</a>
+                            <a class="btn" href="https://github.com/helenclx/Duck-Maze" target="_blank">Repository</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="btn-container">
-                    <a class="more-projects-link" href="https://www.gitshowcase.com/helenclx" target="_blank">More Projects by Me</a>
-                </div>
+                <a class="project__more" href="https://www.gitshowcase.com/helenclx" target="_blank">More Projects by Me</a>
             </section>
 
             <!-- Contact section -->
             <section class="contact" id="contact">
-                <h2>Get In Touch With Me</h2>
-                <div class="contact-form-container">
-                    <div class="contact-form">
-                        <form action="https://formspree.io/f/xpzeqewn" method="POST">
-                            <div class="form-control">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required />
-                            </div>
-                            <div class="form-control">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required />
-                            </div>
-                            <div class="form-control">
-                                <label for="message">Message</label>
-                                <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
-                            </div>
-                            <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
-                        </form>
+                <h2 class="section__title">Get In Touch With Me</h2>
+                <form action="https://formspree.io/f/xpzeqewn" method="POST" class="contact__form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="contact__form--input-field" required />
                     </div>
-                </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="contact__form--input-field" required />
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="contact__form--input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="btn contact__form--submit-btn" />
+                </form>
             </section>
         </main>
 
         <!-- Social accounts - Fixed to the right -->
         <div class="socials">
             <a href="https://github.com/helenclx" target="_blank">
-                <img src="assets/icons/socials/icons8-github.svg" alt="Github" loading="lazy" class="socicon"/>
+                <img src="assets/icons/socials/icons8-github.svg" alt="Github" loading="lazy" class="socials__icon"/>
             </a>
             <a href="https://twitter.com/helen_clx" target="_blank">
-                <img src="assets/icons/socials/icons8-twitter-circled.svg" alt="Twitter" loading="lazy" class="socicon"/>
+                <img src="assets/icons/socials/icons8-twitter-circled.svg" alt="Twitter" loading="lazy" class="socials__icon"/>
             </a>
             <a href="https://tech.lgbt/@helenclx" target="_blank">
-                <img src="assets/icons/socials/icons8-mastodon-96.png" alt="Mastodon" loading="lazy" class="socicon"/>
+                <img src="assets/icons/socials/icons8-mastodon-96.png" alt="Mastodon" loading="lazy" class="socials__icon"/>
             </a>
             <a href="https://www.linkedin.com/in/helenclx/" target="_blank">
-                <img src="assets/icons/socials/icons8-linkedin.svg" alt="Linkedin" loading="lazy" class="socicon"/>
+                <img src="assets/icons/socials/icons8-linkedin.svg" alt="Linkedin" loading="lazy" class="socials__icon"/>
             </a>
         </div>
 
         <!-- Footer section -->
         <footer>
-            <p class="copy">&copy; Copyright 2023</p>
-            <p class="copy">
+            <p>&copy; Copyright 2023</p>
+            <p>
                 Built with &#x2661; by <a href="https://github.com/helenclx" target="_blank">Helen Chong</a>
             </p>
         </footer>
 
         <!-- Scroll to Top Button -->
-        <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up" /></i>
+        <i class="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socials__icon up-arrow" alt="Scroll to Top" /></i>
     </body>
 </html>
