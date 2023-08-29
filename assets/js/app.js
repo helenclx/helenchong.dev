@@ -1,7 +1,16 @@
 // scroll to top functionality
-const scrollUp = document.querySelector(".scroll-up");
+const scrollUpBtn = document.querySelector(".scroll-up");
+const linePositionY = 300;
 
-scrollUp.addEventListener("click", () => {
+window.onscroll = () => {
+    if (document.body.scrollTop > linePositionY || document.documentElement.scrollTop > linePositionY) {
+        scrollUpBtn.classList.remove("hidden");
+    } else {
+        scrollUpBtn.classList.add("hidden");
+    }
+}
+
+scrollUpBtn.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
         left: 0,
