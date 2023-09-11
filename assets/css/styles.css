@@ -132,7 +132,7 @@ button:focus {
 
 /* Navigation bar */
 nav {
-    padding: 0.7rem 1rem;
+    padding: 1rem;
     position: sticky;
     top: 0;
     left: 0;
@@ -173,7 +173,9 @@ nav a:hover {
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
-    gap: 1.9rem;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    box-shadow: 0px 2px 15px 2px var(--bs-primary);
 }
 
 .nav__list li {
@@ -182,7 +184,7 @@ nav a:hover {
 }
 
 .burger-menu {
-    display: block;
+    display: flex;
     color: var(--clr-primary);
     font-size: 2rem;
     border: 0;
@@ -393,6 +395,29 @@ main {
     outline: 0.2em solid var(--clr-primary);
 }
 
+/* Blog section */
+.blog {
+    padding: 0 1rem;
+}
+
+.blog__description {
+    text-align: center;
+}
+
+.blog__feed {
+    margin: 1.75rem 0;
+}
+
+.feed-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.feed-item-title {
+    font-size: 1.2rem;
+    margin-top: 1.25rem;
+}
+
 /* Contact section */
 .contact {
     margin-top: 2rem;
@@ -525,6 +550,11 @@ footer {
         padding: 1.5rem;
     }
 
+    .nav__list {
+        box-shadow: none;
+        padding: 0;
+    }
+
     .hero {
         width: 90%;
         display: grid;
@@ -602,6 +632,10 @@ footer {
 
     .more-about {
         max-width: 50rem;
+    }
+
+    .blog {
+        max-width: 60rem;
     }
     
     .socials__icon {
