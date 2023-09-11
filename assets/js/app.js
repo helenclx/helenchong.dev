@@ -21,11 +21,11 @@ scrollUpBtn.addEventListener("click", () => {
 // Navigation hamburger selections
 
 const burgerMenu = document.querySelector(".burger-menu");
-const navList = document.querySelector(".nav__list");
-const nav = document.querySelector("nav");
+const navbarList = document.querySelector(".navbar__list");
+const navbar = document.querySelector(".navbar");
 
 burgerMenu.addEventListener("click", () => {
-    navList.classList.toggle("nav-show");
+    navbarList.classList.toggle("navbar-list-show");
 });
 
 // Close hamburger menu when a link is clicked
@@ -35,6 +35,6 @@ const navLink = document.querySelectorAll(".nav__link");
 
 navLink.forEach((link) =>
     link.addEventListener("click", () => {
-        navList.classList.remove("nav-show");
+        navbarList.classList.remove("navbar-list-show");
     })
 );
