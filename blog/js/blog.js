@@ -58,9 +58,12 @@ if ( url.includes("posts/") ) {
 const mainSiteURL = "/";
 
 //Write the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Blog</a></li>' + 
-'<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-'<li><a href="' + mainSiteURL + '">Main Site</a></li> </ul>';
+let headerHTML =
+    '<ul> <li><a href="' + relativePath + '/index.html">Blog</a></li>' +
+    '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
+    '<li><a href="' + relativePath + '/feed.xml">RSS Feed</a></li>' +
+    '<li><a href="' + mainSiteURL + '">Main Site</a></li> </ul>'
+;
 
 //Write the Footer HTML, which has information about the blog.
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/' target='_blank'>Zonelets</a>.</p>";
