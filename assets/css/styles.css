@@ -235,6 +235,30 @@ main {
     outline: 0.2em solid var(--clr-primary);
 }
 
+.btn__more {
+    background-color: var(--clr-primary);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: var(--fw-bold);
+    text-decoration: none;
+    border: 0.15rem solid var(--clr-primary);
+    border-radius: 0.6rem;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1.5rem;
+    transition: var(--ts-speed);
+}
+
+.btn__more:hover {
+    color: var(--clr-primary);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.btn__more:focus {
+    outline-offset: 0.15em;
+    outline: 0.2em solid var(--clr-primary);
+}
+
 /* Hero section */
 .hero {
     display: flex;
@@ -369,30 +393,6 @@ main {
     justify-content: center;
     gap: 0.3rem;
     width: 100%;
-}
-
-.project__more {
-    background-color: var(--clr-primary);
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: var(--fw-bold);
-    text-decoration: none;
-    border: 0.15rem solid var(--clr-primary);
-    border-radius: 0.6rem;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1.5rem;
-    transition: var(--ts-speed);
-}
-
-.project__more:hover {
-    color: var(--clr-primary);
-    background-color: #fff;
-    cursor: pointer;
-}
-
-.project__more:focus {
-    outline-offset: 0.15em;
-    outline: 0.2em solid var(--clr-primary);
 }
 
 /* Blog section */
