@@ -258,6 +258,10 @@ hr {
     padding: 1em;
 }
 
+#disqus_thread:focus {
+    outline-offset: 0.2em;
+}
+
 /* FOOTER STYLE */
 .blog-footer {
     font-size: 0.8em;
