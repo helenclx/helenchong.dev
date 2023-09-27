@@ -398,24 +398,14 @@ main {
 /* Blog section */
 .blog {
     padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
 }
 
 .blog__description {
     text-align: center;
-}
-
-.blog__feed {
-    margin: 1.75rem 0;
-}
-
-.feed-title {
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.feed-item-title {
-    font-size: 1.2rem;
-    margin-top: 1.25rem;
 }
 
 /* Contact section */
