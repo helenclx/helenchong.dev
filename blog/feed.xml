@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Helen Codes</title>
+    <link>https://helenclx.github.io/blog/</link>
+    <description>Helen Chong's coding and tech blog.</description>
+    <language>en-gb</language>
+  </channel>
+  <item>
+    <title>CS50x Week 8 Assignments Completed</title>
+    <pubDate>Fri, 26 Sep 2023 22:45:47 +0800</pubDate>
+    <link>https://helenclx.github.io/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed.html</link>
+      <author>Helen Chong</author>
+    <description><![CDATA[
+      I have completed and submitted the Week 8 assignment of the CS50's Introduction to Computer Science (CS50x) course.
+    ]]></description>
+  </item>
+</rss>
