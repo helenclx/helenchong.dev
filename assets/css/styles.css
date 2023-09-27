@@ -5,7 +5,7 @@
     --clr-secondary: #ff7235;
     --clr-scroll-up-bg: #4153b6;
 
-    --ff-body: 'Roboto', Arial, sans-serf;
+    --ff-body: 'Roboto';
 
     --fw-reg: 400;
     --fw-bold: 700;
@@ -101,7 +101,7 @@ select {
 
 /* General styles */
 body {
-    font-family: var(--ff-body);
+    font-family: var(--ff-body), Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
