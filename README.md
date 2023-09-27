@@ -7,4 +7,4 @@ My developer portfolio website.
 - Kolade Chris for the tutorial: [How to Build Your Own Developer Portfolio Website with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/)
 - [icons8](https://icons8.com/)
 - [unDraw](https://undraw.co/)
-- [RSS 2 HTML](https://rss.bloople.net/)
+- [Zonelets](https://zonelets.net/)
