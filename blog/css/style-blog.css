@@ -77,7 +77,7 @@ select {
 /* STYLING BEGINS */
 /* General styles */
 body {
-    background-color: white;
+    background-color: #dfdfdf;
     font-size: 1.3rem;
     font-family: 'Roboto', Arial, sans-serif;
     min-height: 100vh;
@@ -164,10 +164,10 @@ hr {
     width: 95%;
     max-width: 68.75rem;
     background-color: white;
-    color: black;
+    color: #333333;
     margin: 1em 0;
     overflow: hidden;
-    outline-color: black;
+    outline-color: #333333;
     outline-style: solid;
     outline-width: 3px;
     outline-offset: 0;
@@ -175,7 +175,7 @@ hr {
 
 /* HEADER STYLE */
 .blog-header {
-    background-color: black;
+    background-color: #333333;
 }
 
 .blog-header ul {
