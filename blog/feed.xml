@@ -6,14 +6,12 @@
     <link>https://helenclx.github.io/blog/</link>
     <description>Helen Chong's coding and tech blog.</description>
     <language>en-gb</language>
-  </channel>
-  <item>
-    <title>CS50x Week 8 Assignments Completed</title>
-    <pubDate>Fri, 26 Sep 2023 22:45:47 +0800</pubDate>
-    <link>https://helenclx.github.io/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed.html</link>
+    <item>
+      <title>cbpickaxe and My First (Merged) Pull Request in Python</title>
+      <pubDate>Mon, 13 Nov 2023 17:30:14 +0800</pubDate>
+      <link>https://helenclx.github.io/blog/posts/2023-11-13-My-First-PR-in-Python</link>
       <author>Helen Chong</author>
-    <description><![CDATA[
-      I have completed and submitted the Week 8 assignment of the CS50's Introduction to Computer Science (CS50x) course.
-    ]]></description>
-  </item>
+      <description><![CDATA[About my first pull request in Python that got approved and merged.]]></description>
+    </item>
+  </channel>
 </rss>
