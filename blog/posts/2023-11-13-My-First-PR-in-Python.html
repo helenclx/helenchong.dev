@@ -42,7 +42,7 @@
 
                 <p>When I started using the extract_translation script to data mine in-game dialogues, I discovered the script's issue of not being able to extract strings with gender identifiers. After discussing the issue with ExcaliburZero, the developer of cbpickaxe, I started investigating the script's code and tried to figure out any solution.</p>
 
-                <p>I have had little experience with writing Python scripts, so I saw this as a great learning opportunity for me to put my Python knowledge and skills into practice. After looking into the code and a lot of web searching, I discovered that in the original code, printing the output of the IDs with missing strings only has one key (<code>id</code>) in its list, and does not have any locale key to display the corresponding strings. Therefore, I started thinking of possible solutions from there:</p>
+                <p>I have had little experience with writing Python scripts, so I saw this as a great learning opportunity for me to put my Python knowledge and skills into practice. After forking the cbpickaxe repository, looking into the code and a lot of web searching, I discovered that in the original code, printing the output of the IDs with missing strings only has one key (<code>id</code>) in its list, and does not have any locale key to display the corresponding strings. Therefore, I started thinking of possible solutions from there:</p>
 
                 <ul>
                     <li>Check if the string ID does not have the locale key, by using this condition: <code>if locale not in row.keys()</code></li>
