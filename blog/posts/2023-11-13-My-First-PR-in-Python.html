@@ -40,7 +40,7 @@
 
                 <p><cite>Cassette Beasts</cite>, the independent monster collecting role-playing game developed by Bytten Studio, has become one of my all-time favourite video games since the first time I played it. My interest in the game drives me to learn as much about the game as possible, which led me to start using cbpickaxe.</p>
 
-                <p>When I started using the extract_translation script to data mine in-game dialogues, I discovered the script's issue of not being able to extract strings with gender identifiers. After discussing the issue with ExcaliburZero, the developer of cbpickaxe, I started investigating the script's code and tried to figure out any solution.</p>
+                <p>When I started using the <code>extract_translation</code> script to data mine in-game dialogues, I discovered the script's issue of not being able to extract strings with gender identifiers. After discussing the issue with ExcaliburZero, the developer of cbpickaxe, I started investigating the script's code and tried to figure out any solution.</p>
 
                 <p>I have had little experience with writing Python scripts, so I saw this as a great learning opportunity for me to put my Python knowledge and skills into practice. After forking the cbpickaxe repository, looking into the code and a lot of web searching, I discovered that in the original code, printing the output of the IDs with missing strings only has one key (<code>id</code>) in its list, and does not have any locale key to display the corresponding strings. Therefore, I started thinking of possible solutions from there:</p>
 
@@ -55,7 +55,9 @@
 
                 <p>Voilà! At last, I solved the problem!</p>
 
-                <p>After testing my code multiple times to ensure it works, I made a pull request on cbpickaxe's GitHub repository. ExcaliburZero approved and merged my pull request, which has become my first merged pull request on Python! I am immensely grateful of this opportunity to not only contribute to an open source project that is realated to one of my favourite video games, but also practicing my Python skills.</p>
+                <p>After testing my code multiple times to ensure it works, I made a pull request on cbpickaxe's GitHub repository. ExcaliburZero approved and merged my pull request, which has become my first merged pull request on Python! This pull request has been included in the release of cbpickaxe starting from <a href="https://github.com/ExcaliburZero/cbpickaxe/releases/tag/v0.1.2" target="blank">version 0.1.2</a>.</p>
+
+                <p>I am immensely grateful of this opportunity to not only contribute to an open source project that is realated to one of my favourite video games, but also practicing my Python skills.</p>
 
                 <section class="blog-nextprev" id="nextprev"></section>
             </article> <!-- end of div id="content" -->
