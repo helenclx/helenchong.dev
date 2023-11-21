@@ -531,6 +531,7 @@ footer {
         transition: none;
         gap: 1rem;
         margin: 0;
+        box-shadow: none;
     }
 
     .more-about {
@@ -543,7 +544,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
     .contact__form {
         max-width: 23.75rem;
     }
@@ -556,7 +557,6 @@ footer {
     }
 
     .navbar__list {
-        box-shadow: none;
         padding: 0;
     }
 
@@ -585,7 +585,7 @@ footer {
     .skills__wrapper {
         gap: 1.2rem;
     }
-    
+
     .skills__icon {
         width: 10rem;
         height: 10rem;
@@ -622,7 +622,7 @@ footer {
     .navbar {
         padding: 1.3rem 1.5rem;
     }
-    
+
     .hero {
         width: 80%;
     }
@@ -642,7 +642,7 @@ footer {
     .blog {
         max-width: 60rem;
     }
-    
+
     .socials__icon {
         width: 2.5rem;
         height: 2.5rem;
