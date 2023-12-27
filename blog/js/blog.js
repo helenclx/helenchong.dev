@@ -31,6 +31,7 @@ let authorLink = "https://helenclx.github.io/"; // Enter your website, social me
     use a date it must still follow that format.*/
 
 let postsArray = [
+    [ "posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won.html", encodeURI("JavaScriptmas 2023 Challenge Completed — and Won") ],
     [ "posts/2023-11-25-Chingu-Voyage-46-Completed.html" ],
     [ "posts/2023-11-13-My-First-PR-in-Python.html", encodeURI("cbpickaxe and My First (Merged) Pull Request in Python") ],
     [ "posts/2023-09-26-CS50x-Week-8-Assignments-Completed.html" ],
