@@ -475,6 +475,7 @@ main {
     display: flex;
     flex-direction: column;
     position: fixed;
+    gap: 0.1rem;
     right: 1%;
     bottom: 40%;
 }
@@ -482,6 +483,7 @@ main {
 .socials__icon {
     width: 2rem;
     height: 2rem;
+    border-radius: 50rem;
 }
 
 /* Footer */
