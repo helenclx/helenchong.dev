@@ -359,11 +359,9 @@ main {
 }
 
 .projects__container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-	flex-direction: column;
-    gap: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(15rem, 100%/4)), 1fr));
+    gap: 2em;
 }
 
 .project__card {
@@ -543,8 +541,6 @@ footer {
 
     .projects__container {
         width: 100%;
-        flex-direction: row;
-        flex-wrap: wrap;
     }
 
     .contact__form {
@@ -597,14 +593,6 @@ footer {
         width: 100%;
     }
 
-    .projects__container {
-        gap: 1.6rem;
-    }
-
-    .project__card {
-        max-width: 22rem;
-    }
-
     .contact__form {
         max-width: 40.75rem;
     }
@@ -639,6 +627,10 @@ footer {
 
     .more-about {
         max-width: 50rem;
+    }
+
+    .projects {
+        max-width: 85%;
     }
 
     .blog {
