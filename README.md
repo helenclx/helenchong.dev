@@ -2,9 +2,10 @@
 
 My developer portfolio website.
 
-### Credits
+## Credits
 
 - Kolade Chris for the tutorial: [How to Build Your Own Developer Portfolio Website with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/)
 - [icons8](https://icons8.com/)
+- [Vector Logo Zone](https://www.vectorlogo.zone/)
 - [unDraw](https://undraw.co/)
 - [Zonelets](https://zonelets.net/)
