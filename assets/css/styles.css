@@ -418,11 +418,11 @@ main {
 
 /* Contact section */
 .contact__form {
-    max-width: 17.75rem;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 0.938rem;
-    border-radius: 0.2rem;
-    box-shadow: 0 0.17rem 0.625rem var(--bs-secondary);
+    padding: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0 0.2em 0.7em var(--bs-secondary);
 }
 
 .contact__form label {
@@ -533,10 +533,6 @@ footer {
     .projects__container {
         width: 100%;
     }
-
-    .contact__form {
-        max-width: 23.75rem;
-    }
 }
 
 /* Tablet screen size */
@@ -582,10 +578,6 @@ footer {
 
     .projects {
         width: 100%;
-    }
-
-    .contact__form {
-        max-width: 40.75rem;
     }
 
     .socials__icon {
