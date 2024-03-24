@@ -1,4 +1,7 @@
-/* Variables */
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+
 :root {
     --clr-body-bg: #fcfcfc;
     --clr-primary: #7c00c3;
@@ -21,7 +24,10 @@
     --ts-speed: 0.3s;
 }
 
-/* CSS RESET */
+/* ------------------- */
+/* CSS Reset           */
+/* ------------------- */
+
 /* Box sizing rules */
 *,
 *::before,
@@ -97,7 +103,9 @@ select {
     }
 }
 
-/* STYLING BEGINS */
+/* ------------------- */
+/* STYLING BEGINS      */
+/* ------------------- */
 
 /* General styles */
 body {
