@@ -203,7 +203,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: 5em;
 }
 
 .section__title {
@@ -267,7 +267,6 @@ main {
     justify-content: center;
 	flex-direction: column;
     width: 100%;
-    padding-top: 2rem;
 }
 
 .hero__img {
@@ -290,7 +289,6 @@ main {
 
 /* More about me section */
 .more-about {
-    margin-top: 2rem;
     padding: 1rem 2rem;
     background-color: var(--clr-body-bg);
 }
@@ -314,7 +312,6 @@ main {
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
-    margin-top: 2.5rem;
 }
 
 .skills__wrapper {
@@ -345,7 +342,6 @@ main {
 .projects {
     background-color: var(--clr-body-bg);
     padding: 2rem 0;
-    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -423,10 +419,6 @@ main {
 }
 
 /* Contact section */
-.contact {
-    margin-top: 2rem;
-}
-
 .contact__form {
     max-width: 17.75rem;
     margin: 0 auto;
