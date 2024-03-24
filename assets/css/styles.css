@@ -457,7 +457,6 @@ main {
 }
 
 .contact__form--input-field::placeholder {
-    padding: 0.5rem;
     color: var(--clr-primary);
 }
 
