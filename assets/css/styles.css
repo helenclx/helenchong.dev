@@ -349,12 +349,6 @@ main {
     width: 90%;
 }
 
-.project__img {
-    width: 65%;
-    height: 60%;
-    margin-bottom: var(--ms-margin-bottom);
-}
-
 .projects__container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(15rem, 100%/4)), 1fr));
@@ -367,11 +361,15 @@ main {
     box-shadow: 0 3px 10px var(--bs-primary);
     text-align: center;
     width: 100%;
-    padding: 1rem;
+    padding: 1em 1.2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.project__img {
+    margin-bottom: var(--ms-margin-bottom);
 }
 
 .project__title {
