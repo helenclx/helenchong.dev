@@ -1,0 +1,16 @@
+{
+  "name": "helenclx.github.io",
+  "module": "index.ts",
+  "scripts": {
+    "build": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
