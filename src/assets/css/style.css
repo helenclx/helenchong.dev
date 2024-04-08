@@ -220,6 +220,11 @@ button:hover {
     transform: scaleX(1);
 }
 
+.header__link:focus {
+    outline: 0.2em solid var(--clr-accent-700);
+    outline-offset: 0.1em;
+}
+
 .header__toggle {
     border: none;
     background-color: transparent;
@@ -401,8 +406,8 @@ button:hover {
     font-weight: 600;
 }
 
-.project-card__title:hover {
-    text-decoration: underline;
+.project-card__title:focus {
+    outline-offset: 0.2em;
 }
 
 .project-card__tags {
@@ -556,7 +561,7 @@ button:hover {
 
 .form__input {
     display: block;
-    border: 1px solid var(--clr-slate-300);
+    border: 0.1em solid var(--clr-slate-300);
     border-radius: 0.25rem;
     padding: 0.5rem;
     color: var(--clr-slate-600);
@@ -574,8 +579,9 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
-.form__button:hover {
-    background-color: var(--clr-accent-600);
+.form__button:focus {
+    outline: 0.2em solid var(--clr-accent-600);
+    outline-offset: 0.15em;
 }
 
 /* Socials Style */
