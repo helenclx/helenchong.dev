@@ -136,7 +136,7 @@ button:hover {
 .top-btn {
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     z-index: 999;
     border: none;
     background-color: var(--clr-top-btn);
@@ -230,11 +230,15 @@ button:hover {
 /* Footer Style */
 
 .footer {
-    flex-shrink: 0;
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     text-align: center;
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
 }
+
+/* Main Heading Style */
 
 .heading--main {
     padding: 1rem 0;
@@ -569,6 +573,21 @@ button:hover {
 
 .form__button:hover {
     background-color: var(--accent-600);
+}
+
+/* Socials Style */
+.socials {
+    grid-area: scial;
+    justify-self: center;
+    display: flex;
+    gap: 0.3em;
+    margin: 0 auto;
+}
+
+.socials__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50em;
 }
 
 /* For larger screen sizes */
