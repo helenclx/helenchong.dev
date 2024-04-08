@@ -20,9 +20,15 @@
         {# CSS #}
         <link rel="stylesheet" href="{{'/assets/css/style.css' | url | safe}}">
 
+        {# JavaScript #}
+        <script src="/assets/js/scroll.js" defer></script>
+
         <title>{% if title %} {{ title }} | {% endif %} Helen Chong | Front-End Web Developer</title>
     </head>
     <body>
+        <button class="top-btn hidden" aria-label="Scroll to top">
+            <img src="/assets/icons/top.svg" alt="">
+        </button>
         <div class="content">
             {% include "main/header.njk" %}
             <main class="main container">

@@ -8,6 +8,8 @@
     --accent-600: #a200ff;
     --accent-700: #8200cd;
     --accent-800: rgb(90, 0, 142);
+    --clr-top-btn: #4153b6;
+
     --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
         0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -105,6 +107,10 @@ a {
     color: inherit;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* Utility Classes */
 
 .container {
@@ -119,6 +125,26 @@ a {
 
 .text-center {
     text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Scrool to Top Button */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 999;
+    border: none;
+    background-color: var(--clr-top-btn);
+    border-radius: 0.2em;
+    padding: 0.3em;
+}
+
+.top-btn img {
+    width: 2rem;
 }
 
 /* Header Styles */
