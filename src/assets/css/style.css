@@ -165,9 +165,6 @@ button:hover {
 }
 
 .header__title {
-    position: relative;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
     color: var(--accent-600);
 }
 
