@@ -434,6 +434,34 @@ button:hover {
     text-decoration: underline;
 }
 
+.project-card__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    width: 100%;
+}
+
+.project-card__btn {
+    text-align: center;
+    width: 100%;
+    padding: 0.4em;
+    margin: 0.6em 0;
+    background-color: var(--clr-white);
+    color: var(--accent-700);
+    border: 0.13em solid var(--accent-700);
+    border-radius: 0.35em;
+    font-weight: 700;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.project-card__btn:hover {
+    color: var(--clr-white);
+    background-color: var(--accent-700);
+    cursor: pointer;
+}
+
 /* Project Page Styles */
 
 .project-list {

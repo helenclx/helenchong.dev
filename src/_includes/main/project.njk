@@ -8,6 +8,12 @@ layout: "main/base.njk"
         {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
     </div>
     <div class="project__content prose">
+        <h3>Project links</h3>
+        <ul>
+            <li><a href="{{ siteUrl }}" target="_blank">Project Live Site</a></li>
+            <li><a href="{{ repoUrl }}" target="_blank">Project Repository</a></li>
+        </ul>
+
         {{ content | safe }}
     </div>
 </div>
