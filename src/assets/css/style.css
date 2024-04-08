@@ -2,6 +2,7 @@
 /* Custom Properties   */
 /* ------------------- */
 :root {
+    --clr-white: #fff;
     --slate-300: #797979;
     --slate-600: #353535;
     --accent-100: #edcfff;
@@ -10,8 +11,8 @@
     --accent-800: rgb(90, 0, 142);
     --clr-top-btn: #4153b6;
 
-    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
-        0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2),
+        0 4px 6px -4px rgb(0 0 0 / 0.2);
 }
 
 /* ------------------- */
@@ -156,6 +157,11 @@ button:hover {
     flex-wrap: wrap;
     margin-bottom: 4rem;
     padding: 1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--clr-white);
+    box-shadow: var(--box-shadow);
 }
 
 .header__title {
@@ -178,6 +184,18 @@ button:hover {
     font-size: 1.125rem;
     font-weight: 600;
     color: var(--accent-700);
+    text-align: center;
+
+    flex-direction: column;
+    position: fixed;
+    background-color: var(--clr-white);
+    top: 5rem;
+    left: 10%;
+    width: 80%;
+    padding: 1.5em;
+    box-shadow: var(--box-shadow);
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
 }
 
 .header__link {
@@ -201,6 +219,18 @@ button:hover {
 .header__link:hover::after {
     transform: scaleX(1);
 }
+
+.header__toggle {
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+.header__links--show {
+    transform: translateX(0);
+}
+
+/* Footer Style */
 
 .footer {
     flex-shrink: 0;
@@ -528,5 +558,25 @@ button:hover {
 
     .profile__image-wrapper img {
         margin: 4rem;
+    }
+}
+
+/* Tablet screen size */
+@media only screen and (min-width: 43.75rem) {
+    .header__toggle {
+        display: none;
+    }
+
+    .header__links {
+        flex-direction: row;
+        position: static;
+        background-color: inherit;
+        top: 0;
+        left: 0;
+        padding: 0;
+        width: auto;
+        transform: none;
+        transition: none;
+        box-shadow: none;
     }
 }
