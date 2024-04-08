@@ -102,7 +102,6 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -140,6 +139,10 @@ a {
     color: var(--accent-600);
 }
 
+.header__title > a {
+    text-decoration: none;
+}
+
 .header__links {
     list-style: none;
     display: flex;
@@ -152,6 +155,7 @@ a {
 .header__link {
     position: relative;
     font-size: 1.125rem;
+    text-decoration: none;
 }
 
 .header__link::after {
