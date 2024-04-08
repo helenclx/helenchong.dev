@@ -171,7 +171,9 @@ button:hover {
 
 .header__links {
     list-style: none;
+    padding-left: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     font-size: 1.125rem;
     font-weight: 600;
