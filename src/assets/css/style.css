@@ -251,7 +251,7 @@ a {
 
 .skills__list {
     width: 100%;
-    max-width: 36rem;
+    max-width: 60rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
@@ -277,6 +277,7 @@ a {
 .skills__title {
     font-weight: 400;
     color: var(--slate-600);
+    text-align: center;
 }
 
 /* Project Styles */
