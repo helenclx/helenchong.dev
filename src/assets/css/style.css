@@ -583,7 +583,7 @@ button:hover {
     grid-area: scial;
     justify-self: center;
     display: flex;
-    gap: 0.3em;
+    gap: 0.5em;
     margin: 0 auto;
 }
 
