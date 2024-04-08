@@ -166,6 +166,7 @@ button:hover {
 
 .header__title {
     color: var(--accent-600);
+    text-transform: uppercase;
 }
 
 .header__title > a {
