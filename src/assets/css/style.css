@@ -3,8 +3,9 @@
 /* ------------------- */
 :root {
     --clr-white: #fff;
+    --clr-txt-default: #111111;
     --clr-slate-300: #797979;
-    --clr-slate-600: #353535;
+    --clr-slate-600: #494949;
     --clr-accent-100: #edcfff;
     --clr-accent-600: #a200ff;
     --clr-accent-700: #8200cd;
@@ -102,6 +103,7 @@ textarea:not([rows]) {
 
 body {
     font-family: var(--ff-default), Arial, Helvetica, sans-serif;
+    color: var(--clr-txt-default);
     display: flex;
     flex-direction: column;
 }
@@ -404,10 +406,11 @@ button:hover {
     margin-bottom: 1rem;
     font-size: 1.25rem;
     font-weight: 600;
+    line-height: 1.5;
 }
 
-.project-card__title:focus {
-    outline-offset: 0.2em;
+.project-card__title a:focus {
+    outline: 0.15em solid var(--clr-txt-default);
 }
 
 .project-card__tags {
@@ -434,7 +437,12 @@ button:hover {
     display: inline-flex;
     align-items: center;
     font-weight: 600;
-    color: var(--clr-accent-700);
+    color: var(--clr-accent-600);
+    margin-bottom: 0.6em;
+}
+
+.project-card__link:focus {
+    outline: 0.15em solid var(--clr-accent-700);
 }
 
 .project-card__link-icon {
@@ -472,6 +480,10 @@ button:hover {
     color: var(--clr-white);
     background-color: var(--clr-accent-700);
     cursor: pointer;
+}
+
+.project-card__btn:focus {
+    outline: 0.2em solid var(--clr-accent-700);
 }
 
 /* Project Page Styles */
