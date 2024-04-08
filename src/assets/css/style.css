@@ -588,9 +588,8 @@ button:hover {
 }
 
 .socials__icon {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50em;
+    font-size: 2rem;
+    color: var(--clr-accent-700);
 }
 
 /* For larger screen sizes */
