@@ -3,12 +3,12 @@
 /* ------------------- */
 :root {
     --clr-white: #fff;
-    --slate-300: #797979;
-    --slate-600: #353535;
-    --accent-100: #edcfff;
-    --accent-600: #a200ff;
-    --accent-700: #8200cd;
-    --accent-800: rgb(90, 0, 142);
+    --clr-slate-300: #797979;
+    --clr-slate-600: #353535;
+    --clr-accent-100: #edcfff;
+    --clr-accent-600: #a200ff;
+    --clr-accent-700: #8200cd;
+    --clr-accent-800: rgb(90, 0, 142);
     --clr-top-btn: #4153b6;
 
     --ff-default: 'Inter';
@@ -167,7 +167,7 @@ button:hover {
 }
 
 .header__title {
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
     text-transform: uppercase;
 }
 
@@ -183,7 +183,7 @@ button:hover {
     gap: 2rem;
     font-size: 1.125rem;
     font-weight: 600;
-    color: var(--accent-700);
+    color: var(--clr-accent-700);
     text-align: center;
 
     flex-direction: column;
@@ -211,7 +211,7 @@ button:hover {
     height: 2px;
     width: 100%;
     position: absolute;
-    background-color: var(--accent-700);
+    background-color: var(--clr-accent-700);
     transform: scaleX(0);
     transition: transform 0.3s ease 0s;
 }
@@ -247,7 +247,7 @@ button:hover {
     padding: 1rem 0;
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
 }
 
 /* Profile Styles */
@@ -280,7 +280,7 @@ button:hover {
 
 .profile__text {
     margin-bottom: 1rem;
-    color: var(--slate-600);
+    color: var(--clr-slate-600);
 }
 
 .profile__text--lead {
@@ -291,7 +291,7 @@ button:hover {
 .profile__text--highlight {
     font-weight: bold;
     font-size: 1.5rem;
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
 }
 
 .profile__text--emphasis {
@@ -312,7 +312,7 @@ button:hover {
     font-size: 2.5rem;
     text-align: center;
     font-weight: 700;
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
 }
 
 .skills__list {
@@ -342,7 +342,7 @@ button:hover {
 
 .skills__title {
     font-weight: 400;
-    color: var(--slate-600);
+    color: var(--clr-slate-600);
     text-align: center;
 }
 
@@ -357,14 +357,14 @@ button:hover {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
 }
 
 .project__heading {
     padding: 1rem 0;
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
 }
 
 .project-grid {
@@ -416,20 +416,20 @@ button:hover {
     padding: 0.25rem 0.5rem;
     border-radius: 9999px;
     font-size: 0.75rem;
-    background-color: var(--accent-100);
-    color: var(--accent-800);
+    background-color: var(--clr-accent-100);
+    color: var(--clr-accent-800);
 }
 
 .project-card__summary {
     margin-bottom: 1rem;
-    color: var(--slate-600);
+    color: var(--clr-slate-600);
 }
 
 .project-card__link {
     display: inline-flex;
     align-items: center;
     font-weight: 600;
-    color: var(--accent-700);
+    color: var(--clr-accent-700);
 }
 
 .project-card__link-icon {
@@ -455,8 +455,8 @@ button:hover {
     padding: 0.4em;
     margin: 0.6em 0;
     background-color: var(--clr-white);
-    color: var(--accent-700);
-    border: 0.13em solid var(--accent-700);
+    color: var(--clr-accent-700);
+    border: 0.13em solid var(--clr-accent-700);
     border-radius: 0.35em;
     font-weight: 700;
     transition: 0.3s;
@@ -465,7 +465,7 @@ button:hover {
 
 .project-card__btn:hover {
     color: var(--clr-white);
-    background-color: var(--accent-700);
+    background-color: var(--clr-accent-700);
     cursor: pointer;
 }
 
@@ -498,13 +498,13 @@ button:hover {
 
 .prose {
     font-size: 1.125rem;
-    color: var(--slate-600);
+    color: var(--clr-slate-600);
 }
 
 .prose h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    color: var(--accent-600);
+    color: var(--clr-accent-600);
 }
 
 .prose ul {
@@ -533,7 +533,7 @@ button:hover {
 
 .contact__sub-heading {
     padding: 0 1rem;
-    color: var(--slate-600);
+    color: var(--clr-slate-600);
 }
 
 .form {
@@ -556,10 +556,10 @@ button:hover {
 
 .form__input {
     display: block;
-    border: 1px solid var(--slate-300);
+    border: 1px solid var(--clr-slate-300);
     border-radius: 0.25rem;
     padding: 0.5rem;
-    color: var(--slate-600);
+    color: var(--clr-slate-600);
 }
 
 .form__button {
@@ -570,12 +570,12 @@ button:hover {
     border-radius: 0.25rem;
     cursor: pointer;
     color: #fff;
-    background-color: var(--accent-600);
+    background-color: var(--clr-accent-600);
     transition: background-color 0.3s ease;
 }
 
 .form__button:hover {
-    background-color: var(--accent-600);
+    background-color: var(--clr-accent-600);
 }
 
 /* Socials Style */
