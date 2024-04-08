@@ -308,7 +308,6 @@ button:hover {
 
 .profile__link {
     font-weight: bold;
-    text-decoration: underline;
 }
 
 /* Skills Styles */
@@ -448,10 +447,6 @@ button:hover {
 .project-card__link-icon {
     width: 20px;
     height: 20px;
-}
-
-.project-card__link:hover {
-    text-decoration: underline;
 }
 
 .project-card__btns {
