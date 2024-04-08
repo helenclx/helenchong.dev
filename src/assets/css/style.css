@@ -11,6 +11,8 @@
     --accent-800: rgb(90, 0, 142);
     --clr-top-btn: #4153b6;
 
+    --ff-default: 'Inter';
+
     --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2),
         0 4px 6px -4px rgb(0 0 0 / 0.2);
 }
@@ -99,7 +101,7 @@ textarea:not([rows]) {
 /* General Styles */
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: var(--ff-default), Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
