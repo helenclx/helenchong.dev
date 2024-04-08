@@ -600,6 +600,11 @@ button:hover {
     margin: 0 auto;
 }
 
+.socials a:focus {
+    outline: 0.15em solid var(--clr-accent-700);
+    outline-offset: 0.1em;
+}
+
 .socials__icon {
     font-size: 2rem;
     color: var(--clr-accent-700);
