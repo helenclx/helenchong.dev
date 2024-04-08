@@ -1,5 +1,5 @@
 ---
-title: Scrimba Frontend Developer Career Path Solo Projects
+title: Scrimba Frontend Path Solo Projects
 summary: My solo projects for Scrimba's Frontend Developer Career Path.
 image: /assets/images/projects/Scrimba-Frontend-Path.png
 imageAlt: Screenshots of a Scrimba solo project
