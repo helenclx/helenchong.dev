@@ -142,8 +142,8 @@ button:hover {
     z-index: 999;
     border: none;
     background-color: var(--clr-top-btn);
-    border-radius: 0.2em;
-    padding: 0.3em;
+    border-radius: 50em;
+    padding: 0.5em;
 }
 
 .top-btn img {
