@@ -10,18 +10,24 @@ siteUrl: https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/
 repoUrl: https://github.com/chingu-voyages/v46-tier1-team-01
 ---
 
+### Introduction
+
+Recipe Hub is a team project built by Tier 1 Team 1 from [Chingu](https://www.chingu.io/) Voyage 46. I was part of this team along with two other developers.
+
 ### Problem Solved
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+Recipe Hub allows users to search for recipes by by inputting ingredients. The search input is used to fetch recipe data from the [Tasty API](https://rapidapi.com/apidojo/api/tasty).
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+Recipe Hub is built with HTML, CSS, vanilla JavaScript and the [Tasty API](https://rapidapi.com/apidojo/api/tasty).
 
 ### Challenges Faced
 
-Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
+The free tier of Tasty API has a limited quota of how much response we can fetch monthly. As we worked on this project, we quickly ran out of quota multiple times, and therefore we had to constantly change our API key.
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+Chingu Voyage was a big help to me for gaining practical experience in working on group projects, and learning both hard and soft skills. Particupating in the Chingu Voyage allowed me to practice not only my HTML, CSS and JavaScript skills, but also my teamwork and communication skills that are needed in group projects.
+
+You can read more about my completion of Chingu Voyage 46 from my blog post: [Chingu Voyage 46 Completed](/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/).
