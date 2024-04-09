@@ -6,22 +6,27 @@ imageAlt: Screenshots of a Scrimba solo project
 tech:
   - Vanilla JavaScript
   - API
+  - Firebase
 siteUrl: https://github.com/helenclx/Scrimba-Frontend-Solo-Projects
 repoUrl: https://github.com/helenclx/Scrimba-Frontend-Solo-Projects
 ---
 
-### Problem Solved
+### Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+This repository consists of my solo projects for [Scrimba's Frontend Developer Career Path](https://scrimba.com/learn/frontend).
+
+<!-- ### Problem Solved
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci. -->
 
 ### Technologies Used
 
-Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Consequat ac felis donec et odio pellentesque diam volutpat commodo.
+The solo projects included in the repository are built with HTML, CSS and vanilla JavaScript. One of the projects, We Are the Champion, also uses Firebase to store data, while some other project are built upon fetching data from APIs.
 
-### Challenges Faced
+<!-- ### Challenges Faced
 
 Eget mauris pharetra et ultrices. Molestie nunc non blandit massa enim nec. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Nulla at volutpat diam ut venenatis. Volutpat ac tincidunt vitae semper quis lectus nulla at.
 
 ### Lessons Learned
 
-Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo.
+Non blandit massa enim nec. Tempor commodo ullamcorper a lacus vestibulum sed. Et netus et malesuada fames ac turpis egestas integer eget. In ante metus dictum at tempor commodo. Eu scelerisque felis imperdiet proin fermentum leo. -->
