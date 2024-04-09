@@ -611,7 +611,7 @@ button:hover {
 
 .blog__postlist {
     gap: 1em;
-    line-height: 2;
+    line-height: 2.1;
 }
 
 .blog__post--info {
