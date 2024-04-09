@@ -6,14 +6,14 @@ pagination:
 permalink: /blog/categories/{{ category | slugify }}/
 layout: main/base
 eleventyComputed:
-    title: 'Category: "{{ category }}"'
+    title: 'Blog Post Category: "{{ category }}"'
 ---
 
 <h2 class="heading--main">Blog Post Category: "{{ category }}"</h2>
 
-{% set posts = collections.posts | filterByCategory(category) %}
-{% for post in posts | reverse %}
-    <p>
-        <a href="{{post.url}}">{{ post.data.title }}</a>, posted {{ post.date | niceDate }}<br/>
-    </p>
-{% endfor %}
+{% set postList = collections.posts | filterByCategory(category) | reverse %}
+
+{% include "blog/postslist.njk" %}
+
+<p>See <a href="/blog/categories/">all blog post categories</a>.</p>
+<p>See all blog posts in the <a href="/blog/archive/">archive</a>.</p>

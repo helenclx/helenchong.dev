@@ -19,7 +19,13 @@ layout: main/base
 
 <h2 class="heading--main">Latest Posts:</h2>
 
-{% for post in collections.posts | reverse | limit(3) %}
-    <h3><a href="{{post.url}}">{{ post.data.title }}</a></h3>
-    <p>Posted {{ post.date | niceDate }}</p>
-{% endfor %}
+<ol>
+    {% for post in collections.posts | reverse | limit(3) %}
+        <li>
+            <h3><a href="{{post.url}}">{{ post.data.title }}</a></h3>
+            <time>Posted {{ post.date | niceDate }}</time>
+        </li>
+    {% endfor %}
+</ol>
+
+<p>See all blog posts in the <a href="/blog/archive/">archive</a>.</p>
