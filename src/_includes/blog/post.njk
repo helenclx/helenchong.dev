@@ -4,15 +4,18 @@ layout: main/base
 
 <h2>{{ title }}</h2>
 
-<p>
-	<strong>Posted: </strong> {{ date | niceDate }}<br/>
-	<strong>Categories:</strong>
+<section>
+	<p>Posted: {{ date | niceDate }}</p>
+	<p>Categories:
 	{% for cat in categories %}
-	<a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+        <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
 	{% endfor %}
-</p>
+    </p>
+</section>
 
-{{ content | safe }}
+<article class="prose">
+    {{ content | safe }}
+</article>
 
 {%- if collections.posts %}
     {%- set previousPost = collections.posts | getPreviousCollectionItem %}
