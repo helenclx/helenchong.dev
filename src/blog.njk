@@ -1,0 +1,25 @@
+---
+title: Blog
+layout: main/base
+---
+
+<h2 class="heading--main">Blog</h2>
+
+<section class="prose">
+    <p>Welcome to my tech and coding blog!</p>
+
+    <p>I created this blog to document my coding journey and talk about various tech topics.</p>
+
+    <p>You can check out my <a href="https://helenclx.github.io" taraget="blank">portfolio website</a>.</p>
+
+    <p>You can subscribe to <a href="feed.xml">my blog's RSS feed</a>.</p>
+
+    <p>Enjoy!</p>
+</section>
+
+<h2 class="heading--main">Latest Posts:</h2>
+
+{% for post in collections.posts | reverse | limit(3) %}
+    <h3><a href="{{post.url}}">{{ post.data.title }}</a></h3>
+    <p>Posted {{ post.date | niceDate }}</p>
+{% endfor %}
