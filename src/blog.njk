@@ -16,13 +16,14 @@ layout: main/base
 </section>
 
 <h2 class="heading--main">Latest Posts:</h2>
-<ul>
+<ul class="blog__postlist">
     {% for post in collections.posts | reverse | limit(3) %}
         <li>
             <h3><a href="{{post.url}}">{{ post.data.title }}</a></h3>
-            <time>Posted {{ post.date | niceDate }}</time>
+            <time>{{ post.date | niceDate }}</time>
         </li>
     {% endfor %}
 </ol>
 
 <p>See all blog posts in the <a href="/blog/posts/">archive</a>.</p>
+<p>See <a href="/blog/categories/">all blog post categories</a>.</p>

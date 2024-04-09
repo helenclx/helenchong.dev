@@ -110,6 +110,7 @@ body {
 
 a {
     color: inherit;
+    font-weight: bold;
 }
 
 button:hover {
@@ -130,6 +131,10 @@ button:hover {
 
 .text-center {
     text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 .hidden {
@@ -539,6 +544,27 @@ button:hover {
 .bio {
     margin: 0 auto 4rem auto;
     max-width: 65ch;
+}
+
+/* Blog Styles */
+.blog__postlist {
+    display: grid;
+    gap: 1em;
+    line-height: 2;
+}
+
+.blog__post--info {
+    display: grid;
+    gap: 0.3em;
+    margin-bottom: 2em;
+}
+
+.blog__post--nextprev {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 0.8em;
+    margin-top: 2.5em;
+    border-top: 0.1em solid var(--clr-slate-600);
 }
 
 /* Contact Styles */

@@ -2,11 +2,13 @@
 layout: main/base
 ---
 
-<h2>{{ title }}</h2>
+<p><a href="/blog/posts/"><i class="fa-solid fa-arrow-left"></i> Back to posts</a></p>
 
-<section>
-	<p>Posted: {{ date | niceDate }}</p>
-	<p>Categories:
+<h2 class="heading--main">{{ title }}</h2>
+
+<section class="blog__post--info">
+	<p><span class="text-bold">Posted:</span> {{ date | niceDate }}</p>
+	<p><span class="text-bold">Categories:</span>
 	{% for cat in categories %}
         <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
 	{% endfor %}
@@ -21,7 +23,7 @@ layout: main/base
     {%- set previousPost = collections.posts | getPreviousCollectionItem %}
     {%- set nextPost = collections.posts | getNextCollectionItem %}
     {%- if nextPost or previousPost %}
-        <ul class="links-nextprev">
+        <ul class="blog__post--nextprev">
             {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
             {%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
         </ul>
