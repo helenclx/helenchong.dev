@@ -2,8 +2,7 @@
 title: Chingu Voyage 46 Completed
 description: My participation and winning of Scrimba's JavaScriptmas 2023 challenge.
 date: 2023-11-25
-tags:
-    - chingu
+categories: ["chingu"]
 ---
 
 On 12 November 2023, I, along with two other teammates had officially completed [Chingu](https://www.chingu.io/) Voyage 46. I received my [Certificate of Completion](/assets/documents/Chingu-Voyage46-Completion-Cert.pdf) from Chingu on 19 November 2023.
