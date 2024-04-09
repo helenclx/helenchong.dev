@@ -8,9 +8,7 @@
                 <span class="project-card__tag">{{ tag }}</span>
             {% endfor %}
         </div>
-        <h3 class="project-card__title">
-            <a href="{{ project.url }}">{{ project.data.title }}</a>
-        </h3>
+        <h3 class="project-card__title">{{ project.data.title }}</h3>
         <p class="project-card__summary">{{ project.data.summary }}</p>
         <a class="project-card__link" href="{{ project.url }}">Read project case study
             <svg xmlns="http://www.w3.org/2000/svg" class="project-card__link-icon" viewBox="0 0 20 20" fill="currentColor">
