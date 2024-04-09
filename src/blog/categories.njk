@@ -3,13 +3,13 @@ pagination:
     data: collections.categories
     size: 1
     alias: category
-permalink: "/categories/{{ category | slugify }}/index.html"
+permalink: /blog/categories/{{ category | slugify }}/
 layout: main/base
 eleventyComputed:
-    title: "Category: {{ category }}"
+    title: 'Category: "{{ category }}"'
 ---
 
-<h2 class="heading--main">Blog Post Category: {{ category }}</h2>
+<h2 class="heading--main">Blog Post Category: "{{ category }}"</h2>
 
 {% set posts = collections.posts | filterByCategory(category) %}
 {% for post in posts | reverse %}

@@ -1,5 +1,5 @@
 ---
-permalink: /categories/
+permalink: /blog/categories/
 layout: main/base.njk
 title: Blog Post Categories
 ---
@@ -7,7 +7,7 @@ title: Blog Post Categories
 
 <ul>
 {% for category in collections.categories %}
-	{% set categoryUrl %}/categories/{{ category | slugify }}/{% endset %}
+	{% set categoryUrl %}/blog/categories/{{ category | slugify }}/{% endset %}
 	<li><a href="{{ categoryUrl }}">{{ category }}</a></li>
 {% endfor %}
 </ul>
