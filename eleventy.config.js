@@ -26,6 +26,23 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addShortcode("current_year", () => `${new Date().getFullYear()}`);
 
+    // Format dates
+    const dateOptions = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+    };
+    const locale = new Intl.DateTimeFormat("en-GB", dateOptions);
+    eleventyConfig.addFilter("niceDate", function(date) {
+        return locale.format(date);
+    });
+
+    // Limit filter
+    eleventyConfig.addFilter("limit", function(array, limit) {
+        return array.slice(0, limit);
+    });
+
     return {
         dir: {
             input: "src"
