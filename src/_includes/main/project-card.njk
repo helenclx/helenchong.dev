@@ -1,6 +1,6 @@
 <article class="project-card">
     <div class="project-card__image-wrapper">
-        <img src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}">
+        {% EleventyImage project.data.image, project.data.imageAlt, "(min-width: 30em) 50vw, 100vw" %}
     </div>
     <div class="project-card__body">
         <div class="project-card__tags">
