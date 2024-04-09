@@ -10,6 +10,7 @@
     --clr-accent-600: #a200ff;
     --clr-accent-700: #8200cd;
     --clr-accent-800: rgb(90, 0, 142);
+    --clr-link-hover: #ff7235;
     --clr-top-btn: #4153b6;
 
     --ff-default: 'Inter';
@@ -115,8 +116,13 @@ main {
 }
 
 a {
-    color: inherit;
-    font-weight: bold;
+    color: var(--clr-accent-700);
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--clr-link-hover);
 }
 
 button:hover {
@@ -238,7 +244,7 @@ button:hover {
     height: 2px;
     width: 100%;
     position: absolute;
-    background-color: var(--clr-accent-700);
+    background-color: var(--clr-link-hover);
     transform: scaleX(0);
     transition: transform 0.3s ease 0s;
 }
