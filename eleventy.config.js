@@ -15,7 +15,7 @@ module.exports = function(eleventyConfig) {
     // Add short codes
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
-    // Format dates
+    // Filter: Format dates
     const dateOptions = {
         weekday: 'long',
         year: 'numeric',
@@ -27,12 +27,12 @@ module.exports = function(eleventyConfig) {
         return locale.format(date);
     });
 
-    // Limit filter
+    // Filter: Limit
     eleventyConfig.addFilter("limit", function(array, limit) {
         return array.slice(0, limit);
     });
 
-    // Blog post categories
+    // Add blog post categories to collections
     eleventyConfig.addCollection("categories", function(collectionApi) {
         let categories = new Set();
         let posts = collectionApi.getFilteredByTag('posts');
@@ -43,6 +43,7 @@ module.exports = function(eleventyConfig) {
         return Array.from(categories).sort();
     });
 
+    // Filter blog posts by category
     eleventyConfig.addFilter("filterByCategory", function(posts, cat) {
         /*
         case matters, so let's lowercase the desired category, cat
