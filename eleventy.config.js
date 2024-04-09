@@ -1,11 +1,11 @@
 // Installed Plug-ins
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const metagen = require('eleventy-plugin-metagen');
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import metagen from 'eleventy-plugin-metagen';
 
 // App Plug-Ins
-const pluginImages = require("./eleventy.config.images.js");
+import pluginImages from "./eleventy.config.images.js";
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
 
