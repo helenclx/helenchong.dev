@@ -1,5 +1,8 @@
+// Installed Plug-ins
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const metagen = require('eleventy-plugin-metagen');
 
+// App Plug-Ins
 const pluginImages = require("./eleventy.config.images.js");
 
 module.exports = function(eleventyConfig) {
@@ -8,6 +11,7 @@ module.exports = function(eleventyConfig) {
 
     // Installed Plug-ins
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(metagen);
 
     // App plug-ins
     eleventyConfig.addPlugin(pluginImages);

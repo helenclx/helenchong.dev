@@ -2,7 +2,12 @@
 layout: "main/base.njk"
 ---
 
-<div class="project">
+{% metagen
+    desc=summary,
+    type='article'
+%}
+
+<article class="project">
     <h2 class="project__heading">{{ title }}</h2>
     <div class="project__image-wrapper">
         {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
@@ -16,4 +21,4 @@ layout: "main/base.njk"
 
         {{ content | safe }}
     </div>
-</div>
+</article>
