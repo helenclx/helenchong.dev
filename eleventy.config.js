@@ -1,10 +1,15 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 const pluginImages = require("./eleventy.config.images.js");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
 
-    // Add plug-ins
+    // Installed Plug-ins
+    eleventyConfig.addPlugin(pluginRss);
+
+    // App plug-ins
     eleventyConfig.addPlugin(pluginImages);
 
     // Add short codes
