@@ -103,7 +103,13 @@ textarea:not([rows]) {
 
 body {
     font-family: var(--ff-default), Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     color: var(--clr-txt-default);
+    display: flex;
+    flex-direction: column;
+}
+
+main {
     display: flex;
     flex-direction: column;
 }
@@ -190,7 +196,7 @@ button:hover {
     gap: 2rem;
     font-size: 1.125rem;
     font-weight: 600;
-    color: var(--clr-accent-700);
+    color: var(--clr-accent-600);
     text-align: center;
 
     flex-direction: column;
@@ -547,14 +553,42 @@ button:hover {
 }
 
 /* Blog Styles */
-.blog__postlist {
+
+.blog__nav,
+.blog__nav--links {
+    display: flex;
+}
+
+.blog__nav {
+    gap: 1.5em;
+    padding-bottom: 1em;
+    align-self: center;
+    font-weight: 600;
+}
+
+.blog__nav--links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blog__nav li+li:before {
+    padding: 1em;
+    color: var(--clr-slate-600);
+    content: "\007C";
+}
+
+.blog__postlist,
+.blog__post--info {
     display: grid;
+}
+
+.blog__postlist {
     gap: 1em;
     line-height: 2;
 }
 
 .blog__post--info {
-    display: grid;
     gap: 0.3em;
     margin-bottom: 2em;
 }
