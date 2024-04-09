@@ -40,7 +40,7 @@ module.exports = function(eleventyConfig) {
             let cats = p.data.categories;
             cats.forEach(c => categories.add(c));
         });
-        return Array.from(categories);
+        return Array.from(categories).sort();
     });
 
     eleventyConfig.addFilter("filterByCategory", function(posts, cat) {
