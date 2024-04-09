@@ -5,7 +5,7 @@ image: /assets/images/projects/Recipe-Hub.png
 imageAlt: Screenshots of Recipe Hub
 tech:
   - Vanilla JavaScript
-  - Tasty API
+  - API
 siteUrl: https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/
 repoUrl: https://github.com/chingu-voyages/v46-tier1-team-01
 ---
