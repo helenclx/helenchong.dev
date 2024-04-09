@@ -4,8 +4,8 @@ async function imageShortcode(src, alt, sizes) {
     let metadata = await eleventyImage(`./src${src}`, {
         widths: [300, 800, null],
         formats: ["avif", "jpeg"],
-        urlPath: "/images/",
-        outputDir: "./_site/images/"
+        urlPath: "/assets/images/",
+        outputDir: "./_site/assets/images/"
     });
 
     let imageAttributes = {
