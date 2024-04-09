@@ -43,6 +43,30 @@ module.exports = function (eleventyConfig) {
         return array.slice(0, limit);
     });
 
+    // Blog post categories
+    eleventyConfig.addCollection("categories", function(collectionApi) {
+        let categories = new Set();
+        let posts = collectionApi.getFilteredByTag('posts');
+        posts.forEach(p => {
+            let cats = p.data.categories;
+            cats.forEach(c => categories.add(c));
+        });
+        return Array.from(categories);
+    });
+
+    eleventyConfig.addFilter("filterByCategory", function(posts, cat) {
+        /*
+        case matters, so let's lowercase the desired category, cat
+        and we will lowercase our posts categories
+        */
+        cat = cat.toLowerCase();
+        let result = posts.filter(p => {
+            let cats = p.data.categories.map(s => s.toLowerCase());
+            return cats.includes(cat);
+        });
+        return result;
+    });
+
     return {
         dir: {
             input: "src"
