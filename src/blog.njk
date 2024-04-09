@@ -1,0 +1,26 @@
+---
+title: Helen Codes
+layout: blog/base
+---
+
+<h2 class="heading--main">Helen Codes</h2>
+
+<section class="prose">
+    <p>Welcome to my tech and coding blog!</p>
+
+    <p>I created this blog to document my coding journey and talk about various tech topics.</p>
+
+    <p>Enjoy!</p>
+</section>
+
+<h2 class="heading--main">Latest Posts:</h2>
+<ul class="blog__postlist">
+    {% for post in collections.posts | reverse | limit(3) %}
+        <li>
+            <h3><a href="{{post.url}}">{{ post.data.title }}</a></h3>
+            <time>{{ post.date | niceDate }}</time>
+        </li>
+    {% endfor %}
+</ol>
+
+<p>See all blog posts in the <a href="/blog/posts/">archive</a>.</p>

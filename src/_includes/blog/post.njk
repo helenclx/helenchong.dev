@@ -1,0 +1,34 @@
+---
+layout: blog/base
+---
+
+<p><a href="/blog/posts/"><i class="fa-solid fa-arrow-left"></i> Back to posts</a></p>
+
+<h2 class="heading--main">{{ title }}</h2>
+
+<section class="blog__post--info">
+	<p><span class="text-bold">Posted:</span> {{ date | niceDate }}</p>
+    {% if updated %}
+        <p><span class="text-bold">Updated:</span> {{ updated | niceDate }}</p>
+    {% endif %}
+	<p><span class="text-bold">Categories:</span>
+	{% for cat in categories %}
+        <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+	{% endfor %}
+    </p>
+</section>
+
+<article class="prose">
+    {{ content | safe }}
+</article>
+
+{%- if collections.posts %}
+    {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+    {%- set nextPost = collections.posts | getNextCollectionItem %}
+    {%- if nextPost or previousPost %}
+        <ul class="blog__post--nextprev">
+            {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+            {%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+        </ul>
+    {%- endif %}
+{%- endif %}

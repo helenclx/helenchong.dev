@@ -1,0 +1,17 @@
+---
+permalink: /blog/categories/
+layout: blog/base
+title: Blog Post Categories
+---
+
+<h2 class="heading--main">Blog Post Categories</h2>
+
+<ul>
+{% for category in collections.categories %}
+	{% set categoryUrl %}/blog/categories/{{ category | slugify }}/{% endset %}
+	{% set categoryPostCount = collections.posts | filterByCategory(category) | length %}
+	<li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }} posts)</li>
+{% endfor %}
+</ul>
+
+<p>See all blog posts in the <a href="/blog/posts/">archive</a>.</p>

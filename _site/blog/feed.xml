@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Helen Codes</title>
+    <subtitle>Helen Chong&#39;s tech and coding blog.</subtitle>
+    <link href="https://helenclx.github.io/blog/feed.xml" rel="self"/>
+    <link href="https://helenclx.github.io/blog/"/>
+    <updated>2023-12-27T00:00:00Z</updated>
+    <id>https://helenclx.github.io/blog/</id>
+    <author>
+        <name>Helen Chong</name>
+        <email>helenclx@outlook.com</email>
+    </author>
+        
+        <entry>
+            <title>JavaScriptmas 2023 Challenge Completed — and Won</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won/"/>
+            <updated>2023-12-27T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won/</id>
+            <content type="html">&lt;p&gt;Starting from 1 December 2023, I had participated in &lt;a href=&quot;https://scrimba.com/&quot;&gt;Scrimba&lt;/a&gt;&#39;s &lt;a href=&quot;https://scrimba.com/learn/javascriptmas&quot;&gt;JavaScriptmas&lt;/a&gt; challenge. After 24 days, I finally completed the entire challenge! I have compiled a &lt;a href=&quot;https://scrimba.com/playlist/pdpB3JZfE&quot;&gt;scrim playlist&lt;/a&gt; for all my JavaScriptmas solutions on Scrimba.&lt;/p&gt;
+&lt;p&gt;In addition, when Scrimba announced the winners of JavaScriptmas in their &lt;a href=&quot;https://www.youtube.com/live/Y0tc4DTS0e8&quot;&gt;JavaScriptmas PrizeFest&lt;/a&gt; livestream on 24 December, it was revealed that &lt;a href=&quot;https://www.youtube.com/live/Y0tc4DTS0e8?t=2190&quot;&gt;I (under my Twitter handle helen_clx) was one of the 24 winners of a one-year Scrimba Pro plan&lt;/a&gt; for &lt;a href=&quot;https://scrimba.com/scrim/co79e43dcbacb329c01a1744f?pl=pdpB3JZfE&quot;&gt;my solution to the Day 18 challenge&lt;/a&gt;: AI alt text generator!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://helenclx.github.io/assets/images/posts/JavaScriptmas-PrizeFest-2023-Day-18-winner.png&quot; alt=&quot;Screenshot of JavaScriptmas PrizeFest announcing helen_clx as the Day 18 winner&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;JavaScriptmas has been a great opportunity to practice and sharpen my CSS and JavaScript knowledge and skills. The AI challenges, including Day 18, which I won, were also the first time I learned to incorporate AI in coding projects. Therefore, it was a great surprise that I managed to win for an AI challenge.&lt;/p&gt;
+&lt;p&gt;Thank you Scrimba for the Christmas gift! With a one-year Scrimba Pro plan, I will be able to take Scirmba courses that are only available to subscribers.&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Chingu Voyage 46 Completed</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/"/>
+            <updated>2023-11-25T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/</id>
+            <content type="html">&lt;p&gt;On 12 November 2023, I, along with two other teammates had officially completed &lt;a href=&quot;https://www.chingu.io/&quot;&gt;Chingu&lt;/a&gt; Voyage 46. I received my &lt;a href=&quot;https://helenclx.github.io/assets/documents/Chingu-Voyage46-Completion-Cert.pdf&quot;&gt;Certificate of Completion&lt;/a&gt; from Chingu on 19 November 2023.&lt;/p&gt;
+&lt;p&gt;Back in August, I had created a &lt;a href=&quot;https://helenclx.github.io/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project&quot;&gt;TickyBot clone&lt;/a&gt; as my &lt;a href=&quot;https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md&quot;&gt;solo project&lt;/a&gt; to submit to Chingu in order to join the next Chingu Voyage, specifically Tier 1, which is for web development beginners. My submission was approved by Chingu, and I was assigned to Tier 1 Team 1.&lt;/p&gt;
+&lt;p&gt;We were instructed to build a &lt;a href=&quot;https://github.com/chingu-voyages/voyage-project-tier1-recipes&quot;&gt;recipe app&lt;/a&gt; that allows users to search for recipes by inputting ingredients.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chingu-voyages/v46-tier1-team-01/main/Recipe-Hub-screenshot.png&quot; alt=&quot;Screenshot of Recipe Hub&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can view our Recipe Hub app&#39;s &lt;a href=&quot;https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/&quot;&gt;live site&lt;/a&gt; and &lt;a href=&quot;https://github.com/chingu-voyages/v46-tier1-team-01&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Chingu Voyage was a big help to me for gaining practical experience in working on group projects, and learning both hard and soft skills. Particupating in the Chingu Voyage allowed me to practice not only my HTML, CSS and JavaScript skills, but also my teamwork and communication skills that are needed in group projects.&lt;/p&gt;
+&lt;p&gt;Before joining Chingu, I already practice my front-end web development skills with my own projects and Frontend Mentor&#39;s challenges, but since those were all solo projects, participating in my first Chingu Voyage, which was Voyage 46, was a new experience for me.&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>cbpickaxe and My First (Merged) Pull Request in Python</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-11-13-My-First-PR-in-Python/"/>
+            <updated>2023-11-13T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-11-13-My-First-PR-in-Python/</id>
+            <content type="html">&lt;p&gt;Recently, on 11 November 2023, I created my first pull request in Python that got merged later. Specifically, the pull request was for &lt;a href=&quot;https://github.com/ExcaliburZero/cbpickaxe&quot;&gt;cbpickaxe&lt;/a&gt;, a Python library and set of scripts for data mining the video game &lt;a href=&quot;https://www.cassettebeasts.com/&quot;&gt;Cassette Beasts&lt;/a&gt;, titled &lt;a href=&quot;https://github.com/ExcaliburZero/cbpickaxe/pull/3&quot;&gt;&amp;quot;extract_translation Script: Add support for finding strings of IDs that require pronoun identifiers&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While my current focus in my developer journey is front-end web development, I have also been learning Python at the same time, due to the programming language&#39;s popularity and the vast amount of resources and tutorials for learning the language. In addition, as an open source enthusiast, I have always wanted to be able to contribute to open source projects, particularly ones that I use.&lt;/p&gt;
+&lt;p&gt;Cassette Beasts, the independent monster collecting role-playing game developed by Bytten Studio, has become one of my all-time favourite video games since the first time I played it. My interest in the game drives me to learn as much about the game as possible, which led me to start using cbpickaxe.&lt;/p&gt;
+&lt;p&gt;When I started using the &lt;code&gt;extract_translation&lt;/code&gt; script to data mine in-game dialogues, I discovered the script&#39;s issue of not being able to extract strings with gender identifiers. After discussing the issue with ExcaliburZero, the developer of cbpickaxe, I started investigating the script&#39;s code and tried to figure out any solution.&lt;/p&gt;
+&lt;p&gt;I have had little experience with writing Python scripts, so I saw this as a great learning opportunity for me to put my Python knowledge and skills into practice. After forking the cbpickaxe repository, looking into the code and a lot of web searching, I discovered that in the original code, printing the output of the IDs with missing strings only has one key (&lt;code&gt;id&lt;/code&gt;) in its list, and does not have any locale key to display the corresponding strings. Therefore, I started thinking of possible solutions from there:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check if the string ID does not have the locale key, by using this condition: &lt;code&gt;if locale not in row.keys()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check if the string ID only has one key (id), by using this condition: &lt;code&gt;if len(row.keys()) == 1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After trying both possible methods, I eventually settled for the second one, because it allowed me to write cleaner and more succinct code, while the first required me to write more bloated code, mainly due to having to repeat the block of code for searching and reading strings from in-game data, as refactoring it into a function meant losing the definition of the locale variable.&lt;/p&gt;
+&lt;p&gt;After that, I spent time in figuring out how to append the pronoun identifiers to the input IDs, so their corresponding strings can be written in the output CSV. At first, I considered trying to dynamically reading the &lt;code&gt;analysis.tres&lt;/code&gt; file from the decompiled Cassette Beasts game, but the text structure of the &lt;code&gt;.tres&lt;/code&gt; files might be too complicated to be doable in a clean code, so I chose to create a list for the pronoun identifiers (&lt;code&gt;.f&lt;/code&gt;, &lt;code&gt;.m&lt;/code&gt; and &lt;code&gt;.n&lt;/code&gt;), then the script will iterate through the pronouns list to append the pronoun identifiers to the end of the ID if it requires a pronoun idntifier to find the corresponding string.&lt;/p&gt;
+&lt;p&gt;Voilà! At last, I solved the problem!&lt;/p&gt;
+&lt;p&gt;After testing my code multiple times to ensure it works, I made a pull request on cbpickaxe&#39;s GitHub repository. ExcaliburZero approved and merged my pull request, which has become my first merged pull request on Python! This pull request has been included in the release of cbpickaxe starting from &lt;a href=&quot;https://github.com/ExcaliburZero/cbpickaxe/releases/tag/v0.1.2&quot;&gt;version 0.1.2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am immensely grateful of this opportunity to not only contribute to an open source project that is realated to one of my favourite video games, but also practicing my Python skills.&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>CS50x Week 8 Assignments Completed</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed/"/>
+            <updated>2023-09-26T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed/</id>
+            <content type="html">&lt;p&gt;At last, I completed and submitted &lt;a href=&quot;https://cs50.harvard.edu/x/2023/weeks/8/&quot;&gt;Week 8&lt;/a&gt; assignments of the CS50&#39;s Introduction to Computer Science (CS50x) course, including &lt;a href=&quot;https://cs50.harvard.edu/x/2023/labs/8/&quot;&gt;Lab 8&lt;/a&gt; and &lt;a href=&quot;https://cs50.harvard.edu/x/2023/psets/8/&quot;&gt;Problem Set 8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The eighth week of the CS50x is about HTML, CSS, JavaScript and how the internet works. I already have a good foundation in HTML, CSS and JavaScript since I started taking front-end web development courses on other platforms like freeCodeCamp and Scrimba since December 2022. Even then, I learned new things about how the internet works from the CS50x course.&lt;/p&gt;
+&lt;p&gt;As for the assignments, I already completed and submitted Lab 8 on September 13, but it took almost two weeks after submitting Lab 8 for me to finally finish Problem Set 8, because I was struggling to come out of ideas about what to put on my pages to meet CS50x&#39;s requirement. I was relieved when I finally finished Problem Set 8.&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>CS50x Week 7 Completed</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-09-10-CS50x-Week-7-Completed/"/>
+            <updated>2023-09-10T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-09-10-CS50x-Week-7-Completed/</id>
+            <content type="html">&lt;p&gt;On 8 September 2023, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2023/weeks/7/&quot;&gt;Week 7&lt;/a&gt; of &lt;a href=&quot;https://cs50.harvard.edu/x/2023/&quot;&gt;CS50’s Introduction to Computer Science&lt;/a&gt; (CS50x) course, by submitting the required assignments, &lt;a href=&quot;https://cs50.harvard.edu/x/2023/labs/7/&quot;&gt;Lab 7&lt;/a&gt; and &lt;a href=&quot;https://cs50.harvard.edu/x/2023/psets/7/&quot;&gt;Problem Set 7&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Week 7 of the CS50x course revolved around SQL. Since I was focusing on learning about front-end web development, this was the first time I learned SQL and relational database. At first, I was worried about tackling this week&#39;s assignments due to my lack of familiarity to SQL.&lt;/p&gt;
+&lt;p&gt;However, it turned out SQL and working on databases was more fun than I expected. I had a good time in writing out the SQL queries to solve this week&#39;s assigned problems. In particular, I found my new favourite assignment from CS50x in the &lt;a href=&quot;https://cs50.harvard.edu/x/2023/psets/7/fiftyville/&quot;&gt;Fiftyville&lt;/a&gt; problem, which involved using SQL to solve a mystery of a theft of the CS50 Duck. I had a great deal of fun with the Fiftyville problem from start to finish, from writing my SQL queries and comments about my thought process in solving the mysteries, to narrowing down the suspects and eventually identifying the thief and their accomplice. Kudos to those who designed this fun and challenging assignment!&lt;/p&gt;
+&lt;p&gt;Now that I am done with Week 7 of CS50x, I am ready to move on to next week, which will be about HTML, CSS and JavaScript — the languages I had spent the past eight months in learning and practicing through various courses outside CS50. CS50x Week 8 here I come!&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Built A TickyBot Clone for Chingu&#39;s Solo Projects</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project/"/>
+            <updated>2023-08-24T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project/</id>
+            <content type="html">&lt;p&gt;On 11 August 2023, I decided to join &lt;a href=&quot;https://www.chingu.io/&quot;&gt;Chingu&lt;/a&gt; after discovering its existence through the &lt;a href=&quot;https://www.chingu.io/&quot;&gt;Scrimba Podcast&lt;/a&gt;, specifically &lt;a href=&quot;https://scrimba.com/podcast/are-you-a-new-developer-follow-this-one-tip-with-scrimba-student-danny/&quot;&gt;Episode 127&lt;/a&gt;. I have learned coding since December 2022, and one of the challenges aspiring self-taught developers face is gaining practical experience that can prepare them for developer jobs, so when I discovered Chingu, I thought it could be an opportunity for me to gain experience in working in group developer projects, thus I registered on the platform and joined the Chingu community on Discord.&lt;/p&gt;
+&lt;p&gt;The first step needed to start participating in Chingu&#39;s projects is to submit a solo project for approval. I chose to build a &lt;a href=&quot;https://github.com/chingu-voyages/soloproject-tier1-tickybot-clone&quot;&gt;TickyBot Clone&lt;/a&gt; using HTML, CSS and vanilla JavaScript. On 21 August, I finished coding &lt;a href=&quot;https://github.com/helenclx/TickyBot-Clone&quot;&gt;my TickyBot Clone&lt;/a&gt; and submitted the project to Chingu. On the next day, my solo project was approved by Chingu, to my great delight.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/helenclx/TickyBot-Clone/main/screenshot-tickybot-clone.png&quot; alt=&quot;Screenshot of my TickyBot clone&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;You can view my TickyBot Clone&#39;s &lt;a href=&quot;https://helenclx.github.io/TickyBot-Clone/&quot;&gt;live site&lt;/a&gt; and &lt;a href=&quot;https://github.com/helenclx/TickyBot-Clone&quot;&gt;GitHub repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My next step was to sign up for the next Chingu Voyage. I am looking forward to learning to work in a group developer project. Wish me luck!&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Welcome to Helen Codes</title>
+            <link href="https://helenclx.github.io/blog/posts/2023-08-21-Welcome-to-Helen-Codes/"/>
+            <updated>2023-08-21T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2023-08-21-Welcome-to-Helen-Codes/</id>
+            <content type="html">&lt;p&gt;My name is Helen Chong. I am a self-taught developer with 8 years of working experience as a graphic designer.&lt;/p&gt;
+&lt;p&gt;I created this blog to document my coding learnings and talk about various tech topics.&lt;/p&gt;
+&lt;p&gt;You can check out &lt;a href=&quot;https://helenclx.github.io/&quot;&gt;my portfolio website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</content>
+        </entry>
+</feed>

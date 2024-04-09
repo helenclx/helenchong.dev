@@ -1,0 +1,19 @@
+---
+layout: "main/base.njk"
+---
+
+<div class="project">
+    <h2 class="project__heading">{{ title }}</h2>
+    <div class="project__image-wrapper">
+        {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
+    </div>
+    <div class="project__content prose">
+        <h3>Project links</h3>
+        <ul>
+            <li><a href="{{ siteUrl }}" target="_blank">Project Site</a></li>
+            <li><a href="{{ repoUrl }}" target="_blank">Project Repository</a></li>
+        </ul>
+
+        {{ content | safe }}
+    </div>
+</div>

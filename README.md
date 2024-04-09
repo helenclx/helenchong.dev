@@ -1,11 +1,10 @@
 # Helen Chong's Portfolio
 
-My developer portfolio website.
+Source code of my developer portfolio website. Built with Eleventy.
 
 ## Credits
 
-- Kolade Chris for the tutorial: [How to Build Your Own Developer Portfolio Website with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/)
+- Gerard Hynes for providing inspiration with the tutorial: [Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website](https://www.freecodecamp.org/news/learn-eleventy/)
+- Raymond Camden for providing inspiration with the tutorial: [A Complete Guide to Building a Blog with Eleventy](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html)
+- Eleventy's official [blog starter project](https://github.com/11ty/eleventy-base-blog) for the inspiration
 - [icons8](https://icons8.com/)
-- [Vector Logo Zone](https://www.vectorlogo.zone/)
-- [unDraw](https://undraw.co/)
-- [Zonelets](https://zonelets.net/)

@@ -1,0 +1,27 @@
+---
+pagination:
+    data: collections.posts
+    size: 10
+    alias: postList
+    reverse: true
+title: Blog Archive
+layout: blog/base
+---
+
+<h2 class="heading--main">Blog Archive</h2>
+
+{% include "blog/postslist.njk" %}
+
+<p>
+    {% if pagination.href.previous %}
+        <a href=" {{ pagination.href.previous }}">Previous</a>
+    {% else %}
+        Previous
+    {% endif %}
+    /
+    {% if pagination.href.next %}
+        <a href=" {{ pagination.href.next }}">Next</a>
+    {% else %}
+        Next
+    {% endif %}
+</p>

@@ -1,0 +1,11 @@
+---
+layout: "main/base.njk"
+title: Projects
+---
+
+<h2 class="projects__heading">Featured Projects</h2>
+<div class="project-list">
+    {% asyncEach project in collections.projects %}
+        {% include "main/project-card.njk" %}
+    {% endeach %}
+</div>

@@ -1,0 +1,8 @@
+<section class="projects">
+    <h2 class="project__heading">Featured Projects</h2>
+    <div class="project-grid">
+        {% asyncEach project in collections.projects %}
+            {% include "main/project-card.njk" %}
+        {% endeach %}
+    </div>
+</section>
