@@ -8,6 +8,9 @@ layout: blog/base
 
 <section class="blog__post--info">
 	<p><span class="text-bold">Posted:</span> {{ date | niceDate }}</p>
+    {% if updated %}
+        <p><span class="text-bold">Updated:</span> {{ updated | niceDate }}</p>
+    {% endif %}
 	<p><span class="text-bold">Categories:</span>
 	{% for cat in categories %}
         <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
