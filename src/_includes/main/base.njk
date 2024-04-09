@@ -7,11 +7,13 @@
 
         {# Open Graph meta data #}
         {% metagen
-            title=title or metadata.title,
+            title=title or metadata.title + '',
             desc=desc or metadata.desc,
             url=url + page.url,
-            auhor='Helen Chong'
+            auhor='Helen Chong',
+            site_name='Helen Chong | Front-End Web Developer'
         %}
+
         {# Google Fonts #}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
