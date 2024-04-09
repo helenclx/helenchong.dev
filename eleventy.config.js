@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginImages);
 
     // Add short codes
-    eleventyConfig.addShortcode("current_year", () => `${new Date().getFullYear()}`);
+    eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
     // Format dates
     const dateOptions = {
