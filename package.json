@@ -2,7 +2,8 @@
   "name": "helenclx.github.io",
   "module": "index.ts",
   "scripts": {
-    "build": "bun run build"
+    "build": "bun run build",
+    "build-ghpages": "bunx @11ty/eleventy"
   },
   "devDependencies": {
     "@types/bun": "latest"
