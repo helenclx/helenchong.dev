@@ -8,11 +8,10 @@ layout: main/base
 eleventyComputed:
     title: 'Blog Post Category: "{{ category }}"'
 ---
-
-<h2 class="heading--main">Blog Post Category: "{{ category }}"</h2>
+{% set postCount = collections.posts | filterByCategory(category) | length %}
+<h2 class="heading--main">{{ postCount }} Posts Filed Under "{{ category }}"</h2>
 
 {% set postList = collections.posts | filterByCategory(category) | reverse %}
-
 {% include "blog/postslist.njk" %}
 
 <p>See <a href="/blog/categories/">all blog post categories</a>.</p>
