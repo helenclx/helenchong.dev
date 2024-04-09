@@ -254,7 +254,7 @@ button:hover {
 }
 
 .header__link:focus {
-    outline: 0.2em solid var(--clr-accent-700);
+    outline: 0.2em solid var(--clr-accent-600);
     outline-offset: 0.1em;
 }
 
