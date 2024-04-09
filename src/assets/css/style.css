@@ -557,6 +557,7 @@ button:hover {
 .blog__nav,
 .blog__nav--links {
     display: flex;
+    align-items: center;
 }
 
 .blog__nav {
@@ -566,9 +567,14 @@ button:hover {
     font-weight: 600;
 }
 
+.blog__nav--title,
 .blog__nav--links {
     margin: 0;
     padding: 0;
+    font-size: 1.1rem;
+}
+
+.blog__nav--links {
     list-style: none;
 }
 
