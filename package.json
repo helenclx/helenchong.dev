@@ -3,7 +3,8 @@
   "module": "index.ts",
   "scripts": {
     "start": "bunx @11ty/eleventy --serve",
-    "build": "bunx @11ty/eleventy"
+    "build": "bunx @11ty/eleventy",
+    "build-ghpages": "bunx @11ty/eleventy"
   },
   "devDependencies": {
     "@types/bun": "latest"
