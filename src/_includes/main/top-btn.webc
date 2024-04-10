@@ -9,7 +9,7 @@
         right: 20px;
         z-index: 999;
         border: none;
-        background-color: var(--clr-top-btn);
+        background-color: #4153b6;
         border-radius: 50em;
         padding: 0.5em;
     }
