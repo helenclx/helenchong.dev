@@ -22,7 +22,7 @@
     </button>
 </header>
 
-<style webc:keep>
+<style webc:keep webc:bucket="defer">
     .header {
         display: flex;
         justify-content: space-between;
@@ -134,7 +134,7 @@
     }
 </style>
 
-<script webc:keep>
+<script webc:keep webc:bucket="defer">
     const headerToggle = document.querySelector('.header__toggle');
     const headerLinks = document.querySelector(".header__links");
     const headerLinkAll = document.querySelectorAll('.header__link');
