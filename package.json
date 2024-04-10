@@ -2,7 +2,7 @@
   "name": "helenclx.github.io",
   "module": "index.ts",
   "scripts": {
-    "start": "bunx @11ty/eleventy --serve",
+    "start": "bunx @11ty/eleventy --serve --quiet",
     "build": "bunx @11ty/eleventy",
     "build-ghpages": "bunx @11ty/eleventy"
   },
