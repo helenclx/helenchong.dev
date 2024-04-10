@@ -38,15 +38,50 @@
         
         <link rel="stylesheet" href="/assets/css/style.css">
 
-        
-        <script src="/assets/js/scroll.js" defer></script>
-
         <title> Blog Post Category: &quot;scrimba&quot; |  Helen Chong | Front-End Web Developer</title>
     </head>
     <body>
-        <button class="top-btn hidden" aria-label="Scroll to top">
-            <img src="/assets/icons/top.svg" alt="">
-        </button>
+        <top-btn><button aria-label="Scroll to top" class="top-btn hidden">
+    <img src="/assets/icons/top.svg" alt>
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.5em;
+    }
+
+    .top-btn img {
+        width: 2rem;
+    }
+</style>
+
+<script>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script></top-btn>
+        
         <div class="content">
             <header-main><header class="header">
     <h1 class="header__title">

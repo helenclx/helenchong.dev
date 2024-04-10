@@ -161,22 +161,6 @@ button:hover {
     outline-offset: 0;
 }
 
-/* Scrool to Top Button */
-.top-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-    border: none;
-    background-color: var(--clr-top-btn);
-    border-radius: 50em;
-    padding: 0.5em;
-}
-
-.top-btn img {
-    width: 2rem;
-}
-
 /* Footer Style */
 
 .footer {
