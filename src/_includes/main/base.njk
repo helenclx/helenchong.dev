@@ -34,10 +34,6 @@
         <title>{% if title %} {{ title }} | {% endif %} Helen Chong | Front-End Web Developer</title>
     </head>
     <body>
-        {% renderTemplate "webc" %}
-            <top-btn></top-btn>
-        {% endrenderTemplate %}
-
         <div class="content">
             {% renderTemplate "webc" %}
                 <header-main></header-main>
@@ -49,5 +45,9 @@
         </div>
 
         {% include "main/footer.njk" %}
+
+        {% renderTemplate "webc" %}
+            <top-btn></top-btn>
+        {% endrenderTemplate %}
     </body>
 </html>

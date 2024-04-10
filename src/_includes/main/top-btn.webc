@@ -3,15 +3,24 @@
 </button>
 
 <style webc:keep webc:bucket="defer">
+    :root {
+        --clr-top-btn: #4153b6;
+    }
+
     .top-btn {
         position: fixed;
         bottom: 20px;
         right: 20px;
         z-index: 999;
         border: none;
-        background-color: #4153b6;
+        background-color: var(--clr-top-btn);
         border-radius: 50em;
         padding: 0.5em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
     }
 
     .top-btn img {
