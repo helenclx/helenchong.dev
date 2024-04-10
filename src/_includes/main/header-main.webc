@@ -23,6 +23,11 @@
 </header>
 
 <style webc:keep webc:bucket="defer">
+    header-main {
+        position: sticky;
+        top: 0;
+    }
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -30,8 +35,6 @@
         flex-wrap: wrap;
         margin-bottom: 4rem;
         padding: 1rem 1.5rem;
-        position: sticky;
-        top: 0;
         left: 0;
         background-color: var(--clr-white);
         box-shadow: var(--box-shadow);

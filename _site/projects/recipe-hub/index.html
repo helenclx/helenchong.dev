@@ -40,7 +40,6 @@
 
         
         <script src="/assets/js/scroll.js" defer></script>
-        
 
         <title> Recipe Hub |  Helen Chong | Front-End Web Developer</title>
     </head>
@@ -49,7 +48,7 @@
             <img src="/assets/icons/top.svg" alt="">
         </button>
         <div class="content">
-            <header><header class="header">
+            <header-main><header class="header">
     <h1 class="header__title">
         <a href="/">Helen Chong</a>
     </h1>
@@ -74,6 +73,11 @@
 </header>
 
 <style>
+    header-main {
+        position: sticky;
+        top: 0;
+    }
+
     .header {
         display: flex;
         justify-content: space-between;
@@ -81,8 +85,6 @@
         flex-wrap: wrap;
         margin-bottom: 4rem;
         padding: 1rem 1.5rem;
-        position: sticky;
-        top: 0;
         left: 0;
         background-color: var(--clr-white);
         box-shadow: var(--box-shadow);
@@ -199,7 +201,7 @@
             headerLinks.classList.remove("header__links--show");
         });
     });
-</script></header>
+</script></header-main>
             
             <main class="main container">
                 

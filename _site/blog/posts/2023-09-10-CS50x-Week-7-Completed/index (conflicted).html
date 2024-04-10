@@ -9,17 +9,17 @@
         <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>cbpickaxe and My First (Merged) Pull Request in Python</title>
-<meta name="title" content="cbpickaxe and My First (Merged) Pull Request in Python">
+<title>CS50x Week 7 Completed</title>
+<meta name="title" content="CS50x Week 7 Completed">
 <meta property="og:type" content="website">
-<meta property="og:url" content="undefined/blog/posts/2023-11-13-My-First-PR-in-Python/">
+<meta property="og:url" content="undefined/blog/posts/2023-09-10-CS50x-Week-7-Completed/">
 <meta property="og:site_name" content="Helen Chong | Front-End Web Developer">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="cbpickaxe and My First (Merged) Pull Request in Python">
+<meta property="og:title" content="CS50x Week 7 Completed">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:url" content="undefined/blog/posts/2023-11-13-My-First-PR-in-Python/">
-<meta name="twitter:title" content="cbpickaxe and My First (Merged) Pull Request in Python">
-<link rel="canonical" href="undefined/blog/posts/2023-11-13-My-First-PR-in-Python/">
+<meta name="twitter:url" content="undefined/blog/posts/2023-09-10-CS50x-Week-7-Completed/">
+<meta name="twitter:title" content="CS50x Week 7 Completed">
+<link rel="canonical" href="undefined/blog/posts/2023-09-10-CS50x-Week-7-Completed/">
 
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
         
         <script src="/assets/js/scroll.js" defer></script>
 
-        <title> cbpickaxe and My First (Merged) Pull Request in Python |  Helen Chong | Front-End Web Developer</title>
+        <title> CS50x Week 7 Completed |  Helen Chong | Front-End Web Developer</title>
     </head>
     <body>
         <button class="top-btn hidden" aria-label="Scroll to top">
@@ -219,51 +219,39 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="About my first pull request in Python that got approved and merged.">
+<meta name="description" content="I have completed and submitted the Week 7 assignment of the CS50's Introduction to Computer Science (CS50x) course.">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
-<meta property="og:description" content="About my first pull request in Python that got approved and merged.">
+<meta property="og:description" content="I have completed and submitted the Week 7 assignment of the CS50's Introduction to Computer Science (CS50x) course.">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:description" content="About my first pull request in Python that got approved and merged.">
+<meta name="twitter:description" content="I have completed and submitted the Week 7 assignment of the CS50's Introduction to Computer Science (CS50x) course.">
 
 <p><a href="/blog/posts/"><i class="fa-solid fa-arrow-left"></i> Back to posts</a></p>
 
-<h2 class="heading--main">cbpickaxe and My First (Merged) Pull Request in Python</h2>
+<h2 class="heading--main">CS50x Week 7 Completed</h2>
 
 <section class="blog__post--info">
-	<p><span class="text-bold">Posted:</span> Monday, 13 November 2023</p>
+	<p><span class="text-bold">Posted:</span> Sunday, 10 September 2023</p>
     
 	<p><span class="text-bold">Categories:</span>
 	
-        <a href="/blog/categories/python">python</a>, 
+        <a href="/blog/categories/cs50">cs50</a>, 
 	
-        <a href="/blog/categories/github">github</a>, 
+        <a href="/blog/categories/cs50x">cs50x</a>, 
 	
-        <a href="/blog/categories/cbpickaxe">cbpickaxe</a>, 
-	
-        <a href="/blog/categories/cassette-beasts">cassette beasts</a>
+        <a href="/blog/categories/sql">sql</a>
 	
     </p>
 </section>
 
 <article class="prose">
-    <p>Recently, on 11 November 2023, I created my first pull request in Python that got merged later. Specifically, the pull request was for <a href="https://github.com/ExcaliburZero/cbpickaxe">cbpickaxe</a>, a Python library and set of scripts for data mining the video game <a href="https://www.cassettebeasts.com/">Cassette Beasts</a>, titled <a href="https://github.com/ExcaliburZero/cbpickaxe/pull/3">&quot;extract_translation Script: Add support for finding strings of IDs that require pronoun identifiers&quot;</a>.</p>
-<p>While my current focus in my developer journey is front-end web development, I have also been learning Python at the same time, due to the programming language's popularity and the vast amount of resources and tutorials for learning the language. In addition, as an open source enthusiast, I have always wanted to be able to contribute to open source projects, particularly ones that I use.</p>
-<p>Cassette Beasts, the independent monster collecting role-playing game developed by Bytten Studio, has become one of my all-time favourite video games since the first time I played it. My interest in the game drives me to learn as much about the game as possible, which led me to start using cbpickaxe.</p>
-<p>When I started using the <code>extract_translation</code> script to data mine in-game dialogues, I discovered the script's issue of not being able to extract strings with gender identifiers. After discussing the issue with ExcaliburZero, the developer of cbpickaxe, I started investigating the script's code and tried to figure out any solution.</p>
-<p>I have had little experience with writing Python scripts, so I saw this as a great learning opportunity for me to put my Python knowledge and skills into practice. After forking the cbpickaxe repository, looking into the code and a lot of web searching, I discovered that in the original code, printing the output of the IDs with missing strings only has one key (<code>id</code>) in its list, and does not have any locale key to display the corresponding strings. Therefore, I started thinking of possible solutions from there:</p>
-<ul>
-<li>Check if the string ID does not have the locale key, by using this condition: <code>if locale not in row.keys()</code></li>
-<li>Check if the string ID only has one key (id), by using this condition: <code>if len(row.keys()) == 1</code></li>
-</ul>
-<p>After trying both possible methods, I eventually settled for the second one, because it allowed me to write cleaner and more succinct code, while the first required me to write more bloated code, mainly due to having to repeat the block of code for searching and reading strings from in-game data, as refactoring it into a function meant losing the definition of the locale variable.</p>
-<p>After that, I spent time in figuring out how to append the pronoun identifiers to the input IDs, so their corresponding strings can be written in the output CSV. At first, I considered trying to dynamically reading the <code>analysis.tres</code> file from the decompiled Cassette Beasts game, but the text structure of the <code>.tres</code> files might be too complicated to be doable in a clean code, so I chose to create a list for the pronoun identifiers (<code>.f</code>, <code>.m</code> and <code>.n</code>), then the script will iterate through the pronouns list to append the pronoun identifiers to the end of the ID if it requires a pronoun idntifier to find the corresponding string.</p>
-<p>Voilà! At last, I solved the problem!</p>
-<p>After testing my code multiple times to ensure it works, I made a pull request on cbpickaxe's GitHub repository. ExcaliburZero approved and merged my pull request, which has become my first merged pull request on Python! This pull request has been included in the release of cbpickaxe starting from <a href="https://github.com/ExcaliburZero/cbpickaxe/releases/tag/v0.1.2">version 0.1.2</a>.</p>
-<p>I am immensely grateful of this opportunity to not only contribute to an open source project that is realated to one of my favourite video games, but also practicing my Python skills.</p>
+    <p>On 8 September 2023, I completed <a href="https://cs50.harvard.edu/x/2023/weeks/7/">Week 7</a> of <a href="https://cs50.harvard.edu/x/2023/">CS50’s Introduction to Computer Science</a> (CS50x) course, by submitting the required assignments, <a href="https://cs50.harvard.edu/x/2023/labs/7/">Lab 7</a> and <a href="https://cs50.harvard.edu/x/2023/psets/7/">Problem Set 7</a>.</p>
+<p>Week 7 of the CS50x course revolved around SQL. Since I was focusing on learning about front-end web development, this was the first time I learned SQL and relational database. At first, I was worried about tackling this week's assignments due to my lack of familiarity to SQL.</p>
+<p>However, it turned out SQL and working on databases was more fun than I expected. I had a good time in writing out the SQL queries to solve this week's assigned problems. In particular, I found my new favourite assignment from CS50x in the <a href="https://cs50.harvard.edu/x/2023/psets/7/fiftyville/">Fiftyville</a> problem, which involved using SQL to solve a mystery of a theft of the CS50 Duck. I had a great deal of fun with the Fiftyville problem from start to finish, from writing my SQL queries and comments about my thought process in solving the mysteries, to narrowing down the suspects and eventually identifying the thief and their accomplice. Kudos to those who designed this fun and challenging assignment!</p>
+<p>Now that I am done with Week 7 of CS50x, I am ready to move on to next week, which will be about HTML, CSS and JavaScript — the languages I had spent the past eight months in learning and practicing through various courses outside CS50. CS50x Week 8 here I come!</p>
 
 </article>
-        <ul class="blog__post--nextprev"><li>Previous: <a href="/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed/">CS50x Week 8 Assignments Completed</a></li><li>Next: <a href="/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/">Chingu Voyage 46 Completed</a></li>
+        <ul class="blog__post--nextprev"><li>Previous: <a href="/blog/posts/2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project/">Built A TickyBot Clone for Chingu&#39;s Solo Projects</a></li><li>Next: <a href="/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed/">CS50x Week 8 Assignments Completed</a></li>
         </ul>
 
             </main>
@@ -287,4 +275,27 @@
         <li>
             <a href="https://tech.lgbt/@helenclx" target="_blank">
                 <p class="visually-hidden">Mastodon</p>
-                <i class="fa-brands fa-mastodon socials__icon" aria-hidde
+                <i class="fa-brands fa-mastodon socials__icon" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://bsky.app/profile/helenclx.bsky.social" target="_blank">
+                <p class="visually-hidden">Bluesky</p>
+                <i class="fa-brands fa-bluesky socials__icon"  aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/helenclx/" target="_blank">
+                <p class="visually-hidden">LinkedIn</p>
+                <i class="fa-brands fa-linkedin socials__icon" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+    <p>Built with &#x2661; by Helen Chong.</p>
+    <p>2022–2024. <a href="https://github.com/helenclx/helenclx.github.io" target="_blank">Source Code</a>.</p>
+</footer>
+    </body>
+</html>
