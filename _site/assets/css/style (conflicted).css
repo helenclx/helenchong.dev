@@ -570,16 +570,16 @@ button:hover {
 
 .blog__nav,
 .blog__nav--links {
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .blog__nav {
+    display: flex;
     flex-direction: column;
-    gap: 0.7em;
+    gap: 1.5em;
     padding-bottom: 1em;
     align-self: center;
+    justify-content: center;
     font-weight: 600;
 }
 
@@ -591,7 +591,9 @@ button:hover {
 }
 
 .blog__nav--links {
+    display: grid;
     list-style: none;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
@@ -717,11 +719,6 @@ button:hover {
 
     .profile__image-wrapper img {
         margin: 4rem;
-    }
-
-    .blog__nav {
-        flex-direction: row;
-        gap: 1.5em;
     }
 }
 
