@@ -593,9 +593,14 @@ button:hover {
     display: flex;
     gap: 0.5em;
 }
+
 .socials a:focus {
+    outline: none;
+}
+
+.socials li:focus-within {
     outline: 0.15em solid var(--clr-accent-700);
-    outline-offset: 0.1em;
+    outline-offset: 0.15em;
 }
 
 .socials__icon {
