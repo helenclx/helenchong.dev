@@ -40,7 +40,7 @@
 
         
         <script src="/assets/js/scroll.js" defer></script>
-        <script src="/assets/js/header-links.js" defer></script>
+        
 
         <title> Blog Post Category: &quot;html&quot; |  Helen Chong | Front-End Web Developer</title>
     </head>
@@ -49,30 +49,158 @@
             <img src="/assets/icons/top.svg" alt="">
         </button>
         <div class="content">
-            <header class="header">
+            <header><header class="header">
     <h1 class="header__title">
         <a href="/">Helen Chong</a>
     </h1>
     <h2 class="visually-hidden">Navigation Links:</h2>
     <ul class="header__links">
         <li>
-            <a class="header__link" href="/about">About</a>
+            <a href="/about" class="header__link">About</a>
         </li>
         <li>
-            <a class="header__link" href="/projects">Projects</a>
+            <a href="/projects" class="header__link">Projects</a>
         </li>
         <li>
-            <a class="header__link" href="/blog">Blog</a>
+            <a href="/blog" class="header__link">Blog</a>
         </li>
         <li>
-            <a class="header__link" href="/contact">Contact</a>
+            <a href="/contact" class="header__link">Contact</a>
         </li>
     </ul>
-    <button class="header__toggle" aria-label="Toggle navigation menu">
+    <button aria-label="Toggle navigation menu" class="header__toggle">
         <i class="fa-solid fa-bars"></i>
     </button>
 </header>
 
+<style>
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+        padding: 1rem 1.5rem;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: var(--clr-white);
+        box-shadow: var(--box-shadow);
+    }
+
+    .header__title {
+        color: var(--clr-accent-600);
+        text-transform: uppercase;
+    }
+
+    .header__title > a {
+        text-decoration: none;
+    }
+
+    .header__links {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: var(--clr-accent-600);
+        text-align: center;
+
+        flex-direction: column;
+        position: fixed;
+        background-color: var(--clr-white);
+        top: 5rem;
+        left: 10%;
+        width: 80%;
+        padding: 1.5em;
+        box-shadow: var(--box-shadow);
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .header__link {
+        position: relative;
+        font-size: 1.125rem;
+        text-decoration: none;
+    }
+
+    .header__link::after {
+        content: "";
+        left: 0px;
+        bottom: -4px;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        background-color: var(--clr-link-hover);
+        transform: scaleX(0);
+        transition: transform 0.3s ease 0s;
+    }
+
+    .header__link:hover::after {
+        transform: scaleX(1);
+    }
+
+    .header__link:focus {
+        outline: 0.2em solid var(--clr-accent-600);
+        outline-offset: 0.1em;
+    }
+
+    .header__toggle {
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+    }
+
+    .header__links--show {
+        transform: translateX(0);
+    }
+
+    /* For larger screen sizes */
+    @media (min-width: 640px) {
+        .header__title {
+            margin-bottom: 0;
+        }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .header__toggle {
+            display: none;
+        }
+
+        .header__links {
+            flex-direction: row;
+            position: static;
+            background-color: inherit;
+            top: 0;
+            left: 0;
+            padding: 0;
+            width: auto;
+            transform: none;
+            transition: none;
+            box-shadow: none;
+        }
+    }
+</style>
+
+<script>
+    const headerToggle = document.querySelector('.header__toggle');
+    const headerLinks = document.querySelector(".header__links");
+    const headerLinkAll = document.querySelectorAll('.header__link');
+
+    headerToggle.addEventListener('click', () => {
+        headerLinks.classList.toggle("header__links--show");
+    });
+
+    headerLinkAll.forEach((link) => {
+        link.addEventListener('click', () => {
+            headerLinks.classList.remove("header__links--show");
+        });
+    });
+</script></header>
+            
             <main class="main container">
                 
 <nav class="blog__nav">

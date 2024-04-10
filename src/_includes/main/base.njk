@@ -33,7 +33,7 @@
 
         {# JavaScript #}
         <script src="/assets/js/scroll.js" defer></script>
-        <script src="/assets/js/header-links.js" defer></script>
+        {# <script src="/assets/js/header-links.js" defer></script> #}
 
         <title>{% if title %} {{ title }} | {% endif %} Helen Chong | Front-End Web Developer</title>
     </head>
@@ -42,7 +42,9 @@
             <img src="/assets/icons/top.svg" alt="">
         </button>
         <div class="content">
-            {% include "main/header.njk" %}
+            {% renderTemplate "webc" %}
+                <header></header>
+            {% endrenderTemplate %}
             <main class="main container">
                 {{ content | safe }}
             </main>

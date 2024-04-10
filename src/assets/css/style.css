@@ -177,91 +177,6 @@ button:hover {
     width: 2rem;
 }
 
-/* Header Styles */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 4rem;
-    padding: 1rem 1.5rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: var(--clr-white);
-    box-shadow: var(--box-shadow);
-}
-
-.header__title {
-    color: var(--clr-accent-600);
-    text-transform: uppercase;
-}
-
-.header__title > a {
-    text-decoration: none;
-}
-
-.header__links {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: var(--clr-accent-600);
-    text-align: center;
-
-    flex-direction: column;
-    position: fixed;
-    background-color: var(--clr-white);
-    top: 5rem;
-    left: 10%;
-    width: 80%;
-    padding: 1.5em;
-    box-shadow: var(--box-shadow);
-    transform: translateX(120%);
-    transition: transform 0.5s ease-in;
-}
-
-.header__link {
-    position: relative;
-    font-size: 1.125rem;
-    text-decoration: none;
-}
-
-.header__link::after {
-    content: "";
-    left: 0px;
-    bottom: -4px;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    background-color: var(--clr-link-hover);
-    transform: scaleX(0);
-    transition: transform 0.3s ease 0s;
-}
-
-.header__link:hover::after {
-    transform: scaleX(1);
-}
-
-.header__link:focus {
-    outline: 0.2em solid var(--clr-accent-600);
-    outline-offset: 0.1em;
-}
-
-.header__toggle {
-    border: none;
-    background-color: transparent;
-    font-size: 2rem;
-}
-
-.header__links--show {
-    transform: translateX(0);
-}
-
 /* Footer Style */
 
 .footer {
@@ -707,10 +622,6 @@ button:hover {
 
 /* For larger screen sizes */
 @media (min-width: 640px) {
-    .header__title {
-        margin-bottom: 0;
-    }
-
     .profile {
         flex-direction: row;
     }
@@ -722,25 +633,5 @@ button:hover {
     .blog__nav {
         flex-direction: row;
         gap: 1.5em;
-    }
-}
-
-/* Tablet screen size */
-@media only screen and (min-width: 43.75rem) {
-    .header__toggle {
-        display: none;
-    }
-
-    .header__links {
-        flex-direction: row;
-        position: static;
-        background-color: inherit;
-        top: 0;
-        left: 0;
-        padding: 0;
-        width: auto;
-        transform: none;
-        transition: none;
-        box-shadow: none;
     }
 }
