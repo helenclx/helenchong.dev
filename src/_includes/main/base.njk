@@ -6,12 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {# Open Graph meta data #}
+        <meta property="og:title" content="{% if title %}{{ title }}{% else %}Helen Chong | Front-End Web Developer{% endif %}">
         {% metagen
-            title=title or metadata.title + '',
             desc=desc or metadata.desc,
             url=url + page.url,
             auhor='Helen Chong',
-            site_name='Helen Chong | Front-End Web Developer'
+            site_name='Helen Chong | Front-End Web Developer',
+            locale="en_GB"
         %}
 
         {# Google Fonts #}
