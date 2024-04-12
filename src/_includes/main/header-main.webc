@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" webc:root="override">
     <h1 class="header__title">
         <a href="/">Helen Chong</a>
     </h1>
@@ -23,11 +23,6 @@
 </header>
 
 <style webc:keep webc:bucket="defer">
-    header-main {
-        position: sticky;
-        top: 0;
-    }
-
     .header {
         display: flex;
         justify-content: space-between;
@@ -35,7 +30,8 @@
         flex-wrap: wrap;
         margin-bottom: 4rem;
         padding: 1rem 1.5rem;
-        left: 0;
+        position: sticky;
+        top: 0;
         background-color: var(--clr-white);
         box-shadow: var(--box-shadow);
     }
