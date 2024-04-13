@@ -4,12 +4,29 @@
     <subtitle>Helen Chong&#39;s tech and coding blog.</subtitle>
     <link href="https://helenclx.github.io/blog/feed.xml" rel="self"/>
     <link href="https://helenclx.github.io/blog/"/>
-    <updated>2024-04-11T00:00:00Z</updated>
+    <updated>2024-04-13T00:00:00Z</updated>
     <id>https://helenclx.github.io/blog/</id>
     <author>
         <name>Helen Chong</name>
         <email>helenclx@outlook.com</email>
     </author>
+        
+        <entry>
+            <title>Round 1 of 100 Days of Code Challenge Completed</title>
+            <link href="https://helenclx.github.io/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/"/>
+            <updated>2024-04-13T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/</id>
+            <content type="html">&lt;p&gt;On 3 January 2024, I started the &lt;a href=&quot;https://www.100daysofcode.com/&quot;&gt;#100DaysOfCode&lt;/a&gt; challenge for the first time. Came 11 April 2024, I finally completed my first round of the challenge!&lt;/p&gt;
+&lt;p&gt;I had heard of the 100 Days of Code challenge after I started my journey to learn to code. However, I did not participate in it until reading freeCodeCamp&#39;s article &lt;a href=&quot;https://www.freecodecamp.org/news/100daysofcode-challenge-2024-discord/&quot;&gt;&amp;quot;#100DaysOfCode Challenge for 2024 – Discord Edition&amp;quot;&lt;/a&gt;. This was also how I found out about the &lt;a href=&quot;https://www.freecodecamp.org/news/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d/&quot;&gt;history of the challenge&lt;/a&gt;, and the fact that the challenge was created by a freeCodeCamp alumni, which I found interesting as an aspiring developer to start to properly learn to code with freeCodeCamp.&lt;/p&gt;
+&lt;p&gt;By the time 2024 came around, I had been taking coding courses for more than a year, so I figured the 100 Days of Code challenge would be a good motivator for me to continue my coding journey every day.&lt;/p&gt;
+&lt;p&gt;It helped that there were still coding courses for me to take. At the time, freeCodeCamp just recently upgraded their &lt;a href=&quot;https://www.freecodecamp.org/news/learn-javascript-with-new-data-structures-and-algorithms-certification-projects/&quot;&gt;JavaScript&lt;/a&gt; and &lt;a href=&quot;https://www.freecodecamp.org/news/python-curriculum-upgrade/&quot;&gt;Python&lt;/a&gt; curriculum to be project-based. I already earned the &lt;a href=&quot;https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures&quot;&gt;Legacy JavaScript Algorithms and Data Structures Certification&lt;/a&gt;, but since I prefer to learn to code by building projects, I decided to take freeCodeCamp&#39;s upgraded curriculum, and eventually earned the &lt;a href=&quot;https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures-v8&quot;&gt;new freeCodeCamp JavaScript certification&lt;/a&gt; on 16 March 2024 as well.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I also started to enrol &lt;a href=&quot;https://scrimba.com/learn/frontend&quot;&gt;Scrimba&#39;s Frontend Developer Career Path&lt;/a&gt; after earning a one-year Scrimba Pro plan from the &lt;a href=&quot;https://helenclx.github.io/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won&quot;&gt;JavaScriptmas challenge&lt;/a&gt; in December 2023. By the time I completed my first round of the #100DaysOfCode challenge, I had also completed more than half of the curriculum.&lt;/p&gt;
+&lt;p&gt;I committed to the 100 Days of Code challenge by sharing updates every day on Twitter, Mastodon, Bluesky and the &lt;a href=&quot;https://discord.gg/freecodecamp&quot;&gt;official freeCodeCamp Discord server&lt;/a&gt;. In addition, I made the habit of recording my progress in the 100 Days of Code challenge every day, so I can reflect on my coding journey. You can view &lt;a href=&quot;https://github.com/helenclx/100-days-of-code&quot;&gt;my fork of the #100DaysOfCode challenge repository&lt;/a&gt; to read the log of my &lt;a href=&quot;https://github.com/helenclx/100-days-of-code/blob/master/r1-log.md&quot;&gt;Round 1&lt;/a&gt; of the challenge. You can fork the &lt;a href=&quot;https://github.com/kallaway/100-days-of-code&quot;&gt;official repository of the #100DaysOfCode challenge&lt;/a&gt; to log your own progress in the challenge.&lt;/p&gt;
+&lt;p&gt;To learn more about the #100DaysOfCode challenge, visit &lt;a href=&quot;https://www.100daysofcode.com/&quot;&gt;its official website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The #100DaysOfCode challenge has been a wonderful journey. I am glad I managed to motivate myself to code every day. Through various courses and projects, I have honed my front-end development skills a lot.&lt;/p&gt;
+&lt;p&gt;Thank you to everyone who has supported me throughout my 100 Days of Code journey, and has interacted with my posts on Twitter, Mastodon, Bluesky and the freeCodeCamp Discord serve, by replying to, liking or reposting.&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Rebuilding My Developer Portfolio with Eleventy</title>
