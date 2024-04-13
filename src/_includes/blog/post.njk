@@ -12,6 +12,7 @@ layout: blog/base
 <h2 class="heading--main">{{ title }}</h2>
 
 <section class="blog__post--info">
+    <p>{{ content | emojiReadTime }}</p>
 	<p><span class="text-bold">Posted:</span> {{ date | niceDate }}</p>
     {% if updated %}
         <p><span class="text-bold">Updated:</span> {{ updated | niceDate }}</p>

@@ -17,6 +17,7 @@
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "eleventy-plugin-metagen": "^1.8.3"
   }
 }
