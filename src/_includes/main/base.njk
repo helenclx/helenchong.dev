@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {# Open Graph meta data #}
-        <meta property="og:title" content="{% if title %}{{ title }}{% else %}Helen Chong | Front-End Web Developer{% endif %}">
+        <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
         {% metagen
             desc=desc or metadata.desc,
             url=url + page.url,
-            auhor='Helen Chong',
-            site_name='Helen Chong | Front-End Web Developer',
-            locale="en_GB"
+            auhor=sitemeta.siteAuthor.name,
+            site_name=sitemeta.siteName,
+            locale=sitemeta.siteLocale
         %}
 
         {# Google Fonts #}
@@ -32,7 +32,7 @@
         {# CSS #}
         <link rel="stylesheet" href="{{'/assets/css/style.css' | url | safe}}">
 
-        <title>{% if title %} {{ title }} | {% endif %} Helen Chong | Front-End Web Developer</title>
+        <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>
     <body>
         <div class="content">
