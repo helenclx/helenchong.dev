@@ -9,7 +9,7 @@
         <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
         {% metagen
             desc=desc or metadata.desc,
-            url=url + page.url,
+            url=sitemeta.siteUrl + page.url,
             auhor=sitemeta.siteAuthor.name,
             site_name=sitemeta.siteName,
             locale=sitemeta.siteLocale,
