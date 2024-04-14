@@ -5,9 +5,15 @@ layout: main/base
 <nav class="blog__nav">
     <h2 class="blog__nav--title">Blog Navigation:</h3>
     <ul class="blog__nav--links">
-        <li><a href="/blog">Index</a></li>
-        <li><a href="/blog/posts">Archive</a></li>
-        <li><a href="/blog/categories">Categories</a></li>
+        {% for page in collections["blog pages"] %}
+            <li>
+                <a
+                    {% if currentUrl === page.url %}aria-current="page"{% endif %}
+                    href="{{ page.url }}">
+                        {{ page.data.blogNav }}
+                </a>
+            </li>
+        {%- endfor %}
         <li><a href="/blog/feed.xml">RSS</a></li>
     </ul>
 </nav>
