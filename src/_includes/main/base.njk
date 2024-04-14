@@ -38,14 +38,11 @@
     <body>
         <div class="content">
             {% include "main/header.njk" %}
-
             <main class="main container">
                 {{ content | safe }}
             </main>
         </div>
-
         {% include "main/footer.njk" %}
-
         {% include "main/top-btn.njk" %}
     </body>
 </html>
