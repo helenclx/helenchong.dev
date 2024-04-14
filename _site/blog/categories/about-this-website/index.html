@@ -220,6 +220,7 @@
 </script>
             <main class="main container">
                 
+
 <nav class="blog__nav">
     <h2 class="blog__nav--title">Blog Navigation:</h3>
     <ul class="blog__nav--links">
@@ -248,6 +249,54 @@
         <li><a href="/blog/feed.xml">RSS</a></li>
     </ul>
 </nav>
+
+<style>
+    .blog__nav,
+    .blog__nav--links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog__nav {
+        flex-direction: column;
+        gap: 0.7em;
+        padding-bottom: 1em;
+        align-self: center;
+        font-weight: 600;
+    }
+
+    .blog__nav--title,
+    .blog__nav--links {
+        margin: 0;
+        padding: 0;
+        font-size: 1.1rem;
+    }
+
+    .blog__nav--links {
+        list-style: none;
+        gap: 1em;
+    }
+
+    .blog__nav--links li {
+        text-align: center;
+        align-self: center;
+
+    }
+
+    .blog__nav--links [aria-current="page"] {
+        text-decoration: none;
+        color: var(--clr-link-hover);
+        pointer-events: none;
+    }
+
+    @media (min-width: 640px) {
+        .blog__nav {
+            flex-direction: row;
+            gap: 1.5em;
+        }
+    }
+</style>
 
 
 <h2 class="heading--main">1 Posts Filed Under "about this website"</h2>
