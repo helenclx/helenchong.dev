@@ -1,28 +1,28 @@
-<header class="header" webc:root="override">
+{% set currentUrl %}{{ page.url }}{% endset %}
+
+<header class="header">
     <h1 class="header__title">
-        <a href="/">Helen Chong</a>
+        <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h1>
     <h2 class="visually-hidden">Navigation Links:</h2>
     <ul class="header__links">
-        <li>
-            <a class="header__link" href="/about">About</a>
-        </li>
-        <li>
-            <a class="header__link" href="/projects">Projects</a>
-        </li>
-        <li>
-            <a class="header__link" href="/blog">Blog</a>
-        </li>
-        <li>
-            <a class="header__link" href="/contact">Contact</a>
-        </li>
+        {% for page in collections.pages %}
+            <li>
+                <a
+                    {% if currentUrl === page.url %}aria-current="page"{% endif %}
+                    class="header__link"
+                    href="{{ page.url }}">
+                        {{ page.data.title }}
+                </a>
+            </li>
+        {%- endfor %}
     </ul>
     <button class="header__toggle" aria-label="Toggle navigation menu">
         <i class="fa-solid fa-bars"></i>
     </button>
 </header>
 
-<style webc:keep webc:bucket="defer">
+<style>
     .header {
         display: flex;
         justify-content: space-between;
@@ -133,7 +133,7 @@
     }
 </style>
 
-<script webc:keep webc:bucket="defer">
+<script defer>
     const headerToggle = document.querySelector('.header__toggle');
     const headerLinks = document.querySelector(".header__links");
     const headerLinkAll = document.querySelectorAll('.header__link');

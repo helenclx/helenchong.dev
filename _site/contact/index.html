@@ -40,26 +40,49 @@
     </head>
     <body>
         <div class="content">
-            <header class="header">
+            
+
+<header class="header">
     <h1 class="header__title">
-        <a href="/">Helen Chong</a>
+        <a  href="/">Helen Chong</a>
     </h1>
     <h2 class="visually-hidden">Navigation Links:</h2>
     <ul class="header__links">
-        <li>
-            <a href="/about" class="header__link">About</a>
-        </li>
-        <li>
-            <a href="/projects" class="header__link">Projects</a>
-        </li>
-        <li>
-            <a href="/blog" class="header__link">Blog</a>
-        </li>
-        <li>
-            <a href="/contact" class="header__link">Contact</a>
-        </li>
+        
+            <li>
+                <a
+                    
+                    class="header__link"
+                    href="/about/">
+                        About
+                </a>
+            </li>
+            <li>
+                <a
+                    
+                    class="header__link"
+                    href="/blog/">
+                        Blog
+                </a>
+            </li>
+            <li>
+                <a
+                    aria-current="page"
+                    class="header__link"
+                    href="/contact/">
+                        Contact
+                </a>
+            </li>
+            <li>
+                <a
+                    
+                    class="header__link"
+                    href="/projects/">
+                        Projects
+                </a>
+            </li>
     </ul>
-    <button aria-label="Toggle navigation menu" class="header__toggle">
+    <button class="header__toggle" aria-label="Toggle navigation menu">
         <i class="fa-solid fa-bars"></i>
     </button>
 </header>
@@ -175,7 +198,7 @@
     }
 </style>
 
-<script>
+<script defer>
     const headerToggle = document.querySelector('.header__toggle');
     const headerLinks = document.querySelector(".header__links");
     const headerLinkAll = document.querySelectorAll('.header__link');
@@ -190,7 +213,6 @@
         });
     });
 </script>
-            
 
             <main class="main container">
                 
