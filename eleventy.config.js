@@ -2,7 +2,6 @@
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const metagen = require('eleventy-plugin-metagen');
-const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 
 // App Plug-Ins
@@ -16,9 +15,6 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(metagen);
-    eleventyConfig.addPlugin(pluginWebc, {
-        components: "./src/_includes/**/*.webc",
-    });
     eleventyConfig.addPlugin(emojiReadTime);
 
     // App plug-ins
