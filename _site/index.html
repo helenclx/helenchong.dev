@@ -136,6 +136,10 @@
         transition: transform 0.5s ease-in;
     }
 
+    .header__links [aria-current="page"] {
+        color: var(--clr-link-hover);
+    }
+
     .header__link {
         position: relative;
         font-size: 1.125rem;
@@ -157,10 +161,6 @@
     .header__link:hover::after,
     .header__links [aria-current="page"]::after {
         transform: scaleX(1);
-    }
-
-    .header__links [aria-current="page"] {
-        color: var(--clr-link-hover);
     }
 
     .header__link:focus {
