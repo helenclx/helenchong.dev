@@ -5,7 +5,7 @@ date: 2023-11-25
 categories: ["chingu"]
 ---
 
-On 12 November 2023, I, along with two other teammates had officially completed [Chingu](https://www.chingu.io/) Voyage 46. I received my [Certificate of Completion (PDF file)](/assets/documents/Chingu-Voyage46-Completion-Cert.pdf) from Chingu on 19 November 2023.
+On 12 November 2023, I, along with two other teammates had officially completed [Chingu](https://www.chingu.io/) Voyage 46. I received my [Certificate of Completion](/assets/documents/Chingu-Voyage46-Completion-Cert.pdf) (PDF file) from Chingu on 19 November 2023.
 
 Back in August, I had created a [TickyBot clone](./2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project) as my [solo project](https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md) to submit to Chingu in order to join the next Chingu Voyage, specifically Tier 1, which is for web development beginners. My submission was approved by Chingu, and I was assigned to Tier 1 Team 1.
 
