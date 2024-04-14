@@ -311,8 +311,8 @@
     <p>2023–2024. <a href="https://github.com/helenclx/helenclx.github.io" target="_blank">Source Code</a>.</p>
 </footer>
 
-        <top-btn><button aria-label="Scroll to top" class="top-btn hidden">
-    <img src="/assets/icons/top.svg" alt>
+        <button class="top-btn hidden">
+    <img src="/assets/icons/top.svg" alt="Scroll to top">
 </button>
 
 <style>
@@ -341,7 +341,7 @@
     }
 </style>
 
-<script>
+<script defer>
     const topButton = document.querySelector(".top-btn");
 
     window.onscroll = () => {
@@ -359,7 +359,6 @@
             behavior: "smooth",
         });
     });
-</script></top-btn>
-        
+</script>
     </body>
 </html>
