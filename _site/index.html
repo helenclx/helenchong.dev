@@ -154,8 +154,13 @@
         transition: transform 0.3s ease 0s;
     }
 
-    .header__link:hover::after {
+    .header__link:hover::after,
+    .header__links [aria-current="page"]::after {
         transform: scaleX(1);
+    }
+
+    .header__links [aria-current="page"] {
+        color: var(--clr-link-hover);
     }
 
     .header__link:focus {
