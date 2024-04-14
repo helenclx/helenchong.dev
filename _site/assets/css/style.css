@@ -12,10 +12,19 @@
     --clr-accent-800: rgb(90, 0, 142);
     --clr-link-hover: #c83c00;
 
-    --ff-default: 'Inter';
-
     --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2),
         0 4px 6px -4px rgb(0 0 0 / 0.2);
+}
+
+/* ------------------- */
+/* Font Settings       */
+/* ------------------- */
+::root {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: 'Inter var', sans-serif; }
 }
 
 /* ------------------- */
@@ -96,7 +105,6 @@ textarea:not([rows]) {
 /* General Styles */
 
 body {
-    font-family: var(--ff-default), Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--clr-txt-default);
     display: flex;
