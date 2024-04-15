@@ -505,7 +505,7 @@ button:hover {
 }
 
 .form {
-    max-width: 36rem;
+    width: 36rem;
     margin: 4rem auto;
     border-radius: 0.25rem;
 }
