@@ -12,7 +12,6 @@ layout: blog/base
 <h2 class="heading--main">{{ title }}</h2>
 
 <section class="blog__post--info">
-    <p>{{ content | emojiReadTime }}</p>
 	<p><span class="text-bold">Posted:</span> {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}</p>
     {% if updated %}
         <p><span class="text-bold">Updated:</span> {{ updated | niceDate }}</p>
@@ -21,6 +20,7 @@ layout: blog/base
 	{% for cat in categories %}
         <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
 	{% endfor %}
+    <p>{{ content | emojiReadTime }}</p>
     </p>
 </section>
 
