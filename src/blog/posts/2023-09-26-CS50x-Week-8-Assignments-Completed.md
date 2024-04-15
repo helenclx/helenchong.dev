@@ -5,7 +5,7 @@ date: 2023-09-26
 categories: ["cs50", "cs50x", "html", "css", "javascript"]
 ---
 
-At last, I completed and submitted [Week 8](https://cs50.harvard.edu/x/2023/weeks/8/) assignments of the CS50's Introduction to Computer Science (CS50x) course, including [Lab 8](https://cs50.harvard.edu/x/2023/labs/8/) and [Problem Set 8](https://cs50.harvard.edu/x/2023/psets/8/)
+At last, I completed and submitted [Week 8](https://cs50.harvard.edu/x/2023/weeks/8/) assignments of the CS50's Introduction to Computer Science (CS50x) course, including [Lab 8](https://cs50.harvard.edu/x/2023/labs/8/) and [Problem Set 8](https://cs50.harvard.edu/x/2023/psets/8/).
 
 The eighth week of the CS50x is about HTML, CSS, JavaScript and how the internet works. I already have a good foundation in HTML, CSS and JavaScript since I started taking front-end web development courses on other platforms like freeCodeCamp and Scrimba since December 2022. Even then, I learned new things about how the internet works from the CS50x course.
 
