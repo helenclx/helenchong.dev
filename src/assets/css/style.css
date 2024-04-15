@@ -505,7 +505,7 @@ button:hover {
 }
 
 .form {
-    width: 36rem;
+    width: 90%;
     margin: 4rem auto;
     border-radius: 0.25rem;
 }
@@ -585,5 +585,11 @@ button:hover {
 
     .profile__image-wrapper img {
         margin: 4rem;
+    }
+}
+
+@media only screen and (min-width: 36rem) {
+    .form {
+        max-width: 36rem;
     }
 }
