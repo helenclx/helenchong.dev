@@ -1,83 +1,20 @@
+{%- from "macros.njk" import skill -%}
 <section class="skills">
     <h2 class="skills__heading">My Skills</h2>
     <ul class="skills__list">
-        <li class="skills__item">
-            <div class="skills__logo">
-            <img src="/assets/icons/skills/html.svg" alt="HTML logo">
-            </div>
-            <h3 class="skills__title">HTML</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-            <img src="/assets/icons/skills/css.svg" alt="CSS logo">
-            </div>
-            <h3 class="skills__title">CSS</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-            <img src="/assets/icons/skills/javascript.svg" alt="JavaScript logo">
-            </div>
-            <h3 class="skills__title">JavaScript</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-            <img src="/assets/icons/skills/react.svg" alt="React.js logo">
-            </div>
-            <h3 class="skills__title">React.js</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-            <img src="/assets/icons/skills/bootstrap.svg" alt="Bootstrap logo">
-            </div>
-            <h3 class="skills__title">Bootstrap</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/python.svg" alt="Python logo">
-            </div>
-            <h3 class="skills__title">Python</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/flask.svg" alt="Flask logo">
-            </div>
-            <h3 class="skills__title">Flask</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/firebase.svg" alt="Firebase logo">
-            </div>
-            <h3 class="skills__title">Firebase</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/git.svg" alt="Git logo">
-            </div>
-            <h3 class="skills__title">Git</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/c-programming.svg" alt="C programming language logo">
-            </div>
-            <h3 class="skills__title">C</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/adobe-photoshop.svg" alt="Adobe Photoshop logo">
-            </div>
-            <h3 class="skills__title">Adobe Photoshop</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/adobe-illustrator.svg" alt="Adobe Illustrator logo">
-            </div>
-            <h3 class="skills__title">Adobe Illustrator</h3>
-        </li>
-        <li class="skills__item">
-            <div class="skills__logo">
-                <img src="/assets/icons/skills/figma.svg" alt="Figma logo">
-            </div>
-            <h3 class="skills__title">Figma</h3>
-        </li>
+        {{ skill({ name: 'HTML', file: 'html.svg' }) }}
+        {{ skill({ name: 'CSS', file: 'css.svg' }) }}
+        {{ skill({ name: 'JavaScript', file: 'javascript.svg' }) }}
+        {{ skill({ name: 'React.js', file: 'react.svg' }) }}
+        {{ skill({ name: 'Bootstrap', file: 'bootstrap.svg' }) }}
+        {{ skill({ name: 'Nunjucks', file: 'nunjucks.png' }) }}
+        {{ skill({ name: 'Python', file: 'python.svg' }) }}
+        {{ skill({ name: 'Flask', file: 'flask.svg' }) }}
+        {{ skill({ name: 'Firebase', file: 'firebase.svg' }) }}
+        {{ skill({ name: 'Git', file: 'git.svg' }) }}
+        {{ skill({ name: 'C', file: 'c-programming.svg' }) }}
+        {{ skill({ name: 'Adobe Photoshop', file: 'adobe-photoshop.svg' }) }}
+        {{ skill({ name: 'Adobe Illustrator', file: 'adobe-illustrator.svg' }) }}
+        {{ skill({ name: 'Figma', file: 'figma.svg' }) }}
     </ul>
 </section>
