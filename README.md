@@ -1,4 +1,4 @@
-# Helen Chong's Portfolio
+# Helen Chong's Developer Portfolio
 
 Source code of my developer portfolio and blog website. Built with Eleventy.
 
