@@ -56,7 +56,7 @@
             <li>
                 <a
                     
-                    class="header__link"
+                    class="header__link "
                     href="/about/">
                         About
                 </a>
@@ -64,7 +64,7 @@
             <li>
                 <a
                     
-                    class="header__link"
+                    class="header__link "
                     href="/blog/">
                         Blog
                 </a>
@@ -72,7 +72,7 @@
             <li>
                 <a
                     
-                    class="header__link"
+                    class="header__link "
                     href="/projects/">
                         Projects
                 </a>
@@ -80,7 +80,7 @@
             <li>
                 <a
                     
-                    class="header__link"
+                    class="header__link "
                     href="/contact/">
                         Contact
                 </a>
@@ -137,7 +137,8 @@
         transition: transform 0.5s ease-in;
     }
 
-    .header__links [aria-current="page"] {
+    .header__links [aria-current="page"],
+    .link--active {
         color: var(--clr-link-hover);
     }
 
@@ -160,7 +161,8 @@
     }
 
     .header__link:hover::after,
-    .header__links [aria-current="page"]::after {
+    .header__links [aria-current="page"]::after,
+    .link--active::after {
         transform: scaleX(1);
     }
 

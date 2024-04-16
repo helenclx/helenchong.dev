@@ -10,7 +10,7 @@
             <li>
                 <a
                     {% if currentUrl === page.url %}aria-current="page"{% endif %}
-                    class="header__link"
+                    class="header__link {% if '/blog' in currentUrl and '/blog' in page.url or '/projects' in currentUrl and '/projects' in page.url %}link--active{% endif %}"
                     href="{{ page.url }}">
                         {{ page.data.title }}
                 </a>
@@ -68,7 +68,8 @@
         transition: transform 0.5s ease-in;
     }
 
-    .header__links [aria-current="page"] {
+    .header__links [aria-current="page"],
+    .link--active {
         color: var(--clr-link-hover);
     }
 
@@ -91,7 +92,8 @@
     }
 
     .header__link:hover::after,
-    .header__links [aria-current="page"]::after {
+    .header__links [aria-current="page"]::after,
+    .link--active::after {
         transform: scaleX(1);
     }
 
