@@ -14,7 +14,9 @@ layout: main/base
                         {{ page.data.blogNav }}
                 </a>
             </li>
+            {% if not loop.last %}|{% endif %}
         {%- endfor %}
+        |
         <li><a href="/blog/feed.xml">RSS</a></li>
     </ul>
 </nav>
@@ -25,11 +27,12 @@ layout: main/base
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .blog__nav {
         flex-direction: column;
-        gap: 0.7em;
+        gap: 0.5em;
         padding-bottom: 1em;
         align-self: center;
         font-weight: 600;
@@ -44,7 +47,7 @@ layout: main/base
 
     .blog__nav--links {
         list-style: none;
-        gap: 1em;
+        gap: 0.7em;
     }
 
     .blog__nav--links li {
