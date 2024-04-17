@@ -17,11 +17,11 @@ layout: blog/base
         <p><span class="text-bold">Updated:</span> {{ updated | niceDate }}</p>
     {% endif %}
 	<p><span class="text-bold">Categories:</span>
-	{% for cat in categories %}
-        <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
-	{% endfor %}
-    <p>{{ content | emojiReadTime }}</p>
+        {% for cat in categories %}
+            <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
     </p>
+    <p>{{ content | emojiReadTime }}</p>
 </section>
 
 <article class="prose">
