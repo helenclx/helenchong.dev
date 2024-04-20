@@ -7,6 +7,9 @@ permalink: /blog/categories/{{ category | slugify }}/
 layout: blog/base
 eleventyComputed:
     title: 'Blog Post Category: "{{ category }}"'
+    eleventyNavigation:
+        key: {{ category }}
+        parent: Categories
 ---
 {% set postCount = collections.posts | filterByCategory(category) | length %}
 <h2 class="heading--main">{{ postCount }} Posts Filed Under "{{ category }}"</h2>
