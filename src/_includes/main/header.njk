@@ -6,15 +6,14 @@
     </h1>
     <h2 class="visually-hidden">Navigation Links:</h2>
     <ul class="header__links">
-        {% for page in collections.pages %}
-            <li>
-                <a
-                    {% if currentUrl === page.url %}aria-current="page"{% endif %}
-                    class="header__link {% if '/blog' in currentUrl and '/blog' in page.url or '/projects' in currentUrl and '/projects' in page.url %}link--active{% endif %}"
-                    href="{{ page.url }}">
-                        {{ page.data.title }}
-                </a>
-            </li>
+        {% set navPages = collections.all | eleventyNavigation %}
+        {%- for entry in navPages %}
+            <li><a
+                    {% if entry.url == page.url %}aria-current="page"{% endif %}
+                    class="header__link {% if '/blog' in currentUrl and '/blog' in entry.url or '/projects' in currentUrl and '/projects' in entry.url %}link--active{% endif %}"
+                    href="{{ entry.url }}">
+                        {{ entry.title }}
+            </a></li>
         {%- endfor %}
     </ul>
     <button class="header__toggle" aria-label="Toggle navigation menu">
