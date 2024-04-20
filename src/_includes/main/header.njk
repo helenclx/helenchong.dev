@@ -9,10 +9,10 @@
         {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}
             <li><a
-                    {% if entry.url == page.url %}aria-current="page"{% endif %}
-                    class="header__link {% if '/blog' in currentUrl and '/blog' in entry.url or '/projects' in currentUrl and '/projects' in entry.url %}link--active{% endif %}"
-                    href="{{ entry.url }}">
-                        {{ entry.title }}
+                {% if entry.url == page.url %}aria-current="page"{% endif %}
+                class="header__link {% if '/blog' in currentUrl and '/blog' in entry.url or '/projects' in currentUrl and '/projects' in entry.url %}link--active{% endif %}"
+                href="{{ entry.url }}">
+                    {{ entry.title }}
             </a></li>
         {%- endfor %}
     </ul>
