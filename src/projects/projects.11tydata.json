@@ -1,4 +1,10 @@
 {
     "layout": "main/project.njk",
-    "tags": "projects"
+    "tags": "projects",
+    "eleventyComputed": {
+        "eleventyNavigation": {
+            "key": "{{ title }}",
+            "parent": "Projects"
+        }
+    }
 }
