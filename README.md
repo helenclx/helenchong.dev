@@ -6,6 +6,7 @@ Source code of my developer portfolio and blog website. Built with Eleventy.
 - [Eleventy](https://www.11ty.dev/)
 - Eleventy's official [Image](https://www.11ty.dev/docs/plugins/image/) plugin
 - Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
+- Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 - [Emoji Read Time Eleventy Plugin](https://11ty.rocks/#plugin-emoji-read-time) by Stephanie Eckles
 - [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen) by tannerdolby
 - [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything) by Graham F. Scott
