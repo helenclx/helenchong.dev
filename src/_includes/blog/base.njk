@@ -6,11 +6,14 @@ layout: main/base
 <nav class="blog__nav">
     <h2 class="blog__nav--title">Blog Navigation:</h3>
     <ul class="blog__nav--links">
-        {% for page in collections["blog pages"] %}
+        <li><a {% if page.url == "/blog/" %}aria-current="page"{% endif %} href="/blog/">Index</a></li>
+        {% set navPages = collections.all | eleventyNavigation("Blog") %}
+        {%- for entry in navPages %}
             <li><a
-                    {% if currentUrl === page.url %}aria-current="page"{% endif %}
-                    href="{{ page.url }}"
-                >{{ page.data.blogNav }}</a></li>
+                {% if entry.url == page.url %}aria-current="page"{% endif %}
+                href="{{ entry.url }}">
+                    {{ entry.title }}
+            </a></li>
         {%- endfor %}
         <li><a href="/blog/feed.xml">RSS</a></li>
     </ul>
