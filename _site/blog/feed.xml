@@ -4,12 +4,24 @@
     <subtitle>Helen Chong&#39;s tech and coding blog.</subtitle>
     <link href="https://helenclx.github.io/blog/feed.xml" rel="self"/>
     <link href="https://helenclx.github.io/blog/"/>
-    <updated>2024-04-15T00:00:00Z</updated>
+    <updated>2024-04-22T00:00:00Z</updated>
     <id>https://helenclx.github.io/blog/</id>
     <author>
         <name>Helen Chong</name>
         <email>helenclx@outlook.com</email>
     </author>
+        
+        <entry>
+            <title>Now Page for My Website</title>
+            <link href="https://helenclx.github.io/blog/posts/2024-04-22-now-page-for-my-website/"/>
+            <updated>2024-04-22T00:00:00Z</updated>
+            <id>https://helenclx.github.io/blog/posts/2024-04-22-now-page-for-my-website/</id>
+            <content type="html">&lt;p&gt;On 21 April 2024, I have added a &lt;a href=&quot;https://helenclx.github.io/now&quot;&gt;now page&lt;/a&gt; to this website.&lt;/p&gt;
+&lt;p&gt;The idea of adding a &amp;quot;now page&amp;quot; was inspired by the website &lt;a href=&quot;https://nownownow.com/&quot;&gt;nownownow.com&lt;/a&gt;, which &lt;a href=&quot;https://nownownow.com/about&quot;&gt;defines&lt;/a&gt; a now page as a page that tells you what this person is focused on at this point in their life. In addition, I also have &lt;a href=&quot;https://nownownow.com/p/D9En&quot;&gt;my own profile on nownownow.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As an aspiring web developer, a now page on my developer portfolio website serves as a means to inform the public about my current priorities and projects.&lt;/p&gt;
+&lt;p&gt;My /now page can be updated at any time, so feel free to check the page out when you visit this website!&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>CS50x Week 9 Completed</title>
