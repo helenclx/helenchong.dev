@@ -11,7 +11,9 @@ layout: main/base
     <div class="project__content prose">
         <h3>Project links</h3>
         <ul>
-            <li><a href="{{ siteUrl }}" target="_blank">Project Site</a></li>
+            {% if siteUrl -%}
+                <li><a href="{{ siteUrl }}" target="_blank">Project Site</a></li>
+            {%- endif %}
             <li><a href="{{ repoUrl }}" target="_blank">Project Repository</a></li>
         </ul>
 

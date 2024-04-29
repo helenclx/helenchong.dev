@@ -7,7 +7,6 @@ tech:
   - Vanilla JavaScript
   - API
   - Firebase
-siteUrl: https://github.com/helenclx/Scrimba-Frontend-Solo-Projects
 repoUrl: https://github.com/helenclx/Scrimba-Frontend-Solo-Projects
 ---
 

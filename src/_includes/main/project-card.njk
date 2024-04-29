@@ -16,7 +16,9 @@
             </svg>
         </a>
         <div class="project-card__btns">
-            <a class="project-card__btn" href="{{ project.data.siteUrl }}" target="_blank">Project Site</a>
+            {% if project.data.siteUrl -%}
+                <a class="project-card__btn" href="{{ project.data.siteUrl }}" target="_blank">Project Site</a>
+            {%- endif %}
             <a class="project-card__btn" href="{{ project.data.repoUrl }}" target="_blank">Repository</a>
         </div>
     </div>
