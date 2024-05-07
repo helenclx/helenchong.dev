@@ -2,7 +2,7 @@
 layout: main/base
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-05-01
+updated: 2024-05-07
 eleventyNavigation:
     key: Now
     order: 2
@@ -28,5 +28,5 @@ You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En){ta
 #### [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2024/){target="_blank"}:
 
 * Completed Week 9. Doing my final project: A blogging website built in Flask and Bootstrap.
-    * Refactor the project with Flask blueprints.
+    * Started addomg functions to create posts.
 {% endcontainer %}
