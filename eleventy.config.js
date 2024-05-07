@@ -1,4 +1,4 @@
-// Installed Plug-ins
+// Installed Plugins
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -6,14 +6,14 @@ const metagen = require('eleventy-plugin-metagen');
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 const embedEverything = require("eleventy-plugin-embed-everything");
 
-// App Plug-Ins
-const pluginImages = require("./eleventy.config.images.js");
-
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
 
-    // Installed Plug-ins
+    // Custom plugins
+    eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+
+    // Installed Plugins
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -23,10 +23,7 @@ module.exports = function(eleventyConfig) {
         add: ['soundcloud']
     });
 
-    // App plug-ins
-    eleventyConfig.addPlugin(pluginImages);
-
-    // Add short codes
+    // Shortcode: Current year
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
     // Filter: Format dates
@@ -41,7 +38,7 @@ module.exports = function(eleventyConfig) {
         return locale.format(date);
     });
 
-    // Filter: Limit
+    // Filter: Limit the number of items displayed
     eleventyConfig.addFilter("limit", function(array, limit) {
         return array.slice(0, limit);
     });
