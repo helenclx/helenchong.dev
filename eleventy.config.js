@@ -1,10 +1,8 @@
 // Installed Plugins
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const metagen = require('eleventy-plugin-metagen');
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
-const embedEverything = require("eleventy-plugin-embed-everything");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/");
@@ -12,16 +10,13 @@ module.exports = function(eleventyConfig) {
 
     // Custom plugins
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+    eleventyConfig.addPlugin(require("./eleventy.config.md.js"));
 
     // Installed Plugins
-    eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(emojiReadTime);
-    eleventyConfig.addPlugin(embedEverything, {
-        add: ['soundcloud']
-    });
 
     // Shortcode: Current year
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
