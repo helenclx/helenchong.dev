@@ -19,6 +19,8 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "eleventy-plugin-embed-everything": "^1.18.2",
-    "eleventy-plugin-metagen": "^1.8.3"
+    "eleventy-plugin-metagen": "^1.8.3",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-bracketed-spans": "^1.0.1"
   }
 }
