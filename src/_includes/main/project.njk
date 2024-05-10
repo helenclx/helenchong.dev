@@ -12,9 +12,9 @@ layout: main/base
         <h3>Project links</h3>
         <ul>
             {% if siteUrl -%}
-                <li><a href="{{ siteUrl }}" target="_blank">Project Site</a></li>
+                <li><a href="{{ siteUrl }}">Project Site</a></li>
             {%- endif %}
-            <li><a href="{{ repoUrl }}" target="_blank">Project Repository</a></li>
+            <li><a href="{{ repoUrl }}">Project Repository</a></li>
         </ul>
 
         {{ content | safe }}
