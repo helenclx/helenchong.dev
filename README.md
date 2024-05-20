@@ -14,7 +14,6 @@ Source code of my developer portfolio and blog website. Built with Eleventy.
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 
 ## Self-hosted Assets
-- [Inter](https://rsms.me/inter/) font family
 - [Font Awesome](https://fontawesome.com/)
 - Technology and stack icons from [icons8](https://icons8.com/)
 
