@@ -1,0 +1,15 @@
+{% set cssFiles = [
+    "global",
+    "general",
+    "components",
+    "projects",
+    "prose",
+    "blog",
+    "footer",
+    "socials",
+    "utility"
+] %}
+
+{%- for file in cssFiles -%}
+<link rel="stylesheet" href="{{'/assets/css/' + file + '.css' | url | safe}}">
+{%- endfor -%}

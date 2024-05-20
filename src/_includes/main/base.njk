@@ -32,7 +32,7 @@
         <link rel="manifest" href="{{'/assets/icons/favicon/site.webmanifest' | url | safe}}">
 
         {# CSS #}
-        <link rel="stylesheet" href="{{'/assets/css/style.css' | url | safe}}">
+        {% include "css.njk" %}
 
         <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>
