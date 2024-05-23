@@ -23,7 +23,6 @@ module.exports = function(eleventyConfig) {
 
     // Filter: Format dates
     const dateOptions = {
-        weekday: 'long',
         year: 'numeric',
         month: 'long',
         day: 'numeric',
