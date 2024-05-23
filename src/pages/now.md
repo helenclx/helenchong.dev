@@ -2,7 +2,7 @@
 layout: main/base
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-05-17
+updated: 2024-05-23
 eleventyNavigation:
     key: Now
     order: 2
@@ -13,20 +13,20 @@ eleventyNavigation:
 
 *This page was last updated on {{ updated | niceDate }}.*
 
-This is my [/now page](https://nownownow.com/about), which highlights what I am doing and focusing on at the moment. You can find more pages like this at [nownownow.com](https://nownownow.com/){target="_blank"}.
+This is my [/now page](https://nownownow.com/about), which highlights what I am doing and focusing on at the moment. You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
-You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En){target="_blank"}.
+You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 
 ### My Current Progress in My Courses
 
-#### [Scrimba's Frontend Developer Career Path](https://scrimba.com/learn/frontend){target="_blank"}:
+#### [Scrimba's Frontend Developer Career Path](https://scrimba.com/learn/frontend):
 
 * Completed Module 9 - Learn UI Design
 * Completed Module 10 - React Basics
     * Note: I had completed most of this module and [all the solo projects](https://github.com/helenclx/Scrimba-React-Solo-Projects) form this module in July 2023, before enrolling the Frontend Developer Career Path in January 2024. This time I was merely watching all the updated scrims.
 
-#### [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2024/){target="_blank"}:
+#### [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2024/):
 
-* Completed Week 9. Doing my final project: A blogging website built in Flask and Bootstrap.
-    * Added function to change username.
+* Completed my final project: [CS50 Flask Blog](https://github.com/helenclx/cs50-flask-blog).
+    * Received the [CS50x certificate](https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367).
 {% endcontainer %}
