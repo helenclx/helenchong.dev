@@ -19,8 +19,7 @@ CS50 Flask Blog includes the following features:
 - Rich text editor for writing and editing blog posts
 - Change username and password
 
-The concept of CS50 Flask Blog was a blogging application that can be
-run and used on a local machine. In addition, CS50 Flask Blog was designed to prioritise user privacy, as it requires users to create an account and log in to write blog posts, thus making it a good fit for private blog posts.
+The concept of CS50 Flask Blog was a blogging application that can be run and used on a local machine. In addition, CS50 Flask Blog was designed to prioritise user privacy, as it requires users to create an account and log in to write blog posts, thus making it a good fit for private blog posts.
 
 Another reason I decided to create a blogging application as my final project for CS50x was because I wanted to make use of and apply the Flask skills and knowledge I learned from Week 9 of CS50x. While my (current) speciality is front-end web development, I find Flask in conjunction with SQL useful for projects that need a database, like a blogging platform.
 
@@ -28,7 +27,7 @@ The idea of requiring users to log in to use the application's main functions wa
 
 To make further good use of the user account feature and the SQL database of CS50 Flask Blog, I also added the ability for users to change their username and password, and use the SQL database to store users' blog posts.
 
-During my research into building Flask apps, I learned about Flask Blueprints, which are great for making a Flask project scalable and maintainable. I discovered an excellent [Real Python tutorial for building a scalable Flask web project from scratch](https://realpython.com/flask-project/). Using Flask Blueprints was new to me, since this was not taught in CS50x's Flask lessons.
+During my research into building Flask apps, I learned about [Flask Blueprints](https://flask.palletsprojects.com/en/2.3.x/blueprints/), which are great for making a Flask project modular, scalable and maintainable. I discovered an excellent [Real Python tutorial for building a scalable Flask web project from scratch](https://realpython.com/flask-project/). Using Flask Blueprints was new to me, since this was not taught in CS50x's Flask lessons.
 
 When I was working on CS50 Flask Blog, I was also looking for other tutorials about building a blogging project with Flask for reference and inspiration. I ended up referring to Noran Saber Abdelfattah's guide, ["Building a Flask Blog: A Step-by-Step Guide for Beginners"](https://medium.com/@noransaber685/building-a-flask-blog-a-step-by-step-guide-for-beginners-8bffe925cd0e) for how to write the functions to edit and delete posts, but I wrote different code than Abdelfattah's guide to accommodate CS50 Flask Blog's user account features.
 
