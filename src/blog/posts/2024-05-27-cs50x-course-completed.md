@@ -37,4 +37,8 @@ Per CS50x's instructions, after the process of writing the code and testing the 
 
 For the demo video, which was required to submit the final project, I used Bandicam to record a demo video and Kdenlive to edit the video, which allowed me to practice video editing. I searched for a stock clip and a stock music on Pixabay to add flavour to my demo video.
 
+After submitting CS50 Flask Blog as my final project, I successfully claimed my CS50x certificate! You can also [view the PDF version of my CS50x certificate](https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367).
+
+![Helen Chong's CS50x certificate](/assets/images/posts/cs50x-course-completed/CS50x-certificate.png)
+
 Taking the CS50x course had been a great opportunity for me to learn about computer science, how to learn different programming languages and practice problem-solving skills with its problem sets. I am continuing to focus on front-end web development, but I hope I could carry what I learned from CS50x in my developer journey.
