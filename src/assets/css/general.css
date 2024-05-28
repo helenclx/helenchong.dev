@@ -1,4 +1,7 @@
 /* General Styles */
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-size: 1.15rem;
