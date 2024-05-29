@@ -5,8 +5,10 @@ const metagen = require('eleventy-plugin-metagen');
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 
 module.exports = function(eleventyConfig) {
+    // Copy files
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
+    eleventyConfig.addPassthroughCopy("CNAME");
 
     // Custom plugins
     eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
