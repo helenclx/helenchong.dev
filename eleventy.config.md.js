@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true,
+        linkify: true,
     })
         .use(require("markdown-it-attrs"))
         .use(require("markdown-it-bracketed-spans"))
