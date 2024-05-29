@@ -19,6 +19,15 @@
     outline: 0.2em solid var(--clr-accent-600);
 }
 
+/* Index headings */
+.heading--index {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--clr-accent-600);
+}
+
 /* Profile Styles */
 .profile {
     display: flex;
@@ -80,15 +89,6 @@
 }
 
 /* Skills Styles */
-.skills__heading {
-    margin-bottom: 1.5rem;
-    padding: 1rem 0;
-    font-size: 2.5rem;
-    text-align: center;
-    font-weight: 700;
-    color: var(--clr-accent-600);
-}
-
 .skills__list {
     width: 100%;
     max-width: 60rem;
