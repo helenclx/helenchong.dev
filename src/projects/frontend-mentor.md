@@ -6,7 +6,7 @@ imageAlt: Screenshots of a solution to a Frontend Mentor challenge
 tech:
   - Vanilla JavaScript
   - API
-siteUrl: https://helenclx.github.io/Frontend-Mentor-Challenges/
+siteUrl: http://helenchong.dev/Frontend-Mentor-Challenges/
 repoUrl: https://github.com/helenclx/Frontend-Mentor-Challenges
 ---
 
