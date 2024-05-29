@@ -1,9 +1,9 @@
 {% set currentUrl %}{{ page.url }}{% endset %}
 
 <header class="header">
-    <h1 class="header__title">
+    <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
-    </h1>
+    </h2>
     <h2 class="visually-hidden">Navigation Links:</h2>
     <ul class="header__links">
         {% set navPages = collections.all | eleventyNavigation %}
@@ -38,6 +38,7 @@
     .header__title {
         color: var(--clr-accent-600);
         text-transform: uppercase;
+        font-size: 2rem;
     }
 
     .header__title a:focus {

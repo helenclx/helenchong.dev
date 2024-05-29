@@ -6,7 +6,7 @@ eleventyNavigation:
     order: 4
 ---
 
-<h2 class="projects__heading">Featured Projects</h2>
+<h1 class="heading--main">Featured Projects</h1>
 <div class="project-list">
     {% asyncEach project in collections.projects %}
         {% include "main/project-card.njk" %}
