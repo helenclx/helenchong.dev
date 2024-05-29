@@ -19,11 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: current
-
       # Set up bun
       - name: Use Bun
         uses: oven-sh/setup-bun@v1
