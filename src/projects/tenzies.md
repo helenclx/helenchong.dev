@@ -5,7 +5,7 @@ image: /assets/images/projects/Tenzies-Game.png
 imageAlt: Screenshots of Tenzies Game
 tech:
   - React.js
-siteUrl: http://helenchong.dev/Tenzies-Game/
+siteUrl: https://helenchong.dev/Tenzies-Game/
 repoUrl: https://github.com/helenclx/Tenzies-Game
 ---
 
