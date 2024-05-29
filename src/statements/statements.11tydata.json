@@ -1,0 +1,8 @@
+{
+    "layout": "main/statement",
+    "tags": "statements",
+    "permalink": "/{{ page.fileSlug }}/",
+    "eleventyComputed": {
+        "desc": "{{ sitemeta.siteName }}'s {{ keyword }}."
+    }
+}
