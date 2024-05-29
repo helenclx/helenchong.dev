@@ -5,7 +5,7 @@ module.exports = {
 	siteDescription: "Helen Chong's developer portfolio and blog website.",
 	siteAuthor: {
 		name: "Helen Chong",
-		email: "helenclx@outlook.com",
+		email: "contact@helenchong.dev",
 		url: "https://helenchong.dev//about/"
 	}
 }
