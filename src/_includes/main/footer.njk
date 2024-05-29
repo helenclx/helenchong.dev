@@ -10,10 +10,24 @@
 <style>
     .footer {
         width: 100%;
-        padding: 1rem;
+        padding: 1em 1em 3em 1em;
         text-align: center;
         display: flex;
         gap: 0.5em;
         flex-direction: column;
+    }
+
+    /* Screen sizes larger than mobile */
+    @media only screen and (min-width: 30rem) {
+        .footer {
+            padding: 1em 1em 2em 1em;
+        }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .footer {
+            padding: 1em;
+        }
     }
 </style>
