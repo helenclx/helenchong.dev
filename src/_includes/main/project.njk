@@ -4,12 +4,12 @@ layout: main/base
 <p><a href="/projects/"><i class="fa-solid fa-arrow-left"></i> Back to projects</a></p>
 
 <article class="project">
-    <h2 class="project__heading">{{ title }}</h2>
+    <h1 class="project__heading">{{ title }}</h1>
     <div class="project__image-wrapper">
         {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
     </div>
     <div class="project__content prose">
-        <h3>Project links</h3>
+        <h2>Project links</h2>
         <ul>
             {% if siteUrl -%}
                 <li><a href="{{ siteUrl }}">Project Site</a></li>

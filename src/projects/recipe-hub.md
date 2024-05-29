@@ -10,19 +10,19 @@ siteUrl: https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/
 repoUrl: https://github.com/chingu-voyages/v46-tier1-team-01
 ---
 
-### Introduction
+## Introduction
 
 Recipe Hub is a team project built by Tier 1 Team 1 from [Chingu](https://www.chingu.io/) Voyage 46. I was part of this team along with two other developers.
 
-### Problem Solved
+## Problem Solved
 
 Recipe Hub allows users to search for recipes by by inputting ingredients. The search input is used to fetch recipe data from the [Tasty API](https://rapidapi.com/apidojo/api/tasty).
 
-### Technologies Used
+## Technologies Used
 
 Recipe Hub is built with HTML, CSS, vanilla JavaScript and the [Tasty API](https://rapidapi.com/apidojo/api/tasty).
 
-### Challenges Faced
+## Challenges Faced
 
 The free tier of Tasty API has a limited quota of how much response we can fetch monthly. As we worked on this project, we quickly ran out of quota multiple times, and therefore we had to constantly change our API key.
 
