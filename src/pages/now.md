@@ -2,7 +2,7 @@
 layout: main/base
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-05-23
+updated: 2024-05-31
 eleventyNavigation:
     key: Now
     order: 2
@@ -13,7 +13,7 @@ eleventyNavigation:
 
 *This page was last updated on {{ updated | niceDate }}.*
 
-This is my [/now page](https://nownownow.com/about), which highlights what I am doing and focusing on at the moment. You can find more pages like this at [nownownow.com](https://nownownow.com/).
+This is my [/now page](https://nownownow.com/about), which highlights what I am doing and focusing on at the moment. You can find more pages like this at [nownownow.com](https://nownownow.com/2024-05-29-custom-domain-name-helenchong-dev).
 
 You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 
@@ -25,8 +25,8 @@ You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 * Completed Module 10 - React Basics
     * Note: I had completed most of this module and [all the solo projects](https://github.com/helenclx/Scrimba-React-Solo-Projects) form this module in July 2023, before enrolling the Frontend Developer Career Path in January 2024. This time I was merely watching all the updated scrims.
 
-### [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2024/):
+## Other Things I Have Been Doing Recently
 
-* Completed my final project: [CS50 Flask Blog](https://github.com/helenclx/cs50-flask-blog).
-    * Received the [CS50x certificate](https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367).
+* Learning about purchasing and configuring custom domains since [I finally have one now](/blog/posts/).
+
 {% endcontainer %}
