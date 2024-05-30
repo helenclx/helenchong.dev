@@ -31,6 +31,10 @@
     color: var(--clr-slate-600);
 }
 
+.form__input:focus {
+    outline: 0.2em solid var(--clr-accent-600);
+}
+
 .form__button {
     display: block;
     width: 100%;
@@ -44,7 +48,7 @@
 }
 
 .form__button:focus {
-    outline: 0.2em solid var(--clr-accent-600);
+    outline: 0.3em solid var(--clr-accent-600);
     outline-offset: 0.15em;
 }
 
