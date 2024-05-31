@@ -3,15 +3,19 @@
     "permalink": "blog/feed.xml",
     "eleventyExcludeFromCollections": true,
     "metadata": {
-        "title": "Helen Codes",
-        "subtitle": "Helen Chong's tech and coding blog.",
-        "url": "http://helenchong.dev/blog/",
-        "feedUrl": "http://helenchong.dev/blog/feed.xml",
-        "language": "en",
-        "author": {
-            "name": "Helen Chong",
-            "email": "contact@helenchong.dev",
-            "url": "http://helenchong.dev/"
+        "title": "Helen Codes"
+    },
+    "eleventyComputed":{
+        "metadata": {
+            "subtitle": "{{ sitemeta.siteAuthor.name }}'s tech and coding blog.",
+            "url": "{{ sitemeta.siteUrl }}blog/",
+            "feedUrl": "{{ sitemeta.siteUrl }}blog/feed.xml",
+            "language": "{{ sitemeta.siteLocale }}",
+            "author": {
+                "name": "{{ sitemeta.siteAuthor.name }}",
+                "email": "{{ sitemeta.siteAuthor.email }}",
+                "url": "{{ sitemeta.siteUrl }}"
+            }
         }
     }
 }
