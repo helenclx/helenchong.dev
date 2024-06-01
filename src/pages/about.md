@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 {% container "article", "bio prose" %}
-# About Me
+# About Me {.heading--main}
 
 Hi, I am Helen Chong (they/she). I am a front-end web developer with 8 years of working experience as a graphic designer.
 
