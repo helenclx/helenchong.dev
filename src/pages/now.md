@@ -27,6 +27,6 @@ You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 
 ## Other Things I Have Been Doing Recently
 
-* Learning about purchasing and configuring custom domains since [I finally have one now](/blog/posts/).
+* Learning about purchasing and configuring custom domains since [I finally have one now](/blog/posts/2024-05-29-custom-domain-name-helenchong-dev).
 
 {% endcontainer %}
