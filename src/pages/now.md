@@ -2,7 +2,7 @@
 layout: main/base
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-05-31
+updated: 2024-06-01
 eleventyNavigation:
     key: Now
     order: 2
