@@ -88,12 +88,13 @@
 
 /* Skills Styles */
 .skills__list {
+    list-style: none;
+    padding: 0;
     width: 100%;
     max-width: 60rem;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
-    gap: 1.5rem;
+    gap: 1em;
 }
 
 .skills__item {
