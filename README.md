@@ -7,9 +7,14 @@ Source code of my developer portfolio and blog website. Built with Eleventy.
 - Eleventy's official [Image](https://www.11ty.dev/docs/plugins/image/) plugin
 - Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 - Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
+- Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
+
+### Eleventy Community Plugins
 - [Emoji Read Time Eleventy Plugin](https://11ty.rocks/#plugin-emoji-read-time)
 - [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
 - [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
+
+### markdown-it Plugins
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 
