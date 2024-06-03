@@ -81,6 +81,11 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
+This set-up made my Scrimba React solo projects live at the following links:
+- [Digital Business Card](https://helenchong.dev/Scrimba-React-Solo-Projects/1-digital-business-card/)
+- [Travel Journal](https://helenchong.dev/Scrimba-React-Solo-Projects/2-travel-journal/)
+- [Quizzical](https://helenchong.dev/Scrimba-React-Solo-Projects/3-quizzical/)
+
 I was beyond relief to finally deployed my Scrimba React solo projects to GitHub Pages, so I decided to do a bit more by creating a HTML home page to list those solo projects when the main link of the deployed repository, https://helenchong.dev/Scrimba-React-Solo-Projects/, is visited.
 
 I do not need a fancy home page for my deployed Scrimba React solo projects, so I based the home page's CSS on the [Smol Document Styles by SmolCSS](https://SmolCSS.dev/#smol-document-styles).
@@ -90,12 +95,12 @@ After finished creating the HTML and CSS of the home page, I wrote an extra step
 ```yaml
 # index page and assets
 - name: Deploy index page and assets
-run: |
-    mkdir -p deploy
-    cp -r index.html style.css deploy/
-    cp -r 1-digital-business-card/screenshot.png deploy/1-digital-business-card/
-    cp -r 2-travel-journal/screenshot.png deploy/2-travel-journal/
-    cp -r 3-quizzical/screenshot-start.png 3-quizzical/screenshot-questions.png 3-quizzical/screenshot-answers.png deploy/3-quizzical/
+  run: |
+      mkdir -p deploy
+      cp -r index.html style.css deploy/
+      cp -r 1-digital-business-card/screenshot.png deploy/1-digital-business-card/
+      cp -r 2-travel-journal/screenshot.png deploy/2-travel-journal/
+      cp -r 3-quizzical/screenshot-start.png 3-quizzical/screenshot-questions.png 3-quizzical/screenshot-answers.png deploy/3-quizzical/
 ```
 What this step does is creating a "deploy" folder and then copy the home page's HTML, CSS to the "deploy" folder, and copy the project screenshots to the folder of each project.
 
