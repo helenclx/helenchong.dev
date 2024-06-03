@@ -11,7 +11,7 @@
     --clr-accent-700: #8200cd;
     --clr-accent-800: rgb(90, 0, 142);
     --clr-link-hover: #c83c00;
-    --clr-code: #c83c00;
+    --clr-code-bg: #f2f1f1;
 
     --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
         0 4px 6px -4px rgb(0 0 0 / 0.2);
