@@ -4,14 +4,17 @@
 :root {
     --clr-white: #fff;
     --clr-txt-default: #111111;
+
     --clr-slate-300: #797979;
     --clr-slate-600: #494949;
     --clr-accent-100: #edcfff;
     --clr-accent-600: #a200ff;
     --clr-accent-700: #8200cd;
     --clr-accent-800: rgb(90, 0, 142);
+
     --clr-link-hover: #c83c00;
     --clr-code-bg: #f2f1f1;
+    --clr-code-border: #616161;
 
     --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
         0 4px 6px -4px rgb(0 0 0 / 0.2);

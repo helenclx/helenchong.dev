@@ -21,6 +21,30 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 2em;
 }
 
+code {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+:not(pre) > code {
+    padding: 0.125em 0.25em;
+}
+
+:not(pre) > code,
+pre {
+    background-color: var(--clr-code-bg);
+}
+
+pre {
+    border: 0.1em solid var(--clr-code-border);
+    max-width: 90vw;
+    overflow: auto;
+    padding: 1rem;
+}
+
+pre > code {
+    white-space: pre;
+}
+
 main {
     display: flex;
     flex-direction: column;
