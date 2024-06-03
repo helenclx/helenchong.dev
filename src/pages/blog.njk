@@ -19,13 +19,7 @@ eleventyNavigation:
 </section>
 
 <h2>Latest Posts:</h2>
-<ul class="blog__postlist">
-    {% for post in collections.posts | reverse | limit(3) %}
-        <li>
-            <p class="blog__postlist--title"><a href="{{post.url}}">{{ post.data.title }}</a></p>
-            <time>{{ post.date | niceDate }}</time>
-        </li>
-    {% endfor %}
-</ul>
+{% set postList = collections.posts | reverse | limit(3) %}
+{% include "blog/postslist.njk" %}
 
 <p>See all blog posts in the <a href="/blog/posts/">archive</a>.</p>
