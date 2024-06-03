@@ -36,10 +36,6 @@ a:hover {
     color: var(--clr-link-hover);
 }
 
-code {
-    color: var(--clr-code);
-}
-
 button:hover {
     cursor: pointer;
 }
