@@ -2,8 +2,13 @@
     {% include "main/socials.njk" %}
 
     <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
+
     <p><a href="/blog/feed.xml">RSS Feed</a> | <a href="/accessibility">Accessibility</a></p>
     <p>Built with <a href="https://www.11ty.dev/">Eleventy</a>. <a href="https://github.com/helenclx/helenclx.github.io">Source Code</a>.</p>
+
+    <div id="wcb" class="carbonbadge"></div>
+    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
     <p><a href="#page-top">Back to Top <i class="fa-solid fa-arrow-up"></i></a></p>
     {% include "main/top-btn.njk" %}
 </footer>
