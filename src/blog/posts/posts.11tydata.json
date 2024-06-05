@@ -1,7 +1,6 @@
 {
     "layout": "blog/post",
     "tags": "posts",
-    "enableWebMention": true,
     "eleventyComputed": {
         "eleventyNavigation": {
             "key": "{{ title }}",
