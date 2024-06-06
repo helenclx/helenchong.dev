@@ -22,7 +22,7 @@ main {
 .prose {
     font-size: 1.125rem;
     color: var(--clr-slate-600);
-    padding: 1.5rem var(--sz-main-padding);
+    padding: 0 var(--sz-main-padding);
 }
 
 .prose > * + :not([class]) {
@@ -65,7 +65,6 @@ main {
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     .container {
-        padding: 0 var(--sz-main-padding);
         grid-template-areas: 'leftbar article rightbar';
         grid-template-columns: minmax(0, 20%) minmax(0, 2.5fr) minmax(0, 20%);
     }
