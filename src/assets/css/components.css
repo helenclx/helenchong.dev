@@ -41,6 +41,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3em 1em 0;
 }
 
 .profile__image-wrapper {
@@ -90,6 +91,7 @@
 @media (min-width: 640px) {
     .profile {
         flex-direction: row;
+        padding: 0 1em;
     }
 
     .profile__image-wrapper img {
