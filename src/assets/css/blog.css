@@ -15,6 +15,7 @@
 
 .blog__post--info {
     gap: 0.3em;
+    font-size: var(--sz-home-txt);
     margin-bottom: 2em;
 }
 
