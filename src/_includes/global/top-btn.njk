@@ -1,30 +1,24 @@
-<button class="top-btn hidden">
-    <img src="/assets/icons/top.svg" alt="Scroll to top">
-</button>
+<button class="top-btn hidden" aria-label="Scroll to top">🡹</button>
 
 <style>
-    :root {
-        --clr-top-btn: #4153b6;
-    }
-
     .top-btn {
         position: fixed;
+        margin: 0;
+        padding: 0;
         bottom: 0.5rem;
         right: 0.5rem;
         z-index: 999;
         border: none;
-        background-color: var(--clr-top-btn);
+        background-color: var(--clr-top-btn-bg);
+        color: var(--clr-top-btn-txt);
         border-radius: 50em;
-        padding: 0.5em;
+        width: 2rem;
+        aspect-ratio: 1 / 1;
     }
 
     .top-btn:focus {
-        outline: 0.25em solid var(--clr-top-btn);
+        outline: 0.25em solid var(--clr-top-btn-bg);
         outline-offset: 0.15em;
-    }
-
-    .top-btn img {
-        width: 2rem;
     }
 </style>
 
