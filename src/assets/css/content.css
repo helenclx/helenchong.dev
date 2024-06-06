@@ -20,7 +20,7 @@ main {
 .prose {
     font-size: var(--sz-main-txt);
     color: var(--clr-slate-600);
-    padding: 0 var(--sz-main-padding);
+    padding: 0 var(--sz-main-padding) 1.5rem;
 }
 
 .prose > * + :not([class]) {
