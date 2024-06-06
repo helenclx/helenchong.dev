@@ -20,6 +20,11 @@
 }
 
 /* Profile Styles */
+.profile,
+.section--home{
+    padding: 2em 1em;
+}
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -85,7 +90,6 @@
 
 /* Home page sections */
 .section--home {
-    padding: 2em 1em;
     display: grid;
     place-content: center;
     font-size: var(--sz-home-txt);
