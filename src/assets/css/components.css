@@ -1,8 +1,3 @@
-/* Home page sections */
-.section--home {
-    padding: 2em 0;
-}
-
 /* Skip to content button */
 .skip-btn a {
     position: absolute;
@@ -24,17 +19,14 @@
     outline: 0.2em solid var(--clr-accent-600);
 }
 
-/* Index headings */
-.heading--home {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
 /* Profile Styles */
 .profile {
     display: flex;
     flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    font-size: var(--sz-home-txt);
+    max-width: 64rem;
 }
 
 .profile__image-wrapper {
@@ -89,6 +81,21 @@
     .profile__image-wrapper img {
         margin: 4rem;
     }
+}
+
+/* Home page sections */
+.section--home {
+    padding: 2em 0;
+    display: grid;
+    place-content: center;
+    font-size: var(--sz-home-txt);
+}
+
+/* Index headings */
+.heading--home {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 /* Skills Styles */
