@@ -1,5 +1,5 @@
 {
-    "layout": "main/statement",
+    "layout": "main/content",
     "tags": "statements",
     "permalink": "/{{ page.fileSlug }}/",
     "eleventyComputed": {
