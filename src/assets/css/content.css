@@ -1,11 +1,6 @@
-main,
 .main__header,
 .container {
     display: grid;
-}
-
-main {
-    width: 100%;
 }
 
 .container {
