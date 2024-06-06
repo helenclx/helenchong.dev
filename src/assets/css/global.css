@@ -24,7 +24,7 @@
     --sz-h2: clamp(1.55rem, 1rem + 3vw, 2.15rem);
     --sz-h3: clamp(1.55rem, 1rem + 3vw, 1.8rem);
     --sz-h4: clamp(1.4rem, 1rem + 3vw, 1.6rem);
-    --sz-main-padding: clamp(1rem, 5%, 4rem);
+    --sz-main-padding: clamp(1em, 5%, 1.5em);
     --sz-paragraph-margin: 1.15em;
 }
 
