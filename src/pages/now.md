@@ -7,8 +7,6 @@ eleventyNavigation:
     order: 2
 ---
 
-# Now {.heading--main}
-
 *This page was last updated on {{ updated | niceDate }}.*
 
 This is my [/now page](https://nownownow.com/about), which highlights what I am doing and focusing on at the moment. You can find more pages like this at [nownownow.com](https://nownownow.com/2024-05-29-custom-domain-name-helenchong-dev).
