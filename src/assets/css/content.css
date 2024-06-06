@@ -20,7 +20,7 @@ main {
 .prose {
     font-size: var(--sz-main-txt);
     color: var(--clr-slate-600);
-    padding: 0 var(--sz-main-padding) 1.5rem;
+    padding: 0 var(--sz-main-padding);
 }
 
 .prose > * + :not([class]) {
@@ -63,6 +63,7 @@ main {
 
     .prose {
         grid-area: article;
+        padding: 0 var(--sz-main-padding) 2em;
     }
 
     .left-sidebar {
