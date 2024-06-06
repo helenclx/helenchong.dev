@@ -15,12 +15,12 @@ main {
 }
 
 .main__header {
-    padding: 2.5rem var(--sz-main-padding);
+    padding: 1rem var(--sz-main-padding);
     text-align: center;
 }
 
 .prose {
-    font-size: 1.125rem;
+    font-size: var(--sz-main-txt);
     color: var(--clr-slate-600);
     padding: 0 var(--sz-main-padding);
 }
