@@ -1,5 +1,6 @@
 ---
 title: About
+isArticle: true
 eleventyNavigation:
     key: About
     order: 1

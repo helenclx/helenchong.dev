@@ -2,6 +2,7 @@
 title: Now
 desc: What I am up to at the moment.
 updated: 2024-06-01
+isArticle: true
 eleventyNavigation:
     key: Now
     order: 2
