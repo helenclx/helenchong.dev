@@ -1,22 +1,37 @@
 ---
 layout: main/base
+hasBreadcrumbs: true
 ---
-<p><a href="/projects/"><i class="fa-solid fa-arrow-left"></i> Back to projects</a></p>
+<div class="project--page">
+    <header class="main__header">
+        {% if isArticle or hasBreadcrumbs %}
+            <ul class="breadcrumbs">
+                {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(pageTitle or title) %}
+                {%- for entry in breadcrumbNavPages %}
+                <li>
+                    <a href="{{ entry.url }}">{{ entry.title }}</a>
+                </li>
+                {%- endfor %}
+            </ul>
+        {% endif %}
 
-<article class="project">
-    <h1 class="project__heading">{{ title }}</h1>
-    <div class="project__image-wrapper">
-        {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
-    </div>
-    <div class="project__content prose">
-        <h2>Project links</h2>
-        <ul>
-            {% if siteUrl -%}
-                <li><a href="{{ siteUrl }}">Project Site</a></li>
-            {%- endif %}
-            <li><a href="{{ repoUrl }}">Project Repository</a></li>
-        </ul>
+        <h1 class="heading--main">{{ pageTitle or title }}</h1>
+    </header>
 
-        {{ content | safe }}
-    </div>
-</article>
+    <article class="project">
+        <div class="project__image-wrapper">
+            {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
+        </div>
+        <div class="project__content prose">
+            <h2>Project links</h2>
+            <ul>
+                {% if siteUrl -%}
+                    <li><a href="{{ siteUrl }}">Project Site</a></li>
+                {%- endif %}
+                <li><a href="{{ repoUrl }}">Project Repository</a></li>
+            </ul>
+
+            {{ content | safe }}
+        </div>
+    </article>
+</div>

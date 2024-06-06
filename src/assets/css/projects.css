@@ -121,8 +121,13 @@
     margin: 0 auto 4rem auto;
 }
 
+.project--page {
+    display: grid;
+    place-content: center;
+}
+
 .project {
-    margin-bottom: 4rem;
+    max-width: 60rem;
 }
 
 .project__image-wrapper {
