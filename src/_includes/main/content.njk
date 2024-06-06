@@ -3,16 +3,7 @@ layout: main/base
 ---
 
 <header class="main__header">
-    {% if isArticle or hasBreadcrumbs %}
-        <ul class="breadcrumbs">
-            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(pageTitle or title) %}
-            {%- for entry in breadcrumbNavPages %}
-            <li>
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-            {%- endfor %}
-        </ul>
-    {% endif %}
+    {% include "global/breadcrumbs.njk" %}
 
     <h1 class="heading--main">{{ pageTitle or title }}</h1>
 
@@ -55,20 +46,3 @@ layout: main/base
         {% include "blog/blognav.njk" %}
     {% endif %}
 </div>
-
-<style>
-    .breadcrumbs {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .breadcrumbs li::after {
-        content: '➔';
-        padding-left: 0.3em;
-    }
-</style>
