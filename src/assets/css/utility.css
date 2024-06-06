@@ -1,13 +1,11 @@
 /* Utility Classes */
 
-.container {
-    max-width: 64rem;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-}
-
-.content {
-    flex: 1 0 auto;
+/* Main Heading Style */
+.heading--main {
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--clr-accent-600);
 }
 
 .text-center {

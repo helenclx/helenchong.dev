@@ -1,5 +1,4 @@
 ---
-layout: main/base
 title: Now
 desc: What I am up to at the moment.
 updated: 2024-06-01
@@ -8,7 +7,6 @@ eleventyNavigation:
     order: 2
 ---
 
-{% container "article", "prose" %}
 # Now {.heading--main}
 
 *This page was last updated on {{ updated | niceDate }}.*
@@ -28,5 +26,3 @@ You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 ## Other Things I Have Been Doing Recently
 
 * Learning about purchasing and configuring custom domains since [I finally have one now](/blog/posts/2024-05-29-custom-domain-name-helenchong-dev).
-
-{% endcontainer %}

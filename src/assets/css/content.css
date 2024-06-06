@@ -1,0 +1,75 @@
+main,
+.container {
+    display: grid;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    gap: 1rem;
+    justify-self: center;
+    padding: 1.5rem var(--sz-main-padding);
+}
+
+/* Prose Styles */
+.prose {
+    font-size: 1.125rem;
+    color: var(--clr-slate-600);
+}
+
+.prose > * + :not([class]) {
+    margin-top: var(--sz-paragraph-margin);
+}
+
+.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    margin-top: 2em;
+}
+
+.prose h3 {
+    font-size: 1.5rem;
+    margin: 1.7em 0 0.7em;
+}
+
+.prose ul {
+    margin-bottom: 1em;
+    display: grid;
+    gap: 0.5em;
+}
+
+.prose ul > li {
+    position: relative;
+    padding-left: 1em;
+}
+
+.prose p {
+    margin-bottom: 1.25rem;
+}
+
+/* About Styles */
+
+.bio {
+    max-width: 65ch;
+}
+
+/* Desktop main content layout */
+@media only screen and (min-width: 60rem) {
+    .container {
+        padding: 0 var(--sz-main-padding);
+        grid-template-areas: 'leftbar article rightbar';
+        grid-template-columns: minmax(0, 20%) minmax(0, 2.5fr) minmax(0, 20%);
+    }
+
+    .prose {
+        grid-area: article;
+    }
+
+    .left-sidebar {
+        grid-area: leftbar;
+    }
+
+    .right-sidebar {
+        grid-area: rightbar;
+    }
+}

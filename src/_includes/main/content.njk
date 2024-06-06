@@ -1,0 +1,15 @@
+---
+layout: main/base
+---
+
+<div class="container">
+    {% if isArticle or isStatement %}
+        <article class="prose">
+            {{ content | safe }}
+        </article>
+    {% else %}
+		<div class="prose">
+			{{ content | safe }}
+		</div>
+    {% endif %}
+</div>

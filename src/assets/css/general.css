@@ -45,11 +45,6 @@ pre > code {
     white-space: pre;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 a {
     color: var(--clr-accent-700);
     font-weight: 700;

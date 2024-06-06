@@ -40,12 +40,10 @@
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
-        <div class="content">
-            {% include "main/header.njk" %}
-            <main class="main container" id="content">
-                {{ content | safe }}
-            </main>
-        </div>
+        {% include "main/header.njk" %}
+        <main id="content">
+            {{ content | safe }}
+        </main>
         {% include "main/footer.njk" %}
     </body>
 </html>
