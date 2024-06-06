@@ -1,6 +1,6 @@
 {%- macro skill(params) -%}
     <li class="skills__item">
-	    <img src="/assets/icons/skills/{{ params.file }}" alt="{{ params.name }} logo" class="skills__logo">
+	    <div class="skills__logo"><img src="/assets/icons/skills/{{ params.file }}" alt="{{ params.name }} logo"></div>
 	    <p class="skills__title">{{ params.name }}</p>
 	</li>
 {%- endmacro -%}
