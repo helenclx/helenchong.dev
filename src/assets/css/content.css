@@ -31,24 +31,14 @@ main {
     margin-top: 2em;
 }
 
-.prose h3 {
-    font-size: 1.5rem;
-    margin: 1.7em 0 0.7em;
-}
-
-.prose ul {
-    margin-bottom: 1em;
+.prose ul:not([class]), .prose ol:not([class]){
     display: grid;
-    gap: 0.5em;
+    gap: 0.7em;
 }
 
-.prose ul > li {
-    position: relative;
-    padding-left: 1em;
-}
-
-.prose p {
-    margin-bottom: 1.25rem;
+.prose ul ul, .prose ol ol,
+.prose ul ol, .prose ol ul {
+    margin-top: 0.7em;
 }
 
 .bio {
