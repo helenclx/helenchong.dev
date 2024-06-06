@@ -24,6 +24,23 @@ h1 {
     font-size: var(--sz-h1);
 }
 
+h2 {
+    font-size: var(--sz-h2);
+}
+
+h3 {
+    font-size: var(--sz-h3);
+}
+
+h2:has(+ *[class]),
+h3:has(+ *[class]) {
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-size: var(--sz-h4);
+}
+
 code {
     font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
