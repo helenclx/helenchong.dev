@@ -2,14 +2,80 @@
 layout: main/base
 ---
 
+<header class="main__header">
+    {% if isArticle or hasBreadcrumbs %}
+        <ul class="breadcrumbs">
+            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(pageTitle or title) %}
+            {%- for entry in breadcrumbNavPages %}
+            <li>
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+            {%- endfor %}
+        </ul>
+    {% endif %}
+
+    {% if isArticle %}
+        <h1 class="heading--main">{{ pageTitle or title }}</h1>
+
+        <div class="blog__post--info">
+            <p><span class="text-bold">Posted:</span> {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}</p>
+            {% if updated %}
+                <p><span class="text-bold">Last Updated:</span> {{ updated | niceDate }}</p>
+            {% endif %}
+            <p><span class="text-bold">Categories:</span>
+                {% for cat in categories %}
+                    <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+            <p>{{ content | emojiReadTime }}</p>
+        </div>
+    {% else %}
+        <h1>{{ pageTitle or title }}</h1>
+    {% endif %}
+</header>
+
 <div class="container">
-    {% if isArticle or isStatement %}
+    {% if isArticle %}
         <article class="prose">
             {{ content | safe }}
+
+            {% if tags and tags.includes("posts") %}
+                {%- if collections.posts %}
+                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+                {%- set nextPost = collections.posts | getNextCollectionItem %}
+                {%- if nextPost or previousPost %}
+                    <ul class="blog__post--nextprev">
+                        {%- if previousPost %}<li>Previous Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+                        {%- if nextPost %}<li>Next Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                    </ul>
+                {%- endif %}
+            {%- endif %}
+            {% endif %}
         </article>
     {% else %}
 		<div class="prose">
 			{{ content | safe }}
 		</div>
     {% endif %}
+
+    {% if tags and tags.includes("blog pages") %}
+        {% include "blog/blognav.njk" %}
+    {% endif %}
 </div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+</style>

@@ -5,8 +5,6 @@ eleventyNavigation:
     order: 1
 ---
 
-# About Me {.heading--main}
-
 Hi, I am Helen Chong (they/she). I am a front-end web developer with 8 years of working experience as a graphic designer. I specialise in front-end web development.
 
 I intend to transfer my graphic design experience into web design and web development expertise, as I love to code and build sites and apps to solve problems. I have a particular interest on responsive, accessible, inclusive and scalable design to create the best user experience.

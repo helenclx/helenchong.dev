@@ -1,11 +1,9 @@
 ---
 layout: blog/base
 ---
-<p><a href="/blog/posts/"><i class="fa-solid fa-arrow-left"></i> Back to posts</a></p>
+{# <p><a href="/blog/posts/"><i class="fa-solid fa-arrow-left"></i> Back to posts</a></p> #}
 
-<h1 class="heading--main">{{ title }}</h1>
-
-<section class="blog__post--info">
+{# <section class="blog__post--info">
 	<p><span class="text-bold">Posted:</span> {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}</p>
     {% if updated %}
         <p><span class="text-bold">Last Updated:</span> {{ updated | niceDate }}</p>
@@ -16,7 +14,7 @@ layout: blog/base
         {% endfor %}
     </p>
     <p>{{ content | emojiReadTime }}</p>
-</section>
+</section> #}
 
 <article class="prose">
     {{ content | safe }}
