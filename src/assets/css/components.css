@@ -118,3 +118,8 @@
     color: var(--clr-slate-600);
     text-align: center;
 }
+
+.webrings, .badges {
+    display: grid;
+    place-content: center;
+}
