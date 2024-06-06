@@ -21,10 +21,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.8em;
 }
 
-* + h2, h3, h4, h5, h6 {
-    margin-top: 2em;
-}
-
 code {
     font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
