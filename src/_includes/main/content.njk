@@ -33,28 +33,23 @@ layout: main/base
 </header>
 
 <div class="container">
-    {% if isArticle %}
-        <article class="prose">
-            {{ content | safe }}
+    {% set contentEl = "article" if isArticle else "div" %}
+    <{{contentEl}} class="prose">
+        {{ content | safe }}
 
-            {% if tags and tags.includes("posts") %}
-                {%- if collections.posts %}
-                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-                {%- set nextPost = collections.posts | getNextCollectionItem %}
-                {%- if nextPost or previousPost %}
-                    <ul class="blog__post--nextprev">
-                        {%- if previousPost %}<li>Previous Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-                        {%- if nextPost %}<li>Next Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-                    </ul>
-                {%- endif %}
+        {% if tags and tags.includes("posts") %}
+            {%- if collections.posts %}
+            {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+            {%- set nextPost = collections.posts | getNextCollectionItem %}
+            {%- if nextPost or previousPost %}
+                <ul class="blog__post--nextprev">
+                    {%- if previousPost %}<li>Previous Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+                    {%- if nextPost %}<li>Next Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+                </ul>
             {%- endif %}
-            {% endif %}
-        </article>
-    {% else %}
-		<div class="prose">
-			{{ content | safe }}
-		</div>
-    {% endif %}
+        {%- endif %}
+        {% endif %}
+    </{{contentEl}}>
 
     {% if tags and tags.includes("blog pages") %}
         {% include "blog/blognav.njk" %}
