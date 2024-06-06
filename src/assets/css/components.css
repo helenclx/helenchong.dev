@@ -32,7 +32,6 @@
 
 .section--home,
 .profile {
-    padding: 0 1em 2em;
     max-width: 64rem;
     font-size: var(--sz-home-txt);
     justify-self: center;
