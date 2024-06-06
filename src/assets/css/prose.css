@@ -1,0 +1,44 @@
+/* Main Heading Style */
+.heading--main {
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--clr-accent-600);
+}
+
+/* Prose Styles */
+.prose {
+    font-size: 1.125rem;
+    color: var(--clr-slate-600);
+}
+
+.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    margin-top: 2em;
+}
+
+.prose h3 {
+    font-size: 1.5rem;
+    margin: 1.7em 0 0.7em;
+}
+
+.prose ul {
+    margin-bottom: 1rem;
+    display: grid;
+    gap: 0.3em;
+}
+
+.prose ul > li {
+    position: relative;
+    padding-left: 1em;
+}
+
+.prose p {
+    margin-bottom: 1.25rem;
+}
+
+/* About Styles */
+
+.bio {
+    margin: 0 auto 4rem auto;
+    max-width: 65ch;
+}

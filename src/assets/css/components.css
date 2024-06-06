@@ -1,3 +1,8 @@
+/* Home page sections */
+.section--home {
+    padding: 2em 0;
+}
+
 /* Skip to content button */
 .skip-btn a {
     position: absolute;
@@ -117,9 +122,4 @@
     font-weight: 400;
     color: var(--clr-slate-600);
     text-align: center;
-}
-
-.webrings, .badges {
-    display: grid;
-    place-content: center;
 }
