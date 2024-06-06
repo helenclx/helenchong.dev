@@ -1,4 +1,5 @@
 main,
+.main__header,
 .container {
     display: grid;
 }
@@ -16,12 +17,12 @@ main {
 .main__header {
     padding: 2.5rem var(--sz-main-padding);
     text-align: center;
-    display: grid;
 }
 
 .prose {
     font-size: 1.125rem;
     color: var(--clr-slate-600);
+    padding: 1.5rem var(--sz-main-padding);
 }
 
 .prose > * + :not([class]) {
@@ -52,10 +53,13 @@ main {
     margin-bottom: 1.25rem;
 }
 
-/* About Styles */
-
 .bio {
     max-width: 65ch;
+}
+
+.sidebar--sticky {
+    position: sticky;
+    top: 6.5em;
 }
 
 /* Desktop main content layout */
