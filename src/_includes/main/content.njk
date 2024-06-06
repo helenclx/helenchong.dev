@@ -7,7 +7,7 @@ layout: main/base
 
     <h1 class="heading--main">{{ pageTitle or title }}</h1>
 
-    {% if tags and tags.includes("blog pages") %}
+    {% if tags and tags.includes("posts") %}
         <div class="blog__post--info">
             <p><span class="text-bold">Posted:</span> {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}</p>
             {% if updated %}
