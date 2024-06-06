@@ -8,7 +8,7 @@
 }
 
 .main__header {
-    padding: 1rem var(--sz-main-padding);
+    padding: 3em var(--sz-main-padding) 1em;
     text-align: center;
 }
 
