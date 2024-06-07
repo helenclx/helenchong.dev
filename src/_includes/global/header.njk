@@ -60,15 +60,13 @@
     .header__links {
         list-style: none;
         padding-left: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
         font-size: 1.125rem;
         font-weight: 600;
         color: var(--clr-accent-600);
         text-align: center;
+        gap: 1.5rem;
 
-        flex-direction: column;
+        display: grid;
         position: fixed;
         background-color: var(--clr-white);
         top: 5rem;
@@ -132,6 +130,8 @@
         }
 
         .header__links {
+            display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
             position: static;
             background-color: inherit;
