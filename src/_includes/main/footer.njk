@@ -1,9 +1,18 @@
-<footer class="footer container">
+<footer class="footer">
     {% include "main/socials.njk" %}
 
     <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
 
-    <p><a href="/blog/feed.xml">RSS Feed</a> | <a href="/accessibility">Accessibility</a></p>
+    <ul class="footer__links">
+        <li><a href="/blog/feed.xml">RSS Feed</a></li>
+    {%- for statement in collections.statements -%}
+        <li><a
+            {% if entry.url == page.url %}aria-current="page"{% endif %}
+            href="{{ statement.url }}"
+        >{{ statement.data.title }}</a></li>
+    {%- endfor -%}
+    </ul>
+
     <p>Built with <a href="https://www.11ty.dev/">Eleventy</a>. <a href="https://github.com/helenclx/helenclx.github.io">Source Code</a>.</p>
 
     <p><a href="#page-top">Back to Top 🡱</a></p>
@@ -18,6 +27,23 @@
         display: flex;
         gap: 0.5em;
         flex-direction: column;
+    }
+
+        .footer__links {
+        justify-self: center;
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        column-gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__links li:not(:last-child)::after {
+        content: '•';
+        padding-left: 0.5em;
     }
 
     /* Screen sizes larger than mobile */
