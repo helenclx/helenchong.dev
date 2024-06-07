@@ -3,11 +3,11 @@
     "permalink": "blog/feed.xml",
     "eleventyExcludeFromCollections": true,
     "metadata": {
-        "title": "Helen Codes"
+        "title": "{{ sitemeta.siteBlog.title }}"
     },
     "eleventyComputed":{
         "metadata": {
-            "subtitle": "{{ sitemeta.siteAuthor.name }}'s tech and coding blog.",
+            "subtitle": "{{ sitemeta.siteBlog.desc }}",
             "url": "{{ sitemeta.siteUrl }}blog/",
             "feedUrl": "{{ sitemeta.siteUrl }}blog/feed.xml",
             "language": "{{ sitemeta.siteLocale }}",

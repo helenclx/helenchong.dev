@@ -8,5 +8,9 @@ module.exports = {
 		name: "Helen Chong",
 		email: "contact@helenchong.dev",
 		url: "https://helenchong.dev//about/"
+	},
+	siteBlog: {
+		title: "Helen Chong's Developer Blog",
+		desc: "Helen Chong talks about tech, coding and development",
 	}
 }
