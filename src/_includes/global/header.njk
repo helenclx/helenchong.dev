@@ -4,8 +4,9 @@
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
-    <h2 class="visually-hidden">Navigation Links:</h2>
-    <button class="header__toggle" aria-label="Toggle navigation menu">☰</button>
+    <input type="checkbox" name="navigation" id="nav-toggle" class="visually-hidden">
+    <label for="nav-toggle" aria-label="Navigation menu toggle" class="header__control">☰</label>
+    <h2 class="visually-hidden">Navigation Links</h2>
     <ul class="header__links">
         {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}
@@ -32,20 +33,28 @@
         box-shadow: var(--box-shadow);
     }
 
-    .header__title {
+    .header__title,
+    .header__control {
         color: var(--clr-accent-600);
-        text-transform: uppercase;
         font-size: 2rem;
+    }
+
+    .header__title {
+        text-transform: uppercase;
         margin: 0;
     }
 
     .header__title a:focus,
-    .header__toggle:focus {
+    #nav-toggle:focus + .header__control {
         outline: 0.12em solid var(--clr-accent-600);
     }
 
     .header__title > a {
         text-decoration: none;
+    }
+
+    .header__control:hover {
+        cursor: pointer;
     }
 
     .header__links {
@@ -105,13 +114,7 @@
         outline-offset: 0.1em;
     }
 
-    .header__toggle {
-        border: none;
-        background-color: transparent;
-        font-size: 2rem;
-    }
-
-    .header__links--show {
+    #nav-toggle:checked ~ .header__links {
         transform: translateX(0);
     }
 
@@ -143,19 +146,3 @@
         }
     }
 </style>
-
-<script defer>
-    const headerToggle = document.querySelector('.header__toggle');
-    const headerLinks = document.querySelector(".header__links");
-    const headerLinkAll = document.querySelectorAll('.header__link');
-
-    headerToggle.addEventListener('click', () => {
-        headerLinks.classList.toggle("header__links--show");
-    });
-
-    headerLinkAll.forEach((link) => {
-        link.addEventListener('click', () => {
-            headerLinks.classList.remove("header__links--show");
-        });
-    });
-</script>
