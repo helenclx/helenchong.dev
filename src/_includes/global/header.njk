@@ -50,15 +50,9 @@
     }
 
     .header__navmenu {
-        position: fixed;
-        background-color: var(--clr-white);
-        top: 6rem;
-        left: 10%;
-        width: 80%;
-        padding: 1.5em;
-        box-shadow: var(--box-shadow);
-        transform: translateX(120%);
-        transition: transform 0.5s ease-in;
+        padding: 2em 0 0.5em;
+        margin: 0 auto;
+        display: none;
     }
 
     .header__links {
@@ -66,7 +60,7 @@
         padding: 0;
         margin: 0;
         display: grid;
-        gap: 2rem;
+        gap: 1.5em;
         font-size: 1.125rem;
         font-weight: 600;
         color: var(--clr-accent-600);
@@ -114,7 +108,7 @@
     }
 
     .header__links--show {
-        transform: translateX(0);
+        display: grid;
     }
 
     /* For larger screen sizes */
@@ -131,16 +125,9 @@
         }
 
         .header__navmenu {
-            position: static;
-            background-color: inherit;
-            top: 0;
-            left: 0;
+            display: flex;
             padding: 0;
             margin: 0;
-            width: auto;
-            transform: none;
-            transition: none;
-            box-shadow: none;
         }
 
         .header__links {
@@ -152,17 +139,42 @@
 </style>
 
 <script defer>
-    const headerToggle = document.querySelector('.header__toggle');
+    {# Accessible hamburger menu navigation script based on:
+    https://accessibleweb.dev/navigation #}
+    const headerToggle = document.querySelector(".header__toggle");
     const headerNavMenu = document.querySelector(".header__navmenu");
-    const headerLinkAll = document.querySelectorAll('.header__link');
+    const headerLinkAll = document.querySelectorAll(".header__link");
 
-    headerToggle.addEventListener('click', () => {
-        headerNavMenu.classList.toggle("header__links--show");
+    const openNavigation = () => {
+        headerNavMenu.classList.add("header__links--show");
+        headerToggle.ariaExpanded = "true";
+    };
+
+    const closeNavigation = () => {
+        headerNavMenu.classList.remove("header__links--show");
+        headerToggle.ariaExpanded = "false";
+    };
+
+    const toggleNavigation = () => {
+        const open = headerToggle.ariaExpanded;
+        open === "false" ? openNavigation() : closeNavigation();
+    }
+
+    headerToggle.addEventListener("click", toggleNavigation);
+
+    window.addEventListener("keyup", (e) => {
+        if (e.key === "Escape") {
+            headerToggle.focus();
+            closeNavigation();
+        }
     });
 
-    headerLinkAll.forEach((link) => {
-        link.addEventListener('click', () => {
-            headerNavMenu.classList.remove("header__links--show");
-        });
-    });
+    const handleBlur = (event) => {
+        const navList = event.currentTarget.closest(".navbar__links");
+        if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
+            closeNavigation();
+        }
+    };
+
+    headerLinkAll[headerLinkAll.length - 1].addEventListener("blur", handleBlur);
 </script>
