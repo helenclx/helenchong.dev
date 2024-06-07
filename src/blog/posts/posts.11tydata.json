@@ -1,5 +1,5 @@
 {
-    "layout": "main/content",
+    "layout": "global/content",
     "tags": "posts",
     "isArticle": true,
     "eleventyComputed": {
