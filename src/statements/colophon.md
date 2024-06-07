@@ -17,6 +17,12 @@ Technical information about this website.
 * Deployed to GitHub Pages
 * The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
+## Plugins
+* Eleventy's official [Image](https://www.11ty.dev/docs/plugins/image/) plugin
+* Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
+* Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
+* Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
+
 ### Eleventy Community Plugins
 * [Emoji Read Time Eleventy Plugin](https://11ty.rocks/#plugin-emoji-read-time)
 * [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
