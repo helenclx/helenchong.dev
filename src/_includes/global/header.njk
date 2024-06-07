@@ -4,19 +4,20 @@
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
-    <h2 class="visually-hidden">Navigation Links:</h2>
     <button class="header__toggle" aria-label="Toggle navigation menu">☰</button>
-    <ul class="header__links">
-        {% set navPages = collections.all | eleventyNavigation %}
-        {%- for entry in navPages %}
-            <li><a
-                {% if entry.url == page.url %}aria-current="page"{% endif %}
-                class="header__link {% if '/blog' in currentUrl and '/blog' in entry.url or '/projects' in currentUrl and '/projects' in entry.url %}link--active{% endif %}"
-                href="{{ entry.url }}">
-                    {{ entry.title }}
-            </a></li>
-        {%- endfor %}
-    </ul>
+    <nav class="header__navmenu">
+        <ul class="header__links">
+            {% set navPages = collections.all | eleventyNavigation %}
+            {%- for entry in navPages %}
+                <li><a
+                    {% if entry.url == page.url %}aria-current="page"{% endif %}
+                    class="header__link {% if '/blog' in currentUrl and '/blog' in entry.url or '/projects' in currentUrl and '/projects' in entry.url %}link--active{% endif %}"
+                    href="{{ entry.url }}">
+                        {{ entry.title }}
+                </a></li>
+            {%- endfor %}
+        </ul>
+    </nav>
 </header>
 
 <style>
@@ -48,27 +49,28 @@
         text-decoration: none;
     }
 
-    .header__links {
-        list-style: none;
-        padding-left: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        font-size: 1.125rem;
-        font-weight: 600;
-        color: var(--clr-accent-600);
-        text-align: center;
-
-        flex-direction: column;
+    .header__navmenu {
         position: fixed;
         background-color: var(--clr-white);
-        top: 5rem;
+        top: 6rem;
         left: 10%;
         width: 80%;
         padding: 1.5em;
         box-shadow: var(--box-shadow);
         transform: translateX(120%);
         transition: transform 0.5s ease-in;
+    }
+
+    .header__links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 2rem;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: var(--clr-accent-600);
+        text-align: center;
     }
 
     .header__links [aria-current="page"],
@@ -128,8 +130,7 @@
             display: none;
         }
 
-        .header__links {
-            flex-direction: row;
+        .header__navmenu {
             position: static;
             background-color: inherit;
             top: 0;
@@ -141,21 +142,27 @@
             transition: none;
             box-shadow: none;
         }
+
+        .header__links {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
     }
 </style>
 
 <script defer>
     const headerToggle = document.querySelector('.header__toggle');
-    const headerLinks = document.querySelector(".header__links");
+    const headerNavMenu = document.querySelector(".header__navmenu");
     const headerLinkAll = document.querySelectorAll('.header__link');
 
     headerToggle.addEventListener('click', () => {
-        headerLinks.classList.toggle("header__links--show");
+        headerNavMenu.classList.toggle("header__links--show");
     });
 
     headerLinkAll.forEach((link) => {
         link.addEventListener('click', () => {
-            headerLinks.classList.remove("header__links--show");
+            headerNavMenu.classList.remove("header__links--show");
         });
     });
 </script>
