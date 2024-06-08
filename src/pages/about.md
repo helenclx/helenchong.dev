@@ -10,6 +10,8 @@ Hi, I am Helen Chong (they/she). I am a front-end web developer with 8 years of 
 
 I intend to transfer my graphic design experience into web design and web development expertise, as I love to code and build sites and apps to solve problems. I have a particular interest on responsive, accessible, inclusive and scalable design to create the best user experience.
 
+[Check out my resume]({{sitemeta.siteUrl}}/resume).
+
 ## My Certificates:
 
 * freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/certification/helenclx/responsive-web-design)
