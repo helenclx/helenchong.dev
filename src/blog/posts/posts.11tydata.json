@@ -2,6 +2,7 @@
     "layout": "global/content",
     "tags": "posts",
     "isArticle": true,
+    "enableWebMention": true,
     "eleventyComputed": {
         "eleventyNavigation": {
             "key": "{{ title }}",
