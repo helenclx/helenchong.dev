@@ -132,6 +132,13 @@
     text-align: center;
 }
 
+/* Webrings */
+.webrings {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
 /* Breadcumbs */
 .breadcrumbs {
     list-style: none;
