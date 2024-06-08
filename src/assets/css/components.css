@@ -135,7 +135,7 @@
 /* Webrings */
 .webrings {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     flex-wrap: wrap;
 }
 
