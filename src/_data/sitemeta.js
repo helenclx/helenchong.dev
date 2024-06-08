@@ -1,13 +1,13 @@
 module.exports = {
 	siteName: "Helen Chong | Front-End Web Developer",
-	siteUrl: "https://helenchong.dev/" || "http://localhost:8080",
+	siteUrl: "https://helenchong.dev" || "http://localhost:8080",
 	siteDomain: "helenchong.dev",
 	siteLocale: "en_MY",
 	siteDescription: "Helen Chong's developer portfolio and blog website.",
 	siteAuthor: {
 		name: "Helen Chong",
 		email: "contact@helenchong.dev",
-		url: "https://helenchong.dev//about/"
+		url: "https://helenchong.dev/about/"
 	},
 	siteBlog: {
 		title: "Helen Chong's Developer Blog",
