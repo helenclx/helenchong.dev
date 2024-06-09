@@ -39,6 +39,6 @@ For the demo video, which was required to submit the final project, I used Bandi
 
 After submitting CS50 Flask Blog as my final project, I successfully claimed my CS50x certificate! You can also [view the PDF version of my CS50x certificate](https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367).
 
-![Helen Chong's CS50x certificate](/assets/images/posts/cs50x-course-completed/CS50x-certificate.png)
+![Helen Chong's CS50x certificate](/assets/images/posts/cs50x-course-completed/CS50x-certificate.avif){loading="lazy"}
 
 Taking the CS50x course had been a great opportunity for me to learn about computer science, how to learn different programming languages and practice problem-solving skills with its problem sets. I am continuing to focus on front-end web development, but I hope I could carry what I learned from CS50x in my developer journey.
