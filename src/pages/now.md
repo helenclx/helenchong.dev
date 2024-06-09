@@ -1,7 +1,7 @@
 ---
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-06-01
+updated: 2024-06-09
 isArticle: true
 eleventyNavigation:
     key: Now
@@ -24,4 +24,4 @@ You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 
 ## Other Things I Have Been Doing Recently
 
-* Learning about purchasing and configuring custom domains since [I finally have one now](/blog/posts/2024-05-29-custom-domain-name-helenchong-dev).
+Learning about Lighthouse scores, particularly about how to improve website performance, so I could make my own websites better. I am pleased that `{{sitemeta.siteDomain}}` achieves the perfect Lighthouse score of 100 in Performance, Accessibility, Best Practices and SEO.
