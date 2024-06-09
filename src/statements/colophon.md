@@ -1,12 +1,12 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-06-07
+updated: 2024-06-09
 ---
 
-Technical information about this website.
+How this website is built.
 
-## Build
+## Technology
 * Built with the static site generator [Eleventy](https://www.11ty.dev/)
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
