@@ -7,10 +7,10 @@
     transform: translate(-50%, 0);
     overflow: hidden;
     transition: top 0.5s ease;
-    background: #fff;
+    background: var(--clr-body-bg);
     z-index: 1000;
-    padding: 0.3em;
-    margin: 0 auto;
+    font-size: 1.25rem;
+    padding: 0.3em 0.7em;
 }
 
 .skip-btn a:focus {
