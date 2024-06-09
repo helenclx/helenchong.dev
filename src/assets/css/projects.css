@@ -92,7 +92,7 @@
     width: 100%;
     padding: 0.4em;
     margin: 0.6em 0;
-    background-color: var(--clr-white);
+    background-color: var(--clr-body-bg);
     color: var(--clr-accent-700);
     border: 0.13em solid var(--clr-accent-700);
     border-radius: 0.35em;
@@ -102,7 +102,7 @@
 }
 
 .project-card__btn:hover {
-    color: var(--clr-white);
+    color: var(--clr-body-bg);
     background-color: var(--clr-accent-700);
     cursor: pointer;
 }
