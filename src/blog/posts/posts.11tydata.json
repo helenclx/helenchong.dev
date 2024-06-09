@@ -1,6 +1,7 @@
 {
     "layout": "global/content",
     "tags": "posts",
+    "templateEngineOverride": "njk,md",
     "isArticle": true,
     "eleventyComputed": {
         "eleventyNavigation": {
