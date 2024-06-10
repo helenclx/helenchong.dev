@@ -19,6 +19,7 @@
     outline: 0.2em solid var(--clr-accent-600);
 }
 
+<<<<<<< HEAD
 /* Back to top button */
 .top-btn {
     --offset: 100px;
@@ -48,6 +49,131 @@
 .top-btn:focus {
     outline: 0.25em solid var(--clr-top-btn-bg);
     outline-offset: 0.15em;
+=======
+/* Home page sections */
+.home--container {
+    margin: 0 auto;
+}
+
+.section--home {
+    display: grid;
+    font-size: var(--fs-home-txt);
+    padding: 2em 1em;
+}
+
+.section--home,
+.profile {
+    max-width: 64rem;
+    font-size: var(--fs-home-txt);
+    justify-self: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 1em 0;
+}
+
+.profile__image-wrapper {
+    display: grid;
+    place-content: center;
+}
+
+.profile__image-wrapper img {
+    width: 250px;
+    height: 250px;
+    border-radius: 9999px;
+}
+
+.profile__card {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    flex: 1;
+}
+
+.profile__text {
+    margin-bottom: 1rem;
+    color: var(--clr-slate-600);
+}
+
+.profile__text--lead {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.profile__text--highlight {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--clr-accent-600);
+}
+
+.profile__text--emphasis {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.profile__link {
+    font-weight: bold;
+}
+
+/* For larger screen sizes */
+@media (min-width: 640px) {
+    .profile {
+        flex-direction: row;
+        padding: 0 1em;
+    }
+
+    .profile__image-wrapper img {
+        margin: 4rem;
+    }
+}
+
+/* Home headings */
+.heading--home {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Skills Styles */
+.skills__list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    gap: 2rem;
+}
+
+.skills__item {
+    display: grid;
+    justify-items: center;
+    gap: 0.3em;
+}
+
+.skills__logo img {
+    width: 3rem;
+    height: auto;
+}
+
+.skills__title {
+    font-weight: 400;
+    color: var(--clr-slate-600);
+    text-align: center;
+}
+
+/* Webrings */
+.webrings {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 1.5em;
+}
+
+.webrings h3 {
+    font-size: 1.5rem;
+>>>>>>> parent of c613d40 (Create CSS file for home page styles)
 }
 
 /* Breadcumbs */
