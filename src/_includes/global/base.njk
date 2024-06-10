@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="top">
+<html lang="en" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,13 +42,10 @@
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
-        <div>
-            {% include "global/header.njk" %}
-            <main id="content">
-                {{ content | safe }}
-            </main>
-            {% include "global/footer.njk" %}
-        </div>
-        <a href="#top" class="top-btn"><span class="visually-hidden">Back to top</span></a>
+        {% include "global/header.njk" %}
+        <main id="content">
+            {{ content | safe }}
+        </main>
+        {% include "global/footer.njk" %}
     </body>
 </html>
