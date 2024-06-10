@@ -32,6 +32,7 @@
     width: 2rem;
     aspect-ratio: 1;
     background: var(--clr-top-btn-bg);
+    color: var(--clr-top-btn-txt);
     border-radius: 50em;
 }
 
