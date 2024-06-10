@@ -15,7 +15,7 @@
 
     <p>Built with <a href="https://www.11ty.dev/">Eleventy</a>. <a href="https://github.com/helenclx/helenclx.github.io">Source Code</a>.</p>
 
-    <p><a href="#page-top">Back to Top 🡱</a></p>
+    <p><a class="footer__top-link" href="#page-top">Back to Top</a></p>
     {% include "global/top-btn.njk" %}
     {% include "global/h-card.njk" %}
 </footer>
@@ -30,7 +30,7 @@
         flex-direction: column;
     }
 
-        .footer__links {
+    .footer__links {
         justify-self: center;
         list-style: none;
         text-align: center;
@@ -45,6 +45,24 @@
     .footer__links li:not(:last-child)::after {
         content: '•';
         padding-left: 0.5em;
+    }
+
+    .footer__top-link::before,
+    .footer__top-link::after {
+        --arrow-margin: 0.3em;
+        content: "";
+        display: inline-block;
+        border-bottom: 0.6rem solid currentColor;
+        border-left: 0.4rem solid transparent;
+        border-right: 0.4rem solid transparent;
+    }
+
+    .footer__top-link::before {
+        margin: 0 var(--arrow-margin) 0 0;
+    }
+
+    .footer__top-link::after {
+        margin: 0 0 0 var(--arrow-margin);
     }
 
     /* Screen sizes larger than mobile */
