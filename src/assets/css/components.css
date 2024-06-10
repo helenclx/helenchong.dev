@@ -19,37 +19,6 @@
     outline: 0.2em solid var(--clr-accent-600);
 }
 
-<<<<<<< HEAD
-/* Back to top button */
-.top-btn {
-    --offset: 100px;
-    position: sticky;
-    bottom: 0.5rem;
-    margin-right: 0.5rem;
-    place-self: end;
-    margin-top: calc(100vh + var(--offset));
-    z-index: 999;
-
-    width: 2rem;
-    aspect-ratio: 1;
-    background: var(--clr-top-btn-bg);
-    color: var(--clr-top-btn-txt);
-    border-radius: 50em;
-}
-
-.top-btn:before {
-    content:"";
-    position: absolute;
-    inset: 30%;
-    transform: translateY(20%) rotate(-45deg);
-    border-top: 5px solid var(--clr-top-btn-txt);
-    border-right: 5px solid var(--clr-top-btn-txt);
-}
-
-.top-btn:focus {
-    outline: 0.25em solid var(--clr-top-btn-bg);
-    outline-offset: 0.15em;
-=======
 /* Home page sections */
 .home--container {
     margin: 0 auto;
@@ -173,7 +142,6 @@
 
 .webrings h3 {
     font-size: 1.5rem;
->>>>>>> parent of c613d40 (Create CSS file for home page styles)
 }
 
 /* Breadcumbs */
