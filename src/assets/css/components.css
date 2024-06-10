@@ -26,14 +26,14 @@
 
 .section--home {
     display: grid;
-    font-size: var(--sz-home-txt);
+    font-size: var(--fs-home-txt);
     padding: 2em 1em;
 }
 
 .section--home,
 .profile {
     max-width: 64rem;
-    font-size: var(--sz-home-txt);
+    font-size: var(--fs-home-txt);
     justify-self: center;
 }
 
@@ -153,7 +153,7 @@
     gap: 0.5em;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: var(--sz-home-txt);
+    font-size: var(--fs-home-txt);
 }
 
 .breadcrumbs li::after {

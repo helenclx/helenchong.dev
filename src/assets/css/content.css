@@ -13,7 +13,7 @@
 }
 
 .prose {
-    font-size: var(--sz-main-txt);
+    font-size: var(--fs-main-txt);
     color: var(--clr-slate-600);
     padding: 0 var(--sz-main-padding);
 }

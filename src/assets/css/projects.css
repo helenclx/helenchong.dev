@@ -12,7 +12,7 @@
 }
 
 .project-card {
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--bs-main);
     border-radius: 0.375rem;
 }
 

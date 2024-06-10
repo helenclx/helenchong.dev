@@ -18,17 +18,18 @@
     --clr-top-btn-bg: #4153b6;
     --clr-top-btn-txt: #fff;
 
-    --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
-        0 4px 6px -4px rgb(0 0 0 / 0.2);
+    --fs-main-txt: 1.2rem;
+    --fs-home-txt: 1.15rem;
+    --fs-h1: clamp(2rem, 1rem + 5vw, 3rem);
+    --fs-h2: clamp(1.55rem, 1rem + 3vw, 2.15rem);
+    --fs-h3: clamp(1.55rem, 1rem + 3vw, 1.8rem);
+    --fs-h4: clamp(1.4rem, 1rem + 3vw, 1.6rem);
 
-    --sz-main-txt: 1.2rem;
-    --sz-home-txt: 1.15rem;
-    --sz-h1: clamp(2rem, 1rem + 5vw, 3rem);
-    --sz-h2: clamp(1.55rem, 1rem + 3vw, 2.15rem);
-    --sz-h3: clamp(1.55rem, 1rem + 3vw, 1.8rem);
-    --sz-h4: clamp(1.4rem, 1rem + 3vw, 1.6rem);
     --sz-main-padding: clamp(1em, 5%, 1.5em);
     --sz-paragraph-margin: 1.15em;
+
+    --bs-main: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
+        0 4px 6px -4px rgb(0 0 0 / 0.2);
 }
 
 /* ------------------- */
