@@ -142,16 +142,18 @@
     {# Accessible hamburger menu navigation script based on:
     https://accessibleweb.dev/navigation #}
     const headerToggle = document.querySelector(".header__toggle");
-    const headerNavMenu = document.querySelector(".header__navmenu");
+    const navMenuClass = ".header__navmenu";
+    const headerNavMenu = document.querySelector(navMenuClass);
+    const showNavClass = "header__navmenu--show";
     const headerLinkAll = document.querySelectorAll(".header__link");
 
     const openNavigation = () => {
-        headerNavMenu.classList.add("header__links--show");
+        headerNavMenu.classList.add(showNavClass);
         headerToggle.ariaExpanded = "true";
     };
 
     const closeNavigation = () => {
-        headerNavMenu.classList.remove("header__links--show");
+        headerNavMenu.classList.remove(showNavClass);
         headerToggle.ariaExpanded = "false";
     };
 
@@ -170,7 +172,7 @@
     });
 
     const handleBlur = (event) => {
-        const navList = event.currentTarget.closest(".header__navmenu");
+        const navList = event.currentTarget.closest(navMenuClass);
         if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
             closeNavigation();
         }
