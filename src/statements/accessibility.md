@@ -14,7 +14,7 @@ High-level overview of the accessibility features of this site:
 * Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused
 * Logical content and heading flow
 * Links to skip to the main content or the top of the page
-* Sufficient text size that can be enlarged without breaking the site layout
+* Sufficient font size that can be enlarged without breaking the site layout
 * No autoplaying audio or video
 
 I use the following tools to test my site for accessibility:
