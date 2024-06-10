@@ -1,13 +1,13 @@
 {% if isArticle or hasBreadcrumbs %}
     <nav>
         <h2 class="visually-hidden">Breadcrumbs</h2>
-        <ul class="breadcrumbs">
+        <ol class="breadcrumbs">
             {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(pageTitle or title) %}
             {%- for entry in breadcrumbNavPages %}
             <li>
                 <a href="{{ entry.url }}">{{ entry.title }}</a>
             </li>
             {%- endfor %}
-        </ul>
+        </ol>
     </nav>
 {% endif %}
