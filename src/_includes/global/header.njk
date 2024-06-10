@@ -4,7 +4,7 @@
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
-    <button class="header__toggle" aria-label="Toggle navigation menu">☰</button>
+    <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
     <nav class="header__navmenu">
         <ul class="header__links">
             {% set navPages = collections.all | eleventyNavigation %}
