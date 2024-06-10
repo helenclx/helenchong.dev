@@ -73,6 +73,10 @@ a:hover {
     color: var(--clr-link-hover);
 }
 
+a:focus {
+    outline: 0.15em solid var(--clr-accent-700);
+}
+
 button:hover {
     cursor: pointer;
 }
