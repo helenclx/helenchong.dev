@@ -20,24 +20,16 @@
 }
 
 /* Back to top button */
-.top-btn__wrapper {
-    width: 2.5rem;
-    display: flex;
-    align-items: flex-end;
-    justify-self: end;
-    justify-content: flex-end;
-}
-
 .top-btn {
     --offset: 100px;
     position: sticky;
-    place-self: end;
     bottom: 0.5rem;
     margin-right: 0.5rem;
+    place-self: end;
     margin-top: calc(100vh + var(--offset));
     z-index: 999;
 
-    width: 100%;
+    width: 2rem;
     aspect-ratio: 1;
     background: var(--clr-top-btn-bg);
     border-radius: 50em;
