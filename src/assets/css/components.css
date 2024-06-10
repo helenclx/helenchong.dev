@@ -19,6 +19,44 @@
     outline: 0.2em solid var(--clr-accent-600);
 }
 
+/* Back to top button */
+.top-btn__wrapper {
+    width: 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-self: end;
+    justify-content: flex-end;
+}
+
+.top-btn {
+    --offset: 100px;
+    position: sticky;
+    place-self: end;
+    bottom: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: calc(100vh + var(--offset));
+    z-index: 999;
+
+    width: 100%;
+    aspect-ratio: 1;
+    background: var(--clr-top-btn-bg);
+    border-radius: 50em;
+}
+
+.top-btn:before {
+    content:"";
+    position: absolute;
+    inset: 30%;
+    transform: translateY(20%) rotate(-45deg);
+    border-top: 5px solid var(--clr-top-btn-txt);
+    border-right: 5px solid var(--clr-top-btn-txt);
+}
+
+.top-btn:focus {
+    outline: 0.25em solid var(--clr-top-btn-bg);
+    outline-offset: 0.15em;
+}
+
 /* Breadcumbs */
 .breadcrumbs {
     list-style: none;
