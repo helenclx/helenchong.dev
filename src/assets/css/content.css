@@ -41,7 +41,7 @@
 }
 
 .right-sidebar {
-    padding: 0 clamp(1em, 5%, 1.5em);
+    padding: 0 clamp(1em, 5%, 1.5em) 3em;
 }
 
 .sidebar--sticky {
