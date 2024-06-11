@@ -22,7 +22,7 @@
 <style>
     .footer {
         width: 100%;
-        padding: 1.5em 1em 3em;
+        padding: 2em 1em clamp(1em, calc(100% - 2rem), 3em);
         text-align: center;
         display: flex;
         gap: 0.5em;
@@ -46,7 +46,7 @@
         padding-left: 0.5em;
     }
 
-    /* Screen sizes larger than mobile */
+    {# /* Screen sizes larger than mobile */
     @media only screen and (min-width: 30rem) {
         .footer {
             padding: 1.5em 1em 2em;
@@ -58,5 +58,5 @@
         .footer {
             padding: 1.5em 1em;
         }
-    }
+    } #}
 </style>
