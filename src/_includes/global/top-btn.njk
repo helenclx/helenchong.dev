@@ -51,7 +51,6 @@
 </style>
 
 <script defer>
-    {# Based on: https://jhartshorne.co.uk/posts/back-to-top/ #}
     const topButton = document.querySelector(".top-btn");
     const scrollOffset = 400;
 
@@ -63,14 +62,7 @@
         }
     };
 
-    const scrollOptions = {
-        top: 0,
-        left: 0,
-        behavior: 'smooth'
-    };
-    const supportsNativeSmoothScroll = 'scrollBehavior' in document.documentElement.style;
-
     topButton.addEventListener('click', () => {
-        supportsNativeSmoothScroll ? window.scrollTo(scrollOptions) : window.scrollTo(scrollOptions.left, scrollOptions.top);
+        window.scrollTo({ top: 0, left: 0 });
     });
 </script>
