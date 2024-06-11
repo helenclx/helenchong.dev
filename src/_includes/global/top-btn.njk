@@ -1,11 +1,13 @@
-<a href="#top" class="top-btn hidden" title="Back to Top">
+{% set topLinkTitle = "Back to Top" %}
+
+<a href="#top" class="top-btn hidden" title="{{ topLinkTitle }}">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M7 11l5-5m0 0l5 5m-5-5v12" />
     </svg>
-    <span class="visually-hidden">Back to Top</span>
+    <span class="visually-hidden">{{ topLinkTitle }}</span>
 </a>
 <noscript>
-    <p><a class="top-link" href="#top">Back to Top</a></p>
+    <p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
 </noscript>
 
 <style>
