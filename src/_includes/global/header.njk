@@ -4,7 +4,9 @@
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
-    <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+    <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <img src="/assets/icons/icons/menu.svg" alt="">
+    </button>
     <nav class="header__navmenu" role="navigation">
         <ul class="header__links">
             {% set navPages = collections.all | eleventyNavigation %}
@@ -110,6 +112,12 @@
         border: none;
         background-color: transparent;
         font-size: 2rem;
+        padding: 0;
+    }
+
+    .header__toggle img {
+        height: 2.25rem;
+        width: auto;
     }
 
     /* For larger screen sizes */
