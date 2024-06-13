@@ -5,7 +5,7 @@
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
     <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
-    <nav class="header__navmenu">
+    <nav class="header__navmenu" role="navigation">
         <ul class="header__links">
             {% set navPages = collections.all | eleventyNavigation %}
             {%- for entry in navPages %}
