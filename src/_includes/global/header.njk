@@ -153,14 +153,30 @@
 </style>
 
 <script defer>
+    {# Accessible hamburger menu navigation script based on:
+    https://accessibleweb.dev/navigation #}
     const headerToggle = document.querySelector(".header__toggle");
-    const headerLinks = document.querySelector(".header__links");
+    const headerLinksClass = ".header__links";
+    const headerLinks = document.querySelector(headerLinksClass);
     const headerLinkAll = document.querySelectorAll('.header__link');
     const showHeaderLinkClass = "header__links--show";
 
-    headerToggle.addEventListener('click', () => {
-        headerLinks.classList.toggle(showHeaderLinkClass);
-    });
+    const openNavigation = () => {
+        headerLinks.classList.add(showHeaderLinkClass);
+        headerToggle.ariaExpanded = "true";
+    };
+
+    const closeNavigation = () => {
+        headerLinks.classList.remove(showHeaderLinkClass);
+        headerToggle.ariaExpanded = "false";
+    };
+
+    const toggleNavigation = () => {
+        const open = headerToggle.ariaExpanded;
+        open === "false" ? openNavigation() : closeNavigation();
+    }
+
+    headerToggle.addEventListener("click", toggleNavigation);
 
     headerLinkAll.forEach((link) => {
         link.addEventListener('click', () => {
@@ -174,4 +190,13 @@
             headerToggle.focus();
         }
     });
+
+    const handleBlur = (event) => {
+    const navList = event.currentTarget.closest(headerLinksClass);
+    if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
+            closeNavigation();
+        }
+    };
+
+    headerLinkAll[headerLinkAll.length - 1].addEventListener("blur", handleBlur);
 </script>
