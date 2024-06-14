@@ -4,12 +4,12 @@
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
-    <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        <svg aria-hidden="true" width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-    </button>
-    <nav class="header__navmenu" role="navigation">
+    <nav role="navigation">
+        <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <svg aria-hidden="true" width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
         <ul class="header__links">
             {% set navPages = collections.all | eleventyNavigation %}
             {%- for entry in navPages %}
@@ -53,27 +53,38 @@
         text-decoration: none;
     }
 
-    .header__navmenu {
-        padding: 2em 0 0.5em;
-        margin: 0 auto;
-        display: none;
-    }
-
-    .header__navmenu--show {
-        display: grid;
+    .header__toggle {
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .header__links {
         list-style: none;
-        padding: 0;
-        margin: 0;
         font-size: 1.125rem;
         font-weight: 600;
         color: var(--clr-accent-600);
         text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1em 1.5em;
+        gap: 2rem;
+
+        position: fixed;
+        background-color: var(--clr-body-bg);
+        display: grid;
+        top: 4.5rem;
+        left: 10%;
+        width: 80%;
+        padding: 1.5em;
+        box-shadow: var(--bs-main);
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .header__links--show,
+    .header__links:focus-within {
+        transform: translateX(0);
     }
 
     .header__links [aria-current="page"],
@@ -110,15 +121,6 @@
         outline-offset: 0.1em;
     }
 
-    .header__toggle {
-        border: none;
-        background-color: transparent;
-        font-size: 2rem;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-
     /* For larger screen sizes */
     @media (min-width: 640px) {
         .header__title {
@@ -132,53 +134,44 @@
             display: none;
         }
 
-        .header__navmenu {
-            display: grid;
+        .header__links {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: static;
+            background-color: inherit;
+            top: 0;
+            left: 0;
             padding: 0;
             margin: 0;
+            width: unset;
+            transform: none;
+            transition: none;
+            box-shadow: none;
         }
     }
 </style>
 
 <script defer>
-    {# Accessible hamburger menu navigation script based on:
-    https://accessibleweb.dev/navigation #}
     const headerToggle = document.querySelector(".header__toggle");
-    const navMenuClass = ".header__navmenu";
-    const headerNavMenu = document.querySelector(navMenuClass);
-    const showNavClass = "header__navmenu--show";
-    const headerLinkAll = document.querySelectorAll(".header__link");
+    const headerLinks = document.querySelector(".header__links");
+    const headerLinkAll = document.querySelectorAll('.header__link');
+    const showHeaderLinkClass = "header__links--show";
 
-    const openNavigation = () => {
-        headerNavMenu.classList.add(showNavClass);
-        headerToggle.ariaExpanded = "true";
-    };
+    headerToggle.addEventListener('click', () => {
+        headerLinks.classList.toggle(showHeaderLinkClass);
+    });
 
-    const closeNavigation = () => {
-        headerNavMenu.classList.remove(showNavClass);
-        headerToggle.ariaExpanded = "false";
-    };
-
-    const toggleNavigation = () => {
-        const open = headerToggle.ariaExpanded;
-        open === "false" ? openNavigation() : closeNavigation();
-    }
-
-    headerToggle.addEventListener("click", toggleNavigation);
+    headerLinkAll.forEach((link) => {
+        link.addEventListener('click', () => {
+            headerLinks.classList.remove(showHeaderLinkClass);
+        });
+    });
 
     window.addEventListener("keyup", (e) => {
         if (e.key === "Escape") {
-            closeNavigation();
+            headerLinks.classList.remove(showHeaderLinkClass);
             headerToggle.focus();
         }
     });
-
-    const handleBlur = (event) => {
-        const navList = event.currentTarget.closest(navMenuClass);
-        if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
-            closeNavigation();
-        }
-    };
-
-    headerLinkAll[headerLinkAll.length - 1].addEventListener("blur", handleBlur);
 </script>
