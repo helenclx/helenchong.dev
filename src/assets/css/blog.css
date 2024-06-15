@@ -19,12 +19,26 @@
     margin-bottom: 2em;
 }
 
-.blog__post--nextprev {
-    list-style: none;
-    padding-left: 0;
+.blog__post--pagination {
     padding-top: 0.8em;
     margin-top: 2.5em;
+    border-top: 0.1em solid var(--clr-slate-600);
+}
+
+.blog__post--nextprev {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: grid;
     gap: 0.7em;
-    border-top: 0.1em solid var(--clr-slate-600);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'prev next';
+}
+
+.blog__post--prev {
+    grid-area: prev;
+}
+
+.blog__post--next {
+    grid-area: next;
 }

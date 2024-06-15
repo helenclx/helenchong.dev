@@ -23,23 +23,36 @@ layout: global/base
     {% endif %}
 </header>
 
-<div class="container">
+<div class="content__wrapper">
     {% set contentEl = "article" if isArticle else "div" %}
     <{{contentEl}} class="prose">
         {{ content | safe }}
 
-        {% if tags and tags.includes("posts") %}
+    {% if tags and tags.includes("posts") %}
+        <nav class="blog__post--pagination">
+            <h2 class="visually-hidden">Next and Previous Blog Posts</h2>
             {%- if collections.posts %}
-            {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-            {%- set nextPost = collections.posts | getNextCollectionItem %}
-            {%- if nextPost or previousPost %}
-                <ul class="blog__post--nextprev">
-                    {%- if previousPost %}<li>Previous Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-                    {%- if nextPost %}<li>Next Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-                </ul>
+                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+                {%- set nextPost = collections.posts | getNextCollectionItem %}
+                {%- if nextPost or previousPost %}
+                    <ul class="blog__post--nextprev">
+                    {%- if previousPost %}
+                        <li class="blog__post--prev">
+                            <p>Previous Post:</p>
+                            <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+                        </li>
+                    {% endif %}
+                    {%- if nextPost %}
+                        <li class="blog__post--next">
+                            <p>Next Post:</p>
+                            <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+                        </li>
+                    {% endif %}
+                    </ul>
+                {%- endif %}
             {%- endif %}
-        {%- endif %}
-        {% endif %}
+        </nav>
+    {% endif %}
     </{{contentEl}}>
 
     {% if tags and tags.includes("blog pages") %}

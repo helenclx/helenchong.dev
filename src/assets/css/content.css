@@ -1,9 +1,9 @@
 .main__header,
-.container {
+.content__wrapper {
     display: grid;
 }
 
-.container {
+.content__wrapper {
     gap: 1rem;
 }
 
@@ -51,7 +51,7 @@
 
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
-    .container {
+    .content__wrapper {
         grid-template-areas: 'leftbar article rightbar';
         grid-template-columns: 1fr minmax(min(60ch, 40vw), 2.5fr) 1fr;
     }
