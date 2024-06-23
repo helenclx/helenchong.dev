@@ -1,9 +1,7 @@
 {% set currentUrl %}{{ page.url }}{% endset %}
 {% set headingLevel = 2 %}
 
-{% if currentUrl === '/' %}
-    {% set headingLevel = 3 %}
-{% endif %}
+{% if currentUrl === '/' %}{% set headingLevel = 3 %}{% endif %}
 
 <article class="project-card">
     <div class="project-card__image-wrapper">
@@ -11,9 +9,9 @@
     </div>
     <div class="project-card__body">
         <div class="project-card__tags">
-            {% for tag in project.data.tech %}
-                <span class="project-card__tag">{{ tag }}</span>
-            {% endfor %}
+        {% for tag in project.data.tech %}
+            <span class="project-card__tag">{{ tag }}</span>
+        {% endfor %}
         </div>
         <h{{headingLevel}} class="project-card__title">{{ project.data.title }}</h3>
         <p class="project-card__summary">{{ project.data.summary }}</p>
@@ -23,9 +21,9 @@
             </svg>
         </a>
         <div class="project-card__btns">
-            {% if project.data.siteUrl -%}
-                <a class="project-card__btn" href="{{ project.data.siteUrl }}">Project Site</a>
-            {%- endif %}
+        {% if project.data.siteUrl -%}
+            <a class="project-card__btn" href="{{ project.data.siteUrl }}">Project Site</a>
+        {%- endif %}
             <a class="project-card__btn" href="{{ project.data.repoUrl }}">Repository</a>
         </div>
     </div>
