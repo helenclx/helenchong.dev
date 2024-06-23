@@ -8,7 +8,7 @@ content-wrapper {
 }
 
 .main__header {
-    padding: 3em var(--sz-main-padding) 1em;
+    padding: 3em var(--sz-main-padding);
     text-align: center;
 }
 
