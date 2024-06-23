@@ -23,7 +23,7 @@ layout: global/base
     {% endif %}
 </header>
 
-<div class="content__wrapper">
+<content-wrapper>
     {% set contentEl = "article" if isArticle else "div" %}
     <{{contentEl}} class="prose">
         {{ content | safe }}
@@ -58,4 +58,4 @@ layout: global/base
     {% if tags and tags.includes("blog pages") %}
         {% include "blog/blognav.njk" %}
     {% endif %}
-</div>
+</content-wrapper>
