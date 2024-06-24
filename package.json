@@ -6,7 +6,7 @@
     "build-ghpages": "bunx @11ty/eleventy"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "^1.1.5"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
