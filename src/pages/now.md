@@ -1,7 +1,7 @@
 ---
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-06-14
+updated: 2024-07-08
 isArticle: true
 eleventyNavigation:
     key: Now
@@ -23,4 +23,6 @@ You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 
 ## Other Things I Have Been Doing Recently
 
-Learning about Lighthouse scores, particularly about how to improve website performance, so I could make my own websites better. I am pleased that `{{sitemeta.siteDomain}}` achieves the perfect Lighthouse score of 100 in Performance, Accessibility, Best Practices and SEO.
+I created and released a fork of BellaBuffs, the PHP script for building and managing a fanlisting, an online listing of fans for a particular subject open for fans around the world to join, with PHPMailer integration to power the email sending features.
+
+You can download my BellaBuffs fork and learn about how to use it from [its GitHub repository](https://github.com/helenclx/BellaBuffs-PHPMailer), and read my blog post about it: [Dipping My Toes in PHP for My Hobby Project](/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project).
