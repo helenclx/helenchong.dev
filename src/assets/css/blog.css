@@ -1,17 +1,10 @@
 /* Blog Styles */
-
 .blog__postlist,
-.blog__post--info {
-    display: grid;
-}
+.blog__post--info { display: grid; }
 
-.blog__postlist {
-    gap: 0.5em;
-}
+.blog__postlist { gap: 0.5em; }
 
-.blog__postlist--title {
-    font-size: 1.3rem;
-}
+.blog__postlist--title { font-size: 1.3rem; }
 
 .blog__post--info {
     gap: 0.3em;
@@ -34,10 +27,6 @@
     grid-template-areas: 'prev next';
 }
 
-.blog__post--prev {
-    grid-area: prev;
-}
+.blog__post--prev { grid-area: prev; }
 
-.blog__post--next {
-    grid-area: next;
-}
+.blog__post--next { grid-area: next; }

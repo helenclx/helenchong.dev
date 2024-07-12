@@ -1,7 +1,5 @@
 /* Home page sections */
-.home--container {
-    margin: 0 auto 2em;
-}
+.home--container { margin: 0 auto 2em; }
 
 .section--home {
     display: grid;
@@ -62,9 +60,7 @@
     font-size: 1.125rem;
 }
 
-.profile__link {
-    font-weight: bold;
-}
+.profile__link { font-weight: bold; }
 
 /* For larger screen sizes */
 @media (min-width: 640px) {
@@ -73,9 +69,7 @@
         padding: 0 1em;
     }
 
-    .profile__image-wrapper img {
-        margin: 4rem;
-    }
+    .profile__image-wrapper img { margin: 4rem; }
 }
 
 /* Home headings */
@@ -119,6 +113,4 @@
     margin-top: 1.5em;
 }
 
-.webrings h3 {
-    font-size: 1.5rem;
-}
+.webrings h3 { font-size: 1.5rem; }

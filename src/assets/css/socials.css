@@ -1,5 +1,4 @@
 /* Socials Style */
-
 .socials {
     grid-area: scial;
     justify-self: center;
@@ -14,9 +13,7 @@
     gap: 0.5em;
 }
 
-.socials a:focus {
-    outline: none;
-}
+.socials a:focus { outline: none; }
 
 .socials li:focus-within {
     outline: 0.15em solid var(--clr-accent-700);

@@ -1,11 +1,5 @@
-.main__header,
-content-wrapper {
-    display: grid;
-}
-
-content-wrapper {
-    gap: 1rem;
-}
+.main__header, content-wrapper { display: grid; }
+content-wrapper { gap: 1rem; }
 
 .main__header {
     padding: 3em var(--sz-main-padding);
@@ -18,13 +12,8 @@ content-wrapper {
     padding: 0 var(--sz-main-padding) 4em;
 }
 
-.prose > * + :not([class]) {
-    margin-top: var(--sz-paragraph-margin);
-}
-
-.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-    margin-top: 2em;
-}
+.prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
+.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 { margin-top: 2em; }
 
 .prose ul:not([class]), .prose ol:not([class]){
     display: grid;
@@ -32,17 +21,9 @@ content-wrapper {
 }
 
 .prose ul ul, .prose ol ol,
-.prose ul ol, .prose ol ul {
-    margin-top: 0.7em;
-}
-
-.bio {
-    max-width: 65ch;
-}
-
-.right-sidebar {
-    padding: 0 clamp(1em, 5%, 1.5em) 3em;
-}
+.prose ul ol, .prose ol ul { margin-top: 0.7em; }
+.bio { max-width: 65ch; }
+.right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) 3em; }
 
 .sidebar--sticky {
     position: sticky;
@@ -56,15 +37,7 @@ content-wrapper {
         grid-template-columns: 1fr minmax(min(60ch, 40vw), 2.5fr) 1fr;
     }
 
-    .prose {
-        grid-area: article;
-    }
-
-    .left-sidebar {
-        grid-area: leftbar;
-    }
-
-    .right-sidebar {
-        grid-area: rightbar;
-    }
+    .prose { grid-area: article; }
+    .left-sidebar { grid-area: leftbar; }
+    .right-sidebar { grid-area: rightbar; }
 }

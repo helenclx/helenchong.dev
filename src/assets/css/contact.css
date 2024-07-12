@@ -1,5 +1,4 @@
 /* Contact Styles */
-
 .contact__sub-heading {
     padding: 0 1rem;
     color: var(--clr-slate-600);
@@ -31,9 +30,7 @@
     color: var(--clr-slate-600);
 }
 
-.form__input:focus {
-    outline: 0.2em solid var(--clr-accent-600);
-}
+.form__input:focus { outline: 0.2em solid var(--clr-accent-600); }
 
 .form__button {
     display: block;
@@ -53,7 +50,5 @@
 }
 
 @media only screen and (min-width: 36rem) {
-    .form {
-        max-width: 36rem;
-    }
+    .form { max-width: 36rem; }
 }
