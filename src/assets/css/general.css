@@ -52,8 +52,10 @@ a:hover {
 
 a:focus { outline: 0.15em solid var(--clr-accent-700); }
 
-a[href^="http"]:not(:has(img, svg, figure, i[class^='fa-'])) { padding-right: 1.25em; }
-a[href^="http"]:not(:has(img, svg, figure, i[class^='fa-']))::after {
+a[href^="http"]:not([href*="helenchong.dev"]):not(:has(img, svg, figure, i[class^='fa-']))
+{ padding-right: 1.25em; }
+
+a[href^="http"]:not([href*="helenchong.dev"]):not(:has(img, svg, figure, i[class^='fa-']))::after {
     position: absolute;
     content: "";
     display: inline-block;
