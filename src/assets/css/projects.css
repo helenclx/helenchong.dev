@@ -98,7 +98,7 @@
     cursor: pointer;
 }
 
-.project-card__btn[href^='http']:hover::after { background-color: var(--clr-body-bg); }
+.project-card__btn[href^='http']:hover::after { background-color: var(--clr-body-bg) !important; }
 .project-card__btn:focus { outline: 0.2em solid var(--clr-accent-700); }
 
 /* Project Page Styles */
