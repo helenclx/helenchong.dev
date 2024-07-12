@@ -35,3 +35,6 @@
     content: '➔';
     padding-left: 0.3em;
 }
+
+/* Remove external link icon from Website Carbon badge */
+#wcb_a::after { all: revert; }
