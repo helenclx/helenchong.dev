@@ -74,24 +74,21 @@
 }
 
 .project-card__btns {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 0.5em;
-    width: 100%;
 }
 
 .project-card__btn {
     text-align: center;
-    width: 100%;
     padding: 0.4em;
-    margin: 0.6em 0;
     background-color: var(--clr-body-bg);
     color: var(--clr-accent-700);
     border: 0.13em solid var(--clr-accent-700);
     border-radius: 0.35em;
     font-weight: 700;
-    transition: 0.3s;
+    transition: 0.2s;
     text-decoration: none;
 }
 
@@ -101,10 +98,10 @@
     cursor: pointer;
 }
 
+.project-card__btn[href^='http']:hover::after { background-color: var(--clr-body-bg); }
 .project-card__btn:focus { outline: 0.2em solid var(--clr-accent-700); }
 
 /* Project Page Styles */
-
 .project-list {
     display: flex;
     flex-direction: column;
