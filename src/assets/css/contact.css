@@ -52,3 +52,10 @@
 @media only screen and (min-width: 36rem) {
     .form { max-width: 36rem; }
 }
+
+@media (prefers-color-scheme: dark) {
+    .form__button,
+    .form__input { background-color: var(--clr-accent-100); }
+
+    .form__input { border-color: var(--clr-accent-600); }
+}
