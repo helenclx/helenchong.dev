@@ -12,5 +12,6 @@
 ] %}
 
 {%- for file in cssFiles -%}
-<link rel="stylesheet" href="{{'/assets/css/' + file + '.css' | url | safe}}">
+<link href="{{'/assets/css/' + file + '.css' | url | safe}}" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{'/assets/css/' + file + '.css' | url | safe}}"></noscript>
 {%- endfor -%}
