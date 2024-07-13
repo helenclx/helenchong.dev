@@ -81,7 +81,7 @@
 
 /* Skills Styles */
 .skills__list {
-    list-style: none;
+    list-style-type: "";
     padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));

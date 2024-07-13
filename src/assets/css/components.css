@@ -21,7 +21,7 @@
 
 /* Breadcumbs */
 .breadcrumbs {
-    list-style: none;
+    list-style-type: "";
     padding: 0;
     margin: 0;
     display: flex;
