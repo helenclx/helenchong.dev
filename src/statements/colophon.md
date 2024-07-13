@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-06-09
+updated: 2024-07-13
 ---
 
 How this website is built.
@@ -29,11 +29,11 @@ How this website is built.
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 
 ### markdown-it Plugins
+Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 
 ## Self-hosted Assets
-* [Font Awesome](https://fontawesome.com/) (brand icons only)
 * Technology and stack icons from [icons8](https://icons8.com/)
 
 ## Credits

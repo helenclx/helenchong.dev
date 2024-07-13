@@ -8,19 +8,20 @@
 .socials__links {
     list-style: none;
     margin: 0;
-    padding-left: 0;
+    padding: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5em;
 }
 
-.socials a:focus { outline: none; }
+.socials a { display: inline-flex; }
 
-.socials li:focus-within {
+.socials a:focus {
     outline: 0.15em solid var(--clr-accent-700);
     outline-offset: 0.15em;
 }
 
 .socials__icon {
-    font-size: 1.8rem;
-    color: var(--clr-accent-700);
+    height: 2rem;
+    fill: var(--clr-accent-700);
 }
