@@ -1,9 +1,20 @@
 <section class="section--home grid-center">
     <h2 class="heading--home">Badges</h2>
-    <div id="wcb" class="carbonbadge wcb-d">
+    <div id="wcb" class="carbonbadge">
         <noscript>
             <p>Looks like you have JavaScript disabled. JavaScript is required to display the <a href="https://www.websitecarbon.com/badge/">Website Carbon badge</a>.</p>
         </noscript>
     </div>
     <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 </section>
+
+<script>
+    const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
+    darkModePreference.addEventListener("change", (event) => {
+        if (event.matches) {
+            document.getElementById("wcb").classList.add("wcb-d");
+        } else {
+            document.getElementById("wcb").classList.remove("wcb-d");
+        }
+    });
+</script>
