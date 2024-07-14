@@ -29,8 +29,8 @@ layout: global/base
         {{ content | safe }}
 
     {% if tags and tags.includes("posts") %}
-        <nav class="blog__post--pagination">
-            <h2 class="visually-hidden">Next and Previous Blog Posts</h2>
+        <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+            <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
             {%- if collections.posts %}
                 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
                 {%- set nextPost = collections.posts | getNextCollectionItem %}

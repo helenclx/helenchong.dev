@@ -4,8 +4,8 @@
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
-    <nav aria-labelledby="top-nav-title">
-        <h3 class="visually-hidden" id="top-nav-title">Main Navigation</h3>
+    <nav>
+        <h3>Navigation</h3>
         <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
             <svg aria-hidden="true" width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -16,10 +16,7 @@
             {%- for entry in navPages %}
                 <li><a
                     {% if entry.url == page.url %}aria-current="page"{% endif %}
-                    class="header__link {% if
-                        '/blog' in currentUrl and '/blog' in entry.url
-                        or '/projects' in currentUrl and '/projects' in entry.url
-                        %}link--active{% endif %}"
+                    class="header__link {% if '/blog' in currentUrl and '/blog' in entry.url or '/projects' in currentUrl and '/projects' in entry.url %}link--active{% endif %}"
                     href="{{ entry.url }}">
                         {{ entry.title }}
                 </a></li>
