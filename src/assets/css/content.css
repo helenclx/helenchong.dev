@@ -14,14 +14,6 @@ content-wrapper { gap: 1rem; }
 
 .prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 { margin-top: 2em; }
-
-.prose ul:not([class]), .prose ol:not([class]){
-    display: grid;
-    gap: 0.7em;
-}
-
-.prose ul ul, .prose ol ol,
-.prose ul ol, .prose ol ul { margin-top: 0.7em; }
 .bio { max-width: 65ch; }
 .right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) 3em; }
 

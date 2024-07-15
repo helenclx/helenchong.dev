@@ -70,9 +70,12 @@ a[href^="http"]:not([href*="helenchong.dev"]):not(:has(img, svg, picture))::afte
     transform: translateY(0.25em);
 }
 
-ul {
+ul:not([class]), ol:not([class]) {
     display: grid;
-    gap: 0.5em;
+    gap: var(--sz-list-gap);
 }
+
+ul:not([class]) ul, ol:not([class]) ol,
+ul:not([class]) ol, ol:not([class]) ul { margin-top: var(--sz-list-gap); }
 
 button:hover { cursor: pointer; }

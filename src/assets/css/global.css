@@ -26,6 +26,7 @@
 
     --sz-main-padding: clamp(1em, 5%, 1.5em);
     --sz-paragraph-margin: 1.15em;
+    --sz-list-gap: 0.7em;
 
     --bs-main: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
         0 4px 6px -4px rgb(0 0 0 / 0.2);
