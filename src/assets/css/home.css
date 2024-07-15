@@ -3,14 +3,14 @@
 
 .section--home {
     display: grid;
-    font-size: var(--fs-home-txt);
+    font-size: var(--fs-main-txt);
     padding: 2em 1em;
 }
 
 .section--home,
 .profile {
     max-width: 64rem;
-    font-size: var(--fs-home-txt);
+    font-size: var(--fs-main-txt);
     justify-self: center;
 }
 
