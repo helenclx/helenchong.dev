@@ -8,7 +8,7 @@
 
 .blog__post--info {
     gap: 0.3em;
-    font-size: var(--fs-home-txt);
+    font-size: var(--fs-main-txt);
 }
 
 .blog__post--pagination {
