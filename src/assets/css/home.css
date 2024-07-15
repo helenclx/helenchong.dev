@@ -9,7 +9,7 @@
 
 .section--home,
 .profile {
-    max-width: 64rem;
+    max-width: 70rem;
     font-size: var(--fs-main-txt);
     justify-self: center;
 }
