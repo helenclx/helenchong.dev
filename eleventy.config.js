@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
     // Installed Plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
-    eleventyConfig.addPlugin(syntaxHighlight);
+    eleventyConfig.addPlugin(syntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(emojiReadTime);
 
