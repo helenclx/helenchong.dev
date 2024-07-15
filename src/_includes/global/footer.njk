@@ -3,7 +3,7 @@
 
     <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
 
-    <ul class="footer__links">
+    <ul class="inline-list">
         <li><a href="/blog/feed.xml">RSS Feed</a></li>
     {%- for statement in collections.statements -%}
         <li><a
@@ -28,22 +28,5 @@
         gap: 0.5em;
         flex-direction: column;
         box-shadow: var(--bs-footer);
-    }
-
-    .footer__links {
-        justify-self: center;
-        list-style-type: "";
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        column-gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .footer__links li:not(:last-child)::after {
-        content: '•';
-        padding-left: 0.5em;
     }
 </style>

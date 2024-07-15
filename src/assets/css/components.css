@@ -19,6 +19,24 @@
     outline: 0.2em solid var(--clr-accent-600);
 }
 
+/* Inline lists */
+.inline-list {
+    justify-self: center;
+    list-style-type: "";
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.5em var(--sz-list-gap);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inline-list li:not(:last-child)::after {
+    content: '•';
+    padding-left: 0.5em;
+}
+
 /* Breadcumbs */
 .breadcrumbs {
     list-style-type: "";
