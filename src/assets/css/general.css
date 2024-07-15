@@ -70,4 +70,9 @@ a[href^="http"]:not([href*="helenchong.dev"]):not(:has(img, svg, picture))::afte
     transform: translateY(0.25em);
 }
 
+ul {
+    display: grid;
+    gap: 0.5em;
+}
+
 button:hover { cursor: pointer; }
