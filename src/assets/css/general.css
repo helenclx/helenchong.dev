@@ -73,6 +73,7 @@ a[href^="http"]:not([href*="helenchong.dev"]):not(:has(img, svg, picture))::afte
 ul:not([class]), ol:not([class]) {
     display: grid;
     gap: var(--sz-list-gap);
+    line-height: 1.8;
 }
 
 ul:not([class]) ul, ol:not([class]) ol,
