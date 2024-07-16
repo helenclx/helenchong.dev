@@ -111,6 +111,7 @@
     gap: 2em;
     flex-wrap: wrap;
     margin-top: 1.5em;
+    justify-content: center;
 }
 
 .webrings h3 { font-size: 1.5rem; }
