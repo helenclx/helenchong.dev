@@ -6,11 +6,13 @@ eleventyNavigation:
     order: 1
 ---
 
-Hi, I am Helen Chong (they/she). I am a front-end web developer with 8 years of working experience as a graphic designer.
+Hi, I am Helen Chong (they/she) from Malaysia. I am a front-end web developer with 8 years of working experience as a graphic designer.
 
-I intend to transfer my graphic design experience into web design and web development expertise, as I love to code and build sites and apps to solve problems. I have a particular interest on responsive, accessible, inclusive and scalable design to create the best user experience.
+I love to build and create things for problem-solving and self-expression. I intend to transfer my graphic design experience into web design and web development expertise, using code and build sites and apps to solve problems. I have a particular interest on responsive, accessible, inclusive and scalable design to create the best user experience.
 
-[Check out my resume]({{sitemeta.siteUrl}}/resume).
+In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
+
+You can [check out my resume]({{sitemeta.siteUrl}}/resume).
 
 ## My Certificates:
 
