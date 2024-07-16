@@ -51,7 +51,7 @@ a:hover {
     color: var(--clr-link-hover);
 }
 
-a:focus { outline: 0.15em solid var(--clr-accent-700); }
+a:focus { outline: 0.15em solid currentColor; }
 
 a[href^="http"]:not([href*="helenchong.dev"]):not(:has(img, svg, picture)),
 .external-link { padding-right: 1.3em; }
