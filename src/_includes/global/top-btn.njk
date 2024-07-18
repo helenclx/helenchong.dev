@@ -10,11 +10,8 @@
     <p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
 </noscript>
 
-<style>
-    .top-btn,
-    .top-btn:hover {
-        color: var(--clr-top-btn-txt);
-    }
+{%- css %}
+    .top-btn, .top-btn:hover { color: var(--clr-top-btn-txt); }
 
     .top-btn {
         position: fixed;
@@ -43,14 +40,9 @@
         border-right: 0.4rem solid transparent;
     }
 
-    .top-link::before {
-        margin: 0 var(--arrow-margin) 0 0;
-    }
-
-    .top-link::after {
-        margin: 0 0 0 var(--arrow-margin);
-    }
-</style>
+    .top-link::before { margin: 0 var(--arrow-margin) 0 0; }
+    .top-link::after { margin: 0 0 0 var(--arrow-margin); }
+{% endcss %}
 
 <script>
     const topButton = document.querySelector(".top-btn");

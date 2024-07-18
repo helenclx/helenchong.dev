@@ -19,7 +19,7 @@
     {% include "global/h-card.njk" %}
 </footer>
 
-<style>
+{%- css %}
     .footer {
         width: 100%;
         padding: 2em 1em clamp(2em, calc(100% - 2rem), 3em);
@@ -29,4 +29,4 @@
         flex-direction: column;
         box-shadow: var(--bs-footer);
     }
-</style>
+{% endcss %}

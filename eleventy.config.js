@@ -22,6 +22,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(emojiReadTime);
 
+    // Eleventy bundle plugin
+    eleventyConfig.addBundle("css");
+    eleventyConfig.addBundle("js");
+
     // Shortcode: Current year
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 

@@ -20,6 +20,7 @@
 
         {# CSS #}
         {% include "global/css.njk" %}
+        <style>{% getBundle "css" %}</style>
 
         {# Verifications #}
         <link rel="me" href="mailto:contact@helenchong.dev">
@@ -27,6 +28,9 @@
 
         {# Webmention #}
         <link rel="webmention" href="https://webmention.io/helenchong.dev/webmention">
+
+        {# JavaScript #}
+        <script src="{% getBundleFileUrl 'js' %}" defer></script>
 
         <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>
