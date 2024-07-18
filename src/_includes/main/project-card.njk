@@ -15,10 +15,9 @@
         </div>
         <h{{headingLevel}} class="project-card__title">{{ project.data.title }}</h3>
         <p class="project-card__summary">{{ project.data.summary }}</p>
-        <a class="project-card__link" href="{{ project.url }}">Read project case study of {{ project.data.title }}
-            <svg xmlns="http://www.w3.org/2000/svg" class="project-card__link-icon" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd">
-            </svg>
+        <a class="project-card__link" href="{{ project.url }}">
+            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+            Read project case study of {{ project.data.title }}
         </a>
         <div class="project-card__btns">
         {% if project.data.siteUrl -%}

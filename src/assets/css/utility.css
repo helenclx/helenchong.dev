@@ -9,6 +9,12 @@
 .text-center { text-align: center; }
 .text-bold { font-weight: 700; }
 
+.inline-icon {
+    vertical-align: -10%;
+    height: 1em;
+    fill: currentColor;
+}
+
 .grid-center {
     display: grid;
     place-content: center;
