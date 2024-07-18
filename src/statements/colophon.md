@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-15
+updated: 2024-07-18
 ---
 
 How this website is built.
@@ -15,7 +15,7 @@ How this website is built.
 
 ## Host and Domain
 * Deployed to GitHub Pages from the site's GitHub repository
-* The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
+* The domain name, `{{ sitemeta.siteDomain }}`, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 ## Plugins
 * Eleventy's official [Image](https://www.11ty.dev/docs/plugins/image/) plugin
