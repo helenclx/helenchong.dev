@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	siteName: "Helen Chong | Front-End Web Developer",
 	siteUrl: "https://helenchong.dev" || "http://localhost:8080",
 	siteDomain: "helenchong.dev",

@@ -1,12 +1,14 @@
 /* CONFIGURATION FOR MARKDOWN TEMPLATES */
 
 // Installed plugins
-const embedEverything = require("eleventy-plugin-embed-everything");
+import embedEverything from "eleventy-plugin-embed-everything";
 
-// Configure markdown-it plugins
-const markdownIt = require("markdown-it");
+// markdown-it plugins
+import markdownIt from "markdown-it";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItBracketedSpans from "markdown-it-bracketed-spans";
 
-module.exports = function (eleventyConfig) {
+export default function(eleventyConfig) {
     // Installed plugins
     eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
 
@@ -15,8 +17,8 @@ module.exports = function (eleventyConfig) {
         html: true,
         linkify: true,
     })
-        .use(require("markdown-it-attrs"))
-        .use(require("markdown-it-bracketed-spans"))
+        .use(markdownItAttrs)
+        .use(markdownItBracketedSpans)
 
     // Paired shortcode: custom container
     eleventyConfig.addPairedShortcode('container', (children, el, className) => {

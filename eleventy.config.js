@@ -1,19 +1,23 @@
 // Installed Plugins
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const metagen = require('eleventy-plugin-metagen');
-const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import metagen from 'eleventy-plugin-metagen';
+import emojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
 
-module.exports = function(eleventyConfig) {
+// Custom plugins
+import imagePlugin from "./eleventy.config.images.js";
+import markdownPlugin from "./eleventy.config.md.js";
+
+export default function(eleventyConfig) {
     // Copy files
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
     eleventyConfig.addPassthroughCopy("CNAME");
 
     // Custom plugins
-    eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.md.js"));
+    eleventyConfig.addPlugin(imagePlugin);
+    eleventyConfig.addPlugin(markdownPlugin);
 
     // Installed Plugins
     eleventyConfig.addPlugin(pluginRss);

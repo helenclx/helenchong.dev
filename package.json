@@ -5,6 +5,7 @@
     "build": "bunx eleventy",
     "build-ghpages": "bunx eleventy"
   },
+  "type": "module",
   "devDependencies": {
     "@types/bun": "^1.1.6"
   },
