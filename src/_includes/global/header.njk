@@ -157,7 +157,7 @@
     }
 {% endcss %}
 
-<script>
+{%- js %}
     {# Accessible hamburger menu navigation script based on:
     https://accessibleweb.dev/navigation #}
     const headerToggle = document.querySelector(".header__toggle");
@@ -204,4 +204,4 @@
     };
 
     headerLinkAll[headerLinkAll.length - 1].addEventListener("blur", handleBlur);
-</script>
+{% endjs %}

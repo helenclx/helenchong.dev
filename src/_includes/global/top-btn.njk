@@ -44,7 +44,7 @@
     .top-link::after { margin: 0 0 0 var(--arrow-margin); }
 {% endcss %}
 
-<script>
+{%- js %}
     const topButton = document.querySelector(".top-btn");
     const scrollOffset = 400;
 
@@ -59,4 +59,4 @@
     topButton.addEventListener('click', () => {
         window.scrollTo({ top: 0, left: 0 });
     });
-</script>
+{% endjs %}
