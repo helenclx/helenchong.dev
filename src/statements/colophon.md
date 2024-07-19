@@ -18,7 +18,6 @@ How this website is built.
 * The domain name, `{{ sitemeta.siteDomain }}`, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 ## Plugins
-* Eleventy's official [Image](https://www.11ty.dev/docs/plugins/image/) plugin
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 * Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin

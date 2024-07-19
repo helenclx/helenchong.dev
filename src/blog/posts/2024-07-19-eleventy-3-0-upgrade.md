@@ -27,12 +27,6 @@ Another major push for me to upgrade to Eleventy 3.0 was its [built-in bundle pl
 
 Previously, Eleventy's bundle plugin was a separate plugin that needed to be installed manually, as seen in the [Eleventy base blog](https://github.com/11ty/eleventy-base-blog) starter project, which uses Eleventy 2.0.1, though starting with Eleventy v3.0.0-alpha.10, the bundle plugin is now bundled with Eleventy.
 
-### Eleventy Transform Plugin
-
-Thirdly, another incentive for me to upgrade to Eleventy 3.0 was [Eleventy's official Image plugin](https://www.11ty.dev/docs/plugins/image/)'s [transform feature](https://www.11ty.dev/docs/plugins/image/#eleventy-transform), which is only supported by Eleventy 3.0.
-
-I have been using the official Image plugin since I rebuilt my website with Eleventy, after learning it from Gerard Hynes' tutorial, [Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website](https://www.freecodecamp.org/news/learn-eleventy/). However, with the image transform feature, we no longer need to insert shortcodes for every image we want to be responsive, since we could just use the good old `<img>` tag for our images and let the plugin handle the responsiveness.
-
 Therefore, I finally made the jump, by keying in `bun install @11ty/eleventy@canary --save-exact` in my website's folder on the terminal, and voilà! Eleventy 3.0 here I come!
 
 (Yes, I use [Bun](https://bun.sh/) as the JavaScript runtime for developing my Eleventy website and deploying it to GitHub Pages, and it works since Bun is meant to be a drop-in replacement for Node.js)
@@ -84,14 +78,6 @@ export const siteDescription = siteAuthor.name + "'s developer portfolio and blo
 However, I needed to manually change the `require()` functions inside the Eleventy configuration function, by using the `import` declaration at the top of the file, and assign them variables.
 
 The process of converting CommonJS to ESM in my Eleventy website was smoother than I expected. It might be because my website is not that complex, and my methods of organising my website files were relatively compatible with ESM.
-
-## Step 4: Goodbye, Eleventy Image Shortcodes
-
-The final major step for my developer portfolio and blog website to transition to an Eleventy 3.0 site was to replace Eleventy Image shortcodes with the regular `<img>` tags, and replace the Eleventy Image configurations with the image transform ones.
-
-Goodbye, Eleventy Image shortcodes, welcome back `<img>` tags!
-
-Another benefit of using the image transform plugin is to enable overriding your default configurations for the plugin in individual images, something difficult to do with shortcodes.
 
 ## Conclusion
 

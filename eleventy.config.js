@@ -6,7 +6,6 @@ import metagen from 'eleventy-plugin-metagen';
 import emojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
 
 // Custom plugins
-import imagePlugin from "./eleventy.config.images.js";
 import markdownPlugin from "./eleventy.config.md.js";
 
 export default function(eleventyConfig) {
@@ -19,7 +18,6 @@ export default function(eleventyConfig) {
     });
 
     // Custom plugins
-    eleventyConfig.addPlugin(imagePlugin);
     eleventyConfig.addPlugin(markdownPlugin);
 
     // Installed Plugins
