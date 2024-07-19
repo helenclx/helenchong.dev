@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-18
+updated: 2024-07-19
 ---
 
 How this website is built.
@@ -30,6 +30,7 @@ How this website is built.
 
 ### markdown-it Plugins
 Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.
+* [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 

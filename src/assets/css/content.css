@@ -13,7 +13,11 @@ content-wrapper { gap: 1rem; }
 }
 
 .prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
-.prose * + h2, .prose h3, .prose h4, .prose h5, .prose h6 { margin-top: 2em; }
+
+.prose > * + h2, .prose > * + .h2,
+.prose > h3,  .prose > * + .h3,
+.prose > h4, .prose > h5, .prose > h6 { margin-top: 2em; }
+
 .bio { max-width: 65ch; }
 .right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) 3em; }
 
@@ -21,6 +25,27 @@ content-wrapper { gap: 1rem; }
     position: sticky;
     top: 6em;
 }
+
+/* Heading Wrapper and Anchor */
+.heading-wrapper {
+    display: flex;
+    gap: 0.3em;
+    align-items: baseline;
+}
+
+* + .heading-wrapper { margin-top: 1.8em; }
+
+.heading-anchor {
+    order: -1;
+    text-underline-offset: 0.1em;
+}
+
+.heading-anchor:focus {
+    outline: 0.13em solid currentColor;
+    outline-offset: 0.05em;
+}
+
+.heading-anchor [hidden] { display: block; }
 
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
