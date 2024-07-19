@@ -28,10 +28,14 @@ h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
 h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.5em; }
 
 img, picture { height: auto; }
+:focus { outline: 0.15em solid currentColor; }
 
-code { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+code {
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    word-break: break-word;
+}
+
 :not(pre) > code { padding: 0.125em 0.25em; }
-
 :not(pre) > code,
 pre { background-color: var(--clr-code-bg); }
 
@@ -83,3 +87,5 @@ ul:not([class]) ul, ol:not([class]) ol,
 ul:not([class]) ol, ol:not([class]) ul { margin-top: var(--sz-list-gap); }
 
 button:hover { cursor: pointer; }
+details:focus { outline-offset: 0.2em; }
+summary { cursor: pointer; }

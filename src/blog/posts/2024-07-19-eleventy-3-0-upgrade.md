@@ -4,6 +4,7 @@ description: My developer portfolio and blog website has been officially upgrade
 date: 2024-07-19
 templateEngineOverride: md
 categories: ["about this website", "eleventy", "javascript"]
+toc: true
 ---
 
 On 9 April 2024, I [rebuilt this developer portfolio and blog website of mine](/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/) with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳
@@ -46,7 +47,7 @@ This happens when I run the Eleventy commands with either `npm` or `bun`.
 
 With problems with my `package.json` script solved, I could finally begin my process to transform my website to an Eleventy 3.0 site, by starting with bundling my component-specific CSS and JavaScript.
 
-I followed the instructions from [Eleventy bundle plugin's GitHub repository](https://github.com/11ty/eleventy-plugin-bundle), by adding `eleventyConfig.addBundle("css")` and `eleventyConfig.addBundle("js")` to my Eleventy configuration file.
+I followed the instructions from [Eleventy bundle plugin's GitHub repository](https://github.com/11ty/eleventy-plugin-bundle), by adding `addBundle("css")` and `addBundle("js")` to my Eleventy configuration file.
 
 I want to write my bundled JavaScript into files with the `getBundleFileUrl` shortcode, so I can add the `defer` HTML attribute to the `<script>` tags that load the bundled file. For this purpose, I use the `toFileDirectory` to configure my JavaScript bundle to write the bundled JavaScript files into the output's assets folder and its JavaScript subfolder, so the setup to bundle my CSS and JavaScript in my Eleventy configuration file becomes this:
 

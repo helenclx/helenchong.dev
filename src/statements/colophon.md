@@ -27,6 +27,7 @@ How this website is built.
 * [Emoji Read Time Eleventy Plugin](https://11ty.rocks/#plugin-emoji-read-time)
 * [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
+* [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 
 ### markdown-it Plugins
 Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.

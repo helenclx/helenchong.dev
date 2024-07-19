@@ -1,6 +1,6 @@
 /* CONFIGURATION FOR MARKDOWN TEMPLATES */
-
 // Installed plugins
+import pluginTOC from '@uncenter/eleventy-plugin-toc';
 import embedEverything from "eleventy-plugin-embed-everything";
 
 // Configure slug filter
@@ -14,6 +14,12 @@ import markdownItBracketedSpans from "markdown-it-bracketed-spans";
 
 export default function(eleventyConfig) {
     // Installed plugins
+    eleventyConfig.addPlugin(pluginTOC, {
+        tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
+        wrapper: function (toc) {
+            return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
+        },
+    });
     eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
 
     // Configure slug filter

@@ -24,6 +24,10 @@ layout: global/base
 </header>
 
 <content-wrapper>
+    {% if toc %}
+        {% include "global/toc.njk" %}
+    {% endif %}
+
     {% set contentEl = "article" if isArticle else "div" %}
     <{{contentEl}} class="prose">
         {{ content | safe }}
