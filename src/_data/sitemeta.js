@@ -7,7 +7,7 @@ export default {
 	siteAuthor: {
 		name: "Helen Chong",
 		email: "contact@helenchong.dev",
-		url: () => this.siteUrl + "/about"
+		url: "https://helenchong.dev/about"
 	},
 	siteBlog: {
 		title: "Helen Chong's Developer Blog",
