@@ -2,14 +2,12 @@
 {
     "permalink": "blog/feed.xml",
     "eleventyExcludeFromCollections": true,
-    "metadata": {
-        "title": "{{ sitemeta.siteBlog.title }}"
-    },
     "eleventyComputed":{
         "metadata": {
+            "title": "{{ sitemeta.siteBlog.title | safe }}",
             "subtitle": "{{ sitemeta.siteBlog.desc }}",
-            "url": "{{ sitemeta.siteUrl }}blog/",
-            "feedUrl": "{{ sitemeta.siteUrl }}blog/feed.xml",
+            "url": "{{ sitemeta.siteUrl }}/blog/",
+            "feedUrl": "{{ sitemeta.siteUrl }}/blog/feed.xml",
             "language": "{{ sitemeta.siteLocale }}",
             "author": {
                 "name": "{{ sitemeta.siteAuthor.name }}",
