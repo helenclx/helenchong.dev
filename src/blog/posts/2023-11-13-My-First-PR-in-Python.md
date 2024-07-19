@@ -1,6 +1,6 @@
 ---
 title: cbpickaxe and My First (Merged) Pull Request in Python
-description: About my first pull request in Python that got approved and merged.
+desc: About my first pull request in Python that got approved and merged.
 date: 2023-11-13
 categories: ["python", "github", "cbpickaxe", "cassette beasts"]
 ---

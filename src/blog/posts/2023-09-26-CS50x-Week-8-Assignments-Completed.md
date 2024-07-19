@@ -1,6 +1,6 @@
 ---
 title: CS50x Week 8 Assignments Completed
-description: I have completed and submitted the Week 8 assignment of the CS50's Introduction to Computer Science (CS50x) course.
+desc: I have completed and submitted the Week 8 assignment of the CS50's Introduction to Computer Science (CS50x) course.
 date: 2023-09-26
 categories: ["cs50", "cs50x", "html", "css", "javascript"]
 ---

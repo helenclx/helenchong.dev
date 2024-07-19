@@ -1,6 +1,6 @@
 ---
 title: Chingu Voyage 46 Completed
-description: My participation and winning of Scrimba's JavaScriptmas 2023 challenge.
+desc: My participation and winning of Scrimba's JavaScriptmas 2023 challenge.
 date: 2023-11-25
 categories: ["chingu"]
 ---

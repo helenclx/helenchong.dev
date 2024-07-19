@@ -1,6 +1,6 @@
 ---
 title: Rebuilding My Developer Portfolio with Eleventy
-description: I recreated my developer portfolio and blog from scratch with Eleventy.
+desc: I recreated my developer portfolio and blog from scratch with Eleventy.
 date: 2024-04-11
 categories: ["eleventy", "about this website", "about this blog"]
 ---

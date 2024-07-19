@@ -1,6 +1,6 @@
 ---
 title: CS50x Course Completed
-description: About me completing the CS50’s Introduction to Computer Science course.
+desc: About me completing the CS50’s Introduction to Computer Science course.
 date: 2024-05-27
 categories: ["cs50", "cs50x", "python", "flask", "sql"]
 ---

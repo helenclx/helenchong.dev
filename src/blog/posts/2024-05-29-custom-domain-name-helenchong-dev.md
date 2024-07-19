@@ -1,6 +1,6 @@
 ---
 title: Custom Domain Name for My Developer Website
-description: My developer website now has a custom domain name.
+desc: My developer website now has a custom domain name.
 date: 2024-05-29
 categories: ["about this website"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Aboard the Eleventy 3.0 Train
-description: My developer portfolio and blog website has been officially upgraded to Eleventy 3.0.
+desc: My developer portfolio and blog website has been officially upgraded to Eleventy 3.0.
 date: 2024-07-19
 templateEngineOverride: md
 categories: ["about this website", "eleventy", "javascript"]

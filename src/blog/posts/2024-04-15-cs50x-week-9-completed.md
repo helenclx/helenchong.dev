@@ -1,6 +1,6 @@
 ---
 title: CS50x Week 9 Completed
-description: In March 2024, I have completed and submitted the Week 9 problem set of the CS50's Introduction to Computer Science (CS50x) course.
+desc: In March 2024, I have completed and submitted the Week 9 problem set of the CS50's Introduction to Computer Science (CS50x) course.
 date: 2024-04-15
 categories: ["cs50", "cs50x", "python", "flask", "sql"]
 ---

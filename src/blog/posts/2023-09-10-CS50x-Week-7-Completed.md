@@ -1,6 +1,6 @@
 ---
 title: CS50x Week 7 Completed
-description: I have completed and submitted the Week 7 assignment of the CS50's Introduction to Computer Science (CS50x) course.
+desc: I have completed and submitted the Week 7 assignment of the CS50's Introduction to Computer Science (CS50x) course.
 date: 2023-09-10
 categories: ["cs50", "cs50x", "sql"]
 ---

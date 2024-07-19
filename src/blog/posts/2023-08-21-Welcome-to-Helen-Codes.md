@@ -1,6 +1,6 @@
 ---
 title: Welcome to Helen Codes
-description: Welcome to Helen Chong's coding and tech blog.
+desc: Welcome to Helen Chong's coding and tech blog.
 date: 2023-08-21
 categories: ["about this blog"]
 ---

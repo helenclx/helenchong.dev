@@ -1,6 +1,6 @@
 ---
 title: Built A TickyBot Clone for Chingu's Solo Projects
-description: I built a TickyBot Clone for Chingu's Solo Project.
+desc: I built a TickyBot Clone for Chingu's Solo Project.
 date: 2023-08-24
 categories: ["chingu"]
 ---
