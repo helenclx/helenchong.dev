@@ -24,6 +24,8 @@ h2 { font-size: var(--fs-h2); }
 h3 { font-size: var(--fs-h3); }
 h4 { font-size: var(--fs-h4); }
 
+img, picture { height: auto; }
+
 code { font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
 :not(pre) > code { padding: 0.125em 0.25em; }
 
