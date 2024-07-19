@@ -9,7 +9,7 @@ content-wrapper { gap: 1rem; }
 .prose {
     font-size: var(--fs-main-txt);
     color: var(--clr-slate-600);
-    padding: 0 var(--sz-main-padding) 4em;
+    padding: 0 var(--sz-main-padding) var(--sz-content-bottom);
 }
 
 .prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
@@ -19,7 +19,7 @@ content-wrapper { gap: 1rem; }
 .prose > h4, .prose > h5, .prose > h6 { margin-top: 2em; }
 
 .bio { max-width: 65ch; }
-.right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) 3em; }
+.right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) var(--sz-content-bottom); }
 
 .sidebar--sticky {
     position: sticky;

@@ -13,7 +13,7 @@
     .toc__wrapper {
         max-height: 89vh;
         overflow-x: auto;
-        padding: 0.3em 1.3rem;
+        padding: 0.3em 1.3rem 1.5em;
     }
 
     .toc__heading {
@@ -50,5 +50,9 @@
     .toc ol ol a {
         padding: 0;
         font-size: 1rem;
+    }
+
+    @media only screen and (min-width: 60rem) {
+        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
     }
 {% endcss %}
