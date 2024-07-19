@@ -3,6 +3,6 @@
     "tags": "statements",
     "permalink": "/{{ page.fileSlug }}/",
     "eleventyComputed": {
-        "desc": "{{ sitemeta.siteName }}'s {{ keyword }}."
+        "desc": "{{ sitemeta.siteAuthor.name }}'s {{ keyword }}."
     }
 }
