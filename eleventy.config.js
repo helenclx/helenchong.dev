@@ -28,7 +28,7 @@ export default function(eleventyConfig) {
 
     // Eleventy bundle plugin
     eleventyConfig.addBundle("css");
-    eleventyConfig.addBundle("js");
+    eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 
     // Shortcode: Current year
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
