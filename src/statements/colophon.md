@@ -22,6 +22,7 @@ How this website is built.
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 * Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
+* [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
 * [Emoji Read Time Eleventy Plugin](https://11ty.rocks/#plugin-emoji-read-time)
