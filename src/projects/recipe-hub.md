@@ -26,7 +26,7 @@ Recipe Hub is built with HTML, CSS, vanilla JavaScript and the [Tasty API](https
 
 The free tier of Tasty API has a limited quota of how much response we can fetch monthly. As we worked on this project, we quickly ran out of quota multiple times, and therefore we had to constantly change our API key.
 
-### Lessons Learned
+## Lessons Learned
 
 Chingu Voyage was a big help to me for gaining practical experience in working on group projects, and learning both hard and soft skills. Particupating in the Chingu Voyage allowed me to practice not only my HTML, CSS and JavaScript skills, but also my teamwork and communication skills that are needed in group projects.
 
