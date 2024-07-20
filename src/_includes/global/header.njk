@@ -1,31 +1,35 @@
 {% set currentUrl %}{{ page.url }}{% endset %}
 
+{% set navLinks %}
+    {% set navPages = collections.all | eleventyNavigation %}
+    {%- for entry in navPages %}
+        <li><a
+            {% if entry.url == page.url %}aria-current="page"{% endif %}
+            class="header__link {% if
+                '/blog' in currentUrl and '/blog' in entry.url
+                or '/projects' in currentUrl and '/projects' in entry.url
+                %}link--active{% endif %}"
+            href="{{ entry.url }}">
+                {{ entry.title }}
+        </a></li>
+    {%- endfor %}
+{% endset %}
+
 <header class="header">
     <h2 class="header__title">
         <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
     </h2>
     <nav aria-labelledby="top-nav-title">
-        <h3 class="visually-hidden" id="top-nav-title">Main Navigation</h3>
-        <button class="header__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-            <svg aria-hidden="true" width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+        <h3 class="visually-hidden" id="top-nav-title">Main</h3>
+        <ul class="header__navmenu header__links">{{ navLinks | safe }}</ul>
+        <button class="header__toggle" popovertarget="nav-menu" aria-labelledby="nav-toggle-title">
+            <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+            <span id="nav-toggle-title" class="visually-hidden">Toggle navigation menu</span>
         </button>
-        <ul class="header__links">
-            {% set navPages = collections.all | eleventyNavigation %}
-            {%- for entry in navPages %}
-                <li><a
-                    {% if entry.url == page.url %}aria-current="page"{% endif %}
-                    class="header__link {% if
-                        '/blog' in currentUrl and '/blog' in entry.url
-                        or '/projects' in currentUrl and '/projects' in entry.url
-                        %}link--active{% endif %}"
-                    href="{{ entry.url }}">
-                        {{ entry.title }}
-                </a></li>
-            {%- endfor %}
-        </ul>
     </nav>
+    <div popover id="nav-menu" class="header__popover">
+        <ul class="header__navmenu">{{ navLinks | safe }}</ul>
+    </div>
 </header>
 
 {%- css %}
@@ -53,10 +57,7 @@
     .header__toggle:focus {
         outline: 0.12em solid var(--clr-accent-600);
     }
-
-    .header__title > a {
-        text-decoration: none;
-    }
+    .header__title > a { text-decoration: none; }
 
     .header__toggle {
         border: none;
@@ -67,35 +68,38 @@
         justify-content: center;
     }
 
-    .header__links {
+    .header__toggle svg { fill: var(--clr-txt-default); }
+    .header__toggle:focus { outline-offset: 0.15em; }
+
+    .header__navmenu {
         list-style-type: "";
+        padding: 0;
+        margin: 0;
         font-size: 1.125rem;
         font-weight: 600;
         color: var(--clr-accent-600);
         text-align: center;
-        gap: 2rem;
-
-        position: fixed;
-        background-color: var(--clr-body-bg);
         display: grid;
-        top: 4.5rem;
-        left: 10%;
-        width: 80%;
+        gap: 2rem;
+    }
+
+    .header__links { display: none; }
+
+    .header__popover {
+        background-color: var(--clr-body-bg);
+        border: 0.15em solid var(--clr-accent-600);
         padding: 1.5em;
         box-shadow: var(--bs-main);
-        transform: translateX(120%);
-        transition: transform 0.5s ease-in;
+        width: 80%;
     }
 
-    .header__links--show,
-    .header__links:focus-within {
-        transform: translateX(0);
+    .header__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
     }
 
-    .header__links [aria-current="page"],
-    .link--active {
-        color: var(--clr-link-hover);
-    }
+    .header__navmenu [aria-current="page"],
+    .link--active { color: var(--clr-link-hover); }
 
     .header__link {
         position: relative;
@@ -116,10 +120,8 @@
     }
 
     .header__link:hover::after,
-    .header__links [aria-current="page"]::after,
-    .link--active::after {
-        transform: scaleX(1);
-    }
+    .header__navmenu [aria-current="page"]::after,
+    .link--active::after { transform: scaleX(1); }
 
     .header__link:focus {
         outline: 0.2em solid var(--clr-accent-600);
@@ -128,80 +130,17 @@
 
     /* For larger screen sizes */
     @media (min-width: 640px) {
-        .header__title {
-            margin-bottom: 0;
-        }
+        .header__title { margin-bottom: 0; }
     }
 
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
-        .header__toggle {
-            display: none;
-        }
+        .header__toggle { display: none; }
 
         .header__links {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            position: static;
-            background-color: inherit;
-            top: 0;
-            left: 0;
-            padding: 0;
-            margin: 0;
-            width: unset;
-            transform: none;
-            transition: none;
-            box-shadow: none;
         }
     }
 {% endcss %}
-
-{%- js %}
-    {# Accessible hamburger menu navigation script based on:
-    https://accessibleweb.dev/navigation #}
-    const headerToggle = document.querySelector(".header__toggle");
-    const headerLinksClass = ".header__links";
-    const headerLinks = document.querySelector(headerLinksClass);
-    const headerLinkAll = document.querySelectorAll('.header__link');
-    const showHeaderLinkClass = "header__links--show";
-
-    const openNavigation = () => {
-        headerLinks.classList.add(showHeaderLinkClass);
-        headerToggle.ariaExpanded = "true";
-    };
-
-    const closeNavigation = () => {
-        headerLinks.classList.remove(showHeaderLinkClass);
-        headerToggle.ariaExpanded = "false";
-    };
-
-    const toggleNavigation = () => {
-        const open = headerToggle.ariaExpanded;
-        open === "false" ? openNavigation() : closeNavigation();
-    }
-
-    headerToggle.addEventListener("click", toggleNavigation);
-
-    headerLinkAll.forEach((link) => {
-        link.addEventListener('click', () => {
-            headerLinks.classList.remove(showHeaderLinkClass);
-        });
-    });
-
-    window.addEventListener("keyup", (e) => {
-        if (e.key === "Escape") {
-            headerLinks.classList.remove(showHeaderLinkClass);
-            headerToggle.focus();
-        }
-    });
-
-    const handleBlur = (event) => {
-    const navList = event.currentTarget.closest(headerLinksClass);
-    if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
-            closeNavigation();
-        }
-    };
-
-    headerLinkAll[headerLinkAll.length - 1].addEventListener("blur", handleBlur);
-{% endjs %}
