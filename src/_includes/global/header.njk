@@ -39,11 +39,16 @@
         align-items: center;
         flex-wrap: wrap;
         padding: 1rem 1.5rem;
-        position: sticky;
-        top: 0;
         background-color: var(--clr-body-bg);
         box-shadow: var(--bs-main);
         z-index: 998;
+    }
+
+    @supports selector([popover]) {
+        .header {
+            position: sticky;
+            top: 0;
+        }
     }
 
     .header__title {
@@ -79,8 +84,9 @@
         font-weight: 600;
         color: var(--clr-accent-600);
         text-align: center;
-        display: grid;
-        gap: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
     }
 
     .header__links { display: none; }
@@ -90,7 +96,7 @@
         border: 0.15em solid var(--clr-accent-600);
         padding: 1.5em;
         box-shadow: var(--bs-main);
-        width: 80%;
+        max-width: 80%;
     }
 
     .header__popover::backdrop {
@@ -139,7 +145,6 @@
 
         .header__links {
             display: flex;
-            flex-direction: row;
             flex-wrap: wrap;
         }
     }
