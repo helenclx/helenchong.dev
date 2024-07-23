@@ -8,7 +8,7 @@ eleventyNavigation:
 
 <p class="contact__sub-heading text-center">I am always open to new opportunities and projects. </p>
 
-<form class="form" name="contact" action="https://formsubmit.co/contact@helenchong.dev" method="POST">
+<form class="form" name="contact" action="https://formsubmit.co/{{ sitemeta.siteAuthor.email }}" method="POST">
     <div class="form__section">
         <label class="form__label" for="yourName">Name</label>
         <input class="form__input" name="name" type="text" id="yourName" required="true">
