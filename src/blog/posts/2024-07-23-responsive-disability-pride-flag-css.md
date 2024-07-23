@@ -15,8 +15,8 @@ categories: ["css", "disability pride"]
 }
 
 .disability-pride-flag.demo {
-    width: 20rem;
-    height: 15rem;
+    width: 100%;
+    height: 20rem;
 }
 {% endcss %}
 
