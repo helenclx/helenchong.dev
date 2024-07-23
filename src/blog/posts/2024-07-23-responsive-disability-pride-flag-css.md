@@ -20,9 +20,7 @@ categories: ["css", "disability pride"]
 }
 {% endcss %}
 
-<div class="disability-pride-flag demo" role="img" aria-describedby="disability-pride-flag-description"></div>
-
-[[Image description: a demo of the Disability Pride flag coded in CSS: A charcoal grey flag with a diagonal band from the top left to bottom right corner, made up of five parallel stripes in red, gold, pale grey, blue, and green. Description ends]]{id="disability-pride-flag-description"}
+<div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
 
 Happy [Disability Pride Month](https://www.weareincludability.co.uk/resources/what-is-disability-pride-month)! To celebrate the occasion, I did a small project: a responsive Disability Pride Flag CSS background! For those who do not know, this [Disability Pride Flag](https://www.womansday.com/life/a43964487/disability-pride-flag/) was created by [Ann Magill](https://capri0mni.dreamwidth.org/837596.html) and released in 2021.
 
