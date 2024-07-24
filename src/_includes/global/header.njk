@@ -81,7 +81,7 @@
         text-align: center;
         display: flex;
         flex-wrap: wrap;
-        gap: 1em;
+        gap: 0.5em 1em;
     }
 
     .header__links { display: none; }
@@ -137,10 +137,20 @@
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
         .header__toggle, .header__popover { display: none; }
-
-        .header__links {
-            display: flex;
-            flex-wrap: wrap;
-        }
+        .header__links { display: flex; }
     }
 {% endcss %}
+
+{%- js %}
+function supportsPopover() {
+    return HTMLElement.prototype.hasOwnProperty("popover");
+}
+const popoverSupported = supportsPopover();
+
+if (!popoverSupported) {
+    document.querySelector(".header__toggle").style.display = "none";
+    document.querySelector(".header__links").style.display = "flex";
+    document.querySelector(".header__navmenu").style.marginTop = "1em";
+    document.querySelector(".header").style.position = "static";
+}
+{% endjs %}
