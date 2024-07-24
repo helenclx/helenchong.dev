@@ -42,7 +42,7 @@
         background-color: var(--clr-body-bg);
         box-shadow: var(--bs-main);
         z-index: 998;
-        position: sticky;
+        position: static;
         top: 0;
     }
 
@@ -64,7 +64,7 @@
         background-color: transparent;
         font-size: 2rem;
         padding: 0;
-        display: flex;
+        display: none;
         justify-content: center;
     }
 
@@ -74,7 +74,7 @@
     .header__navmenu {
         list-style-type: "";
         padding: 0;
-        margin: 0;
+        margin: 1em 0 0 0;
         font-size: 1.125rem;
         font-weight: 600;
         color: var(--clr-accent-600);
@@ -84,7 +84,7 @@
         gap: 0.5em 1em;
     }
 
-    .header__links { display: none; }
+    .header__links { display: flex; }
 
     .header__popover {
         background-color: var(--clr-body-bg);
@@ -134,23 +134,16 @@
         .header__title { margin-bottom: 0; }
     }
 
+    @supports selector([popover]) {
+        .header__toggle { display: flex; }
+        .header__links { display: none; }
+        .header__navmenu { margin: 0; }
+        .header { position: sticky; }
+    }
+
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
         .header__toggle, .header__popover { display: none; }
         .header__links { display: flex; }
     }
 {% endcss %}
-
-{%- js %}
-function supportsPopover() {
-    return HTMLElement.prototype.hasOwnProperty("popover");
-}
-const popoverSupported = supportsPopover();
-
-if (!popoverSupported) {
-    document.querySelector(".header__toggle").style.display = "none";
-    document.querySelector(".header__links").style.display = "flex";
-    document.querySelector(".header__navmenu").style.marginTop = "1em";
-    document.querySelector(".header").style.position = "static";
-}
-{% endjs %}
