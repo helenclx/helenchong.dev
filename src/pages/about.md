@@ -6,15 +6,17 @@ eleventyNavigation:
     order: 1
 ---
 
-Hi, I am Helen Chong (they/she) from Malaysia. I am a front-end web developer with 8 years of working experience as a graphic designer.
+Greetings! I am Helen Chong (they/she), an aspiring web developer from Malaysia. Previously, I had worked 8 years as a graphic designer. Now I have decided to transfer my creativity and problem-solving skills into building the web, with a focus on accessible design, progressive enhancement and web performance to improve user experience.
 
-I love to build and create things for problem-solving and self-expression. I intend to transfer my graphic design experience into web design and web development expertise, using code and build sites and apps to solve problems. I have a particular interest on responsive, accessible, inclusive and scalable design to create the best user experience.
+I have been interested in computers and the internet, as well as learning how to use them since I was a child. Later during my teenage years, I learned about the existence of blogs, and began blogging, which led me to learn HTML and CSS to customise blog themes and widgets. I was already fascinated by web design, however I was unaware if web design could be a viable career path, so I used my interest in design to pursue an education and later career in graphic design.
+
+In 2022, I began to relearn HTML and CSS after realising the resurgence of creating personal websites. This time, I began to properly learn JavaScript, and my interest in web design and developed grew enough for me to consider pursuing web development. As a result, I started taking online coding courses, started with freeCodeCamp and Scrimba.
 
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
 
 You can [check out my resume]({{sitemeta.siteUrl}}/resume).
 
-## My Certificates:
+## My Certificates
 
 * freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/certification/helenclx/responsive-web-design)
 * freeCodeCamp's [JavaScript Algorithms and Data Structures (Beta) Certification](https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures-v8)
