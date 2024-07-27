@@ -1,8 +1,4 @@
 /* General Styles */
-@media (prefers-reduced-motion: no-preference) {
-    html { scroll-behavior: smooth; }
-}
-
 body {
     color: var(--clr-txt-default);
     background-color: var(--clr-body-bg);
