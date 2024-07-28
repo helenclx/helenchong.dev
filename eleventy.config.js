@@ -6,7 +6,7 @@ import metagen from 'eleventy-plugin-metagen';
 import emojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
 
 // Custom plugins
-import markdownPlugin from "./config/markdown-it.js";
+import markdownPlugin from "./src/_config/markdown-it.js";
 
 export default function(eleventyConfig) {
     // Copy files
