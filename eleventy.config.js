@@ -1,9 +1,9 @@
 // Installed Plugins
 import pluginRss from "@11ty/eleventy-plugin-rss";
-import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import metagen from 'eleventy-plugin-metagen';
-import emojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
+import pluginEleventyNavigation from "@11ty/eleventy-navigation";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginMetagen from "eleventy-plugin-metagen";
+import pluginEmojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
 
 // Custom configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
@@ -15,10 +15,10 @@ import shortCodesConfig from "./src/_config/shortcodes.js";
 export default function(eleventyConfig) {
     // Installed Plugins
     eleventyConfig.addPlugin(pluginRss);
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
-    eleventyConfig.addPlugin(syntaxHighlight, { preAttributes: { tabindex: 0 } });
-    eleventyConfig.addPlugin(metagen);
-    eleventyConfig.addPlugin(emojiReadTime);
+    eleventyConfig.addPlugin(pluginEleventyNavigation);
+    eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
+    eleventyConfig.addPlugin(pluginMetagen);
+    eleventyConfig.addPlugin(pluginEmojiReadTime);
 
     // Custom configurations
     eleventyConfig.addPlugin(markdownItConfig);
