@@ -7,7 +7,7 @@ import pluginEmojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
 
 // Custom configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
-import copyConfig from "./src/_config/copy.js";
+import filesConfig from "./src/_config/files.js";
 import collectionsConfig from "./src/_config/collections.js";
 import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
@@ -22,7 +22,7 @@ export default function(eleventyConfig) {
 
     // Custom configurations
     eleventyConfig.addPlugin(markdownItConfig);
-    eleventyConfig.addPlugin(copyConfig);
+    eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(collectionsConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
