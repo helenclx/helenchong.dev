@@ -81,13 +81,6 @@ export default function(eleventyConfig) {
     // Configure linkify
     markdownLibrary.linkify.set({ fuzzyLink: false });
 
-    // Paired shortcode: custom container
-    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
-        const classMarkup = className ? ` class="${className}"` : "";
-        const content = markdownLibrary.render(children);
-        return `<${el}${classMarkup}>${content}</${el}>`;
-    });
-
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
 }
