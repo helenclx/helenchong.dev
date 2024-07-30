@@ -4,8 +4,11 @@ eleventyExcludeFromCollections: true
 ---
 ErrorDocument 404 /404.html
 
-<FilesMatch "\.(ico|svg|avif|jpg|png|gif|js|css|woff2)$">
+<FilesMatch "\.(ico|svg|avif|webp|jpg|png|gif|woff2)$">
 Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+<FilesMatch "\.(css|js)$">
+Header set Cache-Control "no-cache, public"
 </FilesMatch>
 
 RewriteEngine on
