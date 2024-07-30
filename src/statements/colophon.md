@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-19
+updated: 2024-07-30
 ---
 
 How this website is built.
@@ -11,11 +11,13 @@ How this website is built.
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
 * JavaScript runtime: [Bun](https://bun.sh)
-* Source code available on [GitHub](https://github.com/helenclx/helenclx.github.io)
+* Source code available on [GitHub](https://github.com/helenclx/helenchong.dev)
 
 ## Host and Domain
-* Deployed to GitHub Pages from the site's GitHub repository
+* Deployed to [Hostinger](https://www.hostinger.my/) from the site's GitHub repository
 * The domain name, `{{ sitemeta.siteDomain }}`, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
+
+Previously, this website was hosted on GitHub Pages until 30 July 2024.
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
