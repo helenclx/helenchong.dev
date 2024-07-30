@@ -11,6 +11,6 @@ The first step needed to start participating in Chingu's projects is to submit a
 
 ![Screenshot of my TickyBot clone](https://raw.githubusercontent.com/helenclx/TickyBot-Clone/main/screenshot-tickybot-clone.png)
 
-You can view my TickyBot Clone's [live site](http://helenchong.dev/TickyBot-Clone/) and [GitHub repository](https://github.com/helenclx/TickyBot-Clone).
+You can view my TickyBot Clone's [live site](http://helenclx.github.io/TickyBot-Clone/) and [GitHub repository](https://github.com/helenclx/TickyBot-Clone).
 
 My next step was to sign up for the next Chingu Voyage. I am looking forward to learning to work in a group developer project. Wish me luck!

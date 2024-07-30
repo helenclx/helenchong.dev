@@ -82,11 +82,11 @@ jobs:
 ```
 
 This set-up made my Scrimba React solo projects live at the following links:
-- [Digital Business Card](https://helenchong.dev/Scrimba-React-Solo-Projects/1-digital-business-card/)
-- [Travel Journal](https://helenchong.dev/Scrimba-React-Solo-Projects/2-travel-journal/)
-- [Quizzical](https://helenchong.dev/Scrimba-React-Solo-Projects/3-quizzical/)
+- [Digital Business Card](https://helenclx.github.io/Scrimba-React-Solo-Projects/1-digital-business-card/)
+- [Travel Journal](https://helenclx.github.io/Scrimba-React-Solo-Projects/2-travel-journal/)
+- [Quizzical](https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/)
 
-I was beyond relief to finally deployed my Scrimba React solo projects to GitHub Pages, so I decided to do a bit more by creating a HTML home page to list those solo projects when the main link of the deployed repository, https://helenchong.dev/Scrimba-React-Solo-Projects/, is visited.
+I was beyond relief to finally deployed my Scrimba React solo projects to GitHub Pages, so I decided to do a bit more by creating a HTML home page to list those solo projects when the main link of the deployed repository, https://helenclx.github.io/Scrimba-React-Solo-Projects/, is visited.
 
 I do not need a fancy home page for my deployed Scrimba React solo projects, so I based the home page's CSS on the [Smol Document Styles by SmolCSS](https://SmolCSS.dev/#smol-document-styles).
 
