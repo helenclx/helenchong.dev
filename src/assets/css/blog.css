@@ -1,9 +1,7 @@
 /* Blog Styles */
 .blog__postlist,
 .blog__post--info { display: grid; }
-
 .blog__postlist { gap: 0.5em; }
-
 .blog__postlist--title { font-size: 1.3rem; }
 
 .blog__post--info {
@@ -22,11 +20,10 @@
     padding: 0;
     margin: 0;
     display: grid;
-    gap: 0.7em;
+    gap: 1em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 'prev next';
 }
 
 .blog__post--prev { grid-area: prev; }
-
 .blog__post--next { grid-area: next; }
