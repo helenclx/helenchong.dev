@@ -1,9 +1,4 @@
 ---
-pagination:
-    data: collections.posts
-    size: 10
-    alias: postList
-    reverse: true
 title: Blog Archive
 layout: global/content
 tags: blog pages
@@ -14,19 +9,5 @@ eleventyNavigation:
     parent: Blog
     order: 3
 ---
-
+{% set postList = collections.posts | reverse %}
 {% include "blog/postslist.njk" %}
-
-<p>
-    {% if pagination.href.previous %}
-        <a href=" {{ pagination.href.previous }}">Previous</a>
-    {% else %}
-        Previous
-    {% endif %}
-    /
-    {% if pagination.href.next %}
-        <a href=" {{ pagination.href.next }}">Next</a>
-    {% else %}
-        Next
-    {% endif %}
-</p>
