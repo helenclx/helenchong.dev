@@ -19,7 +19,7 @@ GitHub Pages is decent for hosting static sites. You can host a static site on G
 
 However, as I grew as a web developer and began to explore more advance topics about web development, I started to desire for more control over my own website. A notable disadvantage of GitHub Pages compared to web hosting services that support dynamic websites is the lack of `.htaccess` support. Learning about the things `.htaccess` can do has tempted me to consider migrating away form GitHub Pages.
 
-Furthermore, in addition to this developer portfolio and blog website, I have also built various hobby websites, so it would be nice if I could consolidate the management of my websites in one platform.
+Furthermore, in addition to this developer portfolio and blog website, I have also built various hobby websites, so it would be nice if I could consolidate the management of my websites into one platform.
 
 Last but not least, I am invested in web development and building my own website  enough to be willing to spend money on them, as evident in my purchase and registration of a custom domain name `helenchong.dev` for this website. That said, I do need to consider carefully about how much money I am going to spend, which factors in why I eventually chose Hostinger to host my websites.
 
