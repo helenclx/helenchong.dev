@@ -10,7 +10,7 @@ Greetings! I am Helen Chong (they/she), an aspiring web developer from Malaysia.
 
 I have been interested in computers and the internet, as well as learning how to use them since I was a child. Later as a teenager, I learned about the existence of blogs, and began blogging as a hobby, which led me to learn HTML and CSS to customise blog themes and widgets. I was already fascinated by web design, however I was unaware if web design could be a viable career path at the time, so I used my interest in design to pursue an education and later career in graphic design.
 
-In 2022, I relearn HTML and CSS after being inspired by the resurgence of creating personal websites. This time, I also properly learned JavaScript, and my interest in web design and development grew enough for me to consider pursuing web development. As a result, I started taking online coding courses, starting with freeCodeCamp and Scrimba.
+Fast forward to 2022, discovering the resurgence of creating personal websites inspired me to relearn HTML and CSS. This time, I also dabbled in JavaScript. Eventually, my interest in web design and development grew enough to make me consider pursuing web development. As a result, I started taking online coding courses, starting with freeCodeCamp and Scrimba.
 
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
 
