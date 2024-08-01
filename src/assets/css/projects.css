@@ -32,7 +32,7 @@
 
 .project-card__title {
     margin-bottom: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     line-height: 1.3;
 }
 
@@ -48,7 +48,7 @@
     display: flex;
     padding: 0.25rem 0.5rem;
     border-radius: 9999px;
-    font-size: 0.75rem;
+    font-size: 0.7em;
     background-color: var(--clr-accent-100);
     color: var(--clr-accent-800);
 }
@@ -72,31 +72,6 @@
     width: auto;
     height: 1.2em;
     margin-left: -0.2em;
-}
-
-.project-card__btns {
-    margin-top: 1.5em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    gap: 0.5em;
-}
-
-.project-card__btn {
-    text-align: center;
-    padding: 0.4em;
-    background-color: var(--clr-body-bg);
-    color: var(--clr-accent-700);
-    border: 0.13em solid var(--clr-accent-700);
-    border-radius: 0.35em;
-    font-weight: 700;
-    transition: 0.2s;
-    text-decoration: none;
-}
-
-.project-card__btn:hover {
-    color: var(--clr-body-bg);
-    background-color: var(--clr-accent-700);
-    cursor: pointer;
 }
 
 /* Project Page Styles */
