@@ -10,6 +10,9 @@ tech:
 repoUrl: https://github.com/helenclx/Scrimba-Frontend-Solo-Projects
 ---
 
+## Project Links
+- [Project Repository](https://github.com/helenclx/Scrimba-Frontend-Solo-Projects)
+
 ## Introduction
 
 This repository consists of my solo projects for [Scrimba's Frontend Developer Career Path](https://scrimba.com/learn/frontend).

@@ -14,14 +14,6 @@ hasBreadcrumbs: true
             <img src="{{ image }}" alt="{{ imageAlt }}">
         </div>
         <div class="project__content prose">
-            <h2>Project links</h2>
-            <ul>
-                {% if siteUrl -%}
-                    <li><a href="{{ siteUrl }}">Project Site</a></li>
-                {%- endif %}
-                <li><a href="{{ repoUrl }}">Project Repository</a></li>
-            </ul>
-
             {{ content | safe }}
         </div>
     </article>

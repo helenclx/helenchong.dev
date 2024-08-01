@@ -6,9 +6,11 @@ imageAlt: Screenshots of the Quizzical project
 tech:
   - React.js
   - API
-siteUrl: https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/
-repoUrl: https://github.com/helenclx/Scrimba-React-Solo-Projects/tree/main/3-quizzical
 ---
+
+## Project Links
+- [Live Project](https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/)
+- [Project Repository](https://github.com/helenclx/Scrimba-React-Solo-Projects/tree/main/3-quizzical)
 
 ## Introduction
 

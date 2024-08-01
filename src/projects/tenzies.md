@@ -5,9 +5,11 @@ image: /assets/images/projects/Tenzies-Game.avif
 imageAlt: Screenshots of Tenzies Game
 tech:
   - React.js
-siteUrl: https://helenclx.github.io/Tenzies-Game/
-repoUrl: https://github.com/helenclx/Tenzies-Game
 ---
+
+## Project Links
+- [Live Project]( https://helenclx.github.io/Tenzies-Game/)
+- [Project Repository](https://github.com/helenclx/Tenzies-Game)
 
 ## Introduction
 
@@ -15,7 +17,16 @@ Tenzies is a dice game that requires the player to roll until all dice are the s
 
 ## Problem Solved
 
-After completing the tutorial to create a Tenzies Game from Scrimba, I made improvements to the game project, including responsive design, accessibility, keeping track of dice roll and time, etc.:
+After completing the tutorial to create a Tenzies Game from Scrimba, I made improvements to the game project, including responsive design, accessibility, keeping track of dice roll and time, and so on.
+
+Improvements and additional features I made to the game included:
+- Putting real dots on the dice using CSS
+- Using relative units in CSS
+- Making the app responsive to different screen sizes
+- Adding dice roll count
+- Recording the number of dice rolls and the time it took to win
+- Tracking the best records of dice rolls and time taken to win
+- Improved accessibility: the entire game can be interacted with key presses, along with clear focus outlines
 
 ## Technologies Used
 

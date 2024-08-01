@@ -6,9 +6,11 @@ imageAlt: Screenshots of Recipe Hub
 tech:
   - Vanilla JavaScript
   - API
-siteUrl: https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/
-repoUrl: https://github.com/chingu-voyages/v46-tier1-team-01
 ---
+
+## Project Links
+- [Live Project](https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/)
+- [Project Repository](https://github.com/chingu-voyages/v46-tier1-team-01)
 
 ## Introduction
 
