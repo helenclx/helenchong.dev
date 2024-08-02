@@ -2,7 +2,7 @@
 title: Scrimba Frontend Path Solo Projects
 summary: My solo projects for Scrimba's Frontend Developer Career Path.
 image: /assets/images/projects/Scrimba-Frontend-Path.avif
-imageAlt: Screenshots of a Scrimba solo project
+imageAlt: Screenshot of a Scrimba solo project
 tech:
   - Vanilla JavaScript
   - API

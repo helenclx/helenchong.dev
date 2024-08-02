@@ -2,7 +2,7 @@
 title: Tenzies Game
 summary: A dice roll game built with React. Roll until all dice are the same.
 image: /assets/images/projects/Tenzies-Game.avif
-imageAlt: Screenshots of Tenzies Game
+imageAlt: Screenshot of Tenzies Game
 tech:
   - React.js
 ---
