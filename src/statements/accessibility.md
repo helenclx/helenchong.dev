@@ -26,4 +26,4 @@ I use the following tools to test my site for accessibility:
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 
-Feedbacks and suggestions for improving the accessibility of this site are welcome. You can [contact me](/contact).
+Feedbacks and suggestions for improving the accessibility of this website are welcome. Feel free to [contact me](/contact) for it.
