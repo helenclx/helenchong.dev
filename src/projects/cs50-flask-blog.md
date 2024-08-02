@@ -6,7 +6,7 @@ imageAlt: Screenshot of CS50 Flask Blog
 tech:
   - Python
   - Flask
-  - MySQL
+  - SQLite
 ---
 
 ## Video Demo
@@ -34,7 +34,7 @@ To make further good use of the user account feature and the SQL database of CS5
 
 ## Technologies Used
 
-CS50 Flask Blog is built with Flask, Python, MySQL, HTML and Bootstrap.
+CS50 Flask Blog is built with Flask, Python, SQLite, HTML and Bootstrap.
 
 ## Further Reading
 
