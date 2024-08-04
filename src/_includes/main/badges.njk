@@ -10,6 +10,11 @@
 
 {%- js %}
     const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
+
+    if (window.matchMedia && darkModePreference.matches) {
+        document.getElementById("wcb").classList.add("wcb-d");
+    }
+
     darkModePreference.addEventListener("change", (event) => {
         if (event.matches) {
             document.getElementById("wcb").classList.add("wcb-d");
