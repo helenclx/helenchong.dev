@@ -1,0 +1,262 @@
+/**
+ * Code Credit: PrismJS a11y-dark / a11y-light theme for JavaScript, CSS, and HTML
+ * Based on the okaidia theme: https://github.com/PrismJS/prism/blob/gh-pages/themes/prism-okaidia.css
+ * @author ericwbailey
+ *
+ * Modified by @author Chris Henrick on 8/4/2024 to use CSS custom properties instead of separate style sheets for light and dark themes
+ * See this Observable Notebook for how modifications were made: https://observablehq.com/@clhenrick/a11y-syntax-highlighting-modifications
+ */
+
+:root,
+:root[data-theme="light"] {
+  --color-syntax-1: #545454;
+  --color-syntax-2: #fefefe;
+  --color-syntax-3: #696969;
+  --color-syntax-4: #545454;
+  --color-syntax-5: #007299;
+  --color-syntax-6: #008000;
+  --color-syntax-7: #aa5d00;
+  --color-syntax-8: #008000;
+  --color-syntax-9: #aa5d00;
+  --color-syntax-10: #d91e18;
+  --color-syntax-11: #d91e18;
+  --color-syntax-12: rgba(183, 134, 11, 0.075);
+  --color-syntax-13: #b8860b;
+  --color-syntax-14: #b8860b;
+  --color-syntax-15: #aa5d00;
+  --color-syntax-16: #696969;
+}
+
+:root[data-theme="dark"] {
+  --color-syntax-1: #f8f8f2;
+  --color-syntax-2: #2b2b2b;
+  --color-syntax-3: #d4d0ab;
+  --color-syntax-4: #fefefe;
+  --color-syntax-5: #ffa07a;
+  --color-syntax-6: #00e0e0;
+  --color-syntax-7: #abe338;
+  --color-syntax-8: #00e0e0;
+  --color-syntax-9: #ffd700;
+  --color-syntax-10: #00e0e0;
+  --color-syntax-11: #ffd700;
+  --color-syntax-12: rgba(255, 217, 0, 0.1);
+  --color-syntax-13: rgba(255, 217, 0, 0.55);
+  --color-syntax-14: rgba(255, 217, 0, 0.55);
+  --color-syntax-15: #f8f8f2;
+  --color-syntax-16: #d4d0ab;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --color-syntax-1: #f8f8f2;
+    --color-syntax-2: #2b2b2b;
+    --color-syntax-3: #d4d0ab;
+    --color-syntax-4: #fefefe;
+    --color-syntax-5: #ffa07a;
+    --color-syntax-6: #00e0e0;
+    --color-syntax-7: #abe338;
+    --color-syntax-8: #00e0e0;
+    --color-syntax-9: #ffd700;
+    --color-syntax-10: #00e0e0;
+    --color-syntax-11: #ffd700;
+    --color-syntax-12: rgba(255, 217, 0, 0.1);
+    --color-syntax-13: rgba(255, 217, 0, 0.55);
+    --color-syntax-14: rgba(255, 217, 0, 0.55);
+    --color-syntax-15: #f8f8f2;
+    --color-syntax-16: #d4d0ab;
+  }
+}
+
+/*
+Theme
+*/
+code[class*="language-"],
+pre[class*="language-"] {
+  color: var(--color-syntax-1);
+  background: none;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1rem;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+pre[class*="language-"][tabindex]:focus-visible {
+  outline: var(--focus-style-outline);
+  outline-offset: var(--focus-style-width);
+}
+
+@supports not selector(:focus-visible) {
+  pre[class*="language-"][tabindex]:focus {
+    outline: var(--focus-style-outline);
+    outline-offset: var(--focus-style-width);
+  }
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: var(--color-syntax-2);
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: var(--color-syntax-3);
+}
+
+.token.punctuation {
+  color: var(--color-syntax-4);
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: var(--color-syntax-5);
+}
+
+.token.boolean,
+.token.number {
+  color: var(--color-syntax-6);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: var(--color-syntax-7);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: var(--color-syntax-8);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+  color: var(--color-syntax-9);
+}
+
+.token.keyword {
+  color: var(--color-syntax-10);
+}
+
+.token.regex,
+.token.important {
+  color: var(--color-syntax-11);
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+/*
+  Plugin support
+*/
+
+/* Line highlight */
+.line-highlight {
+  background: var(--color-syntax-12);
+  border-top: 1px solid var(--color-syntax-13);
+  border-bottom: 1px solid var(--color-syntax-14);
+}
+
+/* Line numbers */
+.line-numbers .line-numbers-rows {
+  border-right: 1px solid var(--color-syntax-15);
+}
+
+.line-numbers-rows > span:before {
+  color: var(--color-syntax-16);
+}
+
+/*
+High contrast mode support
+*/
+@media screen and (-ms-high-contrast: active) {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    color: windowText;
+    background: window;
+  }
+
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    background: window;
+  }
+
+  .token.important {
+    background: highlight;
+    color: window;
+    font-weight: normal;
+  }
+
+  .token.atrule,
+  .token.attr-value,
+  .token.function,
+  .token.keyword,
+  .token.operator,
+  .token.selector {
+    font-weight: bold;
+  }
+
+  .token.attr-value,
+  .token.comment,
+  .token.doctype,
+  .token.function,
+  .token.keyword,
+  .token.operator,
+  .token.property,
+  .token.string {
+    color: highlight;
+  }
+
+  .token.attr-value,
+  .token.url {
+    font-weight: normal;
+  }
+}
