@@ -46,12 +46,12 @@
 
 .profile__text--lead {
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: var(--fs-profile);
 }
 
 .profile__text--highlight {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: var(--fs-profile);
     color: var(--clr-accent-600);
 }
 
