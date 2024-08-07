@@ -19,9 +19,9 @@
     --clr-top-btn-txt: #fff;
 
     --fs-base: 19px;
-    --fs-main-txt: 1.35rem;
-    --fs-profile: 1.6rem;
-    --fs-bloglist-title: 1.5rem;
+    --fs-main-txt: 1.13em;
+    --fs-profile: 1.2em;
+    --fs-bloglist-title: 1.2em;
     --fs-h1: clamp(2.2rem, 1rem + 5vw, 3.3rem);
     --fs-h2: clamp(1.7rem, 1rem + 3vw, 2.3rem);
     --fs-h3: clamp(1.7rem, 1rem + 3vw, 2rem);
