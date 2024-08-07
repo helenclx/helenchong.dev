@@ -9,7 +9,7 @@ Recommended JavaScript runtime: [Bun](https://bun.sh).
 
 1. Clone this repository locally
     ```
-    git clone https://github.com/helenclx/helenclx.github.io.git
+    git clone https://github.com/helenclx/helenchong.dev.git
     ```
 1. Install dependencies
     ```
