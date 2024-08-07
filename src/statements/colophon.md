@@ -15,7 +15,7 @@ How this website is built.
 
 ## Host and Domain
 * Deployed to [Hostinger](https://www.hostinger.my/) from the site's GitHub repository with a GitHub action
-* The domain name, `{{ sitemeta.siteDomain }}`, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
+* The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 Previously, this website was hosted on GitHub Pages until 30 July 2024.
 
