@@ -51,15 +51,15 @@ The cheap price of the Premium Shared Hosting Plan of Hostinger is jam-packed wi
 
 On the subject of email accounts, it is worth pointing out that Hostinger's Premium Shared Hosting plan allows you to create an email account for each website you made, and you can have up to 100 addresses and forwarders for each email account.
 
-Hostinger's Git support allows you to even deploy multiple repositories to the same website, which was what I ended up doing to deploy [my resume](/resume) into my website's directory, despite it having a [separate Git repository](https://github.com/helenclx/resume) from my website.
+Hostinger's Git support allows you to even deploy multiple repositories to the same website, which was what I ended up doing to deploy [my résumé](/resume) into my website's directory, despite it having a [separate Git repository](https://github.com/helenclx/resume) from my website.
 
 ## Excellent Customer Support
 
 I am pleased to report that my experience with Hostinger's support team has been excellent.
 
-After migrating this website to Hostinger, I was trying to deploy my resume to this website's directory. At first, I had an issue with my resume not being deployed to this website as I intended, so I sought for help by contacting Hostinger's support team via live chat. The support team answered to my message quickly. The specialist who handled my case were not only kind and polite, but also willing to walk me through the process of figuring out possible causes of my issue.
+After migrating this website to Hostinger, I was trying to deploy my résumé to this website's directory. At first, I had an issue with my résumé not being deployed to this website as I intended, so I sought for help by contacting Hostinger's support team via live chat. The support team answered to my message quickly. The specialist who handled my case were not only kind and polite, but also willing to walk me through the process of figuring out possible causes of my issue.
 
-Turned out, I accidentally deployed my resume to a different website of mine, so I double-checked and reconfigured my set-up to deploy both my website and resume from their GitHub repositories to the correct directories, and my problem was finally solved.
+Turned out, I accidentally deployed my résumé to a different website of mine, so I double-checked and reconfigured my set-up to deploy both my website and résumé from their GitHub repositories to the correct directories, and my problem was finally solved.
 
 ## Domain Name Remaining at Porkbun
 

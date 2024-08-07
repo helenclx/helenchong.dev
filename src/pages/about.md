@@ -14,7 +14,7 @@ Fast forward to 2022, discovering the resurgence of creating personal websites i
 
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
 
-If you are looking for my professional history, you can [check out my resume]({{sitemeta.siteUrl}}/resume).
+If you are looking for my professional history, you can [check out my résumé]({{sitemeta.siteUrl}}/resume).
 
 ## My Certificates
 
