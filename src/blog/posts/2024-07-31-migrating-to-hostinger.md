@@ -6,7 +6,7 @@ categories: ["about this website", "hostinger"]
 toc: true
 ---
 
-Starting from 30 July 2024, `helenchong.dev`, my developer portfolio and blog website, has migrated from GitHub Pages to Hostinger as its web host.
+Starting from 30 July 2024, helenchong.dev, my developer portfolio and blog website, has migrated from GitHub Pages to Hostinger as its web host.
 
 This website was hosted on GitHub Pages since its creation, and has come a long way since its launch in February 2023, from [adding a blog](https://helenchong.dev/blog/posts/2023-08-21-Welcome-to-Helen-Codes/), [being rebuilt with Eleventy](/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/) to [getting its own domain name](/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/). This website started out as a standard developer portfolio, but as I grew as an aspiring web developer, so did my website.
 
@@ -20,9 +20,9 @@ However, as I grew as a web developer and began to explore more advance topics a
 
 Furthermore, in addition to this developer portfolio and blog website, I have also built various hobby websites, so it would be nice if I could consolidate the management of my websites into one platform.
 
-Last but not least, I am invested in web development and building my own website  enough to be willing to spend money on them, as evident in my purchase and registration of a custom domain name `helenchong.dev` for this website. That said, I do need to consider carefully about how much money I am going to spend, which factors in why I eventually chose Hostinger to host my websites.
+Last but not least, I am invested in web development and building my own website  enough to be willing to spend money on them, as evident in my purchase and registration of a custom domain name helenchong.dev for this website. That said, I do need to consider carefully about how much money I am going to spend, which factors in why I eventually chose Hostinger to host my websites.
 
-Eventually, on 25 July 2024, I registered an account on [Hostinger](https://www.hostinger.my/), and purchased their 48-month Premium Shared Hosting plan, then I migrated my websites starting from my hobby websites on the same day. Later, on 30 July 2024, I completed the migration of `helenchong.dev` from GitHub Pages to Hostinger, and renamed the [website's GitHub repository](https://github.com/helenclx/helenchong.dev) from `helenclx.github.io` to `helenchong.dev`.
+Eventually, on 25 July 2024, I registered an account on [Hostinger](https://www.hostinger.my/), and purchased their 48-month Premium Shared Hosting plan, then I migrated my websites starting from my hobby websites on the same day. Later, on 30 July 2024, I completed the migration of helenchong.dev from GitHub Pages to Hostinger, and renamed the [website's GitHub repository](https://github.com/helenclx/helenchong.dev) from `helenclx.github.io` to helenchong.dev.
 
 ## Why Hostinger
 
@@ -63,7 +63,7 @@ Turned out, I accidentally deployed my résumé to a different website of mine, 
 
 ## Domain Name Remaining at Porkbun
 
-While Hostinger provides domain registration and transfer service, I chose to have the `helenchong.dev` domain name stay with [Porkbun](https://porkbun.com/), because I already spent money on the domain name, so Hostinger's hosting plan providing domain name registration for free for the first year does not benefit me.
+While Hostinger provides domain registration and transfer service, I chose to have the helenchong.dev domain name stay with [Porkbun](https://porkbun.com/), because I already spent money on the domain name, so Hostinger's hosting plan providing domain name registration for free for the first year does not benefit me.
 
 In addition, Porkbun's renewal rate for domain names is cheaper than Hostinger. For example, Porkbun renews the `.com` domain extension at 10.37 USD per year, while Hostinger renews at 15.99 USD per year. Even the Malaysian Ringgit pricing of Hostinger's domain renewal rate for `.com`, 55.99 MYR per year, is still more expansive than Porkbun's approximately 47.76 MYR per year rate.
 
