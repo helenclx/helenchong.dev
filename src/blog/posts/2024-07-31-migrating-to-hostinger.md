@@ -2,7 +2,6 @@
 title: Migrating My Website to Hostinger
 desc: I have migrated my developer portfolio and blog website to Hostinger.
 date: 2024-07-31
-# templateEngineOverride: md
 categories: ["about this website", "hostinger"]
 toc: true
 ---
@@ -23,7 +22,7 @@ Furthermore, in addition to this developer portfolio and blog website, I have al
 
 Last but not least, I am invested in web development and building my own website  enough to be willing to spend money on them, as evident in my purchase and registration of a custom domain name `helenchong.dev` for this website. That said, I do need to consider carefully about how much money I am going to spend, which factors in why I eventually chose Hostinger to host my websites.
 
-Eventually, on 25 July 2024, I registered an account on Hostinger, and purchased their 48-month Premium Shared Hosting plan, then I migrated my websites starting from my hobby websites on the same day. Later, on 30 July 2024, I completed the migration of `helenchong.dev` from GitHub Pages to Hostinger, and renamed the [website's GitHub repository](https://github.com/helenclx/helenchong.dev) from `helenclx.github.io` to `helenchong.dev`.
+Eventually, on 25 July 2024, I registered an account on [Hostinger](https://www.hostinger.my/), and purchased their 48-month Premium Shared Hosting plan, then I migrated my websites starting from my hobby websites on the same day. Later, on 30 July 2024, I completed the migration of `helenchong.dev` from GitHub Pages to Hostinger, and renamed the [website's GitHub repository](https://github.com/helenclx/helenchong.dev) from `helenclx.github.io` to `helenchong.dev`.
 
 ## Why Hostinger
 
