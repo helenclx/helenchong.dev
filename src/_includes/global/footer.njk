@@ -1,4 +1,6 @@
 <footer class="footer">
+    <img src="/assets/icons/helenchong-88x31.png" alt="Helen Chong's 88x31 website button" width="88" height="31">
+
     {% include "global/socials.njk" %}
 
     <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
@@ -27,6 +29,10 @@
         display: flex;
         gap: 0.5em;
         flex-direction: column;
+        justify-content: center;
+        align-tems: center;
         box-shadow: var(--bs-footer);
     }
+
+    .footer img { margin: 0 auto 0.8em; }
 {% endcss %}
