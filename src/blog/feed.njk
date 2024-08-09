@@ -9,7 +9,7 @@ eleventyComputed:
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ sitemeta.siteBlog.title }}</title>
+    <title>{{ sitemeta.siteBlog.title | safe }}</title>
     <subtitle>{{ sitemeta.siteBlog.desc }}</subtitle>
     <link href="{{ metadata.feedUrl }}" rel="self"/>
     <link href="{{ metadata.url }}"/>
