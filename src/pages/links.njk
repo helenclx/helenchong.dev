@@ -1,0 +1,111 @@
+---
+title: Links
+eleventyNavigation:
+    key: Links
+    order: 5
+---
+
+<p>Throughout my journey in learning to be a developer, I have been inspired by many other developers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development.</p>
+
+{%- macro linkRoll(siteName, siteUrl, feedUrl) -%}
+    <li data-tooltip>
+        <p><a href="{{ siteUrl }}">{{ siteName }}</a></p>
+        <p>
+            <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+            <a href="{{ feedUrl }}">Feed</a>
+        </p>
+    </li>
+{%- endmacro -%}
+
+<h2>Blogroll</h2>
+<ul>
+    {{ linkRoll("Aleksandr Hovhannisyan", "https://www.aleksandrhovhannisyan.com/",
+        "https://www.aleksandrhovhannisyan.com/feed.xml"
+    ) }}
+    {{ linkRoll("Bob Monsour", "https://www.bobmonsour.com/",
+        "https://www.bobmonsour.com/feed.xml"
+    ) }}
+    {{ linkRoll("Chris Burnell", "https://chrisburnell.com/",
+        "https://chrisburnell.com/feed.xml"
+    ) }}
+    {{ linkRoll("Cory Dransfeldt", "https://coryd.dev/",
+        "https://feedpress.me/coryd-all"
+    ) }}
+    {{ linkRoll("Eric Bailey", "https://ericwbailey.website/",
+        "https://ericwbailey.website/feed/feed.xml"
+    ) }}
+    {{ linkRoll("Fynn Becker", "https://fynn.be",
+        "https://fynn.be/feed.xml"
+    ) }}
+    {{ linkRoll("Heydon Pickering", "https://heydonworks.com/",
+        "https://heydonworks.com/feed.xml"
+    ) }}
+    {{ linkRoll("Kitty Giraudel", "https://kittygiraudel.com/",
+        "https://kittygiraudel.com/rss/index.xml"
+    ) }}
+    {{ linkRoll("Nic Chan", "https://www.nicchan.me/",
+        "https://www.nicchan.me/feed.xml"
+    ) }}
+    {{ linkRoll("Sara Joy", "https://sarajoy.dev/",
+        "https://sarajoy.dev/rss.xml"
+    ) }}
+    {{ linkRoll("Sia Karamalegos", "https://sia.codes/",
+        "https://sia.codes/feed/feed.xml"
+    ) }}
+    {{ linkRoll("Sara Soueidan", "https://sarasoueidan.com/",
+        "https://www.sarasoueidan.com/blog/index.xml"
+    ) }}
+    {{ linkRoll("Scott O’Hara", "https://scottohara.me/",
+        "https://www.scottohara.me/feed.xml"
+    ) }}
+    {{ linkRoll("Steven Woodson", "https://stevenwoodson.com/",
+        "https://stevenwoodson.com/feed/feed.xml"
+    ) }}
+    {{ linkRoll("Tyler Sticka", "https://tylersticka.com/",
+        "https://tylersticka.com/journal/feed.xml"
+    ) }}
+    {{ linkRoll("Zach Leatherman", "https://www.zachleat.com/",
+        "https://www.zachleat.com/web/feed/"
+    ) }}
+</ul>
+
+<h2>Software and Web Development</h2>
+<ul>
+    {{ linkRoll("The 11ty Bundle Blog", "https://11tybundle.dev/blog/",
+        "https://11tybundle.dev/feed.xml"
+    ) }}
+    {{ linkRoll("The 11ty Bundle Firehose", "https://11tybundle.dev/",
+        "https://11tybundle.dev/firehosefeed.xml"
+    ) }}
+    {{ linkRoll("CSS-Tricks", "https://css-tricks.com/",
+        "https://css-tricks.com/feed/"
+    ) }}
+    {{ linkRoll("Eleventy Firehose", "https://www.11ty.dev/firehose/",
+        "https://www.11ty.dev/firehose/firehose.rss"
+    ) }}
+    {{ linkRoll("THE Eleventy Meetup", "https://11tymeetup.dev/",
+        "https://11tymeetup.dev/feed.xml"
+    ) }}
+    {{ linkRoll("FED Mentor", "https://fedmentor.dev/",
+        "https://fedmentor.dev/feed/feed.xml"
+    ) }}
+    {{ linkRoll("freeCodeCamp.org", "https://www.freecodecamp.org/news/",
+        "https://www.freecodecamp.org/news/rss/"
+    ) }}
+    {{ linkRoll("Inclusive Components", "https://inclusive-components.design/",
+        "https://inclusive-components.design/rss"
+    ) }}
+    {{ linkRoll("Modern CSS Solutions", "https://moderncss.dev/",
+        "https://moderncss.dev/feed/"
+    ) }}
+</ul>
+
+<h2>Podroll</h2>
+<ul>
+    {{ linkRoll("freeCodeCamp Podcast", "https://freecodecamp.libsyn.com/",
+        "http://feeds.libsyn.com/110110/rss"
+    ) }}
+    {{ linkRoll("The Scrimba Podcast", "https://podcast.scrimba.com/",
+        "https://feeds.transistor.fm/scrimba"
+    ) }}
+</ul>
