@@ -38,6 +38,7 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        gap: 0.5em 1em;
         padding: 1rem 1.5rem;
         background-color: var(--clr-body-bg);
         box-shadow: var(--bs-main);
@@ -74,7 +75,7 @@
     .header__navmenu {
         list-style-type: "";
         padding: 0;
-        margin: 1em 0 0 0;
+        margin: 0;
         font-weight: 600;
         color: var(--clr-accent-600);
         text-align: center;
@@ -140,8 +141,7 @@
         .header__title { margin-bottom: 0; }
     }
 
-    /* Tablet screen size */
-    @media only screen and (min-width: 43.75rem) {
+    @media only screen and (min-width: 705px) {
         .header { position: sticky; }
         .header__navmenu { margin: 0; }
         .header__toggle, .header__popover { display: none; }
