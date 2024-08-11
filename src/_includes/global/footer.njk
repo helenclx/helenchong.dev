@@ -6,7 +6,7 @@
     <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
 
     <ul class="inline-list">
-        <li><a href="/blog/feed.xml">RSS Feed</a></li>
+        <li><a href="{{ sitemeta.feedPath }}">RSS Feed</a></li>
     {%- for statement in collections.statements -%}
         <li><a
             {% if entry.url == page.url %}aria-current="page"{% endif %}
