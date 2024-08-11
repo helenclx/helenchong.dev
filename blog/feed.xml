@@ -4,7 +4,7 @@
     <subtitle>Helen Chong talks about tech, coding and development</subtitle>
     <link href="https://helenchong.dev/blog/feed.xml" rel="self"/>
     <link href="https://helenchong.dev/blog"/>
-    <updated>2024-07-31T00:00:00Z</updated>
+    <updated>2024-07-31T01:31:00Z</updated>
     <id>https://helenchong.dev/blog</id>
     <author>
         <name>Helen Chong</name>
@@ -14,7 +14,7 @@
         <entry>
             <title>Migrating My Website to Hostinger</title>
             <link href="https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/"/>
-            <updated>2024-07-31T00:00:00Z</updated>
+            <updated>2024-07-31T01:31:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/</id>
             <content type="html">&lt;p&gt;Starting from 30 July 2024, helenchong.dev, my developer portfolio and blog website, has migrated from GitHub Pages to Hostinger as its web host.&lt;/p&gt;
 &lt;p&gt;This website was hosted on GitHub Pages since its creation, and has come a long way since its launch in February 2023, from &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-08-21-Welcome-to-Helen-Codes/&quot;&gt;adding a blog&lt;/a&gt;, &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;being rebuilt with Eleventy&lt;/a&gt; to &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/&quot;&gt;getting its own domain name&lt;/a&gt;. This website started out as a standard developer portfolio, but as I grew as an aspiring web developer, so did my website.&lt;/p&gt;
@@ -80,7 +80,7 @@
         <entry>
             <title>Responsive Disability Pride Flag CSS Background</title>
             <link href="https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/"/>
-            <updated>2024-07-23T00:00:00Z</updated>
+            <updated>2024-07-23T12:35:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/</id>
             <content type="html">&lt;div class=&quot;disability-pride-flag demo&quot; role=&quot;img&quot; aria-label=&quot;Demo of the Disability Pride flag coded in CSS&quot;&gt;&lt;/div&gt;
 &lt;p&gt;Happy &lt;a href=&quot;https://www.weareincludability.co.uk/resources/what-is-disability-pride-month&quot;&gt;Disability Pride Month&lt;/a&gt;! To celebrate the occasion, I did a small project: a responsive Disability Pride Flag CSS background! For those who do not know, this &lt;a href=&quot;https://www.womansday.com/life/a43964487/disability-pride-flag/&quot;&gt;Disability Pride Flag&lt;/a&gt; was created by &lt;a href=&quot;https://capri0mni.dreamwidth.org/837596.html&quot;&gt;Ann Magill&lt;/a&gt; and released in 2021.&lt;/p&gt;
@@ -102,7 +102,7 @@
         <entry>
             <title>Aboard the Eleventy 3.0 Train</title>
             <link href="https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/"/>
-            <updated>2024-07-19T00:00:00Z</updated>
+            <updated>2024-07-19T07:31:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/</id>
             <content type="html">&lt;p&gt;On 9 April 2024, I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;rebuilt this developer portfolio and blog website of mine&lt;/a&gt; with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳&lt;/p&gt;
 &lt;p&gt;Version 3.0 of Eleventy is still in alpha, but as I have been following Eleventy&#39;s development and community after starting to use it, and learning about other Eleventy users upgrading to version 3.0, I began to consider hopping on the Eleventy 3.0 train. Now that I have done it, I guess I am one of Eleventy&#39;s &amp;quot;courageous canary testers&amp;quot;, &lt;a href=&quot;https://www.11ty.dev/blog/canary-eleventy-v3/&quot;&gt;as the official Eleventy blog put it&lt;/a&gt;, haha. 😆&lt;/p&gt;
@@ -165,7 +165,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>Dipping My Toes in PHP for My Hobby Project</title>
             <link href="https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/"/>
-            <updated>2024-07-08T00:00:00Z</updated>
+            <updated>2024-07-08T05:21:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/</id>
             <content type="html">&lt;p&gt;Hobbies are a great motivator to learn new things, and web development is no exception. I had dabbled in HTML and CSS since my teenage years, but it was not until December 2022 when I decided to take online web development courses, and then aspire to become a web developer.&lt;/p&gt;
 &lt;p&gt;Recently, I took a particular interest in fanlistings. For those who are unfamiliar with it, a fanlisting is an online listing of fans for a particular subject open for fans around the world to join. I find fanlistings a neat concept to gather and discover other people who share your interests. You can find fanlistings through &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Fanlistings Network&lt;/a&gt; and &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Anime Fanlistings Network&lt;/a&gt;.&lt;/p&gt;
@@ -186,7 +186,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>Finally Deployed My Scrimba React Solo Projects to GitHub Pages</title>
             <link href="https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/"/>
-            <updated>2024-06-03T00:00:00Z</updated>
+            <updated>2024-06-03T03:01:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/</id>
             <content type="html">&lt;p&gt;I had completed &lt;a href=&quot;https://scrimba.com/learn/learnreact&quot;&gt;Scrimba&#39;s Learn React course&lt;/a&gt; and its solo projects back in July 2023, even before &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won&quot;&gt;winning a one-year Scrimba Pro plan from JavaScriptmas 2023&lt;/a&gt; for free, since the course, including the instructions and Figma files for the solo projects, is also available on freeCodeCamp&#39;s YouTube channel.&lt;/p&gt;
 &lt;p&gt;However, I always struggled to figure out how to deploy React project from a GitHub repository&#39;s subfolders or subdirectories, and frustrated by the lack of guides for that. Scrimba&#39;s course does teach about using GitHub, but they often recommend deploying projects from their course to Netlify by doing it manually on &lt;a href=&quot;https://app.netlify.com/drop&quot;&gt;Netlify Drop&lt;/a&gt;. To be fair, Netlify Drop is great for beginner developers, especially when they are new to source control such as Git. However, when I finished Scirmba&#39;s Learn React course, I already had a handful of projects deployed to GitHub Pages. Later, I even managed to deploy my React Tenzies Game, which was based on the tutorial from the Learn React course, to GitHub Pages by creating a &lt;a href=&quot;https://github.com/helenclx/Tenzies-Game&quot;&gt;dedicated repository for my Tenzies Game&lt;/a&gt; and searching for a guide for how to deploy a React project to GitHub Pages.&lt;/p&gt;
@@ -282,7 +282,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>Custom Domain Name for My Developer Website</title>
             <link href="https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/"/>
-            <updated>2024-05-29T00:00:00Z</updated>
+            <updated>2024-05-29T15:18:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/</id>
             <content type="html">&lt;p&gt;This website — my developer portfolio and blog website — now has a custom domain: &lt;a href=&quot;https://helenchong.dev/&quot;&gt;helenchong.dev&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;As an aspiring developer, I have been putting effort in building, updating and maintaining my portfolio website, and later starting a blog on this site as well to write about coding and tech. The only thing missing for my website is a custom domain name to give the site and myself a unique identity on the web, so I have been considering buying a custom domain name for this website.&lt;/p&gt;
@@ -298,7 +298,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>CS50x Course Completed</title>
             <link href="https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/"/>
-            <updated>2024-05-27T00:00:00Z</updated>
+            <updated>2024-05-27T13:47:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/</id>
             <content type="html">&lt;p&gt;On 23 May 2024, at long last, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2024/&quot;&gt;CS50’s Introduction to Computer Science&lt;/a&gt;, also known as CS50x, course!&lt;/p&gt;
 &lt;p&gt;After finishing &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed&quot;&gt;Week 9 of CS50x&lt;/a&gt;, I began to brainstorm ideas for the &lt;a href=&quot;https://cs50.harvard.edu/x/2024/project/&quot;&gt;final project&lt;/a&gt;, in terms of both project type and which language or tech stack to build. Eventually, I chose to build a blogging application with Flask, SQL and Bootstrap, and name the project CS50 Flask Blog.&lt;/p&gt;
@@ -329,7 +329,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>Now Page for My Website</title>
             <link href="https://helenchong.dev/blog/posts/2024-04-22-now-page-for-my-website/"/>
-            <updated>2024-04-22T00:00:00Z</updated>
+            <updated>2024-04-22T09:11:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-04-22-now-page-for-my-website/</id>
             <content type="html">&lt;p&gt;On 21 April 2024, I have added a &lt;a href=&quot;https://helenchong.dev/now&quot;&gt;now page&lt;/a&gt; to this website.&lt;/p&gt;
 &lt;p&gt;The idea of adding a &amp;quot;now page&amp;quot; was inspired by the website &lt;a href=&quot;https://nownownow.com/&quot;&gt;nownownow.com&lt;/a&gt;, which &lt;a href=&quot;https://nownownow.com/about&quot;&gt;defines&lt;/a&gt; a now page as a page that tells you what this person is focused on at this point in their life. In addition, I also have &lt;a href=&quot;https://nownownow.com/p/D9En&quot;&gt;my own profile on nownownow.com&lt;/a&gt;.&lt;/p&gt;
@@ -341,7 +341,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>CS50x Week 9 Completed</title>
             <link href="https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed/"/>
-            <updated>2024-04-15T00:00:00Z</updated>
+            <updated>2024-04-15T08:37:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed/</id>
             <content type="html">&lt;p&gt;At last, on 5 March 2024, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2024/weeks/9/&quot;&gt;Week 9&lt;/a&gt; of the CS50&#39;s Introduction to Computer Science (CS50x) course, by submitting my solutions to &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/&quot;&gt;Problem Set 9&lt;/a&gt; . In other words, I have finished all assignments for the CS50x course, with the only thing left for me to do to complete the course is building and submitting my own &lt;a href=&quot;https://cs50.harvard.edu/x/2024/project/&quot;&gt;final project&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Problem Set 9 consisted of two problems, &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/birthdays/&quot;&gt;Birthdays&lt;/a&gt; and &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/finance/&quot;&gt;Finance&lt;/a&gt;, which required Python, Flask and SQL to solve. I did and submitted my solution to the Birthdays problem on 6 January 2024. At the time, I already took a break from the CS50x course for a few months to pursue other front-end web development courses. It was rather challenging to go back to CS50x and do its assignments after taking a break from the course for a while. My SQL and Flask knowledge got rusty due to rarely using them.&lt;/p&gt;
@@ -365,7 +365,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
         <entry>
             <title>Round 1 of 100 Days of Code Challenge Completed</title>
             <link href="https://helenchong.dev/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/"/>
-            <updated>2024-04-13T00:00:00Z</updated>
+            <updated>2024-04-13T04:20:00Z</updated>
             <id>https://helenchong.dev/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/</id>
             <content type="html">&lt;p&gt;On 3 January 2024, I started the &lt;a href=&quot;https://www.100daysofcode.com/&quot;&gt;#100DaysOfCode&lt;/a&gt; challenge for the first time. Came 11 April 2024, I finally completed my first round of the challenge!&lt;/p&gt;
 &lt;p&gt;I had heard of the 100 Days of Code challenge after I started my journey to learn to code. However, I did not participate in it until reading freeCodeCamp&#39;s article &lt;a href=&quot;https://www.freecodecamp.org/news/100daysofcode-challenge-2024-discord/&quot;&gt;&amp;quot;#100DaysOfCode Challenge for 2024 – Discord Edition&amp;quot;&lt;/a&gt;. This was also how I found out about the &lt;a href=&quot;https://www.freecodecamp.org/news/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d/&quot;&gt;history of the challenge&lt;/a&gt;, and the fact that the challenge was created by a freeCodeCamp alumni, which I found interesting as an aspiring developer to start to properly learn to code with freeCodeCamp.&lt;/p&gt;
