@@ -68,7 +68,6 @@
         flex-direction: row;
         padding: 0 1em;
     }
-
     .profile__image-wrapper img { margin: 4rem; }
 }
 
@@ -115,3 +114,9 @@
 }
 
 .webrings h3 { font-size: 1.5rem; }
+
+/* Badges */
+.home__badges {
+    justify-items: center;
+    gap: 0.5em;
+}
