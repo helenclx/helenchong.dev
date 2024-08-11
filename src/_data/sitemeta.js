@@ -1,4 +1,4 @@
-export const siteName = "Helen Chong | Front-End Web Developer";
+export const siteName = "Helen Chong, Web Developer";
 export const siteDomain = "helenchong.dev";
 export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
 export const siteAuthor = {
