@@ -1,7 +1,7 @@
 ---
 title: Dipping My Toes in PHP for My Hobby Project
 desc: I started to learn to code in PHP for my hobby project.
-date: 2024-07-08
+date: 2024-07-08T13:21:00+0800
 categories: ["php", "bellabuffs"]
 ---
 

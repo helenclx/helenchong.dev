@@ -1,7 +1,7 @@
 ---
 title: JavaScriptmas 2023 Challenge Completed — and Won
 desc: My participation and winning of Scrimba's JavaScriptmas 2023 challenge.
-date: 2023-12-27
+date: 2023-12-27T21:47:00+0800
 categories: ["scrimba", "javascriptmas"]
 ---
 

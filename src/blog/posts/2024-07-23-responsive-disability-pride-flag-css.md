@@ -1,7 +1,7 @@
 ---
 title: Responsive Disability Pride Flag CSS Background
 desc: I coded the Disability Pride Flag in CSS to celebrate Disability Pride Month.
-date: 2024-07-23
+date: 2024-07-23T20:35:00+0800
 categories: ["css", "disability pride"]
 ---
 

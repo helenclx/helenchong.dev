@@ -1,7 +1,7 @@
 ---
 title: Now Page for My Website
 desc: I have added a /now page to my website.
-date: 2024-04-22
+date: 2024-04-22T17:11:00+0800
 categories: ["about this website"]
 ---
 

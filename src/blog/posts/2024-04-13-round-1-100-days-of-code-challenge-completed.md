@@ -1,7 +1,7 @@
 ---
 title: Round 1 of 100 Days of Code Challenge Completed
 desc: I completed my first round of the 100 Days of Code challenge.
-date: 2024-04-13
+date: 2024-04-13T12:20:00+0800
 categories: ["100 days of code", "freecodecamp"]
 ---
 

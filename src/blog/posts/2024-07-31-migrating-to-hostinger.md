@@ -1,7 +1,7 @@
 ---
 title: Migrating My Website to Hostinger
 desc: I have migrated my developer portfolio and blog website to Hostinger.
-date: 2024-07-31
+date: 2024-07-31T09:31:00+0800
 categories: ["about this website", "hostinger"]
 toc: true
 ---
