@@ -6,11 +6,11 @@ eleventyNavigation:
     order: 1
 ---
 
-Greetings! I am Helen Chong (they/she), an aspiring web developer from Malaysia. Previously, I had worked for 8 years as a graphic designer. Now I have decided to transfer my creativity and problem-solving skills into building the web, with a focus on accessible design, progressive enhancement and web performance to improve user experience.
+Greetings! I am Helen Chong (they/she), a web developer from Malaysia. Previously, I had worked for 8 years as a graphic designer. Now I decided to transfer my creativity and problem-solving skills into building the web, with a focus on accessible design, progressive enhancement and web performance to improve user experience.
 
 I have been interested in computers and the internet, as well as learning how to use them since I was a child. Later as a teenager, I learned about the existence of blogs, and began blogging as a hobby, which led me to learn HTML and CSS to customise blog themes and widgets. I was already fascinated by web design, however I was unaware if web design could be a viable career path at the time, so I used my interest in design to pursue an education and later career in graphic design.
 
-Fast forward to 2022, discovering the resurgence of creating personal websites inspired me to relearn HTML and CSS. This time, I also dabbled in JavaScript. Eventually, my interest in web design and development grew enough to make me consider pursuing web development. As a result, I started taking online coding courses, starting with freeCodeCamp and Scrimba.
+Fast forward to 2022, discovering the resurgence of creating personal websites inspired me to relearn HTML and CSS. This time, I also dabbled in JavaScript. Eventually, my interest in web design and development grew enough to make me consider pursuing web development as a profession, thus I started taking online coding courses, starting with freeCodeCamp and Scrimba.
 
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
 
