@@ -117,6 +117,8 @@
 
 /* Badges */
 .home__badges {
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5em;
 }
