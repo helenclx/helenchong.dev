@@ -104,21 +104,16 @@
     text-align: center;
 }
 
-/* Webrings */
-.webrings {
+/* Webrings and Badges */
+.widgets {
     display: flex;
-    gap: 2em;
     flex-wrap: wrap;
-    margin-top: 1.5em;
     justify-content: center;
+}
+.webrings {
+    gap: 2em;
+    margin-top: 1.5em;
 }
 
 .webrings h3 { font-size: 1.5rem; }
-
-/* Badges */
-.home__badges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5em;
-}
+.home__badges { gap: 0.5em; }
