@@ -11,4 +11,6 @@ export const siteLocale = "en_MY";
 export const siteBlog = {
 	title: siteAuthor.name + "'s Developer Blog",
 	desc: siteAuthor.name + " talks about tech, coding and development",
+	url: siteUrl + "/blog",
+	feedUrl: siteUrl + "/blog/feed.xml"
 };

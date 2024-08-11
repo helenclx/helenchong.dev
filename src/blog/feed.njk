@@ -2,25 +2,21 @@
 # sitemeta comes from _data/sitemeta.js
 permalink: blog/feed.xml
 eleventyExcludeFromCollections: true
-eleventyComputed:
-    metadata:
-        url: "{{ sitemeta.siteUrl }}/blog/"
-        feedUrl: "{{ sitemeta.siteUrl }}/blog/feed.xml"
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>{{ sitemeta.siteBlog.title | safe }}</title>
     <subtitle>{{ sitemeta.siteBlog.desc }}</subtitle>
-    <link href="{{ metadata.feedUrl }}" rel="self"/>
-    <link href="{{ metadata.url }}"/>
+    <link href="{{ sitemeta.siteBlog.feedUrl }}" rel="self"/>
+    <link href="{{ sitemeta.siteBlog.url }}"/>
     <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-    <id>{{ metadata.url }}</id>
+    <id>{{ sitemeta.siteBlog.url }}</id>
     <author>
         <name>{{ sitemeta.siteAuthor.name }}</name>
         <email>{{ sitemeta.siteAuthor.email }}</email>
     </author>
     {%- for post in collections.posts | reverse | limit(10) %}
-        {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+        {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(sitemeta.siteBlog.url) }}{% endset %}
         <entry>
             <title>{{ post.data.title }}</title>
             <link href="{{ absolutePostUrl }}"/>
