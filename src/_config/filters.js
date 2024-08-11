@@ -1,13 +1,9 @@
+import { DateTime } from "luxon";
+
 export default function(eleventyConfig) {
     // Format dates
-    const dateOptions = {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-    };
-    const locale = new Intl.DateTimeFormat("en-GB", dateOptions);
-    eleventyConfig.addFilter("niceDate", function(date) {
-        return locale.format(date);
+    eleventyConfig.addFilter("niceDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toFormat("d LLLL yyyy");
     });
 
     // Limit the number of items displayed
