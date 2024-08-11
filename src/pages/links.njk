@@ -5,7 +5,7 @@ eleventyNavigation:
     order: 5
 ---
 
-<p>Throughout my journey in learning to be a developer, I have been inspired by many other developers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development.</p>
+<p>Throughout my developer journey, I have been inspired by many other developers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development.</p>
 
 {%- macro linkRoll(siteName, siteUrl, feedUrl) -%}
     <li data-tooltip>
@@ -18,6 +18,8 @@ eleventyNavigation:
 {%- endmacro -%}
 
 <h2>Blogroll</h2>
+
+<h3>Developer Blogs</h3>
 <ul>
     {{ linkRoll("Aleksandr Hovhannisyan", "https://www.aleksandrhovhannisyan.com/",
         "https://www.aleksandrhovhannisyan.com/feed.xml"
@@ -25,8 +27,14 @@ eleventyNavigation:
     {{ linkRoll("Bob Monsour", "https://www.bobmonsour.com/",
         "https://www.bobmonsour.com/feed.xml"
     ) }}
+    {{ linkRoll("Chen Hui Jing", "https://chenhuijing.com/",
+        "https://chenhuijing.com/feed.xml"
+    ) }}
     {{ linkRoll("Chris Burnell", "https://chrisburnell.com/",
         "https://chrisburnell.com/feed.xml"
+    ) }}
+    {{ linkRoll("Chris Coyier", "https://chriscoyier.net/",
+        "https://chriscoyier.net/feed/"
     ) }}
     {{ linkRoll("Cory Dransfeldt", "https://coryd.dev/",
         "https://feedpress.me/coryd-all"
@@ -39,6 +47,9 @@ eleventyNavigation:
     ) }}
     {{ linkRoll("Heydon Pickering", "https://heydonworks.com/",
         "https://heydonworks.com/feed.xml"
+    ) }}
+    {{ linkRoll("Hidde de Vries", "https://hidde.blog/",
+        "https://hidde.blog/feed"
     ) }}
     {{ linkRoll("Kitty Giraudel", "https://kittygiraudel.com/",
         "https://kittygiraudel.com/rss/index.xml"
@@ -69,7 +80,7 @@ eleventyNavigation:
     ) }}
 </ul>
 
-<h2>Software and Web Development</h2>
+<h3>Software and Web Development</h3>
 <ul>
     {{ linkRoll("The 11ty Bundle Blog", "https://11tybundle.dev/blog/",
         "https://11tybundle.dev/feed.xml"
