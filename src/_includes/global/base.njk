@@ -13,7 +13,7 @@
         %}
 
         {# Feeds #}
-        <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title | safe }}" href="{{ sitemeta.siteUrl }}/blog/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title | safe }}" href="{{ sitemeta.feedPath }}">
 
         {# Favicon #}
         <link rel="icon" sizes="32x32" href="{{'/assets/icons/favicon/favicon.ico' | url }}">

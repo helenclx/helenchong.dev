@@ -8,9 +8,10 @@ export const siteAuthor = {
 };
 export const siteDescription = siteAuthor.name + "'s developer portfolio and blog website.";
 export const siteLocale = "en_MY";
+export const feedPath = "/blog/feed.xml"
 export const siteBlog = {
 	title: siteAuthor.name + "'s Developer Blog",
 	desc: siteAuthor.name + " talks about tech, coding and development",
 	url: siteUrl + "/blog",
-	feedUrl: siteUrl + "/blog/feed.xml"
+	feedUrl: siteUrl + feedPath
 };
