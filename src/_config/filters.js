@@ -2,8 +2,12 @@ import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
     // Format dates
-    eleventyConfig.addFilter("niceDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toFormat("d LLLL yyyy");
+    eleventyConfig.addFilter("niceDate", (date) => {
+        const dateFormat = "d LLLL yyyy";
+        if (typeof date === "object") {
+            return DateTime.fromJSDate(date).toFormat(dateFormat);
+        }
+        return DateTime.fromISO(date, { setZone: true }).toFormat(dateFormat);
     });
 
     // Limit the number of items displayed
