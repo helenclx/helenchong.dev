@@ -3,9 +3,9 @@
     <title>Helen Chong's Developer Blog</title>
     <subtitle>Helen Chong talks about tech, coding and development</subtitle>
     <link href="https://helenchong.dev/blog/feed.xml" rel="self"/>
-    <link href="https://helenchong.dev/blog/"/>
+    <link href="https://helenchong.dev/blog"/>
     <updated>2024-07-31T00:00:00Z</updated>
-    <id>https://helenchong.dev/blog/</id>
+    <id>https://helenchong.dev/blog</id>
     <author>
         <name>Helen Chong</name>
         <email>contact@helenchong.dev</email>
