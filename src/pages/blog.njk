@@ -11,9 +11,11 @@ permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagin
 eleventyNavigation:
     key: Blog
     order: 3
+eleventyComputed:
+    pageTitle: "{{ sitemeta.siteBlog.title | safe }}"
 ---
 
-<p>Welcome to my tech and coding blog! I created this blog to document my coding journey and talk about various tech topics. Enjoy!</p>
+<p>Welcome to my developer blog! My blog is a place for me to document my developer journey and talk about various tech topics. Enjoy your stay!</p>
 
 <h2>Blog Posts</h2>
 <ul class="blog__posts">
