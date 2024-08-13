@@ -12,6 +12,7 @@ eleventyNavigation:
 
 <form class="form" name="contact" action="https://formsubmit.co/{{ sitemeta.siteAuthor.email }}" method="POST">
     <input type="hidden" name="_next" value="{{ sitemeta.siteUrl }}/contact/thanks.html">
+    <input type="hidden" name="_captcha" value="false">
     <div class="form__section">
         <label class="form__label" for="yourName">Name</label>
         <input class="form__input" name="name" type="text" id="yourName" required="true">
