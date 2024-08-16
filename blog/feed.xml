@@ -4,12 +4,40 @@
     <subtitle>Helen Chong talks about tech, coding and development</subtitle>
     <link href="https://helenchong.dev/blog/feed.xml" rel="self"/>
     <link href="https://helenchong.dev/blog"/>
-    <updated>2024-07-31T01:31:00Z</updated>
+    <updated>2024-08-16T12:35:51Z</updated>
     <id>https://helenchong.dev/blog</id>
     <author>
         <name>Helen Chong</name>
         <email>contact@helenchong.dev</email>
     </author>
+        
+        <entry>
+            <title>Got My First Developer Job</title>
+            <link href="https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/"/>
+            <updated>2024-08-16T12:35:51Z</updated>
+            <id>https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/</id>
+            <content type="html">&lt;p&gt;After working as a graphic designer for 8 years, and later taking online courses to learn to code for nearly two years without a Computer Science degree, I finally got my first developer job!&lt;/p&gt;
+&lt;p&gt;Starting from 16 August 2024, I am working for a local traditional Chinese medicine (TCM) healthcare company, with my role involves web development, UX design and graphic design. My official position in the company is marketing assistant, but if you were to ask me what is my job, I would describe myself as a developer and designer instead.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;how-i-got-the-job&quot;&gt;How I Got the Job&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/#how-i-got-the-job&quot; aria-labelledby=&quot;how-i-got-the-job&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;After taking online courses, including freeCodeCamp, Scirmba and CS50&#39;s Introduction to Computer Science, for more than a year, I began to hunt for web developer jobs in recent months. I tried to apply for many companies on LinkedIn, but none of my attempts succeed. There was a recruiter on LinkedIn inviting me to apply for a contract developer job, but since the office&#39;s location is far from where I live, and it is a hybrid position that requires reporting to the office occasionally, I was not qualified for the position.&lt;/p&gt;
+&lt;p&gt;In late July 2024, I received a WhatsApp message and was invited by the managing director of a local traditional Chinese medicine company to attend an interview with him. The company was looking for someone with web development expertise to work on and improve their website, which is built with WordPress. The managing director discovered my resume on a Malaysian job hunting website. I registered on account on said job hunting website when I tried to apply for a web developer position for a Malaysian company that I discovered through LinkedIn.&lt;/p&gt;
+&lt;p&gt;During my interview, I explained to the managing director that I have been looking to switch career from graphic design to web development. Turned out, the company was also interested in hiring a web developer with design expertise to improve the front end of their website, so my 8 years worth of graphic design experience was a bonus. A week after the interview, the managing director sent me a job offer, and I accepted and got hired, with my responsibilities include web development, UX design and graphic design.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;wordpress-developer-by-day-eleventy-developer-by-night&quot;&gt;WordPress Developer by Day, Eleventy Developer by Night&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/#wordpress-developer-by-day-eleventy-developer-by-night&quot; aria-labelledby=&quot;wordpress-developer-by-day-eleventy-developer-by-night&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Starting my professional web development journey with WordPress is going to be a new experience for me. I had brief experience with working on WordPress websites as a website administrator in one of my previous jobs, but never as a developer. Furthermore, prior to receiving this job offer, I never studied WordPress development, nor built my own website with WordPress.&lt;/p&gt;
+&lt;p&gt;That said, I hope to apply the programming knowledge and skills I learned from the coding courses I had taken to adapt to learning WordPress development. My confidence in my ability to learn new tech skills was bolstered by &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/&quot;&gt;the time I managed to solve a problem with a hobby PHP project&lt;/a&gt; despite my inexperience with PHP. I am looking forward to learning more about PHP with my new job as well.&lt;/p&gt;
+&lt;p&gt;Although I work on WordPress in my day job, my own website will continue to be built with Eleventy, and I will continue to follow and support Eleventy&#39;s development. One of the reasons I wanted to pursue web development as a profession is the freedom to learn and use different tools outside day job while continuing to grow as a developer.&lt;/p&gt;
+&lt;p&gt;None of the coding courses I took taught about Eleventy or any static site generator, but building my website with Eleventy allowed me to learn more about web development, not to mention I do have a lot of fun with using Eleventy. Therefore, I am content to be a WordPress developer by day, Eleventy developer by night.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/#wrapping-up&quot; aria-labelledby=&quot;wrapping-up&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I am happy to be able to switch my career path to web development despite not having a Computer Science degree, and that my prior working experience as a graphic designer helped with getting this new job opportunity.&lt;/p&gt;
+&lt;p&gt;Since I began to seriously consider pursuing web development as a profession, I have been introducing myself as a graphic designer turned aspiring web developer, on this website and my other online presence, because I hoped to transfer my creativity and design expertise into building the web. I am glad that my such aspirations have come true.&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Migrating My Website to Hostinger</title>
@@ -359,23 +387,6 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;Here is a video demonstration of my completed Finance project:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AYkO59_Ojb4&quot;&gt;https://www.youtube.com/watch?v=AYkO59_Ojb4&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Working on this assignment allowed me to practice and learn SQL, Python and Flask a lot. By finishing Week 9 of the CS50x, I reached another milestone.&lt;/p&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Round 1 of 100 Days of Code Challenge Completed</title>
-            <link href="https://helenchong.dev/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/"/>
-            <updated>2024-04-13T04:20:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/</id>
-            <content type="html">&lt;p&gt;On 3 January 2024, I started the &lt;a href=&quot;https://www.100daysofcode.com/&quot;&gt;#100DaysOfCode&lt;/a&gt; challenge for the first time. Came 11 April 2024, I finally completed my first round of the challenge!&lt;/p&gt;
-&lt;p&gt;I had heard of the 100 Days of Code challenge after I started my journey to learn to code. However, I did not participate in it until reading freeCodeCamp&#39;s article &lt;a href=&quot;https://www.freecodecamp.org/news/100daysofcode-challenge-2024-discord/&quot;&gt;&amp;quot;#100DaysOfCode Challenge for 2024 – Discord Edition&amp;quot;&lt;/a&gt;. This was also how I found out about the &lt;a href=&quot;https://www.freecodecamp.org/news/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d/&quot;&gt;history of the challenge&lt;/a&gt;, and the fact that the challenge was created by a freeCodeCamp alumni, which I found interesting as an aspiring developer to start to properly learn to code with freeCodeCamp.&lt;/p&gt;
-&lt;p&gt;By the time 2024 came around, I had been taking coding courses for more than a year, so I figured the 100 Days of Code challenge would be a good motivator for me to continue my coding journey every day.&lt;/p&gt;
-&lt;p&gt;It helped that there were still coding courses for me to take. At the time, freeCodeCamp just recently upgraded their &lt;a href=&quot;https://www.freecodecamp.org/news/learn-javascript-with-new-data-structures-and-algorithms-certification-projects/&quot;&gt;JavaScript&lt;/a&gt; and &lt;a href=&quot;https://www.freecodecamp.org/news/python-curriculum-upgrade/&quot;&gt;Python&lt;/a&gt; curriculum to be project-based. I already earned the &lt;a href=&quot;https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures&quot;&gt;Legacy JavaScript Algorithms and Data Structures Certification&lt;/a&gt;, but since I prefer to learn to code by building projects, I decided to take freeCodeCamp&#39;s upgraded curriculum, and eventually earned the &lt;a href=&quot;https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures-v8&quot;&gt;new freeCodeCamp JavaScript certification&lt;/a&gt; on 16 March 2024 as well.&lt;/p&gt;
-&lt;p&gt;Meanwhile, I also started to enrol &lt;a href=&quot;https://scrimba.com/learn/frontend&quot;&gt;Scrimba&#39;s Frontend Developer Career Path&lt;/a&gt; after earning a one-year Scrimba Pro plan from the &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won&quot;&gt;JavaScriptmas challenge&lt;/a&gt; in December 2023. By the time I completed my first round of the #100DaysOfCode challenge, I had also completed more than half of the curriculum.&lt;/p&gt;
-&lt;p&gt;I committed to the 100 Days of Code challenge by sharing updates every day on Twitter, Mastodon, Bluesky and the &lt;a href=&quot;https://discord.gg/freecodecamp&quot;&gt;official freeCodeCamp Discord server&lt;/a&gt;. In addition, I made the habit of recording my progress in the 100 Days of Code challenge every day, so I can reflect on my coding journey. You can view &lt;a href=&quot;https://github.com/helenclx/100-days-of-code&quot;&gt;my fork of the #100DaysOfCode challenge repository&lt;/a&gt; to read the log of my &lt;a href=&quot;https://github.com/helenclx/100-days-of-code/blob/master/r1-log.md&quot;&gt;Round 1&lt;/a&gt; of the challenge. You can fork the &lt;a href=&quot;https://github.com/kallaway/100-days-of-code&quot;&gt;official repository of the #100DaysOfCode challenge&lt;/a&gt; to log your own progress in the challenge.&lt;/p&gt;
-&lt;p&gt;To learn more about the #100DaysOfCode challenge, visit &lt;a href=&quot;https://www.100daysofcode.com/&quot;&gt;its official website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The #100DaysOfCode challenge has been a wonderful journey. I am glad I managed to motivate myself to code every day. Through various courses and projects, I have honed my front-end development skills a lot.&lt;/p&gt;
-&lt;p&gt;Thank you to everyone who has supported me throughout my 100 Days of Code journey, and has interacted with my posts on Twitter, Mastodon, Bluesky and the freeCodeCamp Discord serve, by replying to, liking or reposting.&lt;/p&gt;
 </content>
         </entry>
 </feed>
