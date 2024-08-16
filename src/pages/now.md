@@ -1,7 +1,7 @@
 ---
 title: Now
 desc: What I am up to at the moment.
-updated: 2024-07-31
+updated: 2024-08-16T20:38:16+0800
 isArticle: true
 eleventyNavigation:
     key: Now
@@ -14,6 +14,12 @@ This is my [/now page](https://nownownow.com/about), which highlights what I am 
 
 You can also view [my profile on nownownow.com](https://nownownow.com/p/D9En).
 
+## Started My First Developer Job
+
+After working as a graphic designer for 8 years, and later taking online courses to learn to code for nearly two years without a Computer Science degree, I finally got my first developer job, with my new job starting from 16 August 2024.
+
+You can read more about my new job opportunity on my blog post, ["Got My First Developer Job"](/blog/posts/2024-08-16-got-my-first-developer-job/).
+
 ## Migrated Website to Hostinger
 
 This website has migrated from GitHub Pages to Hostinger as its host. You can read about the move on my blog post, [Migrating My Website to Hostinger](/blog/posts/2024-07-31-migrating-to-hostinger).
@@ -23,10 +29,3 @@ This website has migrated from GitHub Pages to Hostinger as its host. You can re
 I have been building this website with Eleventy since April 2024, and now I have officially upgraded Eleventy to version 3.0.
 
 You can read more about this website's upgrade to Eleventy 3.0 on my blog post, [Aboard the Eleventy 3.0 Train](/blog/posts/2024-07-19-eleventy-3-0-upgrade).
-
-## My Current Progress in My Courses
-
-### [Scrimba's Frontend Developer Career Path](https://scrimba.com/learn/frontend)
-
-* Module 11 - Advanced React
-    * Section 1 - Reusability
