@@ -114,6 +114,10 @@
     gap: 2em;
     margin-top: 1.5em;
 }
-
 .webrings h3 { font-size: 1.5rem; }
-.home__badges { gap: 0.5em; }
+
+.home__badges {
+    --badge-gap: 0.5em;
+    gap: var(--badge-gap);
+    margin-bottom: var(--badge-gap);
+}
