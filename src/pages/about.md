@@ -12,6 +12,8 @@ I have been interested in computers and the internet, as well as learning how to
 
 Fast forward to 2022, discovering the resurgence of creating personal websites inspired me to relearn HTML and CSS. This time, I also dabbled in JavaScript. Eventually, my interest in web design and development grew enough to make me consider pursuing web development as a profession, thus I started taking online coding courses, starting with freeCodeCamp and Scrimba.
 
+After nearly two years of teaching myself to code without a computer science degree, I got my first developer job in August 2024, by handling WordPress development, UX design and graphic design for a local traditional Chinese medicine healthcare company.
+
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
 
 If you are looking for my professional history, you can [check out my résumé]({{sitemeta.siteUrl}}/resume).
