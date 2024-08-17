@@ -9,6 +9,7 @@ layout: global/base
 
     {% if tags and tags.includes("posts") %}
         <div class="blog__post--info">
+            <p>{{ desc }}</p>
             <p><span class="text-bold">Posted:</span> {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}</p>
             {% if updated %}
                 <p><span class="text-bold">Last Updated:</span> {{ updated | niceDate }}</p>
