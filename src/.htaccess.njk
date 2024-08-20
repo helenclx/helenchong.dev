@@ -13,16 +13,20 @@ Header set Cache-Control "no-cache, public"
 
 RewriteEngine on
 
-# redirect /file.html to /file
+# Redirect /file.html to /file
 RewriteCond %{THE_REQUEST} \s/([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NE,L,R]
 # now we will internally map /file to/ file.html
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)/?$ /$1.html  [L]
 
-# redirect /file.php to /file
+# Redirect /file.php to /file
 RewriteCond %{THE_REQUEST} \s/([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NE,L,R]
 # now we will internally map /file to /file.php
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)/?$ /$1.php  [L]
+
+# Block bad bots
+RewriteCond %{HTTP_USER_AGENT} {{ robots.htaccess }} [NC]
+RewriteRule .* https://nocommercialuse.org/ [L]
