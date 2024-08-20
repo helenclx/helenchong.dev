@@ -27,6 +27,6 @@ export default async function () {
 
 	return {
 		txt: txt,
-		htaccess: bots.join("|"),
+		htaccess: bots,
 	};
 }
