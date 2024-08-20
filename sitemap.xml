@@ -1,0 +1,264 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-08-21-Welcome-to-Helen-Codes/</loc>
+        <lastmod>2023-08-21T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project/</loc>
+        <lastmod>2023-08-24T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-09-10-CS50x-Week-7-Completed/</loc>
+        <lastmod>2023-09-10T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-09-26-CS50x-Week-8-Assignments-Completed/</loc>
+        <lastmod>2023-09-26T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-11-13-My-First-PR-in-Python/</loc>
+        <lastmod>2023-11-13T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/</loc>
+        <lastmod>2023-11-25T00:00:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won/</loc>
+        <lastmod>2023-12-27T13:47:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/</loc>
+        <lastmod>2024-04-11T10:03:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/</loc>
+        <lastmod>2024-04-13T04:20:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed/</loc>
+        <lastmod>2024-04-15T08:37:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-04-22-now-page-for-my-website/</loc>
+        <lastmod>2024-04-22T09:11:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/</loc>
+        <lastmod>2024-05-27T13:47:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/</loc>
+        <lastmod>2024-05-29T15:18:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/</loc>
+        <lastmod>2024-06-03T03:01:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/</loc>
+        <lastmod>2024-07-08T05:21:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/</loc>
+        <lastmod>2024-07-19T07:31:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/</loc>
+        <lastmod>2024-07-23T12:35:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/</loc>
+        <lastmod>2024-07-31T01:31:00.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/</loc>
+        <lastmod>2024-08-16T12:35:51.000Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/categories/</loc>
+        <lastmod>2024-08-20T06:40:11.565Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/categories/100-days-of-code/</loc>
+        <lastmod>2024-08-20T06:40:11.565Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/posts/</loc>
+        <lastmod>2024-08-20T06:40:11.565Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/about/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/blog/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/contact/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/links/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/now/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/cs50-flask-blog/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/frontend-mentor/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/quizzical/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/recipe-hub/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/scrimba/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/projects/tenzies/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/accessibility/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://helenchong.dev/colophon/</loc>
+        <lastmod>2024-08-20T06:40:11.569Z</lastmod>
+        <changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    
+</urlset>

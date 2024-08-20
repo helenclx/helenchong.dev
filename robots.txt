@@ -34,3 +34,5 @@ User-agent: img2dataset
 User-agent: omgili
 User-agent: omgilibot
 Disallow: /
+
+Sitemap: https://helenchong.dev/sitemap.xml
