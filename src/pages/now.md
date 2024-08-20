@@ -3,8 +3,6 @@ title: Now
 desc: What I am up to at the moment.
 updated: 2024-08-16T20:38:16+0800
 isArticle: true
-sitemap:
-    changefreq: weekly
 eleventyNavigation:
     key: Now
     order: 2
