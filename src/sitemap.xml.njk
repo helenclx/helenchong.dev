@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
     <url>
         <loc>{{ sitemeta.siteUrl + item.url | url }}</loc>
         <lastmod>{% if item.updated %}{{ item.updated.toISOString() }}{% else %}{{ item.date.toISOString() }}{% endif %}</lastmod>
-        <changefreq>{{ item.data.sitemap.changefreq | default("monthly") }}</changefreq>
+        <changefreq>{{ item.data.sitemap.changefreq | default("weekly") }}</changefreq>
 		<priority>{{ item.data.sitemap.priority | default(0.5) }}</priority>
     </url>
     {%- endfor %}
