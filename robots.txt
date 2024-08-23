@@ -26,6 +26,7 @@ User-agent: PetalBot
 User-agent: Scrapy
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
 User-agent: YouBot
 User-agent: anthropic-ai
 User-agent: cohere-ai
