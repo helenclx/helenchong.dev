@@ -9,7 +9,7 @@
                     {% endif %}
                 </a>
             </p>
-            <p>{{ post.date | niceDate }}</p>
+            <time datetime="{{ post.date }}">{{ post.date | niceDate }}</time>
         </li>
     {% endfor %}
 </ul>

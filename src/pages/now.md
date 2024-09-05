@@ -8,7 +8,7 @@ eleventyNavigation:
     order: 2
 ---
 
-*This page was last updated on {{ updated | niceDate }}.*
+*This page was last updated on <time datetime="{{ updated }}">{{ updated | niceDate }}</time>.*
 
 This is my [/now page](https://nownownow.com/about), which highlights what I am doing and focusing on at the moment. You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
