@@ -3,7 +3,7 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginMetagen from "eleventy-plugin-metagen";
-import pluginEmojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
+import pluginWordcount from "eleventy-plugin-wordcount-extended";
 
 // Custom configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
@@ -18,7 +18,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(pluginMetagen);
-    eleventyConfig.addPlugin(pluginEmojiReadTime);
+    eleventyConfig.addPlugin(pluginWordcount);
 
     // Custom configurations
     eleventyConfig.addPlugin(markdownItConfig);
