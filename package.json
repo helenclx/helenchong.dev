@@ -1,5 +1,5 @@
 {
-  "name": "helenclx.github.io",
+  "name": "helenchong.dev",
   "scripts": {
     "start": "bunx eleventy --serve --quiet",
     "build": "bunx eleventy",
