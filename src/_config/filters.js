@@ -15,6 +15,11 @@ export default function(eleventyConfig) {
         return array.slice(0, limit);
     });
 
+    // Thousands separator
+    eleventyConfig.addFilter("thousands", function(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    });
+
     // Filter blog posts by category
     eleventyConfig.addFilter("filterByCategory", function(posts, cat) {
         cat = cat.toLowerCase();

@@ -11,7 +11,7 @@ layout: global/base
         <div class="blog__post--info">
             <p>{{ desc }}</p>
             <p>
-                <span class="text-bold">{{ content | wordcount }} words</span>.
+                <span class="text-bold">{{ content | wordcount | thousands }} words</span>.
                 <span class="text-bold">Posted:</span> {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}
             </p>
             {% if updated %}
