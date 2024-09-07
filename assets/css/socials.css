@@ -1,8 +1,9 @@
 /* Socials Style */
 .socials {
     grid-area: scial;
-    justify-self: center;
-    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    margin-top: 0.7em;
 }
 
 .socials__links {
