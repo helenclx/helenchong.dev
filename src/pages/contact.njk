@@ -6,25 +6,12 @@ eleventyNavigation:
     order: 6
 ---
 
-<p>I am always open to new opportunities and projects.</p>
+<p>I am always open to connect with more people.</p>
 
 <p>I also welcome feedbacks and suggestions for improving the <a href="/accessibility">accessibility</a> of this website.</p>
 
-<form class="form" name="contact" action="https://formsubmit.co/{{ sitemeta.siteAuthor.email }}" method="POST">
-    <input type="hidden" name="_next" value="{{ sitemeta.siteUrl }}/contact/thanks.html">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="_honey" style="display:none">
-    <div class="form__section">
-        <label class="form__label" for="yourName">Name</label>
-        <input class="form__input" name="name" type="text" id="yourName" required="true">
-    </div>
-    <div class="form__section">
-        <label class="form__label" for="yourEmail">Email</label>
-        <input class="form__input" name="email" type="email"  id="yourEmail" required="true">
-    </div>
-    <div class="form__section">
-        <label class="form__label" for="message">Message</label>
-        <textarea class="form__input" name="message" id="message" rows="6" required="true"></textarea>
-    </div>
-    <button class="form__button" type="submit">Let's talk</button>
-</form>
+<script data-letterbirduser="helenchong" src="https://letterbird.co/embed/v1.js"></script>
+<noscript>
+    <h3>You Have Disabled JavaScript</h3>
+    <p>Looks like you have disabled JavaScript, preventing this contact form from being displayed on this page. You may visit <a href="https://letterbird.co/helenchong">my Letterbird contact form page</a> to contact me.</p>
+</noscript>
