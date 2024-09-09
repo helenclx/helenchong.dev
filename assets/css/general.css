@@ -31,9 +31,10 @@ code {
     word-break: break-word;
 }
 
-:not(pre) > code { padding: 0.125em 0.25em; }
-:not(pre) > code,
-pre { background-color: var(--clr-code-bg); }
+:not(pre) > code {
+    padding: 0.125em 0.25em;
+    background-color: var(--clr-code-bg);
+}
 
 pre {
     border: 0.1em solid var(--clr-code-border);
