@@ -30,7 +30,16 @@
 
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/utility.css">
-        <style>.header {
+        <style>.upcoming {
+    padding: 0;
+    max-width: 40rem;
+}
+
+.upcoming__item {
+    display: grid;
+    gap: 0.3em;
+}
+.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -365,9 +374,31 @@
     </ul>
 </section>
     <section class="section--home grid-center">
+    <h2 class="heading--home">Upcoming</h2>
+    <ul class="upcoming">
+        <li class="upcoming__item">
+            <h3><a href="https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/">THE Eleventy Meetup Episode 19</a></h3>
+            <strong>
+                <time datetime="2024-09-26T19:00:00+0800">26 September 2024, 7pm (Malaysia Time)</time>
+            </strong>
+            <p>I will give a talk, "Eleventy Journey From 2.0 to 3.0", about my experience with using Eleventy, including the decision and process of upgrading to Eleventy 3.0.</p>
+        </li>
+    </ul>
+</section>
+    <section class="section--home grid-center">
         <h2 class="heading--home">Latest Blog Posts</h2>
         
         <ul class="blog__postlist">
+    
+        <li>
+            <p class="blog__postlist--title">
+                <a href="/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/">
+                    Scheduled: Speaking at THE Eleventy Meetup Episode 19
+                    
+                </a>
+            </p>
+            <time datetime="Tue Sep 10 2024 15:35:17 GMT+0000 (Coordinated Universal Time)">10 September 2024</time>
+        </li>
     
         <li>
             <p class="blog__postlist--title">
@@ -387,16 +418,6 @@
                 </a>
             </p>
             <time datetime="Wed Jul 31 2024 01:31:00 GMT+0000 (Coordinated Universal Time)">31 July 2024</time>
-        </li>
-    
-        <li>
-            <p class="blog__postlist--title">
-                <a href="/blog/posts/2024-07-23-responsive-disability-pride-flag-css/">
-                    Responsive Disability Pride Flag CSS Background
-                    
-                </a>
-            </p>
-            <time datetime="Tue Jul 23 2024 12:35:00 GMT+0000 (Coordinated Universal Time)">23 July 2024</time>
         </li>
     
 </ul>

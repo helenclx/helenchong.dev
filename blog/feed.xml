@@ -4,12 +4,25 @@
     <subtitle>Helen Chong talks about tech, coding and development</subtitle>
     <link href="https://helenchong.dev/blog/feed.xml" rel="self"/>
     <link href="https://helenchong.dev/blog"/>
-    <updated>2024-08-16T12:35:51Z</updated>
+    <updated>2024-09-10T15:35:17Z</updated>
     <id>https://helenchong.dev/blog</id>
     <author>
         <name>Helen Chong</name>
         <email>contact@helenchong.dev</email>
     </author>
+        
+        <entry>
+            <title>Scheduled: Speaking at THE Eleventy Meetup Episode 19</title>
+            <link href="https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/"/>
+            <updated>2024-09-10T15:35:17Z</updated>
+            <id>https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/</id>
+            <content type="html">&lt;p&gt;I am pleased to announce that I have been invited to speak at a tech event, by speaking in Episode 19 of &lt;a href=&quot;https://11tymeetup.dev/&quot;&gt;THE Eleventy Meetup&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;This will also be my first time speaking at a tech event, another major milestone since I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job&quot;&gt;got my first developer job in August 2024&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Episode 19 of THE Eleventy Meetup is scheduled to be held on 26 September 2024, 7pm Malaysia Time. My talk, titled &amp;quot;Eleventy Journey From 2.0 to 3.0&amp;quot;, will be about my experience with using Eleventy, including the decision and process of upgrading to Eleventy 3.0.&lt;/p&gt;
+&lt;p&gt;I have been using Eleventy since &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy&quot;&gt;April 2024&lt;/a&gt;, and loving it and its wonderful community, so I am immensely grateful that my first time speaking at a tech event will be dedicated to Eleventy.&lt;/p&gt;
+&lt;p&gt;You can find more details about &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Ep. 19: Migrating to 3.0 and Blogging with Storyblok&lt;/a&gt; on THE Eleventy Meetup website. See you there!&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Got My First Developer Job</title>
@@ -363,30 +376,6 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;The idea of adding a &amp;quot;now page&amp;quot; was inspired by the website &lt;a href=&quot;https://nownownow.com/&quot;&gt;nownownow.com&lt;/a&gt;, which &lt;a href=&quot;https://nownownow.com/about&quot;&gt;defines&lt;/a&gt; a now page as a page that tells you what this person is focused on at this point in their life. In addition, I also have &lt;a href=&quot;https://nownownow.com/p/D9En&quot;&gt;my own profile on nownownow.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As an aspiring web developer, a now page on my developer portfolio website serves as a means to inform the public about my current priorities and projects.&lt;/p&gt;
 &lt;p&gt;My /now page can be updated at any time, so feel free to check the page out when you visit this website!&lt;/p&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>CS50x Week 9 Completed</title>
-            <link href="https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed/"/>
-            <updated>2024-04-15T08:37:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed/</id>
-            <content type="html">&lt;p&gt;At last, on 5 March 2024, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2024/weeks/9/&quot;&gt;Week 9&lt;/a&gt; of the CS50&#39;s Introduction to Computer Science (CS50x) course, by submitting my solutions to &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/&quot;&gt;Problem Set 9&lt;/a&gt; . In other words, I have finished all assignments for the CS50x course, with the only thing left for me to do to complete the course is building and submitting my own &lt;a href=&quot;https://cs50.harvard.edu/x/2024/project/&quot;&gt;final project&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Problem Set 9 consisted of two problems, &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/birthdays/&quot;&gt;Birthdays&lt;/a&gt; and &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/finance/&quot;&gt;Finance&lt;/a&gt;, which required Python, Flask and SQL to solve. I did and submitted my solution to the Birthdays problem on 6 January 2024. At the time, I already took a break from the CS50x course for a few months to pursue other front-end web development courses. It was rather challenging to go back to CS50x and do its assignments after taking a break from the course for a while. My SQL and Flask knowledge got rusty due to rarely using them.&lt;/p&gt;
-&lt;p&gt;On 2 March 2024, I began tackling the Finance problem. As the final assignment for the course before the final project, Finance was by far the largest assignment of CS50x. As I expected, this project challenged me to apply everything I learned from the CS50x course. I needed to refer to my solutions to the previous problems to refresh my skills of Python, Flask and SQL. Thankfully, I had a good start; on my first day doing the Finance problem, I successfully implemented the Register and Quote features.&lt;/p&gt;
-&lt;p&gt;The next day, I started implementing the feature to buy stocks by setting up and testing input elements. After a lot of research and trial and errors, I learned to use &lt;code&gt;try...except&lt;/code&gt; to display an error message on the web page if an incorrect input is entered. I also learned to make use of the phpLiteAdmin installed in the CS50 Codespace to work on the project’s database and get the SQL commands I want to use, and modify the database in a graphical user interface.&lt;/p&gt;
-&lt;p&gt;On the third day of me doing the Finance problem, I successfully implemented the features to buy stocks and displaying the user’s owned stocks on the index page. My work on this project allowed me to refresh my knowledge and skills of SQL, by creating new tables, inserting new rows into tables, and updating data of existing tables. I also got more practice in working with Flask by dynamically render HTML elements via Python.&lt;/p&gt;
-&lt;p&gt;On 5 March 2024, I successfully implemented not only the last required features to sell stocks and display transaction history, but also additional features, namely to add cash to the user’s account and change the user’s password. On my last day working on the Finance assignment specifically, I learned about:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Set the timestamp based on local time zone in SQL&lt;/li&gt;
-&lt;li&gt;The flash message function in Flask&lt;/li&gt;
-&lt;li&gt;Use both the &lt;code&gt;round()&lt;/code&gt; and &lt;code&gt;float()&lt;/code&gt; functions to round a number to a certain amount of decimals&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;steps&lt;/code&gt; attribute of HTML’s &lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt; element&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Finally, I completed and submitted the Finance problem from Week 9 of CS50’s Introduction to Computer Science!&lt;/p&gt;
-&lt;p&gt;Here is a video demonstration of my completed Finance project:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AYkO59_Ojb4&quot;&gt;https://www.youtube.com/watch?v=AYkO59_Ojb4&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Working on this assignment allowed me to practice and learn SQL, Python and Flask a lot. By finishing Week 9 of the CS50x, I reached another milestone.&lt;/p&gt;
 </content>
         </entry>
 </feed>
