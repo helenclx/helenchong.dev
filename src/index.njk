@@ -9,6 +9,7 @@ metadata:
 <div class="home--container">
     {% include "main/profile.njk" %}
     {% include "main/skills.njk" %}
+    {% include "main/upcoming.njk" %}
     <section class="section--home grid-center">
         <h2 class="heading--home">Latest Blog Posts</h2>
         {% set postList = collections.posts | reverse | limit(3) %}
