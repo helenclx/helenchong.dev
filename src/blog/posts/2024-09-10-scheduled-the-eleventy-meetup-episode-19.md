@@ -5,7 +5,7 @@ date: 2024-09-10T23:35:17+0800
 categories: ["eleventy", "speaking"]
 ---
 
-I am pleased to announce that I have been invited to speak at a tech event, by speaking in Episode 19 of [THE Eleventy Meetup](https://11tymeetup.dev/)!
+I am pleased to announce that I have been invited to speak at Episode 19 of [THE Eleventy Meetup](https://11tymeetup.dev/)!
 
 This will also be my first time speaking at a tech event, another major milestone since I [got my first developer job in August 2024](/blog/posts/2024-08-16-got-my-first-developer-job).
 
