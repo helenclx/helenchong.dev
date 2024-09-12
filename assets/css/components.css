@@ -37,10 +37,18 @@
     padding-left: 0.5em;
 }
 
+/* Web widgets */
+.widgets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+* + .widgets { margin-top: var(--sz-list-gap); }
+
 /* Site buttons */
 .site-btns {
     align-items: center;
-    gap: 0.5em;
+    gap: var(--sz-list-gap);
 }
 
 /* Breadcumbs */

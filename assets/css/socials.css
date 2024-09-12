@@ -3,8 +3,8 @@
     grid-area: scial;
     display: grid;
     place-content: center;
-    margin-top: 0.7em;
 }
+* + .socials { margin-top: 0.7em; }
 
 .socials__links {
     list-style-type: "";
