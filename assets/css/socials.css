@@ -17,6 +17,7 @@
 
 .socials a { display: inline-flex; }
 
+.socials a:hover,
 .socials a:focus {
     outline: 0.15em solid var(--clr-accent-700);
     outline-offset: 0.15em;
