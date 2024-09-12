@@ -18,6 +18,8 @@ In addition to coding and programming, I enjoy gaming, reading, drawing and croc
 
 If you are looking for my professional history, you can [check out my résumé]({{sitemeta.siteUrl}}/resume).
 
+If you would like to suuport my work, you can [buy me a coffee](https://buymeacoffee.com/helenchong).
+
 ## My Certificates
 
 * freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/certification/helenclx/responsive-web-design)
