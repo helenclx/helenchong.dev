@@ -2,7 +2,7 @@
     <nav aria-labelledby="breadcrumbs-title">
         <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
         <ol class="breadcrumbs">
-            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(pageTitle or title) %}
+            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or pageTitle or title) %}
             {%- for entry in breadcrumbNavPages %}
             <li>
                 <a href="{{ entry.url }}">{{ entry.title }}</a>

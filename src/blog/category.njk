@@ -5,11 +5,12 @@ pagination:
     alias: category
 permalink: /blog/categories/{{ category | slugify }}/
 layout: global/content
+hasBreadcrumbs: true
 eleventyComputed:
     title: 'Blog Post Category: "{{ category }}"'
     eleventyNavigation:
         key: {{ category }}
-        parent: Categories
+        parent: Blog Categories
 ---
 {% set postCount = collections.posts | filterByCategory(category) | length %}
 <h2>{{ postCount }} Posts Filed Under "{{ category }}"</h2>
