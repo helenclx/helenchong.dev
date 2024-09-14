@@ -1,20 +1,21 @@
 ---
-pagination:
-    data: collections.categories
-    size: 1
-    alias: category
-permalink: /blog/categories/{{ category | slugify }}/
 layout: global/content
-eleventyComputed:
-    title: 'Blog Post Category: "{{ category }}"'
-    eleventyNavigation:
-        key: {{ category }}
-        parent: Categories
+title: Blog Post Categories
+tags: blog pages
+blogNav: Categories
+eleventyNavigation:
+    key: Blog Categories
+    title: Categories
+    parent: Blog
+    order: 2
 ---
-{% set postCount = collections.posts | filterByCategory(category) | length %}
-<h2>{{ postCount }} Posts Filed Under "{{ category }}"</h2>
 
-{% set postList = collections.posts | filterByCategory(category) | reverse %}
-{% include "blog/postslist.njk" %}
+<ul>
+{% for category in collections.categories %}
+	{% set categoryUrl %}/blog/categories/{{ category | slugify }}/{% endset %}
+	{% set categoryPostCount = collections.posts | filterByCategory(category) | length %}
+	<li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }} posts)</li>
+{% endfor %}
+</ul>
 
-<p>See <a href="/blog/categories/">all blog post categories</a>.</p>
+<p>See all blog posts in the <a href="/blog/posts/">archive</a>.</p>
