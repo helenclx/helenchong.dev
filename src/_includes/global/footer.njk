@@ -4,10 +4,6 @@
         <img src="/assets/icons/helenchong-200x40.png" alt="Helen Chong's 200×40 website button" width="200" height="40" loading="lazy">
     </div>
 
-    <div class="widgets"><a href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="59" loading="lazy"></a></div>
-
-    {% include "global/socials.njk" %}
-
     <h2 class="visually-hidden">Footer Navigation:</h2>
     <ul class="inline-list">
         <li><a href="{{ sitemeta.feedPath }}">RSS Feed</a></li>
@@ -21,6 +17,10 @@
 
     <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
     <p>Built with <a href="https://www.11ty.dev/">Eleventy</a>. <a href="https://github.com/helenclx/helenchong.dev" class="external-link">Source Code</a>.</p>
+
+    {% include "global/socials.njk" %}
+
+    <div class="widgets"><a href="https://buymeacoffee.com/helenchong"><img src="/assets/icons/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="59" loading="lazy"></a></div>
 
     {% include "global/h-card.njk" %}
     {% include "global/top-btn.njk" %}
