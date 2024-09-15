@@ -10,10 +10,12 @@
 .text-bold { font-weight: 700; }
 
 .inline-icon {
+    display: inline-block;
     vertical-align: -10%;
     height: 0.9em;
     fill: currentColor;
 }
+a > .inline-icon { padding-inline-end: .25em; }
 
 .grid-center {
     display: grid;
