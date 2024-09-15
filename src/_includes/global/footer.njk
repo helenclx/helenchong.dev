@@ -8,8 +8,6 @@
 
     {% include "global/socials.njk" %}
 
-    <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
-
     <ul class="inline-list">
         <li><a href="{{ sitemeta.feedPath }}">RSS Feed</a></li>
     {%- for statement in collections.statements -%}
@@ -20,6 +18,7 @@
     {%- endfor -%}
     </ul>
 
+    <p>Built with &#x2661; by {{ sitemeta.siteAuthor.name }}. 2023–{% currentYear %}.</p>
     <p>Built with <a href="https://www.11ty.dev/">Eleventy</a>. <a href="https://github.com/helenclx/helenchong.dev" class="external-link">Source Code</a>.</p>
 
     {% include "global/h-card.njk" %}
