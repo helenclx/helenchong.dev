@@ -16,10 +16,10 @@
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title | safe }}" href="{{ sitemeta.feedPath }}">
 
         {# Favicon #}
-        <link rel="icon" sizes="32x32" href="{{'/assets/icons/favicon/favicon.ico' | url }}">
-        <link rel="icon" type="image/svg+xml" href="{{'/assets/icons/favicon/HC-favicon.svg' | url }}">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{'/assets/icons/favicon/apple-touch-icon.png' | url }}">
-        <link rel="manifest" href="{{'/assets/icons/favicon/site.webmanifest' | url }}">
+        <link rel="icon" sizes="32x32" href="/assets/icons/favicon/favicon.ico">
+        <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon/HC-favicon.svg">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/favicon/apple-touch-icon.png">
+        <link rel="manifest" href="/assets/icons/favicon/site.webmanifest">
 
         {# CSS #}
         {% include "global/css.njk" %}
@@ -32,7 +32,7 @@
         {# JavaScript #}
         <script src="{% getBundleFileUrl 'js' %}" defer></script>
     {% if toc %}
-        <script src="{{'/assets/js/details-utils.js'}}" defer></script>
+        <script src="/assets/js/details-utils.js" defer></script>
     {% endif %}
 
         <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
