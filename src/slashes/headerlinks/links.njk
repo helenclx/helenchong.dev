@@ -1,11 +1,12 @@
 ---
 title: Links
+toc: true
 eleventyNavigation:
     key: Links
     order: 5
 ---
 
-<p>Throughout my developer journey, I have been inspired by many other developers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development.</p>
+<p>Throughout my developer journey, I have been inspired by many other developers and bloggers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development, with occasional personal blogs.</p>
 
 {%- macro linkRoll(siteName, siteUrl, feedUrl) -%}
 <li>
@@ -16,9 +17,9 @@ eleventyNavigation:
 </li>
 {%- endmacro -%}
 
-<h2>Blogroll</h2>
+{% headingAnchor 2 %}Blogroll{% endheadingAnchor %}
 
-<h3>Developers</h3>
+{% headingAnchor 3 %}Developers{% endheadingAnchor %}
 <ul>
     {{ linkRoll("Aleksandr Hovhannisyan", "https://www.aleksandrhovhannisyan.com/",
         "https://www.aleksandrhovhannisyan.com/feed.xml"
@@ -97,7 +98,14 @@ eleventyNavigation:
     ) }}
 </ul>
 
-<h3>Software and Web Development</h3>
+{% headingAnchor 3 %}Personal{% endheadingAnchor %}
+<ul>
+    {{ linkRoll("Adrianna Tan", "https://popagandhi.com/",
+        "https://popagandhi.com/feed.xml"
+    ) }}
+</ul>
+
+{% headingAnchor 3 %}Software and Web Development{% endheadingAnchor %}
 <ul>
     {{ linkRoll("The 11ty Bundle Blog", "https://11tybundle.dev/blog/",
         "https://11tybundle.dev/feed.xml"
@@ -140,7 +148,7 @@ eleventyNavigation:
     ) }}
 </ul>
 
-<h2>Podroll</h2>
+{% headingAnchor 2 %}Podroll{% endheadingAnchor %}
 <ul>
     {{ linkRoll("freeCodeCamp Podcast", "https://freecodecamp.libsyn.com/",
         "http://feeds.libsyn.com/110110/rss"
