@@ -36,6 +36,51 @@
     text-decoration: none;
     margin-left: 0.2em;
 }
+.toc__wrapper {
+        max-height: 80vh;
+        overflow-x: auto;
+        padding: 0.3em 1.3rem 1.5em;
+    }
+
+    .toc__heading {
+        font-size: 1.4rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.7em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-txt-default);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        margin: 0;
+    }
+
+    .toc ol a {
+        font-size: 1.1em;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 60rem) {
+        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
+    }
 .header {
         display: flex;
         justify-content: space-between;
@@ -200,6 +245,8 @@
         
         <script src="/assets/js/3ZCNRNkKuw.js" defer></script>
     
+        <script src="/assets/js/details-utils.js" defer></script>
+    
 
         <title> Links |  Helen Chong, Web Developer</title>
     </head>
@@ -314,13 +361,34 @@
 
 <content-wrapper>
     
+        <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore>
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#Blogroll">Blogroll</a><ol><li><a href="#Developers">Developers</a></li>
+<li><a href="#Personal">Personal</a></li>
+<li><a href="#Software-and-Web-Development">Software and Web Development</a></li></ol></li>
+<li><a href="#Podroll">Podroll</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
 
     
     <div class="prose">
         
-<p>Throughout my developer journey, I have been inspired by many other developers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development.</p><h2>Blogroll</h2>
+<p>Throughout my developer journey, I have been inspired by many other developers and bloggers with their works and words. Here is my curated list of blogs and podcasts I follow, mostly related to tech and development, with occasional personal blogs.</p><div class="heading-wrapper h2">
+            <h2 id="Blogroll">Blogroll</h2>
+            <a class="heading-anchor" href="#Blogroll" aria-labelledby="Blogroll"><span hidden="">#</span></a>
+        </div>
 
-<h3>Developers</h3>
+<div class="heading-wrapper h3">
+            <h3 id="Developers">Developers</h3>
+            <a class="heading-anchor" href="#Developers" aria-labelledby="Developers"><span hidden="">#</span></a>
+        </div>
 <ul>
     <li>
     <a href="https://www.aleksandrhovhannisyan.com/">Aleksandr Hovhannisyan</a>
@@ -474,7 +542,23 @@
 </li>
 </ul>
 
-<h3>Software and Web Development</h3>
+<div class="heading-wrapper h3">
+            <h3 id="Personal">Personal</h3>
+            <a class="heading-anchor" href="#Personal" aria-labelledby="Personal"><span hidden="">#</span></a>
+        </div>
+<ul>
+    <li>
+    <a href="https://popagandhi.com/">Adrianna Tan</a>
+    <a href="https://popagandhi.com/feed.xml" class="linkroll__feed">
+    <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+    Feed</a>
+</li>
+</ul>
+
+<div class="heading-wrapper h3">
+            <h3 id="Software-and-Web-Development">Software and Web Development</h3>
+            <a class="heading-anchor" href="#Software-and-Web-Development" aria-labelledby="Software-and-Web-Development"><span hidden="">#</span></a>
+        </div>
 <ul>
     <li>
     <a href="https://11tybundle.dev/blog/">The 11ty Bundle Blog</a>
@@ -556,7 +640,10 @@
 </li>
 </ul>
 
-<h2>Podroll</h2>
+<div class="heading-wrapper h2">
+            <h2 id="Podroll">Podroll</h2>
+            <a class="heading-anchor" href="#Podroll" aria-labelledby="Podroll"><span hidden="">#</span></a>
+        </div>
 <ul>
     <li>
     <a href="https://freecodecamp.libsyn.com/">freeCodeCamp Podcast</a>
