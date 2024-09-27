@@ -1,7 +1,7 @@
 ---
 title: "THE Eleventy Meetup Episode 19: My First Talk at a Tech Event"
 desc: I gave my first talk at a tech event at Episode 19 of THE Eleventy Meetup
-date: 2024-09-27T11:36:44+0800
+date: 2024-09-27T11:47:53+0800
 categories: ["eleventy", "speaking"]
 ---
 
