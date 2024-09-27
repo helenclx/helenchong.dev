@@ -2,6 +2,7 @@
 title: Aboard the Eleventy 3.0 Train
 desc: My developer portfolio and blog website has been officially upgraded to Eleventy 3.0.
 date: 2024-07-19T15:31:00+0800
+updated: 2024-09-27T11:41:53+0800
 templateEngineOverride: md
 categories: ["about this website", "eleventy", "javascript"]
 toc: true
@@ -84,3 +85,9 @@ The process of converting CommonJS to ESM in my Eleventy website was smoother th
 My website's transition to an Eleventy 3.0 site is a success, and I could not be happier with my decision to make the upgrade. If you like Eleventy, I highly recommend giving 3.0 a try.
 
 Hello, Eleventy 3.0! 👋
+
+## Update, 27 September 2024: THE Eleventy Meetup Episode 19
+
+I was invited to speak at [THE Eleventy Meetup Episode 19](https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/) on 26 September 2024, by giving a talk based on this blog post! You can watch my talk at THE Eleventy Meetup's YouTube Channel.
+
+https://www.youtube.com/watch?v=qgFNl_oAyQY
