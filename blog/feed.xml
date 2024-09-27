@@ -4,12 +4,27 @@
     <subtitle>Helen Chong talks about tech, coding and development</subtitle>
     <link href="https://helenchong.dev/blog/feed.xml" rel="self"/>
     <link href="https://helenchong.dev/blog"/>
-    <updated>2024-09-10T15:35:17Z</updated>
+    <updated>2024-09-27T03:47:53Z</updated>
     <id>https://helenchong.dev/blog</id>
     <author>
         <name>Helen Chong</name>
         <email>contact@helenchong.dev</email>
     </author>
+        
+        <entry>
+            <title>THE Eleventy Meetup Episode 19: My First Talk at a Tech Event</title>
+            <link href="https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/"/>
+            <updated>2024-09-27T03:47:53Z</updated>
+            <id>https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/</id>
+            <content type="html">&lt;p&gt;On 26 September 2024, I gave my first talk at a tech event at Episode 19 of THE Eleventy Meetup!&lt;/p&gt;
+&lt;p&gt;After I published a blog post, &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/&quot;&gt;&amp;quot;Aboard the Eleventy 3.0 Train&amp;quot;&lt;/a&gt;, about my process of upgrading Eleventy 2.0 to Eleventy 3.0 for this website in July 2024, I received an invitation that asked me if I wanted to speak at the next &lt;a href=&quot;https://11tymeetup.dev/&quot;&gt;Eleventy Meetup&lt;/a&gt; about migrating to Eleventy 3.0. This was a great surprise, since I was not even a professional developer yet at the time, and thus had not been a speaker at any tech event before.&lt;/p&gt;
+&lt;p&gt;That said, as I was already aspiring to become a web developer back then, I figured that speaking at a tech event would be a great opportunity in my developer journey, especially since it would be about Eleventy, which had become my favourite tool for building websites since I discovered it and &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;rebuilt my website with it in April 2024&lt;/a&gt;, so I gladly accepted the invitation to be a speaker at THE Eleventy Meetup. I did end up getting my first developer job in August as well.&lt;/p&gt;
+&lt;p&gt;Eventually, on September 10, &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Episode 19&lt;/a&gt; was announced to take place on September 26, 6:00 AM CDT. It was decided that this time, the meetup would be switching time zones for a time slot that is more Asia-Pacific-, Europe-, and Africa-friendly. Here in Malaysia, the meetup would be at 7 pm.&lt;/p&gt;
+&lt;p&gt;Thank you &lt;a href=&quot;https://sia.codes/&quot;&gt;Sia Karamalegos&lt;/a&gt; for organising Episode 19 of THE Eleventy Meetup. Thank you &lt;a href=&quot;https://estelafranco.com/&quot;&gt;Estela Franco&lt;/a&gt; for your talk about and presentation of &lt;a href=&quot;https://www.youtube.com/watch?v=G3Pz1AH6SCY&quot;&gt;using Storyblok to build an Eleventy blog site&lt;/a&gt;. Thank you to everyone who attended the meetup. Thank you everyone who has left supportive and encouraging messages for my talk in the chat.&lt;/p&gt;
+&lt;p&gt;You can watch my talk, &amp;quot;Eleventy Journey From 2.0 to 3.0&amp;quot;, at THE Eleventy Meetup Episode 19 at THE Eleventy Meetup&#39;s YouTube channel:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qgFNl_oAyQY&quot;&gt;https://www.youtube.com/watch?v=qgFNl_oAyQY&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Scheduled: Speaking at THE Eleventy Meetup Episode 19</title>
@@ -200,6 +215,11 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/#conclusion&quot; aria-labelledby=&quot;conclusion&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;My website&#39;s transition to an Eleventy 3.0 site is a success, and I could not be happier with my decision to make the upgrade. If you like Eleventy, I highly recommend giving 3.0 a try.&lt;/p&gt;
 &lt;p&gt;Hello, Eleventy 3.0! 👋&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;update-27-september-2024-the-eleventy-meetup-episode-19&quot;&gt;Update, 27 September 2024: THE Eleventy Meetup Episode 19&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/#update-27-september-2024-the-eleventy-meetup-episode-19&quot; aria-labelledby=&quot;update-27-september-2024-the-eleventy-meetup-episode-19&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Episode 19&lt;/a&gt; on 26 September 2024, by giving a talk based on this blog post! You can watch my talk at THE Eleventy Meetup&#39;s YouTube Channel.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qgFNl_oAyQY&quot;&gt;https://www.youtube.com/watch?v=qgFNl_oAyQY&lt;/a&gt;&lt;/p&gt;
 </content>
         </entry>
         
@@ -364,18 +384,6 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;After submitting CS50 Flask Blog as my final project, I successfully claimed my CS50x certificate! You can also &lt;a href=&quot;https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367&quot;&gt;view the PDF version of my CS50x certificate&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://helenchong.dev/assets/images/posts/cs50x-course-completed/CS50x-certificate.avif&quot; alt=&quot;Helen Chong&#39;s CS50x certificate&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Taking the CS50x course had been a great opportunity for me to learn about computer science, how to learn different programming languages and practice problem-solving skills with its problem sets. I am continuing to focus on front-end web development, but I hope I could carry what I learned from CS50x in my developer journey.&lt;/p&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Now Page for My Website</title>
-            <link href="https://helenchong.dev/blog/posts/2024-04-22-now-page-for-my-website/"/>
-            <updated>2024-04-22T09:11:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-04-22-now-page-for-my-website/</id>
-            <content type="html">&lt;p&gt;On 21 April 2024, I have added a &lt;a href=&quot;https://helenchong.dev/now&quot;&gt;now page&lt;/a&gt; to this website.&lt;/p&gt;
-&lt;p&gt;The idea of adding a &amp;quot;now page&amp;quot; was inspired by the website &lt;a href=&quot;https://nownownow.com/&quot;&gt;nownownow.com&lt;/a&gt;, which &lt;a href=&quot;https://nownownow.com/about&quot;&gt;defines&lt;/a&gt; a now page as a page that tells you what this person is focused on at this point in their life. In addition, I also have &lt;a href=&quot;https://nownownow.com/p/D9En&quot;&gt;my own profile on nownownow.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As an aspiring web developer, a now page on my developer portfolio website serves as a means to inform the public about my current priorities and projects.&lt;/p&gt;
-&lt;p&gt;My /now page can be updated at any time, so feel free to check the page out when you visit this website!&lt;/p&gt;
 </content>
         </entry>
 </feed>
