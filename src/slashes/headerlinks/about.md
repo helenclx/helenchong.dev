@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Greetings! I am Helen Chong (they/she), a web developer from Malaysia. Previously, I had worked for 8 years as a graphic designer. Now I decided to transfer my creativity and problem-solving skills into building the web, with a focus on accessible design, progressive enhancement and web performance to improve user experience.
 
-## History
+## My History
 
 I have been interested in computers and the internet, as well as learning how to use them since I was a child. Later as a teenager, I learned about the existence of blogs, and began blogging as a hobby, which led me to learn HTML and CSS to customise blog themes and widgets. I was already fascinated by web design, however I was unaware if web design could be a viable career path at the time, so I used my interest in design to pursue an education and later career in graphic design.
 
@@ -21,13 +21,21 @@ After nearly two years of teaching myself to code without a computer science deg
 
 If you are looking for my professional history, you can [check out my résumé]({{sitemeta.siteUrl}}/resume).
 
+## About This Website
+
+This website serves as both my developer portfolio and blog. WHile this site is presented to be suitable for professional purposes, I also want to give my site personal touches through my design and writing.
+
+Technical information about this website can be found on [my colophon page](/colophon).
+
 ## Interests
 
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
 
-## Now
+## Currently
 
-You can learn about what I am up to at the moment from [my now page](https://helenchong.omg.lol/now).
+I am currently working as an in-house full-stack WordPress developer for a local traditional Chinese medicine healthcare company.
+
+You can also learn about what I doing to at the moment from [my now page](https://helenchong.omg.lol/now).
 
 ## Tip Jar
 
