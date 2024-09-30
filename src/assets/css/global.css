@@ -39,7 +39,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --clr-body-bg: #0e0e0e;
+        --clr-body-bg: #121212;
         --clr-txt-default: #fff;
 
         --clr-slate-300: #f8f8f8;
