@@ -21,14 +21,6 @@ After nearly two years of teaching myself to code without a computer science deg
 
 If you are looking for my professional history, you can [check out my résumé]({{sitemeta.siteUrl}}/resume).
 
-## My Certificates
-
-* freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/certification/helenclx/responsive-web-design)
-* freeCodeCamp's [JavaScript Algorithms and Data Structures (Beta) Certification](https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures-v8)
-* freeCodeCamp's [Legacy JavaScript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/helenclx/javascript-algorithms-and-data-structures)
-* Chingu Voyage #46 [Certificate of Completion](/assets/documents/Chingu-Voyage46-Completion-Cert.pdf) (PDF file)
-* [CS50’s Introduction to Computer Science 2024](https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367) certificate (PDF file)
-
 ## Interests
 
 In addition to coding and programming, I enjoy gaming, reading, drawing and crocheting.
