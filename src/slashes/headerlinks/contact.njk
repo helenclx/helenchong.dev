@@ -10,11 +10,12 @@ eleventyNavigation:
 
 <p>You can also contact me by pinging me or sending me a private mention on Mastodon at <a href="https://tech.lgbt/@helenclx">@helenclx@tech.lgbt</a>.</p>
 
+{% set letterbirdUser = "helenchongdev" %}
 <section class="contact">
-    <script data-letterbirduser="helenchongdev" src="https://letterbird.co/embed/v1.js"></script>
+    <script data-letterbirduser="{{ letterbirdUser }}" src="https://letterbird.co/embed/v1.js"></script>
     <noscript>
         <h3>You Have Disabled JavaScript</h3>
-        <p>Looks like you have disabled JavaScript, preventing this contact form from being displayed on this page. You may visit <a href="https://letterbird.co/helenchongdev">my Letterbird contact form page</a> to reach out to me.</p>
+        <p>Looks like you have disabled JavaScript, preventing this contact form from being displayed on this page. You may visit <a href="https://letterbird.co/{{ letterbirdUser }}">my Letterbird contact form page</a> to reach out to me.</p>
     </noscript>
 </section>
 
