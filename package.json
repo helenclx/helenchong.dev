@@ -1,5 +1,10 @@
 {
   "name": "helenchong.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helenclx/helenchong.dev.git"
+  },
+  "author": "Helen Chong",
   "scripts": {
     "start": "bunx eleventy --serve --quiet",
     "build": "bunx eleventy",
