@@ -1,10 +1,11 @@
 {
   "name": "helenchong.dev",
+  "description": "Helen Chong's developer portfolio and blog website.",
+  "author": "Helen Chong",
   "repository": {
     "type": "git",
     "url": "https://github.com/helenclx/helenchong.dev.git"
   },
-  "author": "Helen Chong",
   "scripts": {
     "start": "bunx eleventy --serve --quiet",
     "build": "bunx eleventy",
