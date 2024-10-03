@@ -1,5 +1,0 @@
-{
-    "tags": "pages",
-    "layout": "global/content",
-    "permalink": "/{{ page.fileSlug }}/"
-}
