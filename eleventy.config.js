@@ -1,5 +1,5 @@
 // Installed Plugins
-import pluginRss from "@11ty/eleventy-plugin-rss";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginMetagen from "eleventy-plugin-metagen";
@@ -12,9 +12,29 @@ import collectionsConfig from "./src/_config/collections.js";
 import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
+// Sitemeta
+import {  } from "./src/_data/sitemeta.js";
+
 export default function(eleventyConfig) {
     // Installed Plugins
-    eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom",
+		outputPath: "/blog/feed.xml",
+		collection: {
+			name: "posts",
+			limit: 10,
+		},
+		metadata: {
+			language: "en",
+			title: "Helen Chong's Developer Blog",
+			subtitle: "Helen Chong talks about tech, coding and development.",
+			base: "https://helenchong.dev/blog/",
+			author: {
+				name: "Helen Chong",
+				email: "contact@helenchong.dev",
+			}
+		}
+	});
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(pluginMetagen);
