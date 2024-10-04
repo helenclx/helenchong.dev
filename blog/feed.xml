@@ -1,50 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Helen Chong's Developer Blog</title>
-    <subtitle>Helen Chong talks about tech, coding and development</subtitle>
-    <link href="https://helenchong.dev/blog/feed.xml" rel="self"/>
-    <link href="https://helenchong.dev/blog"/>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Helen Chong&#39;s Developer Blog</title>
+  <subtitle>Helen Chong talks about tech, coding and development.</subtitle>
+  <link href="https://helenchong.dev/blog/feed.xml" rel="self" />
+  <link href="https://helenchong.dev/blog/" />
+  <updated>2024-09-27T03:47:53Z</updated>
+  <id>https://helenchong.dev/blog/</id>
+  <author>
+    <name>Helen Chong</name>
+    <email>contact@helenchong.dev</email>
+  </author>
+  <entry>
+    <title>THE Eleventy Meetup Episode 19: My First Talk at a Tech Event</title>
+    <link href="https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/" />
     <updated>2024-09-27T03:47:53Z</updated>
-    <id>https://helenchong.dev/blog</id>
-    <author>
-        <name>Helen Chong</name>
-        <email>contact@helenchong.dev</email>
-    </author>
-        
-        <entry>
-            <title>THE Eleventy Meetup Episode 19: My First Talk at a Tech Event</title>
-            <link href="https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/"/>
-            <updated>2024-09-27T03:47:53Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/</id>
-            <content type="html">&lt;p&gt;On 26 September 2024, I gave my first talk at a tech event at Episode 19 of THE Eleventy Meetup!&lt;/p&gt;
+    <id>https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/</id>
+    <content type="html">&lt;p&gt;On 26 September 2024, I gave my first talk at a tech event at Episode 19 of THE Eleventy Meetup!&lt;/p&gt;
 &lt;p&gt;After I published a blog post, &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/&quot;&gt;&amp;quot;Aboard the Eleventy 3.0 Train&amp;quot;&lt;/a&gt;, about my process of upgrading Eleventy 2.0 to Eleventy 3.0 for this website in July 2024, I received an invitation that asked me if I wanted to speak at the next &lt;a href=&quot;https://11tymeetup.dev/&quot;&gt;Eleventy Meetup&lt;/a&gt; about migrating to Eleventy 3.0. This was a great surprise, since I was not even a professional developer yet at the time, and thus had not been a speaker at any tech event before.&lt;/p&gt;
 &lt;p&gt;That said, as I was already aspiring to become a web developer back then, I figured that speaking at a tech event would be a great opportunity in my developer journey, especially since it would be about Eleventy, which had become my favourite tool for building websites since I discovered it and &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;rebuilt my website with it in April 2024&lt;/a&gt;, so I gladly accepted the invitation to be a speaker at THE Eleventy Meetup. I did end up getting my first developer job in August as well.&lt;/p&gt;
 &lt;p&gt;Eventually, on September 10, &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Episode 19&lt;/a&gt; was announced to take place on September 26, 6:00 AM CDT. It was decided that this time, the meetup would be switching time zones for a time slot that is more Asia-Pacific-, Europe-, and Africa-friendly. Here in Malaysia, the meetup would be at 7 pm.&lt;/p&gt;
 &lt;p&gt;Thank you &lt;a href=&quot;https://sia.codes/&quot;&gt;Sia Karamalegos&lt;/a&gt; for organising Episode 19 of THE Eleventy Meetup. Thank you &lt;a href=&quot;https://estelafranco.com/&quot;&gt;Estela Franco&lt;/a&gt; for your talk about and presentation of &lt;a href=&quot;https://www.youtube.com/watch?v=G3Pz1AH6SCY&quot;&gt;using Storyblok to build an Eleventy blog site&lt;/a&gt;. Thank you to everyone who attended the meetup. Thank you everyone who has left supportive and encouraging messages for my talk in the chat.&lt;/p&gt;
 &lt;p&gt;You can watch my talk, &amp;quot;Eleventy Journey From 2.0 to 3.0&amp;quot;, at THE Eleventy Meetup Episode 19 at THE Eleventy Meetup&#39;s YouTube channel:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qgFNl_oAyQY&quot;&gt;https://www.youtube.com/watch?v=qgFNl_oAyQY&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&quot;qgFNl_oAyQY&quot; class=&quot;eleventy-plugin-youtube-embed&quot; style=&quot;position:relative;width:100%;padding-top: 56.25%;&quot;&gt;&lt;iframe style=&quot;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; title=&quot;Embedded YouTube video&quot; src=&quot;https://www.youtube-nocookie.com/embed/qgFNl_oAyQY&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Scheduled: Speaking at THE Eleventy Meetup Episode 19</title>
-            <link href="https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/"/>
-            <updated>2024-09-10T15:35:17Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/</id>
-            <content type="html">&lt;p&gt;I am pleased to announce that I have been invited to speak at Episode 19 of &lt;a href=&quot;https://11tymeetup.dev/&quot;&gt;THE Eleventy Meetup&lt;/a&gt;!&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Scheduled: Speaking at THE Eleventy Meetup Episode 19</title>
+    <link href="https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/" />
+    <updated>2024-09-10T15:35:17Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/</id>
+    <content type="html">&lt;p&gt;I am pleased to announce that I have been invited to speak at Episode 19 of &lt;a href=&quot;https://11tymeetup.dev/&quot;&gt;THE Eleventy Meetup&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;This will also be my first time speaking at a tech event, another major milestone since I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job&quot;&gt;got my first developer job in August 2024&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Episode 19 of THE Eleventy Meetup is scheduled to be held on 26 September 2024, 7pm Malaysia Time. My talk, titled &amp;quot;Eleventy Journey From 2.0 to 3.0&amp;quot;, will be about my experience with using Eleventy, including the decision and process of upgrading to Eleventy 3.0.&lt;/p&gt;
 &lt;p&gt;I have been using Eleventy since &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy&quot;&gt;April 2024&lt;/a&gt;, and loving it and its wonderful community, so I am immensely grateful that my first time speaking at a tech event will be dedicated to Eleventy.&lt;/p&gt;
 &lt;p&gt;You can find more details about &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Ep. 19: Migrating to 3.0 and Blogging with Storyblok&lt;/a&gt; on THE Eleventy Meetup website. See you there!&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Got My First Developer Job</title>
-            <link href="https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/"/>
-            <updated>2024-08-16T12:35:51Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/</id>
-            <content type="html">&lt;p&gt;After working as a graphic designer for 8 years, and later taking online courses to learn to code for nearly two years without a computer science degree, I finally got my first developer job!&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Got My First Developer Job</title>
+    <link href="https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/" />
+    <updated>2024-08-16T12:35:51Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/</id>
+    <content type="html">&lt;p&gt;After working as a graphic designer for 8 years, and later taking online courses to learn to code for nearly two years without a computer science degree, I finally got my first developer job!&lt;/p&gt;
 &lt;p&gt;Starting from 16 August 2024, I am working for a local traditional Chinese medicine (TCM) healthcare company, with my role involves web development, UX design and graphic design. My official position in the company is marketing assistant, but if you were to ask me what my job is, I would describe myself as a developer and designer instead.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;how-i-got-the-job&quot;&gt;How I Got the Job&lt;/h2&gt;
@@ -65,14 +62,13 @@
 &lt;p&gt;I am happy to be able to switch my career path to web development despite not having a computer science degree, and that my prior working experience as a graphic designer helped with getting this new job opportunity.&lt;/p&gt;
 &lt;p&gt;Since I began to seriously consider pursuing web development as a profession, I have been introducing myself as a graphic designer turned aspiring web developer, on this website and my other online presence, because I hoped to transfer my creativity and design expertise into building the web. I am glad that my such aspirations have come true.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Migrating My Website to Hostinger</title>
-            <link href="https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/"/>
-            <updated>2024-07-31T01:31:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/</id>
-            <content type="html">&lt;p&gt;Starting from 30 July 2024, helenchong.dev, my developer portfolio and blog website, has migrated from GitHub Pages to Hostinger as its web host.&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Migrating My Website to Hostinger</title>
+    <link href="https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/" />
+    <updated>2024-07-31T01:31:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/</id>
+    <content type="html">&lt;p&gt;Starting from 30 July 2024, helenchong.dev, my developer portfolio and blog website, has migrated from GitHub Pages to Hostinger as its web host.&lt;/p&gt;
 &lt;p&gt;This website was hosted on GitHub Pages since its creation, and has come a long way since its launch in February 2023, from &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-08-21-Welcome-to-Helen-Codes/&quot;&gt;adding a blog&lt;/a&gt;, &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;being rebuilt with Eleventy&lt;/a&gt; to &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/&quot;&gt;getting its own domain name&lt;/a&gt;. This website started out as a standard developer portfolio, but as I grew as an aspiring web developer, so did my website.&lt;/p&gt;
 &lt;p&gt;Therefore, I decided that it was time to take my website to another level to allow both my website and myself as a developer more room to grow, starting with migrating from GitHub Pages.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
@@ -131,14 +127,13 @@
 &lt;p&gt;I am glad to have made the decision to move hosts for this website. By migrating my developer portfolio and blog website to Hostinger, I felt like opening up new opportunities for my website to grow, and for myself to keep learning as a web developer.&lt;/p&gt;
 &lt;p&gt;As of this writing, I had created a &lt;code&gt;.htaccess&lt;/code&gt; for my website to set a custom 404 page, configure the cache policy of this website&#39;s static assets, and remove &lt;code&gt;.html&lt;/code&gt; file extension from website addresses. I am looking forward to exploring this new web hosting experience more.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Responsive Disability Pride Flag CSS Background</title>
-            <link href="https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/"/>
-            <updated>2024-07-23T12:35:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/</id>
-            <content type="html">&lt;div class=&quot;disability-pride-flag demo&quot; role=&quot;img&quot; aria-label=&quot;Demo of the Disability Pride flag coded in CSS&quot;&gt;&lt;/div&gt;
+  </entry>
+  <entry>
+    <title>Responsive Disability Pride Flag CSS Background</title>
+    <link href="https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/" />
+    <updated>2024-07-23T12:35:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/</id>
+    <content type="html">&lt;div class=&quot;disability-pride-flag demo&quot; role=&quot;img&quot; aria-label=&quot;Demo of the Disability Pride flag coded in CSS&quot;&gt;&lt;/div&gt;
 &lt;p&gt;Happy &lt;a href=&quot;https://www.weareincludability.co.uk/resources/what-is-disability-pride-month&quot;&gt;Disability Pride Month&lt;/a&gt;! To celebrate the occasion, I did a small project: a responsive Disability Pride Flag CSS background! For those who do not know, this &lt;a href=&quot;https://www.womansday.com/life/a43964487/disability-pride-flag/&quot;&gt;Disability Pride Flag&lt;/a&gt; was created by &lt;a href=&quot;https://capri0mni.dreamwidth.org/837596.html&quot;&gt;Ann Magill&lt;/a&gt; and released in 2021.&lt;/p&gt;
 &lt;p&gt;Here is the CSS snippet for a responsive Disability Pride Flag background:&lt;/p&gt;
 &lt;pre class=&quot;language-css&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.disability-pride-flag&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -153,14 +148,13 @@
 &lt;p&gt;To code the Disability Pride Flag in CSS and make it responsive, I first downloaded an &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Visually_Safe_Disability_Pride_Flag.svg&quot;&gt;SVG file of the Disability Pride Flag&lt;/a&gt; from Wikimedia Commons, then modified the stripes in Adobe Illustrator CS5 (the only version of Adobe Illustrator I actually own) to allow the entire stripes to be shown in wide backgrounds, instead of appearing to be cut off mid-way. After finishing the edit in Illustrator, I saved the SVG file, opened it in Visual Studio Code to obtain the SVG code, used Jake Archibald&#39;s &lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt; to optimise the SVG code, then encode it into CSS-ready code by using &lt;a href=&quot;https://yoksel.github.io/url-encoder/&quot;&gt;Yoksel&#39;s URL-encoder for SVG&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Since Ann Magill released the Disability Pride Flag to the public domain under &lt;a href=&quot;https://creativecommons.org/publicdomain/zero/1.0/&quot;&gt;CC0 1.0 Universal&lt;/a&gt;, I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Aboard the Eleventy 3.0 Train</title>
-            <link href="https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/"/>
-            <updated>2024-07-19T07:31:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/</id>
-            <content type="html">&lt;p&gt;On 9 April 2024, I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;rebuilt this developer portfolio and blog website of mine&lt;/a&gt; with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Aboard the Eleventy 3.0 Train</title>
+    <link href="https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/" />
+    <updated>2024-07-19T07:31:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/</id>
+    <content type="html">&lt;p&gt;On 9 April 2024, I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;rebuilt this developer portfolio and blog website of mine&lt;/a&gt; with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳&lt;/p&gt;
 &lt;p&gt;Version 3.0 of Eleventy is still in alpha, but as I have been following Eleventy&#39;s development and community after starting to use it, and learning about other Eleventy users upgrading to version 3.0, I began to consider hopping on the Eleventy 3.0 train. Now that I have done it, I guess I am one of Eleventy&#39;s &amp;quot;courageous canary testers&amp;quot;, &lt;a href=&quot;https://www.11ty.dev/blog/canary-eleventy-v3/&quot;&gt;as the official Eleventy blog put it&lt;/a&gt;, haha. 😆&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;why-upgrading-to-30&quot;&gt;Why Upgrading to 3.0&lt;/h2&gt;
@@ -219,16 +213,15 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;h2 id=&quot;update-27-september-2024-the-eleventy-meetup-episode-19&quot;&gt;Update, 27 September 2024: THE Eleventy Meetup Episode 19&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-07-19-eleventy-3-0-upgrade/#update-27-september-2024-the-eleventy-meetup-episode-19&quot; aria-labelledby=&quot;update-27-september-2024-the-eleventy-meetup-episode-19&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I was invited to speak at &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Episode 19&lt;/a&gt; on 26 September 2024, by giving a talk based on this blog post! You can watch my talk at THE Eleventy Meetup&#39;s YouTube Channel.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qgFNl_oAyQY&quot;&gt;https://www.youtube.com/watch?v=qgFNl_oAyQY&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&quot;qgFNl_oAyQY&quot; class=&quot;eleventy-plugin-youtube-embed&quot; style=&quot;position:relative;width:100%;padding-top: 56.25%;&quot;&gt;&lt;iframe style=&quot;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; title=&quot;Embedded YouTube video&quot; src=&quot;https://www.youtube-nocookie.com/embed/qgFNl_oAyQY&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Dipping My Toes in PHP for My Hobby Project</title>
-            <link href="https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/"/>
-            <updated>2024-07-08T05:21:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/</id>
-            <content type="html">&lt;p&gt;Hobbies are a great motivator to learn new things, and web development is no exception. I had dabbled in HTML and CSS since my teenage years, but it was not until December 2022 when I decided to take online web development courses, and then aspire to become a web developer.&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Dipping My Toes in PHP for My Hobby Project</title>
+    <link href="https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/" />
+    <updated>2024-07-08T05:21:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/</id>
+    <content type="html">&lt;p&gt;Hobbies are a great motivator to learn new things, and web development is no exception. I had dabbled in HTML and CSS since my teenage years, but it was not until December 2022 when I decided to take online web development courses, and then aspire to become a web developer.&lt;/p&gt;
 &lt;p&gt;Recently, I took a particular interest in fanlistings. For those who are unfamiliar with it, a fanlisting is an online listing of fans for a particular subject open for fans around the world to join. I find fanlistings a neat concept to gather and discover other people who share your interests. You can find fanlistings through &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Fanlistings Network&lt;/a&gt; and &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Anime Fanlistings Network&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As an aspiring web developer, I became curious about how a fanlisting is built, and even wondering if I could do it myself. After some searching, I discovered the two most used fanlisting scripts are &lt;a href=&quot;https://scripts.indisguise.org/enthusiast/&quot;&gt;Enthusiast&lt;/a&gt; and &lt;a href=&quot;https://www.jemjabella.co.uk/scripts/bellabuffs/&quot;&gt;BellaBuffs&lt;/a&gt;, both written in PHP. My focus has been on front end web development, so studying how fanlistings are built was my first foray in learning to code in PHP.&lt;/p&gt;
 &lt;p&gt;In order to learn to code web pages in PHP, I installed PHP in my computer, and registered an account on &lt;a href=&quot;https://www.infinityfree.com/&quot;&gt;InfinityFree&lt;/a&gt;, one of the few hosting servers that provide PHP and MySQL support for free.&lt;/p&gt;
@@ -242,14 +235,13 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;I decided to fork BellaBuffs and release my version of the fanlisting script with PHPMailer integration, in case there are others who want to use BellaBuffs to build fanlistings, but cannot or do not want to use the PHP &lt;code&gt;mail()&lt;/code&gt; function.&lt;/p&gt;
 &lt;p&gt;You can download my BellaBuffs fork and learn about how to use it from &lt;a href=&quot;https://github.com/helenclx/BellaBuffs-PHPMailer&quot;&gt;its GitHub repository&lt;/a&gt;.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Finally Deployed My Scrimba React Solo Projects to GitHub Pages</title>
-            <link href="https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/"/>
-            <updated>2024-06-03T03:01:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/</id>
-            <content type="html">&lt;p&gt;I had completed &lt;a href=&quot;https://scrimba.com/learn/learnreact&quot;&gt;Scrimba&#39;s Learn React course&lt;/a&gt; and its solo projects back in July 2023, even before &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won&quot;&gt;winning a one-year Scrimba Pro plan from JavaScriptmas 2023&lt;/a&gt; for free, since the course, including the instructions and Figma files for the solo projects, is also available on freeCodeCamp&#39;s YouTube channel.&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Finally Deployed My Scrimba React Solo Projects to GitHub Pages</title>
+    <link href="https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/" />
+    <updated>2024-06-03T03:01:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/</id>
+    <content type="html">&lt;p&gt;I had completed &lt;a href=&quot;https://scrimba.com/learn/learnreact&quot;&gt;Scrimba&#39;s Learn React course&lt;/a&gt; and its solo projects back in July 2023, even before &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won&quot;&gt;winning a one-year Scrimba Pro plan from JavaScriptmas 2023&lt;/a&gt; for free, since the course, including the instructions and Figma files for the solo projects, is also available on freeCodeCamp&#39;s YouTube channel.&lt;/p&gt;
 &lt;p&gt;However, I always struggled to figure out how to deploy React project from a GitHub repository&#39;s subfolders or subdirectories, and frustrated by the lack of guides for that. Scrimba&#39;s course does teach about using GitHub, but they often recommend deploying projects from their course to Netlify by doing it manually on &lt;a href=&quot;https://app.netlify.com/drop&quot;&gt;Netlify Drop&lt;/a&gt;. To be fair, Netlify Drop is great for beginner developers, especially when they are new to source control such as Git. However, when I finished Scirmba&#39;s Learn React course, I already had a handful of projects deployed to GitHub Pages. Later, I even managed to deploy my React Tenzies Game, which was based on the tutorial from the Learn React course, to GitHub Pages by creating a &lt;a href=&quot;https://github.com/helenclx/Tenzies-Game&quot;&gt;dedicated repository for my Tenzies Game&lt;/a&gt; and searching for a guide for how to deploy a React project to GitHub Pages.&lt;/p&gt;
 &lt;p&gt;Unfortunately, I could not find any guide for how to deploy React projects from multiple subfolders or subdirectories of a repository, and I did not have enough experience with using GitHub actions to feel comfortable trying to figure it out myself, so I had to manually deploy my Scrimba React solo projects to Netlify by using Netlify Drop, which I do not find ideal because I had to repeat the process every time I made a change to those projects.&lt;/p&gt;
 &lt;p&gt;Lately, as I have been busy with maintaining and improving my projects hosted on GitHub, I suddenly thought of trying to search for ways to deploy React projects to GitHub Pages from the repository&#39;s subdirectories again. That was when I, at long last, found a guide that helped me to solve my months-long dilemma once and for all: &lt;a href=&quot;https://dev.to/devloker/deploy-a-react-projects-that-are-inside-a-subdirectories-to-github-pages-using-github-actions-cicd-3n9l&quot;&gt;&amp;quot;Deploy a react projects that are inside a subdirectories to GitHub Pages using GitHub Actions (CI/CD)&amp;quot; by DEVLOKER&lt;/a&gt;. It is worth noting that the guide was posted only recently on 11 April 2024. The guide also uses Vite for React projects, which was perfect for me since Vite is also what I use to create React projects, including the ones from Scrimba courses. The guide&#39;s Vite configuration file is in TypeScript format (&lt;code&gt;vite.config.ts&lt;/code&gt;), but it totally works with JavaScript format (&lt;code&gt;vite.config.js&lt;/code&gt;) too.&lt;/p&gt;
@@ -324,7 +316,7 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;li&gt;&lt;a href=&quot;https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/&quot;&gt;Quizzical&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I was beyond relief to finally deployed my Scrimba React solo projects to GitHub Pages, so I decided to do a bit more by creating a HTML home page to list those solo projects when the main link of the deployed repository, &lt;a href=&quot;https://helenclx.github.io/Scrimba-React-Solo-Projects/&quot;&gt;https://helenclx.github.io/Scrimba-React-Solo-Projects/&lt;/a&gt;, is visited.&lt;/p&gt;
-&lt;p&gt;I do not need a fancy home page for my deployed Scrimba React solo projects, so I based the home page&#39;s CSS on the &lt;a href=&quot;https://smolcss.dev/#smol-document-styles&quot;&gt;Smol Document Styles by SmolCSS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I do not need a fancy home page for my deployed Scrimba React solo projects, so I based the home page&#39;s CSS on the &lt;a href=&quot;https://SmolCSS.dev/#smol-document-styles&quot;&gt;Smol Document Styles by SmolCSS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;After finished creating the HTML and CSS of the home page, I wrote an extra step in the YAML file of my GitHub actions to deploy my React solo projects to GitHub Pages, after building each project and before setting up GitHub Pages.&lt;/p&gt;
 &lt;pre class=&quot;language-yaml&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# index page and assets&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy index page and assets
@@ -338,14 +330,13 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;Here is the final code of my GitHub action TAML file to deploy my Scrimba React solo projects in &lt;a href=&quot;https://github.com/helenclx/Scrimba-React-Solo-Projects/blob/main/.github/workflows/gh-pages.yml&quot;&gt;my Scrimba React solo projects repository&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Now that I have successfully deployed my Scrimba React solo projects to GitHub Pages, I can finally delete those projects from Netlify and free up more monthly bandwidth for my other projects that I actually want to deploy to Netlify.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Custom Domain Name for My Developer Website</title>
-            <link href="https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/"/>
-            <updated>2024-05-29T15:18:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/</id>
-            <content type="html">&lt;p&gt;This website — my developer portfolio and blog website — now has a custom domain: &lt;a href=&quot;https://helenchong.dev/&quot;&gt;helenchong.dev&lt;/a&gt;!&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>Custom Domain Name for My Developer Website</title>
+    <link href="https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/" />
+    <updated>2024-05-29T15:18:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/</id>
+    <content type="html">&lt;p&gt;This website — my developer portfolio and blog website — now has a custom domain: &lt;a href=&quot;https://helenchong.dev/&quot;&gt;helenchong.dev&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;As an aspiring developer, I have been putting effort in building, updating and maintaining my portfolio website, and later starting a blog on this site as well to write about coding and tech. The only thing missing for my website is a custom domain name to give the site and myself a unique identity on the web, so I have been considering buying a custom domain name for this website.&lt;/p&gt;
 &lt;p&gt;After doing research and comparing various domain name registrars, I settled for Porkbun for their very competitive prices for domain names, and registered an account there. Through searching for available domain names by using my own name, I found out that helenchong.com has been taken, so I ended up purchasing helenchong.dev as my domain name, since the .dev top-level domain (TLD) name is intended for developers, and its renewal price on Porkbun is close to the .com TLD.&lt;/p&gt;
 &lt;p&gt;helenchong.dev is also the very first domain name I ever owned, so configuring DNS to point a domain name to my website was also a new experience. Fortunately, my developer website is hosted on GitHub Pages, thus I could refer to GitHub&#39;s documentation on &lt;a href=&quot;https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site&quot;&gt;configuring a custom domain name for a GitHub Pages site&lt;/a&gt; for how to do it.&lt;/p&gt;
@@ -354,17 +345,16 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;Another benefit of using a custom domain name for my GitHub user site is that all my other projects that are hosted on GitHub pages also share the same custom domain. For example, the live site of my &lt;a href=&quot;https://github.com/helenclx/Tenzies-Game&quot;&gt;React Tenzies Game&lt;/a&gt; can now be viewed at &lt;a href=&quot;https://helenchong.dev/Tenzies-Game/&quot;&gt;https://helenchong.dev/Tenzies-Game/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Welcome to helenchong.dev! 🥳&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>CS50x Course Completed</title>
-            <link href="https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/"/>
-            <updated>2024-05-27T13:47:00Z</updated>
-            <id>https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/</id>
-            <content type="html">&lt;p&gt;On 23 May 2024, at long last, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2024/&quot;&gt;CS50’s Introduction to Computer Science&lt;/a&gt;, also known as CS50x, course!&lt;/p&gt;
+  </entry>
+  <entry>
+    <title>CS50x Course Completed</title>
+    <link href="https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/" />
+    <updated>2024-05-27T13:47:00Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/</id>
+    <content type="html">&lt;p&gt;On 23 May 2024, at long last, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2024/&quot;&gt;CS50’s Introduction to Computer Science&lt;/a&gt;, also known as CS50x, course!&lt;/p&gt;
 &lt;p&gt;After finishing &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed&quot;&gt;Week 9 of CS50x&lt;/a&gt;, I began to brainstorm ideas for the &lt;a href=&quot;https://cs50.harvard.edu/x/2024/project/&quot;&gt;final project&lt;/a&gt;, in terms of both project type and which language or tech stack to build. Eventually, I chose to build a blogging application with Flask, SQL and Bootstrap, and name the project CS50 Flask Blog.&lt;/p&gt;
 &lt;p&gt;You can watch a demonstration of CS50 Flask Blog in this video:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eH8Tq57KzXs&quot;&gt;https://www.youtube.com/watch?v=eH8Tq57KzXs&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&quot;eH8Tq57KzXs&quot; class=&quot;eleventy-plugin-youtube-embed&quot; style=&quot;position:relative;width:100%;padding-top: 56.25%;&quot;&gt;&lt;iframe style=&quot;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; title=&quot;Embedded YouTube video&quot; src=&quot;https://www.youtube-nocookie.com/embed/eH8Tq57KzXs&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;p&gt;CS50 Flask Blog includes the following features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a user account with a password&lt;/li&gt;
@@ -382,8 +372,8 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;Per CS50x&#39;s instructions, after the process of writing the code and testing the project was done, I started writing a Read Me for CS50 Flask Blog, by introducing and describing the project and its features, explaining the file structure and the purposes of the files used in the project, listing development dependencies, as well as laying out the steps required to run the project locally.&lt;/p&gt;
 &lt;p&gt;For the demo video, which was required to submit the final project, I used Bandicam to record a demo video and Kdenlive to edit the video, which allowed me to practice video editing. I searched for a stock clip and a stock music on Pixabay to add flavour to my demo video.&lt;/p&gt;
 &lt;p&gt;After submitting CS50 Flask Blog as my final project, I successfully claimed my CS50x certificate! You can also &lt;a href=&quot;https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367&quot;&gt;view the PDF version of my CS50x certificate&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://helenchong.dev/assets/images/posts/cs50x-course-completed/CS50x-certificate.avif&quot; alt=&quot;Helen Chong&#39;s CS50x certificate&quot; loading=&quot;lazy&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://helenchong.dev/assets/images/posts/cs50x-course-completed/CS50x-certificate.avif&quot; alt=&quot;Helen Chong&#39;s CS50x certificate&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Taking the CS50x course had been a great opportunity for me to learn about computer science, how to learn different programming languages and practice problem-solving skills with its problem sets. I am continuing to focus on front-end web development, but I hope I could carry what I learned from CS50x in my developer journey.&lt;/p&gt;
 </content>
-        </entry>
+  </entry>
 </feed>
