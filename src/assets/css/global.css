@@ -18,6 +18,10 @@
     --clr-top-btn-bg: #4153b6;
     --clr-top-btn-txt: #fff;
 
+    --ff-regular: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    --ff-heading: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    --ff-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
     --fs-base: calc(16px + 0.19vw);
     --fs-h1: clamp(2.2rem, 1rem + 5vw, 2.65rem);
     --fs-h2: clamp(1.7rem, 1rem + 3vw, 2.3rem);
