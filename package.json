@@ -13,7 +13,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@types/bun": "^1.1.9"
+    "@types/bun": "^1.1.10"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
