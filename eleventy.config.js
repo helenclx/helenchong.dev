@@ -13,25 +13,25 @@ import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
 // Sitemeta
-import {  } from "./src/_data/sitemeta.js";
+import { siteLang, feedPath, siteAuthor, siteUrl } from "./src/_data/sitemeta.js";
 
 export default function(eleventyConfig) {
     // Installed Plugins
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
-		outputPath: "/blog/feed.xml",
+		outputPath: feedPath,
 		collection: {
 			name: "posts",
 			limit: 10,
 		},
 		metadata: {
-			language: "en",
-			title: "Helen Chong's Developer Blog",
-			subtitle: "Helen Chong talks about tech, coding and development.",
-			base: "https://helenchong.dev/blog/",
+			language: siteLang,
+			title: siteAuthor.name + "'s Developer Blog",
+			subtitle: siteAuthor.name + " talks about tech, coding and development.",
+			base: siteUrl + "/blog/",
 			author: {
-				name: "Helen Chong",
-				email: "contact@helenchong.dev",
+				name: siteAuthor.name,
+				email: siteAuthor.email,
 			}
 		}
 	});
