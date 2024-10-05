@@ -29,7 +29,5 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)/?$ /$1.php  [L]
 
 # Block bad bots
-{% for bot in robots.htaccess -%}
-RewriteCond %{HTTP_USER_AGENT} ({{ bot | replace(" ", ".*") }}) [NC{% if not loop.last %},OR{% endif %}]
-{% endfor -%}
+RewriteCond %{HTTP_USER_AGENT} ({{ robots.htaccess }}) [NC]
 RewriteRule .* https://nocommercialuse.org/ [L]

@@ -23,10 +23,10 @@ export default async function () {
 				line !== "User-agent: Applebot"
 			);
 		})
-		.map((line) => line.split(":")[1].trim());
+		.map((line) => line.split(":")[1].trim().replace(/\s/gi, ".*"));
 
 	return {
 		txt: txt,
-		htaccess: bots,
+		htaccess: bots.join('|'),
 	};
 }
