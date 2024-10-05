@@ -23,9 +23,9 @@ If you are looking for my professional history, you can [check out my résumé](
 
 ## About This Website
 
-This website serves as both my developer portfolio and blog. WHile this site is presented to be suitable for professional purposes, I also want to give my site personal touches through my design and writing.
+This is my developer website serving as both a portfolio and a blog. While this site is presented to be suitable for professional purposes, I also intent to give it personal touches through my design and writing.
 
-Technical information about this website can be found on [my colophon page](/colophon).
+Technical information about this website can be found on [its colophon page](/colophon).
 
 ## Interests
 
