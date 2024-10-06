@@ -22,7 +22,7 @@
     --ff-heading: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
     --ff-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
-    --fs-base: clamp(1.05rem, 1rem + 0.3096vi, 1.18rem);
+    --fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
     --fs-h1: clamp(2.2rem, 1rem + 5vi, 2.65rem);
     --fs-h2: clamp(1.7rem, 1rem + 3vi, 2.3rem);
     --fs-h3: clamp(1.7rem, 1rem + 3vi, 2rem);
