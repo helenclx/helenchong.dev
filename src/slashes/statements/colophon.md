@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-10-02T19:41:26+0800
+updated: 2024-10-06T18:31:07+0800
 ---
 
 How this website is built.
