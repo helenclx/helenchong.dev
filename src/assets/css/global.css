@@ -23,10 +23,10 @@
     --ff-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     --fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
-    --fs-h1: clamp(2.2rem, 1rem + 5vi, 2.65rem);
-    --fs-h2: clamp(1.7rem, 1rem + 3vi, 2.3rem);
-    --fs-h3: clamp(1.7rem, 1rem + 3vi, 2rem);
-    --fs-h4: clamp(1.6rem, 1rem + 3vi, 1.8rem);
+    --fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
+    --fs-h2: clamp(1.9rem, 1.786rem + 0.571vw, 2.3rem);
+    --fs-h3: clamp(1.7rem, 1.614rem + 0.429vw, 2rem);
+    --fs-h4: clamp(1.6rem, 1.543rem + 0.286vw, 1.8rem);
     --fs-main-txt: 1.12em;
     --fs-profile: 1.2em;
     --fs-bloglist-title: 1.2em;
