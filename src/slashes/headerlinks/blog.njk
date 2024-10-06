@@ -29,7 +29,7 @@ eleventyComputed:
                 {% endif %}
             </a>
         </h3>
-        <time datetime="{{ post.date }}" class="blog__post--time">{{ post.date | niceDate }}</time>
+        <time datetime="{{ post.date }}" class="blog__post--time">{{ post.date | formatDate }}</time>
         <p>{{ post.data.desc }}</p>
     </li>
 {% endfor %}

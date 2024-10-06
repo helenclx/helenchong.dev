@@ -2,7 +2,7 @@ import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
     // Format dates
-    eleventyConfig.addFilter("niceDate", (date) => {
+    eleventyConfig.addFilter("formatDate", (date) => {
         const dateFormat = "d LLLL yyyy";
         if (typeof date === "object") {
             return DateTime.fromJSDate(date).toFormat(dateFormat);
@@ -11,7 +11,7 @@ export default function(eleventyConfig) {
     });
 
     // Limit the number of items displayed
-    eleventyConfig.addFilter("limit", function(array, limit) {
+    eleventyConfig.addFilter("itemLimit", function(array, limit) {
         return array.slice(0, limit);
     });
 

@@ -4,4 +4,4 @@ layout: global/content
 
 {{ content | safe }}
 
-<p>(This {{ keyword }} was last updated on <time datetime="{{ updated }}">{{ updated | niceDate }}</time>)</p>
+<p>(This {{ keyword }} was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)</p>

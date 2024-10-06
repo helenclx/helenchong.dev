@@ -12,7 +12,7 @@ metadata:
     {# {% include "main/upcoming.njk" %} #}
     <section class="section--home grid-center">
         <h2 class="heading--home">Latest Blog Posts</h2>
-        {% set postList = collections.posts | reverse | limit(3) %}
+        {% set postList = collections.posts | reverse | itemLimit(3) %}
         {% include "blog/postslist.njk" %}
     </section>
     {% include "main/project-grid.njk" %}

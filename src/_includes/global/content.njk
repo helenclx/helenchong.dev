@@ -12,10 +12,10 @@ layout: global/base
             <p>{{ desc }}</p>
             <p>
                 <span class="text-bold">{{ content | wordcount | thousands }} words</span>.
-                <span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date | niceDate }}</time> by {{ sitemeta.siteAuthor.name }}
+                <span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
             </p>
             {% if updated %}
-                <p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated | niceDate }}</time></p>
+                <p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
             {% endif %}
             <p><span class="text-bold">Categories:</span>
                 {% for cat in categories %}
