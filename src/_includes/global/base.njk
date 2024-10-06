@@ -32,9 +32,9 @@
 
         {# JavaScript #}
         <script src="{% getBundleFileUrl 'js' %}" defer></script>
-    {% if toc %}
+        {% if toc %}
         <script src="/assets/js/details-utils.js" defer></script>
-    {% endif %}
+        {% endif %}
 
         <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>

@@ -8,27 +8,27 @@ layout: global/base
     <h1 class="heading--main">{{ pageTitle or title }}</h1>
 
     {% if tags and tags.includes("posts") %}
-        <div class="blog__post--info">
-            <p>{{ desc }}</p>
-            <p>
-                <span class="text-bold">{{ content | wordcount | thousands }} words</span>.
-                <span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
-            </p>
-            {% if updated %}
-                <p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
-            {% endif %}
-            <p><span class="text-bold">Categories:</span>
-                {% for cat in categories %}
-                    <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
-                {% endfor %}
-            </p>
-        </div>
+    <div class="blog__post--info">
+        <p>{{ desc }}</p>
+        <p>
+            <span class="text-bold">{{ content | wordcount | thousands }} words</span>.
+            <span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
+        </p>
+        {% if updated %}
+        <p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
+        {% endif %}
+        <p><span class="text-bold">Categories:</span>
+            {% for cat in categories %}
+                <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
+    </div>
     {% endif %}
 </header>
 
 <content-wrapper>
     {% if toc %}
-        {% include "global/toc.njk" %}
+    {% include "global/toc.njk" %}
     {% endif %}
 
     {% set contentEl = "article" if isArticle else "div" %}
@@ -36,33 +36,33 @@ layout: global/base
         {{ content | safe }}
 
     {% if tags and tags.includes("posts") %}
-        <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
-            <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
-            {%- if collections.posts %}
-                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-                {%- set nextPost = collections.posts | getNextCollectionItem %}
-                {%- if nextPost or previousPost %}
-                    <ul class="blog__post--nextprev">
-                    {%- if previousPost %}
-                        <li class="blog__post--prev">
-                            <p>Previous Post:</p>
-                            <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
-                        </li>
-                    {% endif %}
-                    {%- if nextPost %}
-                        <li class="blog__post--next">
-                            <p>Next Post:</p>
-                            <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-                        </li>
-                    {% endif %}
-                    </ul>
-                {%- endif %}
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+        {%- if collections.posts %}
+            {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+            {%- set nextPost = collections.posts | getNextCollectionItem %}
+            {%- if nextPost or previousPost %}
+            <ul class="blog__post--nextprev">
+                {%- if previousPost %}
+                <li class="blog__post--prev">
+                    <p>Previous Post:</p>
+                    <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+                </li>
+                {% endif %}
+                {%- if nextPost %}
+                <li class="blog__post--next">
+                    <p>Next Post:</p>
+                    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+                </li>
+                {% endif %}
+            </ul>
             {%- endif %}
-        </nav>
+        {%- endif %}
+    </nav>
     {% endif %}
     </{{contentEl}}>
 
     {% if tags and tags.includes("blog pages") %}
-        {% include "blog/blognav.njk" %}
+    {% include "blog/blognav.njk" %}
     {% endif %}
 </content-wrapper>
