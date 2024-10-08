@@ -2,7 +2,6 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import pluginMetagen from "eleventy-plugin-metagen";
 import pluginWordcount from "eleventy-plugin-wordcount-extended";
 
 // Custom configurations
@@ -37,7 +36,6 @@ export default function(eleventyConfig) {
 	});
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
-    eleventyConfig.addPlugin(pluginMetagen);
     eleventyConfig.addPlugin(pluginWordcount);
 
     // Custom configurations

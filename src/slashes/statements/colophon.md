@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-10-06T18:31:07+0800
+updated: 2024-10-09T02:19:09+0800
 ---
 
 How this website is built.
@@ -28,7 +28,6 @@ Previously, this website was hosted on GitHub Pages until 30 July 2024.
 * [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
-* [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
 * [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 * [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
