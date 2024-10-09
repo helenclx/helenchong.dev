@@ -36,9 +36,9 @@ layout: global/base
         {{ content | safe }}
 
     {% if tags and tags.includes("posts") %}
+    {%- if collections.posts.length > 1 %}
     <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
         <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
-        {%- if collections.posts %}
             {%- set previousPost = collections.posts | getPreviousCollectionItem %}
             {%- set nextPost = collections.posts | getNextCollectionItem %}
             {%- if nextPost or previousPost %}
@@ -57,8 +57,8 @@ layout: global/base
                 {% endif %}
             </ul>
             {%- endif %}
-        {%- endif %}
-    </nav>
+        </nav>
+    {%- endif %}
     {% endif %}
     </{{contentEl}}>
 
