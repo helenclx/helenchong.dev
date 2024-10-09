@@ -9,6 +9,7 @@
     gap: 0.3em;
     font-size: var(--fs-main-txt);
 }
+.blog__post--desc { margin-bottom: 1em; }
 
 .blog__post--pagination {
     padding-top: 0.8em;
