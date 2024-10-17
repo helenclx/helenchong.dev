@@ -22,18 +22,6 @@ export default function(eleventyConfig) {
     });
     eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
 
-    // Configure slug filter
-    eleventyConfig.addFilter("slug", (str) => {
-        if (!str) {
-            return;
-        }
-
-        return slugify(str, {
-            lower: true,
-            remove: /["]/g,
-        });
-    });
-
     // Configure markdown-it-anchor plugins
     eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
