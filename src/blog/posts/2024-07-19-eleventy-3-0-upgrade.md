@@ -8,7 +8,7 @@ categories: ["about this website", "eleventy", "javascript"]
 toc: true
 ---
 
-On 9 April 2024, I [rebuilt this developer portfolio and blog website of mine](/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/) with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳
+On 9 April 2024, I [rebuilt this developer portfolio and blog website of mine](2024-04-11-rebuilding-my-developer-portfolio-with-eleventy.md) with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳
 
 Version 3.0 of Eleventy is still in alpha, but as I have been following Eleventy's development and community after starting to use it, and learning about other Eleventy users upgrading to version 3.0, I began to consider hopping on the Eleventy 3.0 train. Now that I have done it, I guess I am one of Eleventy's "courageous canary testers", [as the official Eleventy blog put it](https://www.11ty.dev/blog/canary-eleventy-v3/), haha. 😆
 

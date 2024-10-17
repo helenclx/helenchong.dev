@@ -32,4 +32,4 @@ The free tier of Tasty API has a limited quota of how much response we can fetch
 
 Chingu Voyage was a big help to me for gaining practical experience in working on group projects, and learning both hard and soft skills. Particupating in the Chingu Voyage allowed me to practice not only my HTML, CSS and JavaScript skills, but also my teamwork and communication skills that are needed in group projects.
 
-You can read more about my completion of Chingu Voyage 46 from my blog post: [Chingu Voyage 46 Completed](/blog/posts/2023-11-25-Chingu-Voyage-46-Completed/).
+You can read more about my completion of Chingu Voyage 46 from my blog post: [Chingu Voyage 46 Completed](../blog/posts/2023-11-25-Chingu-Voyage-46-Completed.md).

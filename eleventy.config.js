@@ -1,4 +1,5 @@
 // Installed Plugins
+import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
@@ -16,6 +17,7 @@ import { siteLang, feedPath, siteAuthor, siteUrl } from "./src/_data/sitemeta.js
 
 export default function(eleventyConfig) {
     // Installed Plugins
+    eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: feedPath,

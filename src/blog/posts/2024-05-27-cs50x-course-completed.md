@@ -7,7 +7,7 @@ categories: ["cs50", "cs50x", "python", "flask", "sql"]
 
 On 23 May 2024, at long last, I completed [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2024/), also known as CS50x, course!
 
-After finishing [Week 9 of CS50x](/blog/posts/2024-04-15-cs50x-week-9-completed), I began to brainstorm ideas for the [final project](https://cs50.harvard.edu/x/2024/project/), in terms of both project type and which language or tech stack to build. Eventually, I chose to build a blogging application with Flask, SQL and Bootstrap, and name the project CS50 Flask Blog.
+After finishing [Week 9 of CS50x](2024-04-15-cs50x-week-9-completed.md), I began to brainstorm ideas for the [final project](https://cs50.harvard.edu/x/2024/project/), in terms of both project type and which language or tech stack to build. Eventually, I chose to build a blogging application with Flask, SQL and Bootstrap, and name the project CS50 Flask Blog.
 
 You can watch a demonstration of CS50 Flask Blog in this video:
 

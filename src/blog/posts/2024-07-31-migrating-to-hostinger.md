@@ -8,7 +8,7 @@ toc: true
 
 Starting from 30 July 2024, helenchong.dev, my developer portfolio and blog website, has migrated from GitHub Pages to Hostinger as its web host.
 
-This website was hosted on GitHub Pages since its creation, and has come a long way since its launch in February 2023, from [adding a blog](https://helenchong.dev/blog/posts/2023-08-21-Welcome-to-Helen-Codes/), [being rebuilt with Eleventy](/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/) to [getting its own domain name](/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/). This website started out as a standard developer portfolio, but as I grew as an aspiring web developer, so did my website.
+This website was hosted on GitHub Pages since its creation, and has come a long way since its launch in February 2023, from [adding a blog](2023-08-21-Welcome-to-Helen-Codes.md), [being rebuilt with Eleventy](2024-04-11-rebuilding-my-developer-portfolio-with-eleventy.md) to [getting its own domain name](2024-05-29-custom-domain-name-helenchong-dev.md). This website started out as a standard developer portfolio, but as I grew as an aspiring web developer, so did my website.
 
 Therefore, I decided that it was time to take my website to another level to allow both my website and myself as a developer more room to grow, starting with migrating from GitHub Pages.
 
