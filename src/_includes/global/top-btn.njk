@@ -1,11 +1,6 @@
 {% set topLinkTitle = "Back to Top" %}
 
-<a href="#top" class="top-btn hidden">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M7 11l5-5m0 0l5 5m-5-5v12"></path>
-    </svg>
-    <span class="visually-hidden">{{ topLinkTitle }}</span>
-</a>
+<a href="#top" class="top-btn" aria-label="{{ topLinkTitle }}">Top</a>
 <noscript>
     <p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
 </noscript>
@@ -18,11 +13,27 @@
         bottom: 0.5rem;
         right: 0.5rem;
         z-index: 999;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
 
         background-color: var(--clr-top-btn-bg);
         border-radius: 50em;
-        height: 2rem;
+        height: 3.25rem;
         aspect-ratio: 1 / 1;
+        display: none;
+        gap: 0.1em;
+        justify-items: center;
+    }
+
+    .top-btn.show { display: grid; }
+
+    .top-btn::before {
+        content: "";
+        display: inline-block;
+        border-bottom: 0.6rem solid currentColor;
+        border-left: 0.6rem solid transparent;
+        border-right: 0.6rem solid transparent;
     }
 
     .top-btn:focus {
@@ -35,9 +46,9 @@
         --arrow-margin: 0.3em;
         content: "";
         display: inline-block;
-        border-bottom: 0.6rem solid currentColor;
-        border-left: 0.4rem solid transparent;
-        border-right: 0.4rem solid transparent;
+        border-bottom: 0.7rem solid currentColor;
+        border-left: 0.5rem solid transparent;
+        border-right: 0.5rem solid transparent;
     }
 
     .top-link::before { margin: 0 var(--arrow-margin) 0 0; }
@@ -50,9 +61,9 @@
 
     window.onscroll = () => {
         if (document.body.scrollTop > scrollOffset || document.documentElement.scrollTop > scrollOffset) {
-            topButton.classList.remove("hidden");
+            topButton.classList.add("show");
         } else {
-            topButton.classList.add("hidden");
+            topButton.classList.remove("show");
         }
     };
 
