@@ -11,17 +11,17 @@ export default function(eleventyConfig) {
     });
 
     // Limit the number of items displayed
-    eleventyConfig.addFilter("itemLimit", function(array, limit) {
+    eleventyConfig.addFilter("itemLimit", (array, limit) => {
         return array.slice(0, limit);
     });
 
     // Thousands separator
-    eleventyConfig.addFilter("thousands", function(num) {
+    eleventyConfig.addFilter("thousands", (num) => {
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     });
 
     // Filter blog posts by category
-    eleventyConfig.addFilter("filterByCategory", function(posts, cat) {
+    eleventyConfig.addFilter("filterByCategory", (posts, cat) => {
         cat = cat.toLowerCase();
         let result = posts.filter(p => {
             let cats = p.data.categories.map(s => s.toLowerCase());

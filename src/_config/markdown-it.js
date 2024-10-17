@@ -16,7 +16,7 @@ export default function(eleventyConfig) {
     // Installed plugins
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
-        wrapper: function (toc) {
+        wrapper: (toc) => {
             return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
         },
     });

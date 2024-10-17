@@ -1,6 +1,6 @@
 export default function(eleventyConfig) {
     // Add blog post categories to collections
-    eleventyConfig.addCollection("categories", function(collectionApi) {
+    eleventyConfig.addCollection("categories", (collectionApi) => {
         let categories = new Set();
         let posts = collectionApi.getFilteredByTag('posts');
         posts.forEach(p => {
