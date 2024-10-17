@@ -17,9 +17,9 @@ const topButton = document.querySelector(".top-btn");
 
     window.onscroll = () => {
         if (document.body.scrollTop > scrollOffset || document.documentElement.scrollTop > scrollOffset) {
-            topButton.classList.remove("hidden");
+            topButton.classList.add("show");
         } else {
-            topButton.classList.add("hidden");
+            topButton.classList.remove("show");
         }
     };
 
