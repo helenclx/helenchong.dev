@@ -4,12 +4,27 @@
   <subtitle>Helen Chong talks about tech, coding and development.</subtitle>
   <link href="https://helenchong.dev/blog/feed.xml" rel="self" />
   <link href="https://helenchong.dev/blog/" />
-  <updated>2024-09-27T03:47:53Z</updated>
+  <updated>2024-10-18T16:14:19Z</updated>
   <id>https://helenchong.dev/blog/</id>
   <author>
     <name>Helen Chong</name>
     <email>contact@helenchong.dev</email>
   </author>
+  <entry>
+    <title>Happy One-Month Anniversary of My omg.lol Membership</title>
+    <link href="https://helenchong.dev/blog/posts/2024-10-19-omg-lol-membership-one-month-anniversary/" />
+    <updated>2024-10-18T16:14:19Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-10-19-omg-lol-membership-one-month-anniversary/</id>
+    <content type="html">&lt;p&gt;19 October 2024 marks my one-month anniversary of joining &lt;a href=&quot;https://home.omg.lol/&quot;&gt;omg.lol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I discovered of the existence of omg.lol for the first time when I became more active in exploring personal websites in 2023, after I learned about the resurgence of personal websites in 2022. I was quickly intrigued by omg.lol for its fun name (OMG LOL!), cute logo (named &lt;a href=&quot;https://prami.omg.lol/&quot;&gt;Prami&lt;/a&gt;), and the offer of various web services including a web address, a profile page, status update log, a Mastodon account, PURLs, pastebin, community chat, and more, for an affordable price of US $20 per year.&lt;/p&gt;
+&lt;p&gt;Furthermore, since I already started using the static site generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; to build my own websites at the time, another fact about omg.lol that caught my attention was the fact that a few Eleventy users are also omg.lol members, including &lt;a href=&quot;https://rknight.me/&quot;&gt;Robb Knight&lt;/a&gt;, who is also part of &lt;a href=&quot;https://home.omg.lol/staff&quot;&gt;omg.lol&#39;s staff&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;At first, however, I did not feel that I had a use of an omg.lol membership yet, since I already had my own websites and at least one Mastodon account. Therefore, I did not immediately join omg.lol, though I still checked out the platform from time to time, because I did find what omg.lol does interesting, by offering people to claim their own space on the internet. Learning that omg.lol also offered &lt;a href=&quot;https://home.omg.lol/info/sponsorships&quot;&gt;membership sponsorships&lt;/a&gt; for members of marginalised groups made me respect omg.lol even more.&lt;/p&gt;
+&lt;p&gt;Then, in September 2024, I learned that omg.lol was hosting a &lt;a href=&quot;https://omglol.news/2024/08/28/supporting-st-jude-with-a-month-of-awesomeness&quot;&gt;fundraising campaign for the St. Jude Children’s Research Hospital&lt;/a&gt;, which includes discounts for omg.lol membership fee and daily auction for lifetime omg.lol address. This time, I began to seriously consider joining omg.lol for real, as this was an opportunity to not only obtain an omg.lol membership, but also support a good cause for children. At last, I joined omg.lol after successfully bidding a lifetime address in the auction and registering my &lt;code&gt;helenchong.omg.lol&lt;/code&gt; address!&lt;/p&gt;
+&lt;p&gt;After setting up my &lt;a href=&quot;https://helenchong.omg.lol/&quot;&gt;omg.lol profile page&lt;/a&gt;, I began to connect with the omg.lol community by joining the community chat, Discourse forum and the &lt;a href=&quot;https://social.lol/&quot;&gt;social.lol&lt;/a&gt; Mastodon instance, and I have been enjoying my time in omg.lol&#39;s wonderful community since. &lt;a href=&quot;https://adam.omg.lol/&quot;&gt;Adam Newbold&lt;/a&gt;, the founder of omg.lol himself, is also a really nice guy who is pleasant to talk to.&lt;/p&gt;
+&lt;p&gt;To make more good use out of my omg.lol address, and the fact that you can configure the DNS of your omg.lol address, I have also created a &lt;a href=&quot;https://blog.helenchong.omg.lol/&quot;&gt;blog.helenchong.omg.lol&lt;/a&gt; subdomain to use it as the address of my new personal blog, Galaxy Garden. It is worth noting that I was inspired to have a personal blog again by other bloggers in the omg.lol community.&lt;/p&gt;
+&lt;p&gt;I am incredibly grateful that services like omg.lol exist to bring back the fun of carving your own corner on the web, and I am proud to be a member of omg.lol and its delightful community. I am following omg.lol&#39;s development and looking forward to what it has in store for the future.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>THE Eleventy Meetup Episode 19: My First Talk at a Tech Event</title>
     <link href="https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/" />
@@ -344,36 +359,6 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;Since Porkbun offers free email forwarding, I also take advantage of the feature by creating an email address with my domain name — contact@helenchong.dev, and pointing it to my Outlook email address. This means now you can contact me by sending an email to contact@helenchong.dev.&lt;/p&gt;
 &lt;p&gt;Another benefit of using a custom domain name for my GitHub user site is that all my other projects that are hosted on GitHub pages also share the same custom domain. For example, the live site of my &lt;a href=&quot;https://github.com/helenclx/Tenzies-Game&quot;&gt;React Tenzies Game&lt;/a&gt; can now be viewed at &lt;a href=&quot;https://helenchong.dev/Tenzies-Game/&quot;&gt;https://helenchong.dev/Tenzies-Game/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Welcome to helenchong.dev! 🥳&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>CS50x Course Completed</title>
-    <link href="https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/" />
-    <updated>2024-05-27T13:47:00Z</updated>
-    <id>https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/</id>
-    <content type="html">&lt;p&gt;On 23 May 2024, at long last, I completed &lt;a href=&quot;https://cs50.harvard.edu/x/2024/&quot;&gt;CS50’s Introduction to Computer Science&lt;/a&gt;, also known as CS50x, course!&lt;/p&gt;
-&lt;p&gt;After finishing &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-15-cs50x-week-9-completed/&quot;&gt;Week 9 of CS50x&lt;/a&gt;, I began to brainstorm ideas for the &lt;a href=&quot;https://cs50.harvard.edu/x/2024/project/&quot;&gt;final project&lt;/a&gt;, in terms of both project type and which language or tech stack to build. Eventually, I chose to build a blogging application with Flask, SQL and Bootstrap, and name the project CS50 Flask Blog.&lt;/p&gt;
-&lt;p&gt;You can watch a demonstration of CS50 Flask Blog in this video:&lt;/p&gt;
-&lt;div id=&quot;eH8Tq57KzXs&quot; class=&quot;eleventy-plugin-youtube-embed&quot; style=&quot;position:relative;width:100%;padding-top: 56.25%;&quot;&gt;&lt;iframe style=&quot;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; title=&quot;Embedded YouTube video&quot; src=&quot;https://www.youtube-nocookie.com/embed/eH8Tq57KzXs&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;CS50 Flask Blog includes the following features:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a user account with a password&lt;/li&gt;
-&lt;li&gt;Write, edit and delete blog posts&lt;/li&gt;
-&lt;li&gt;Rich text editor for writing and editing blog posts&lt;/li&gt;
-&lt;li&gt;Change username and password&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The concept of CS50 Flask Blog was a blogging application that can be run and used on a local machine. In addition, CS50 Flask Blog was designed to prioritise user privacy, as it requires users to create an account and log in to write blog posts, thus making it a good fit for private blog posts.&lt;/p&gt;
-&lt;p&gt;Another reason I decided to create a blogging application as my final project for CS50x was because I wanted to make use of and apply the Flask skills and knowledge I learned from Week 9 of CS50x. While my (current) speciality is front-end web development, I find Flask in conjunction with SQL useful for projects that need a database, like a blogging platform.&lt;/p&gt;
-&lt;p&gt;The idea of requiring users to log in to use the application&#39;s main functions was inspired by the &lt;a href=&quot;https://cs50.harvard.edu/x/2024/psets/9/finance/&quot;&gt;Finance problem set&lt;/a&gt; from Week 9 of CS50x. I based the code of the user account registration, logging in and logging out functions on the Finance problem set, but the rest of CS50 Flask Blog&#39;s code was written from scratch.&lt;/p&gt;
-&lt;p&gt;To make further good use of the user account feature and the SQL database of CS50 Flask Blog, I also added the ability for users to change their username and password, and use the SQL database to store users&#39; blog posts.&lt;/p&gt;
-&lt;p&gt;During my research into building Flask apps, I learned about &lt;a href=&quot;https://flask.palletsprojects.com/en/2.3.x/blueprints/&quot;&gt;Flask Blueprints&lt;/a&gt;, which are great for making a Flask project modular, scalable and maintainable. I discovered an excellent &lt;a href=&quot;https://realpython.com/flask-project/&quot;&gt;Real Python tutorial for building a scalable Flask web project from scratch&lt;/a&gt;. Using Flask Blueprints was new to me, since this was not taught in CS50x&#39;s Flask lessons.&lt;/p&gt;
-&lt;p&gt;When I was working on CS50 Flask Blog, I was also looking for other tutorials about building a blogging project with Flask for reference and inspiration. I ended up referring to Noran Saber Abdelfattah&#39;s guide, &lt;a href=&quot;https://medium.com/@noransaber685/building-a-flask-blog-a-step-by-step-guide-for-beginners-8bffe925cd0e&quot;&gt;&amp;quot;Building a Flask Blog: A Step-by-Step Guide for Beginners&amp;quot;&lt;/a&gt; for how to write the functions to edit and delete posts, but I wrote different code than Abdelfattah&#39;s guide to accommodate CS50 Flask Blog&#39;s user account features.&lt;/p&gt;
-&lt;p&gt;After finishing the basic features of creating, editing and deleting posts, I wanted to incorporate a proper text editor into CS50 Flask Blog, so users have actual options to format the text of their blog posts, instead of being stuck with a basic text area input field. After searching the web for adding a text editor into a Flask application, I discovered &lt;a href=&quot;https://flask-ckeditor.readthedocs.io/en/latest/index.html&quot;&gt;Flask-CKEditor&lt;/a&gt;, which allowed integration of the rick text editor CKEditor into a Flask project. Flask-CKEditor was another new thing I learned from building CS50 Flask Blog, so it also trained me to read and understand technical documentations more.&lt;/p&gt;
-&lt;p&gt;Per CS50x&#39;s instructions, after the process of writing the code and testing the project was done, I started writing a Read Me for CS50 Flask Blog, by introducing and describing the project and its features, explaining the file structure and the purposes of the files used in the project, listing development dependencies, as well as laying out the steps required to run the project locally.&lt;/p&gt;
-&lt;p&gt;For the demo video, which was required to submit the final project, I used Bandicam to record a demo video and Kdenlive to edit the video, which allowed me to practice video editing. I searched for a stock clip and a stock music on Pixabay to add flavour to my demo video.&lt;/p&gt;
-&lt;p&gt;After submitting CS50 Flask Blog as my final project, I successfully claimed my CS50x certificate! You can also &lt;a href=&quot;https://cs50.harvard.edu/certificates/8cb0f5a4-4107-4df6-8abc-cfab3a437367&quot;&gt;view the PDF version of my CS50x certificate&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://helenchong.dev/assets/images/posts/cs50x-course-completed/CS50x-certificate.avif&quot; alt=&quot;Helen Chong&#39;s CS50x certificate&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Taking the CS50x course had been a great opportunity for me to learn about computer science, how to learn different programming languages and practice problem-solving skills with its problem sets. I am continuing to focus on front-end web development, but I hope I could carry what I learned from CS50x in my developer journey.&lt;/p&gt;
 </content>
   </entry>
 </feed>
