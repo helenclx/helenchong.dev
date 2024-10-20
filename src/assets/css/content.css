@@ -12,11 +12,11 @@ content-wrapper { gap: 1rem; }
     padding: 0 var(--sz-main-padding) var(--sz-content-bottom);
 }
 
-.prose > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
+.prose > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
 
 .prose > * + h2, .prose > * + .h2,
 .prose > h3,  .prose > * + .h3,
-.prose > h4, .prose > h5, .prose > h6 { margin-top: 2em; }
+.prose > h4, .prose > h5, .prose > h6 { margin-block-start: 2em; }
 
 .bio { max-width: 65ch; }
 .right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) var(--sz-content-bottom); }
@@ -33,7 +33,7 @@ content-wrapper { gap: 1rem; }
     align-items: baseline;
 }
 
-* + .heading-wrapper { margin-top: 1.8em; }
+* + .heading-wrapper { margin-block-start: 1.8em; }
 
 .heading-anchor {
     order: -1;
