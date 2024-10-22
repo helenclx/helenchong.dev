@@ -7,7 +7,7 @@ categories: ["omg.lol"]
 
 19 October 2024 marks my one-month anniversary of joining [omg.lol](https://home.omg.lol/).
 
-I discovered of the existence of omg.lol for the first time when I became more active in exploring personal websites in 2023, after I learned about the resurgence of personal websites in 2022. I was quickly intrigued by omg.lol for its fun name (OMG LOL!), cute logo (named [Prami](https://prami.omg.lol/)), and the offer of various web services including a web address, a profile page, status update log, a Mastodon account, PURLs, pastebin, community chat, and more, for an affordable price of US $20 per year.
+I discovered the existence of omg.lol for the first time when I became more active in exploring personal websites in 2023, after I learned about the resurgence of personal websites in 2022. I was quickly intrigued by omg.lol for its fun name (OMG LOL!), cute logo (named [Prami](https://prami.omg.lol/)), and the offer of various web services including a web address, a profile page, status update log, a Mastodon account, PURLs, pastebin, community chat, and more, for an affordable price of US $20 per year.
 
 Furthermore, since I already started using the static site generator [Eleventy](https://www.11ty.dev/) to build my own websites at the time, another fact about omg.lol that caught my attention was the fact that a few Eleventy users are also omg.lol members, including [Robb Knight](https://rknight.me/), who is also part of [omg.lol's staff](https://home.omg.lol/staff).
 
