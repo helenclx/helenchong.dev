@@ -6,20 +6,22 @@ eleventyNavigation:
     order: 4
 ---
 
-<p>Throughout my developer journey, I have been inspired by many other developers with their works and words. Here is my curated list of blogs and podcasts related to tech and software development that I follow.</p>
+<p>Throughout my developer journey, I have been inspired by many other developers with their works and words. Here is my curated list of websites, blogs and podcasts related to tech and software development that I follow.</p>
 
 {%- macro linkRoll(siteName, siteUrl, feedUrl) -%}
 <li>
     <a href="{{ siteUrl }}">{{ siteName }}</a>
+    {% if feedUrl %}
     <a href="{{ feedUrl }}" class="linkroll__feed">
     <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
     Feed</a>
+    {% endif %}
 </li>
 {%- endmacro -%}
 
 {% headingAnchor 2 %}Blogroll{% endheadingAnchor %}
 
-{% headingAnchor 3 %}Developers{% endheadingAnchor %}
+{% headingAnchor 3 %}Developers and Tech People{% endheadingAnchor %}
 <ul>
     {{ linkRoll("Ahmad Shadeed", "https://ishadeed.com/",
         "https://ishadeed.com/feed.xml"
@@ -74,6 +76,9 @@ eleventyNavigation:
     ) }}
     {{ linkRoll("Lene Saile", "https://www.lenesaile.com/",
         "https://www.lenesaile.com/en/feed.xml"
+    ) }}
+    {{ linkRoll("Manuel Matuzović", "https://www.matuzo.at/",
+        "https://www.matuzo.at/feed_all.xml"
     ) }}
     {{ linkRoll("Melanie Kat", "https://melkat.blog/",
         "https://melkat.blog/rss.xml"
@@ -142,9 +147,13 @@ eleventyNavigation:
     {{ linkRoll("Go Make Things", "https://gomakethings.com/",
         "https://gomakethings.com/feed/index.xml"
     ) }}
+    {{ linkRoll("HTMHell", "https://www.htmhell.dev/",
+        "https://www.htmhell.dev/feed.xml"
+    ) }}
     {{ linkRoll("Inclusive Components", "https://inclusive-components.design/",
         "https://inclusive-components.design/rss"
     ) }}
+    {{ linkRoll("Kevin Powell", "https://www.kevinpowell.co/") }}
     {{ linkRoll("Modern CSS Solutions", "https://moderncss.dev/",
         "https://moderncss.dev/feed/"
     ) }}
