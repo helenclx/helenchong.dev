@@ -1,9 +1,9 @@
-html { color-scheme: light dark; }
-
 /* ------------------- */
 /* Custom Properties   */
 /* ------------------- */
 :root {
+    color-scheme: light dark;
+
     --clr-body-bg: light-dark(#FCFCFD, #121212);
     --clr-txt-default: light-dark(#0e0e0e, #fff);
 
