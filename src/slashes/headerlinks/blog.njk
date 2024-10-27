@@ -37,35 +37,6 @@ eleventyComputed:
 
 {% include "blog/pagination-oldnew.njk" %}
 
-{# <nav aria-labelledby="pagination-title" class="pagination__wrapper">
-    <h2 class="visually-hidden" id="pagination-title">Pagination</h2>
-    <p>
-        {% if pagination.href.first %}
-            <a href=" {{ pagination.href.first }}">Newest</a>
-        {% else %}
-            Newest
-        {% endif %}
-        /
-        {% if pagination.href.previous %}
-            <a href=" {{ pagination.href.previous }}">Newer</a>
-        {% else %}
-            Newer
-        {% endif %}
-        /
-        {% if pagination.href.next %}
-            <a href=" {{ pagination.href.next }}">Older</a>
-        {% else %}
-            Older
-        {% endif %}
-        /
-        {% if pagination.href.last %}
-            <a href=" {{ pagination.href.last }}">Oldest</a>
-        {% else %}
-            Oldest
-        {% endif %}
-    </p>
-</nav> #}
-
 {%- css %}
     .blog__posts, .blog__post { display: grid; }
 
