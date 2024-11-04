@@ -32,7 +32,7 @@ After waiting for the items to ship from the U.S. to Malaysia, my lifetime omg.l
 
 ![Photo of omg.lol lifetime membership goodies, in which the double-sided Prami coaster shows distressed Prami](https://cdn.some.pics/helenchong/6728b8092e3ad.jpg)
 
-These goodies include a double-sided Prami coaster printed with regular and distressed Prami, an enamel Prami pin, two 3D printed Prami tokens made of PLA filament, and 10 pieces of stickers featuring hearts Prami, sick Prami, distressed Prami, annoyed Prami, and regular Prami.
+These goodies include a double-sided Prami coaster printed with regular and distressed Prami, an enamel Prami pin, two 3D printed Prami tokens made of polylactic acid (PLA) filament, and 10 pieces of stickers featuring hearts Prami, sick Prami, distressed Prami, annoyed Prami, and regular Prami.
 
 ![Photo of a piece of light yellow paper containing a message from the Adam Newbold, the founder of omg.lol](https://cdn.some.pics/helenchong/6728b81b68b5a.jpg)
 
