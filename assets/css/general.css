@@ -83,6 +83,14 @@ ul:not([class]), ol:not([class]) {
 ul:not([class]) ul, ol:not([class]) ol,
 ul:not([class]) ol, ol:not([class]) ul { margin-top: var(--sz-list-gap); }
 
+blockquote {
+    padding: 0.8em 1em;
+    background-color: var(--clr-code-bg);
+	border-inline-start: 0.15em solid var(--clr-code-border);
+    margin-bottom: 1em;
+}
+blockquote > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
+
 button:hover { cursor: pointer; }
 details:focus { outline-offset: 0.2em; }
 summary { cursor: pointer; }
