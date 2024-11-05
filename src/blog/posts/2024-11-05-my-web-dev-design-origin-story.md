@@ -1,21 +1,21 @@
 ---
 title: My Web Development and Web Design Origin Story
-desc: sailoring's comic "Home Sweet Homepage" inspired me to share my web development and web design origin story.
+desc: sailorhg's comic "Home Sweet Homepage" inspired me to share my web development and web design origin story.
 date: 2024-11-05T18:05:46+0800
 categories: ["web development"]
 ---
 
-Recently, I discovered [sailoring](https://sailorhg.com/)'s comic, ["Home Sweet Homepage"](https://sailorhg.com/home_sweet_homepage/) (which also has a [text transcript](https://sailorhg.com/home_sweet_homepage/transcript.html) available), telling the author's story about growing up online in the era of GeoCities. While I never got to code my own website on GeoCities, this comic reminded me of why I love web development and web design and thus eventually decided to changed my career path to web development.
+Recently, I discovered [sailorhg](https://sailorhg.com/)'s comic, ["Home Sweet Homepage"](https://sailorhg.com/home_sweet_homepage/) (which also has a [text transcript](https://sailorhg.com/home_sweet_homepage/transcript.html) available), telling the author's story about growing up online in the era of GeoCities. While I never got to code my own website on GeoCities, this comic reminded me of why I love web development and web design and thus eventually decided to changed my career path to web development.
 
 This line in the comic in particular summed it up:
 
 > Working on my website combines my love for words, art, and technology, and it's a form of self-expression for me. Computers are logical and code is logical but you can use them to express your emotions, make art, and communicate to other people.
 
-Therefore, sailoring's comic has inspired me to share my web development and web design origin story on this blog.
+Therefore, sailorhg's comic has inspired me to share my web development and web design origin story on this blog.
 
 I had a GeoCities account, but by the time I started to participate on the web in the 2000s when I was around 14, blogs were on the rise, so blogging was my first foray into creating on the internet, so I did not experience creating and coding a personal website from scratch like other GeoCities users did. That said, I got my start on HTML and CSS through blogging, by editing the codes of blog themes and widgets, while being inspired by many other blogs.
 
-Almost as soon as I began to learn HTML and CSS during my teenage blogging era in the 2000s, I was enamoured by the two languages and web design. Similar to sailoring, I found web design and development a fascinating combination of words, art and technology.
+Almost as soon as I began to learn HTML and CSS during my teenage blogging era in the 2000s, I was enamoured by the two languages and web design. Similar to sailorhg, I found web design and development a fascinating combination of words, art and technology.
 
 I never consider art and science at odds with each other, because since childhood I was interested in both: drawing has been a life-long hobby of mine, but I had a childhood phase where science was my main special interest; then while I chose to study science stream subjects in secondary school, at the same time I aspired to become a graphic designer, and thus pursuing a diploma in graphic design after graduating from secondary school.
 
