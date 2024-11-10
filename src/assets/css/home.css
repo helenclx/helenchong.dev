@@ -78,32 +78,6 @@
     text-align: center;
 }
 
-/* Skills Styles */
-.skills__list {
-    list-style-type: "";
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 2rem;
-}
-
-.skills__item {
-    display: grid;
-    justify-items: center;
-    gap: 0.3em;
-}
-
-.skills__logo img {
-    width: 3rem;
-    height: auto;
-}
-
-.skills__title {
-    font-weight: 400;
-    color: var(--clr-slate-600);
-    text-align: center;
-}
-
 /* Webrings and Badges */
 .widgets.webrings {
     gap: 2em;
