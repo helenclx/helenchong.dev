@@ -94,4 +94,5 @@
     --badge-gap: 0.5em;
     gap: var(--badge-gap);
     margin-bottom: var(--badge-gap);
+    align-items: center;
 }
