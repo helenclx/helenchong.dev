@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-11-11T00:24:17+0800
+updated: 2024-11-16T19:54:25+0800
 ---
 
 How this website is built.
@@ -11,7 +11,7 @@ How this website is built.
 * JavaScript runtime: [Bun](https://bun.sh)
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
-* Tested browsers: Mozilla Firefox and Lynx
+* Tested browsers: Mozilla Firefox, Vivaldi and Lynx
 * Source code available on [GitHub](https://github.com/helenclx/helenchong.dev)
 
 ## Host and Domain
