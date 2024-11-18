@@ -6,10 +6,16 @@ eleventyNavigation:
     order: 5
 ---
 
-<p>Want to get in touch with me? I am always open to connect with more people, so feel free to reach out by filling out the contact form below.</p>
+<p>Want to get in touch with me? I am always open to connect with more people, so feel free to reach out by filling out the email contact form below.</p>
 
-<p>You can also contact me by pinging me or sending me a private mention on Mastodon at <a href="https://tech.lgbt/@helenclx">@helenclx@tech.lgbt</a>.</p>
+<p>Alternately, you can contact me through other methods:</p>
+<ul>
+    <li>Fediverse: Ping me or send me a private mention to my Mastodon account at <a href="https://tech.lgbt/@helenclx">@helenclx@tech.lgbt</a></li>
+    <li>Matrix: Message <code>{{ sitemeta.siteAuthor.matrix }}</code></li>
+    <li>Signal: Message <code>{{ sitemeta.siteAuthor.signal }}</code></li>
+</ul>
 
+<h2>Email Contact Form</h2>
 {% set letterbirdUser = "helenchongdev" %}
 <section class="contact">
     <script data-letterbirduser="{{ letterbirdUser }}" src="https://letterbird.co/embed/v1.js"></script>
