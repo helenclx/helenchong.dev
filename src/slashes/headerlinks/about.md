@@ -37,6 +37,10 @@ I am currently working as an in-house full-stack WordPress developer for a local
 
 You can also learn about what I doing to at the moment from [my now page](https://helenchong.omg.lol/now).
 
+## Contact
+
+Information for how to contact me can be found on this website's [contact page](contact.njk).
+
 ## Tip Jar
 
 I accept tips, so if you would like to suuport my work, you can [buy me a coffee](https://buymeacoffee.com/helenchong).
