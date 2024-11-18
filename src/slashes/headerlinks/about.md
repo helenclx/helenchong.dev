@@ -39,7 +39,7 @@ You can also learn about what I doing to at the moment from [my now page](https:
 
 ## Contact
 
-Information for how to contact me can be found on this website's [contact page](contact.njk).
+Information for how to get in touch with me can be found on this website's [contact page](contact.njk).
 
 ## Tip Jar
 
