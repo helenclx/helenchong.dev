@@ -9,7 +9,7 @@
 
 .section--home,
 .profile {
-    max-width: 70rem;
+    max-width: 65rem;
     font-size: var(--fs-main-txt);
     justify-self: center;
 }
@@ -18,7 +18,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3em 1em 0;
+    justify-content: center;
+    gap: 2.5em;
+    margin: 3em 0;
+    padding: 0 1em;
 }
 
 .profile__image-wrapper {
@@ -35,7 +38,6 @@
 .profile__card {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
     flex: 1;
 }
 
@@ -68,7 +70,6 @@
         flex-direction: row;
         padding: 0 1em;
     }
-    .profile__image-wrapper img { margin: 4rem; }
 }
 
 /* Home headings */
