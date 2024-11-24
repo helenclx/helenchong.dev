@@ -4,7 +4,7 @@ summary: My solutions to the Frontend Mentor challenges.
 image: /assets/images/projects/Frontend-Mentor-Challenges.avif
 imageAlt: Screenshot of a solution to a Frontend Mentor challenge
 tech:
-  - Vanilla JavaScript
+  - JavaScript
   - API
 ---
 

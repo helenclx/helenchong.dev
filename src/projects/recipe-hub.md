@@ -4,7 +4,7 @@ summary: Allows users to search for recipes by entering an ingredient. Developed
 image: /assets/images/projects/Recipe-Hub.avif
 imageAlt: Screenshot of Recipe Hub
 tech:
-  - Vanilla JavaScript
+  - JavaScript
   - API
 ---
 

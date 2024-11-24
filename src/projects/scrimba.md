@@ -4,7 +4,7 @@ summary: My solo projects for Scrimba's Frontend Developer Career Path.
 image: /assets/images/projects/Scrimba-Frontend-Path.avif
 imageAlt: Screenshot of a Scrimba solo project
 tech:
-  - Vanilla JavaScript
+  - JavaScript
   - API
   - Firebase
 repoUrl: https://github.com/helenclx/Scrimba-Frontend-Solo-Projects
