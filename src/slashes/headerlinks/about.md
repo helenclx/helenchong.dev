@@ -9,7 +9,7 @@ eleventyNavigation:
 
 ## Introduction
 
-Greetings! I am Helen Chong (they/she), a web developer from Malaysia. Previously, I had worked for 8 years as a graphic designer. Now I decided to transfer my creativity and problem-solving skills into building the web, with a focus on accessibility, inclusive design and progressive enhancement to improve user experience.
+Greetings! I am Helen Chong (they/she), a web developer from Malaysia. Previously, I had worked for 8 years as a graphic designer. Now I decided to transfer my creativity and problem-solving skills into building the web, with a focus on accessibility, inclusive design and progressive enhancement to create a user experience that puts people first.
 
 ## My Web Development Origin
 
