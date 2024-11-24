@@ -41,6 +41,7 @@
 .project-card__tags {
     margin-bottom: 1rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5em;
 }
 
