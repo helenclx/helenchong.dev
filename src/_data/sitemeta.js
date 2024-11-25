@@ -5,6 +5,10 @@ export const siteAuthor = {
 	name: "Helen Chong",
 	email: "contact@helenchong.dev",
 	url: siteUrl + "/about",
+	fediverse: {
+		handle: "@helenchong@social.lol",
+		url: "https://social.lol/@helenchong"
+	},
 	matrix: "@helenchong:omg.lol",
 	signal: "helenchong.08"
 };

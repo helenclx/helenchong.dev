@@ -11,7 +11,7 @@
         <meta name="generator" content="{{ eleventy.generator }}">
         <meta name="author" content="{{ sitemeta.siteAuthor.name }}">
         <meta name="description" content="{{ desc or metadata.desc or sitemeta.siteDescription }}">
-        <meta name="fediverse:creator" content="@helenchong@social.lol">
+        <meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
         <meta property="og:site_name" content="{{ sitemeta.siteName }}" />
         <meta property="og:type" content="{{ "article" if tags and tags.includes("posts") else "website" }}">
         <meta property="og:description" content="{{ desc or metadata.desc or sitemeta.siteDescription }}">
