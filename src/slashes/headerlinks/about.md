@@ -13,7 +13,7 @@ Greetings! I am Helen Chong (they/she), a web developer from Malaysia. Previousl
 
 ## My Web Development Origin
 
-I have been interested in computers and the World Wide Web, as well as learning how to use them since I was a child. Later as a teenager, I learned about the existence of blogs, and began blogging as a hobby, which led me to learn HTML and CSS to customise blog themes and widgets. I was already fascinated by web design, however I was unaware if web design could be a viable career path at the time, so I used my interest in design to pursue an education and later career in graphic design.
+I have been interested in computers and the World Wide Web, as well as learning how to use them since I was a child. Later as a teenager, I learned about the existence of blogs, and began blogging as a hobby, which led me to learn HTML and CSS to customise blog themes and widgets. I was already fascinated by web design, however I did not know how to break into the web design field, so I used my interest in design to pursue an education and later career in graphic design.
 
 Fast forward to 2022, discovering the resurgence of creating personal websites inspired me to relearn HTML and CSS. This time, I also dabbled in JavaScript. Eventually, my interest in web design and development grew enough to make me consider pursuing web development as a profession, thus I started taking online coding courses, starting with freeCodeCamp and Scrimba.
 
