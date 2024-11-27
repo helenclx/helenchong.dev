@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-08-01
+updated: 2024-11-27T14:38:53+0800
 ---
 
 I take accessibility seriously. I want every visitor to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
@@ -18,11 +18,11 @@ High-level overview of the accessibility features of this site:
 * No autoplaying audio or video
 
 I use the following tools to test my site for accessibility:
+* [axe DevTools - Web Accessibility Testing](https://www.deque.com/axe/browser-extensions/) browser extension
 * WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
 * [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
 * TalkBack screen reader for Android
-* VoiceOver screen reader for iOS
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 
