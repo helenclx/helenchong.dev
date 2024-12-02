@@ -24,32 +24,7 @@ h4 { font-size: var(--fs-h4); }
 h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
 h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.5em; }
 
-:focus { outline: 0.15em solid currentColor; }
-
-code {
-    font-family: var(--ff-monospace);
-    word-break: break-word;
-}
-
-:not(pre) > code {
-    padding: 0.125em 0.25em;
-    background-color: var(--clr-code-bg);
-}
-
-pre {
-    border: 0.1em solid var(--clr-code-border);
-    max-width: 90vw;
-    overflow: auto;
-    padding: 1rem;
-}
-
-pre > code { white-space: pre; }
-
-a {
-    color: var(--clr-accent-700);
-    font-weight: 700;
-}
-
+a { color: var(--clr-accent-700); }
 a:hover {
     text-decoration: none;
     color: var(--clr-link-hover);
@@ -91,6 +66,25 @@ blockquote {
 }
 blockquote > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
 
+code {
+    font-family: var(--ff-monospace);
+    word-break: break-word;
+}
+
+:not(pre) > code {
+    padding: 0.125em 0.25em;
+    background-color: var(--clr-code-bg);
+}
+
+pre {
+    border: 0.1em solid var(--clr-code-border);
+    max-width: 90vw;
+    overflow: auto;
+    padding: 1rem;
+}
+
+pre > code { white-space: pre; }
 button:hover { cursor: pointer; }
+:focus { outline: 0.15em solid currentColor; }
 details:focus { outline-offset: 0.2em; }
 summary { cursor: pointer; }
