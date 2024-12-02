@@ -5,7 +5,7 @@
     color-scheme: light dark;
 
     --clr-body-bg: light-dark(#FCFCFD, #121212);
-    --clr-txt-default: light-dark(#0e0e0e, #fff);
+    --clr-txt-default: light-dark(#080808, #fff);
 
     --clr-slate-300: light-dark(#5d5d5d, #f8f8f8);
     --clr-slate-600: light-dark(#383838, #f6f6f6);
@@ -20,9 +20,9 @@
     --clr-top-btn-bg: #4153b6;
     --clr-top-btn-txt: #fff;
 
-    --ff-regular: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-    --ff-heading: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-    --ff-monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    --ff-regular: 'Work Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    --ff-heading: 'Raleway', Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     --fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
     --fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
