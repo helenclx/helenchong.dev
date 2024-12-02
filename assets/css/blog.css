@@ -2,8 +2,12 @@
 .blog__postlist,
 .blog__post--info { display: grid; }
 .blog__postlist { gap: 0.5em; }
-.blog__postlist--title { font-size: var(--fs-bloglist-title); }
 .blog__nav--title { font-size: var(--fs-h3); }
+
+.blog__postlist--title {
+    font-size: var(--fs-bloglist-title);
+    font-weight: 700;
+}
 
 .blog__post--info {
     gap: 0.3em;
