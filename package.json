@@ -13,7 +13,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@types/bun": "^1.1.13"
+    "@types/bun": "^1.1.14"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
@@ -26,7 +26,7 @@
     "eleventy-plugin-embed-everything": "^1.19.0",
     "eleventy-plugin-wordcount-extended": "^0.2.1",
     "markdown-it-anchor": "^9.2.0",
-    "markdown-it-attrs": "^4.2.0",
+    "markdown-it-attrs": "^4.3.0",
     "markdown-it-bracketed-spans": "^1.0.1"
   }
 }
