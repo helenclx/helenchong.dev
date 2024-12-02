@@ -18,6 +18,9 @@
         <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta property="og:locale" content="{{ sitemeta.siteLocale }}">
 
+        {# Fonts #}
+        {% include "global/fonts.njk" %}
+
         {# Feeds #}
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title | safe }}" href="{{ sitemeta.feedPath }}">
 
