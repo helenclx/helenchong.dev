@@ -33,9 +33,7 @@ In addition to coding and programming, I enjoy gaming, reading, drawing and croc
 
 ## Currently
 
-I am currently working as an in-house full-stack WordPress developer for a local traditional Chinese medicine healthcare company.
-
-You can also learn about what I doing to at the moment from [my now page](https://helenchong.omg.lol/now).
+You can learn about what I doing to at the moment from [my now page](https://helenchong.omg.lol/now).
 
 ## Contact
 
