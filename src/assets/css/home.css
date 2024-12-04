@@ -79,6 +79,12 @@
     text-align: center;
 }
 
+/* Home button links */
+.home__btn-link {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Webrings and Badges */
 .widgets.webrings {
     gap: 2em;

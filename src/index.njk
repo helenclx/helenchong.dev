@@ -13,6 +13,7 @@ metadata:
         <h2 class="heading--home">Latest Blog Posts</h2>
         {% set postList = collections.posts | reverse | itemLimit(3) %}
         {% include "blog/postslist.njk" %}
+        <a class="home__btn-link" href="/blog">More Blog Posts</a>
     </section>
     {% include "main/project-grid.njk" %}
     {% include "main/webmembership.njk" %}
