@@ -3,6 +3,7 @@ title: Frontend Mentor Challenge Solutions
 summary: My solutions to the Frontend Mentor challenges.
 image: /assets/images/projects/Frontend-Mentor-Challenges.avif
 imageAlt: Screenshot of a solution to a Frontend Mentor challenge
+date: 2023-01-01
 tech:
   - JavaScript
   - API

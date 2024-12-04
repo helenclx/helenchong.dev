@@ -3,6 +3,7 @@ title: CS50 Flask Blog
 summary: A private blogging application built with Flask. My final project for CS50x 2024 course.
 image: /assets/images/projects/CS50-Flask-Blog.avif
 imageAlt: Screenshot of CS50 Flask Blog
+date: 2023-01-03
 tech:
   - Python
   - Flask

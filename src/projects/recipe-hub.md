@@ -3,6 +3,7 @@ title: Recipe Hub
 summary: Allows users to search for recipes by entering an ingredient. Developed by Chingu Voyage 46 Tier 1 Team 1, in which I was part of.
 image: /assets/images/projects/Recipe-Hub.avif
 imageAlt: Screenshot of Recipe Hub
+date: 2023-01-02
 tech:
   - JavaScript
   - API
