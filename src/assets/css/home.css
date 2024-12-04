@@ -83,6 +83,16 @@
 .home__btn-link {
     display: block;
     margin: 0 auto;
+    border: 0.15em solid currentColor;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-weight: 700;
+}
+
+.home__btn-link:focus {
+    outline: 0.2em solid var(--clr-accent-700);
+    outline-offset: 0.15em;
 }
 
 /* Webrings and Badges */

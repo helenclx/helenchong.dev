@@ -8,6 +8,7 @@
 
 .text-center { text-align: center; }
 .text-bold { font-weight: 700; }
+.el-top-margin { margin-top: 1.5em; }
 
 .inline-icon {
     display: inline-block;
