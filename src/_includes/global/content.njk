@@ -9,7 +9,6 @@ layout: global/base
 
     {% if tags and tags.includes("posts") %}
     <div class="blog__post--info">
-        <p class="blog__post--desc">{{ desc }}</p>
         <p>
             <span class="text-bold">{{ content | wordcount | thousands }} words</span>.
             <span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
