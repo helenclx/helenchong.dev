@@ -4,7 +4,7 @@
 :root {
     color-scheme: light dark;
 
-    --clr-body-bg: light-dark(#FCFCFD, #121212);
+    --clr-body-bg: light-dark(#fafafa, #121212);
     --clr-txt-default: light-dark(#080808, #fff);
 
     --clr-slate-300: light-dark(#5d5d5d, #f8f8f8);
