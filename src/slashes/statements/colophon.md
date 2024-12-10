@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-12-02T18:47:10+0800
+updated: 2024-12-10T17:36:19+0800
 ---
 
 How this website is built.
@@ -38,7 +38,7 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 
-## Self-hosted Assets
+## Self-hosted Resources
 * Eric Bailey's [a11y-syntax-highlighting](https://github.com/ericwbailey/a11y-syntax-highlighting) a11y-light-on-light-dark-on-dark CSS stylesheet for Prism.js
 
 ### Fonts
