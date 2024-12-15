@@ -2,7 +2,7 @@
 title: Responsive Disability Pride Flag CSS Background
 desc: I coded the Disability Pride Flag in CSS to celebrate Disability Pride Month.
 date: 2024-07-23T20:35:00+0800
-updated: 2024-12-15T18:33:45+0800
+updated: 2024-12-15T18:43:47+0800
 categories: ["css", "disability pride"]
 ---
 
@@ -56,5 +56,7 @@ After copying the above snippet in a CSS stylesheet or the HTML `<style>` tags, 
 I was inspired to code a Disbility Pride flag background in CSS by other people's CSS code snippets of LGBTQ+ pride flag backgrounds, such as [Alvaro Montoro's LGBTQ+ Flags Coded in CSS demo](https://codepen.io/alvaromontoro/full/NWyBrZJ).
 
 Since Ann Magill released the Disability Pride flag to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.
+
+You can also check out [my Codepen demo](https://codepen.io/helenclx/pen/VwJjBmB)  for my responsive Disability Pride flag CSS background and play with the code.
 
 **Update, 15 December 2024:** Previously, I coded the Disability Pride flag background in CSS by using an inline SVG, but I eventually figured out how to create the stripes by using the CSS `linuear-gradient()` function, making my code snippet much cleaner.
