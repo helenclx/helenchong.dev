@@ -59,11 +59,17 @@
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/utility.css">
         <style>.disability-pride-flag {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='651.83' height='300' viewBox='-90.33 0 651.83 300'%3E%3Cpath fill='%233BB07D' stroke='%233BB07D' stroke-miterlimit='10' stroke-width='.351' d='M561.5 300 162.902.664h-50.634L510.867 300z'/%3E%3Cpath fill='%237BC2E0' stroke='%237BC2E0' stroke-miterlimit='10' stroke-width='.351' d='M510.711 300 112.113.664H61.478L460.078 300z'/%3E%3Cpath fill='%23E8E8E8' stroke='%23E8E8E8' stroke-miterlimit='10' stroke-width='.351' d='M460.077 300 61.478.664H8.094L406.693 300z'/%3E%3Cpath fill='%23EEDE77' stroke='%23EEDE77' stroke-miterlimit='10' stroke-width='.351' d='M406.692 300 8.095.664h-49.111L357.584 300z'/%3E%3Cpath fill='%23CF7280' stroke='%23CF7280' stroke-miterlimit='10' stroke-width='.351' d='M357.378 300-41.22.664h-49.11L308.27 300z'/%3E%3C/svg%3E");
-    background-color: #595959;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
+    background:
+        linear-gradient(
+            37deg,
+            #595959 0 35%,
+            #CF7280 30% 41%,
+            #EEDE77 30% 47%,
+            #E8E8E8 30% 53%,
+            #7bc2e0 30% 59%,
+            #3BB07D 30% 65%,
+            #595959 0
+        );
 }
 
 .disability-pride-flag.demo {
@@ -329,9 +335,11 @@
     
     <div class="blog__post--info">
         <p>
-            <span class="text-bold">416 words</span>.
+            <span class="text-bold">336 words</span>.
             <span class="text-bold">Posted:</span> <time datetime="2024-07-23T20:35:00+0800">23 July 2024</time> by Helen Chong
         </p>
+        
+        <p><span class="text-bold">Last Updated:</span> <time datetime="2024-12-15T18:33:45+0800">15 December 2024</time></p>
         
         <p><span class="text-bold">Categories:</span>
             
@@ -350,19 +358,26 @@
     
     <article class="prose">
         <div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
-<p>Happy <a href="https://en.wikipedia.org/wiki/Disability_Pride_Month">Disability Pride Month</a>! To celebrate the occasion, I did a small project: a responsive Disability Pride Flag CSS background! For those who do not know, this <a href="https://www.womansday.com/life/a43964487/disability-pride-flag/">Disability Pride Flag</a> was created by <a href="https://capri0mni.dreamwidth.org/837596.html">Ann Magill</a> and released in 2021.</p>
+<p>Happy <a href="https://en.wikipedia.org/wiki/Disability_Pride_Month">Disability Pride Month</a>! To celebrate the occasion, I did a small project: a responsive Disability Pride flag CSS background! For those who do not know, this <a href="https://www.womansday.com/life/a43964487/disability-pride-flag/">Disability Pride flag</a> was created by <a href="https://capri0mni.dreamwidth.org/837596.html">Ann Magill</a> and released in 2021.</p>
+<p>My Disability Pride flag CSS background is done with a combination of the CSS <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background"><code>background</code> property</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient"><code>linuear-gradient()</code> function</a>, and designed to be responsive, so it can adapt to different screen sizes and devices.</p>
 <p>Here is the CSS snippet for a responsive Disability Pride Flag background:</p>
 <pre class="language-css" tabindex="0"><code class="language-css"><span class="token selector">.disability-pride-flag</span> <span class="token punctuation">{</span>
-    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url"><span class="token function">url</span><span class="token punctuation">(</span><span class="token string url">"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='651.83' height='300' viewBox='-90.33 0 651.83 300'%3E%3Cpath fill='%233BB07D' stroke='%233BB07D' stroke-miterlimit='10' stroke-width='.351' d='M561.5 300 162.902.664h-50.634L510.867 300z'/%3E%3Cpath fill='%237BC2E0' stroke='%237BC2E0' stroke-miterlimit='10' stroke-width='.351' d='M510.711 300 112.113.664H61.478L460.078 300z'/%3E%3Cpath fill='%23E8E8E8' stroke='%23E8E8E8' stroke-miterlimit='10' stroke-width='.351' d='M460.077 300 61.478.664H8.094L406.693 300z'/%3E%3Cpath fill='%23EEDE77' stroke='%23EEDE77' stroke-miterlimit='10' stroke-width='.351' d='M406.692 300 8.095.664h-49.111L357.584 300z'/%3E%3Cpath fill='%23CF7280' stroke='%23CF7280' stroke-miterlimit='10' stroke-width='.351' d='M357.378 300-41.22.664h-49.11L308.27 300z'/%3E%3C/svg%3E"</span><span class="token punctuation">)</span></span><span class="token punctuation">;</span>
-    <span class="token property">background-color</span><span class="token punctuation">:</span> #595959<span class="token punctuation">;</span>
-    <span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span>
-    <span class="token property">background-size</span><span class="token punctuation">:</span> auto 100%<span class="token punctuation">;</span>
-    <span class="token property">background-position</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span>
+        <span class="token function">linear-gradient</span><span class="token punctuation">(</span>
+            37deg<span class="token punctuation">,</span>
+            #595959 0 35%<span class="token punctuation">,</span>
+            #CF7280 30% 41%<span class="token punctuation">,</span>
+            #EEDE77 30% 47%<span class="token punctuation">,</span>
+            #E8E8E8 30% 53%<span class="token punctuation">,</span>
+            #7bc2e0 30% 59%<span class="token punctuation">,</span>
+            #3BB07D 30% 65%<span class="token punctuation">,</span>
+            #595959 0
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <p>After copying the above snippet in a CSS stylesheet or the HTML <code>&lt;style&gt;</code> tags, to apply the background to an HTML element, simply add the CSS class name <code>disability-pride-flag</code> (you can rename the class name if you want) to the HTML element's <code>class</code> attribute.</p>
-<p>The Disability Pride Flag CSS background is done with a combination of CSS background properties and inline SVG URL, and designed to be responsive, so it can adapt to different screen sizes and devices.</p>
-<p>To code the Disability Pride Flag in CSS and make it responsive, I first downloaded an <a href="https://commons.wikimedia.org/wiki/File:Visually_Safe_Disability_Pride_Flag.svg">SVG file of the Disability Pride Flag</a> from Wikimedia Commons, then modified the stripes in Adobe Illustrator CS5 (the only version of Adobe Illustrator I actually own) to allow the entire stripes to be shown in wide backgrounds, instead of appearing to be cut off mid-way. After finishing the edit in Illustrator, I saved the SVG file, opened it in Visual Studio Code to obtain the SVG code, used Jake Archibald's <a href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> to optimise the SVG code, then encode it into CSS-ready code by using <a href="https://yoksel.github.io/url-encoder/">Yoksel's URL-encoder for SVG</a>.</p>
-<p>Since Ann Magill released the Disability Pride Flag to the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>, I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.</p>
+<p>I was inspired to code a Disbility Pride flag background in CSS by other people's CSS code snippets of LGBTQ+ pride flag backgrounds, such as <a href="https://codepen.io/alvaromontoro/full/NWyBrZJ">Alvaro Montoro's LGBTQ+ Flags Coded in CSS demo</a>.</p>
+<p>Since Ann Magill released the Disability Pride flag to the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>, I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.</p>
+<p><strong>Update, 15 December 2024:</strong> Previously, I coded the Disability Pride flag background in CSS by using an inline SVG, but I eventually figured out how to create the stripes by using the CSS <code>linuear-gradient()</code> function, making my code snippet much cleaner.</p>
 
 
     
