@@ -59,4 +59,11 @@ Since Ann Magill released the Disability Pride flag to the public domain under [
 
 You can also check out [my Codepen demo](https://codepen.io/helenclx/pen/VwJjBmB)  for my responsive Disability Pride flag CSS background and play with the code.
 
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="VwJjBmB" data-pen-title="Disability Pride Flag CSS Background" data-editable="true" data-user="helenclx" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/helenclx/pen/VwJjBmB">
+  Disability Pride Flag CSS Background</a> by Helen Chong (<a href="https://codepen.io/helenclx">@helenclx</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 **Update, 15 December 2024:** Previously, I coded the Disability Pride flag background in CSS by using an inline SVG, but I eventually figured out how to create the stripes by using the CSS `linuear-gradient()` function, making my code snippet much cleaner.
