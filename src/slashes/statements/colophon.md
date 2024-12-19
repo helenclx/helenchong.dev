@@ -7,16 +7,17 @@ updated: 2024-12-10T17:36:19+0800
 How this website is built.
 
 ## Technology
-* Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}
-* JavaScript runtime: [Bun](https://bun.sh)
-* Templating languages: Nunjucks and Markdown
-* Code written with Visual Studio Code
-* Tested browsers: Mozilla Firefox, Vivaldi and Lynx
-* Source code available on [GitHub](https://github.com/helenclx/helenchong.dev)
+
+* Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
+* JavaScript runtime: [Bun](https://bun.sh).
+* Templating languages: Nunjucks and Markdown.
+* Code written with Visual Studio Code.
+* Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
+* Source code available on [GitHub](https://github.com/helenclx/helenchong.dev).
 
 ## Host and Domain
-* Deployed to [Hostinger](https://www.hostinger.my/) from the site's GitHub repository with a GitHub action
-* The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
+* Deployed to [Hostinger](https://www.hostinger.my/) from the site's GitHub repository with a GitHub action.
+* The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
 Previously, this website was hosted on GitHub Pages until 30 July 2024.
 
@@ -47,6 +48,6 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 * [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) — monospaced font.
 
 ## Credits
-* Gerard Hynes for providing inspiration with the tutorial: [Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website](https://www.freecodecamp.org/news/learn-eleventy/)
-* Raymond Camden for providing inspiration with the tutorial: [A Complete Guide to Building a Blog with Eleventy](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html)
-* Eleventy's official [blog starter project](https://github.com/11ty/eleventy-base-blog) for the inspiration
+* Gerard Hynes for providing inspiration with the tutorial: [Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website](https://www.freecodecamp.org/news/learn-eleventy/).
+* Raymond Camden for providing inspiration with the tutorial: [A Complete Guide to Building a Blog with Eleventy](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html).
+* Eleventy's official [blog starter project](https://github.com/11ty/eleventy-base-blog) for the inspiration.
