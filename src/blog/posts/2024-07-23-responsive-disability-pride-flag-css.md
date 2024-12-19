@@ -6,8 +6,9 @@ updated: 2024-12-15T18:43:47+0800
 categories: ["css", "disability pride"]
 ---
 
-{%- css %}
-.disability-pride-flag {
+{% set demoHeight = "23rem" %}
+
+{% set disabilityPrideCss %}.disability-pride-flag {
     background:
         linear-gradient(
             37deg,
@@ -19,12 +20,11 @@ categories: ["css", "disability pride"]
             #3BB07D 30% 65%,
             #595959 0
         );
-}
+}{% endset %}
 
-.disability-pride-flag.demo {
-    width: 100%;
-    height: 20rem;
-}
+{%- css %}
+{{ disabilityPrideCss }}
+.disability-pride-flag.demo { height: {{ demoHeight }}; }
 {% endcss %}
 
 <div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
@@ -36,22 +36,12 @@ My Disability Pride flag CSS background is done with a combination of the CSS [`
 Here is the CSS snippet for a responsive Disability Pride Flag background:
 
 ```css
-.disability-pride-flag {
-    background:
-        linear-gradient(
-            37deg,
-            #595959 0 35%,
-            #CF7280 30% 41%,
-            #EEDE77 30% 47%,
-            #E8E8E8 30% 53%,
-            #7bc2e0 30% 59%,
-            #3BB07D 30% 65%,
-            #595959 0
-        );
-}
+{{ disabilityPrideCss }}
 ```
 
 After copying the above snippet in a CSS stylesheet or the HTML `<style>` tags, to apply the background to an HTML element, simply add the CSS class name `disability-pride-flag` (you can rename the class name if you want) to the HTML element's `class` attribute.
+
+Note that you want to apply the Pride flag to an empty element, you also need to set the element's [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height) or [`aspect-ratio`](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) property to make the Pride flag background visible. For example, the demo above sets the `height` property to {{ demoHeight }}.
 
 I was inspired to code a Disbility Pride flag background in CSS by other people's CSS code snippets of LGBTQ+ pride flag backgrounds, such as [Alvaro Montoro's LGBTQ+ Flags Coded in CSS demo](https://codepen.io/alvaromontoro/full/NWyBrZJ).
 
