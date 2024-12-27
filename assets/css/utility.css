@@ -9,6 +9,7 @@
 .text-center { text-align: center; }
 .text-bold { font-weight: 700; }
 .el-top-margin { margin-top: 1.5em; }
+.email-encoded b { display: none; }
 
 .inline-icon {
     display: inline-block;
