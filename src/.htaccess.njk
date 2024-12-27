@@ -28,6 +28,9 @@ RewriteRule ^ /%1 [NE,L,R]
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)/?$ /$1.php  [L]
 
+# Redirect obfuscated email links to mailto link
+RewriteRule ^.*{{ sitemeta.siteAuthor.emailDecoyUrl }}.*$ "mailto:{{ sitemeta.siteAuthor.email }}" [R=301,L]
+
 # Block bad bots
 RewriteCond %{HTTP_USER_AGENT} ({{ robots.htaccess }}) [NC]
 RewriteRule .* https://nocommercialuse.org/ [L]
