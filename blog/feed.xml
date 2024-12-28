@@ -4,12 +4,55 @@
   <subtitle>Helen Chong talks about tech, coding and development.</subtitle>
   <link href="https://helenchong.dev/blog/feed.xml" rel="self" />
   <link href="https://helenchong.dev/blog/" />
-  <updated>2024-11-05T10:05:46Z</updated>
+  <updated>2024-12-28T11:47:18Z</updated>
   <id>https://helenchong.dev/blog/</id>
   <author>
     <name>Helen Chong</name>
     <email>contact@helenchong.dev</email>
   </author>
+  <entry>
+    <title>My 2024 Year in Web Development</title>
+    <link href="https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/" />
+    <updated>2024-12-28T11:47:18Z</updated>
+    <id>https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/</id>
+    <content type="html">&lt;p&gt;2024 was an eventful year for my developer journey, so as 2024 is getting closer to the end, it is time to reflect on my 2024 as a web developer.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;discovering-eleventy&quot;&gt;Discovering Eleventy&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/#discovering-eleventy&quot; aria-labelledby=&quot;discovering-eleventy&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The main event that changed my web developer life for the better in 2024 was my discovery of the static site generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; in April.&lt;/p&gt;
+&lt;p&gt;Since I built this website in December 2022, this site has grown from the original simple purpose of a developer portfolio, to including a blog that serves as my online journal as a developer. As a consequence, I started to look for ways to build and maintain my websites in a more elegant manner, ideally to eliminate the need to duplicate the same HTML code of my website&#39;s header and footer over and over on every page.&lt;/p&gt;
+&lt;p&gt;As learning more about static site generators, I eventually discovered Eleventy through Neocities, as some websites hosted on Neocities were built with it. After digging into and trying out Eleventy, I quickly realised that it was the solution I had been looking for, so I decided to &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;rebuild my developer portfolio and blog with Eleventy&lt;/a&gt;, and launched my rebuilt developer website on 9 April 2024, and I could not be happier with how my website and my new development workflow turned out.&lt;/p&gt;
+&lt;p&gt;In addition to becoming my favourite tool to build websites, Eleventy has a wonderful community of web developers who share my interest in making the web better. Therefore, by talking about Eleventy on both this blog and Mastodon, I got to connect with other like-minded developers. Connecting with the Eleventy community provided me my first opportunity to speak at a tech event, specifically &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/&quot;&gt;Episode 19 of THE Eleventy Meetup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you, Eleventy, for not only making me enjoy building websites, including my own, even more, but also for giving me the opportunity to connect with other like-minded web developers.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;custom-domain-name-and-new-host-for-my-website&quot;&gt;Custom Domain Name and New Host for My Website&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/#custom-domain-name-and-new-host-for-my-website&quot; aria-labelledby=&quot;custom-domain-name-and-new-host-for-my-website&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Rebuilding my entire website with a static site generator was only the first step of taking my site to the next level.&lt;/p&gt;
+&lt;p&gt;As both my website and my web development skills grew, I began to consider renting a custom domain name for my website to give my site a unique identity on the web.&lt;/p&gt;
+&lt;p&gt;Near the end of May, I rented helenchong.dev from Porkbun, making it my first time spending money on a domain name, and &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/&quot;&gt;set helenchong.dev as the domain name of my developer website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Initially, this website was hosted on GitHub pages, but as I learned more advanced concepts about web development and hosting, I started to desire more control over how I run my website, and thus looked for alternative web hosting options. Meanwhile, I had started &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/&quot;&gt;learning PHP for my hobby projects&lt;/a&gt;, so I wanted web hosting that supported PHP too.&lt;/p&gt;
+&lt;p&gt;Eventually, after researching alternative web hosting options, I finally &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/&quot;&gt;migrated all my static and PHP websites to Hostinger&#39;s shared hosting plan&lt;/a&gt; in July. I have used Hostinger since then, and I am satisfied with it.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;completed-a-cs50-course&quot;&gt;Completed a CS50 Course&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/#completed-a-cs50-course&quot; aria-labelledby=&quot;completed-a-cs50-course&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;On 23 May 2024, I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-05-27-cs50x-course-completed/&quot;&gt;completed CS50’s Introduction to Computer Science&lt;/a&gt;, also known as CS50x, course. The course is not specific to web development, but it has taught me the knowledge I need to become a better developer and programmer.&lt;/p&gt;
+&lt;p&gt;While CS50x was not the first online course for coding I had taken, it might be the most challenging, especially with how the assignments test your problem-solving skills and not just your computer science knowledge and coding skills.&lt;/p&gt;
+&lt;p&gt;I am grateful of CS50 for teaching me the computer science knowledge and theories that allow me to adapt to different programming languages, such as when &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/&quot;&gt;I learned PHP for the first time for a hobby project&lt;/a&gt;, and understand computers and programming better.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;my-first-web-developer-job&quot;&gt;My First Web Developer Job&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/#my-first-web-developer-job&quot; aria-labelledby=&quot;my-first-web-developer-job&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;My &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-11-05-my-web-dev-design-origin-story/&quot;&gt;interest in web design and development&lt;/a&gt; went as far back as my teenage blogging years in the 2000s, when I learned basic HTML and CSS through editing blog themes and widgets, but I did not know how to pursue web development as a profession at the time.&lt;/p&gt;
+&lt;p&gt;Fast-forward to 2022, when my interest in HTML and CSS was rekindled by coding my own website from scratch for the first time after discovering Neocities. This time, my interest in web development grew enough for me to take online courses, starting with freeCodeCamp, and decided to switch my career path from graphic design to web development after being inspired by the stories of other people, including career switchers, becoming a professional developer without a computer science degree.&lt;/p&gt;
+&lt;p&gt;After teaching myself web development for almost two years, my dream of &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/&quot;&gt;getting my first developer job came true in August&lt;/a&gt;. In my first web development job, I succeed in developing a custom WordPress plugin, something I never did before this job.&lt;/p&gt;
+&lt;p&gt;Unfortunately, my first web development ended up lasting only four months, as it turned out, despite stating looking for someone with web development skills as the reason for inviting me for an interview and later hiring me, the company website was considered merely one part of its branding, and what my employer really wanted is a digital marketer who could wear many hats, which I should have seen coming in hindsight because my official title in the company was actually Marketing Assistant.&lt;/p&gt;
+&lt;p&gt;I am a web developer, not a marketer, so I decided to leave the company to continue to focus on web development, thus 3 January 2025 will be the final day of my employment in the company.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/#wrapping-up&quot; aria-labelledby=&quot;wrapping-up&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;2024 has been a huge year for my journey as a web developer, as it was a year when I achieved multiple milestones in those regards, including rebuilding my entire website with a static site generator for the first time, completing a CS50 course, speaking at a tech event for the first time, and getting my first developer job, despite the job eventually not turning out too well in the end.&lt;/p&gt;
+&lt;p&gt;For 2025, I intend to continue to keep learning to hone my web development knowledge and skills.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>My Web Development and Web Design Origin Story</title>
     <link href="https://helenchong.dev/blog/posts/2024-11-05-my-web-dev-design-origin-story/" />
@@ -301,101 +344,6 @@ eleventyConfig&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;
 &lt;p&gt;I am glad that despite my inexperience in PHP, I was able to apply the programming knowledge I learned from the coding courses, including CS50&#39;s Introduction to Computer Science, to solve an issue with a PHP script.&lt;/p&gt;
 &lt;p&gt;I decided to fork BellaBuffs and release my version of the fanlisting script with PHPMailer integration, in case there are others who want to use BellaBuffs to build fanlistings, but cannot or do not want to use the PHP &lt;code&gt;mail()&lt;/code&gt; function.&lt;/p&gt;
 &lt;p&gt;You can download my BellaBuffs fork and learn about how to use it from &lt;a href=&quot;https://github.com/helenclx/BellaBuffs-PHPMailer&quot;&gt;its GitHub repository&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Finally Deployed My Scrimba React Solo Projects to GitHub Pages</title>
-    <link href="https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/" />
-    <updated>2024-06-03T03:01:00Z</updated>
-    <id>https://helenchong.dev/blog/posts/2024-06-03-deploy-scrimba-react-solo-projects-to-github-pages/</id>
-    <content type="html">&lt;p&gt;I had completed &lt;a href=&quot;https://scrimba.com/learn/learnreact&quot;&gt;Scrimba&#39;s Learn React course&lt;/a&gt; and its solo projects back in July 2023, even before &lt;a href=&quot;https://helenchong.dev/blog/posts/2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won/&quot;&gt;winning a one-year Scrimba Pro plan from JavaScriptmas 2023&lt;/a&gt; for free, since the course, including the instructions and Figma files for the solo projects, is also available on freeCodeCamp&#39;s YouTube channel.&lt;/p&gt;
-&lt;p&gt;However, I always struggled to figure out how to deploy React project from a GitHub repository&#39;s subfolders or subdirectories, and frustrated by the lack of guides for that. Scrimba&#39;s course does teach about using GitHub, but they often recommend deploying projects from their course to Netlify by doing it manually on &lt;a href=&quot;https://app.netlify.com/drop&quot;&gt;Netlify Drop&lt;/a&gt;. To be fair, Netlify Drop is great for beginner developers, especially when they are new to source control such as Git. However, when I finished Scirmba&#39;s Learn React course, I already had a handful of projects deployed to GitHub Pages. Later, I even managed to deploy my React Tenzies Game, which was based on the tutorial from the Learn React course, to GitHub Pages by creating a &lt;a href=&quot;https://github.com/helenclx/Tenzies-Game&quot;&gt;dedicated repository for my Tenzies Game&lt;/a&gt; and searching for a guide for how to deploy a React project to GitHub Pages.&lt;/p&gt;
-&lt;p&gt;Unfortunately, I could not find any guide for how to deploy React projects from multiple subfolders or subdirectories of a repository, and I did not have enough experience with using GitHub actions to feel comfortable trying to figure it out myself, so I had to manually deploy my Scrimba React solo projects to Netlify by using Netlify Drop, which I do not find ideal because I had to repeat the process every time I made a change to those projects.&lt;/p&gt;
-&lt;p&gt;Lately, as I have been busy with maintaining and improving my projects hosted on GitHub, I suddenly thought of trying to search for ways to deploy React projects to GitHub Pages from the repository&#39;s subdirectories again. That was when I, at long last, found a guide that helped me to solve my months-long dilemma once and for all: &lt;a href=&quot;https://dev.to/devloker/deploy-a-react-projects-that-are-inside-a-subdirectories-to-github-pages-using-github-actions-cicd-3n9l&quot;&gt;&amp;quot;Deploy a react projects that are inside a subdirectories to GitHub Pages using GitHub Actions (CI/CD)&amp;quot; by DEVLOKER&lt;/a&gt;. It is worth noting that the guide was posted only recently on 11 April 2024. The guide also uses Vite for React projects, which was perfect for me since Vite is also what I use to create React projects, including the ones from Scrimba courses. The guide&#39;s Vite configuration file is in TypeScript format (&lt;code&gt;vite.config.ts&lt;/code&gt;), but it totally works with JavaScript format (&lt;code&gt;vite.config.js&lt;/code&gt;) too.&lt;/p&gt;
-&lt;p&gt;This was my set-up in the YAML file of my GitHub action when I succeeded in deploying my Scrimba React solo projects to GitHub Pages:&lt;/p&gt;
-&lt;pre class=&quot;language-yaml&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy to GitHub Pages
-
-&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;main&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;workflow_dispatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-
-&lt;span class=&quot;token key atrule&quot;&gt;permissions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; read
-  &lt;span class=&quot;token key atrule&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; write
-  &lt;span class=&quot;token key atrule&quot;&gt;id-token&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; write
-
-&lt;span class=&quot;token key atrule&quot;&gt;concurrency&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;pages&quot;&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;cancel-in-progress&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;
-
-&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;token key atrule&quot;&gt;deploy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
-    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Checkout
-        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v4
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Set up Node
-        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/setup&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;node@v4
-        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-          &lt;span class=&quot;token key atrule&quot;&gt;node-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; latest
-
-      &lt;span class=&quot;token comment&quot;&gt;# digital-business-card project&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build digital&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;business&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;card
-        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
-          cd 1-digital-business-card
-          npm install &amp;amp;&amp;amp; npm run build
-          cd ..
-          mkdir -p deploy/1-digital-business-card
-          cp -r 1-digital-business-card/dist/* deploy/1-digital-business-card/&lt;/span&gt;
-
-      &lt;span class=&quot;token comment&quot;&gt;# travel-journal project&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build travel&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;journal
-        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
-          cd 2-travel-journal
-          npm install &amp;amp;&amp;amp; npm run build
-          cd ..
-          mkdir -p deploy/2-travel-journal
-          cp -r 2-travel-journal/dist/* deploy/2-travel-journal/&lt;/span&gt;
-
-      &lt;span class=&quot;token comment&quot;&gt;# quizzical project&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build quizzical
-        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
-          cd 3-quizzical
-          npm install &amp;amp;&amp;amp; npm run build
-          cd ..
-          mkdir -p deploy/3-quizzical
-          cp -r 3-quizzical/dist/* deploy/3-quizzical/&lt;/span&gt;
-
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Setup Pages
-        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/configure&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages@v4
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Upload artifact
-        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/upload&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;artifact@v3
-        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-          &lt;span class=&quot;token key atrule&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./deploy&quot;&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy to GitHub Pages
-        &lt;span class=&quot;token key atrule&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; deployment
-        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/deploy&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages@v4&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This set-up made my Scrimba React solo projects live at the following links:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://helenclx.github.io/Scrimba-React-Solo-Projects/1-digital-business-card/&quot;&gt;Digital Business Card&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://helenclx.github.io/Scrimba-React-Solo-Projects/2-travel-journal/&quot;&gt;Travel Journal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/&quot;&gt;Quizzical&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I was beyond relief to finally deployed my Scrimba React solo projects to GitHub Pages, so I decided to do a bit more by creating a HTML home page to list those solo projects when the main link of the deployed repository, &lt;a href=&quot;https://helenclx.github.io/Scrimba-React-Solo-Projects/&quot;&gt;https://helenclx.github.io/Scrimba-React-Solo-Projects/&lt;/a&gt;, is visited.&lt;/p&gt;
-&lt;p&gt;I do not need a fancy home page for my deployed Scrimba React solo projects, so I based the home page&#39;s CSS on the &lt;a href=&quot;https://SmolCSS.dev/#smol-document-styles&quot;&gt;Smol Document Styles by SmolCSS&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;After finished creating the HTML and CSS of the home page, I wrote an extra step in the YAML file of my GitHub actions to deploy my React solo projects to GitHub Pages, after building each project and before setting up GitHub Pages.&lt;/p&gt;
-&lt;pre class=&quot;language-yaml&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# index page and assets&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy index page and assets
-  &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;token scalar string&quot;&gt;
-      mkdir -p deploy
-      cp -r index.html style.css deploy/
-      cp -r 1-digital-business-card/screenshot.png deploy/1-digital-business-card/
-      cp -r 2-travel-journal/screenshot.png deploy/2-travel-journal/
-      cp -r 3-quizzical/screenshot-start.png 3-quizzical/screenshot-questions.png 3-quizzical/screenshot-answers.png deploy/3-quizzical/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;What this step does is creating a &amp;quot;deploy&amp;quot; folder and then copy the home page&#39;s HTML, CSS to the &amp;quot;deploy&amp;quot; folder, and copy the project screenshots to the folder of each project.&lt;/p&gt;
-&lt;p&gt;Here is the final code of my GitHub action TAML file to deploy my Scrimba React solo projects in &lt;a href=&quot;https://github.com/helenclx/Scrimba-React-Solo-Projects/blob/main/.github/workflows/gh-pages.yml&quot;&gt;my Scrimba React solo projects repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Now that I have successfully deployed my Scrimba React solo projects to GitHub Pages, I can finally delete those projects from Netlify and free up more monthly bandwidth for my other projects that I actually want to deploy to Netlify.&lt;/p&gt;
 </content>
   </entry>
 </feed>

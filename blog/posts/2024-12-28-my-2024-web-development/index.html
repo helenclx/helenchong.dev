@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <meta property="og:title" content="Blog">
-        <link rel="canonical" href="https://helenchong.dev/blog/page/5/">
+        <meta property="og:title" content="My 2024 Year in Web Development">
+        <link rel="canonical" href="https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/">
         <meta name="generator" content="Eleventy v3.0.0">
         <meta name="author" content="Helen Chong">
-        <meta name="description" content="Helen Chong&#39;s developer portfolio and blog website.">
+        <meta name="description" content="Reflecting on my 2024 as a web developer.">
         <meta name="fediverse:creator" content="@helenchong@social.lol">
         <meta property="og:site_name" content="Helen Chong, Web Developer">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Helen Chong&#39;s developer portfolio and blog website.">
-        <meta property="og:url" content="https://helenchong.dev/blog/page/5/">
+        <meta property="og:type" content="article">
+        <meta property="og:description" content="Reflecting on my 2024 as a web developer.">
+        <meta property="og:url" content="https://helenchong.dev/blog/posts/2024-12-28-my-2024-web-development/">
         <meta property="og:locale" content="en_MY">
         <meta property="og:image" content="https://helenchong.dev/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
@@ -60,63 +60,51 @@
 
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/utility.css">
-        <style>.pagination__wrapper {
-        display: grid;
-        place-content: center;
-        margin-top: 3em;
+        <style>.toc__wrapper {
+        max-height: 80vh;
+        overflow-x: auto;
+        padding: 0.3em 1.3rem 1.5em;
     }
 
-    .pagination {
-        list-style-type: "";
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .pagination li {
-        text-align: center;
-        padding: 0.3em 0.7em;
-
-    }
-
-    .pagination li:has(a) { border: 0.15em solid var(--clr-accent-700); }
-
-    .pagination li:has(a):hover {
+    .toc__heading {
+        font-size: 1.4rem;
+        font-weight: 700;
         cursor: pointer;
-        border-color: var(--clr-link-hover);
     }
 
-    .pagination li:has(a):hover > a { color: var(--clr-link-hover); }
-    .pagination li:has(a):focus-within { outline: 0.2em solid var(--clr-accent-700); }
-    .pagination li a { text-decoration: none; }
-    .pagination li a:focus { outline: none; }
-.blog__posts, .blog__post { display: grid; }
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.7em;
+    }
 
-    .blog__posts {
-        list-style-type: none;
+    .toc ol {
+        border-top: 0.1em solid var(--clr-txt-default);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        margin: 0;
+    }
+
+    .toc ol a {
+        font-size: 1.1em;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
         padding: 0;
-        margin: 1.5em 0 0 0;
+        font-size: 1em;
     }
 
-    .blog__post {
-        --bdr-blogpost: 0.15em solid var(--clr-accent-600);
-        gap: 0.6em;
-        padding: 1.5em 0;
-        border-bottom: var(--bdr-blogpost);
+    @media only screen and (min-width: 60rem) {
+        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
     }
-
-    .blog__post:first-of-type { border-top: var(--bdr-blogpost); }
-
-    .blog__post--title {
-        font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
-        line-height: 1.3;
-        margin-bottom: 0 !important;
-    }
-
-    .blog__post--time { font-weight: 700; }
 .header {
         display: flex;
         justify-content: space-between;
@@ -299,8 +287,10 @@
         
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
+        <script src="/assets/js/details-utils.js" defer=""></script>
+        
 
-        <title> Blog |  Helen Chong, Web Developer</title>
+        <title> My 2024 Year in Web Development |  Helen Chong, Web Developer</title>
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
@@ -362,110 +352,113 @@
             
 <header class="main__header">
     
+    <nav aria-labelledby="breadcrumbs-title">
+        <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+        <ol class="breadcrumbs">
+            
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+            <li>
+                <a href="/blog/posts/">Archive</a>
+            </li>
+        </ol>
+    </nav>
 
 
-    <h1 class="heading--main">Blog</h1>
 
+    <h1 class="heading--main">My 2024 Year in Web Development</h1>
+
+    
+    <div class="blog__post--info">
+        <p>
+            <span class="text-bold">1,066 words</span>.
+            <span class="text-bold">Posted:</span> <time datetime="2024-12-28T19:47:18+0800">28 December 2024</time> by Helen Chong
+        </p>
+        
+        <p><span class="text-bold">Categories:</span>
+            
+                <a href="/blog/categories/year-in-review">year in review</a>, 
+            
+                <a href="/blog/categories/web-development">web development</a>
+            
+        </p>
+    </div>
     
 </header>
 
 <content-wrapper>
     
+    <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore="">
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#discovering-eleventy">Discovering Eleventy</a></li>
+<li><a href="#custom-domain-name-and-new-host-for-my-website">Custom Domain Name and New Host for My Website</a></li>
+<li><a href="#completed-a-cs50-course">Completed a CS50 Course</a></li>
+<li><a href="#my-first-web-developer-job">My First Web Developer Job</a></li>
+<li><a href="#wrapping-up">Wrapping Up</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
 
     
-    <div class="prose">
-        
-<p>Welcome to my developer blog! My blog is a place for me to document my developer journey and talk about various tech topics. Enjoy your stay!</p>
-
-<h2>Blog Posts</h2>
-<ul class="blog__posts">
-
-    <li class="blog__post">
-        <h3 class="blog__post--title">
-            <a href="/blog/posts/2023-09-10-CS50x-Week-7-Completed/">
-                CS50x Week 7 Completed
-                
-            </a>
-        </h3>
-        <p><time datetime="Sun Sep 10 2023 00:00:00 GMT+0000 (Coordinated Universal Time)" class="blog__post--time">10 September 2023</time></p>
-        <p>I have completed and submitted the Week 7 assignment of the CS50&#39;s Introduction to Computer Science (CS50x) course.</p>
-    </li>
-
-    <li class="blog__post">
-        <h3 class="blog__post--title">
-            <a href="/blog/posts/2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project/">
-                Built A TickyBot Clone for Chingu&#39;s Solo Projects
-                
-            </a>
-        </h3>
-        <p><time datetime="Thu Aug 24 2023 00:00:00 GMT+0000 (Coordinated Universal Time)" class="blog__post--time">24 August 2023</time></p>
-        <p>I built a TickyBot Clone for Chingu&#39;s Solo Project.</p>
-    </li>
-
-    <li class="blog__post">
-        <h3 class="blog__post--title">
-            <a href="/blog/posts/2023-08-21-Welcome-to-Helen-Codes/">
-                Welcome to Helen Codes
-                
-            </a>
-        </h3>
-        <p><time datetime="Mon Aug 21 2023 00:00:00 GMT+0000 (Coordinated Universal Time)" class="blog__post--time">21 August 2023</time></p>
-        <p>Welcome to Helen Chong&#39;s coding and tech blog.</p>
-    </li>
-
-</ul>
-
-
-
-
-
-
-
-
-
-<nav aria-labelledby="pagination-title" class="pagination__wrapper">
-    <h2 class="visually-hidden" id="pagination-title">Pagination</h2>
-    <ul class="pagination">
-        <li>
-            
-                <a href="/blog/">
-                    
-<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"></path></svg>
-Newest
-                </a>
-            
-        </li>
-        <li>
-            
-                <a href=" /blog/page/4/">
-                    <i class="fa-solid fa-angle-left"></i>
-                    
-<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"></path></svg>
-Newer
-                </a>
-            
-        </li>
-        <li>
-             
-                Older
-<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
-
-            
-        </li>
-        <li>
-            
-                <a href=" /blog/page/5/">
-                    Oldest
-<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg>
-
-                </a>
-            
-        </li>
-    </ul>
-</nav>
 
     
-    </div>
+    <article class="prose">
+        <p>2024 was an eventful year for my developer journey, so as 2024 is getting closer to the end, it is time to reflect on my 2024 as a web developer.</p>
+<div class="heading-wrapper h2">
+<h2 id="discovering-eleventy">Discovering Eleventy</h2>
+<a class="heading-anchor" href="#discovering-eleventy" aria-labelledby="discovering-eleventy"><span hidden="">#</span></a></div>
+<p>The main event that changed my web developer life for the better in 2024 was my discovery of the static site generator <a href="https://www.11ty.dev/">Eleventy</a> in April.</p>
+<p>Since I built this website in December 2022, this site has grown from the original simple purpose of a developer portfolio, to including a blog that serves as my online journal as a developer. As a consequence, I started to look for ways to build and maintain my websites in a more elegant manner, ideally to eliminate the need to duplicate the same HTML code of my website's header and footer over and over on every page.</p>
+<p>As learning more about static site generators, I eventually discovered Eleventy through Neocities, as some websites hosted on Neocities were built with it. After digging into and trying out Eleventy, I quickly realised that it was the solution I had been looking for, so I decided to <a href="/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/">rebuild my developer portfolio and blog with Eleventy</a>, and launched my rebuilt developer website on 9 April 2024, and I could not be happier with how my website and my new development workflow turned out.</p>
+<p>In addition to becoming my favourite tool to build websites, Eleventy has a wonderful community of web developers who share my interest in making the web better. Therefore, by talking about Eleventy on both this blog and Mastodon, I got to connect with other like-minded developers. Connecting with the Eleventy community provided me my first opportunity to speak at a tech event, specifically <a href="/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/">Episode 19 of THE Eleventy Meetup</a>.</p>
+<p>Thank you, Eleventy, for not only making me enjoy building websites, including my own, even more, but also for giving me the opportunity to connect with other like-minded web developers.</p>
+<div class="heading-wrapper h2">
+<h2 id="custom-domain-name-and-new-host-for-my-website">Custom Domain Name and New Host for My Website</h2>
+<a class="heading-anchor" href="#custom-domain-name-and-new-host-for-my-website" aria-labelledby="custom-domain-name-and-new-host-for-my-website"><span hidden="">#</span></a></div>
+<p>Rebuilding my entire website with a static site generator was only the first step of taking my site to the next level.</p>
+<p>As both my website and my web development skills grew, I began to consider renting a custom domain name for my website to give my site a unique identity on the web.</p>
+<p>Near the end of May, I rented helenchong.dev from Porkbun, making it my first time spending money on a domain name, and <a href="/blog/posts/2024-05-29-custom-domain-name-helenchong-dev/">set helenchong.dev as the domain name of my developer website</a>.</p>
+<p>Initially, this website was hosted on GitHub pages, but as I learned more advanced concepts about web development and hosting, I started to desire more control over how I run my website, and thus looked for alternative web hosting options. Meanwhile, I had started <a href="/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/">learning PHP for my hobby projects</a>, so I wanted web hosting that supported PHP too.</p>
+<p>Eventually, after researching alternative web hosting options, I finally <a href="/blog/posts/2024-07-31-migrating-to-hostinger/">migrated all my static and PHP websites to Hostinger's shared hosting plan</a> in July. I have used Hostinger since then, and I am satisfied with it.</p>
+<div class="heading-wrapper h2">
+<h2 id="completed-a-cs50-course">Completed a CS50 Course</h2>
+<a class="heading-anchor" href="#completed-a-cs50-course" aria-labelledby="completed-a-cs50-course"><span hidden="">#</span></a></div>
+<p>On 23 May 2024, I <a href="/blog/posts/2024-05-27-cs50x-course-completed/">completed CS50’s Introduction to Computer Science</a>, also known as CS50x, course. The course is not specific to web development, but it has taught me the knowledge I need to become a better developer and programmer.</p>
+<p>While CS50x was not the first online course for coding I had taken, it might be the most challenging, especially with how the assignments test your problem-solving skills and not just your computer science knowledge and coding skills.</p>
+<p>I am grateful of CS50 for teaching me the computer science knowledge and theories that allow me to adapt to different programming languages, such as when <a href="/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/">I learned PHP for the first time for a hobby project</a>, and understand computers and programming better.</p>
+<div class="heading-wrapper h2">
+<h2 id="my-first-web-developer-job">My First Web Developer Job</h2>
+<a class="heading-anchor" href="#my-first-web-developer-job" aria-labelledby="my-first-web-developer-job"><span hidden="">#</span></a></div>
+<p>My <a href="/blog/posts/2024-11-05-my-web-dev-design-origin-story/">interest in web design and development</a> went as far back as my teenage blogging years in the 2000s, when I learned basic HTML and CSS through editing blog themes and widgets, but I did not know how to pursue web development as a profession at the time.</p>
+<p>Fast-forward to 2022, when my interest in HTML and CSS was rekindled by coding my own website from scratch for the first time after discovering Neocities. This time, my interest in web development grew enough for me to take online courses, starting with freeCodeCamp, and decided to switch my career path from graphic design to web development after being inspired by the stories of other people, including career switchers, becoming a professional developer without a computer science degree.</p>
+<p>After teaching myself web development for almost two years, my dream of <a href="/blog/posts/2024-08-16-got-my-first-developer-job/">getting my first developer job came true in August</a>. In my first web development job, I succeed in developing a custom WordPress plugin, something I never did before this job.</p>
+<p>Unfortunately, my first web development ended up lasting only four months, as it turned out, despite stating looking for someone with web development skills as the reason for inviting me for an interview and later hiring me, the company website was considered merely one part of its branding, and what my employer really wanted is a digital marketer who could wear many hats, which I should have seen coming in hindsight because my official title in the company was actually Marketing Assistant.</p>
+<p>I am a web developer, not a marketer, so I decided to leave the company to continue to focus on web development, thus 3 January 2025 will be the final day of my employment in the company.</p>
+<div class="heading-wrapper h2">
+<h2 id="wrapping-up">Wrapping Up</h2>
+<a class="heading-anchor" href="#wrapping-up" aria-labelledby="wrapping-up"><span hidden="">#</span></a></div>
+<p>2024 has been a huge year for my journey as a web developer, as it was a year when I achieved multiple milestones in those regards, including rebuilding my entire website with a static site generator for the first time, completing a CS50 course, speaking at a tech event for the first time, and getting my first developer job, despite the job eventually not turning out too well in the end.</p>
+<p>For 2025, I intend to continue to keep learning to hone my web development knowledge and skills.</p>
+
+
+    
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+            <ul class="blog__post--nextprev">
+                <li class="blog__post--prev">
+                    <p>Previous Post:</p>
+                    <a href="/blog/posts/2024-11-05-my-web-dev-design-origin-story/">My Web Development and Web Design Origin Story</a>
+                </li>
+                
+            </ul>
+        </nav>
+    
+    </article>
 
     
     
