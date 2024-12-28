@@ -49,12 +49,12 @@ Fast-forward to 2022, when my interest in HTML and CSS was rekindled by coding m
 
 After teaching myself web development for almost two years, my dream of [getting my first developer job came true in August](2024-08-16-got-my-first-developer-job.md). In my first web development job, I succeed in developing a custom WordPress plugin, something I never did before this job.
 
-Unfortunately, my first web development ended up lasting only four months, as it turned out, despite stating looking for someone with web development skills as the reason for inviting me for an interview and later hiring me, the company website was considered merely one part of its branding, and what my employer really wanted is a digital marketer who could wear many hats, which I should have seen coming in hindsight because my official title in the company was actually Marketing Assistant.
+Unfortunately, my first web development ended up lasting only four months, as it turned out, despite stating looking for someone with web development skills as the reason for inviting me for an interview and later hiring me, the company website was considered merely one part of its branding, and what my employer really wanted is a digital marketer who could wear many hats, which I should have seen coming in hindsight because my official title in the company was actually Marketing Assistant, and the company does not have a tech or IT department.
 
 I am a web developer, not a marketer, so I decided to leave the company to continue to focus on web development, thus 3 January 2025 will be the final day of my employment in the company.
 
 ## Wrapping Up
 
-2024 has been a huge year for my journey as a web developer, as it was a year when I achieved multiple milestones in those regards, including rebuilding my entire website with a static site generator for the first time, completing a CS50 course, speaking at a tech event for the first time, and getting my first developer job, despite the job eventually not turning out too well in the end.
+2024 has been a huge year for my journey as a web developer, as it was a year when I achieved multiple milestones in those regards, including rebuilding my entire website with a static site generator for the first time, completing a CS50 course, speaking at a tech event for the first time, and getting my first developer job.
 
 For 2025, I intend to continue to keep learning to hone my web development knowledge and skills.
