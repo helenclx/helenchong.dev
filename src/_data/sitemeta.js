@@ -4,7 +4,7 @@ export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
 export const siteAuthor = {
 	name: "Helen Chong",
 	email: "contact@helenchong.dev",
-	emailEncoded: '<span class="email-encoded">contact@helenchong<b>.nospam</b>.dev</span>',
+	emailEncoded: '<span class="email-encoded">contact@helenchong<b>.mail</b>.dev</span>',
 	emailDecoyUrl: "emailme/",
 	url: siteUrl + "/about",
 	fediverse: {
