@@ -60,7 +60,52 @@
 
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/utility.css">
-        <style>.header {
+        <style>.toc__wrapper {
+        max-height: 80vh;
+        overflow-x: auto;
+        padding: 0.3em 1.3rem 1.5em;
+    }
+
+    .toc__heading {
+        font-size: 1.4rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.7em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-txt-default);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        margin: 0;
+    }
+
+    .toc ol a {
+        font-size: 1.1em;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 60rem) {
+        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
+    }
+.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -242,6 +287,8 @@
         
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
+        <script src="/assets/js/details-utils.js" defer=""></script>
+        
 
         <title> Got My First Developer Job |  Helen Chong, Web Developer</title>
     </head>
@@ -325,9 +372,11 @@
     
     <div class="blog__post--info">
         <p>
-            <span class="text-bold">755 words</span>.
+            <span class="text-bold">944 words</span>.
             <span class="text-bold">Posted:</span> <time datetime="2024-08-16T20:35:51+0800">16 August 2024</time> by Helen Chong
         </p>
+        
+        <p><span class="text-bold">Last Updated:</span> <time datetime="2025-01-02T21:51:14+0800">2 January 2025</time></p>
         
         <p><span class="text-bold">Categories:</span>
             
@@ -339,6 +388,21 @@
 </header>
 
 <content-wrapper>
+    
+    <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore="">
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#how-i-got-the-job">How I Got the Job</a></li>
+<li><a href="#wordpress-developer-by-day-eleventy-developer-by-night">WordPress Developer by Day, Eleventy Developer by Night</a></li>
+<li><a href="#wrapping-up">Wrapping Up</a></li>
+<li><a href="#major-update-2-january-2025-leaving-the-job">Major Update, 2 January 2025: Leaving the Job</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
     
 
     
@@ -363,6 +427,13 @@
 <a class="heading-anchor" href="#wrapping-up" aria-labelledby="wrapping-up"><span hidden="">#</span></a></div>
 <p>I am happy to be able to switch my career path to web development despite not having a computer science degree, and that my prior working experience as a graphic designer helped with getting this new job opportunity.</p>
 <p>Since I began to seriously consider pursuing web development as a profession, I have been introducing myself as a graphic designer turned aspiring web developer, on this website and my other online presence, because I hoped to transfer my creativity and design expertise into building the web. I am glad that my such aspirations have come true.</p>
+<hr>
+<div class="heading-wrapper h2">
+<h2 id="major-update-2-january-2025-leaving-the-job">Major Update, 2 January 2025: Leaving the Job</h2>
+<a class="heading-anchor" href="#major-update-2-january-2025-leaving-the-job" aria-labelledby="major-update-2-january-2025-leaving-the-job"><span hidden="">#</span></a></div>
+<p>Unfortunately, my first web development ended up lasting only four months, as it turned out, despite stating looking for someone with web development skills as the reason for inviting me for an interview and later hiring me, the company website was considered merely one part of its branding, and what my employer really wanted is a digital marketer who could wear many hats, which I should have seen coming in hindsight because my official title in the company was actually Marketing Assistant, and the company does not have a tech or IT department.</p>
+<p>I am a web developer, not a marketer, so I decided to leave the company to continue to focus on web development, thus 3 January 2025 will be the final day of my employment in the company.</p>
+<p>On the plus side, at least I actually got some professional web development experience, even if it lasted only a few months, since I had successfully developed a WordPress plugin for the first time ever during my first web developer job.</p>
 
 
     
