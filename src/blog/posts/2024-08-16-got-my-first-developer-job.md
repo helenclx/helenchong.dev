@@ -2,7 +2,9 @@
 title: Got My First Developer Job
 desc: At last, I have officially switched my career path to web development.
 date: 2024-08-16T20:35:51+0800
+updated: 2025-01-02T21:51:14+0800
 categories: ["life updates"]
+toc: true
 ---
 
 After working as a graphic designer for 8 years, and later taking online courses to learn to code for nearly two years without a computer science degree, I finally got my first developer job!
@@ -32,3 +34,13 @@ None of the coding courses I took taught about Eleventy or any static site gener
 I am happy to be able to switch my career path to web development despite not having a computer science degree, and that my prior working experience as a graphic designer helped with getting this new job opportunity.
 
 Since I began to seriously consider pursuing web development as a profession, I have been introducing myself as a graphic designer turned aspiring web developer, on this website and my other online presence, because I hoped to transfer my creativity and design expertise into building the web. I am glad that my such aspirations have come true.
+
+---
+
+## Major Update, 2 January 2025: Leaving the Job
+
+Unfortunately, my first web development ended up lasting only four months, as it turned out, despite stating looking for someone with web development skills as the reason for inviting me for an interview and later hiring me, the company website was considered merely one part of its branding, and what my employer really wanted is a digital marketer who could wear many hats, which I should have seen coming in hindsight because my official title in the company was actually Marketing Assistant, and the company does not have a tech or IT department.
+
+I am a web developer, not a marketer, so I decided to leave the company to continue to focus on web development, thus 3 January 2025 will be the final day of my employment in the company.
+
+On the plus side, at least I actually got some professional web development experience, even if it lasted only a few months, since I had successfully developed a WordPress plugin for the first time ever during my first web developer job.
