@@ -17,15 +17,9 @@ I have been interested in computers and the World Wide Web, as well as learning 
 
 Fast forward to 2022, discovering the resurgence of creating personal websites inspired me to relearn HTML and CSS. This time, I also dabbled in JavaScript. Eventually, my interest in web design and development grew enough to make me consider pursuing web development as a profession, thus I started taking online coding courses, starting with freeCodeCamp and Scrimba.
 
-After nearly two years of teaching myself to code without a computer science degree, I got my first developer job in August 2024, by handling WordPress development, UX design and graphic design for a local traditional Chinese medicine healthcare company.
+After nearly two years of teaching myself to code without a computer science degree, I got my first developer job in August 2024, specifically by handling WordPress development, and I succeed in making my first WordPress plugin.
 
 If you are looking for my professional history, you can [check out my résumé]({{sitemeta.siteUrl}}/resume).
-
-## About This Website
-
-This is my developer website serving as both a portfolio and a blog. While this site is presented to be suitable for professional purposes, I also intent to give it personal touches through my design and writing.
-
-Technical information about this website can be found on [its colophon page](/colophon).
 
 ## Interests
 
@@ -38,6 +32,12 @@ You can learn about what I doing to at the moment from [my now page](https://hel
 ## Contact
 
 Information for how to get in touch with me can be found on this website's [contact page](contact.njk).
+
+## About This Website
+
+This is my developer website, serving as both a portfolio and a blog. While this site is presented to be suitable for professional purposes, I also intent to give it personal touches through my design and writing.
+
+Technical information about this website can be found on [its colophon page](/colophon).
 
 ## Tip Jar
 
