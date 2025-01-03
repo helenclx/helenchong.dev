@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <meta property="og:title" content="Projects">
-        <link rel="canonical" href="https://helenchong.dev/projects/">
+        <meta property="og:title" content="Developed My First WordPress Plugin">
+        <link rel="canonical" href="https://helenchong.dev/blog/posts/2025-01-03-my-first-wordpress-plugin/">
         <meta name="generator" content="Eleventy v3.0.0">
         <meta name="author" content="Helen Chong">
-        <meta name="description" content="Helen Chong&#39;s developer portfolio and blog website.">
+        <meta name="description" content="I successfully developed a WordPress plugin during my first web developer job.">
         <meta name="fediverse:creator" content="@helenchong@social.lol">
         <meta property="og:site_name" content="Helen Chong, Web Developer">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Helen Chong&#39;s developer portfolio and blog website.">
-        <meta property="og:url" content="https://helenchong.dev/projects/">
+        <meta property="og:type" content="article">
+        <meta property="og:description" content="I successfully developed a WordPress plugin during my first web developer job.">
+        <meta property="og:url" content="https://helenchong.dev/blog/posts/2025-01-03-my-first-wordpress-plugin/">
         <meta property="og:locale" content="en_MY">
         <meta property="og:image" content="https://helenchong.dev/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
@@ -243,7 +243,7 @@
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
 
-        <title> Projects |  Helen Chong, Web Developer</title>
+        <title> Developed My First WordPress Plugin |  Helen Chong, Web Developer</title>
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
@@ -262,10 +262,10 @@
         <li><a class="header__link " href="/about/">
                 About
         </a></li>
-        <li><a class="header__link " href="/blog/">
+        <li><a class="header__link link--active" href="/blog/">
                 Blog
         </a></li>
-        <li><a aria-current="page" class="header__link link--active" href="/projects/">
+        <li><a class="header__link " href="/projects/">
                 Projects
         </a></li>
         <li><a class="header__link " href="/speaking/">
@@ -286,10 +286,10 @@
         <li><a class="header__link " href="/about/">
                 About
         </a></li>
-        <li><a class="header__link " href="/blog/">
+        <li><a class="header__link link--active" href="/blog/">
                 Blog
         </a></li>
-        <li><a aria-current="page" class="header__link link--active" href="/projects/">
+        <li><a class="header__link " href="/projects/">
                 Projects
         </a></li>
         <li><a class="header__link " href="/speaking/">
@@ -305,10 +305,38 @@
             
 <header class="main__header">
     
+    <nav aria-labelledby="breadcrumbs-title">
+        <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+        <ol class="breadcrumbs">
+            
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+            <li>
+                <a href="/blog/posts/">Archive</a>
+            </li>
+        </ol>
+    </nav>
 
 
-    <h1 class="heading--main">Featured Projects</h1>
 
+    <h1 class="heading--main">Developed My First WordPress Plugin</h1>
+
+    
+    <div class="blog__post--info">
+        <p>
+            <span class="text-bold">558 words</span>.
+            <span class="text-bold">Posted:</span> <time datetime="2025-01-03T16:30:08+0800">3 January 2025</time> by Helen Chong
+        </p>
+        
+        <p><span class="text-bold">Categories:</span>
+            
+                <a href="/blog/categories/wordpress">wordpress</a>, 
+            
+                <a href="/blog/categories/php">php</a>
+            
+        </p>
+    </div>
     
 </header>
 
@@ -316,176 +344,50 @@
     
 
     
-    <div class="prose">
-        
-<div class="project-list">
-    
-        
+    <article class="prose">
+        <p>3 January 2025 was the final day of <a href="/blog/posts/2024-08-16-got-my-first-developer-job/">my first web developer job</a>.</p>
+<p>The best thing that came out from my first web developer job was my accomplishment of learning and successfully developing a WordPress plugin for the first time. Specifically, my plugin is an add-on to <a href="https://plugins.longwatchstudio.com/">Long Watch Studio</a>'s <a href="https://plugins.longwatchstudio.com/product/woorewards/">WooRewards</a>, which is a plugin for WooCommerce.</p>
+<p>What my plugin does is to add one-time redeemable vouchers as a reward option in a WooCommerce website's points and rewards system powered by WooRewards for customers to unlock, with the vouchers being issued by using the <a href="https://qrplanet.com/qr-code-api">QR Planet API</a>. When a customer unlocks a one-time redeemable voucher reward, the plugin will automatically send the customer an email containing a link to redeem the voucher with instructions. Like with other types of rewards in WooRewards, the WordPress or WooCommerce website's administrator can enter how many points are required to unlock the voucher in the settings. The website administrator also needs a QR Planet account and API secret key to take full advantage of the API.</p>
+<p>As soon as my first web developer job started, I was tasked by my employer to figure out how to incorporate <a href="https://qrplanet.com/help/article/one-time-redeemable-qr-code-coupons">QR Planet's one-time redeemable coupon feature</a> into my former company's WooCommerce website that used WooRewards to power their customer points and rewards system, since QR Planet does not provide any official WordPress plugin (at least at the moment). After researching both WooRewards and QR Planet, I suggested to my employer that the best solution was to develop our own WordPress plugin as an add-on to WooRewards.</p>
+<p>Before getting my first developer job, I had some basic PHP knowledge and skills, notably by <a href="/blog/posts/2024-07-08-dipping-my-toes-in-php-for-my-hobby-project/">creating my own fork of a PHP website script as a hobby project</a>, so I developed my first WordPress plugin by applying my knowledge and skills of how to study the source code of an existing project to learn how to add extra features to it.</p>
+<p>The PHP features I learned the most from developing my one-time redeemable voucher plugin were <a href="https://www.php.net/manual/en/language.oop5.php">classes and objects</a>, since WooRewards' functions are mostly powered by classes and objects, so my first objective in developing the plugin was to write my own classes and objects for calling the QR Planet API, generating a voucher and a link to redeem the voucher, setting up an email template for my plugin, and setting up my plugin to work with WooRewards. I learned how to write the PHP code to execute the things I want my plugin to do, by doing a lot of research on the web about classes and objects. I wrote and test my plugin one step at a time to gradually ensure my plugin does the things I want it to do.</p>
+<p>After I completed and tested my plugin, I proudly showed it to my employer and manager. I still remember the &quot;wow&quot; my employer exclaimed when I told him I succeed in completing the task he assigned to me by developing a WordPress plugin.</p>
+<p>My success in developing my first WordPress plugin was a huge milestone in my web developer journey, by showcasing not only my technical and programming knowledge and skills, but also my learning and problem-solving skills.</p>
+<p>You can view the source code of my one-time redeemable voucher add-on WooRewards by checking out <a href="https://github.com/helenclx/woorewards-addon-one-time-voucher">its GitHub repository</a>.</p>
 
-
-
-
-<article class="project-card">
-    <div class="project-card__image-wrapper">
-        <img src="/assets/images/projects/woorewards-ont-time-voucher.avif" alt="Email screenshot of WooRewards Add-On: One-Time Redeemable Voucher">
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-        
-            <span class="project-card__tag">PHP</span>
-        
-            <span class="project-card__tag">WordPress</span>
-        
-            <span class="project-card__tag">API</span>
-        
-        </div>
-        <h2 class="project-card__title">WooRewards Add-On: One-Time Redeemable Voucher</h2>
-        <p class="project-card__summary">WordPress plugin to add one-time redeemable vouchers as a reward option to WooRewards, the WooCommerce plugin.</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-            <a class="project-card__link" href="/projects/woorewards-one-time-voucher/">Project case study of WooRewards Add-On: One-Time Redeemable Voucher</a>
-        </p>
-    </div>
-</article>
-    
-        
-
-
-
-
-<article class="project-card">
-    <div class="project-card__image-wrapper">
-        <img src="/assets/images/projects/Recipe-Hub.avif" alt="Screenshot of Recipe Hub">
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-        
-            <span class="project-card__tag">JavaScript</span>
-        
-            <span class="project-card__tag">API</span>
-        
-        </div>
-        <h2 class="project-card__title">Recipe Hub</h2>
-        <p class="project-card__summary">Allows users to search for recipes by entering an ingredient. Developed by Chingu Voyage 46 Tier 1 Team 1, in which I was part of.</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-            <a class="project-card__link" href="/projects/recipe-hub/">Project case study of Recipe Hub</a>
-        </p>
-    </div>
-</article>
-    
-        
-
-
-
-
-<article class="project-card">
-    <div class="project-card__image-wrapper">
-        <img src="/assets/images/projects/CS50-Flask-Blog.avif" alt="Screenshot of CS50 Flask Blog">
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-        
-            <span class="project-card__tag">Python</span>
-        
-            <span class="project-card__tag">Flask</span>
-        
-            <span class="project-card__tag">SQLite</span>
-        
-        </div>
-        <h2 class="project-card__title">CS50 Flask Blog</h2>
-        <p class="project-card__summary">A private blogging application built with Flask. My final project for CS50x 2024 course.</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-            <a class="project-card__link" href="/projects/cs50-flask-blog/">Project case study of CS50 Flask Blog</a>
-        </p>
-    </div>
-</article>
-    
-        
-
-
-
-
-<article class="project-card">
-    <div class="project-card__image-wrapper">
-        <img src="/assets/images/projects/Frontend-Mentor-Challenges.avif" alt="Screenshot of a solution to a Frontend Mentor challenge">
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-        
-            <span class="project-card__tag">JavaScript</span>
-        
-            <span class="project-card__tag">API</span>
-        
-        </div>
-        <h2 class="project-card__title">Frontend Mentor Challenge Solutions</h2>
-        <p class="project-card__summary">My solutions to the Frontend Mentor challenges.</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-            <a class="project-card__link" href="/projects/frontend-mentor/">Project case study of Frontend Mentor Challenge Solutions</a>
-        </p>
-    </div>
-</article>
-    
-        
-
-
-
-
-<article class="project-card">
-    <div class="project-card__image-wrapper">
-        <img src="/assets/images/projects/Quizzical.avif" alt="Screenshot of the Quizzical project">
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-        
-            <span class="project-card__tag">React.js</span>
-        
-            <span class="project-card__tag">API</span>
-        
-        </div>
-        <h2 class="project-card__title">Quizzical</h2>
-        <p class="project-card__summary">Test your knowledge with this quiz game. A solo project for Scrimba&#39;s React course.</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-            <a class="project-card__link" href="/projects/quizzical/">Project case study of Quizzical</a>
-        </p>
-    </div>
-</article>
-    
-        
-
-
-
-
-<article class="project-card">
-    <div class="project-card__image-wrapper">
-        <img src="/assets/images/projects/Scrimba-Frontend-Path.avif" alt="Screenshot of a Scrimba solo project">
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-        
-            <span class="project-card__tag">JavaScript</span>
-        
-            <span class="project-card__tag">API</span>
-        
-            <span class="project-card__tag">Firebase</span>
-        
-        </div>
-        <h2 class="project-card__title">Scrimba Frontend Path Solo Projects</h2>
-        <p class="project-card__summary">My solo projects for Scrimba&#39;s Frontend Developer Career Path.</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-            <a class="project-card__link" href="/projects/scrimba/">Project case study of Scrimba Frontend Path Solo Projects</a>
-        </p>
-    </div>
-</article>
-    
-</div>
 
     
-    </div>
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+            <ul class="blog__post--nextprev">
+                <li class="blog__post--prev">
+                    <p>Previous Post:</p>
+                    <a href="/blog/posts/2024-12-28-my-2024-web-development/">My 2024 Year in Web Development</a>
+                </li>
+                
+            </ul>
+        </nav>
+    
+    </article>
+
+    
+    
+<aside class="right-sidebar">
+    <nav class="blog__nav sidebar--sticky" aria-labelledby="blog-nav-title">
+        <h2 class="blog__nav--title" id="blog-nav-title">Blog Navigation</h2>
+        <ul class="blog__nav--links">
+            <li><a href="/blog/">Index</a></li>
+            
+                <li><a href="/blog/categories/">
+                        Categories
+                </a></li>
+                <li><a href="/blog/posts/">
+                        Archive
+                </a></li>
+            <li><a href="/blog/feed.xml">RSS Feed</a></li>
+        </ul>
+    </nav>
+</aside>
 
     
 </content-wrapper>

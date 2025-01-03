@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://helenchong.dev/projects/frontend-mentor/</loc>
+        <loc>https://helenchong.dev/projects/woorewards-one-time-voucher/</loc>
         <lastmod>2023-01-01T00:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
@@ -157,98 +157,104 @@
 		<priority>0.5</priority>
     </url>
     <url>
+        <loc>https://helenchong.dev/blog/posts/2025-01-03-my-first-wordpress-plugin/</loc>
+        <lastmod>2025-01-03T08:30:08.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://helenchong.dev/blog/categories/</loc>
-        <lastmod>2025-01-02T14:12:28.786Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.853Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/blog/categories/100-days-of-code/</loc>
-        <lastmod>2025-01-02T14:12:28.786Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.853Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/blog/posts/</loc>
-        <lastmod>2025-01-02T14:12:28.786Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.853Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/</loc>
-        <lastmod>2025-01-02T14:12:28.787Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
+        <changefreq>weekly</changefreq>
+		<priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://helenchong.dev/projects/frontend-mentor/</loc>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/projects/quizzical/</loc>
-        <lastmod>2025-01-02T14:12:28.787Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/projects/scrimba/</loc>
-        <lastmod>2025-01-02T14:12:28.787Z</lastmod>
-        <changefreq>weekly</changefreq>
-		<priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://helenchong.dev/projects/tenzies/</loc>
-        <lastmod>2025-01-02T14:12:28.787Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/linkroll/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/about/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/blog/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/contact/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/projects/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/speaking/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/accessibility/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/colophon/</loc>
-        <lastmod>2025-01-02T14:12:28.788Z</lastmod>
+        <lastmod>2025-01-03T08:33:45.855Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
     <url>
         <loc>https://helenchong.dev/blog/feed.xml</loc>
-        <lastmod>2025-01-02T14:12:31.942Z</lastmod>
+        <lastmod>2025-01-03T08:33:49.434Z</lastmod>
         <changefreq>weekly</changefreq>
 		<priority>0.5</priority>
     </url>
