@@ -19,8 +19,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2.5em;
-    margin: 3em 0;
+    gap: 2em;
+    margin-bottom: 3em;
     padding: 0 1em;
 }
 
@@ -73,16 +73,22 @@
 }
 
 /* Home headings */
+.home__title {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+    padding: 0 1em;
+}
+
 .heading--home {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    margin-bottom: 0.8em;
     text-align: center;
 }
 
 /* Home button links */
 .home__btn-link {
     display: block;
-    margin: 0 auto;
+    margin: 1.3em auto 0;
     border: 0.15em solid currentColor;
     text-decoration: none;
     padding: 0.5em 1em;
