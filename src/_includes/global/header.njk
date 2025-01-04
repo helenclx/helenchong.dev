@@ -16,11 +16,9 @@
 {% endset %}
 
 <header class="header">
-    <h2 class="header__title">
-        <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">
-            <img class="header__logo" src="/assets/favicon/HC-favicon.svg" alt="Helen Chong initials logo">
-        </a>
-    </h2>
+    <a class="header__title" {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">
+        <img class="header__logo" src="/assets/favicon/HC-favicon.svg" alt="Helen Chong initials logo">
+    </a>
     <nav aria-labelledby="top-nav-title">
         <p class="visually-hidden" id="top-nav-title">Main</p>
         <ul class="header__navmenu header__links">{{ navLinks | safe }}</ul>
