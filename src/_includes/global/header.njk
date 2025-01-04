@@ -22,11 +22,11 @@
         </a>
     </h2>
     <nav aria-labelledby="top-nav-title">
-        <h3 class="visually-hidden" id="top-nav-title">Main</h3>
+        <p class="visually-hidden" id="top-nav-title">Main</p>
         <ul class="header__navmenu header__links">{{ navLinks | safe }}</ul>
-        <button class="header__toggle" popovertarget="nav-menu" aria-labelledby="nav-toggle-title">
+        <button class="header__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
             <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
-            <span id="nav-toggle-title" class="visually-hidden">Toggle navigation menu</span>
+            Navigation
         </button>
     </nav>
     <div popover id="nav-menu" class="header__popover">
@@ -70,13 +70,16 @@
     .header__toggle {
         border: none;
         background-color: transparent;
+        color: var(--clr-accent-700);
         font-size: 2rem;
+        font-weight: 700;
         padding: 0;
         display: none;
-        justify-content: center;
+        align-items: center;
+        gap: 0.15em;
     }
 
-    .header__toggle svg { fill: var(--clr-txt-default); }
+    .header__toggle svg { fill: var(--clr-accent-700); }
     .header__toggle:focus { outline-offset: 0.15em; }
 
     .header__navmenu {
