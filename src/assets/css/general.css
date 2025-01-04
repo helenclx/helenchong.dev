@@ -21,9 +21,6 @@ h2, .h2 { font-size: var(--fs-h2); }
 h3, .h3 { font-size: var(--fs-h3); }
 h4 { font-size: var(--fs-h4); }
 
-h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
-h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) { margin-bottom: 0.5em; }
-
 :focus { outline: 0.15em solid currentColor; }
 
 a { color: var(--clr-accent-700); }

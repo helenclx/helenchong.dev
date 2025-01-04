@@ -90,4 +90,8 @@
     :target {
         scroll-margin-block: 5ex;
     }
+
+    [popover] {
+        margin: auto;
+    }
 }

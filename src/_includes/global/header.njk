@@ -17,7 +17,9 @@
 
 <header class="header">
     <h2 class="header__title">
-        <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Helen Chong</a>
+        <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">
+            <img class="header__logo" src="/assets/favicon/HC-favicon.svg" alt="Helen Chong initials logo">
+        </a>
     </h2>
     <nav aria-labelledby="top-nav-title">
         <h3 class="visually-hidden" id="top-nav-title">Main</h3>
@@ -52,6 +54,11 @@
         text-transform: uppercase;
         font-size: 2rem;
         margin: 0;
+    }
+
+    .header__logo {
+        aspect-ratio: 1 / 1;
+        height: 1.3em;
     }
 
     .header__title a:focus,
@@ -141,7 +148,7 @@
         .header__title { margin-bottom: 0; }
     }
 
-    @media only screen and (min-width: 705px) {
+    @media only screen and (min-width: 530px) {
         .header { position: sticky; }
         .header__navmenu { margin: 0; }
         .header__toggle, .header__popover { display: none; }
