@@ -59,11 +59,13 @@
         height: 1.3em;
     }
 
-    .header__title a:focus,
-    .header__toggle:focus {
-        outline: 0.12em solid var(--clr-accent-600);
-    }
-    .header__title > a { text-decoration: none; }
+    .header__title:hover > *,
+    .header__title:focus ,
+    .header__title:focus > * { outline: 0; }
+
+    .header__title > * { transition: transform 0.2s ease-out; }
+    .header__title:hover > *,
+    .header__title:focus > * { transform: scale(1.25); }
 
     .header__toggle {
         border: none;
@@ -78,7 +80,10 @@
     }
 
     .header__toggle svg { fill: var(--clr-accent-700); }
-    .header__toggle:focus { outline-offset: 0.15em; }
+    .header__toggle:focus {
+        outline: 0.12em solid var(--clr-accent-600);
+        outline-offset: 0.15em;
+    }
 
     .header__navmenu {
         list-style-type: "";
