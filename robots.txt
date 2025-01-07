@@ -11,6 +11,7 @@ User-agent: ChatGPT-User
 User-agent: Claude-Web
 User-agent: ClaudeBot
 User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
 User-agent: Diffbot
 User-agent: DuckAssistBot
 User-agent: FacebookBot
@@ -35,6 +36,7 @@ User-agent: PanguBot
 User-agent: PerplexityBot
 User-agent: PetalBot
 User-agent: Scrapy
+User-agent: SemrushBot
 User-agent: Sidetrade indexer bot
 User-agent: Timpibot
 User-agent: VelenPublicWebCrawler

@@ -27,5 +27,5 @@ RewriteRule ^(.*)/?$ /$1.php  [L]
 RewriteRule ^.*emailme/.*$ "mailto:contact@helenchong.dev" [R=301,L]
 
 # Block bad bots
-RewriteCond %{HTTP_USER_AGENT} (AI2Bot|Ai2Bot-Dolma|Amazonbot|anthropic-ai|Applebot-Extended|Bytespider|ChatGPT-User|Claude-Web|ClaudeBot|cohere-ai|Diffbot|DuckAssistBot|FacebookBot|FriendlyCrawler|Google-Extended|GoogleOther|GoogleOther-Image|GoogleOther-Video|GPTBot|iaskspider/2.0|ICC-Crawler|ImagesiftBot|img2dataset|ISSCyberRiskCrawler|Kangaroo.*Bot|Meta-ExternalAgent|Meta-ExternalFetcher|OAI-SearchBot|omgili|omgilibot|PanguBot|PerplexityBot|PetalBot|Scrapy|Sidetrade.*indexer.*bot|Timpibot|VelenPublicWebCrawler|Webzio-Extended|YouBot) [NC]
+RewriteCond %{HTTP_USER_AGENT} (AI2Bot|Ai2Bot-Dolma|Amazonbot|anthropic-ai|Applebot-Extended|Bytespider|ChatGPT-User|Claude-Web|ClaudeBot|cohere-ai|cohere-training-data-crawler|Diffbot|DuckAssistBot|FacebookBot|FriendlyCrawler|Google-Extended|GoogleOther|GoogleOther-Image|GoogleOther-Video|GPTBot|iaskspider/2.0|ICC-Crawler|ImagesiftBot|img2dataset|ISSCyberRiskCrawler|Kangaroo.*Bot|Meta-ExternalAgent|Meta-ExternalFetcher|OAI-SearchBot|omgili|omgilibot|PanguBot|PerplexityBot|PetalBot|Scrapy|SemrushBot|Sidetrade.*indexer.*bot|Timpibot|VelenPublicWebCrawler|Webzio-Extended|YouBot) [NC]
 RewriteRule .* https://nocommercialuse.org/ [L]
