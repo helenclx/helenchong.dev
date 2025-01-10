@@ -53,19 +53,11 @@
 
 /* Breadcumbs */
 .breadcrumbs {
-    list-style-type: "";
-    padding: 0;
-    margin: 0;
     display: flex;
     gap: 0.5em;
     flex-wrap: wrap;
     justify-content: center;
     font-size: var(--fs-main-txt);
-}
-
-.breadcrumbs li::after {
-    content: '➔';
-    padding-left: 0.3em;
 }
 
 /* Remove external link icon from Website Carbon badge */
