@@ -4,6 +4,9 @@ export default function(eleventyConfig) {
     // Current year
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
+    // <cite> tag
+    eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
+
     // Manual heading anchor
     eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
         return `<div class="heading-wrapper h${hLevel}">
