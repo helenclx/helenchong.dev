@@ -11,7 +11,6 @@ export const siteAuthor = {
 		handle: "@helenchong@social.lol",
 		url: "https://social.lol/@helenchong"
 	},
-	matrix: "@helenchong:omg.lol",
 	signal: "helenchong.08"
 };
 export const siteDescription = siteAuthor.name + "'s developer portfolio and blog website.";
