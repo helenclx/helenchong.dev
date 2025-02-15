@@ -4,12 +4,25 @@
   <subtitle>Helen Chong talks about tech, coding and development.</subtitle>
   <link href="https://helenchong.dev/blog/feed.xml" rel="self" />
   <link href="https://helenchong.dev/blog/" />
-  <updated>2025-01-19T15:56:32Z</updated>
+  <updated>2025-02-15T03:18:07Z</updated>
   <id>https://helenchong.dev/blog/</id>
   <author>
     <name>Helen Chong</name>
     <email>contact@helenchong.dev</email>
   </author>
+  <entry>
+    <title>I Have Joined the light-dark() Side</title>
+    <link href="https://helenchong.dev/blog/posts/2025-02-15-joined-the-light-dark-side/" />
+    <updated>2025-02-15T03:18:07Z</updated>
+    <id>https://helenchong.dev/blog/posts/2025-02-15-joined-the-light-dark-side/</id>
+    <content type="html">&lt;p&gt;After building and working on this developer portfolio and blog website of mine for a while, I began to learn to apply light and dark modes to my website. Initially, I used the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;&lt;code&gt;prefers-color-scheme&lt;/code&gt;&lt;/a&gt; CSS &lt;code&gt;@media&lt;/code&gt; feature to achieve that. Specifically, I used a &lt;code&gt;prefers-color-scheme: dark&lt;/code&gt; media query to set the values of my website layout in dark mode.&lt;/p&gt;
+&lt;p&gt;That was, until I learned about CSS&#39; &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark&quot;&gt;&lt;code&gt;light-dark()&lt;/code&gt;&lt;/a&gt; colour function through &lt;a href=&quot;https://sarajoy.dev/&quot;&gt;Sara Joy&lt;/a&gt;&#39;s article on CSS-Tricks, &lt;a href=&quot;https://css-tricks.com/come-to-the-light-dark-side/&quot;&gt;&amp;quot;Come to the light-dark() Side&amp;quot;&lt;/a&gt;. As soon as I tried the &lt;code&gt;light-dark()&lt;/code&gt; function out myself, I fell in love with it. In other words, I have indeed joined the &lt;code&gt;light-dark()&lt;/code&gt; side, LOL.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;light-dark()&lt;/code&gt; is a game-changer, because compared to the &lt;code&gt;prefers-color-scheme&lt;/code&gt; &lt;code&gt;@media&lt;/code&gt; query, it saves me the trouble of duplicating lines of CSS properties, both native and custom, just to change the colour value. Additionally, I got to learn about using the &lt;code&gt;color-scheme&lt;/code&gt; CSS property as another method to set a web page&#39;s light and dark mode.&lt;/p&gt;
+&lt;p&gt;Therefore, I decided to apply &lt;code&gt;color-scheme&lt;/code&gt; and &lt;code&gt;light-dark()&lt;/code&gt; to my websites.&lt;/p&gt;
+&lt;p&gt;helenchong.dev is also a member of the &lt;a href=&quot;https://darktheme.club/&quot;&gt;Darktheme Club&lt;/a&gt;, a directory of websites with dark modes. Part of the process to join the directory is to specify how you add dark mode to your website, with multiple options include dark mode by default, &lt;code&gt;@media&lt;/code&gt; query or JavaScript, but no option for the &lt;code&gt;color-scheme&lt;/code&gt; CSS property.&lt;/p&gt;
+&lt;p&gt;Therefore, I made a suggestion to add &lt;code&gt;color-scheme&lt;/code&gt; CSS property as a possible method to set dark mode by &lt;a href=&quot;https://github.com/garritfra/darktheme.club/issues/194&quot;&gt;creating a GitHub issue&lt;/a&gt;. &lt;a href=&quot;https://garrit.xyz/&quot;&gt;Garrit Franke&lt;/a&gt;, the creator of Darktheme Club, replied by asking if I could create a pull request for it, so &lt;a href=&quot;https://github.com/garritfra/darktheme.club/pull/196&quot;&gt;I happily did&lt;/a&gt;. I also changed my website&#39;s dark mode method from &amp;quot;media query&amp;quot; to &amp;quot;color-scheme&amp;quot;. My pull request eventually got merged! I am happy to be able to make good use of my new CSS knowledge.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Attending 42 the Computer Science School</title>
     <link href="https://helenchong.dev/blog/posts/2025-01-19-attending-42-school/" />
@@ -263,42 +276,6 @@
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://helenchong.dev/blog/posts/2024-07-31-migrating-to-hostinger/#wrapping-up&quot; aria-labelledby=&quot;wrapping-up&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I am glad to have made the decision to move hosts for this website. By migrating my developer portfolio and blog website to Hostinger, I felt like opening up new opportunities for my website to grow, and for myself to keep learning as a web developer.&lt;/p&gt;
 &lt;p&gt;As of this writing, I had created a &lt;code&gt;.htaccess&lt;/code&gt; for my website to set a custom 404 page, configure the cache policy of this website&#39;s static assets, and remove &lt;code&gt;.html&lt;/code&gt; file extension from website addresses. I am looking forward to exploring this new web hosting experience more.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Responsive Disability Pride Flag CSS Background</title>
-    <link href="https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/" />
-    <updated>2024-07-23T12:35:00Z</updated>
-    <id>https://helenchong.dev/blog/posts/2024-07-23-responsive-disability-pride-flag-css/</id>
-    <content type="html">&lt;div class=&quot;disability-pride-flag demo&quot; role=&quot;img&quot; aria-label=&quot;Demo of the Disability Pride flag coded in CSS&quot;&gt;&lt;/div&gt;
-&lt;p&gt;Happy &lt;a href=&quot;https://en.wikipedia.org/wiki/Disability_Pride_Month&quot;&gt;Disability Pride Month&lt;/a&gt;! To celebrate the occasion, I did a small project: a responsive Disability Pride flag CSS background! For those who do not know, this &lt;a href=&quot;https://www.womansday.com/life/a43964487/disability-pride-flag/&quot;&gt;Disability Pride flag&lt;/a&gt; was created by &lt;a href=&quot;https://capri0mni.dreamwidth.org/837596.html&quot;&gt;Ann Magill&lt;/a&gt; and released in 2021.&lt;/p&gt;
-&lt;p&gt;My Disability Pride flag CSS background is done with a combination of the CSS &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/background&quot;&gt;&lt;code&gt;background&lt;/code&gt; property&lt;/a&gt; and &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient&quot;&gt;&lt;code&gt;linuear-gradient()&lt;/code&gt; function&lt;/a&gt;, and designed to be responsive, so it can adapt to different screen sizes and devices.&lt;/p&gt;
-&lt;p&gt;Here is the CSS snippet for a responsive Disability Pride Flag background:&lt;/p&gt;
-&lt;pre class=&quot;language-css&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.disability-pride-flag&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
-        &lt;span class=&quot;token function&quot;&gt;linear-gradient&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
-            37deg&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #595959 0 35%&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #CF7280 30% 41%&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #EEDE77 30% 47%&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #E8E8E8 30% 53%&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #7bc2e0 30% 59%&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #3BB07D 30% 65%&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            #595959 0
-        &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After copying the above snippet in a CSS stylesheet or the HTML &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tags, to apply the background to an HTML element, simply add the CSS class name &lt;code&gt;disability-pride-flag&lt;/code&gt; (you can rename the class name if you want) to the HTML element&#39;s &lt;code&gt;class&lt;/code&gt; attribute.&lt;/p&gt;
-&lt;p&gt;Note that you want to apply the Pride flag to an empty element, you also need to set the element&#39;s &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/height&quot;&gt;&lt;code&gt;height&lt;/code&gt;&lt;/a&gt; or &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio&quot;&gt;&lt;code&gt;aspect-ratio&lt;/code&gt;&lt;/a&gt; property to make the Pride flag background visible. For example, the demo above sets the &lt;code&gt;height&lt;/code&gt; property to 23rem.&lt;/p&gt;
-&lt;p&gt;I was inspired to code a Disbility Pride flag background in CSS by other people&#39;s CSS code snippets of LGBTQ+ pride flag backgrounds, such as &lt;a href=&quot;https://codepen.io/alvaromontoro/full/NWyBrZJ&quot;&gt;Alvaro Montoro&#39;s LGBTQ+ Flags Coded in CSS demo&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Since Ann Magill released the Disability Pride flag to the public domain under &lt;a href=&quot;https://creativecommons.org/publicdomain/zero/1.0/&quot;&gt;CC0 1.0 Universal&lt;/a&gt;, I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.&lt;/p&gt;
-&lt;p&gt;You can also check out &lt;a href=&quot;https://codepen.io/helenclx/pen/VwJjBmB&quot;&gt;my CodePen demo&lt;/a&gt;  for my responsive Disability Pride flag CSS background and play with the code.&lt;/p&gt;
-&lt;p class=&quot;codepen&quot; data-height=&quot;300&quot; data-default-tab=&quot;css,result&quot; data-slug-hash=&quot;VwJjBmB&quot; data-pen-title=&quot;Disability Pride Flag CSS Background&quot; data-editable=&quot;true&quot; data-user=&quot;helenclx&quot; style=&quot;height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot;&gt;
-  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/helenclx/pen/VwJjBmB&quot;&gt;
-  Disability Pride Flag CSS Background&lt;/a&gt; by Helen Chong (&lt;a href=&quot;https://codepen.io/helenclx&quot;&gt;@helenclx&lt;/a&gt;)
-  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
-&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-&lt;p&gt;&lt;strong&gt;Update, 15 December 2024:&lt;/strong&gt; Previously, I coded the Disability Pride flag background in CSS by using an inline SVG, but I eventually figured out how to create the stripes by using the CSS &lt;code&gt;linuear-gradient()&lt;/code&gt; function, making my code snippet much cleaner.&lt;/p&gt;
 </content>
   </entry>
 </feed>

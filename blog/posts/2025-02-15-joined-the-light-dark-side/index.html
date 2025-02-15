@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <meta property="og:title" content="Page Not Found">
-        <link rel="canonical" href="https://helenchong.dev/404.html">
+        <meta property="og:title" content="I Have Joined the light-dark() Side">
+        <link rel="canonical" href="https://helenchong.dev/blog/posts/2025-02-15-joined-the-light-dark-side/">
         <meta name="generator" content="Eleventy v3.0.0">
         <meta name="author" content="Helen Chong">
-        <meta name="description" content="Helen Chong&#39;s developer portfolio and blog website.">
+        <meta name="description" content="I am applying the CSS light-dark() function to add light and dark modes to my websites.">
         <meta name="fediverse:creator" content="@helenchong@social.lol">
         <meta property="og:site_name" content="Helen Chong, Web Developer">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Helen Chong&#39;s developer portfolio and blog website.">
-        <meta property="og:url" content="https://helenchong.dev/404.html">
+        <meta property="og:type" content="article">
+        <meta property="og:description" content="I am applying the CSS light-dark() function to add light and dark modes to my websites.">
+        <meta property="og:url" content="https://helenchong.dev/blog/posts/2025-02-15-joined-the-light-dark-side/">
         <meta property="og:locale" content="en_MY">
         <meta property="og:image" content="https://helenchong.dev/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
@@ -60,8 +60,7 @@
 
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/utility.css">
-        <style>main { min-height: 59vh; }
-.header {
+        <style>.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -258,7 +257,7 @@
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
 
-        <title> Page Not Found |  Helen Chong, Web Developer</title>
+        <title> I Have Joined the light-dark() Side |  Helen Chong, Web Developer</title>
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
@@ -277,7 +276,7 @@
         <li><a class="header__link " href="/about/">
                 About
         </a></li>
-        <li><a class="header__link " href="/blog/">
+        <li><a class="header__link link--active" href="/blog/">
                 Blog
         </a></li>
         <li><a class="header__link " href="/projects/">
@@ -301,7 +300,7 @@
         <li><a class="header__link " href="/about/">
                 About
         </a></li>
-        <li><a class="header__link " href="/blog/">
+        <li><a class="header__link link--active" href="/blog/">
                 Blog
         </a></li>
         <li><a class="header__link " href="/projects/">
@@ -320,9 +319,29 @@
             
 <header class="main__header">
     
+<nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
+    <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+    
+    <a href="/blog/">Blog</a> <span aria-hidden="true">➔</span>
+    <a href="/blog/posts/">Archive</a> <span aria-hidden="true">➔</span>
+</nav>
 
-    <h1 class="heading--main">Page Not Found</h1>
 
+    <h1 class="heading--main">I Have Joined the light-dark() Side</h1>
+
+    
+    <div class="blog__post--info">
+        <p>
+            <span class="text-bold">316 words</span>.
+            <span class="text-bold">Posted:</span> <time datetime="2025-02-15T11:18:07+0800">15 February 2025</time> by Helen Chong
+        </p>
+        
+        <p><span class="text-bold">Categories:</span>
+            
+                <a href="/blog/categories/css">css</a>
+            
+        </p>
+    </div>
     
 </header>
 
@@ -330,13 +349,47 @@
     
 
     
-    <div class="prose">
-        <p>Sorry! Either the page you are looking for does not exist, or it has been moved to a diffrent part of this website.</p>
+    <article class="prose">
+        <p>After building and working on this developer portfolio and blog website of mine for a while, I began to learn to apply light and dark modes to my website. Initially, I used the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"><code>prefers-color-scheme</code></a> CSS <code>@media</code> feature to achieve that. Specifically, I used a <code>prefers-color-scheme: dark</code> media query to set the values of my website layout in dark mode.</p>
+<p>That was, until I learned about CSS' <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark"><code>light-dark()</code></a> colour function through <a href="https://sarajoy.dev/">Sara Joy</a>'s article on CSS-Tricks, <a href="https://css-tricks.com/come-to-the-light-dark-side/">&quot;Come to the light-dark() Side&quot;</a>. As soon as I tried the <code>light-dark()</code> function out myself, I fell in love with it. In other words, I have indeed joined the <code>light-dark()</code> side, LOL.</p>
+<p><code>light-dark()</code> is a game-changer, because compared to the <code>prefers-color-scheme</code> <code>@media</code> query, it saves me the trouble of duplicating lines of CSS properties, both native and custom, just to change the colour value. Additionally, I got to learn about using the <code>color-scheme</code> CSS property as another method to set a web page's light and dark mode.</p>
+<p>Therefore, I decided to apply <code>color-scheme</code> and <code>light-dark()</code> to my websites.</p>
+<p>helenchong.dev is also a member of the <a href="https://darktheme.club/">Darktheme Club</a>, a directory of websites with dark modes. Part of the process to join the directory is to specify how you add dark mode to your website, with multiple options include dark mode by default, <code>@media</code> query or JavaScript, but no option for the <code>color-scheme</code> CSS property.</p>
+<p>Therefore, I made a suggestion to add <code>color-scheme</code> CSS property as a possible method to set dark mode by <a href="https://github.com/garritfra/darktheme.club/issues/194">creating a GitHub issue</a>. <a href="https://garrit.xyz/">Garrit Franke</a>, the creator of Darktheme Club, replied by asking if I could create a pull request for it, so <a href="https://github.com/garritfra/darktheme.club/pull/196">I happily did</a>. I also changed my website's dark mode method from &quot;media query&quot; to &quot;color-scheme&quot;. My pull request eventually got merged! I am happy to be able to make good use of my new CSS knowledge.</p>
 
-<p>You may return to the <a href="/">home page</a> and try again.</p>
 
     
-    </div>
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+            <ul class="blog__post--nextprev">
+                <li class="blog__post--prev">
+                    <p>Previous Post:</p>
+                    <a href="/blog/posts/2025-01-19-attending-42-school/">Attending 42 the Computer Science School</a>
+                </li>
+                
+            </ul>
+        </nav>
+    
+    </article>
+
+    
+    
+<aside class="right-sidebar">
+    <nav class="blog__nav sidebar--sticky" aria-labelledby="blog-nav-title">
+        <h2 class="blog__nav--title" id="blog-nav-title">Blog Navigation</h2>
+        <ul class="blog__nav--links">
+            <li><a href="/blog/">Index</a></li>
+            
+                <li><a href="/blog/categories/">
+                        Categories
+                </a></li>
+                <li><a href="/blog/posts/">
+                        Archive
+                </a></li>
+            <li><a href="/blog/feed.xml">RSS Feed</a></li>
+        </ul>
+    </nav>
+</aside>
 
     
 </content-wrapper>

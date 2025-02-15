@@ -152,13 +152,13 @@
     .header__title:focus > * { transform: scale(1.25); }
 
     .header__toggle {
-        --clr-toggle-txt: #fff;
-        --clr-toggle-bg: #8200cd;
-        border: none;
+        border: 0.125em solid var(--clr-accent-700);
         border-radius: 0.2em;
-        background-color: var(--clr-toggle-bg);
-        color: var(--clr-toggle-txt);
-        font-size: 1.7rem;
+        background-color: var(--clr-body-bg);
+        color: var(--clr-accent-700);
+        font-size: 1.5rem;
+        font-weight: 600;
+        box-shadow: -4px 4px 0px var(--clr-accent-700);
         display: none;
         align-items: center;
         gap: 0.15em;
@@ -166,9 +166,9 @@
         padding-right: 0.26em;
     }
 
-    .header__toggle svg { fill: var(--clr-toggle-txt); }
+    .header__toggle svg { fill: var(--clr-accent-700); }
     .header__toggle:focus {
-        outline: 0.15em solid var(--clr-toggle-bg);
+        outline: 0.15em solid var(--clr-accent-700);
         outline-offset: 0.1em;
     }
 
@@ -395,6 +395,17 @@
 
     <li class="blog__post">
         <h3 class="blog__post--title">
+            <a href="/blog/posts/2025-02-15-joined-the-light-dark-side/">
+                I Have Joined the light-dark() Side
+                
+            </a>
+        </h3>
+        <p><time datetime="Sat Feb 15 2025 03:18:07 GMT+0000 (Coordinated Universal Time)" class="blog__post--time">15 February 2025</time></p>
+        <p>I am applying the CSS light-dark() function to add light and dark modes to my websites.</p>
+    </li>
+
+    <li class="blog__post">
+        <h3 class="blog__post--title">
             <a href="/blog/posts/2025-01-19-attending-42-school/">
                 Attending 42 the Computer Science School
                 
@@ -437,17 +448,6 @@
         <p>sailorhg&#39;s comic &quot;Home Sweet Homepage&quot; inspired me to share my web development and web design origin story.</p>
     </li>
 
-    <li class="blog__post">
-        <h3 class="blog__post--title">
-            <a href="/blog/posts/2024-10-19-omg-lol-membership-one-month-anniversary/">
-                Happy One-Month Anniversary of My omg.lol Membership
-                
-            </a>
-        </h3>
-        <p><time datetime="Fri Oct 18 2024 16:14:19 GMT+0000 (Coordinated Universal Time)" class="blog__post--time">18 October 2024</time></p>
-        <p>It has been a month since I joined omg.lol, and I am glad to be part of it.</p>
-    </li>
-
 </ul>
 
 
@@ -488,7 +488,7 @@ Newer
         </li>
         <li>
             
-                <a href=" /blog/page/5/">
+                <a href=" /blog/page/6/">
                     Oldest
 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg>
 
