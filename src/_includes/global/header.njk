@@ -68,13 +68,13 @@
     .header__title:focus > * { transform: scale(1.25); }
 
     .header__toggle {
-        --clr-toggle-txt: #fff;
-        --clr-toggle-bg: #8200cd;
-        border: none;
+        border: 0.125em solid var(--clr-accent-700);
         border-radius: 0.2em;
-        background-color: var(--clr-toggle-bg);
-        color: var(--clr-toggle-txt);
-        font-size: 1.7rem;
+        background-color: var(--clr-body-bg);
+        color: var(--clr-accent-700);
+        font-size: 1.5rem;
+        font-weight: 600;
+        box-shadow: -4px 4px 0px var(--clr-accent-700);
         display: none;
         align-items: center;
         gap: 0.15em;
@@ -82,9 +82,9 @@
         padding-right: 0.26em;
     }
 
-    .header__toggle svg { fill: var(--clr-toggle-txt); }
+    .header__toggle svg { fill: var(--clr-accent-700); }
     .header__toggle:focus {
-        outline: 0.15em solid var(--clr-toggle-bg);
+        outline: 0.15em solid var(--clr-accent-700);
         outline-offset: 0.1em;
     }
 
