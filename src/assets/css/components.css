@@ -63,6 +63,7 @@
 /* Remove external link icon from Website Carbon badge */
 #wcb_a::after { all: revert; }
 
+/* Button to copy code snippets */
 .cc-btn {
     font-size: 0.8em;
     display: flex;
