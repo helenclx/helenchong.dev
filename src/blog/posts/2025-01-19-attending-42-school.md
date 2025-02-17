@@ -2,6 +2,7 @@
 title: Attending 42 the Computer Science School
 desc: I have applied to attend one of the Malaysian campuses of 42, an international computer science school.
 date: 2025-01-19T23:56:32+0800
+updated: 2025-02-17T18:08:02+0800
 categories: ["42 school", "life updates"]
 ---
 
@@ -17,10 +18,12 @@ According to the [official website of 42's Paris campus](https://42.fr/en/what-i
 
 As a web developer without a computer science degree, a physical school that offers computer science education for free is certainly an attractive notion. Furthermore, as a developer who learned to code through online courses and learning resources, I have got used to learning new things without a teacher holding my hand. My years of working experience had also taught me to not expecting anyone to hold your hand if you want to upskill yourself. I have also found myself to prefer to learn to code by building projects.
 
-Therefore, in late December 2024, I applied for the Malaysian campus of 42 near me, spent two hours in their application test consisted of a memory game and a logic game. On the next day, I was informed that I passed my application test, so I chose to enrol in their trial bootcamp, referred to as the Piscine, that will take place in late February. Participants need to pass the 4-week trial bootcamp before being able to take 42's core curriculum.
+Therefore, in late December 2024, I applied for the Malaysian campus of 42 near me, spent two hours in their application test consisted of a memory game and a logic game. On the next day, I was informed that I passed my application test, so I chose to enrol in their trial bootcamp, referred to as the Piscine, that will begin on 7 April 2025. Participants need to pass the 4-week trial bootcamp before being able to take 42's core curriculum.
 
 Meanwhile, through their official website, I learned that the campus would host an open day on 18 January 2025, so I decided to take the opportunity to visit the campus for myself to see what I can expect from the environment when I started my study there. When I attended the open day on January 18, I learned that the computers in their workstations use Linux, specifically the Ubuntu distribution with Gnome as its desktop environment.
 
 However, to my surprise, the computers did not have any setting to adjust screen brightness, which was not a good thing for me due to my [retinitis pigmentosa](https://blog.helenchong.omg.lol/en/posts/2024-12-21-living-with-retinitis-pigmentosa/) making my eyes sensitive to bright light, including artificial lights. I would prefer not to rely on my clip-on sunglasses just to see a computer screen, since the surroundings including the keyboard would appear too dark for me. Therefore, I approached one of the staff members to request methods of dimming the computer screen when I attend my class there. The staff member suggested that they should be able to arrange that to accommodate my needs.
 
 After visiting the campus on its open day, I have been looking forward to attending the school more. Wish me luck in passing my Piscine so I can become an official student of 42!
+
+**Update, 17 February 2025:** Originally, I registered to join the Piscine scheduled for 24 February 2025, but I received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.
