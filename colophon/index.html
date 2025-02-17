@@ -60,7 +60,52 @@
 
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/utility.css">
-        <style>.header {
+        <style>.toc__wrapper {
+        max-height: 80vh;
+        overflow-x: auto;
+        padding: 0.3em 1.3rem 1.5em;
+    }
+
+    .toc__heading {
+        font-size: 1.4rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.7em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-txt-default);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        margin: 0;
+    }
+
+    .toc ol a {
+        font-size: 1.1em;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 60rem) {
+        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
+    }
+.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -256,6 +301,8 @@
         
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
+        <script src="/assets/js/details-utils.js" defer=""></script>
+        
         
 
         <title> Colophon |  Helen Chong, Web Developer</title>
@@ -328,6 +375,24 @@
 
 <content-wrapper>
     
+    <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore="">
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#technology">Technology</a></li>
+<li><a href="#host-and-domain">Host and Domain</a></li>
+<li><a href="#plugins">Plugins</a><ol><li><a href="#eleventy-community-plugins">Eleventy Community Plugins</a></li>
+<li><a href="#markdown-it-plugins">markdown-it Plugins</a></li></ol></li>
+<li><a href="#self-hosted-resources">Self-hosted Resources</a><ol><li><a href="#fonts">Fonts</a></li></ol></li>
+<li><a href="#inspiration-for-making-this-website">Inspiration for Making This Website</a></li>
+<li><a href="#javascript">JavaScript</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
 
     
     <div class="prose">
@@ -394,16 +459,28 @@
 <li><a href="https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html">Intel One Mono</a> — monospaced font.</li>
 </ul>
 <div class="heading-wrapper h2">
-<h2 id="credits">Credits</h2>
-<a class="heading-anchor" href="#credits" aria-labelledby="credits"><span hidden="">#</span></a></div>
+<h2 id="inspiration-for-making-this-website">Inspiration for Making This Website</h2>
+<a class="heading-anchor" href="#inspiration-for-making-this-website" aria-labelledby="inspiration-for-making-this-website"><span hidden="">#</span></a></div>
 <ul>
-<li>Gerard Hynes for providing inspiration with the tutorial: <a href="https://www.freecodecamp.org/news/learn-eleventy/">Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website</a>.</li>
-<li>Raymond Camden for providing inspiration with the tutorial: <a href="https://cfjedimaster.github.io/eleventy-blog-guide/guide.html">A Complete Guide to Building a Blog with Eleventy</a>.</li>
-<li>Eleventy's official <a href="https://github.com/11ty/eleventy-base-blog">blog starter project</a> for the inspiration.</li>
+<li>Gerard Hynes' Eleventy portfolio website tutorial: <a href="https://www.freecodecamp.org/news/learn-eleventy/">&quot;Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website&quot;</a>.</li>
+<li>Raymond Camden Eleventy blog tutorial: <a href="https://cfjedimaster.github.io/eleventy-blog-guide/guide.html">&quot;A Complete Guide to Building a Blog with Eleventy&quot;</a>.</li>
+<li>Eleventy's official <a href="https://github.com/11ty/eleventy-base-blog">blog starter project</a>.</li>
 </ul>
+<div class="heading-wrapper h2">
+<h2 id="javascript">JavaScript</h2>
+<a class="heading-anchor" href="#javascript" aria-labelledby="javascript"><span hidden="">#</span></a></div>
+<p>Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:</p>
+<ul>
+<li>Display a &quot;scroll to top&quot; button at the bottom right corner of the screen after scrolling down a page far enough.</li>
+<li>My <a href="/contact">contact page</a> includes a JavaScript embed of my email contact form powered by <a href="https://letterbird.co/">Letterbird</a>.</li>
+<li>Add buttons to copy code snippets to pages with code blocks.</li>
+<li>Zach Leatherman's <a href="https://www.npmjs.com/package/@zachleat/details-utils">details-utils</a> JavaScript package is used to automatically expand sidebar table of contents on wide screens.</li>
+<li><a href="https://www.websitecarbon.com/badge/">Website Carbon Badge</a>, which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.</li>
+</ul>
+<p>You can still access most of the content of this site with JavaScript disabled, but the above components will not work as intended.</p>
 
 
-<p>(This colophon page was last updated on <time datetime="2024-12-10T17:36:19+0800">10 December 2024</time>)</p>
+<p>(This colophon page was last updated on <time datetime="2025-02-18T00:31:15+0800">18 February 2025</time>)</p>
 
     
     </div>
