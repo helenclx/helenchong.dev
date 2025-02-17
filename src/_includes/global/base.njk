@@ -44,6 +44,9 @@
         {% if toc %}
         <script src="/assets/js/details-utils.js" defer></script>
         {% endif %}
+        {% if hasCodeBlock %}
+        <script src="/assets/js/copycode.js" defer></script>
+        {% endif %}
 
         <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>

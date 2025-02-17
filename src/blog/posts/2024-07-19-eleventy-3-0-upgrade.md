@@ -6,6 +6,7 @@ updated: 2024-09-27T11:41:53+0800
 templateEngineOverride: md
 categories: ["about this website", "eleventy", "javascript"]
 toc: true
+hasCodeBlock: true
 ---
 
 On 9 April 2024, I [rebuilt this developer portfolio and blog website of mine](2024-04-11-rebuilding-my-developer-portfolio-with-eleventy.md) with Eleventy 2.0.1. Three months after using Eleventy and loving it, now I have upgraded Eleventy to 3.0! 🥳

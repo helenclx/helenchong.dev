@@ -4,6 +4,7 @@ desc: I coded the Disability Pride Flag in CSS to celebrate Disability Pride Mon
 date: 2024-07-23T20:35:00+0800
 updated: 2024-12-15T18:43:47+0800
 categories: ["css", "disability pride"]
+hasCodeBlock: true
 ---
 
 {% set demoHeight = "23rem" %}

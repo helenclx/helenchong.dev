@@ -62,3 +62,14 @@
 
 /* Remove external link icon from Website Carbon badge */
 #wcb_a::after { all: revert; }
+
+.cc-btn {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    margin-left: auto;
+    margin-right: 0;
+    border: 0.11em solid var(--clr-code-border);
+    border-radius: 0.2em;
+}

@@ -3,6 +3,7 @@ title: Finally Deployed My Scrimba React Solo Projects to GitHub Pages
 desc: At long last, I found a way to deploy my solo projects for Scirmba's React course form my repository's subdirectories.
 date: 2024-06-03T11:01:00+0800
 categories: ["scrimba", "react", "github pages"]
+hasCodeBlock: true
 ---
 
 I had completed [Scrimba's Learn React course](https://scrimba.com/learn/learnreact) and its solo projects back in July 2023, even before [winning a one-year Scrimba Pro plan from JavaScriptmas 2023](2023-12-27-JavaScriptmas-2023-Challenge-Completed-and-Won.md) for free, since the course, including the instructions and Figma files for the solo projects, is also available on freeCodeCamp's YouTube channel.
