@@ -12,7 +12,9 @@ content-wrapper { gap: 1rem; }
     padding: 0 var(--sz-main-padding) var(--sz-content-bottom);
 }
 
-.prose > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
+.prose > * + :not([class]:not([class*="language-"])) {
+    margin-block-start: var(--sz-paragraph-margin);
+}
 
 .prose > * + h2, .prose > * + .h2,
 .prose > h3,  .prose > * + .h3,
