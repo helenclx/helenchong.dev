@@ -69,6 +69,6 @@
     display: flex;
     align-items: center;
     gap: 0.2em;
-    border: 0.11em solid var(--clr-code-border);
+    border: 0.115em solid var(--clr-code-border);
     border-radius: 0.2em;
 }
