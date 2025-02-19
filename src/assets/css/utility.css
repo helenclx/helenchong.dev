@@ -39,3 +39,27 @@ a > .inline-icon { padding-inline-end: .25em; }
     outline: 0;
     outline-offset: 0;
 }
+
+.hidden-until-found:not([hidden="until-found"]) {
+    position: absolute;
+    transform: translateX(calc(-50% - (var(--icon-width) / 2)));
+    margin-top: -0.25rem;
+    padding: 0 0.2rem 0.05rem 0.2rem;
+    background-color: var(--brand-color);
+    color: #fff;
+    border-radius: 0.1rem;
+    font-size: 1rem;
+    filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+}
+
+.hidden-until-found::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    bottom: -0.2rem;
+    width: 1rem;
+    height: 1rem;
+    transform: translateX(-50%) rotate(45deg);
+    background-color: inherit;
+}
