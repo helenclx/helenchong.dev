@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <meta property="og:title" content="Speaking">
-        <link rel="canonical" href="https://helenchong.dev/speaking/">
+        <meta property="og:title" content="Adding a Button to Copy Code Snippets">
+        <link rel="canonical" href="https://helenchong.dev/blog/posts/2025-02-19-copy-code-button/">
         <meta name="generator" content="Eleventy v3.0.0">
         <meta name="author" content="Helen Chong">
-        <meta name="description" content="Helen Chong&#39;s developer portfolio and blog website.">
+        <meta name="description" content="How I added a button to copy code snippets to my website with JavaScript.">
         <meta name="fediverse:creator" content="@helenchong@social.lol">
         <meta property="og:site_name" content="Helen Chong, Web Developer">
-        <meta property="og:type" content="website">
-        <meta property="og:description" content="Helen Chong&#39;s developer portfolio and blog website.">
-        <meta property="og:url" content="https://helenchong.dev/speaking/">
+        <meta property="og:type" content="article">
+        <meta property="og:description" content="How I added a button to copy code snippets to my website with JavaScript.">
+        <meta property="og:url" content="https://helenchong.dev/blog/posts/2025-02-19-copy-code-button/">
         <meta property="og:locale" content="en_MY">
         <meta property="og:image" content="https://helenchong.dev/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
@@ -257,8 +257,10 @@
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
         
+        <script src="/assets/js/copycode.js" defer=""></script>
+        
 
-        <title> Speaking |  Helen Chong, Web Developer</title>
+        <title> Adding a Button to Copy Code Snippets |  Helen Chong, Web Developer</title>
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
@@ -277,13 +279,13 @@
         <li><a class="header__link " href="/about/">
                 About
         </a></li>
-        <li><a class="header__link " href="/blog/">
+        <li><a class="header__link link--active" href="/blog/">
                 Blog
         </a></li>
         <li><a class="header__link " href="/projects/">
                 Projects
         </a></li>
-        <li><a aria-current="page" class="header__link " href="/speaking/">
+        <li><a class="header__link " href="/speaking/">
                 Speaking
         </a></li>
         <li><a class="header__link " href="/contact/">
@@ -301,13 +303,13 @@
         <li><a class="header__link " href="/about/">
                 About
         </a></li>
-        <li><a class="header__link " href="/blog/">
+        <li><a class="header__link link--active" href="/blog/">
                 Blog
         </a></li>
         <li><a class="header__link " href="/projects/">
                 Projects
         </a></li>
-        <li><a aria-current="page" class="header__link " href="/speaking/">
+        <li><a class="header__link " href="/speaking/">
                 Speaking
         </a></li>
         <li><a class="header__link " href="/contact/">
@@ -320,9 +322,31 @@
             
 <header class="main__header">
     
+<nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
+    <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+    
+    <a href="/blog/">Blog</a> <span aria-hidden="true">➔</span>
+    <a href="/blog/posts/">Archive</a> <span aria-hidden="true">➔</span>
+</nav>
 
-    <h1 class="heading--main">Speaking</h1>
 
+    <h1 class="heading--main">Adding a Button to Copy Code Snippets</h1>
+
+    
+    <div class="blog__post--info">
+        <p>
+            <span class="text-bold">1,388 words</span>.
+            <span class="text-bold">Posted:</span> <time datetime="2025-02-19T11:05:03+0800">19 February 2025</time> by Helen Chong
+        </p>
+        
+        <p><span class="text-bold">Categories:</span>
+            
+                <a href="/blog/categories/javascript">javascript</a>, 
+            
+                <a href="/blog/categories/accessibility">accessibility</a>
+            
+        </p>
+    </div>
     
 </header>
 
@@ -330,23 +354,113 @@
     
 
     
-    <div class="prose">
-        
-<p>List of tech events I hae spoken at.</p>
+    <article class="prose">
+        <p>Recently, I discovered <a href="https://whitep4nth3r.com/">Salma Alam-Naylor</a>'s article <a href="https://whitep4nth3r.com/blog/how-to-build-a-copy-code-snippet-button/">“How to build a copy code snippet button and why it matters”</a> through <a href="https://frontenddogma.com/">Frontend Dogma</a>.</p>
+<p>This being a developer website and blog, adding a button to copy code snippets was something I had considered before, as I had thought it would be convenient for readers to copy a code snippet with one click, but I did not consider how such a button could improve a website's accessibility too, until I read Salma's post. As she wrote:</p>
+<blockquote>
+<p>It is impossible to highlight and copy code blocks when you are unable to use your hands.</p>
+<p>[…] it is absolutely imperative that you include a way for people with limited use of their hands to copy that code in a single action</p>
+</blockquote>
+<p>Therefore, I began to research how to add a button to copy code snippets to my website. Like Salma, I also use Eleventy to build my website, and use <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/">Eleventy's official syntax highlighting plugin</a>, but I was unable to figure out how to make use of Salma's code to add such button to my website. Therefore, I visited <a href="https://11tybundle.dev/">The 11ty Bundle</a>, and searched if there were other guides for adding a button to copy code snippets to an Eleventy website. Eventually, I found <a href="https://ttntm.me/">ttntm</a>'s article <a href="https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/">&quot;Adding a Copy Button to Code Blocks&quot;</a>.</p>
+<p>When I tried ttntm's code by adding it to a JavaScript file to be linked to my website, I was pleased to found that it worked. Since it worked on my website, I decided to modify ttntm's code to suit my preferences.</p>
+<p>Firstly, instead of just an icon with a HTML <code>title</code> attribute as a tooltip, I added text to the button, namely &quot;Copy Code&quot; and then &quot;Copied!&quot; when the button is clicked, so both sighted readers and screen reader users can better understand the purpose of the button.</p>
+<p>Secondly, I chose to place the button after my code blocks, rather than before them. This approach was inspired by <a href="https://dbushell.com/">David Bushell</a>'s article <a href="https://dbushell.com/2025/02/14/copy-code-button/">&quot;Copy Code Button&quot;</a>. I would like readers to look at a code snippet first before deciding if they want to copy that snippet. To achieve this, I change the <code>insertAdjacentHTML()</code> method's position parameter from <code>&quot;beforebegin&quot;</code> to <code>&quot;afterend&quot;</code>.</p>
+<p>I have configured Eleventy's official syntax highlighting plugin to make my code blocks focusable, so readers who use keyboard to navigate my website can easily skip through the code snippets and go to my &quot;Copy Code&quot; button by pressing the Tab button.</p>
+<p>Thirdly, I decided to make the button to copy code appear on mobile as well. While coding is not typically done on mobile devices, it still would not hurt to give mobile device users a convenient way to copy code snippet, so they can save the snippet somewhere else for future references, such as saving in a note app to reference it later when they return to a desktop computer. As instructed by ttntm, I removed the <code>if</code> statement (<code>if (notAPhone.matches) {...}</code>) to achieve that.</p>
+<p>Here is my final JavaScript code for adding a button to copy code snippets:</p>
+<pre class="language-js" tabindex="0"><code class="language-js"><span class="token keyword">function</span> <span class="token function">createCopyBtn</span><span class="token punctuation">(</span><span class="token parameter">blockIndex</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;div class="cc-wrapper d-none d-sm-block">
+        &lt;button class="cc-btn btn-muted shadow" data-target="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>blockIndex<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">">
+            &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">&lt;path stroke="none"d="M0 0h24v24H0z"fill="none"/>&lt;path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"/>&lt;path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/>&lt;/svg>
+            Copy Code
+        &lt;/button>
+    &lt;/div></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
 
-<h2><a href="https://11tymeetup.dev/">THE Eleventy Meetup</a>: <a href="https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/">Eleventy Journey From 2.0 to 3.0</a></h2>
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">copyCode</span><span class="token punctuation">(</span><span class="token parameter">block</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> code <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">[data-block-id="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>block<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">"]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> <span class="token function-variable function">doCopy</span> <span class="token operator">=</span> <span class="token keyword">async</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">await</span> navigator<span class="token punctuation">.</span>clipboard<span class="token punctuation">.</span><span class="token function">writeText</span><span class="token punctuation">(</span>code<span class="token operator">?.</span>innerText <span class="token operator">??</span> <span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<p><strong>26 September 2024</strong></p>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>navigator<span class="token punctuation">.</span>userAgent<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span><span class="token string">'Firefox'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> navigator<span class="token punctuation">.</span>permissions<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'clipboard-write'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<p>I spoke at <a href="https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/">Episode 19 of THE Eleventy Meetup</a>, by sharing my experience with using Eleventy, including the decision and process of upgrading from Eleventy 2.0 to 3.0.</p>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>result<span class="token punctuation">.</span>state <span class="token operator">===</span> <span class="token string">'granted'</span> <span class="token operator">||</span> result<span class="token punctuation">.</span>state <span class="token operator">===</span> <span class="token string">'prompt'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">doCopy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token function">doCopy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
 
-<ul>
-    <li><a href="https://www.youtube.com/watch?v=qgFNl_oAyQY">Watch my talk on YouTube</a></li>
-    <li><a href="/blog/posts/2024-09-27-eleventy-meetup-19-first-talk/">Read my write-up on Episode 19 of THE Eleventy Meetup</a></li>
-</ul>
+<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">handleCopyBtnClick</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> btn <span class="token operator">=</span> event<span class="token operator">?.</span>target<span class="token punctuation">;</span>
+    <span class="token keyword">const</span> btnTarget <span class="token operator">=</span> btn<span class="token operator">?.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token string">'data-target'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>btn <span class="token operator">&amp;&amp;</span> btnTarget<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> originalText <span class="token operator">=</span> btn<span class="token punctuation">.</span>innerHTML<span class="token punctuation">;</span>
+
+        <span class="token keyword">await</span> <span class="token function">copyCode</span><span class="token punctuation">(</span>btnTarget<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        btn<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">'&lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">&lt;path stroke="none" d="M0 0h24v24H0z" fill="none"/>&lt;path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />&lt;path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />&lt;path d="M9 14l2 2l4 -4" />&lt;/svg> Copied!'</span><span class="token punctuation">;</span>
+
+        <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+            btn<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> originalText<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">1500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'DOMContentLoaded'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> allCodeBlocks <span class="token operator">=</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'pre[class^="language-"]'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    allCodeBlocks<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">b<span class="token punctuation">,</span> i</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">const</span> code <span class="token operator">=</span> b<span class="token punctuation">.</span>childNodes<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token keyword">const</span> codeBlockIndex <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">cb-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>i<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+        b<span class="token punctuation">.</span><span class="token function">insertAdjacentHTML</span><span class="token punctuation">(</span><span class="token string">'afterend'</span><span class="token punctuation">,</span> <span class="token function">createCopyBtn</span><span class="token punctuation">(</span>codeBlockIndex<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        code<span class="token punctuation">.</span><span class="token function">setAttribute</span><span class="token punctuation">(</span><span class="token string">'data-block-id'</span><span class="token punctuation">,</span> codeBlockIndex<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+    <span class="token keyword">const</span> allCopyBtns <span class="token operator">=</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'.cc-btn'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    allCopyBtns<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">btn</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> handleCopyBtnClick<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
+<p>Finally, after styling the button a bit with CSS, I was satisfied with how my button to copy code snippets turn out, so as long as your browser has JavaScript enabled, you should be able to see a &quot;Copy Code&quot; button below the code snippet blocks on this website, including my JavaScript code for the button above.</p>
+
 
     
-    </div>
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+            <ul class="blog__post--nextprev">
+                <li class="blog__post--prev">
+                    <p>Previous Post:</p>
+                    <a href="/blog/posts/2025-02-15-joined-the-light-dark-side/">I Have Joined the light-dark() Side</a>
+                </li>
+                
+            </ul>
+        </nav>
+    
+    </article>
+
+    
+    
+<aside class="right-sidebar">
+    <nav class="blog__nav sidebar--sticky" aria-labelledby="blog-nav-title">
+        <h2 class="blog__nav--title" id="blog-nav-title">Blog Navigation</h2>
+        <ul class="blog__nav--links">
+            <li><a href="/blog/">Index</a></li>
+            
+                <li><a href="/blog/categories/">
+                        Categories
+                </a></li>
+                <li><a href="/blog/posts/">
+                        Archive
+                </a></li>
+            <li><a href="/blog/feed.xml">RSS Feed</a></li>
+        </ul>
+    </nav>
+</aside>
 
     
 </content-wrapper>
