@@ -1,3 +1,8 @@
+/*
+    Based on ttntm's code to add a button to copy code snippets:
+    https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/
+*/
+
 function createCopyBtn(blockIndex) {
     return `<div class="cc-wrapper d-none d-sm-block">
         <button class="cc-btn btn-muted shadow" data-target="${blockIndex}">
