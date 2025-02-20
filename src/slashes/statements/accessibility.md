@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2025-02-20T20:42:02+0800
+updated: 2025-02-20T21:13:56+0800
 ---
 
 I take accessibility seriously. I want visitors to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
@@ -17,7 +17,7 @@ High-level overview of the accessibility features of this site:
 * Links to skip to the main content or the top of the page.
 * Sufficient font size that can be enlarged without breaking the site layout.
 * No autoplaying audio or video.
-* A button below code blocks to copy code snippets (requires JavaScript enabled in the browser).
+* A button below code blocks to copy code snippets with one click. (Requires JavaScript enabled in the browser)
 
 I use the following tools to test my site for accessibility:
 
