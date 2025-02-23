@@ -22,13 +22,17 @@
         cursor: pointer;
     }
 
-    .toc ol,
-    .toc ol ol {
+    .toc__wrapper[open] > .toc__heading {
+        margin-bottom: 0.5em;
+    }
+
+    .toc ol, .toc ol ol {
         display: grid;
         gap: 0.7em;
     }
 
     .toc ol {
+        border-top: 0.1em solid var(--clr-txt-default);
         padding-left: 1.3em;
         padding-top: 1em;
     }
