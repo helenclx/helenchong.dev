@@ -83,6 +83,4 @@ pre {
 }
 
 pre > code { white-space: pre; }
-button:hover { cursor: pointer; }
 details:focus { outline-offset: 0.2em; }
-summary { cursor: pointer; }
