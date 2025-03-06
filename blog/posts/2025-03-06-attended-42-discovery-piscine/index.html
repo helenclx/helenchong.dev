@@ -6,16 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <meta property="og:title" content="Adding a Button to Copy Code Snippets">
-        <link rel="canonical" href="https://helenchong.dev/blog/posts/2025-02-19-copy-code-button/">
+        <meta property="og:title" content="Attended 42 the School&#39;s 5-Day Coding Bootcamp">
+        <link rel="canonical" href="https://helenchong.dev/blog/posts/2025-03-06-attended-42-discovery-piscine/">
         <meta name="generator" content="Eleventy v3.0.0">
         <meta name="author" content="Helen Chong">
-        <meta name="description" content="How I added a button to copy code snippets to my website with JavaScript.">
+        <meta name="description" content="I joined 42 the school&#39;s 5-day bite-sized coding bootcamp in late February.">
         <meta name="fediverse:creator" content="@helenchong@social.lol">
         <meta property="og:site_name" content="Helen Chong, Web Developer">
         <meta property="og:type" content="article">
-        <meta property="og:description" content="How I added a button to copy code snippets to my website with JavaScript.">
-        <meta property="og:url" content="https://helenchong.dev/blog/posts/2025-02-19-copy-code-button/">
+        <meta property="og:description" content="I joined 42 the school&#39;s 5-day bite-sized coding bootcamp in late February.">
+        <meta property="og:url" content="https://helenchong.dev/blog/posts/2025-03-06-attended-42-discovery-piscine/">
         <meta property="og:locale" content="en_MY">
         <meta property="og:image" content="https://helenchong.dev/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
@@ -257,10 +257,8 @@
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
         
-        <script src="/assets/js/copycode.js" defer=""></script>
-        
 
-        <title> Adding a Button to Copy Code Snippets |  Helen Chong, Web Developer</title>
+        <title> Attended 42 the School&#39;s 5-Day Coding Bootcamp |  Helen Chong, Web Developer</title>
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
@@ -330,20 +328,22 @@
 </nav>
 
 
-    <h1 class="heading--main">Adding a Button to Copy Code Snippets</h1>
+    <h1 class="heading--main">Attended 42 the School&#39;s 5-Day Coding Bootcamp</h1>
 
     
     <div class="blog__post--info">
         <p>
-            <span class="text-bold">1,388 words</span>.
-            <span class="text-bold">Posted:</span> <time datetime="2025-02-19T11:05:03+0800">19 February 2025</time> by Helen Chong
+            <span class="text-bold">771 words</span>.
+            <span class="text-bold">Posted:</span> <time datetime="2025-03-06T22:20:37+0800">6 March 2025</time> by Helen Chong
         </p>
         
         <p><span class="text-bold">Categories:</span>
             
-                <a href="/blog/categories/javascript">javascript</a>, 
+                <a href="/blog/categories/42-school">42 school</a>, 
             
-                <a href="/blog/categories/accessibility">accessibility</a>
+                <a href="/blog/categories/python">python</a>, 
+            
+                <a href="/blog/categories/life-updates">life updates</a>
             
         </p>
     </div>
@@ -355,78 +355,18 @@
 
     
     <article class="prose">
-        <p>Recently, I discovered <a href="https://whitep4nth3r.com/">Salma Alam-Naylor</a>'s article <a href="https://whitep4nth3r.com/blog/how-to-build-a-copy-code-snippet-button/">“How to build a copy code snippet button and why it matters”</a> through <a href="https://frontenddogma.com/">Frontend Dogma</a>.</p>
-<p>This being a developer website and blog, adding a button to copy code snippets was something I had considered before, as I had thought it would be convenient for readers to copy a code snippet with one click, but I did not consider how such a button could improve a website's accessibility too, until I read Salma's post. As she wrote:</p>
-<blockquote>
-<p>It is impossible to highlight and copy code blocks when you are unable to use your hands.</p>
-<p>[…] it is absolutely imperative that you include a way for people with limited use of their hands to copy that code in a single action</p>
-</blockquote>
-<p>Therefore, I began to research how to add a button to copy code snippets to my website. Like Salma, I also use Eleventy to build my website, and use <a href="https://www.11ty.dev/docs/plugins/syntaxhighlight/">Eleventy's official syntax highlighting plugin</a>, but I was unable to figure out how to make use of Salma's code to add such button to my website. Therefore, I visited <a href="https://11tybundle.dev/">The 11ty Bundle</a>, and searched if there were other guides for adding a button to copy code snippets to an Eleventy website. Eventually, I found <a href="https://ttntm.me/">ttntm</a>'s article <a href="https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/">&quot;Adding a Copy Button to Code Blocks&quot;</a>.</p>
-<p>When I tried ttntm's code by adding it to a JavaScript file to be linked to my website, I was pleased to found that it worked. Since it worked on my website, I decided to modify ttntm's code to suit my preferences.</p>
-<p>Firstly, instead of just an icon with a HTML <code>title</code> attribute as a tooltip, I added text to the button, namely &quot;Copy Code&quot; and then &quot;Copied!&quot; when the button is clicked, so both sighted readers and screen reader users can better understand the purpose of the button.</p>
-<p>Secondly, I chose to place the button after my code blocks, rather than before them. This approach was inspired by <a href="https://dbushell.com/">David Bushell</a>'s article <a href="https://dbushell.com/2025/02/14/copy-code-button/">&quot;Copy Code Button&quot;</a>. I would like readers to look at a code snippet first before deciding if they want to copy that snippet. To achieve this, I change the <code>insertAdjacentHTML()</code> method's position parameter from <code>&quot;beforebegin&quot;</code> to <code>&quot;afterend&quot;</code>.</p>
-<p>I have configured Eleventy's official syntax highlighting plugin to make my code blocks focusable, so readers who use keyboard to navigate my website can easily skip through the code snippets and go to my &quot;Copy Code&quot; button by pressing the Tab button.</p>
-<p>Thirdly, I decided to make the button to copy code appear on mobile as well. While coding is not typically done on mobile devices, it still would not hurt to give mobile device users a convenient way to copy code snippet, so they can save the snippet somewhere else for future references, such as saving in a note app to reference it later when they return to a desktop computer. As instructed by ttntm, I removed the <code>if</code> statement (<code>if (notAPhone.matches) {...}</code>) to achieve that.</p>
-<p>Here is my final JavaScript code for adding a button to copy code snippets:</p>
-<pre class="language-js" tabindex="0"><code class="language-js"><span class="token keyword">function</span> <span class="token function">createCopyBtn</span><span class="token punctuation">(</span><span class="token parameter">blockIndex</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;div class="cc-wrapper d-none d-sm-block">
-        &lt;button class="cc-btn btn-muted shadow" data-target="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>blockIndex<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">">
-            &lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">&lt;path stroke="none"d="M0 0h24v24H0z"fill="none"/>&lt;path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"/>&lt;path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"/>&lt;/svg>
-            Copy Code
-        &lt;/button>
-    &lt;/div></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">copyCode</span><span class="token punctuation">(</span><span class="token parameter">block</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> code <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">[data-block-id="</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>block<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">"]</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">const</span> <span class="token function-variable function">doCopy</span> <span class="token operator">=</span> <span class="token keyword">async</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">await</span> navigator<span class="token punctuation">.</span>clipboard<span class="token punctuation">.</span><span class="token function">writeText</span><span class="token punctuation">(</span>code<span class="token operator">?.</span>innerText <span class="token operator">??</span> <span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>navigator<span class="token punctuation">.</span>userAgent<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span><span class="token string">'Firefox'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> navigator<span class="token punctuation">.</span>permissions<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'clipboard-write'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>result<span class="token punctuation">.</span>state <span class="token operator">===</span> <span class="token string">'granted'</span> <span class="token operator">||</span> result<span class="token punctuation">.</span>state <span class="token operator">===</span> <span class="token string">'prompt'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token function">doCopy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-        <span class="token function">doCopy</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">handleCopyBtnClick</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> btn <span class="token operator">=</span> event<span class="token operator">?.</span>target<span class="token punctuation">;</span>
-    <span class="token keyword">const</span> btnTarget <span class="token operator">=</span> btn<span class="token operator">?.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token string">'data-target'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>btn <span class="token operator">&amp;&amp;</span> btnTarget<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">const</span> originalText <span class="token operator">=</span> btn<span class="token punctuation">.</span>innerHTML<span class="token punctuation">;</span>
-
-        <span class="token keyword">await</span> <span class="token function">copyCode</span><span class="token punctuation">(</span>btnTarget<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        btn<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> <span class="token string">'&lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon">&lt;path stroke="none" d="M0 0h24v24H0z" fill="none"/>&lt;path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />&lt;path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />&lt;path d="M9 14l2 2l4 -4" />&lt;/svg> Copied!'</span><span class="token punctuation">;</span>
-
-        <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
-            btn<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> originalText<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">1500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'DOMContentLoaded'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
-    <span class="token keyword">const</span> allCodeBlocks <span class="token operator">=</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'pre[class^="language-"]'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    allCodeBlocks<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">b<span class="token punctuation">,</span> i</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
-        <span class="token keyword">const</span> code <span class="token operator">=</span> b<span class="token punctuation">.</span>childNodes<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-        <span class="token keyword">const</span> codeBlockIndex <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">cb-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>i<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
-
-        b<span class="token punctuation">.</span><span class="token function">insertAdjacentHTML</span><span class="token punctuation">(</span><span class="token string">'afterend'</span><span class="token punctuation">,</span> <span class="token function">createCopyBtn</span><span class="token punctuation">(</span>codeBlockIndex<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        code<span class="token punctuation">.</span><span class="token function">setAttribute</span><span class="token punctuation">(</span><span class="token string">'data-block-id'</span><span class="token punctuation">,</span> codeBlockIndex<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-    <span class="token keyword">const</span> allCopyBtns <span class="token operator">=</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span>document<span class="token punctuation">.</span><span class="token function">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'.cc-btn'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    allCopyBtns<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">btn</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
-        btn<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> handleCopyBtnClick<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span></code></pre>
-<p>Finally, after styling the button a bit with CSS, I was satisfied with how my button to copy code snippets turn out, so as long as your browser has JavaScript enabled, you should be able to see a &quot;Copy Code&quot; button below the code snippet blocks on this website, including my JavaScript code for the button above.</p>
+        <p>From 24 to 28 February 2025, I attended <a href="2025-01-20-attending-42-school.md">42 the computer science school</a>'s bite-sized coding bootcamp that lasted for 5 days, called the Discovery Piscine.</p>
+<p>Originally, when I applied for 42 and passed their online assessment in December 2024, I registered to join their trial bootcamp, named Piscine, on 24 February 2025. However, on 17 February 2025, a week before my Piscine was supposed to start, I received an email from 42 that received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.</p>
+<p>On the next day, I received another email from 42 that instead of a full Piscine, a five-day bite-sized coding bootcamp named Discovery Piscine would take place from February 24 to 28 instead. I decided to register to join Discovery Piscine, so I could have a taste of what the Piscine is like, and allowing myself to be better prepared for the full Piscine in April.</p>
+<p>Discovery Piscine cadets, or Discovery Pisciners, will learn Python and shell, since the computers in their workstations use Linux, specifically the Ubuntu distribution with GNOME as its desktop environment.</p>
+<p>I had experience with Linux desktop environments before 42 founded its first Malaysian campus, as I used to dual boot Windows and Linux in my computer, but that happened years ago. Currently, my main method of using Linux is through Windows Subsystem for Linux (WSL) without setting up any desktop environment. Therefore, Discovery Piscine provided a great opportunity to practice using Linux and shell commands.</p>
+<p>I had learned Python before during my journey of teaching myself to code, and I even <a href="/blog/posts/2023-11-13-My-First-PR-in-Python/">contributed to a Python library for datamining my favourite video game <cite>Cassette Beasts</cite></a>. However, Discovery Piscine allowed me to refresh my Python knowledge and practice writing Python scripts, while also learning Python's built-in functions that I was unfamiliar with. There was an exercise where I was stuck in for a longer time than expect, but then I solved the exercise after discovering the Python function I needed by searching the web with the right keyword.</p>
+<p>Speaking of the computers in 42's workstations, during my last visit to my local campus of 42 on their open day in January, I requested a way to change the computer screen brightness to the campus staff, because my eyes are sensitive to bright light due to me having <a href="https://blog.helenchong.omg.lol/en/posts/2024-12-21-living-with-retinitis-pigmentosa/">retinitis pigmentosa</a>, and to my surprise the computers lacked the option to adjust screen brightness. The school staff promised to accommodate my request. On my first day attending the Discovery Piscine, I reminded the staff of my request, and a staff member soon installed a screen brightness setting in all the workstation computers, so I could adjust the computer screen brightness to the level I felt comfortable with.</p>
+<p>Seeing the school staff fulfilling their promise to meet my request that accommodated my visual impairment has certainly raised my opinion on the school even higher.</p>
+<p>42's education model is peer-to-peer learning without teachers or lectures, so cadets obtain curriculum materials through 42's intranet. After we completed a curriculum module, we still book someone else's time slot to let another cadet evaluate our work. Even if we failed a module, we could retry the module immediately. Cadets also need to set available time slots, so others can book our time slots for evaluation. When I evaluated other Discovery Pisciners' work, I often provided tips for improving code and alternate ways to solve the exercises.</p>
+<p>The fact that 42's curriculum has no teacher encouraged us to learn through searching the web, and it certainly helped that there have been a lot of resources, including free ones, to learn to code. 42's curriculum reminded me of how I started to teach myself to code for this reason, with the added bonus of learning in a physical coding school and meeting other people who were also interested in learning to code.</p>
+<p>There were 10 modules of Python exercises in Discovery Piscine's curriculum, and I managed to do all the exercises, though not all of them got evaluated because of time constraints, and 42 only considers you having completed a module after you pass peer evaluations, so I ended up completing 5 out of 10 modules. However, this also earned me a certificate of completion after I graduated from the Discovery Piscine.</p>
+<p>Despite already having programming experience — including <a href="/blog/posts/2024-08-16-got-my-first-developer-job/">professional experience</a> albeit a short one — I find 42 a good school for me. I am looking forward to the full Piscine in April.</p>
 
 
     
@@ -435,12 +375,7 @@ document<span class="token punctuation">.</span><span class="token function">add
             <ul class="blog__post--nextprev">
                 <li class="blog__post--prev">
                     <p>Previous Post:</p>
-                    <a href="/blog/posts/2025-02-15-joined-the-light-dark-side/">I Have Joined the light-dark() Side</a>
-                </li>
-                
-                <li class="blog__post--next">
-                    <p>Next Post:</p>
-                    <a href="/blog/posts/2025-03-06-attended-42-discovery-piscine/">Attended 42 the School&#39;s 5-Day Coding Bootcamp</a>
+                    <a href="/blog/posts/2025-02-19-copy-code-button/">Adding a Button to Copy Code Snippets</a>
                 </li>
                 
             </ul>
