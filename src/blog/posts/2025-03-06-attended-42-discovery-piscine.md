@@ -7,7 +7,7 @@ categories: ["42 school", "python", "life updates"]
 
 From 24 to 28 February 2025, I attended [42 the computer science school](2025-01-20-attending-42-school.md)'s bite-sized coding bootcamp that lasted for 5 days, called the Discovery Piscine.
 
-Originally, when I applied for 42 and passed their online assessment in December 2024, I registered to join their trial bootcamp, named Piscine, on 24 February 2025. However, on 17 February 2025, a week before my Piscine was supposed to start, I received an email from 42 that received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.
+Originally, when I applied for 42 and passed their online assessment in December 2024, I registered to join their trial bootcamp, named Piscine, on 24 February 2025. However, on 17 February 2025, a week before my Piscine was supposed to start, I received an email from 42 announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.
 
 On the next day, I received another email from 42 that instead of a full Piscine, a five-day bite-sized coding bootcamp named Discovery Piscine would take place from February 24 to 28 instead. I decided to register to join Discovery Piscine, so I could have a taste of what the Piscine is like, and allowing myself to be better prepared for the full Piscine in April.
 
