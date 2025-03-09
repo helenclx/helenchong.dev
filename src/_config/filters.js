@@ -11,8 +11,8 @@ export default function(eleventyConfig) {
     });
 
     // Limit the number of items displayed
-    eleventyConfig.addFilter("itemLimit", (array, limit) => {
-        return array.slice(0, limit);
+    eleventyConfig.addFilter("itemLimit", (array, maximum) => {
+        return array.slice(0, maximum);
     });
 
     // Thousands separator
