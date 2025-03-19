@@ -13,17 +13,17 @@
   },
   "type": "module",
   "devDependencies": {
-    "@types/bun": "^1.1.14"
+    "@types/bun": "^1.2.5"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-fetch": "^5.0.1",
+    "@11ty/eleventy-fetch": "^5.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@uncenter/eleventy-plugin-toc": "^1.0.3",
     "@zachleat/details-utils": "^2.0.2",
-    "eleventy-plugin-embed-everything": "^1.19.0",
+    "eleventy-plugin-embed-everything": "^1.20.0",
     "eleventy-plugin-wordcount-extended": "^0.2.1",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-attrs": "^4.3.1",
