@@ -4,12 +4,28 @@
   <subtitle>Helen Chong talks about tech, coding and development.</subtitle>
   <link href="https://helenchong.dev/blog/feed.xml" rel="self" />
   <link href="https://helenchong.dev/blog/" />
-  <updated>2025-03-06T14:20:37Z</updated>
+  <updated>2025-03-21T13:42:18Z</updated>
   <id>https://helenchong.dev/blog/</id>
   <author>
     <name>Helen Chong</name>
     <email>contact@helenchong.dev</email>
   </author>
+  <entry>
+    <title>Purelymail and Online Account Spring Cleaning</title>
+    <link href="https://helenchong.dev/blog/posts/2025-03-21-purelymail-online-accounts/" />
+    <updated>2025-03-21T13:42:18Z</updated>
+    <id>https://helenchong.dev/blog/posts/2025-03-21-purelymail-online-accounts/</id>
+    <content type="html">&lt;p&gt;I have switched to &lt;a href=&quot;https://purelymail.com/&quot;&gt;Purelymail&lt;/a&gt; as my main email service provider.&lt;/p&gt;
+&lt;p&gt;I have been looking for an alternative email service provider to Gmail and Outlook for my personal use for a while, to reduce my reliance on Big Tech services as much as possible. However, price has always been the main obstacle: as an internet user who lives in a country with cheaper currency than both U.S. Dollars and Euro, I need to be conscious about how much money to spend on Western-based products, and I am honestly not comfortable spending on most of the alternative email service providers, especially for the ability to use custom domain names and create extra mailboxes or users for different purposes.&lt;/p&gt;
+&lt;p&gt;Purelymail, on the other hand, is really cheap: its standard pricing is already as low as 10 U.S. Dollars per year, while offering no hard limits on storage, and no extra charges for using custom domain names and creating extra mailboxes or users. After trying out Purelymail for a bit, I decided to officially activate my account with &lt;a href=&quot;https://purelymail.com/advancedpricing&quot;&gt;advanced pricing&lt;/a&gt;, which is its pay-as-you-go model, because I calculated that my usage would require spending less than 10 U.S. Dollars per year.&lt;/p&gt;
+&lt;p&gt;I created multiple mailboxes on my Purelymail account with my various domain names for different purposes: for personal communication or registering accounts on online service. This means I changed the email addresses of most of my online accounts as well.&lt;/p&gt;
+&lt;p&gt;Speaking of my online accounts, I also took this opportunity of changing the email addresses of my online accounts to close and delete the online accounts that I do not use or need any more. Thanks to a password manager like &lt;a href=&quot;https://bitwarden.com/&quot;&gt;BitWarden&lt;/a&gt;, I am able to not only save passwords and generate unique passwords without having to memorise every one of them myself, but also keep track of how many online accounts I have, including ones that I no longer use or need so I can get rid of those accounts. In the end of this round of online account spring cleaning, I closed and deleted at least 60 accounts.&lt;/p&gt;
+&lt;p&gt;After inspired by the resurgence of personal websites to code my own website for the first time in 2022, I have learned more about the importance of taking control and ownership of my online life and presence. It is telling that many of the online accounts I just deleted were related to services that I had settled for alternatives that I have been satisfied with.&lt;/p&gt;
+&lt;p&gt;For example, &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; has become my go-to note-taking software for pretty much everything, including projects, so I do not need other online project management services for personal use any more; &lt;a href=&quot;https://affinity.serif.com/en-gb/photo/&quot;&gt;Affinity Photo&lt;/a&gt; and &lt;a href=&quot;https://affinity.serif.com/en-gb/designer/&quot;&gt;Designer&lt;/a&gt; have replaced Adobe Photoshop and Illustrator for my photo editing and vector graphics needs, especially given the fact that I do not work as a graphic designer any more, so I do not need an Adobe account any more.&lt;/p&gt;
+&lt;p&gt;In conclusion, I am satisfied with my switch to Purelymail, and I have found online spring cleaning a good practice in declutter my online life.&lt;/p&gt;
+&lt;p&gt;Shout-out to &lt;a href=&quot;https://adam.omg.lol/&quot;&gt;Adam Newbold&lt;/a&gt; and &lt;a href=&quot;https://faisal.fm/&quot;&gt;Faisal Misle&lt;/a&gt; of &lt;a href=&quot;https://home.omg.lol/&quot;&gt;omg.lol&lt;/a&gt; staff for helping me to troubleshoot an issue with using my omg.lol email forwarding address to forward emails to my Purelymail mailbox using my omg.lol address as the custom domain, as well as Porkbun&#39;s support team for helping me to resolve a DNS issue with one of my domain names after switching from Porkbun&#39;s email forwarding service to Purelymail that was caused by the DNS records related to Porkbun&#39;s email forwarding being cached in my domain&#39;s DNS records longer than expected.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Attended 42 the School&#39;s 5-Day Coding Bootcamp</title>
     <link href="https://helenchong.dev/blog/posts/2025-03-06-attended-42-discovery-piscine/" />
@@ -264,18 +280,6 @@ document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span c
 &lt;p&gt;Thank you &lt;a href=&quot;https://sia.codes/&quot;&gt;Sia Karamalegos&lt;/a&gt; for organising Episode 19 of THE Eleventy Meetup. Thank you &lt;a href=&quot;https://estelafranco.com/&quot;&gt;Estela Franco&lt;/a&gt; for your talk about and presentation of &lt;a href=&quot;https://www.youtube.com/watch?v=G3Pz1AH6SCY&quot;&gt;using Storyblok to build an Eleventy blog site&lt;/a&gt;. Thank you to everyone who attended the meetup. Thank you everyone who has left supportive and encouraging messages for my talk in the chat.&lt;/p&gt;
 &lt;p&gt;You can watch my talk, &amp;quot;Eleventy Journey From 2.0 to 3.0&amp;quot;, at THE Eleventy Meetup Episode 19 at THE Eleventy Meetup&#39;s YouTube channel:&lt;/p&gt;
 &lt;div id=&quot;qgFNl_oAyQY&quot; class=&quot;eleventy-plugin-youtube-embed&quot; style=&quot;position:relative;width:100%;padding-top: 56.25%;&quot;&gt;&lt;iframe style=&quot;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;&quot; width=&quot;100%&quot; height=&quot;100%&quot; frameborder=&quot;0&quot; title=&quot;Embedded YouTube video&quot; src=&quot;https://www.youtube-nocookie.com/embed/qgFNl_oAyQY&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Scheduled: Speaking at THE Eleventy Meetup Episode 19</title>
-    <link href="https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/" />
-    <updated>2024-09-10T15:35:17Z</updated>
-    <id>https://helenchong.dev/blog/posts/2024-09-10-scheduled-the-eleventy-meetup-episode-19/</id>
-    <content type="html">&lt;p&gt;I am pleased to announce that I have been invited to speak at Episode 19 of &lt;a href=&quot;https://11tymeetup.dev/&quot;&gt;THE Eleventy Meetup&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;This will also be my first time speaking at a tech event, another major milestone since I &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-08-16-got-my-first-developer-job/&quot;&gt;got my first developer job in August 2024&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Episode 19 of THE Eleventy Meetup is scheduled to be held on 26 September 2024, 7pm Malaysia Time. My talk, titled &amp;quot;Eleventy Journey From 2.0 to 3.0&amp;quot;, will be about my experience with using Eleventy, including the decision and process of upgrading to Eleventy 3.0.&lt;/p&gt;
-&lt;p&gt;I have been using Eleventy since &lt;a href=&quot;https://helenchong.dev/blog/posts/2024-04-11-rebuilding-my-developer-portfolio-with-eleventy/&quot;&gt;April 2024&lt;/a&gt;, and loving it and its wonderful community, so I am immensely grateful that my first time speaking at a tech event will be dedicated to Eleventy.&lt;/p&gt;
-&lt;p&gt;You can find more details about &lt;a href=&quot;https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/&quot;&gt;THE Eleventy Meetup Ep. 19: Migrating to 3.0 and Blogging with Storyblok&lt;/a&gt; on THE Eleventy Meetup website. See you there!&lt;/p&gt;
 </content>
   </entry>
 </feed>
