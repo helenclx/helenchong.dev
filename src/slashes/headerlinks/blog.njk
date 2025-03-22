@@ -18,7 +18,7 @@ eleventyComputed:
 
 <h2>Blog Posts</h2>
 <ul class="blog__posts">
-{% for post in postList %}
+    {% for post in postList %}
     <li class="blog__post">
         <h3 class="blog__post--title">
             <a href="{{ post.url }}">
@@ -31,7 +31,7 @@ eleventyComputed:
         <p><time datetime="{{ post.date }}" class="blog__post--time">{{ post.date | formatDate }}</time></p>
         <p>{{ post.data.desc }}</p>
     </li>
-{% endfor %}
+    {% endfor %}
 </ul>
 
 {% include "blog/pagination-oldnew.njk" %}

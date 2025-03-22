@@ -14,7 +14,7 @@ eleventyComputed:
         parent: Blog Categories
 ---
 {% set postCount = collections.posts | filterByCategory(category) | length %}
-<h2>{{ postCount }} Posts Filed Under "{{ category }}"</h2>
+<h2 class="blog__cat--title">{{ postCount }} Posts Filed Under "{{ category }}"</h2>
 
 {% set postList = collections.posts | filterByCategory(category) | reverse %}
 {% include "blog/postslist.njk" %}
