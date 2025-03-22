@@ -4,7 +4,7 @@ export default {
     isArticle: true,
     eleventyComputed: {
         eleventyNavigation: {
-            key: "{{ title }}",
+            key: (data) => data.title,
             parent: "Blog Posts"
         }
     }

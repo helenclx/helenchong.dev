@@ -2,6 +2,6 @@ export default {
     layout: "global/statement",
     tags: "statements",
     eleventyComputed: {
-        desc: "{{ sitemeta.siteAuthor.name }}'s {{ keyword }}."
+        desc: (data) => `${data.sitemeta.siteAuthor.name}'s ${data.keyword}.`
     }
 }

@@ -10,11 +10,11 @@
         <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta name="generator" content="{{ eleventy.generator }}">
         <meta name="author" content="{{ sitemeta.siteAuthor.name }}">
-        <meta name="description" content="{{ desc or metadata.desc or sitemeta.siteDescription }}">
+        <meta name="description" content="{{ desc or metadata.desc or sitemeta.siteDescription | safe }}">
         <meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
         <meta property="og:site_name" content="{{ sitemeta.siteName }}" />
         <meta property="og:type" content="{{ "article" if tags and tags.includes("posts") else "website" }}">
-        <meta property="og:description" content="{{ desc or metadata.desc or sitemeta.siteDescription }}">
+        <meta property="og:description" content="{{ desc or metadata.desc or sitemeta.siteDescription | safe }}">
         <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta property="og:locale" content="{{ sitemeta.siteLocale }}">
         <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
