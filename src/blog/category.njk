@@ -7,9 +7,9 @@ permalink: /blog/categories/{{ category | slugify }}/
 layout: global/content
 hasBreadcrumbs: true
 eleventyComputed:
-    title: 'Blog Post Category: "{{ category }}"'
+    title: 'Blog Post Category: "{{ category | safe }}"'
     eleventyNavigation:
-        key: {{ category }}
+        # key: "{{ category }}"
         parent: Blog Categories
 ---
 {% set postCount = collections.posts | filterByCategory(category) | length %}
