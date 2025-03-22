@@ -3,6 +3,9 @@ title: Colophon
 keyword: colophon page
 updated: 2025-02-18T00:31:15+0800
 toc: true
+eleventyNavigation:
+    key: Colophon
+    order: 8
 ---
 
 How this website is built.

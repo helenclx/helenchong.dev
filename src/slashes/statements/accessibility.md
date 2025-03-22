@@ -2,6 +2,9 @@
 title: Accessibility
 keyword: accessibility statement
 updated: 2025-02-20T21:13:56+0800
+eleventyNavigation:
+    key: Accessibility
+    order: 7
 ---
 
 I take accessibility seriously. I want visitors to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
