@@ -1,7 +1,7 @@
 {% if isArticle or hasBreadcrumbs %}
 <nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
     <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
-    {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or pageTitle or title, { allowMissing: true }) %}
+    {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or pageTitle or title) %}
     {%- for entry in breadcrumbNavPages %}
     <a href="{{ entry.url }}">{{ entry.title }}</a> <span aria-hidden="true">➔</span>
     {%- endfor %}
