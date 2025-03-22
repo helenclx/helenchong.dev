@@ -34,7 +34,14 @@ export default function(eleventyConfig) {
 				name: siteAuthor.name,
 				email: siteAuthor.email,
 			}
-		}
+		},
+        templateData: {
+			eleventyNavigation: {
+				key: "RSS Feed",
+                parent: "Blog",
+				order: 4
+			}
+		},
 	});
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
