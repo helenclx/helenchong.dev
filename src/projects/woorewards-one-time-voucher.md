@@ -1,13 +1,12 @@
 ---
 title: "WooRewards Add-On: One-Time Redeemable Voucher"
 summary: WordPress plugin to add one-time redeemable vouchers as a reward option to WooRewards, the WooCommerce plugin.
-image: /assets/images/projects/woorewards-ont-time-voucher.avif
+image: woorewards-one-time-voucher_mrjchv.avif
 imageAlt: "Email screenshot of WooRewards Add-On: One-Time Redeemable Voucher"
+imageWidth: 925
+imageHeight: 546
+tech: ["PHP", "WordPress", "API"]
 date: 2023-01-01
-tech:
-  - PHP
-  - WordPress
-  - API
 ---
 
 ## Project Links

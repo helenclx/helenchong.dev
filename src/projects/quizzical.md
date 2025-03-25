@@ -1,11 +1,11 @@
 ---
 title: Quizzical
 summary: Test your knowledge with this quiz game. A solo project for Scrimba's React course.
-image: /assets/images/projects/Quizzical.avif
+image: Quizzical_whoabw.avif
 imageAlt: Screenshot of the Quizzical project
-tech:
-  - React.js
-  - API
+imageWidth: 1898
+imageHeight: 1086
+tech: ["React.js", "API"]
 ---
 
 ## Project Links
