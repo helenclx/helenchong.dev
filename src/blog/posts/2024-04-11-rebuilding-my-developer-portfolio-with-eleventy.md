@@ -7,11 +7,11 @@ categories: ["eleventy", "about this website", "about this blog"]
 
 I have been taking courses to learn to code, starting from HTML, CSS and JavaScript, since December 2022. As I honed my front-end web development skills further by building projects, I quickly realised that I needed a portfolio website to showcase myself and my projects. Eventually, I launched my first developer portfolio website in February 2023, based on Kolade Chris tutorial ["How to Build Your Own Developer Portfolio Website with HTML, CSS, and JavaScript"](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/) on freeCodeCamp, and deployed it to GitHub Pages.
 
-![First version of Helen Chong's developer portfolio](/assets/images/posts/rebuilding-my-developer-portfolio-with-eleventy/Helen-Chong-portfolio-old.avif){loading="lazy"}
+<img src="{% src 'Helen-Chong-portfolio-old_va6mq2.avif' %}" srcset="{% srcset 'Helen-Chong-portfolio-old_va6mq2.avif', [260, 649, 980, 1320, 1580, 1830, 2048] %}" sizes="(min-width: 1020px) calc(54.9vw - 67px), calc(96.57vw - 30px)" alt="First version of Helen Chong's developer portfolio" width="1898" height="888" loading="lazy">
 
 When I [shared the first version of my developer portfolio website on Twitter](https://twitter.com/helen_clx/status/1621696817795854336), my tweet was liked and replied to by both [Quincy Larson](https://twitter.com/ossia/status/1621729431009071104), the founder of freeCodeCamp, and [Kolade Chris](https://twitter.com/Ksound22/status/1621739428057079808) themselves, despite me not even tagging freeCodeCamp nor Kolade.
 
-![Quincy Larson and Kolade Chris' replies to my tweet](/assets/images/posts/rebuilding-my-developer-portfolio-with-eleventy/Quincy-Larson-Kolade-Chris-tweet-replies.avif){loading="lazy"}
+<img src="{% src 'Quincy-Larson-Kolade-Chris-tweet-replies_ckctpn.avif' %}" srcset="{% srcset 'Quincy-Larson-Kolade-Chris-tweet-replies_ckctpn.avif', [260, 649, 980, 1320, 1580, 1830, 2048] %}" sizes="(min-width: 1860px) 886px, (min-width: 1020px) 47.93vw, 88vw" alt="Quincy Larson and Kolade Chris' replies to my tweet" width="886" height="1196" loading="lazy">
 
 As my front-end web development skills grew, I made my own improvements to the code of my portfolio website, most notably revamping the CSS to a mobile-first approach. In August 2023, I also [launched my tech and coding blog](2023-08-21-Welcome-to-Helen-Codes.md) to document my coding learnings and talk about various tech topics. At first, I tried to build my blog with a Jekyll template in a separate repository, but switched to [Zonelets](https://zonelets.net/), so I can write and manage my blog in HTML, CSS and JavaScript, languages I was already familiar with, and moved my blog to my portfolio website's own repository.
 
@@ -25,7 +25,7 @@ Thus, my Eleventy journey began. After reading the official Eleventy documentati
 
 Finally, on 9 April 2024, I succeed in rebuilding my developer portfolio website in Eleventy!
 
-![Helen Chong's new developer portfolio](/assets/images/posts/rebuilding-my-developer-portfolio-with-eleventy/Helen-Chong-portfolio-eleventy.avif){loading="lazy"}
+<img src="{% src 'Helen-Chong-portfolio-eleventy_yzgrgh.avif' %}" srcset="{% srcset 'Helen-Chong-portfolio-eleventy_yzgrgh.avif', [260, 649, 980, 1320, 1580, 1830, 2048] %}" sizes="(min-width: 1020px) calc(54.9vw - 67px), calc(96.57vw - 30px)" alt="Helen Chong's new developer portfolio" width="1898" height="878" loading="lazy">
 
 Using a static site generator to build my own websites has been a great learning experience, from creating layouts, templates, installing plug-ins, to setting up GitHub Actions. I am glad that I have learned a great tool to build and maintain my static website projects in a dynamic, flexible and efficient manner.
 
