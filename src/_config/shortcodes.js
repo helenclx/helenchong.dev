@@ -15,6 +15,10 @@ export default function(eleventyConfig) {
         </div>`;
     });
 
+    /*
+        Cloudinary responsive image shortcodes by Sia Karamalegos:
+        https://sia.codes/posts/eleventy-and-cloudinary-images/
+    */
     // Set constants for the Cloudinary URL and fallback widths for images when not supplied by the shorcode params
     const CLOUDNAME = "helenchong";
     const FOLDER = "v1742915994/";
