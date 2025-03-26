@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 
 export default function(eleventyConfig) {
-    // Format dates
+    // Filter: Format dates
     eleventyConfig.addFilter("formatDate", (date) => {
         const dateFormat = "d LLLL yyyy";
         if (typeof date === "object") {
@@ -10,17 +10,17 @@ export default function(eleventyConfig) {
         return DateTime.fromISO(date, { setZone: true }).toFormat(dateFormat);
     });
 
-    // Limit the number of items displayed
+    // Filter: Limit the number of items displayed
     eleventyConfig.addFilter("itemLimit", (array, maximum) => {
         return array.slice(0, maximum);
     });
 
-    // Thousands separator
+    // Filter: Thousands separator
     eleventyConfig.addFilter("thousands", (num) => {
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     });
 
-    // Filter blog posts by category
+    // Filter: Filter blog posts by category
     eleventyConfig.addFilter("filterByCategory", (posts, cat) => {
         cat = cat.toLowerCase();
         let result = posts.filter(p => {

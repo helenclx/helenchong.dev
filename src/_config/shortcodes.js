@@ -1,13 +1,13 @@
 import slugify from "slugify";
 
 export default function(eleventyConfig) {
-    // Current year
+    // Shortcode: Current year
     eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
-    // <cite> tag
+    // Shortcode: <cite> tag
     eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
 
-    // Manual heading anchor
+    // MShortcode: anual heading anchor
     eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
         return `<div class="heading-wrapper h${hLevel}">
             <h${hLevel} id="${id}">${title}</h${hLevel}>
@@ -40,7 +40,7 @@ export default function(eleventyConfig) {
         return `${BASE_URL}q_auto,f_auto,w_${width ? width : FALLBACK_WIDTH}/${FOLDER}${file}`;
     }
 
-    // Responsive image
+    // Shortcode: Responsive image
     eleventyConfig.addShortcode('src', (file, width) => getSrc(file, width));
     eleventyConfig.addShortcode('srcset', (file, widths) => getSrcset(file, widths));
 }
