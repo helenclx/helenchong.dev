@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-02-18T00:31:15+0800
+updated: 2025-03-31T19:05:55+0800
 toc: true
 ---
 
@@ -12,7 +12,6 @@ How this website is built.
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: Nunjucks and Markdown.
-* Code written with Visual Studio Code.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [GitHub](https://github.com/helenclx/helenchong.dev).
 
