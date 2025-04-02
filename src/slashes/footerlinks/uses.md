@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-02T17:52:00+0800
+updated: 2025-04-02T22:58:34+0800
 toc: true
 ---
 
@@ -31,6 +31,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
 - [WinScript](https://winscript.cc/)
+- [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
 - Package manager: [Windows Package Manager](https://learn.microsoft.com/en-us/windows/package-manager/) (winget) and [APT](https://wiki.debian.org/AptCLI) on Linux
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
 - Screen reader: [NVDA](https://www.nvaccess.org/download/) on Windows, and TalkBack on Android
