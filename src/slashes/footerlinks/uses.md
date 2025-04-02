@@ -1,5 +1,6 @@
 ---
 title: Uses
+desc: A non-exhaustive list of hardware and software that I use.
 updated: 2025-04-02T17:52:00+0800
 toc: true
 ---
