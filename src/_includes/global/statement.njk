@@ -4,4 +4,6 @@ layout: global/content
 
 {{ content | safe }}
 
-<p>(This {{ keyword }} was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)</p>
+{%- set lastUpdated -%}{{ updated if updated else date }}{%- endset -%}
+
+<p class="update-info">(This {{ keyword if keyword else "page" }} was last updated on <time datetime="{{ lastUpdated }}">{{ lastUpdated | formatDate }}</time>)</p>
