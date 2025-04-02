@@ -10,6 +10,7 @@
 .text-bold { font-weight: 700; }
 .el-top-margin { margin-top: 1.5em; }
 .email-encoded b { display: none; }
+.update-info { margin-top: 3em; }
 
 .inline-icon {
     display: inline-block;

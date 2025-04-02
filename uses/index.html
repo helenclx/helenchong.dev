@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <meta property="og:title" content="Blog Post Category: &quot;100 days of code&quot;">
-        <link rel="canonical" href="https://helenchong.dev/blog/categories/100-days-of-code/">
+        <meta property="og:title" content="Uses">
+        <link rel="canonical" href="https://helenchong.dev/uses/">
         <meta name="generator" content="Eleventy v3.0.0">
         <meta name="author" content="Helen Chong">
         <meta name="description" content="Helen Chong's developer portfolio and blog website.">
@@ -15,7 +15,7 @@
         <meta property="og:site_name" content="Helen Chong, Web Developer">
         <meta property="og:type" content="website">
         <meta property="og:description" content="Helen Chong's developer portfolio and blog website.">
-        <meta property="og:url" content="https://helenchong.dev/blog/categories/100-days-of-code/">
+        <meta property="og:url" content="https://helenchong.dev/uses/">
         <meta property="og:locale" content="en_MY">
         <meta property="og:image" content="https://helenchong.dev/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
@@ -60,7 +60,54 @@
 
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/utility.css">
-        <style>.header {
+        <style>.toc__wrapper {
+        max-height: 80vh;
+        overflow-x: auto;
+        padding: 0.3em 1.3rem 1.5em;
+    }
+
+    .toc__heading {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .toc__wrapper[open] > .toc__heading {
+        margin-bottom: 0.5em;
+    }
+
+    .toc ol, .toc ol ol {
+        display: grid;
+        gap: 0.7em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-txt-default);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        margin: 0;
+    }
+
+    .toc ol a {
+        font-size: 1.1em;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1em;
+    }
+
+    @media only screen and (min-width: 60rem) {
+        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
+    }
+.header {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -256,9 +303,11 @@
         
         <script src="/assets/js/ASD0firv2s.js" defer=""></script>
         
+        <script src="/assets/js/details-utils.js" defer=""></script>
+        
         
 
-        <title> Blog Post Category: &quot;100 days of code&quot; |  Helen Chong, Web Developer</title>
+        <title> Uses |  Helen Chong, Web Developer</title>
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
@@ -277,7 +326,7 @@
     <li><a class="header__link " href="/about/">
             About
     </a></li>
-    <li><a class="header__link link--active" href="/blog/">
+    <li><a class="header__link " href="/blog/">
             Blog
     </a></li>
     <li><a class="header__link " href="/projects/">
@@ -301,7 +350,7 @@
     <li><a class="header__link " href="/about/">
             About
     </a></li>
-    <li><a class="header__link link--active" href="/blog/">
+    <li><a class="header__link " href="/blog/">
             Blog
     </a></li>
     <li><a class="header__link " href="/projects/">
@@ -320,68 +369,174 @@
             
 <header class="main__header">
     
-<nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
-    <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
-    
-    <a href="/blog/">Blog</a> <span aria-hidden="true">➔</span>
-    <a href="/blog/categories/">Categories</a> <span aria-hidden="true">➔</span>
-</nav>
 
-
-    <h1 class="heading--main">Blog Post Category: &quot;100 days of code&quot;</h1>
+    <h1 class="heading--main">Uses</h1>
 
     
 </header>
 
 <content-wrapper>
     
+    <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore="">
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#hardware">Hardware</a></li>
+<li><a href="#software">Software</a><ol><li><a href="#general">General</a></li>
+<li><a href="#operating-systems">Operating Systems</a></li>
+<li><a href="#operating-system-utilities">Operating System Utilities</a></li>
+<li><a href="#internet">Internet</a></li>
+<li><a href="#productivity">Productivity</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#software-development">Software Development</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#art-and-design">Art and Design</a></li></ol></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
 
     
     <div class="prose">
         
-<h2 class="blog__cat--title">1 Posts Filed Under "100 days of code"</h2>
-
-
-<ul class="blog__postlist">
-    
-    <li>
-        <p class="blog__postlist--title">
-            <a href="/blog/posts/2024-04-13-round-1-100-days-of-code-challenge-completed/">
-                Round 1 of 100 Days of Code Challenge Completed
-                
-            </a>
-        </p>
-        <p><time datetime="Sat Apr 13 2024 04:20:00 GMT+0000 (Coordinated Universal Time)">13 April 2024</time></p>
-    </li>
-    
+<p>Below is a non-exhaustive list of the hardware and software that I use.</p>
+<p>You can find more /uses pages on <a href="https://uses.tech/">uses.tech</a>.</p>
+<div class="heading-wrapper h2">
+<h2 id="hardware">Hardware</h2>
+<a class="heading-anchor" href="#hardware" aria-labelledby="hardware"><span hidden="">#</span></a></div>
+<ul>
+<li>Laptop: Acer Predator Helios 300. Purchased in February 2018.</li>
+<li>Smartphone: Xiaomi Redmi Note 13 Pro 5G. Purchased in August 2024.</li>
+<li>Smartwatch: Xiaomi Smart Band 9</li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="software">Software</h2>
+<a class="heading-anchor" href="#software" aria-labelledby="software"><span hidden="">#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="general">General</h3>
+<a class="heading-anchor" href="#general" aria-labelledby="general"><span hidden="">#</span></a></div>
+<ul>
+<li>Fonts: <a href="https://www.lexend.com/">Lexend</a>, <a href="https://fonts.google.com/specimen/Readex+Pro">Readex Pro</a>, and <a href="https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html">Intel One Mono</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="operating-systems">Operating Systems</h3>
+<a class="heading-anchor" href="#operating-systems" aria-labelledby="operating-systems"><span hidden="">#</span></a></div>
+<ul>
+<li>Laptop: Windows 11 Pro, with <a href="https://learn.microsoft.com/windows/wsl">Windows Subsystem for Linux</a> (WSL) enabled and <a href="https://ubuntu.com/">Ubuntu</a> installed as the Linux distribution</li>
+<li>Smartphone: Xiaomi HyperOS 2.0, based on Android 15</li>
+<li>Smartwatch: Xiaomi HyperOS 2.0</li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="operating-system-utilities">Operating System Utilities</h3>
+<a class="heading-anchor" href="#operating-system-utilities" aria-labelledby="operating-system-utilities"><span hidden="">#</span></a></div>
+<ul>
+<li><a href="https://github.com/ChrisTitusTech/winutil">Chris Titus Tech's Windows Utility</a></li>
+<li><a href="https://winscript.cc/">WinScript</a></li>
+<li>Package manager: <a href="https://learn.microsoft.com/en-us/windows/package-manager/">Windows Package Manager</a> (winget) and <a href="https://wiki.debian.org/AptCLI">APT</a> on Linux</li>
+<li>Mobile app manager: <a href="https://github.com/ImranR98/Obtainium">Obtanium</a></li>
+<li>Screen reader: <a href="https://www.nvaccess.org/download/">NVDA</a> on Windows, and TalkBack on Android</li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="internet">Internet</h3>
+<a class="heading-anchor" href="#internet" aria-labelledby="internet"><span hidden="">#</span></a></div>
+<ul>
+<li>Internet browser: <a href="https://www.mozilla.org/firefox/">Mozilla Firefox</a>, <a href="https://vivaldi.com/">Vivaldi</a>, <a href="https://lynx.invisible-island.net/">Lynx</a>, and <a href="https://www.torproject.org/">Tor Browser</a></li>
+<li>Search engine: <a href="https://www.ecosia.org/">Ecosia</a> and <a href="https://leta.mullvad.net/">Mullvad Leta</a></li>
+<li>Email service: <a href="https://purelymail.com/">Purelymail</a>, <a href="https://proton.me/mail">Proton Mail</a> and Gmail</li>
+<li>Email client: <a href="https://www.thunderbird.net/">Mozilla Thunderbird</a></li>
+<li>Feed reader: <a href="https://www.freshrss.org/">FreshRSS</a> (<a href="https://32bit.cafe/">32-Bit Cafe</a> instance), and <a href="https://github.com/readrops/Readrops">Readrops</a> on Android</li>
+<li>VPN: <a href="https://protonvpn.com/">Proton VPN</a></li>
+<li>FTP client: <a href="https://www.winscp.net/">WinSCP</a></li>
+<li>IRC client: <a href="https://www.irccloud.com/">IRCCloud</a></li>
+<li>Mastodon client: The official web interface on desktop, and <a href="https://github.com/LucasGGamerM/moshidon">Moshidon</a> on Android</li>
+<li>YouTube frontend: <a href="https://freetubeapp.io/">FreeTube</a> on Windows, and <a href="https://newpipe.net/">NewPipe</a> on Android</li>
+<li>Reddit frontend: <a href="https://github.com/redlib-org/redlib">Redlib</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="productivity">Productivity</h3>
+<a class="heading-anchor" href="#productivity" aria-labelledby="productivity"><span hidden="">#</span></a></div>
+<ul>
+<li>Notes:
+<ul>
+<li><a href="https://obsidian.md/">Obsidian</a> for writing, project management and personal knowledge base</li>
+<li><a href="https://standardnotes.com/">Standard Notes</a> for quick notes</li>
+</ul>
+</li>
+<li>Cloud file storage:
+<ul>
+<li><a href="https://www.pcloud.com/">pCloud</a> (Lifetime paid plan)</li>
+<li><a href="https://tresorit.com/">Tresorit</a> for storing my most important files</li>
+<li><a href="https://mega.io/">MEGA</a> for storing personal photos</li>
+<li><a href="https://nextcloud.com/">Nextcloud</a> (<a href="https://thegood.cloud/">The Good Cloud</a> instance)</li>
+</ul>
+</li>
+<li>Bookmarks: Mozilla Firefox bookmarks and <a href="https://raindrop.io/">Raindrop.io</a></li>
+<li>Text editor: <a href="https://apps.microsoft.com/detail/9nhl4nsc67wm">Notepads</a></li>
+<li>Office suite: <a href="https://www.libreoffice.org/">LibreOffice</a></li>
+<li>Calendar: <a href="https://nextcloud.com/">Nextcloud</a> (<a href="https://thegood.cloud/">The Good Cloud</a> instance) with <a href="https://www.thunderbird.net/">Mozilla Thunderbird</a></li>
+<li>Tasks: Nextcloud (The Good Cloud instance) with Mozilla Thunderbird</li>
+<li>Personal finance: <a href="https://moneymanagerex.org/">Money Manager EX</a></li>
+<li>Calculator: <a href="https://qalculate.github.io/">Qalculate!</a></li>
+<li>Spellchecker: <a href="https://languagetool.org/">LanguageTool</a></li>
+<li>File archiver: <a href="https://peazip.github.io/">PeaZip</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="security">Security</h3>
+<a class="heading-anchor" href="#security" aria-labelledby="security"><span hidden="">#</span></a></div>
+<ul>
+<li>Password manager: <a href="https://bitwarden.com/">BitWarden</a> and <a href="https://keepassxc.org/">KeePassXC</a></li>
+<li>Multi-factor authentication Tool: <a href="https://ente.io/auth/">Ente Auth</a></li>
+<li>Cloud file storage encryption: <a href="https://cryptomator.org/">Cryptomator</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="software-development">Software Development</h3>
+<a class="heading-anchor" href="#software-development" aria-labelledby="software-development"><span hidden="">#</span></a></div>
+<ul>
+<li>Integrated development environment (IDE): <a href="https://neovim.io/">Neovim</a> with the <a href="https://www.lazyvim.org/">LazyVim</a> setup</li>
+<li>Code editors: <a href="https://www.vim.org/">Vim</a> and <a href="https://notepad-plus-plus.org/">Notepad++</a></li>
+<li>Terminal emulator: <a href="https://en.wikipedia.org/wiki/Windows_Terminal">Windows Terminal</a></li>
+<li>Shell: <a href="https://microsoft.com/powershell">PowerShell</a> on Windows and <a href="https://www.gnu.org/software/bash/">Bash</a> on Linux</li>
+<li>Version control: <a href="https://git-scm.com/">Git</a> with <a href="https://github.com/">GitHub</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="media">Media</h3>
+<a class="heading-anchor" href="#media" aria-labelledby="media"><span hidden="">#</span></a></div>
+<ul>
+<li>Image viewer: <a href="https://imageglass.org/">ImageGlass</a> on Windows, and <a href="https://github.com/SimpleMobileTools/Simple-Gallery">Simple Gallery</a> on Android</li>
+<li>Videos: <a href="https://sourceforge.net/projects/mpcbe/">MPC-BE</a> on Windows, and <a href="https://github.com/mpv-android/mpv-android">mpv</a> on Android</li>
+<li>Audio: MPC-BE on Windows, and mpv on Android</li>
+<li>Music library: <a href="https://github.com/digimezzo/dopamine">Dopamine</a> on Windows, and <a href="https://github.com/SimpleMobileTools/Simple-Music-Player">Simple Music Player</a> on Android</li>
+<li>Ebooks: <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html">SumatraPDF</a> for Windows and <a href="https://librera.mobi/">Librera Reader</a> FDroid for Android</li>
+<li>PDF reader: SumatraPDF on Windows, and <a href="https://gitlab.com/mudlej_android/mj_pdf_reader">MJ PDF</a> on Android</li>
+<li>Comic reader: <a href="https://www.yacreader.com/">YACReader</a></li>
+<li>Screenshot tool: <a href="https://getsharex.com/">ShareX</a></li>
+<li>Screen recorder: <a href="http://www.bandicam.com/">Bandicam</a> (also used for taking video game screenshots)</li>
+<li>Image converter: <a href="https://www.imagemagick.org/">ImageMagick</a></li>
+<li>Media converter: <a href="https://www.shutterencoder.com/">Shutter Encoder</a> and <a href="https://ffmpeg.org/">FFmpeg</a></li>
+<li>Game streaming: <a href="http://app.lizardbyte.dev/Sunshine/">Sunshine</a> and <a href="https://moonlight-stream.org/">Moonlight</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="art-and-design">Art and Design</h3>
+<a class="heading-anchor" href="#art-and-design" aria-labelledby="art-and-design"><span hidden="">#</span></a></div>
+<ul>
+<li>Photo editor: <a href="https://affinity.serif.com/photo/">Affinity Photo</a></li>
+<li>Vector graphic editor: <a href="https://affinity.serif.com/designer/">Affinity Designer</a></li>
+<li>Drawing: <a href="https://krita.org/">Krita</a></li>
+<li>Video editor: <a href="https://kdenlive.org/">Kdenlive</a></li>
+<li>Audio editor: <a href="https://tenacityaudio.org/">Tenacity</a></li>
 </ul>
 
-<p>See <a href="/blog/categories/">all blog post categories</a>.</p>
+
+
+<p class="update-info">(This page was last updated on <time datetime="2025-04-02T17:52:00+0800">2 April 2025</time>)</p>
+
 
 
     
     </div>
-
-    
-    
-<aside class="right-sidebar">
-    <nav class="blog__nav sidebar--sticky" aria-labelledby="blog-nav-title">
-        <h2 class="blog__nav--title" id="blog-nav-title">Blog Navigation</h2>
-        <ul class="blog__nav--links">
-            <li><a href="/blog/">Index</a></li>
-            
-            <li><a href="/blog/categories/">
-                    Categories
-            </a></li>
-            <li><a href="/blog/posts/">
-                    Archive
-            </a></li>
-            <li><a href="/blog/feed.xml">
-                    RSS Feed
-            </a></li>
-        </ul>
-    </nav>
-</aside>
 
     
 </content-wrapper>
