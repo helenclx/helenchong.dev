@@ -21,9 +21,9 @@
     </div>
     <div class="project-card__body">
         <div class="project-card__tags">
-        {% for tag in project.data.tech %}
+            {% for tag in project.data.tech %}
             <span class="project-card__tag">{{ tag }}</span>
-        {% endfor %}
+            {% endfor %}
         </div>
         <h{{headingLevel}} class="project-card__title">{{ project.data.title }}</h{{headingLevel}}>
         <p class="project-card__summary">{{ project.data.summary }}</p>

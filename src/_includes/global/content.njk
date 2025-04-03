@@ -18,7 +18,7 @@ layout: global/base
         {% endif %}
         <p><span class="text-bold">Categories:</span>
             {% for cat in categories %}
-                <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+            <a href="/blog/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
         </p>
     </div>
