@@ -59,7 +59,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 	- [pCloud](https://www.pcloud.com/) (Lifetime paid plan)
 	- [Tresorit](https://tresorit.com/) for storing my most important files
 	- [MEGA](https://mega.io/) for storing personal photos
-	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance)
+	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) for storing my Obsidian vaults and notes
 - Bookmarks: Mozilla Firefox bookmarks and [Raindrop.io](https://raindrop.io/)
 - Text editor: [Notepads](https://apps.microsoft.com/detail/9nhl4nsc67wm)
 - Office suite: [LibreOffice](https://www.libreoffice.org/)
