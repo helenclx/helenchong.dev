@@ -61,33 +61,32 @@
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/home.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/projects.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/blog.css"><link rel="stylesheet" href="/assets/css/socials.css"><link rel="stylesheet" href="/assets/css/utility.css">
         <style>.pagination__wrapper {
-        display: grid;
-        place-content: center;
-        margin-top: 3em;
-    }
+    display: grid;
+    place-content: center;
+    margin-top: 3em;
+}
 
-    .pagination {
-        list-style-type: "";
-        padding: 0;
-        margin: 0;
-        display: flex;
-        gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+.pagination {
+    list-style-type: "";
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .pagination li {
-        text-align: center;
-        padding: 0.3em 0.7em;
+.pagination li {
+    text-align: center;
+    padding: 0.3em 0.7em;
+}
 
-    }
-
-    .pagination li:has(a) { border: 0.15em solid var(--clr-accent-700); }
-    .pagination li:has(a):hover { border-color: var(--clr-link-hover); }
-    .pagination li:has(a):hover > a { color: var(--clr-link-hover); }
-    .pagination li:has(a):focus-within { outline: 0.2em solid var(--clr-accent-700); }
-    .pagination li a { text-decoration: none; }
-    .pagination li a:focus { outline: none; }
+.pagination li:has(a) { border: 0.15em solid var(--clr-accent-700); }
+.pagination li:has(a):hover { border-color: var(--clr-link-hover); }
+.pagination li:has(a):hover > a { color: var(--clr-link-hover); }
+.pagination li:has(a):focus-within { outline: 0.2em solid var(--clr-accent-700); }
+.pagination li a { text-decoration: none; }
+.pagination li a:focus { outline: none; }
 .blog__posts, .blog__post { display: grid; }
 
     .blog__posts {
@@ -243,69 +242,69 @@
 }
 .top-btn, .top-btn:hover { color: var(--clr-top-btn-txt); }
 
-    .top-btn {
-        position: fixed;
-        bottom: 0.5rem;
-        right: 0.5rem;
-        z-index: 999;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 1rem;
-        font-weight: 700;
+.top-btn {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    z-index: 999;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
 
-        background-color: var(--clr-top-btn-bg);
-        border-radius: 50em;
-        height: 3.25rem;
-        aspect-ratio: 1 / 1;
-        display: none;
-        gap: 0.1em;
-        justify-items: center;
-    }
+    background-color: var(--clr-top-btn-bg);
+    border-radius: 50em;
+    height: 3.25rem;
+    aspect-ratio: 1 / 1;
+    display: none;
+    gap: 0.1em;
+    justify-items: center;
+}
 
-    .top-btn.show { display: grid; }
+.top-btn.show { display: grid; }
 
-    .top-btn::before {
-        content: "";
-        display: block;
-        border-bottom: 0.6rem solid currentColor;
-        border-left: 0.6rem solid transparent;
-        border-right: 0.6rem solid transparent;
-    }
+.top-btn::before {
+    content: "";
+    display: block;
+    border-bottom: 0.6rem solid currentColor;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+}
 
-    .top-btn:focus {
-        outline: 0.25em solid var(--clr-top-btn-bg);
-        outline-offset: 0.15em;
-    }
+.top-btn:focus {
+    outline: 0.25em solid var(--clr-top-btn-bg);
+    outline-offset: 0.15em;
+}
 
-    .top-link::before,
-    .top-link::after {
-        --arrow-margin: 0.3em;
-        content: "";
-        display: inline-block;
-        border-bottom: 0.7rem solid currentColor;
-        border-left: 0.5rem solid transparent;
-        border-right: 0.5rem solid transparent;
-    }
+.top-link::before,
+.top-link::after {
+    --arrow-margin: 0.3em;
+    content: "";
+    display: inline-block;
+    border-bottom: 0.7rem solid currentColor;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+}
 
-    .top-link::before { margin: 0 var(--arrow-margin) 0 0; }
-    .top-link::after { margin: 0 0 0 var(--arrow-margin); }
+.top-link::before { margin: 0 var(--arrow-margin) 0 0; }
+.top-link::after { margin: 0 0 0 var(--arrow-margin); }
 .footer {
-        width: 100%;
-        padding: 2em 1em clamp(2em, calc(100% - 3.5rem), 4em);
-        text-align: center;
-        display: flex;
-        gap: 0.7em;
-        flex-direction: column;
-        justify-content: center;
-        align-tems: center;
-        box-shadow: var(--bs-footer);
-    }</style>
+    width: 100%;
+    padding: 2em 1em clamp(2em, calc(100% - 3.5rem), 4em);
+    text-align: center;
+    display: flex;
+    gap: 0.7em;
+    flex-direction: column;
+    justify-content: center;
+    align-tems: center;
+    box-shadow: var(--bs-footer);
+}</style>
 
         
         <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 
         
-        <script src="/assets/js/ASD0firv2s.js" defer=""></script>
+        <script src="/assets/js/BAKKffynOv.js" defer=""></script>
         
         
 
@@ -459,43 +458,44 @@
     <ul class="pagination">
         <li>
             
-                <a href="/blog/">
-                    
+            <a href="/blog/">
+                
 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"></path></svg>
 Newest
-                </a>
+            </a>
             
         </li>
         <li>
             
-                <a href=" /blog/page/2/">
-                    <i class="fa-solid fa-angle-left"></i>
-                    
+            <a href=" /blog/page/2/">
+                <i class="fa-solid fa-angle-left"></i>
+                
 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"></path></svg>
 Newer
-                </a>
+            </a>
             
         </li>
         <li>
              
-                <a href=" /blog/page/4/">
-                    Older
+            <a href=" /blog/page/4/">
+                Older
 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg>
 
-                </a>
+            </a>
             
         </li>
         <li>
             
-                <a href=" /blog/page/6/">
-                    Oldest
+            <a href=" /blog/page/6/">
+                Oldest
 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg>
 
-                </a>
+            </a>
             
         </li>
     </ul>
 </nav>
+
 
     
     </div>
@@ -629,6 +629,7 @@ Newer
 <noscript>
     <p><a class="top-link" href="#top">Back to Top</a></p>
 </noscript>
+
 </footer>
 
     </body>
