@@ -10,51 +10,51 @@
 </aside>
 
 {%- css %}
-    .toc__wrapper {
-        max-height: 80vh;
-        overflow-x: auto;
-        padding: 0.3em 1.3rem 1.5em;
-    }
+.toc__wrapper {
+    max-height: 80vh;
+    overflow-x: auto;
+    padding: 0.3em 1.3rem 1.5em;
+}
 
-    .toc__heading {
-        font-size: 1.4rem;
-        font-weight: 700;
-    }
+.toc__heading {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
 
-    .toc__wrapper[open] > .toc__heading {
-        margin-bottom: 0.5em;
-    }
+.toc__wrapper[open] > .toc__heading {
+    margin-bottom: 0.5em;
+}
 
-    .toc ol, .toc ol ol {
-        display: grid;
-        gap: 0.7em;
-    }
+.toc ol, .toc ol ol {
+    display: grid;
+    gap: 0.7em;
+}
 
-    .toc ol {
-        border-top: 0.1em solid var(--clr-txt-default);
-        padding-left: 1.3em;
-        padding-top: 1em;
-    }
+.toc ol {
+    border-top: 0.1em solid var(--clr-txt-default);
+    padding-left: 1.3em;
+    padding-top: 1em;
+}
 
-    .toc ol ol {
-        border-top: none;
-        list-style-type: disc;
-        padding-left: 1em;
-        padding-top: 0.5em;
-        margin: 0;
-    }
+.toc ol ol {
+    border-top: none;
+    list-style-type: disc;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    margin: 0;
+}
 
-    .toc ol a {
-        font-size: 1.1em;
-        padding-left: 0.3em;
-    }
+.toc ol a {
+    font-size: 1.1em;
+    padding-left: 0.3em;
+}
 
-    .toc ol ol a {
-        padding: 0;
-        font-size: 1em;
-    }
+.toc ol ol a {
+    padding: 0;
+    font-size: 1em;
+}
 
-    @media only screen and (min-width: 60rem) {
-        .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
-    }
+@media only screen and (min-width: 60rem) {
+    .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
+}
 {% endcss %}
