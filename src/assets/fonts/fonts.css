@@ -1,55 +1,55 @@
+/* IBM Plex Sans */
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
+}
+
 /* Work Sans */
 @font-face {
     font-display: swap;
     font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Work Sans';
     font-style: italic;
     font-weight: 400;
-    src: url('/assets/fonts/work-sans/work-sans-v19-latin-italic.woff2') format('woff2');
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
 }
-@font-face {
-    font-display: swap;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: url('/assets/fonts/work-sans/work-sans-v19-latin-600.woff2') format('woff2');
-}
-@font-face {
-    font-display: swap;
-    font-family: 'Work Sans';
-    font-style: italic;
-    font-weight: 600;
-    src: url('/assets/fonts/work-sans/work-sans-v19-latin-600italic.woff2') format('woff2');
-}
-
 @font-face {
     font-display: swap;
     font-family: 'Work Sans';
     font-style: italic;
     font-weight: 700;
-    src: url('/assets/fonts/work-sans/work-sans-v19-latin-700italic.woff2') format('woff2');
-}
-
-/* Raleway */
-@font-face {
-    font-display: swap;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/assets/fonts/raleway/raleway-v34-latin-regular.woff2') format('woff2');
-}
-@font-face {
-    font-display: swap;
-    font-family: 'Raleway';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/assets/fonts/raleway/raleway-v34-latin-italic.woff2') format('woff2');
-}
-@font-face {
-    font-display: swap;
-    font-family: 'Raleway';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/assets/fonts/raleway/raleway-v34-latin-700italic.woff2') format('woff2');
+    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
 }
 
 /* Intel One Mono */

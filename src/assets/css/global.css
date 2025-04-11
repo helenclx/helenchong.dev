@@ -20,8 +20,8 @@
     --clr-top-btn-bg: #4153b6;
     --clr-top-btn-txt: #fff;
 
-    --ff-regular: 'Work Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-    --ff-heading: 'Raleway', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    --ff-regular: 'IBM Plex Sans', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    --ff-heading: 'Work Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     --fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
