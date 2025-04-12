@@ -3,7 +3,7 @@ title: Attending 42 the Computer Science School
 desc: I have applied to attend one of the Malaysian campuses of 42, an international computer science school.
 date: 2025-01-19T23:56:32+0800
 updated: 2025-02-17T18:08:02+0800
-categories: ["42 school", "life updates"]
+categories: ["42 the school", "life updates"]
 ---
 
 After [my first web developer job](2024-08-16-got-my-first-developer-job.md) ended, I had been considering how to proceed to the next phase of my web development journey.
