@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-13T07:20:00+0800
+updated: 2025-04-13T23:43:00+0800
 toc: true
 ---
 
@@ -84,7 +84,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup
 - Code editors: [Vim](https://www.vim.org/) and [Notepad++](https://notepad-plus-plus.org/)
 - Terminal emulator: [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
-- Shell: [PowerShell](https://microsoft.com/powershell) on Windows and [Bash](https://www.gnu.org/software/bash/) on Linux
+- Shell: [PowerShell](https://microsoft.com/powershell) on Windows and [Zsh](https://www.zsh.org/) on Linux
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/)
 
 ### Media
