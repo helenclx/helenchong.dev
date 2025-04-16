@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-13T23:43:00+0800
+updated: 2025-04-16T08:35:40+0800
 toc: true
 ---
 
@@ -46,7 +46,6 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [FreshRSS](https://www.freshrss.org/) ([32-Bit Cafe](https://32bit.cafe/) instance), and [Readrops](https://github.com/readrops/Readrops) on Android
 - VPN: [Proton VPN](https://protonvpn.com/)
-- FTP client: [WinSCP](https://www.winscp.net/)
 - IRC client: [IRCCloud](https://www.irccloud.com/)
 - Mastodon client: The official web interface on desktop, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on Android
 - YouTube frontend: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on Android
