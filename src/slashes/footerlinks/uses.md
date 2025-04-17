@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-16T08:35:40+0800
+updated: 2025-04-17T18:52:13+0800
 toc: true
 ---
 
@@ -14,6 +14,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Laptop: Acer Predator Helios 300. Purchased in February 2018.
 - Smartphone: Xiaomi Redmi Note 13 Pro 5G. Purchased in August 2024.
 - Smartwatch: Xiaomi Smart Band 9
+- Video game consoles: Nintendo 3DS XL (with [custom firmware](https://3ds.hacks.guide/) installed), and Nintendo Switch
 
 ## Software
 
