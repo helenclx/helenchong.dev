@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-17T18:52:13+0800
+updated: 2025-04-20T00:07:08+0800
 toc: true
 ---
 
@@ -85,7 +85,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Code editors: [Vim](https://www.vim.org/) and [Notepad++](https://notepad-plus-plus.org/)
 - Terminal emulator: [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
 - Shell: [PowerShell](https://microsoft.com/powershell) on Windows and [Zsh](https://www.zsh.org/) on Linux
-- Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/)
+- Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/)
 
 ### Media
 
