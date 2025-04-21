@@ -3,7 +3,7 @@ name: Deploy to Hostinger
 on:
   push:
     branches:
-      - main # The branch name your are commit the new changes
+      - main
 
 jobs:
   build:
@@ -22,13 +22,16 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build # The build command of your project
+        run: bun run build
 
-      - name: Push to another branch
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: build # The branch name where you want to push the assets
-          FOLDER: ./_site # The directory where your assets are generated
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: ({sha}) {msg}" # The commit message
+      - name: SSH Deploy to Hostinger
+        uses: easingthemes/ssh-deploy@main
+        with:
+            SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
+            ARGS: "-azvc -i"
+            SOURCE: "_site/"
+            REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+            REMOTE_USER: ${{ secrets.REMOTE_USER }}
+            TARGET: ${{ secrets.REMOTE_TARGET }}
+            REMOTE PORT: "65002"
+            EXCLUDE: "/node_modules/, /resume/"
