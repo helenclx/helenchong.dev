@@ -3,7 +3,7 @@ layout: global/base
 ---
 
 <header class="main__header">
-    {% include "global/breadcrumbs.njk" %}
+    {% include "global/breadcrumbs.html" %}
 
     <h1 class="heading--main">{{ pageTitle or title }}</h1>
 
@@ -27,7 +27,7 @@ layout: global/base
 
 <content-wrapper>
     {% if toc %}
-    {% include "global/toc.njk" %}
+    {% include "global/toc.html" %}
     {% endif %}
 
     {% set contentEl = "article" if isArticle else "div" %}

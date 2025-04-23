@@ -2,7 +2,7 @@
     <h2 class="heading--home">Featured Projects</h2>
     <div class="project-grid">
         {% asyncEach project in collections.projects | itemLimit(3) %}
-            {% include "main/project-card.njk" %}
+            {% include "main/project-card.html" %}
         {% endeach %}
     </div>
     <a class="home__btn-link" href="/projects">More Projects</a>
