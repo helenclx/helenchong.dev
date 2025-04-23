@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {# Open Graph meta data #}
+        <!-- Open Graph meta data -->
         <meta property="og:title" content="{{ title if title else sitemeta.siteName }}">
         <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url }}">
         <meta name="generator" content="{{ eleventy.generator }}">
@@ -18,23 +18,23 @@
         <meta property="og:locale" content="{{ sitemeta.siteLocale }}">
         <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
-        {# Fonts #}
+        <!-- Fonts -->
         {% include "global/fonts.html" %}
-        {# Feeds #}
+        <!-- Feeds -->
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title | safe }}" href="{{ sitemeta.feedPath }}">
-        {# CSS #}
+        <!-- CSS -->
         {% include "global/css.html" %}
         <style>{% getBundle "css" %}</style>
-        {# Verifications #}
+        <!-- Verifications -->
         <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-        {# JavaScript #}
+        <!-- JavaScript -->
         <script src="{% getBundleFileUrl 'js' %}" defer></script>
         {% if toc %}
         <script src="/assets/js/details-utils.js" defer></script>
         {% endif %}
         {% if hasCodeBlock %}
         <script src="/assets/js/copycode.js" defer></script>
-        {% endif %}
+        {%- endif -%}
 
         <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>

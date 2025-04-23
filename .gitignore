@@ -1,9 +1,5 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
-# My source files
-
-__Source
-
 # Eleventy site output folder
 
 _site/
