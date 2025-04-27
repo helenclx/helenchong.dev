@@ -62,12 +62,10 @@ export default function(eleventyConfig) {
         html: true,
         linkify: true,
     })
+        .set({ fuzzyLink: false })
         .use(markdownItAnchor, markdownItAnchorOptions)
         .use(markdownItAttrs)
         .use(markdownItBracketedSpans)
-
-    // Configure linkify
-    markdownLibrary.linkify.set({ fuzzyLink: false });
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
