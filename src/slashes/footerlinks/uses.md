@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-20T00:07:08+0800
+updated: 2025-04-30T01:33:20+0800
 toc: true
 ---
 
@@ -45,7 +45,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
 - Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
-- Feed reader: [FreshRSS](https://www.freshrss.org/) ([32-Bit Cafe](https://32bit.cafe/) instance), and [Readrops](https://github.com/readrops/Readrops) on Android
+- Feed reader: [FreshRSS](https://www.freshrss.org/) ([32-Bit Cafe](https://32bit.cafe/) instance), and [Read You](https://github.com/Ashinch/ReadYou) on Android
 - VPN: [Proton VPN](https://protonvpn.com/)
 - IRC client: [IRCCloud](https://www.irccloud.com/)
 - Mastodon client: The official web interface on desktop, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on Android
