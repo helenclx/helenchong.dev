@@ -16,7 +16,7 @@ import shortCodesConfig from "./src/_config/shortcodes.js";
 import { siteLang, feedPath, siteAuthor, siteUrl } from "./src/_data/sitemeta.js";
 
 export default function(eleventyConfig) {
-    // Installed Plugins
+    // ----- Installed Plugins
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
@@ -47,14 +47,14 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(pluginWordcount);
 
-    // Custom configurations
+    // ----- Custom configurations
     eleventyConfig.addPlugin(markdownItConfig);
     eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(collectionsConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
 
-    // Eleventy bundle plugin
+    // ----- Eleventy bundle plugin
     eleventyConfig.addBundle("css");
     eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 
