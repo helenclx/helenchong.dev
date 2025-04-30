@@ -38,4 +38,4 @@ CS50 Flask Blog is built with Flask, Python, SQLite, HTML and Bootstrap.
 
 ## Further Reading
 
-You can also read my blog post to learn more about the process of developing CS50 Flask Blog: [CS50x Course Completed](blog/posts/2024-05-27-cs50x-course-completed)
+You can also read my blog post to learn more about the process of developing CS50 Flask Blog: [CS50x Course Completed](/blog/posts/2024-05-27-cs50x-course-completed)
