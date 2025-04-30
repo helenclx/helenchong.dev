@@ -3,6 +3,7 @@ import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginEmbedEverything from "eleventy-plugin-embed-everything";
 import pluginWordcount from "eleventy-plugin-wordcount-extended";
 
 // Custom configurations
@@ -44,6 +45,15 @@ export default function(eleventyConfig) {
 		},
 	});
     eleventyConfig.addPlugin(pluginEleventyNavigation);
+    eleventyConfig.addPlugin(pluginEmbedEverything, {
+        youtube: {
+            options: {
+                lazy: true,
+                lite: true,
+                recommendSelfOnly: true,
+            }
+        }
+    });
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(pluginWordcount);
 
