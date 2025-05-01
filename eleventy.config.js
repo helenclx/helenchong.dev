@@ -1,6 +1,5 @@
 // Installed Plugins
 import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
@@ -8,42 +7,15 @@ import pluginWordcount from "eleventy-plugin-wordcount-extended";
 
 // Custom configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
+import feedsConfig from "./src/_config/feeds.js";
 import filesConfig from "./src/_config/files.js";
 import collectionsConfig from "./src/_config/collections.js";
 import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
-// Sitemeta
-import { siteLang, feedPath, siteAuthor, siteUrl } from "./src/_data/sitemeta.js";
-
 export default function(eleventyConfig) {
     // ----- Installed Plugins
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
-    eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom",
-		outputPath: feedPath,
-		collection: {
-			name: "posts",
-			limit: 10,
-		},
-		metadata: {
-			language: siteLang,
-			title: siteAuthor.name + "'s Developer Blog",
-			subtitle: siteAuthor.name + " talks about tech, coding and development.",
-			base: siteUrl + "/blog/",
-			author: {
-				name: siteAuthor.name,
-				email: siteAuthor.email,
-			}
-		},
-        templateData: {
-			eleventyNavigation: {
-				key: "RSS Feed",
-                parent: "Blog",
-				order: 4
-			}
-		},
-	});
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginEmbedEverything, {
         youtube: {
@@ -59,6 +31,7 @@ export default function(eleventyConfig) {
 
     // ----- Custom configurations
     eleventyConfig.addPlugin(markdownItConfig);
+    eleventyConfig.addPlugin(feedsConfig);
     eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(collectionsConfig);
     eleventyConfig.addPlugin(filtersConfig);
