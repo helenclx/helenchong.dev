@@ -4,19 +4,19 @@ pagination:
     size: 1
     alias: category
     addAllPagesToCollections: true
-permalink: /blog/categories/{{ category | slugify }}/
+permalink: /blog/categories/{{ category |> slugify }}/
 layout: global/content
 hasBreadcrumbs: true
 eleventyComputed:
-    title: 'Blog Post Category: "{{ category | safe }}"'
+    title: 'Blog Post Category: "{{ category }}"'
     eleventyNavigation:
         key: "{{ category }}"
         parent: Blog Categories
 ---
-{% set postCount = collections.posts | filterByCategory(category) | itemCount %}
+{{ set postCount = collections.posts |> filterByCategory(category) |> itemCount }}
 <h2 class="blog__cat--title">{{ postCount }} Posts Filed Under "{{ category }}"</h2>
 
-{% set postList = collections.posts | filterByCategory(category) | reverse %}
-{% include "blog/postslist.njk" %}
+{{ set postList = collections.posts |> filterByCategory(category) |> toReversed }}
+{{ include "blog/postslist.vto" }}
 
 <p>See <a href="/blog/categories/">all blog post categories</a>.</p>

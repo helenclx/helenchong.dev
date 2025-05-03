@@ -11,11 +11,11 @@ eleventyNavigation:
 ---
 
 <ul>
-    {% for category in collections.categories %}
-	{% set categoryUrl %}/blog/categories/{{ category | slugify }}/{% endset %}
-	{% set categoryPostCount = collections.posts | filterByCategory(category) | itemCount %}
+    {{ for category of collections.categories }}
+	{{ set categoryUrl }}/blog/categories/{{ category |> slugify }}/{{ /set }}
+	{{ set categoryPostCount = collections.posts |> filterByCategory(category) |> itemCount }}
 	<li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }} posts)</li>
-    {% endfor %}
+    {{ /for }}
 </ul>
 
 <p>See all blog posts in the <a href="posts.html">archive</a>.</p>
