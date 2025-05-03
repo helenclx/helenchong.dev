@@ -16,4 +16,7 @@ export const siteAuthor = {
 export const siteDescription = siteAuthor.name + "'s developer portfolio and blog website.";
 export const siteLang = "en";
 export const siteLocale = "en_MY";
+export const siteBlog = {
+    title: siteAuthor.name + "'s Developer Blog",
+};
 export const feedPath = "/blog/feed.xml"

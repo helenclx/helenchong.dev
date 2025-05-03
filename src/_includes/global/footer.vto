@@ -5,36 +5,36 @@
             <a href="{{ sitemeta.feedPath }}">
                 <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>RSS Feed</a>
         </li>
-        {%- for link in collections["footer links"] %}
+        {{ for link of collections["footer links"] }}
         <li><a
-            {% if entry.url == page.url %}aria-current="page"{% endif %}
+            {{ if link.url == page.url }}aria-current="page"{{ /if }}
             href="{{ link.url }}"
         >{{ link.data.title }}</a></li>
-        {% endfor %}
-        {%- for statement in collections.statements -%}
+        {{ /for }}
+        {{ for statement of collections.statements -}}
         <li><a
-            {% if entry.url == page.url %}aria-current="page"{% endif %}
+            {{ if statement.url == page.url }}aria-current="page"{{ /if }}
             href="{{ statement.url }}"
         >{{ statement.data.title }}</a></li>
-        {%- endfor -%}
+        {{ /for }}
     </ul>
 
-    <p>Made with 💜 by {{ sitemeta.siteAuthor.name }} • 2023–{% currentYear %}</p>
+    <p>Made with 💜 by {{ sitemeta.siteAuthor.name }} • 2023–{{ currentYear }}</p>
     <p>Built with <a href="https://www.11ty.dev/">Eleventy</a> v{{ eleventy.version }} • <a href="https://github.com/helenclx/helenchong.dev" class="external-link">Source Code</a></p>
 
     <div class="widgets site-btns">
         <img src="/assets/graphics/helenchong-88x31.svg" alt="88-by-31 badge: my favicon, the white letters HC, next to the word Helen Chong on a purple background." width="88" height="31" loading="lazy">
     </div>
 
-    {% include "global/socials.html" %}
+    {{ include "global/socials.vto" }}
 
     <div class="widgets"><a href="https://buymeacoffee.com/helenchong"><img src="/assets/graphics/buymeacoffee.png" alt="Buy Me a Coffee" width="200" height="56" loading="lazy"></a></div>
 
-    {% include "global/h-card.html" %}
-    {% include "global/top-btn.html" %}
+    {{ include "global/h-card.vto" }}
+    {{ include "global/top-btn.vto" }}
 </footer>
 
-{%- css %}
+{{ css }}
 .footer {
     width: 100%;
     padding: 2em 1em clamp(2em, calc(100% - 3.5rem), 4em);
@@ -46,4 +46,4 @@
     align-tems: center;
     box-shadow: var(--bs-footer);
 }
-{% endcss %}
+{{ /css }}

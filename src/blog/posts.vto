@@ -9,5 +9,5 @@ eleventyNavigation:
     parent: Blog
     order: 3
 ---
-{% set postList = collections.posts | reverse %}
-{% include "blog/postslist.njk" %}
+{{ set postList = collections.posts |> toReversed }}
+{{ include "blog/postslist.vto" }}

@@ -1,9 +1,9 @@
 <section class="section--home">
     <h2 class="heading--home">Featured Projects</h2>
     <div class="project-grid">
-        {% asyncEach project in collections.projects | itemLimit(3) %}
-            {% include "main/project-card.html" %}
-        {% endeach %}
+        {{# }}{{ for project of collections.projects |> itemLimit(3) }}
+            {{ include "main/project-card.vto" }}
+        {{ /for }} #}}
     </div>
     <a class="home__btn-link" href="/projects">More Projects</a>
 </section>

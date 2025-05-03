@@ -4,12 +4,12 @@
             <summary class="toc__heading" id="toc-heading">
                 Table of Contents
             </summary>
-            {{ content | toc | safe }}
+            {{ content |> toc }}
         </details>
     </details-utils>
 </aside>
 
-{%- css %}
+{{ css }}
 .toc__wrapper {
     max-height: 80vh;
     overflow-x: auto;
@@ -57,4 +57,4 @@
 @media only screen and (min-width: 60rem) {
     .toc__wrapper { padding-bottom: var(--sz-content-bottom); }
 }
-{% endcss %}
+{{ /css }}

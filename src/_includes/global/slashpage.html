@@ -1,9 +1,0 @@
----
-layout: global/content
----
-
-{{ content | safe }}
-
-{% if updated %}
-<p class="update-info">(This {{ keyword if keyword else "page" }} was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)</p>
-{% endif %}

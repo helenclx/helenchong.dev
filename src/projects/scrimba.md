@@ -1,10 +1,10 @@
 ---
 title: Scrimba Frontend Path Solo Projects
 summary: My solo projects for Scrimba's Frontend Developer Career Path.
-image: Scrimba-Frontend-Path_zrsw3c.avif
+image: "Scrimba-Frontend-Path_zrsw3c.avif"
 imageAlt: Screenshot of a Scrimba solo project
-imageWidth: 1920
-imageHeight: 878
+imageWidth: "1920"
+imageHeight: "878"
 tech: ["JavaScript", "API", "Firebase"]
 ---
 

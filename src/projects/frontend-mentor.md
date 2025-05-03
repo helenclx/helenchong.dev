@@ -1,10 +1,10 @@
 ---
 title: Frontend Mentor Challenge Solutions
 summary: My solutions to the Frontend Mentor challenges.
-image: Frontend-Mentor-Challenges_jyzouo.avif
+image: "Frontend-Mentor-Challenges_jyzouo.avif"
 imageAlt: Screenshot of a solution to a Frontend Mentor challenge
-imageWidth: 2880
-imageHeight: 1800
+imageWidth: "2880"
+imageHeight: "1800"
 tech: ["JavaScript", "API"]
 ---
 

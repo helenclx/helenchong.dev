@@ -1,0 +1,49 @@
+<!DOCTYPE.vto>
+.vto lang="{{ sitemeta.siteLang }}" id="top">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Open Graph meta data -->
+        <meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
+        <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
+        <meta name="generator" content="{{ eleventy.generator }}">
+        <meta name="author" content="{{ sitemeta.siteAuthor.name }}">
+        <meta name="description" content="{{ desc || sitemeta.siteDescription }}">
+        <meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
+        <meta property="og:site_name" content="{{ sitemeta.siteName }}" />
+        <meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
+        <meta property="og:description" content="{{ desc || sitemeta.siteDescription }}">
+        <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
+        <meta property="og:locale" content="{{ sitemeta.siteLocale }}">
+        <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
+        <meta name="theme-color" content="#8200cd">
+        <!-- Fonts -->
+        {{ include "global/fonts.vto" }}
+        <!-- Feeds -->
+        <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title }}" href="{{ sitemeta.feedPath }}">
+        <!-- CSS -->
+        {{ include "global/css.vto" }}
+        <style>{{ getBundle "css" }}</style>
+        <!-- Verifications -->
+        <link rel="authorization_/point" href="https://indieauth.com/auth">
+        <!-- JavaScript -->
+        <script src="{{ getBundleFileUrl 'js' }}" defer></script>
+        {{ if toc }}
+        <script src="/assets/js/details-utils.js" defer></script>
+        {{ /if }}
+        {{ if hasCodeBlock }}
+        <script src="/assets/js/copycode.js" defer></script>
+        {{- /if -}}
+
+        <title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        {{ include "global/header.vto" }}
+        <main id="content">
+            {{ content }}
+        </main>
+        {{ include "global/footer.vto" }}
+    </body>
+<.vto>

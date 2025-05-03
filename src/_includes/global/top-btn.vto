@@ -1,11 +1,11 @@
-{% set topLinkTitle = "Back to Top" %}
+{{ set topLinkTitle = "Back to Top" }}
 
 <a href="#top" class="top-btn" aria-label="{{ topLinkTitle }}">Top</a>
 <noscript>
     <p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
 </noscript>
 
-{%- css %}
+{{ css }}
 .top-btn, .top-btn:hover { color: var(--clr-top-btn-txt); }
 
 .top-btn {
@@ -54,9 +54,9 @@
 
 .top-link::before { margin: 0 var(--arrow-margin) 0 0; }
 .top-link::after { margin: 0 0 0 var(--arrow-margin); }
-{% endcss %}
+{{ /css }}
 
-{%- js %}
+{{ js }}
 const topButton = document.querySelector(".top-btn");
 const scrollOffset = 400;
 
@@ -71,4 +71,4 @@ window.onscroll = () => {
 topButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, left: 0 });
 });
-{% endjs %}
+{{ /js }}

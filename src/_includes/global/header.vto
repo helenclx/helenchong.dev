@@ -1,38 +1,37 @@
-{% set currentUrl %}{{ page.url }}{% endset %}
+{{ set currentUrl }}{{ page.url }}{{ /set }}
 
-{% set navLinks %}
-{% set navPages = collections["header links"] | eleventyNavigation %}
-{%- for entry in navPages %}
+{{ set navLinks }}
+{{ set navPages = collections["header links"] |> eleventyNavigation }}
+{{ for entry of navPages }}
 <li><a
-    {% if entry.url == page.url %}aria-current="page"{% endif %}
-    class="header__link {% if
-        '/blog' in currentUrl and '/blog' in entry.url
-        or '/projects' in currentUrl and '/projects' in entry.url
-        %}link--active{% endif %}"
+    {{ if entry.url == page.url }} aria-current="page"{{ /if }}
+    class="header__link {{ if (currentUrl.includes('/blog') && entry.url.includes('/blog'))
+        || (currentUrl.includes('/projects') && entry.url.includes('/projects'))
+        }} link--active{{ /if }}"
     href="{{ entry.url }}">
         {{ entry.title }}
 </a></li>
-{%- endfor %}
-{% endset %}
+{{ /for }}
+{{ /set }}
 
 <header class="header">
-    <a class="header__title" {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">
+    <a class="header__title" {{ if currentUrl === '/' }}aria-current="page"{{ /if }} href="/">
         <img class="header__logo" src="/assets/favicon/HC-favicon.svg" alt="Helen Chong initials logo, to the home page">
     </a>
     <nav aria-labelledby="top-nav-title">
         <p class="visually-hidden" id="top-nav-title">Main</p>
-        <ul class="header__navmenu header__links">{{ navLinks | safe }}</ul>
+        <ul class="header__navmenu header__links">{{ navLinks }}</ul>
         <button class="header__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
             <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
             Menu
         </button>
     </nav>
     <div popover id="nav-menu" class="header__popover">
-        <ul class="header__navmenu">{{ navLinks | safe }}</ul>
+        <ul class="header__navmenu">{{ navLinks  }}</ul>
     </div>
 </header>
 
-{%- css %}
+{{ css }}
 .header {
     display: flex;
     justify-content: space-between;
@@ -162,4 +161,4 @@
     .header__toggle, .header__popover { display: none; }
     .header__links { display: flex; }
 }
-{% endcss %}
+{{ /css }}

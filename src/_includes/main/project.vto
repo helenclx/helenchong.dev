@@ -4,16 +4,16 @@ hasBreadcrumbs: true
 ---
 <div class="project--page">
     <header class="main__header">
-        {% include "global/breadcrumbs.html" %}
+        {{ include "global/breadcrumbs.vto" }}
 
         <h1 class="heading--main">{{ title }}</h1>
     </header>
 
     <article class="project">
         <div class="project__image-wrapper">
-            {# <img src="{{ image }}" alt="{{ imageAlt }}"> #}
-            <img src="{% src image %}"
-                srcset="{% srcset image %}"
+            {{# <img src="{{ image }}" alt="{{ imageAlt }}"> #}}
+            <img src="{{ src image }}"
+                srcset="{{ srcset image }}"
                 sizes="(min-width: 1080px) 1020px, calc(94.74vw + 16px)"
                 alt="{{ imageAlt }}"
                 width="{{ imageWidth }}"
@@ -22,7 +22,7 @@ hasBreadcrumbs: true
             >
         </div>
         <div class="project__content prose">
-            {{ content | safe }}
+            {{ content }}
         </div>
     </article>
 </div>

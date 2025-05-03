@@ -1,4 +1,4 @@
-{% set cssFiles = [
+{{ set cssFiles = [
     "global",
     "a11y-syntax-highlighting",
     "general",
@@ -9,8 +9,8 @@
     "blog",
     "socials",
     "utility"
-] %}
+] }}
 
-{%- for file in cssFiles -%}
+{{ for file of cssFiles }}
 <link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
-{%- endfor -%}
+{{ /for }}

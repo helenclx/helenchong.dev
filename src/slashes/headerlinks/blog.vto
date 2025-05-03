@@ -6,37 +6,37 @@ pagination:
     size: 5
     alias: postList
     reverse: true
-permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "/{{ page.fileSlug }}{{ if pagination.pageNumber > 0 }}/page/{{ pagination.pageNumber + 1 }}{{ /if }}/"
 eleventyNavigation:
     key: Blog
     order: 2
 eleventyComputed:
-    pageTitle: "{{ sitemeta.siteBlog.title | safe }}"
+    pageTitle: {{ sitemeta.siteBlog.title }}
 ---
 
 <p>Welcome to my developer blog! My blog is a place for me to document my developer journey and talk about various tech topics. Enjoy your stay!</p>
 
 <h2>Blog Posts</h2>
 <ul class="blog__posts">
-    {% for post in postList %}
+    {{ for post of postList }}
     <li class="blog__post">
         <h3 class="blog__post--title">
             <a href="{{ post.url }}">
-                {% if post.data.title %}{{ post.data.title }}
-                {% else %}
+                {{ if post.data.title }}{{ post.data.title }}
+                {{ else }}
                     <code>{{ post.url }}</code>
-                {% endif %}
+                {{ /if }}
             </a>
         </h3>
-        <p><time datetime="{{ post.date }}" class="blog__post--time">{{ post.date | formatDate }}</time></p>
+        <p><time datetime="{{ post.date }}" class="blog__post--time">{{ post.date |> formatDate }}</time></p>
         <p>{{ post.data.desc }}</p>
     </li>
-    {% endfor %}
+    {{ /for }}
 </ul>
 
-{% include "blog/pagination-oldnew.njk" %}
+{{ include "blog/pagination-oldnew.vto" }}
 
-{%- css %}
+{{ css }}
     .blog__posts, .blog__post { display: grid; }
 
     .blog__posts {
@@ -61,4 +61,4 @@ eleventyComputed:
     }
 
     .blog__post--time { font-weight: 700; }
-{% endcss %}
+{{ /css }}

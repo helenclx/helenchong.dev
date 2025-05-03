@@ -7,7 +7,7 @@ eleventyNavigation:
 ---
 
 <div class="project-list">
-    {% asyncEach project in collections.projects %}
-        {% include "main/project-card.html" %}
-    {% endeach %}
+    {{# {{ for project of collections.projects }}
+        {{ include "main/project-card.vto" }}
+    {{ /for }} #}}
 </div>
