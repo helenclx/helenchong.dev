@@ -1,0 +1,15 @@
+---
+permalink: "{{ page.filePathStem }}"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {{ for item of collections.all }}
+    <url>
+        <loc>{{ sitemeta.siteUrl + item.url }}</loc>
+        <lastmod>{{ item.updated ? item.updated.toISOString() : item.date.toISOString() }}</lastmod>
+        <changefreq>{{ item.data.sitemap.changefreq }}</changefreq>
+		<priority>{{ item.data.sitemap.priority }}</priority>
+    </url>
+    {{ /for }}
+</urlset>

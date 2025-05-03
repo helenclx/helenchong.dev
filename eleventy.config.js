@@ -1,4 +1,4 @@
-// Installed Plugins
+// nstalled Plugins
 import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
