@@ -1,7 +1,7 @@
 <section class="section--home">
     <h2 class="heading--home">Featured Projects</h2>
     <div class="project-grid">
-        {{# }}{{ for project of collections.projects |> itemLimit(3) }}
+        {{# {{ for project of collections.projects |> itemLimit(3) }}
             {{ include "main/project-card.vto" }}
         {{ /for }} #}}
     </div>
