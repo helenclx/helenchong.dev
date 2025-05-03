@@ -13,7 +13,7 @@ eleventyNavigation:
 <ul>
     {% for category in collections.categories %}
 	{% set categoryUrl %}/blog/categories/{{ category | slugify }}/{% endset %}
-	{% set categoryPostCount = collections.posts | filterByCategory(category) | length %}
+	{% set categoryPostCount = collections.posts | filterByCategory(category) | itemCount %}
 	<li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }} posts)</li>
     {% endfor %}
 </ul>

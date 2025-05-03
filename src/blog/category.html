@@ -13,7 +13,7 @@ eleventyComputed:
         key: "{{ category }}"
         parent: Blog Categories
 ---
-{% set postCount = collections.posts | filterByCategory(category) | length %}
+{% set postCount = collections.posts | filterByCategory(category) | itemCount %}
 <h2 class="blog__cat--title">{{ postCount }} Posts Filed Under "{{ category }}"</h2>
 
 {% set postList = collections.posts | filterByCategory(category) | reverse %}
