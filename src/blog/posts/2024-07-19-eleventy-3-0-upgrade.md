@@ -52,7 +52,7 @@ eleventyConfig.addBundle("css");
 eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 ```
 
-Next, I opened the base layout template for my entire website, and added the `getBundle` shortcode for CSS and `getBundleFileUrl` shortcode for JavaScript in the `<head>` element, then I replaced the `<style>` and `<script>` tags in my component Nunjucks templates with `{% css %}` and `{% js %}` shortcodes.
+Next, I opened the base layout template for my entire website, and added the `getBundle` shortcode for CSS and `getBundleFileUrl` shortcode for JavaScript in the `<head>` element, then I replaced the `<style>` and `<script>` tags in my component Nunjucks templates with `{{ css }}` and `{{ js }}` shortcodes.
 
 Now my component-specific CSS and JavaScript are bundled in the output.
 

@@ -12,7 +12,7 @@ One day in December 2024, I suddenly remembered that my mother told me once that
 
 Turned out, the school is named [42](https://www.42network.org/), and is an international school network that provides free computer science education, with many campuses around the world, including Malaysia. The main thing that differentiates 42 from traditional universities is its peer-to-peer and project-based learning models that do not involve any teachers.
 
-According to the [official website of 42's Paris campus](https://42.fr/en/what-is-42/42-program-explained/) — where 42 originated — the name is a reference to Douglas Adams’ book {% cite "The Hitchhiker’s Guide to the Galaxy" %}:
+According to the [official website of 42's Paris campus](https://42.fr/en/what-is-42/42-program-explained/) — where 42 originated — the name is a reference to Douglas Adams’ book {{ cite "The Hitchhiker’s Guide to the Galaxy" }}:
 
 > In Douglas Adams’ book The Hitchhiker’s Guide to the Galaxy – H2G2 for short – an advanced alien species builds a super computer. It has only one job: to find the answer to the Ultimate Question of Life, the Universe and Everything. After 7 million years of calculation, the computer finds the answer: 42. In geek culture, 42 often represents the answer to a seemingly insuperable problem. This is why 42 is called 42. This is our answer to what IT education should be today and in the future.
 

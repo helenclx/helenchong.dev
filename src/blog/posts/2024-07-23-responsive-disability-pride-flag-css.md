@@ -7,9 +7,9 @@ categories: ["css", "disability pride"]
 hasCodeBlock: true
 ---
 
-{% set demoHeight = "23rem" %}
+{{ set demoHeight = "23rem" }}
 
-{% set disabilityPrideCss %}.disability-pride-flag {
+{{ set disabilityPrideCss }}.disability-pride-flag {
     background:
         linear-gradient(
             37deg,
@@ -21,12 +21,12 @@ hasCodeBlock: true
             #3BB07D 30% 65%,
             #595959 0
         );
-}{% endset %}
+}{{ endset }}
 
-{%- css %}
+{{- css }}
 {{ disabilityPrideCss }}
 .disability-pride-flag.demo { height: {{ demoHeight }}; }
-{% endcss %}
+{{ endcss }}
 
 <div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
 
