@@ -1,11 +1,9 @@
 {{ set currentUrl }}{{ page.url }}{{ /set }}
-{{ set headingLevel = 2 }}
+{{ set headingLevel = currentUrl === '/' ? 3 : 2 }}
 
 {{ set homePageImgSizes = "(min-width: 1180px) 327px, (min-width: 880px) calc(26.79vw + 15px), (min-width: 580px) calc(50vw - 43px), calc(99.62vw - 44px)" }}
 {{ set projectPageImgSizes = "(min-width: 1540px) 707px, (min-width: 1020px) calc(43.8vw + 41px), (min-width: 820px) 709px, calc(90.8vw - 17px)" }}
 {{ set resProjectImgSizes }}{{ currentUrl === '/' ? homePageImgSizes : projectPageImgSizes }}{{ /set }}
-
-{{ if currentUrl === '/' }}{{ set headingLevel = 3 }}{{ /if }}
 
 {{ for project of projectList }}
 <article class="project-card">
