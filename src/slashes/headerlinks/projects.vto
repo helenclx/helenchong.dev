@@ -7,7 +7,6 @@ eleventyNavigation:
 ---
 
 <div class="project-list">
-    {{# {{ for project of collections.projects }}
-        {{ include "main/project-card.vto" }}
-    {{ /for }} #}}
+    {{ set projectList = collections.projects }}
+    {{ include "main/project-card.vto" }}
 </div>

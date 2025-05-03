@@ -7,6 +7,7 @@
 
 {{ if currentUrl === '/' }}{{ set headingLevel = 3 }}{{ /if }}
 
+{{ for project of projectList }}
 <article class="project-card">
     <div class="project-card__image-wrapper">
         {{# <img src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}"> #}}
@@ -33,3 +34,4 @@
         </p>
     </div>
 </article>
+{{ /for }}
