@@ -5,20 +5,20 @@ toc: true
 
 <p>Throughout my developer journey, I have been inspired by many other developers and tech people with their works and words. Here is my curated list of websites, blogs and podcasts related to tech and software development that I follow.</p>
 
-{%- macro linkRoll(siteName, siteUrl, feedUrl) -%}
+{{ function linkRoll(siteName, siteUrl, feedUrl) }}
 <li>
     <a href="{{ siteUrl }}">{{ siteName }}</a>
-    {% if feedUrl %}
+    {{ if feedUrl }}
     <a href="{{ feedUrl }}" class="linkroll__feed">
     <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
     Feed</a>
-    {% endif %}
+    {{ /if }}
 </li>
-{%- endmacro -%}
+{{ /function }}
 
-{% headingAnchor 2 %}Blogroll{% endheadingAnchor %}
+{{ headingAnchor 2 }}Blogroll{{ /headingAnchor }}
 
-{% headingAnchor 3 %}Developers and Tech People{% endheadingAnchor %}
+{{ headingAnchor 3 }}Developers and Tech People{{ /headingAnchor }}
 <ul>
     {{ linkRoll("Adrian Roselli", "https://adrianroselli.com/",
         "https://adrianroselli.com/feed"
@@ -161,7 +161,7 @@ toc: true
     ) }}
 </ul>
 
-{% headingAnchor 3 %}Software and Web Development{% endheadingAnchor %}
+{{ headingAnchor 3 }}Software and Web Development{{ /headingAnchor }}
 <ul>
     {{ linkRoll("The 11ty Bundle Blog", "https://11tybundle.dev/blog/",
         "https://11tybundle.dev/feed.xml"
@@ -226,7 +226,7 @@ toc: true
     ) }}
 </ul>
 
-{% headingAnchor 2 %}Podroll{% endheadingAnchor %}
+{{ headingAnchor 2 }}Podroll{{ /headingAnchor }}
 <ul>
     {{ linkRoll("freeCodeCamp Podcast", "https://freecodecamp.libsyn.com/",
         "http://feeds.libsyn.com/110110/rss"
@@ -239,7 +239,7 @@ toc: true
     ) }}
 </ul>
 
-{%- css %}
+{{ css }}
 .linkroll__feed {
     display: inline-block;
     background-color: var(--clr-accent-100);
@@ -249,4 +249,4 @@ toc: true
     text-decoration: none;
     margin-left: 0.2em;
 }
-{% endcss %}
+{{ /css }}
