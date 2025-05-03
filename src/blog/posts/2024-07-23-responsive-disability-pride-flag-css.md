@@ -23,7 +23,7 @@ hasCodeBlock: true
         );
 }{{ endset }}
 
-{{- css }}
+{{ css }}
 {{ disabilityPrideCss }}
 .disability-pride-flag.demo { height: {{ demoHeight }}; }
 {{ endcss }}

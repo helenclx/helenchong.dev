@@ -11,7 +11,7 @@
             href="{{ link.url }}"
         >{{ link.data.title }}</a></li>
         {{ /for }}
-        {{ for statement of collections.statements -}}
+        {{ for statement of collections.statements }}
         <li><a
             {{ if statement.url == page.url }}aria-current="page"{{ /if }}
             href="{{ statement.url }}"
