@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-04-30T02:05:12+0800
+updated: 2025-05-04T09:43:36+0800
 toc: true
 ---
 
@@ -11,7 +11,7 @@ How this website is built.
 
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
-* Templating languages: Nunjucks and Markdown.
+* Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [GitHub](https://github.com/helenclx/helenchong.dev).
 
@@ -32,6 +32,7 @@ Previously, this website was hosted on GitHub Pages until 30 July 2024.
 
 ### Eleventy Community Plugins
 
+* [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 * [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
