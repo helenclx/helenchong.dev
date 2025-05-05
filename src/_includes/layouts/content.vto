@@ -1,9 +1,9 @@
 ---
-layout: global/base
+layout: layouts/base
 ---
 
 <header class="main__header">
-    {{ include "global/breadcrumbs.vto" }}
+    {{ include "components/breadcrumbs.vto" }}
 
     <h1 class="heading--main">{{ pageTitle || title }}</h1>
 
@@ -27,7 +27,7 @@ layout: global/base
 
 <content-wrapper>
     {{ if toc }}
-    {{ include "global/toc.vto" }}
+    {{ include "components/toc.vto" }}
     {{ /if }}
 
     {{ set contentEl = isArticle ? "article" : "div" }}
@@ -62,6 +62,6 @@ layout: global/base
     </{{contentEl}}>
 
     {{ if tags && tags.includes("blog pages") }}
-    {{ include "blog/blognav.vto" }}
+    {{ include "partials/blognav.vto" }}
     {{ /if }}
 </content-wrapper>

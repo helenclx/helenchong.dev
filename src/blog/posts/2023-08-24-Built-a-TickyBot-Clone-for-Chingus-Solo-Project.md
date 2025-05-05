@@ -9,7 +9,7 @@ On 11 August 2023, I decided to join [Chingu](https://www.chingu.io/) after disc
 
 The first step needed to start participating in Chingu's projects is to submit a solo project for approval. I chose to build a [TickyBot Clone](https://github.com/chingu-voyages/soloproject-tier1-tickybot-clone) using HTML, CSS and vanilla JavaScript. On 21 August, I finished coding [my TickyBot Clone](https://github.com/helenclx/TickyBot-Clone) and submitted the project to Chingu. On the next day, my solo project was approved by Chingu, to my great delight.
 
-![Screenshot of my TickyBot clone](https://raw.githubusercontent.com/helenclx/TickyBot-Clone/main/screenshot-tickybot-clone.png)
+![Screenshot of my TickyBot clone](https://raw.githubusercontent.com/helenclx/TickyBot-Clone/home/screenshot-tickybot-clone.png)
 
 You can view my TickyBot Clone's [live site](http://helenclx.github.io/TickyBot-Clone/) and [GitHub repository](https://github.com/helenclx/TickyBot-Clone).
 

@@ -1,6 +1,6 @@
 ---
 title: Blog Archive
-layout: global/content
+layout: layouts/content
 tags: blog pages
 hasBreadcrumbs: true
 eleventyNavigation:
@@ -10,4 +10,4 @@ eleventyNavigation:
     order: 3
 ---
 {{ set postList = collections.posts |> toReversed }}
-{{ include "blog/postslist.vto" }}
+{{ include "partials/postslist.vto" }}

@@ -1,5 +1,5 @@
 export default {
     tags: "pages",
-    layout: "global/content",
+    layout: "layouts/content",
     permalink: "/{{ page.fileSlug }}/"
 }

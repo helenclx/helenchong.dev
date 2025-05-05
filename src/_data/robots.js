@@ -6,7 +6,7 @@
 import EleventyFetch from "@11ty/eleventy-fetch";
 
 export default async function () {
-	const url = "https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt";
+	const url = "https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/refs/heads/main/robots.txt";
 	let txt = await EleventyFetch(url, {
 		duration: "1w",
 		type: "text",

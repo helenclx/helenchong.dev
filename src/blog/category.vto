@@ -5,7 +5,7 @@ pagination:
     alias: category
     addAllPagesToCollections: true
 permalink: /blog/categories/{{ category |> slugify }}/
-layout: global/content
+layout: layouts/content
 hasBreadcrumbs: true
 eleventyComputed:
     title: 'Blog Post Category: "{{ category }}"'
@@ -17,6 +17,6 @@ eleventyComputed:
 <h2 class="blog__cat--title">{{ postCount }} Posts Filed Under "{{ category }}"</h2>
 
 {{ set postList = collections.posts |> filterByCategory(category) |> toReversed }}
-{{ include "blog/postslist.vto" }}
+{{ include "partials/postslist.vto" }}
 
 <p>See <a href="/blog/categories/">all blog post categories</a>.</p>

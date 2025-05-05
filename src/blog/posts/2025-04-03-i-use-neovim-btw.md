@@ -42,7 +42,7 @@ Even when just trying out Vim's keyboard shortcuts and commands in the tutorial,
 
 Even after completing vimtutor, sometimes I still revisit the tutorial to refresh my memory of certain Vim shortcuts and commands.
 
-After completing vimtutor, I downloaded and installed gVim in my Windows system. One of the first things I did after installing gVim was adding [Reuben L. Lillie](https://reubenlillie.com/)'s [a11y dark theme](https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/vim/a11y-dark.vim), which was based on [Eric Bailey](https://ericwbailey.website/)'s [a11y syntax highlighting](https://github.com/ericwbailey/a11y-syntax-highlighting), as my default theme in Vim.
+After completing vimtutor, I downloaded and installed gVim in my Windows system. One of the first things I did after installing gVim was adding [Reuben L. Lillie](https://reubenlillie.com/)'s [a11y dark theme](https://github.com/ericwbailey/a11y-syntax-highlighting/blob/home/dist/vim/a11y-dark.vim), which was based on [Eric Bailey](https://ericwbailey.website/)'s [a11y syntax highlighting](https://github.com/ericwbailey/a11y-syntax-highlighting), as my default theme in Vim.
 
 ## Hello, Neovim and LazyVim
 

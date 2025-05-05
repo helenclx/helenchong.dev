@@ -1,5 +1,5 @@
 export default {
-    layout: "global/content",
+    layout: "layouts/content",
     tags: "posts",
     isArticle: true,
     eleventyComputed: {

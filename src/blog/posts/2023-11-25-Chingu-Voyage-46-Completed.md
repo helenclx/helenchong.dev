@@ -7,11 +7,11 @@ categories: ["chingu"]
 
 On 12 November 2023, I, along with two other teammates had officially completed [Chingu](https://www.chingu.io/) Voyage 46. I received my [Certificate of Completion](/assets/documents/Chingu-Voyage46-Completion-Cert.pdf) (PDF file) from Chingu on 19 November 2023.
 
-Back in August, I had created a [TickyBot clone](./2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project) as my [solo project](https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md) to submit to Chingu in order to join the next Chingu Voyage, specifically Tier 1, which is for web development beginners. My submission was approved by Chingu, and I was assigned to Tier 1 Team 1.
+Back in August, I had created a [TickyBot clone](./2023-08-24-Built-a-TickyBot-Clone-for-Chingus-Solo-Project) as my [solo project](https://github.com/chingu-voyages/Handbook/blob/home/docs/guides/soloproject/soloproject.md) to submit to Chingu in order to join the next Chingu Voyage, specifically Tier 1, which is for web development beginners. My submission was approved by Chingu, and I was assigned to Tier 1 Team 1.
 
 We were instructed to build a [recipe app](https://github.com/chingu-voyages/voyage-project-tier1-recipes) that allows users to search for recipes by inputting ingredients.
 
-![Screenshot of Recipe Hub](https://raw.githubusercontent.com/chingu-voyages/v46-tier1-team-01/main/Recipe-Hub-screenshot.png)
+![Screenshot of Recipe Hub](https://raw.githubusercontent.com/chingu-voyages/v46-tier1-team-01/home/Recipe-Hub-screenshot.png)
 
 You can view our Recipe Hub app's [live site](https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/) and [GitHub repository](https://github.com/chingu-voyages/v46-tier1-team-01).
 

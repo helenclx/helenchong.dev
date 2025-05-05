@@ -1,5 +1,5 @@
 export default {
-    layout: "main/project",
+    layout: "layouts/project",
     tags: "projects",
     eleventyComputed: {
         eleventyNavigation: {

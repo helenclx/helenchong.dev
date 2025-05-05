@@ -19,11 +19,11 @@
         <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
         <!-- Fonts -->
-        {{ include "global/fonts.vto" }}
+        {{ include "partials/fonts.vto" }}
         <!-- Feeds -->
         <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title }}" href="{{ sitemeta.feedPath }}">
         <!-- CSS -->
-        {{ include "global/css.vto" }}
+        {{ include "partials/css.vto" }}
         <style>{{ getBundle "css" }}</style>
         <!-- Verifications -->
         <link rel="authorization_/point" href="https://indieauth.com/auth">
@@ -40,10 +40,10 @@
     </head>
     <body>
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
-        {{ include "global/header.vto" }}
+        {{ include "partials/header.vto" }}
         <main id="content">
             {{ content }}
         </main>
-        {{ include "global/footer.vto" }}
+        {{ include "partials/footer.vto" }}
     </body>
 </html>

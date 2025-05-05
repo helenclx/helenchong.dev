@@ -46,7 +46,7 @@ Note that you want to apply the Pride flag to an empty element, you also need to
 
 I was inspired to code a Disbility Pride flag background in CSS by other people's CSS code snippets of LGBTQ+ pride flag backgrounds, such as [Alvaro Montoro's LGBTQ+ Flags Coded in CSS demo](https://codepen.io/alvaromontoro/full/NWyBrZJ).
 
-Since Ann Magill released the Disability Pride flag to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.
+Since Ann Magill released the Disability Pride flag to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdohome/zero/1.0/), I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.
 
 You can also check out [my CodePen demo](https://codepen.io/helenclx/pen/VwJjBmB)  for my responsive Disability Pride flag CSS background and play with the code.
 

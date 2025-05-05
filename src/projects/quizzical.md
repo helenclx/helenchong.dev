@@ -10,7 +10,7 @@ tech: ["React.js", "API"]
 
 ## Project Links
 - [Live Project](https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/)
-- [Project Repository](https://github.com/helenclx/Scrimba-React-Solo-Projects/tree/main/3-quizzical)
+- [Project Repository](https://github.com/helenclx/Scrimba-React-Solo-Projects/tree/home/3-quizzical)
 
 ## Introduction
 

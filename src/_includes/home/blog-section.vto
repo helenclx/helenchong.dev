@@ -1,6 +1,6 @@
 <section class="section--home grid-center">
     <h2 class="heading--home">Latest Blog Posts</h2>
     {{ set postList = collections.posts |> toReversed |> itemLimit(3) }}
-    {{ include "blog/postslist.vto" }}
+    {{ include "partials/postslist.vto" }}
     <a class="home__btn-link" href="/blog">More Blog Posts</a>
 </section>

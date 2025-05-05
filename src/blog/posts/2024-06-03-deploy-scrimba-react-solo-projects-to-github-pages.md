@@ -105,7 +105,7 @@ After finished creating the HTML and CSS of the home page, I wrote an extra step
 ```
 What this step does is creating a "deploy" folder and then copy the home page's HTML, CSS to the "deploy" folder, and copy the project screenshots to the folder of each project.
 
-Here is the final code of my GitHub action TAML file to deploy my Scrimba React solo projects in [my Scrimba React solo projects repository](https://github.com/helenclx/Scrimba-React-Solo-Projects/blob/main/.github/workflows/gh-pages.yml).
+Here is the final code of my GitHub action TAML file to deploy my Scrimba React solo projects in [my Scrimba React solo projects repository](https://github.com/helenclx/Scrimba-React-Solo-Projects/blob/home/.github/workflows/gh-pages.yml).
 
 Now that I have successfully deployed my Scrimba React solo projects to GitHub Pages, I can finally delete those projects from Netlify and free up more monthly bandwidth for my other projects that I actually want to deploy to Netlify.
 
