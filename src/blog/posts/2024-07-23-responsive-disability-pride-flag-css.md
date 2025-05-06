@@ -21,12 +21,12 @@ hasCodeBlock: true
             #3BB07D 30% 65%,
             #595959 0
         );
-}{{ endset }}
+}{{ /set }}
 
 {{ css }}
 {{ disabilityPrideCss }}
 .disability-pride-flag.demo { height: {{ demoHeight }}; }
-{{ endcss }}
+{{ /css }}
 
 <div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
 
