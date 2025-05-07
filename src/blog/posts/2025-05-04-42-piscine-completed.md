@@ -5,7 +5,7 @@ date: 2025-05-04T11:05:16+0800
 topics: ["42 the school", "c", "life updates"]
 ---
 
-2 May 2025 marked the final day of [42 the computer science school](/blog/categories/42-the-school/)'s 26-day bootcamp, named the Piscine, that I was attending. The final day of the Piscine was also when the final exam took place. I am happy to announce that I have completed the Piscine, by taking and passing the final exam!
+2 May 2025 marked the final day of [42 the computer science school](/blog/topics/42-the-school/)'s 26-day bootcamp, named the Piscine, that I was attending. The final day of the Piscine was also when the final exam took place. I am happy to announce that I have completed the Piscine, by taking and passing the final exam!
 
 This intake of bootcamp started on April 7, and the intense and challenging curriculum meant April had been my busiest month since forever. Despite already having learned C before attending the Piscine, I still got to learn things about C that I did not before, such as using the `write()` function instead of `printf()` to print out something in the terminal, creating a Makefile for the first time ever as part of one of the solo projects, and having fun with it.
 
