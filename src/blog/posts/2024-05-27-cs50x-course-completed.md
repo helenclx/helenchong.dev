@@ -2,7 +2,7 @@
 title: CS50x Course Completed
 desc: About me completing the CS50’s Introduction to Computer Science course.
 date: 2024-05-27T21:47:00+0800
-categories: ["cs50", "cs50x", "python", "flask", "sql"]
+topics: ["cs50", "cs50x", "python", "flask", "sql"]
 ---
 
 On 23 May 2024, at long last, I completed [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2024/), also known as CS50x, course!

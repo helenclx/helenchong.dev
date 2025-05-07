@@ -2,7 +2,7 @@
 title: Custom Domain Name for My Developer Website
 desc: My developer website now has a custom domain name.
 date: 2024-05-29T23:18:00+0800
-categories: ["about this website"]
+topics: ["about this website"]
 ---
 
 This website — my developer portfolio and blog website — now has a custom domain: [helenchong.dev](https://helenchong.dev/)!

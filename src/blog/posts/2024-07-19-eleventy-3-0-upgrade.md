@@ -4,7 +4,7 @@ desc: My developer portfolio and blog website has been officially upgraded to El
 date: 2024-07-19T15:31:00+0800
 updated: 2024-09-27T11:41:53+0800
 templateEngineOverride: md
-categories: ["about this website", "eleventy", "javascript"]
+topics: ["about this website", "eleventy", "javascript"]
 toc: true
 hasCodeBlock: true
 ---

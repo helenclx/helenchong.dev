@@ -2,7 +2,7 @@
 title: Finally Deployed My Scrimba React Solo Projects to GitHub Pages
 desc: At long last, I found a way to deploy my solo projects for Scirmba's React course form my repository's subdirectories.
 date: 2024-06-03T11:01:00+0800
-categories: ["scrimba", "react", "github pages"]
+topics: ["scrimba", "react", "github pages"]
 hasCodeBlock: true
 ---
 

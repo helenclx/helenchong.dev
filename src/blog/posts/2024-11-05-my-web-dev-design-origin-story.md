@@ -2,7 +2,7 @@
 title: My Web Development and Web Design Origin Story
 desc: sailorhg's comic "Home Sweet Homepage" inspired me to share my web development and web design origin story.
 date: 2024-11-05T18:05:46+0800
-categories: ["web development"]
+topics: ["web development"]
 ---
 
 Recently, I discovered [sailorhg](https://sailorhg.com/)'s comic, ["Home Sweet Homepage"](https://sailorhg.com/home_sweet_homepage/) (which also has a [text transcript](https://sailorhg.com/home_sweet_homepage/transcript.html) available), telling the author's story about growing up online in the era of GeoCities. While I never got to code my own website on GeoCities, this comic reminded me of why I love web development and web design and thus eventually decided to changed my career path to web development.

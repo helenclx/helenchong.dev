@@ -2,7 +2,7 @@
 title: Rebuilding My Developer Portfolio with Eleventy
 desc: I recreated my developer portfolio and blog from scratch with Eleventy.
 date: 2024-04-11T18:03:00+0800
-categories: ["eleventy", "about this website", "about this blog"]
+topics: ["eleventy", "about this website", "about this blog"]
 ---
 
 I have been taking courses to learn to code, starting from HTML, CSS and JavaScript, since December 2022. As I honed my front-end web development skills further by building projects, I quickly realised that I needed a portfolio website to showcase myself and my projects. Eventually, I launched my first developer portfolio website in February 2023, based on Kolade Chris tutorial ["How to Build Your Own Developer Portfolio Website with HTML, CSS, and JavaScript"](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/) on freeCodeCamp, and deployed it to GitHub Pages.

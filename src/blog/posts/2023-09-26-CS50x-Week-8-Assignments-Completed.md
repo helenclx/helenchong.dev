@@ -2,7 +2,7 @@
 title: CS50x Week 8 Assignments Completed
 desc: I have completed and submitted the Week 8 assignment of the CS50's Introduction to Computer Science (CS50x) course.
 date: 2023-09-26
-categories: ["cs50", "cs50x", "html", "css", "javascript"]
+topics: ["cs50", "cs50x", "html", "css", "javascript"]
 ---
 
 At last, I completed and submitted [Week 8](https://cs50.harvard.edu/x/2023/weeks/8/) assignments of the CS50's Introduction to Computer Science (CS50x) course, including [Lab 8](https://cs50.harvard.edu/x/2023/labs/8/) and [Problem Set 8](https://cs50.harvard.edu/x/2023/psets/8/).

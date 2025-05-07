@@ -16,9 +16,9 @@ layout: layouts/base
         {{ if updated }}
         <p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated |> formatDate }}</time></p>
         {{ /if }}
-        <p><span class="text-bold">Categories:</span>
-            {{ for cat of categories }}
-            <a href="/blog/categories/{{ cat |> slugify }}">{{ cat }}</a>{{ if categories.indexOf(cat) !== categories.length - 1 }}, {{ /if }}
+        <p><span class="text-bold">Topics:</span>
+            {{ for topic of topics }}
+            <a href="/blog/topics/{{ topic |> slugify }}">{{ topic }}</a>{{ if topics.indexOf(topic) !== topics.length - 1 }}, {{ /if }}
             {{ /for }}
         </p>
     </div>

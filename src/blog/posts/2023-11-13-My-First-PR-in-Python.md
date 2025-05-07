@@ -2,7 +2,7 @@
 title: cbpickaxe and My First (Merged) Pull Request in Python
 desc: About my first pull request in Python that got approved and merged.
 date: 2023-11-13
-categories: ["python", "github", "cbpickaxe", "cassette beasts"]
+topics: ["python", "github", "cbpickaxe", "cassette beasts"]
 ---
 
 Recently, on 11 November 2023, I created my first pull request in Python that got merged later. Specifically, the pull request was for [cbpickaxe](https://github.com/ExcaliburZero/cbpickaxe), a Python library and set of scripts for data mining the video game [Cassette Beasts](https://www.cassettebeasts.com/), titled ["extract\_translation Script: Add support for finding strings of IDs that require pronoun identifiers"](https://github.com/ExcaliburZero/cbpickaxe/pull/3).

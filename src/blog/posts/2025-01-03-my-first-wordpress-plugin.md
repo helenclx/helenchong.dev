@@ -2,7 +2,7 @@
 title: Developed My First WordPress Plugin
 desc: I successfully developed a WordPress plugin during my first web developer job.
 date: 2025-01-03T16:30:08+0800
-categories: ["wordpress", "php"]
+topics: ["wordpress", "php"]
 ---
 
 3 January 2025 was the final day of [my first web developer job](2024-08-16-got-my-first-developer-job.md).

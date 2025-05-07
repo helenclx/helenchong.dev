@@ -2,7 +2,7 @@
 title: CS50x Week 9 Completed
 desc: In March 2024, I have completed and submitted the Week 9 problem set of the CS50's Introduction to Computer Science (CS50x) course.
 date: 2024-04-15T16:37:00+0800
-categories: ["cs50", "cs50x", "python", "flask", "sql"]
+topics: ["cs50", "cs50x", "python", "flask", "sql"]
 ---
 
 At last, on 5 March 2024, I completed [Week 9](https://cs50.harvard.edu/x/2024/weeks/9/) of the CS50's Introduction to Computer Science (CS50x) course, by submitting my solutions to [Problem Set 9](https://cs50.harvard.edu/x/2024/psets/9/) . In other words, I have finished all assignments for the CS50x course, with the only thing left for me to do to complete the course is building and submitting my own [final project](https://cs50.harvard.edu/x/2024/project/).

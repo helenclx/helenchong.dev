@@ -2,7 +2,7 @@
 title: "Scheduled: Speaking at THE Eleventy Meetup Episode 19"
 desc: My first opportunity to speak at a tech event will be in Episode 19 of THE Eleventy Meetup.
 date: 2024-09-10T23:35:17+0800
-categories: ["eleventy", "speaking"]
+topics: ["eleventy", "speaking"]
 ---
 
 I am pleased to announce that I have been invited to speak at Episode 19 of [THE Eleventy Meetup](https://11tymeetup.dev/)!

@@ -2,7 +2,7 @@
 title: Welcome to Helen Codes
 desc: Welcome to Helen Chong's coding and tech blog.
 date: 2023-08-21
-categories: ["about this blog"]
+topics: ["about this blog"]
 ---
 
 My name is Helen Chong. I am a self-taught developer with 8 years of working experience as a graphic designer.

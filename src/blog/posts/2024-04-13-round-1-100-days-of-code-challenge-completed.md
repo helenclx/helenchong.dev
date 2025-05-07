@@ -2,7 +2,7 @@
 title: Round 1 of 100 Days of Code Challenge Completed
 desc: I completed my first round of the 100 Days of Code challenge.
 date: 2024-04-13T12:20:00+0800
-categories: ["100 days of code", "freecodecamp"]
+topics: ["100 days of code", "freecodecamp"]
 ---
 
 On 3 January 2024, I started the [#100DaysOfCode](https://www.100daysofcode.com/) challenge for the first time. Came 11 April 2024, I finally completed my first round of the challenge!

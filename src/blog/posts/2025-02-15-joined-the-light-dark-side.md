@@ -2,7 +2,7 @@
 title: I Have Joined the light-dark() Side
 desc: I am applying the CSS light-dark() function to add light and dark modes to my websites.
 date: 2025-02-15T11:18:07+0800
-categories: ["css"]
+topics: ["css"]
 ---
 
 After building and working on this developer portfolio and blog website of mine for a while, I began to learn to apply light and dark modes to my website. Initially, I used the [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) CSS `@media` feature to achieve that. Specifically, I used a `prefers-color-scheme: dark` media query to set the values of my website layout in dark mode.

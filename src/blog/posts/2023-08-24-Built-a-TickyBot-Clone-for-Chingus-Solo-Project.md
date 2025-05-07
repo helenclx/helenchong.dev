@@ -2,7 +2,7 @@
 title: Built A TickyBot Clone for Chingu's Solo Projects
 desc: I built a TickyBot Clone for Chingu's Solo Project.
 date: 2023-08-24
-categories: ["chingu"]
+topics: ["chingu"]
 ---
 
 On 11 August 2023, I decided to join [Chingu](https://www.chingu.io/) after discovering its existence through the [Scrimba Podcast](https://www.chingu.io/), specifically [Episode 127](https://scrimba.com/podcast/are-you-a-new-developer-follow-this-one-tip-with-scrimba-student-danny/). I have learned coding since December 2022, and one of the challenges aspiring self-taught developers face is gaining practical experience that can prepare them for developer jobs, so when I discovered Chingu, I thought it could be an opportunity for me to gain experience in working in group developer projects, thus I registered on the platform and joined the Chingu community on Discord.

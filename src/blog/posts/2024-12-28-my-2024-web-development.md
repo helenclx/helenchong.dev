@@ -2,7 +2,7 @@
 title: My 2024 Year in Web Development
 desc: Reflecting on my 2024 as a web developer.
 date: 2024-12-28T19:47:18+0800
-categories: ["year in review", "web development"]
+topics: ["year in review", "web development"]
 toc: true
 ---
 

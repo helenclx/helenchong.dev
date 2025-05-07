@@ -2,7 +2,7 @@
 title: Adding a Button to Copy Code Snippets
 desc: How I added a button to copy code snippets to my website with JavaScript.
 date: 2025-02-19T11:05:03+0800
-categories: ["javascript", "accessibility"]
+topics: ["javascript", "accessibility"]
 hasCodeBlock: true
 ---
 

@@ -3,7 +3,7 @@ title: Got My First Developer Job
 desc: At last, I have officially switched my career path to web development.
 date: 2024-08-16T20:35:51+0800
 updated: 2025-01-02T21:51:14+0800
-categories: ["life updates"]
+topics: ["life updates"]
 toc: true
 ---
 

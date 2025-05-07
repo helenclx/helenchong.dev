@@ -1,0 +1,22 @@
+---
+pagination:
+    data: collections.topics
+    size: 1
+    alias: topic
+    addAllPagesToCollections: true
+permalink: /blog/topics/{{ topic |> slugify }}/
+layout: layouts/content
+hasBreadcrumbs: true
+eleventyComputed:
+    title: 'Blog Post Topic: "{{ topic }}"'
+    eleventyNavigation:
+        key: "{{ topic }}"
+        parent: Blog Topics
+---
+{{ set postCount = collections.posts |> filterByTopic(topic) |> itemCount }}
+<h2 class="blog__cat--title">{{ postCount }} Posts Filed Under "{{ topic }}"</h2>
+
+{{ set postList = collections.posts |> filterByTopic(topic) |> toReversed }}
+{{ include "partials/postslist.vto" }}
+
+<p>See <a href="/blog/topics/">all blog post topics</a>.</p>

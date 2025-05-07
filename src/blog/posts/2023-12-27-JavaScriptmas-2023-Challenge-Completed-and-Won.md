@@ -2,7 +2,7 @@
 title: JavaScriptmas 2023 Challenge Completed — and Won
 desc: My participation and winning of Scrimba's JavaScriptmas 2023 challenge.
 date: 2023-12-27T21:47:00+0800
-categories: ["scrimba", "javascriptmas"]
+topics: ["scrimba", "javascriptmas"]
 ---
 
 Starting from 1 December 2023, I had participated in [Scrimba](https://scrimba.com/)'s [JavaScriptmas](https://scrimba.com/learn/javascriptmas) challenge. After 24 days, I finally completed the entire challenge! I have compiled a [scrim playlist](https://scrimba.com/playlist/pdpB3JZfE) for all my JavaScriptmas solutions on Scrimba.

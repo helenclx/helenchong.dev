@@ -2,7 +2,7 @@
 title: Dipping My Toes in PHP for My Hobby Project
 desc: I started to learn to code in PHP for my hobby project.
 date: 2024-07-08T13:21:00+0800
-categories: ["php", "bellabuffs"]
+topics: ["php", "bellabuffs"]
 ---
 
 Hobbies are a great motivator to learn new things, and web development is no exception. I had dabbled in HTML and CSS since my teenage years, but it was not until December 2022 when I decided to take online web development courses, and then aspire to become a web developer.

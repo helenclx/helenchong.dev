@@ -3,7 +3,7 @@ title: Happy One-Month Anniversary of My omg.lol Membership
 desc: It has been a month since I joined omg.lol, and I am glad to be part of it.
 date: 2024-10-19T00:14:19+0800
 updated: 2024-11-04T23:57:10+0800
-categories: ["omg.lol"]
+topics: ["omg.lol"]
 ---
 
 19 October 2024 marks my one-month anniversary of joining [omg.lol](https://home.omg.lol/).

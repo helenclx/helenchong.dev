@@ -2,7 +2,7 @@
 title: CS50x Week 7 Completed
 desc: I have completed and submitted the Week 7 assignment of the CS50's Introduction to Computer Science (CS50x) course.
 date: 2023-09-10
-categories: ["cs50", "cs50x", "sql"]
+topics: ["cs50", "cs50x", "sql"]
 ---
 
 On 8 September 2023, I completed [Week 7](https://cs50.harvard.edu/x/2023/weeks/7/) of [CS50’s Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (CS50x) course, by submitting the required assignments, [Lab 7](https://cs50.harvard.edu/x/2023/labs/7/) and [Problem Set 7](https://cs50.harvard.edu/x/2023/psets/7/).
