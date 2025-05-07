@@ -22,14 +22,4 @@ export default function(eleventyConfig) {
     eleventyConfig.addFilter("thousands", (num) => {
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     });
-
-    // Filter: Filter blog posts by category
-    eleventyConfig.addFilter("filterByCategory", (posts, cat) => {
-        cat = cat.toLowerCase();
-        let result = posts.filter(p => {
-            let cats = p.data.categories.map(s => s.toLowerCase());
-            return cats.includes(cat);
-        });
-        return result;
-    });
 }

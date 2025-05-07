@@ -10,7 +10,7 @@ import { VentoPlugin } from 'eleventy-plugin-vento';
 import markdownItConfig from "./src/_config/markdown-it.js";
 import feedsConfig from "./src/_config/feeds.js";
 import filesConfig from "./src/_config/files.js";
-import collectionsConfig from "./src/_config/collections.js";
+import categoriesConfig from "./src/_config/categories.js";
 import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
@@ -34,7 +34,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(markdownItConfig);
     eleventyConfig.addPlugin(feedsConfig);
     eleventyConfig.addPlugin(filesConfig);
-    eleventyConfig.addPlugin(collectionsConfig);
+    eleventyConfig.addPlugin(categoriesConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
 
