@@ -12,7 +12,7 @@ export default function(eleventyConfig) {
         return Array.from(topics).sort();
     });
 
-    // Filter: Filter blog posts by topicegory
+    // Filter: Filter blog posts by topic
     eleventyConfig.addFilter("filterByTopic", (posts, topic) => {
         topic = topic.toLowerCase();
         let result = posts.filter(p => {
