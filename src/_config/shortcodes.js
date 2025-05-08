@@ -7,7 +7,7 @@ export default function(eleventyConfig) {
     // Shortcode: <cite> tag
     eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
 
-    // MShortcode: anual heading anchor
+    // Shortcode: Manual heading anchor
     eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
         return `<div class="heading-wrapper h${hLevel}">
             <h${hLevel} id="${id}">${title}</h${hLevel}>
