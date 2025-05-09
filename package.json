@@ -1,33 +1,32 @@
 {
-  "name": "helenchong.dev",
-  "description": "Helen Chong's developer portfolio and blog website.",
-  "author": "Helen Chong",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/helenclx/helenchong.dev.git"
-  },
-  "scripts": {
-    "start": "bunx eleventy --serve --quiet",
-    "build": "bunx eleventy",
-    "build-ghpages": "bunx eleventy"
-  },
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "^1.2.12"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.0-beta.1",
-    "@11ty/eleventy-fetch": "^5.1.0",
-    "@11ty/eleventy-navigation": "^1.0.4",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
-    "@uncenter/eleventy-plugin-toc": "^1.0.3",
-    "@zachleat/details-utils": "^2.0.2",
-    "eleventy-plugin-embed-everything": "^1.21.0",
-    "eleventy-plugin-vento": "^4.2.1",
-    "eleventy-plugin-wordcount-extended": "^0.2.1",
-    "markdown-it-anchor": "^9.2.0",
-    "markdown-it-attrs": "^4.3.1",
-    "markdown-it-bracketed-spans": "^1.0.1"
-  }
+    "name": "helenchong.dev",
+    "description": "Helen Chong's developer portfolio and blog website.",
+    "author": "Helen Chong",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/helenclx/helenchong.dev.git"
+    },
+    "scripts": {
+        "start": "bunx eleventy --serve --quiet",
+        "build": "bunx eleventy",
+        "build-ghpages": "bunx eleventy"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "^1.2.12"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^3.1.0-beta.1",
+        "@11ty/eleventy-navigation": "^1.0.4",
+        "@11ty/eleventy-plugin-rss": "^2.0.4",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+        "@uncenter/eleventy-plugin-toc": "^1.0.3",
+        "@zachleat/details-utils": "^2.0.2",
+        "eleventy-plugin-embed-everything": "^1.21.0",
+        "eleventy-plugin-vento": "^4.2.1",
+        "eleventy-plugin-wordcount-extended": "^0.2.1",
+        "markdown-it-anchor": "^9.2.0",
+        "markdown-it-attrs": "^4.3.1",
+        "markdown-it-bracketed-spans": "^1.0.1"
+    }
 }

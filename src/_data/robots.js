@@ -1,32 +1,65 @@
-/*
-	Modified from Robb Knight's script:
-	https://rknight.me/blog/blocking-bots-with-nginx/
-*/
+const blockedUserAgents = [
+    "AI2Bot",
+    "Ai2Bot-Dolma",
+    "aiHitBot",
+    "Amazonbot",
+    "anthropic-ai",
+    "Applebot-Extended",
+    "Brightbot 1.0",
+    "Bytespider",
+    "ChatGPT-User",
+    "Claude-Web",
+    "ClaudeBot",
+    "cohere-ai",
+    "cohere-training-data-crawler",
+    "Cotoyogi",
+    "Crawlspace",
+    "Diffbot",
+    "DuckAssistBot",
+    "FacebookBot",
+    "Factset_spyderbot",
+    "FirecrawlAgent",
+    "FriendlyCrawler",
+    "Google-Extended",
+    "GoogleOther",
+    "GoogleOther-Image",
+    "GoogleOther-Video",
+    "GPTBot",
+    "iaskspider/2.0",
+    "ICC-Crawler",
+    "ImagesiftBot",
+    "img2dataset",
+    "imgproxy",
+    "ISSCyberRiskCrawler",
+    "Kangaroo Bot",
+    "meta-externalagent",
+    "Meta-ExternalAgent",
+    "meta-externalfetcher",
+    "Meta-ExternalFetcher",
+    "NovaAct",
+    "OAI-SearchBot",
+    "omgili",
+    "omgilibot",
+    "Operator",
+    "PanguBot",
+    "Perplexity-User",
+    "PerplexityBot",
+    "PetalBot",
+    "Scrapy",
+    "SemrushBot-OCOB",
+    "SemrushBot-SWA",
+    "Sidetrade indexer bot",
+    "TikTokSpider",
+    "Timpibot",
+    "VelenPublicWebCrawler",
+    "Webzio-Extended",
+    "YouBot",
+];
 
-import EleventyFetch from "@11ty/eleventy-fetch";
+const txt = blockedUserAgents.map((bot) => `User-agent: ${bot}`).join("\n");
+const htaccess = blockedUserAgents.join("|");
 
-export default async function () {
-	const url = "https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt";
-	let txt = await EleventyFetch(url, {
-		duration: "1w",
-		type: "text",
-	});
-
-	const botExceptions = ["Applebot", "CCBot"];
-	const botExceptionsFullStr = botExceptions.map(bot => "User-agent: " + bot)
-
-	txt = txt
-		.split("\n")
-		.filter((line) => !botExceptionsFullStr.includes(line))
-		.join("\n");
-
-	const bots = txt
-		.split("\n")
-		.filter((line) => line.startsWith("User-agent:"))
-		.map((line) => line.split(":")[1].trim().replace(/\s/gi, ".*"));
-
-	return {
-		txt: txt,
-		htaccess: bots.join('|'),
-	};
+export default {
+    txt: txt,
+    htaccess: htaccess.replace(/\s/gi, ".*"),
 }
