@@ -10,7 +10,7 @@
     "socials",
     "utility"
 ] }}
-
 {{ for file of cssFiles }}
 <link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
 {{ /for }}
+<style>{{ getBundle "css" }}</style>
