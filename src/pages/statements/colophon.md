@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-04T09:43:36+0800
+updated: 2025-05-09T18:45:13+0800
 toc: true
 ---
 
@@ -27,7 +27,6 @@ Previously, this website was hosted on GitHub Pages until 30 July 2024.
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 * Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
-* Eleventy's official [Fetch](https://www.11ty.dev/docs/plugins/fetch/) plugin
 * [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
