@@ -27,13 +27,7 @@
         <!-- Verifications -->
         <link rel="authorization_/point" href="https://indieauth.com/auth">
         <!-- JavaScript -->
-        <script src="{{ getBundleFileUrl 'js' }}" defer></script>
-        {{ if toc }}
-        <script src="/assets/js/details-utils.js" defer></script>
-        {{ /if }}
-        {{ if hasCodeBlock }}
-        <script src="/assets/js/copycode.js" defer></script>
-        {{ /if }}
+        {{ include "partials/js.vto" }}
 
         <title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
     </head>
