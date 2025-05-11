@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-30T01:33:20+0800
+updated: 2025-05-11T19:40:40+0800
 toc: true
 ---
 
@@ -24,7 +24,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Operating Systems
 
-- Laptop: Windows 11 Pro, with [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl) (WSL) enabled and [Ubuntu](https://ubuntu.com/) installed as the Linux distribution
+- Laptop: Windows 11 Pro, with [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl) (WSL) enabled and [Debian](https://www.debian.org/) installed as the Linux distribution
 - Smartphone: Xiaomi HyperOS 2.0, based on Android 15
 - Smartwatch: Xiaomi HyperOS 2.0
 
