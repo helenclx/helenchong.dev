@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build-action
 
-      - name: SSH Deploy to Hostinger
+      - name: SSH Deploy
         uses: easingthemes/ssh-deploy@main
         with:
             SSH_PRIVATE_KEY: ${{ secrets.HOSTINGER_SSH_PRIVATE_KEY }}
