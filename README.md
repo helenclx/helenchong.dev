@@ -1,15 +1,15 @@
 # Helen Chong's Developer Portfolio and Blog
 
-Source code of my developer portfolio and blog website. Built with [Eleventy](https://www.11ty.dev/) and deployed to [Hostinger](https://www.hostinger.my/).
+Source code of my developer portfolio and blog website. Built with [Eleventy](https://www.11ty.dev/).
 
 More technical information can be found on my website's [colophon page](https://helenchong.dev/colophon).
 
 ## Run Locally
-Recommended JavaScript runtime: [Bun](https://bun.sh).
+It is recommended to use [Bun](https://bun.sh) as the JavaScript runtime for this project. If you want to use Node.js to run this project, for each terminal command and `package.json` script, replace `bun` with `npm` and `bunx` with `npx`.
 
 1. Clone this repository locally
     ```
-    git clone https://github.com/helenclx/helenchong.dev.git
+    git clone https://git.helenchong.dev/helenchong/helenchong.dev.git
     ```
 1. Install dependencies
     ```

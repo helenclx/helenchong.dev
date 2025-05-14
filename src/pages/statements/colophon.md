@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-09T18:45:13+0800
+updated: 2025-05-14T11:00:39+0800
 toc: true
 ---
 
@@ -13,11 +13,12 @@ How this website is built.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
-* Source code available on [GitHub](https://github.com/helenclx/helenchong.dev).
+* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong.dev) and the [repository's GitHub mirror](https://github.com/helenclx/helenchong.dev).
 
 ## Host and Domain
 
-* Deployed to [Hostinger](https://www.hostinger.my/) from the site's GitHub repository with the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub action.
+* Deployed to my virtual private server (VPS) rented from [Chunkserve](https://chunkserve.com/) from my Gitea instance, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
+* Web server: [Caddy](https://caddyserver.com/).
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
 Previously, this website was hosted on GitHub Pages until 30 July 2024.
