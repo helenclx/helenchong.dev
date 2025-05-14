@@ -3,4 +3,5 @@ permalink: "{{ page.filePathStem }}"
 eleventyExcludeFromCollections: true
 eleventyAllowMissingExtension: true
 ---
+# Redirect obfuscated email links to mailto link
 redir ^.*{{ sitemeta.siteAuthor.emailDecoyUrl }}.*$ "mailto:{{ sitemeta.siteAuthor.email }}" permanent
