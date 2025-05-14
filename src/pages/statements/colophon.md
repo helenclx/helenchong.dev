@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-14T11:00:39+0800
+updated: 2025-05-14T22:02:43+0800
 toc: true
 ---
 
@@ -21,7 +21,7 @@ How this website is built.
 * Web server: [Caddy](https://caddyserver.com/).
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
-Previously, this website was hosted on GitHub Pages until 30 July 2024.
+Previously, this website was hosted on GitHub Pages until 30 July 2024, and [Hostinger](https://www.hostinger.com/my) until 14 May 2025.
 
 ## Plugins
 
