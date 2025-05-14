@@ -9,7 +9,7 @@
     "scripts": {
         "start": "bunx eleventy --serve --quiet",
         "build": "bunx eleventy",
-        "build-ghpages": "bunx eleventy"
+        "build-action": "npx eleventy"
     },
     "type": "module",
     "devDependencies": {
