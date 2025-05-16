@@ -2,7 +2,7 @@
 title: I Have Passed 42's Piscine Bootcamp
 desc: After studying hard in 42 the computer science school's 26-day bootcamp, I am officially eligible for 42's core curriculum.
 date: 2025-05-16T22:20:23+0800
-topics: ["42 the school"]
+topics: ["42 the school", "life updates"]
 ---
 
 Finally, after spending 8 hours in average per day studying hard in [42 the computer science school](/blog/topics/42-the-school/)'s 26-day bootcamp, named the Piscine, and two weeks after finishing the Piscine, I succeed in passing the bootcamp, and is qualified for 42's core curriculum! 🎉

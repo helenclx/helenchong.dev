@@ -2,6 +2,7 @@
 title: 42's Piscine Bootcamp Completed
 desc: At last, I finished 42 the computer science school's 26-day bootcamp.
 date: 2025-05-04T11:05:16+0800
+updated: 2025-05-16T22:49:36+0800
 topics: ["42 the school", "c", "life updates"]
 ---
 
@@ -21,4 +22,6 @@ Failing both group projects also motivated me to work hard in solo projects to h
 
 By the end of the Piscine, I made more progress in the solo projects than most of my peers, by succeeding in more solo projects than most of my peers. As for the weekly exams, I passed all four exams, and except the first exam, where I scored 30%, the minimum score to pass an exam, I succeeded the exams with the same score of 60% out of 100%. It is worth noting that the final exam has more assignments, which was why it lasted for 8 hours instead of the usual 4, which meant I needed to succeed in completing more assignments in the final exam to get the same score.
 
-Despite my intake of the Piscine was finished, it was not completely over for us Pisciners yet, since we still need to wait for another two weeks after the final exam for news and announcements about if we are qualified for 42's core curriculum. I attended 42 because I wanted to continue to learn to become a better developer, and connect with my local tech spaces, so naturally I hope to pass the Piscine and join the school's core program. Meanwhile, I am taking the opportunity of having more free time to enjoy  my personal projects, including my websites, and other hobbies. Fingers crossed!
+Despite my intake of the Piscine was finished, it was not completely over for us Pisciners yet, since we still need to wait for another two weeks after the final exam for news and announcements about if we are qualified for 42's core curriculum. I attended 42 because I wanted to continue to learn to become a better developer, and connect with my local tech spaces, so naturally I hope to pass the Piscine and join the school's core programme. Meanwhile, I am taking the opportunity of having more free time to enjoy my personal projects, including my websites, and other hobbies. Fingers crossed!
+
+**Update, 16 May 2025:** Great news: [I have passed the Piscine](2025-05-16-i-have-passed-42-piscine.md) and is eligible for 42's core programme!
