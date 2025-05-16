@@ -1,10 +1,9 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-05-14T10:43:21+0800
+updated: 2025-05-16T15:28:50+0800
 toc: true
 ---
-
 Below is a non-exhaustive list of the hardware and software that I use.
 
 You can find more /uses pages on [uses.tech](https://uses.tech/).
@@ -45,9 +44,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
 - Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
-- Feed reader: [FreshRSS](https://www.freshrss.org/) on my own instance, and [Read You](https://github.com/Ashinch/ReadYou) on Android
+- Feed reader: [FreshRSS](https://www.freshrss.org/) (my own instance), and [Read You](https://github.com/Ashinch/ReadYou) on Android
 - VPN: [Proton VPN](https://protonvpn.com/)
-- IRC client: [IRCCloud](https://www.irccloud.com/)
+- IRC client: [The Lounge](https://thelounge.chat/) (my own instance)
 - Mastodon client: The official web interface on desktop, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on Android
 - YouTube frontend: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on Android
 - Reddit frontend: [Redlib](https://github.com/redlib-org/redlib)
