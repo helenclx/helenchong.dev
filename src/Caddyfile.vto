@@ -5,4 +5,4 @@ eleventyAllowMissingExtension: true
 ---
 # Redirect obfuscated email links to mailto link
 @email_path path_regexp ^.*{{ sitemeta.siteAuthor.emailDecoyUrl }}.*
-redir @email_path mailto:{{ sitemeta.siteAuthor.email }} permanent
+redir @email_path mailto:{{ sitemeta.siteAuthor.email }}
