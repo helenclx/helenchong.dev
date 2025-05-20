@@ -5,7 +5,6 @@ date: 2025-05-19T23:46:33+0800
 topics: ["vps", "self-hosting"]
 toc: true
 ---
-
 It is official — not only I have a virtual private server (VPS), but also I have started self-hosting things on a VPS, including all my websites.
 
 I had heard of the concept of self-hosting even before making my first website from scratch in 2022. When I became more aware of digital privacy, I had learned that people can host alternatives to mainstream tech services, but while I learned to switch to using more privacy-friendly software as much as possible, I did not have enough tech proficiently to self-host yet.
@@ -32,7 +31,7 @@ With my first VPS rented, I could finally start tinkering a server myself.
 
 ## Unlocking the Power of SSH Access
 
-Confession: Prior to renting my first VPS, I never touched a Secure Shell (SSH) before. Fortunately, I already had a decent amount of experience with Linux, including having setting up Windows Subsystem for Linux (WSL) in my local machine, so I was already comfortable using command lines and the terminal.
+Confession: Prior to renting my first VPS, I never touched a Secure Shell (SSH) before. Fortunately, I already had a decent amount of experience with Linux, including having set up Windows Subsystem for Linux (WSL) in my local machine, so I was already comfortable using command lines and the terminal.
 
 I referred to [basement blog](https://blog.basementcommunity.com/)'s post ["everything i personally do when hosting a website on a new server"](https://blog.basementcommunity.com/everything-i-do-when-hosting-a-website/) to learn how to set up my VPS, including generating an SSH key to log in to the server.
 
@@ -58,11 +57,11 @@ After trying out Caddy in my VPS, I was impressed, as Caddy not only all sites o
 
 After tinkering with my VPS for months, I finally had a good idea for how I want to use my VPS for real: Debian as the Linux distribution, with Caddy as the web server and reverse proxy. When I ordered my VPS, I chose Ubuntu as the operating system, but later switched to Debian on both my VPS and WSL because I wanted a more lightweight distro to save some disk storage.
 
-After [completing 42 the computer science school's 26-day bootcamp](2025-05-04-42-piscine-completed.md), where I also learned more shell commands, while waiting for news about if I passed the bootcamp and was qualified for 42's core curriculum ([which did happen](2025-05-16-i-have-passed-42-piscine.md)), I worked on my VPS so I can start using it for my stuff for real.
+After [completing 42 the computer science school's 26-day bootcamp](2025-05-04-42-piscine-completed.md), where I also learned more shell commands, while waiting for news about if I passed the bootcamp and was qualified for 42's core curriculum ([which turned out to be the case](2025-05-16-i-have-passed-42-piscine.md)), I worked on my VPS so I can start using it for my stuff for real.
 
 I began with installing FreshRSS, specifically with [Docker](https://github.com/FreshRSS/FreshRSS/tree/edge/Docker), and succeed in setting up in a few minutes. Then, I [installed Gitea from binary](https://docs.gitea.com/installation/install-from-binary), [run it as a Linux service](https://docs.gitea.com/installation/linux-service), [install the Gitea Action runner with Docker](https://docs.gitea.com/usage/actions/act-runner#install-with-the-docker-image) and run the act runner's Docker container with the `--restart unless stopped` argument to keep the runner going in the background unless I stop its Docker container. I created subdomains to use with my own FreshRSS and Gitea instances, which are served through Caddy as a reverse proxy.
 
-After migrating Git repositories of my websites to Gitea (with some of them mirrored to GitHub), it was time to migrate my websites from Hostinger to my first VPS. Creating file directories for each of my websites, configuring Caddy to serve my websites' files, converting individual website's configuration from Apache `.htaccess` to Caddy's `Caddyfile`, changing my domains' DNS, and voilà, the migration of my websites was officially completed on 14 May 2025!
+After migrating Git repositories of my websites to Gitea (with some of them mirrored to GitHub), it was time to migrate my websites from Hostinger to my first VPS. Creating file directories for each of my websites, configuring Caddy to serve my websites' files, converting individual website's configuration from Apache's `.htaccess` to Caddy's `Caddyfile`, changing my domains' DNS records, and voilà, the migration of my websites was officially completed on 14 May 2025!
 
 On May 16, just hours before my results of the 42 bootcamp was announced, I also successfully set up my own instance of [The Lounge](https://thelounge.chat/), the web-based IRC client. Previously I used [IRCCloud](https://www.irccloud.com/), but I was interested in The Lounge and hosting my own instance of it after trying out its demo.
 
