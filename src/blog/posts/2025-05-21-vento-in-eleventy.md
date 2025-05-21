@@ -1,7 +1,7 @@
 ---
 title: "Vento: My Favourite Template Language for Eleventy"
 desc: I have switched to using Vento as the template engine in my websites built with Eleventy, and I love it.
-date: 2025-05-21T20:24:41+0800
+date: 2025-05-21T20:45:16+0800
 topics: ["eleventy", "vento", "nunjucks"]
 toc: true
 ---
@@ -19,11 +19,9 @@ There is also the fact that it is difficult to find code editor resources for Nu
 
 ## Discovering Vento
 
-Later, I discovered [Vento](https://vento.js.org/), a new kid in the block in template engine created by [Óscar Otero](https://oscarotero.com/), who also created [Lume](https://lume.land/), another static site generator, as well as [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento), an Eleventy plugin that adds support for Vento, created by [Noel Forte](https://forte.is/).
+Later, I discovered [Vento](https://vento.js.org/), a new kid in the block in template engine created by [Óscar Otero](https://oscarotero.com/), who also created [Lume](https://lume.land/), another static site generator. There was also [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento), an Eleventy plugin that adds support for Vento, created by [Noel Forte](https://forte.is/).
 
-I was already intrigued by Vento, as I agree with Óscar about the drawbacks of both Nunjucks and Liquid — in addition to the shortcomings I mentioned above, I also find it inconvenient to have to add a `safe` filter everywhere when writing Nunjucks templates in a static site generator to ensure HTML and special characters are rendered properly.
-
-(Other template engines that inspired Vento included EJS/Eta and Mustache, but I cannot comment on them since I never used them)
+I was already intrigued by Vento, as I agree with Óscar about the drawbacks of both Nunjucks and Liquid. Other template engines that inspired Vento included EJS/Eta and Mustache, but I cannot comment on them since I never used them.
 
 Then, I read [Christopher Kirk-Nielsen](https://chriskirknielsen.com/)'s post about Vento, ["Taking VentoJS for a spin in Elev­enty"](https://chriskirknielsen.com/blog/taking-vento-js-for-a-spin-in-eleventy/), in late April 2025, that was when I finally decided to use Vento in my Eleventy websites, by installing eleventy-plugin-vento and converting Nunjucks templates to Vento templates.
 
