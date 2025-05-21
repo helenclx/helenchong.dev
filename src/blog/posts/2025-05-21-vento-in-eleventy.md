@@ -5,7 +5,7 @@ date: 2025-05-21T20:24:41+0800
 topics: ["eleventy", "vento", "nunjucks"]
 toc: true
 ---
-I have used the static site generator [Eleventy](https://www.11ty.dev/) to build my websites for a year since April 2024. A noteworthy feature of Eleventy is its support for multiple template languages, though [Liquid](https://liquidjs.com/) and [Nunjucks](https://mozilla.github.io/nunjucks/) seem to be the most popular choices among Eleventy users, as both languages not only receive built-in support from Eleventy without a third-party plugin, but also are the most documented in Eleventy's official documentation.
+I have used the static site generator [Eleventy](https://www.11ty.dev/) to build my websites for a year since [April 2024](2024-04-11-rebuilding-my-developer-portfolio-with-eleventy.md). A noteworthy feature of Eleventy is its support for multiple template languages, though [Liquid](https://liquidjs.com/) and [Nunjucks](https://mozilla.github.io/nunjucks/) seem to be the most popular choices among Eleventy users, as both languages not only receive built-in support from Eleventy without a third-party plugin, but also are the most documented in Eleventy's official documentation.
 
 ## Nunjucks: My Original Go-To Template Language in Eleventy
 
