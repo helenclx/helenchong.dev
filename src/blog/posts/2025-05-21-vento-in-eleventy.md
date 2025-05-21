@@ -72,7 +72,7 @@ I have a personal blog, [Galaxy Garden](https://blog.helenchong.omg.lol/), which
 
 Unfortunately, when I converted my personal blog's template engine from Nunjucks to Vento, I realised that the filters to get my post collection items failed to render anything, despite the terminal not throwing any errors.
 
-After failing to figure out the cause, I [created a GitHub issue](https://github.com/noelforte/eleventy-plugin-vento/issues/221) on eleventy-plugin-vento's repository to report it. Through my report, Noel discovered that the cause of the issue is [Eleventy itself not handling i18n with custom template engines very well](https://github.com/noelforte/eleventy-plugin-vento/issues/221#issuecomment-2837024798), and [created a pull request on Eleventy's repository](https://github.com/11ty/eleventy/pull/3785) as a potential solution. As of this writing, the pull request has yet to be reviewed, so I am keeping an eye on it.
+After failing to figure out the cause, I [created a GitHub issue](https://github.com/noelforte/eleventy-plugin-vento/issues/221) on eleventy-plugin-vento's repository to report it. Through my report, Noel discovered that the cause of the issue is [Eleventy itself not handling i18n with custom template engines very well](https://github.com/noelforte/eleventy-plugin-vento/issues/221#issuecomment-2837024798), and [created a pull request on Eleventy's repository](https://github.com/11ty/eleventy/pull/3785) as a potential solution. As of this writing, the pull request has yet to be reviewed, so I have to remove the feature to quickly navigate the next and previous posts from my personal blog. However, I am keeping an eye on Noel's pull request.
 
 ## Wrapping Up
 
@@ -82,4 +82,7 @@ Not to mention both Vento and eleventy-plugin-vento are well-maintained by their
 
 In conclusion, I love Vento and I am happy that I made the switch from Nunjucks to Vento.
 
-I am grateful of Óscar's work in creating and maintaining Vento, Noel's work in creating and maintaining eleventy-plugin-vento, and both uncenter and Noel for helping me solve my issue with using eleventy-plugin-vento with other Eleventy plugins that provide filters and shortcodes.
+Special thanks to:
+- Óscar for creating and maintaining Vento.
+- Noel for creating and maintaining eleventy-plugin-vento, as well as helping me troubleshoot the issue with Eleventy's i18n plugin not handling custom template engines.
+- Both uncenter and Noel for helping me solve my issue with using eleventy-plugin-vento with other Eleventy plugins that provide filters and shortcodes.
