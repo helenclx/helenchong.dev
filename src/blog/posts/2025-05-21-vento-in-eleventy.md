@@ -1,15 +1,15 @@
 ---
-title: "Vento: My Favourite Templating Language for Eleventy"
+title: "Vento: My Favourite Template Language for Eleventy"
 desc: I have switched to using Vento as the template engine in my websites built with Eleventy, and I love it.
 date: 2025-05-21T20:24:41+0800
 topics: ["eleventy", "vento", "nunjucks"]
 toc: true
 ---
-I have used the static site generator [Eleventy](https://www.11ty.dev/) to build my websites for a year since April 2024. A noteworthy feature of Eleventy is its support for multiple templating languages, though [Liquid](https://liquidjs.com/) and [Nunjucks](https://mozilla.github.io/nunjucks/) seem to be the most popular choices among Eleventy users, as both languages not only receive built-in support from Eleventy without a third-party plugin, but also are the most documented in Eleventy's official documentation.
+I have used the static site generator [Eleventy](https://www.11ty.dev/) to build my websites for a year since April 2024. A noteworthy feature of Eleventy is its support for multiple template languages, though [Liquid](https://liquidjs.com/) and [Nunjucks](https://mozilla.github.io/nunjucks/) seem to be the most popular choices among Eleventy users, as both languages not only receive built-in support from Eleventy without a third-party plugin, but also are the most documented in Eleventy's official documentation.
 
-## Nunjucks: My Original Go-To Templating Language in Eleventy
+## Nunjucks: My Original Go-To Template Language in Eleventy
 
-I have tried both Nunjucks and Liquid, but I settled for Nunjucks as the go-to templating language of my Eleventy websites, mainly because I was already somewhat familiar with Nunjucks' syntax since I had written [Jinja](https://jinja.palletsprojects.com/en/stable/), the templating engine Nunjucks is based on, as part of the [CS50's Introduction to Computer Science](/blog/topics/cs50x/) course. Another major reason I chose Nunjucks over Liquid was the [macro](https://mozilla.github.io/nunjucks/templating.html#macro) feature, which works similarly to functions in other programming languages, while Liquid lacks an equivalent feature.
+I have tried both Nunjucks and Liquid, but I settled for Nunjucks as the go-to template language of my Eleventy websites, mainly because I was already somewhat familiar with Nunjucks' syntax since I had written [Jinja](https://jinja.palletsprojects.com/en/stable/), the template engine Nunjucks is based on, as part of the [CS50's Introduction to Computer Science](/blog/topics/cs50x/) course. Another major reason I chose Nunjucks over Liquid was the [macro](https://mozilla.github.io/nunjucks/templating.html#macro) feature, which works similarly to functions in other programming languages, while Liquid lacks an equivalent feature.
 
 ## Drawbacks of Nunjucks
 
@@ -19,7 +19,7 @@ There is also the fact that it is difficult to find code editor resources for Nu
 
 ## Discovering Vento
 
-Later, I discovered [Vento](https://vento.js.org/), a new kid in the block in templating engine created by [Óscar Otero](https://oscarotero.com/), who also created [Lume](https://lume.land/), another static site generator, as well as [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento), an Eleventy plugin that adds support for Vento, created by [Noel Forte](https://forte.is/).
+Later, I discovered [Vento](https://vento.js.org/), a new kid in the block in template engine created by [Óscar Otero](https://oscarotero.com/), who also created [Lume](https://lume.land/), another static site generator, as well as [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento), an Eleventy plugin that adds support for Vento, created by [Noel Forte](https://forte.is/).
 
 I was already intrigued by Vento, as I agree with Óscar about the drawbacks of both Nunjucks and Liquid — in addition to the shortcomings I mentioned above, I also find it inconvenient to have to add a `safe` filter everywhere when writing Nunjucks templates in a static site generator to ensure HTML and special characters are rendered properly.
 
@@ -72,13 +72,13 @@ I have been singing praises for Vento, and eleventy-plugin-vento helps to make i
 
 I have a personal blog, [Galaxy Garden](https://blog.helenchong.omg.lol/), which is available in English and Simplified Chinese, and built with Eleventy with the i18n enabled. Like with this developer blog of mine, I added links to the next and previous posts on individual blog pages, by using the built-in [`getPreviousCollectionItem` and `getNextCollectionItem` filters](https://www.11ty.dev/docs/filters/collection-items/). Eleventy's i18n plugin [modifies the behavior of these filters](https://www.11ty.dev/docs/plugins/i18n/#using-with-get-collection-item-filters) to prefer a collection item in the current page language’s without requiring any changes to your project.
 
-Unfortunately, when I converted my personal blog's templating engine from Nunjucks to Vento, I realised that the filters to get my post collection items failed to render anything, despite the terminal not throwing any errors.
+Unfortunately, when I converted my personal blog's template engine from Nunjucks to Vento, I realised that the filters to get my post collection items failed to render anything, despite the terminal not throwing any errors.
 
 After failing to figure out the cause, I [created a GitHub issue](https://github.com/noelforte/eleventy-plugin-vento/issues/221) on eleventy-plugin-vento's repository to report it. Through my report, Noel discovered that the cause of the issue is [Eleventy itself not handling i18n with custom template engines very well](https://github.com/noelforte/eleventy-plugin-vento/issues/221#issuecomment-2837024798), and [created a pull request on Eleventy's repository](https://github.com/11ty/eleventy/pull/3785) as a potential solution. As of this writing, the pull request has yet to be reviewed, so I am keeping an eye on it.
 
 ## Wrapping Up
 
-Vento has officially become my favourite templating language to use in Eleventy. Despite Vento being new — the [first commit](https://github.com/ventojs/vento/commit/c2f32af7c568beded5753cf444ffc8d747bc7345) of its Git repository was only created two years ago in February 2023 — and thus has fewer users, the improvements Vento has over Nunjucks and Liquid more than makes up for it.
+Vento has officially become my favourite template language to use in Eleventy. Despite Vento being new — the [first commit](https://github.com/ventojs/vento/commit/c2f32af7c568beded5753cf444ffc8d747bc7345) of its Git repository was only created two years ago in February 2023 — and thus has fewer users, the improvements Vento has over Nunjucks and Liquid more than makes up for it.
 
 Not to mention both Vento and eleventy-plugin-vento are well-maintained by their developers, so I would advise you to not letting the fact that Vento does not have as many users as Liquid and Nunjucks stop you from giving Vento a try.
 
