@@ -60,7 +60,7 @@ Unlike Nunjucks, Vento [offers Neovim integration](https://vento.js.org/editor-i
 
 ### Better Syntax (At Least to Me)
 
-I like Vento's template syntax considerably better than Nunjucks as well. Even though I rarely had problems with mistyping Nunjucks `{%` and `%}` delimiters, I appreciate Vento for using double curly braces tags (`{{` and `}}`) for everything instead of just variables like in Nunjucks, as I find the double curly braces easier to type.
+I like Vento's template syntax considerably better than Nunjucks as well. Even though I rarely had problems with mistyping Nunjucks `{%` and `%}` delimiters, I appreciate Vento for using double curly braces tags ({{ echo }}`{{` and `}}`{{ /echo }}) for everything instead of just variables like in Nunjucks, as I find the double curly braces easier to type.
 
 Furthermore, Vento using a slash (`/`) instead of Nunjucks' `end` keyword for closing tags reminds me of HTML, the backbone of web pages and what I use a static site generator like Eleventy to generate. Using slash instead of `end` also makes Vento's closing tags easier to read for me than Nunjucks', because in Nunjucks you have to write the words `end` with `for`, `if` or variables together without a space, like `endfor` and `endif`.
 
