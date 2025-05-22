@@ -73,6 +73,7 @@ code {
 :not(pre) > code {
     padding: 0.125em 0.25em;
     background-color: var(--clr-code-bg);
+    font-size: 0.85em;
 }
 
 pre {
