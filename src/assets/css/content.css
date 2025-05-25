@@ -47,8 +47,6 @@ content-wrapper { gap: 1rem; }
     outline-offset: 0.05em;
 }
 
-.heading-anchor [hidden] { display: block; }
-
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     content-wrapper {

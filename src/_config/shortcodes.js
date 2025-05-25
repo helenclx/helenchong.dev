@@ -11,7 +11,10 @@ export default function(eleventyConfig) {
     eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
         return `<div class="heading-wrapper h${hLevel}">
             <h${hLevel} id="${id}">${title}</h${hLevel}>
-            <a class="heading-anchor" href="#${id}" aria-labelledby="${id}"><span hidden="">#</span></a>
+            <a class="heading-anchor" href="#${id}">
+                <span class="visually-hidden">Permalink to '${title}'</span>
+                <span aria-hidden="true">#</span>
+            </a>
         </div>`;
     });
 

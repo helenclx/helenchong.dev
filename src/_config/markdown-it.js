@@ -26,8 +26,8 @@ export default function(eleventyConfig) {
     eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
         class: "heading-anchor",
-        symbol: "<span hidden>#</span>",
-        style: "aria-labelledby",
+        assistiveText: title => `Permalink to section '${title}'`,
+        visuallyHiddenClass: 'visually-hidden',
     });
     const markdownItAnchorOptions = {
         level: [2, 3, 4, 5],
