@@ -2,6 +2,7 @@
 title: My Virtual Private Server Arc Has Officially Begun
 desc: I have officially joined the "self-hosting on a VPS" club.
 date: 2025-05-19T23:46:33+0800
+updated: 2025-05-28T06:38:31+0800
 topics: ["vps", "self-hosting"]
 toc: true
 ---
@@ -23,9 +24,9 @@ That said, I still hoped to use a VPS to host my websites and some web applicati
 
 ## Renting My First VPS
 
-My opportunity to dip my toes in a VPS finally came in November 2024, when I was introduced to [Chunkserve](https://chunkserve.com/) and their [LowEndTalk offer](https://lowendtalk.com/discussion/199333/best-deals-9-99-yr-vps-20-99-yr-4vcpu-8gb-ram-50gb-dedicated-servers-pre-black-friday/). I ordered the 20.99 Euro yearly package, which means the price is similar to the Premium Shared Hosting plan I ordered from Hostinger.
+My opportunity to dip my toes in a VPS finally came in November 2024, when I was introduced to [Chunkserve](https://chunkserve.com/) and their [LowEndTalk offer](https://lowendtalk.com/discussion/199333/best-deals-9-99-yr-vps-20-99-yr-4vcpu-8gb-ram-50gb-dedicated-servers-pre-black-friday/). I ordered the 20.99 euro yearly package, which means the price is similar to the Premium Shared Hosting plan I ordered from Hostinger.
 
-20.99 Euro per year is an amazing value for a VPS with 4 vCore E5-2695v4, 8 GB RAM, 50 GB SSD Enterprise Disk, and 20TB of traffic. While my Hostinger shared hosting plan offered more storage (100 GB SSD), the upside of a VPS giving you root access to the server more than makes up for it.
+20.99 euro per year is an amazing value for a VPS with 4 vCore E5-2695v4, 8 GB RAM, 50 GB SSD Enterprise Disk, and 20TB of traffic. While my Hostinger shared hosting plan offered more storage (100 GB SSD), the upside of a VPS giving you root access to the server more than makes up for it.
 
 With my first VPS rented, I could finally start tinkering a server myself.
 
@@ -72,3 +73,17 @@ Another benefit of my journey of learning to self-host on a VPS was making good 
 ## Wrapping Up
 
 By self-hosting some applications and migrating my websites to a VPS, I can proclaim that my VPS arc has officially begun. Learning to work on a VPS and self-host has been an incredible learning experience that I am grateful to experience, and cannot recommend enough.
+
+---
+
+## Update, 28 May 2025: A New VPS
+
+After starting to self-host on the first VPS I rented, I started to consider renting another VPS, as I foresaw the possibility of me wanting another server to self-host more stuff. Therefore, after scouting the recent offers from VPS providers on LowEndTalk, I chose to rent a new VPS from [DeluxHost](https://deluxhost.net/).
+
+For 15 euro per year, this new VPS has 2 vCPU cores, which is fewer than my VPS from Chunkserve of 4 vCPU cores, but same amount of RAM in 8 GB, and more SSD storage space with 80 GB while my Chunkserve VPS has 50 GB. I placed the order on my new VPS on May 26 evening in Malaysia time, then the server product was ready around 7 hours later on May 27 early morning in Malaysia time. I spent the day in setting up my new VPS, as well as migrating my websites and my instances of FreshRSS, Gitea and The Lounge to the new server. The migration is now officially completed on May 28.
+
+The main change I made to my new VPS is that I currently decide to not set up Gitea Actions for my Gitea instance, and instead use rsync to upload all my websites, including ones built with the static site generator [Eleventy](https://www.11ty.dev/), to their respective directories on my server.
+
+Previously, I used the [ssh-deploy GitHub Action](https://github.com/marketplace/actions/ssh-deploy) (for those who are not familiar with Gitea, Gitea Actions are designed to be compatible with GitHub Actions) to deploy my Eleventy websites, but I after starting to learn about SSH, I also began to use rsync to transfer files from my local machine to the remote servers I have SSH access to. Furthermore, since I have been making use of shell scripting to utilise rsync (and SCP) as mentioned above, I realised that I could deploy my websites to my servers faster through my local machine than using a GitHub or Gitea Action. Therefore, I decided that I do not really need GitHub or Gitea Actions for my personal projects any more. Not to mention, the ssh-deploy GitHub Action itself already utilises rsync, so using an Action that utilises rsync when I can do it myself is sort of redundant.
+
+As for the VPS I rented from Chunkserve, I have rebuilt the server and am still keeping it to tinker with. An extra VPS separate gives me more room to experiment with stuff without the risk of interfering with my public-facing main server.
