@@ -1,10 +1,9 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-14T22:02:43+0800
+updated: 2025-05-28T01:49:17+0800
 toc: true
 ---
-
 How this website is built.
 
 ## Technology
@@ -17,11 +16,11 @@ How this website is built.
 
 ## Host and Domain
 
-* Deployed to my virtual private server (VPS) rented from [Chunkserve](https://chunkserve.com/) from my Gitea instance, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
+* Hosted on a virtual private server (VPS) I rented from [DeluxHost](https://deluxhost.net/).
 * Web server: [Caddy](https://caddyserver.com/).
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
-Previously, this website was hosted on GitHub Pages until 30 July 2024, and [Hostinger](https://www.hostinger.com/my) until 14 May 2025.
+Previously, this website was hosted on GitHub Pages until 30 July 2024, [Hostinger](https://www.hostinger.com/my)'s premium shared hosting plan until 14 May 2025, and a VPS I rented from [Chunkserve](https://chunkserve.com/) until 27 May 2025.
 
 ## Plugins
 
