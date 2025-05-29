@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-05-16T15:28:50+0800
+updated: 2025-05-29T17:35:15+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -61,7 +61,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 	- [Tresorit](https://tresorit.com/) for storing my most important files
 	- [MEGA](https://mega.io/) for storing personal photos
 	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) for storing my Obsidian vaults and notes
-- Bookmarks: Mozilla Firefox bookmarks and [Raindrop.io](https://raindrop.io/)
+- Bookmarks: Mozilla Firefox bookmarks and [Linkding](https://linkding.link/) (my own instance)
 - Text editor: [Notepads](https://apps.microsoft.com/detail/9nhl4nsc67wm)
 - Office suite: [LibreOffice](https://www.libreoffice.org/)
 - Calendar: [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) with [Mozilla Thunderbird](https://www.thunderbird.net/)
