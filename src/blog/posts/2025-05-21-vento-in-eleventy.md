@@ -39,7 +39,7 @@ Finally, I configure my Eleventy websites to support Vento in HTML and Markdown 
 
 ```js
 return {
-	markdownTemplateEngine: "vto",
+    markdownTemplateEngine: "vto",
     htmlTemplateEngine: "vto",
 }
 ```
