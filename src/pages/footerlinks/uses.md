@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-05-30T14:44:18+0800
+updated: 2025-06-05T16:00:23+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -93,7 +93,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Audio: MPC-BE on Windows, and mpv on Android
 - Music library: [Dopamine](https://github.com/digimezzo/dopamine) on Windows, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on Android
 - Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
-- Ebooks: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) for Windows and [Librera Reader](https://librera.mobi/) FDroid for Android
+- PDF viewer: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
+- E-book viewer: [Calibre](https://calibre-ebook.com/) for Windows and [Librera Reader](https://librera.mobi/) FDroid for Android
 - PDF reader: SumatraPDF on Windows, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on Android
 - Comic reader: [YACReader](https://www.yacreader.com/)
 - Screenshot tool: [ShareX](https://getsharex.com/)
