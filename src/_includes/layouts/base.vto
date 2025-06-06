@@ -4,17 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Open Graph meta data -->
-        <meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
-        <link rel="canonical" href="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
         <meta name="generator" content="{{ eleventy.generator }}">
         <meta name="author" content="{{ sitemeta.siteAuthor.name }}">
-        <meta name="description" content="{{ desc || sitemeta.siteDescription }}">
         <meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
         <meta property="og:site_name" content="{{ sitemeta.siteName }}" />
         <meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
+        <meta name="description" content="{{ desc || sitemeta.siteDescription }}">
         <meta property="og:description" content="{{ desc || sitemeta.siteDescription }}">
         <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
-        <meta property="og:locale" content="{{ sitemeta.siteLocale }}">
         <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
         <meta name="theme-color" content="#8200cd">
         <!-- Fonts -->
