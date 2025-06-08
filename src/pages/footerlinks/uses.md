@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-05T16:00:23+0800
+updated: 2025-06-08T18:55:40+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -100,7 +100,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Screenshot tool: [ShareX](https://getsharex.com/)
 - Screen recorder: [Bandicam](http://www.bandicam.com/) (also used for taking video game screenshots)
 - Image converter: [ImageMagick](https://www.imagemagick.org/)
-- Media converter: [Shutter Encoder](https://www.shutterencoder.com/) and [FFmpeg](https://ffmpeg.org/)
+- Media converter: [FFmpeg](https://ffmpeg.org/)
 - Game streaming: [Sunshine](http://app.lizardbyte.dev/Sunshine/) and [Moonlight](https://moonlight-stream.org/)
 
 ### Art and Design
