@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-08T18:55:40+0800
+updated: 2025-06-11T00:25:08+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -19,7 +19,11 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### General
 
-- Fonts: [Readex Pro](https://fonts.google.com/specimen/Readex+Pro), and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
+- Fonts:
+    - Sans serif: [Readex Pro](https://fonts.google.com/specimen/Readex+Pro)
+    - Serif: [Literata](https://github.com/googlefonts/literata)
+    - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
+- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve variant), and [Dracula](https://draculatheme.com/)
 
 ### Operating Systems
 
