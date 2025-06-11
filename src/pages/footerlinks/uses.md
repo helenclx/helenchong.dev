@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-11T11:09:48+0800
+updated: 2025-06-11T23:53:49+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -73,7 +73,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Personal finance: [Money Manager EX](https://moneymanagerex.org/)
 - Calculator: [Qalculate!](https://qalculate.github.io/)
 - Spellchecker: [LanguageTool](https://languagetool.org/)
-- Translator: [DeepL Translate](https://www.deepl.com/)
+- Translator: [Mozhi](https://codeberg.org/aryak/mozhi) (my own instance)
 - File archiver: [PeaZip](https://peazip.github.io/)
 
 ### Security
