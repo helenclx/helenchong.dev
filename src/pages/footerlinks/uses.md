@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-11T00:25:08+0800
+updated: 2025-06-11T11:09:48+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -102,7 +102,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - PDF reader: SumatraPDF on Windows, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on Android
 - Comic reader: [YACReader](https://www.yacreader.com/)
 - Screenshot tool: [ShareX](https://getsharex.com/)
-- Screen recorder: [Bandicam](http://www.bandicam.com/) (also used for taking video game screenshots)
+- Screen recorder: [OBS Studio](https://obsproject.com/) (also used for taking video game screenshots)
 - Image converter: [ImageMagick](https://www.imagemagick.org/)
 - Media converter: [FFmpeg](https://ffmpeg.org/)
 - Game streaming: [Sunshine](http://app.lizardbyte.dev/Sunshine/) and [Moonlight](https://moonlight-stream.org/)
