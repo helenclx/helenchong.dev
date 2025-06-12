@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-11T23:53:49+0800
+updated: 2025-06-13T01:53:15+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -52,21 +52,26 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - VPN: [Proton VPN](https://protonvpn.com/)
 - IRC client: [The Lounge](https://thelounge.chat/) (my own instance)
 - Mastodon client: The official web interface on desktop, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on Android
-- YouTube frontend: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on Android
-- Reddit frontend: [Redlib](https://github.com/redlib-org/redlib)
+- YouTube client: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on Android
+- Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
+    - Reddit: [Redlib](https://github.com/redlib-org/redlib)
+    - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
+    - Goodreads: [BiblioReads](https://github.com/nesaku/BiblioReads)
+    - Fandom.com: [BreezeWiki](https://breezewiki.com/)
 
 ### Productivity
 
 - Notes:
 	- [Obsidian](https://obsidian.md/) for writing, project management and personal knowledge base
 	- [Standard Notes](https://standardnotes.com/) for quick notes
-- Cloud file storage:
+- Cloud storage:
 	- [pCloud](https://www.pcloud.com/) (Lifetime paid plan)
-	- [Tresorit](https://tresorit.com/) for storing my most important files
-	- [MEGA](https://mega.io/) for storing personal photos
-	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) for storing my Obsidian vaults and notes
+	- [Tresorit](https://tresorit.com/) (free plan) for storing my most important files
+	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance, free plan) for storing my Obsidian vaults and notes
+    - [Ente Photos](https://ente.io/) (free plan) for backing up my photos
+	- [MEGA](https://mega.io/) (free plan) for storing my old graphic design works
 - Bookmarks: [Floccus](https://floccus.org/) with Nextcloud Files WebDAV, and my own instance of [Linkding](https://linkding.link/)
-- Text editor: [Notepads](https://apps.microsoft.com/detail/9nhl4nsc67wm)
+- Text editor: [Notepad++](https://notepad-plus-plus.org/)
 - Office suite: [LibreOffice](https://www.libreoffice.org/)
 - Calendar: [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) with [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Tasks: Nextcloud (The Good Cloud instance) with Mozilla Thunderbird
@@ -80,7 +85,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Password manager: [BitWarden](https://bitwarden.com/) and [KeePassXC](https://keepassxc.org/)
 - Multi-factor authentication Tool: [Ente Auth](https://ente.io/auth/)
-- Cloud file storage encryption: [Cryptomator](https://cryptomator.org/)
+- Cloud storage encryption: [Cryptomator](https://cryptomator.org/)
 
 ### Software Development
 
@@ -93,13 +98,12 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Media
 
 - Image viewer: [ImageGlass](https://imageglass.org/) on Windows, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on Android
-- Videos: [MPC-BE](https://sourceforge.net/projects/mpcbe/) on Windows, and [mpv](https://github.com/mpv-android/mpv-android) on Android
-- Audio: MPC-BE on Windows, and mpv on Android
+- Video player: [MPC-BE](https://sourceforge.net/projects/mpcbe/) on Windows, and [mpv](https://github.com/mpv-android/mpv-android) on Android
+- Audio player: MPC-BE on Windows, and mpv on Android
 - Music library: [Dopamine](https://github.com/digimezzo/dopamine) on Windows, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on Android
 - Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
-- PDF viewer: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
+- PDF viewer: [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) on Windows, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on Android
 - E-book viewer: [Calibre](https://calibre-ebook.com/) for Windows and [Librera Reader](https://librera.mobi/) FDroid for Android
-- PDF reader: SumatraPDF on Windows, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on Android
 - Comic reader: [YACReader](https://www.yacreader.com/)
 - Screenshot tool: [ShareX](https://getsharex.com/)
 - Screen recorder: [OBS Studio](https://obsproject.com/) (also used for taking video game screenshots)
