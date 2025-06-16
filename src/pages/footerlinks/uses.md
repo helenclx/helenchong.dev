@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-13T01:53:15+0800
+updated: 2025-06-16T19:46:13+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -27,13 +27,12 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Operating Systems
 
-- Laptop: Windows 11 Pro, with [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl) (WSL) enabled and [Debian](https://www.debian.org/) installed as the Linux distribution
+- Laptop: Windows 11 Home, with [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl) (WSL) enabled and [Debian](https://www.debian.org/) installed as the Linux distribution
 - Smartphone: Xiaomi HyperOS 2.0, based on Android 15
 - Smartwatch: Xiaomi HyperOS 2.0
 
 ### Operating System Utilities
 
-- [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
 - [WinScript](https://winscript.cc/)
 - [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
 - Package manager:
