@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Open Graph meta data -->
+        <meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
         <meta name="generator" content="{{ eleventy.generator }}">
         <meta name="author" content="{{ sitemeta.siteAuthor.name }}">
         <meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
