@@ -53,3 +53,5 @@ In other words, within a week, my family added two new full-time Linux users. It
 ## Wrapping Up
 
 As I am writing this, it has been almost a week since I switched to using Linux full-time, and I am satisfied with my decision to do so, as well as my setup for my Fedora Linux KDE Plasma desktop environment.
+
+I spent around two weeks in this June to prepare for and set up my migration to Linux desktop, but the effort is worth it.
