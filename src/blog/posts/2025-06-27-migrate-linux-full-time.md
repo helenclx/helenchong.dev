@@ -3,6 +3,7 @@ title: I am Officially a Full-Time Linux User
 desc: I have migrated to using Linux, not only on my virtual private servers, but also my personal computer desktop.
 date: 2025-06-27T21:39:00+0800
 topics: ['linux']
+toc: true
 ---
 It is official — I am a full-time Linux user now, since I have switched from Windows to Fedora Linux as my personal computer's operating system, with KDE Plasma as the desktop environment.
 
