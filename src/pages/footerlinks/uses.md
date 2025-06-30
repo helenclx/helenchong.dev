@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-27T00:11:43+0800
+updated: 2025-06-30T20:26:11+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -29,7 +29,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Laptop: [Fedora Linux](https://fedoraproject.org/) with [KDE Plasma](https://kde.org/plasma-desktop/) desktop environment
 - Virtual private server: [Debian](https://www.debian.org/) Stable
-- Smartphone: Xiaomi HyperOS 2.0, based on Android 15
+- Smartphone: Xiaomi HyperOS 2.0, based on smartphone 15
 - Smartwatch: Xiaomi HyperOS 2.0
 
 ### Operating System Utilities
@@ -47,11 +47,11 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
 - Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
-- Feed reader: [FreshRSS](https://www.freshrss.org/) (my own instance), and [Read You](https://github.com/Ashinch/ReadYou) on Android
+- Feed reader: [FreshRSS](https://www.freshrss.org/) (my own instance), and [Read You](https://github.com/Ashinch/ReadYou) on smartphone
 - VPN: [Proton VPN](https://protonvpn.com/)
 - IRC client: [The Lounge](https://thelounge.chat/) (my own instance)
-- Mastodon client: The official web interface on desktop, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on Android
-- YouTube client: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on Android
+- Mastodon client: The official web interface on desktop, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
+- YouTube client: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on smartphone
 - Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
     - Reddit: [Redlib](https://github.com/redlib-org/redlib)
     - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
@@ -95,10 +95,11 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Media
 
 - Image viewer: [Gwenview](https://apps.kde.org/gwenview/) on PC, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on smartphone
-- Video player: [Haruna](https://apps.kde.org/haruna/) on PC, and [mpv](https://github.com/mpv-android/mpv-android) on Android
-- Audio player: [Haruna](https://apps.kde.org/haruna/) on PC, and [mpv](https://github.com/mpv-android/mpv-android) on Android
+- Video player: [Haruna](https://apps.kde.org/haruna/) on PC, and [mpv](https://github.com/mpv-android/mpv-android) on smartphone
+- Audio player: [Haruna](https://apps.kde.org/haruna/) on PC, and [mpv](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
 - Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
+- Podcast client: [PinePods](https://www.pinepods.online/) on desktop, and [AnthennaPod](https://antennapod.org/) on mobile
 - PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
 - E-book viewer: [Calibre](https://calibre-ebook.com/) on PC, and [Librera Reader](https://librera.mobi/) FDroid on smartphone
 - Comic reader: [YACReader](https://www.yacreader.com/)
