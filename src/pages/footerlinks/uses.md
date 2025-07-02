@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-06-30T20:26:11+0800
+updated: 2025-07-02T18:06:47+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -34,11 +34,13 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Operating System Utilities
 
-- [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
+- Configuration files manager: [Yet Another Dotfile Manger](https://yadm.io/) (yadm)
 - Package manager:
     - PC: [DNF](https://docs.fedoraproject.org/en-US/fedora/f40/system-administrators-guide/package-management/DNF/) and [Flatpak](https://flatpak.org/)
     - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
+- [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
+- Input method: [Fcitx](https://fcitx-im.org/)
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
 
 ### Internet
