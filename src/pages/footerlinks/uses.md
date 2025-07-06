@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-02T18:06:47+0800
+updated: 2025-07-06T15:23:49+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -103,6 +103,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
 - Podcast client: [PinePods](https://www.pinepods.online/) on desktop, and [AnthennaPod](https://antennapod.org/) on mobile
 - PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
+- Markdown viewer: [ghostwriter](https://ghostwriter.kde.org/)
 - E-book viewer: [Calibre](https://calibre-ebook.com/) on PC, and [Librera Reader](https://librera.mobi/) FDroid on smartphone
 - Comic reader: [YACReader](https://www.yacreader.com/)
 - Screenshot tool: [Spectacle](https://invent.kde.org/plasma/spectacle)
