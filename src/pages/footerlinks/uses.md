@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-08T23:50:41+0800
+updated: 2025-07-10T20:43:03+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -47,7 +47,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Internet browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
 - Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
-- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
+- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail (for backup purpose only)
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [FreshRSS](https://www.freshrss.org/) (my own instance), and [Read You](https://github.com/Ashinch/ReadYou) on smartphone
 - VPN: [Proton VPN](https://protonvpn.com/)
@@ -69,8 +69,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 	- [pCloud](https://www.pcloud.com/) (Lifetime paid plan)
 	- [Tresorit](https://tresorit.com/) (free plan) for storing my most important files
 	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance, free plan) for storing my Obsidian vaults and notes
-    - [Ente Photos](https://ente.io/) (free plan) for backing up my photos
-	- [MEGA](https://mega.io/) (free plan) for storing my old graphic design works
+- File synchronisation: [Syncthing](https://syncthing.net/)
 - Bookmarks: [Floccus](https://floccus.org/) with Nextcloud Files WebDAV, and my own instance of [Linkding](https://linkding.link/)
 - Text editor: [KWrite](https://apps.kde.org/kwrite/)
 - Office suite: [LibreOffice](https://www.libreoffice.org/)
