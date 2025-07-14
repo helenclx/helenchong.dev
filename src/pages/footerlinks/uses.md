@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-13T20:21:02+0800
+updated: 2025-07-14T20:01:34+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -75,7 +75,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Office suite: [LibreOffice](https://www.libreoffice.org/)
 - Calendar: [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) with [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Tasks: Nextcloud (The Good Cloud instance) with Mozilla Thunderbird
-- Personal finance: [Money Manager EX](https://moneymanagerex.org/)
+- Personal finance: [Actual Budget](https://actualbudget.org/) (my own instance)
 - Spellchecker: [LanguageTool](https://languagetool.org/)
 - Translator: [Mozhi](https://codeberg.org/aryak/mozhi) (my own instance)
 
