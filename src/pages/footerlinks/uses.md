@@ -23,6 +23,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - Sans serif: [Readex Pro](https://fonts.google.com/specimen/Readex+Pro)
     - Serif: [Literata](https://github.com/googlefonts/literata)
     - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
+    - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
 - Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve variant), and [Dracula](https://draculatheme.com/)
 
 ### Operating Systems
