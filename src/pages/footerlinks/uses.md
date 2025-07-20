@@ -36,12 +36,19 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Configuration files manager: [Yet Another Dotfile Manger](https://yadm.io/) (yadm)
 - Package manager:
-    - PC: [DNF](https://docs.fedoraproject.org/en-US/fedora/f40/system-administrators-guide/package-management/DNF/) and [Flatpak](https://flatpak.org/)
+    - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [yay](https://github.com/Jguer/yay), and [Flatpak](https://flatpak.org/)
     - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
 - [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
 - Input method: [Fcitx](https://fcitx-im.org/)
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
+- System fetch: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+
+## Terminal Tools
+
+- `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
+- Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
+- Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 
 ### Internet
 
@@ -93,6 +100,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Terminal emulator: [Konsole](https://konsole.kde.org/)
 - Shell: [Zsh](https://www.zsh.org/)
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Gitea instance](https://git.helenchong.dev/)
+    - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### Media
 
@@ -110,7 +118,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Screen recorder: [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (also used for taking video game screenshots)
 - Image converter: [ImageMagick](https://www.imagemagick.org/)
 - Media converter: [FFmpeg](https://ffmpeg.org/)
-- Game streaming: [Sunshine](http://app.lizardbyte.dev/Sunshine/) and [Moonlight](https://moonlight-stream.org/)
+- Video and audio downloader: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- Audio effects: [Easy Effects](https://github.com/wwmm/easyeffects)
 
 ### Art and Design
 
