@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-14T20:01:34+0800
+updated: 2025-07-21T01:32:42+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -47,6 +47,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Terminal Tools
 
+- `cat` command alternative: [bat](https://github.com/sharkdp/bat)
 - `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
 - Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
