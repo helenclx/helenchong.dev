@@ -30,7 +30,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - PC: [Arch Linux](https://archlinux.org/) with [KDE Plasma](https://kde.org/plasma-desktop/) desktop environment
 - Virtual private server: [Debian](https://www.debian.org/) Stable
-- Smartphone: Xiaomi HyperOS 2.0, based on smartphone 15
+- Smartphone: Xiaomi HyperOS 2.0, based on Android 15
 - Smartwatch: Xiaomi HyperOS 2.0
 
 ### Operating System Utilities
@@ -41,7 +41,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
 - [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
-- Input method: [Fcitx](https://fcitx-im.org/)
+- Input method: [Fcitx](https://fcitx-im.org/) on PC, and Gboard on smartphone
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
 - System fetch: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
@@ -97,7 +97,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Software Development
 
 - Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup
-- Code editors: [Vim](https://www.vim.org/) and [KWrite](https://apps.kde.org/kwrite/)
+- Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Terminal emulator: [Konsole](https://konsole.kde.org/)
 - Shell: [Zsh](https://www.zsh.org/)
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Gitea instance](https://git.helenchong.dev/)
