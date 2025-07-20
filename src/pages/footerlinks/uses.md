@@ -45,7 +45,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
 - System fetch: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
-## Terminal Tools
+### Terminal Tools
 
 - `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
