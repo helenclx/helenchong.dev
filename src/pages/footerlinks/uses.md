@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-21T22:32:43+0800
+updated: 2025-07-27T19:24:07+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -109,8 +109,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Media
 
 - Image viewer: [Gwenview](https://apps.kde.org/gwenview/) on PC, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on smartphone
-- Video player: [Haruna](https://apps.kde.org/haruna/) on PC, and [mpv](https://github.com/mpv-android/mpv-android) on smartphone
-- Audio player: [Haruna](https://apps.kde.org/haruna/) on PC, and [mpv](https://github.com/mpv-android/mpv-android) on smartphone
+- Video and audio player: [Haruna](https://apps.kde.org/haruna/) and [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
 - Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
 - Podcast client: [PinePods](https://www.pinepods.online/) on PC, and [AnthennaPod](https://antennapod.org/) on mobile
