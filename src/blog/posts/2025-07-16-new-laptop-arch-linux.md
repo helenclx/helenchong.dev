@@ -5,7 +5,7 @@ date: 2025-07-16T10:05:54+0800
 topics: ['linux', 'life updates']
 toc: true
 ---
-For 7 years since February 2018, I had been using my first gaming laptop, an Acer Helios 300, as my personal computer, including doing everything with this very website. Now in July 2025, I bought myself a new gaming laptop, an Asus TUS Gaming A15.
+For 7 years since February 2018, I had been using my first gaming laptop, an Acer Helios 300, as my personal computer, including doing everything with this very website. Now in July 2025, I bought myself a new gaming laptop, an Asus TUF Gaming A15.
 
 I ordered my new gaming laptop from Asus' official brand store in Malaysia through Shopee on July 6, then the new laptop was delivered to my home on July 10.
 
@@ -17,7 +17,7 @@ My previous laptop was bought in February 2018, and it had experienced many majo
 - In June 2024, I broke the laptop's internal speaker when I raised the system volume too quickly during a heavy rain outside my house that was louder than the sound from the laptop, so I had to plug in and use external speakers to hear the sound from my laptop again.
 - In late June 2025, shortly after switching to Fedora Linux, the laptop's internal 2 TB HDD broke down due to age as well.
 
-The last point was the final push was made me consider seriously looking for a new laptop. After doing my research, I chose Asus TUS Gaming A15, with the main draw for me being two SSD slots, so in addition to the default 512 GB system drive, I chose to add a 1TB SSD when I ordered my new laptop.
+The last point was the final push was made me consider seriously looking for a new laptop. After doing my research, I chose Asus TUF Gaming A15, with the main draw for me being two SSD slots, so in addition to the default 512 GB system drive, I chose to add a 1TB SSD when I ordered my new laptop.
 
 ## Switching to Arch Linux
 

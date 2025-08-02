@@ -10,7 +10,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ## Hardware
 
-- PC: Asus TUS Gaming A15. Purchased in July 2025.
+- PC: Asus TUF Gaming A15. Purchased in July 2025.
 - Smartphone: Xiaomi Redmi Note 13 Pro 5G. Purchased in August 2024.
 - Smartwatch: Xiaomi Smart Band 9
 - Video game consoles: Nintendo 3DS XL (with [custom firmware](https://3ds.hacks.guide/) installed), and Nintendo Switch
