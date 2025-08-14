@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-03T17:39:28+0800
+updated: 2025-08-14T17:22:06+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -52,6 +52,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - `find` command alternative: [fd](https://github.com/sharkdp/fd)
 - `grep` command alternative: [ripgrep](https://github.com/BurntSushi/ripgrep) (rg)
 - `ls` command alternative: [eza](https://github.com/eza-community/eza)
+- Shell prompt styling: [Starship](https://starship.rs/)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
 - Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 
