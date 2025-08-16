@@ -22,4 +22,16 @@ On 9 August 2025 morning in my time zone, my hackathon team presented our work w
 
 Some of my team, myself included, are interested in continue to work on our project to improve it, and since the hackathon channels in freeCodeCamp's Discord server will be removed, my team has created our own private Discord server to continue our collaboration in our project.
 
-You can view our project [DailyDose's repository on GitHub](https://github.com/freeCodeCamp-2025-Summer-Hackathon/indigo-class).
+While we do not get paid for participating in the hackathon, Naomi leaves personal recommendations on LinkedIn for every participant who managed to commit to the hackathon throughout July. Here is Naomi's recommendation for me on LinkedIn:
+
+> I had the absolute pleasure of working with Helen Chong during our month-long hackathon, where they consistently impressed me with their dedication, technical growth, and collaborative spirit.
+>
+> From the start, Helen dove into the challenge with enthusiasm, applying their skills in HTML, Jinja, CSS, Flask, and Markdown to build real, impactful solutions. Whether working independently or as part of a team, they brought thoughtful ideas, clear communication, and a passion for learning that elevated everyone around them.
+>
+> The value of Helen's contributions are immeasurable. Throughout the event, they took on the crucial role of managing the project's front end, not only writing high-quality code but also conducting thorough reviews of teammates' pull requests. Their organizational skills and attention to detail helped keep the team aligned and the project moving forward smoothly.
+>
+> By the end of the hackathon, Helen had delivered an outstanding project while demonstrating exceptional leadership in front-end management. More than the final product, what stood out was their journey—embracing feedback, overcoming obstacles, and supporting others along the way. Helen grew tremendously as a developer by learning that being successful in tech extends far beyond coding skills to include project organization and team management.
+>
+> I wholeheartedly recommend Helen Chong for any opportunity in tech. They bring not just technical ability, but the kind of energy and curiosity that makes any team stronger.
+
+You can view my hackathon team's project [DailyDose's repository on GitHub](https://github.com/freeCodeCamp-2025-Summer-Hackathon/indigo-class).
