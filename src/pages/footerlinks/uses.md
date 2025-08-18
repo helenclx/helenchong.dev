@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-15T08:43:11+0800
+updated: 2025-08-18T08:16:24+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -24,7 +24,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - Serif: [Literata](https://github.com/googlefonts/literata)
     - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
     - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
-- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve variant), and [Dracula](https://draculatheme.com/)
+- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve variant)
 
 ### Operating Systems
 
@@ -35,7 +35,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Operating System Utilities
 
-- Configuration files manager: [Yet Another Dotfile Manger](https://yadm.io/) (yadm)
+- Configuration files manager: [Yet Another Dotfile Manger](https://yadm.io/) (yadm) ([my dotfiles repository](https://git.helenchong.dev/helenchong/dotfiles))
 - Package manager:
     - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [yay](https://github.com/Jguer/yay), and [Flatpak](https://flatpak.org/)
     - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
@@ -101,7 +101,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Software Development
 
-- Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup
+- Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup ([my Neovim and LazyVim configurations](https://git.helenchong.dev/helenchong/LazyVim))
 - Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Terminal emulator: [Konsole](https://konsole.kde.org/)
 - Shell: [Fish](https://fishshell.com/)
