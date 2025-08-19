@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-18T08:16:24+0800
+updated: 2025-08-19T15:54:17+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -128,8 +128,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Art and Design
 
-- Photo editor: [Affinity Photo 2](https://affinity.serif.com/photo/) (installed with [Lutris](https://lutris.net/) based on [AffinityOnLinux's guide](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Guide.md)) and [GNU Image Manipulation Program](https://www.gimp.org/)
-- Vector graphic editor: [Affinity Designer 2](https://affinity.serif.com/designer/) (installed with [Lutris](https://lutris.net/) based on [AffinityOnLinux's guide](https://github.com/Twig6943/AffinityOnLinux/blob/main/Guides/Lutris/Guide.md)) and [Inkscape](https://inkscape.org/)
+- Photo editor: [Affinity Photo 2](https://affinity.serif.com/photo/) (installed with [Lutris](https://lutris.net/) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Lutris/Guide.md)) and [GNU Image Manipulation Program](https://www.gimp.org/)
+- Vector graphic editor: [Affinity Designer 2](https://affinity.serif.com/designer/) (installed with [Lutris](https://lutris.net/) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Lutris/Guide.md)) and [Inkscape](https://inkscape.org/)
 - Drawing: [Krita](https://krita.org/)
 - Video editor: [Kdenlive](https://kdenlive.org/)
 - Audio editor: [Tenacity](https://tenacityaudio.org/)
