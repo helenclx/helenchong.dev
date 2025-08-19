@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-19T15:54:17+0800
+updated: 2025-08-19T22:49:47+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -45,16 +45,19 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
 - System fetch: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
-### Terminal Tools
+### Terminal
 
+- Command line shell: [Fish](https://fishshell.com/)
+- Terminal emulator: [Konsole](https://konsole.kde.org/)
+- Shell prompt customisation: [Starship](https://starship.rs/)
+- Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
+- Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
+- Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 - `cat` command alternative: [bat](https://github.com/sharkdp/bat)
 - `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
 - `find` command alternative: [fd](https://github.com/sharkdp/fd)
 - `grep` command alternative: [ripgrep](https://github.com/BurntSushi/ripgrep) (rg)
 - `ls` command alternative: [eza](https://github.com/eza-community/eza)
-- Shell prompt styling: [Starship](https://starship.rs/)
-- Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
-- Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 
 ### Internet
 
@@ -103,8 +106,6 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup ([my Neovim and LazyVim configurations](https://git.helenchong.dev/helenchong/LazyVim))
 - Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
-- Terminal emulator: [Konsole](https://konsole.kde.org/)
-- Shell: [Fish](https://fishshell.com/)
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Gitea instance](https://git.helenchong.dev/)
     - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
