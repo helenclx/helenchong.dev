@@ -72,3 +72,12 @@
     border: 0.115em solid var(--clr-code-border);
     border-radius: 0.2em;
 }
+
+/* Social links */
+.socials {
+    display: flex;
+    padding: 0;
+    gap: var(--sz-list-gap) 1.2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
