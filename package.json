@@ -9,6 +9,7 @@
     "scripts": {
         "start": "bunx @11ty/eleventy --serve --quiet",
         "build": "bunx @11ty/eleventy",
+        "build-quiet": "bun run build --quiet",
         "build-action": "npx @11ty/eleventy"
     },
     "type": "module",
