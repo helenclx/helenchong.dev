@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-19T22:49:47+0800
+updated: 2025-08-22T16:42:27+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -69,7 +69,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - VPN: [Proton VPN](https://protonvpn.com/)
 - IRC client: [The Lounge](https://thelounge.chat/) (my own instance)
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
-- YouTube client: [FreeTube](https://freetubeapp.io/) on Windows, and [NewPipe](https://newpipe.net/) on smartphone
+- YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [NewPipe](https://newpipe.net/) on smartphone
 - Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
     - Reddit: [Redlib](https://github.com/redlib-org/redlib)
     - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
@@ -111,7 +111,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Media
 
-- Image viewer: [Gwenview](https://apps.kde.org/gwenview/) on PC, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on smartphone
+- Image viewer: [Gwenview](https://apps.kde.org/gwenview/) (GUI) and [chafa](https://github.com/hpjansson/chafa) (CLI) on PC, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on smartphone
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
 - Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
