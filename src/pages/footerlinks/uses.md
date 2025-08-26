@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-22T16:42:27+0800
+updated: 2025-08-26T18:29:17+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -47,8 +47,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Terminal
 
-- Command line shell: [Fish](https://fishshell.com/)
-- Terminal emulator: [Konsole](https://konsole.kde.org/)
+- Command line shell: [Fish](https://fishshell.com/) (default) and [Bash](https://www.gnu.org/software/bash/)
+- Terminal emulator: [Ghostty](https://ghostty.org/) (default), [Konsole](https://konsole.kde.org/) and [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) (usually when I use a screen reader)
 - Shell prompt customisation: [Starship](https://starship.rs/)
 - Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
