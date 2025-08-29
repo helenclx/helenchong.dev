@@ -2,6 +2,7 @@
 title: I Have Passed 42's Piscine Bootcamp
 desc: After studying hard in 42 the computer science school's 26-day bootcamp, I am officially eligible for 42's core curriculum.
 date: 2025-05-16T22:20:23+0800
+updated: 2025-08-29T19:16:21+0800
 topics: ["42 the school", "life updates"]
 ---
 
@@ -16,3 +17,9 @@ Interestingly, the email the campus staff sent us to inform us of the results of
 I had decided that regardless of my results of the Piscine, I will continue to make good use of the resources I currently have to keep my computer science and programming knowledge and skills sharp, but passing the Piscine is certainly a great motivator.
 
 Looking forward to 42's core programme!
+
+---
+
+**Update, 29 August 2025:**
+
+Three months after the confirmation that I passed the Piscine, I finally received an email from my 42 campus that our core curriculum will kick off on 6 October 2025!
