@@ -83,16 +83,16 @@ To achieve this, you can create a template with your template language of choice
 
 Then, in the template file's frontmatter, set the `permalink` of the template file to `{{ page.filePathStem }}`. Eleventy's `filePathSteam` variable will ensure Eleventy will generate the output of your file template with the same file name without the template's file extension, so if you create a `.htaccess.njk` template file, the output will simply be `.htaccess`.
 
-When you try to build your Eleventy website, Eleventy will throw an error when you try to write to a file without a file extension, such as `.htaccess` and `Caddyfile`. To [allow missing file extensions](https://www.11ty.dev/docs/permalinks/#allow-missing-file-extensions-using-data-cascade) for your web server configuration file, set `eleventyAllowMissingExtension: true` in the frontmatter of your web server configuration file template.
-
 You may not want your web server configuration file to be part of your Eleventy website's [content collections](https://www.11ty.dev/docs/collections/), so you may set `eleventyExcludeFromCollections: true` in the frontmatter of the file template as well.
+
+When you try to build your Eleventy website, Eleventy will throw an error when you try to write to a file without a file extension, such as `Caddyfile`. To [allow missing file extensions](https://www.11ty.dev/docs/permalinks/#allow-missing-file-extensions-using-data-cascade) for your web server configuration file, set `eleventyAllowMissingExtension: true` in the frontmatter of your web server configuration file template. If you use `.htaccess` however, you do not need to include this frontmatter property, because Eleventy [explicitly allows generating `.htaccess` without a file extension](https://github.com/11ty/eleventy/blob/0c89371802c45dcdc635c797192ccd2ad96693c9/src/TemplateMap.js#L20).
 
 Here is the frontmatter code based on my recommendations for your web server configuration file template:
 ```yml
 ---
 permalink: "{{ page.filePathStem }}"
-eleventyAllowMissingExtension: true
 eleventyExcludeFromCollections: true
+eleventyAllowMissingExtension: true  # not necessary if you use .htaccess
 ---
 ```
 
