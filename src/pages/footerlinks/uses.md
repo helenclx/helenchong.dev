@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-09-03T10:02:31+0800
+updated: 2025-09-07T14:55:30+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -24,7 +24,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - Serif: [Literata](https://github.com/googlefonts/literata)
     - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
     - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
-- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve variant)
+- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve accent)
 
 ### Operating Systems
 
@@ -64,9 +64,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Internet
 
-- Internet browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
+- Web browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
 - Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
-- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail (for backup purpose only)
+- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [Miniflux](https://miniflux.app/) (my own instance), and [Capy Reader](https://capyreader.com/) on smartphone
 - VPN: [Proton VPN](https://protonvpn.com/)
