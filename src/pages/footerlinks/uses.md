@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-09-12T09:20:05+0800
+updated: 2025-09-12T12:41:17+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -43,7 +43,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
 - Input method: [Fcitx](https://fcitx-im.org/) on PC, and Gboard on smartphone
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
-- System information fetcher: [fastfetch](https://github.com/fastfetch-cli/fastfetch) on PC
+- System information fetcher: [fastfetch](https://github.com/fastfetch-cli/fastfetch) and [hyfetch](https://github.com/hykilpikonna/hyfetch) on PC
 - File manager: [Dolphin](https://apps.kde.org/en-gb/dolphin/) (GUI) and [ranger](https://ranger.fm/) (terminal) on PC, and [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) on smartphone
 
 ### Terminal
@@ -57,7 +57,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
 - Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
-- Command line cheatsheet: [tealdeer](https://github.com/tealdeer-rs/tealdeer)
+- Command line cheatsheet: [tealdeer](https://github.com/tealdeer-rs/tealdeer) and [cheat.sh](https://cheat.sh/)
 - `cat` command alternative: [bat](https://github.com/sharkdp/bat)
 - `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
 - `find` command alternative: [fd](https://github.com/sharkdp/fd)
