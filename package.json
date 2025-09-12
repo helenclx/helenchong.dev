@@ -7,15 +7,11 @@
         "url": "https://git.helenchong.dev/helenchong/helenchong.dev.git"
     },
     "scripts": {
-        "start": "bunx @11ty/eleventy --serve --quiet",
-        "build": "bunx @11ty/eleventy",
-        "build-quiet": "bun run build --quiet",
-        "build-action": "npx @11ty/eleventy"
+        "start": "npx @11ty/eleventy --serve --quiet",
+        "build": "npx @11ty/eleventy",
+        "build-quiet": "npm run build --quiet"
     },
     "type": "module",
-    "devDependencies": {
-        "@types/bun": "^1.2.21"
-    },
     "dependencies": {
         "@11ty/eleventy": "^3.1.2",
         "@11ty/eleventy-navigation": "^1.0.4",

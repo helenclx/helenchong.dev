@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-28T01:49:17+0800
+updated: 2025-09-12T13:40:50+0800
 toc: true
 ---
 How this website is built.
@@ -9,7 +9,7 @@ How this website is built.
 ## Technology
 
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
-* JavaScript runtime: [Bun](https://bun.sh).
+* JavaScript runtime: [Node.js](https://nodejs.org/).
 * Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong.dev) and the [repository's GitHub mirror](https://github.com/helenclx/helenchong.dev).

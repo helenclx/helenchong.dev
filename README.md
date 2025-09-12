@@ -5,7 +5,6 @@ Source code of my developer portfolio and blog website. Built with [Eleventy](ht
 More technical information can be found on my website's [colophon page](https://helenchong.dev/colophon).
 
 ## Run Locally
-It is recommended to use [Bun](https://bun.sh) as the JavaScript runtime for this project. If you want to use Node.js to run this project, for each terminal command and `package.json` script, replace `bun` with `npm` and `bunx` with `npx`.
 
 1. Clone this repository locally
     ```
@@ -13,10 +12,10 @@ It is recommended to use [Bun](https://bun.sh) as the JavaScript runtime for thi
     ```
 1. Install dependencies
     ```
-    bun install
+    npm install
     ```
 1. Run the project
     ```
-    bun start
+    npm run start
     ```
 1. Open http://localhost:8080/ in your browser
