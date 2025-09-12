@@ -7,9 +7,9 @@
         "url": "https://git.helenchong.dev/helenchong/helenchong.dev.git"
     },
     "scripts": {
-        "start": "npx @11ty/eleventy --serve --quiet",
         "build": "npx @11ty/eleventy",
-        "build-quiet": "npm run build -- --quiet"
+        "build-quiet": "npm run build -- --quiet",
+        "start": "npm run build-quiet -- --serve"
     },
     "type": "module",
     "dependencies": {
