@@ -9,7 +9,7 @@
     "scripts": {
         "start": "npx @11ty/eleventy --serve --quiet",
         "build": "npx @11ty/eleventy",
-        "build-quiet": "npm run build --quiet"
+        "build-quiet": "npm run build -- --quiet"
     },
     "type": "module",
     "dependencies": {
