@@ -1,10 +1,12 @@
 # Helen Chong's Developer Portfolio and Blog
 
-Source code of my developer portfolio and blog website. Built with [Eleventy](https://www.11ty.dev/).
+Source code of Helen Chong's developer portfolio and blog website. Built with [Eleventy](https://www.11ty.dev/).
 
-More technical information can be found on my website's [colophon page](https://helenchong.dev/colophon).
+More technical information about this website can be found the website's [colophon page](https://helenchong.dev/colophon).
 
 ## Run Locally
+
+Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone this repository locally
     ```
