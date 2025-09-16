@@ -20,7 +20,7 @@
         "@uncenter/eleventy-plugin-toc": "^1.0.3",
         "@zachleat/details-utils": "^2.0.2",
         "eleventy-plugin-embed-everything": "^1.21.0",
-        "eleventy-plugin-vento": "^5.0.0",
+        "eleventy-plugin-vento": "^5.0.1",
         "eleventy-plugin-wordcount-extended": "^0.2.1",
         "markdown-it-anchor": "^9.2.0",
         "markdown-it-attrs": "^4.3.1",
