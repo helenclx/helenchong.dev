@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-09-12T12:41:17+0800
+update: 2025-09-20T11:27:55+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -119,8 +119,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Image viewer: [Gwenview](https://apps.kde.org/gwenview/) (GUI) and [chafa](https://github.com/hpjansson/chafa) (CLI) on PC, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on smartphone
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
-- Podcast management: [PinePods](https://www.pinepods.online/) (my own instance)
-- Podcast client: [PinePods](https://www.pinepods.online/) on PC, and [AnthennaPod](https://antennapod.org/) on mobile
+- Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
 - PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
 - Markdown viewer: [ghostwriter](https://ghostwriter.kde.org/)
 - E-book viewer: [Foliate](https://johnfactotum.github.io/foliate/) on PC, and [Librera Reader](https://librera.mobi/) FDroid on smartphone
