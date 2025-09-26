@@ -5,7 +5,9 @@ date: 2025-09-26T19:38:23+0800
 topics: ['keyboards', 'linux']
 hasCodeBlock: true
 ---
-Recently, I ordered a new pair of USB keyboard and mouse for myself — Limeide GRX300 — through a local e-commerce store. Both keyboard and mouse have backlight, which complements my main personal computer — ASUS TUF Gaming A15 laptop. The keyabord of my gaming laptop is perfectly functional, but I use an external keyabord to protect my laptop keyboard form overuse as much as possible, and I do enjoy typing with a mechanical keyboard.
+Recently, I ordered a new pair of USB keyboard and mouse for myself — Limeide GRX300 — through a local e-commerce store. Both keyboard and mouse have backlight, which complements my main personal computer — ASUS TUF Gaming A15 laptop.
+
+The keyboard of my gaming laptop is perfectly functional, but I use an external keyboard to protect my laptop keyboard form overuse as much as possible, and I do enjoy typing with a mechanical keyboard. My previous USB keyboard stopped working, as none of the keys will input anything, so I bought a new one.
 
 However, when my new USB keyboard and mouse arrived, and I plugged them in to my gaming laptop, the keyboard backlight cannot be turned on, even after pressing the function key and backlight key, while the mouse backlight did get turned on.
 
