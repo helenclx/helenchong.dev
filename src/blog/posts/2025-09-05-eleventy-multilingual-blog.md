@@ -2,6 +2,7 @@
 title: Building a Multilingual Blog with Eleventy
 desc: My experience with making my English-Simplified Chinese bilingual personal blog with Eleventy and its official internalisation plugin.
 date: 2025-09-05T21:10:05+0800
+updated: 2025-10-17T11:58:34+0800
 topics: ['eleventy', 'internalisation']
 toc: true
 hasCodeBlock: true
@@ -155,3 +156,9 @@ As for my workflow for blogging in multiple languages, I typically start with dr
 Making a multilingual blog has been a learning experience, both content- and technical-wise. However, I am happy to have made my own, as I am proud to be multilingual, thanks to my upbringing as a Malaysian Chinese person. I had written about my experience with the World Wide Web, which English is the _lingua franca_ of, from the [perspective of a multilingual person](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/) on my personal blog.
 
 You can check out my English-Simplified Chinese bilingual personal blog on [blog.helenchong.omg.lol](http://blog.helenchong.omg.lol/), and its source code on [my self-hosted Gitea instance](https://git.helenchong.dev/helenchong/helenchong-blog).
+
+## Update, 17 October 2025: THE Eleventy Meetup Episode 27
+
+I was invited to speak at [THE Eleventy Meetup Episode 27](https://11tymeetup.dev/events/ep-27-11ty-at-the-museum-and-multilingual-blogs/) on 15 October 2025, by giving a talk based on this blog post! You can watch my talk at THE Eleventy Meetup's YouTube Channel.
+
+https://www.youtube.com/watch?v=9VmjX0muGkk
