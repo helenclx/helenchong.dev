@@ -14,7 +14,7 @@ I had also enjoyed [Nic Chan](https://nicchan.me/)'s talk at the meetup about [u
 
 Once again, thank you [Sia Karamalegos](https://sia.codes/) for organising THE Eleventy Meetup. Thank you to everyone who attended the meetup. Thank you everyone who has left supportive and encouraging messages for my talk.
 
-You can watch my talk, "Eleventy Journey From 2.0 to 3.0", at THE Eleventy Meetup Episode 19 at THE Eleventy Meetup's YouTube channel:
+You can watch my talk, "Building a Multilingual Blog with Eleventy", at THE Eleventy Meetup Episode 27 at THE Eleventy Meetup's YouTube channel:
 
 https://www.youtube.com/watch?v=9VmjX0muGkk
 
