@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2025-11-08T01:13:51+0800
+update: 2025-11-27T23:56:17+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -67,7 +67,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Internet
 
 - Web browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
-- Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
+- Search engine: [Ecosia](https://www.ecosia.org/)
 - Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [Miniflux](https://miniflux.app/) (my own instance), and [Capy Reader](https://capyreader.com/) on smartphone
