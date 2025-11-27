@@ -2,6 +2,7 @@
 title: Turn On Limeide GTX300 Keyboard Backlight On Linux
 desc: The backlight of my new Limeide GX300 USB keyboard did not get turned on on my Linux system out of the box. Here is how I solved it.
 date: 2025-09-26T19:38:23+0800
+updated: 2025-11-28T00:00:23+0800
 topics: ['keyboards', 'linux']
 hasCodeBlock: true
 ---
@@ -13,10 +14,11 @@ However, when my new USB keyboard and mouse arrived, and I plugged them in to my
 
 I soon figured out that the fact that I am using Linux, and Limeide GTX300 keyboard's backlight does not seem to support Linux out of the box was the most likely reason. Fortunately, as I searched the web, I found out that the [Arch Wiki](https://wiki.archlinux.org/title/Main_page) has an article about [keyboard backlight](https://wiki.archlinux.org/title/Keyboard_backlight) — one more reason Arch Wiki is awesome, and while I am daily driving Arch Linux, the wiki is a goldmine of information for Linux in general.
 
-First, I installed the [`brightnessctl`](https://archlinux.org/packages/?name=brightnessctl) package, then run the `brightnessctl --list` command both after plugging in and unplugged my USB keyboard, so I could identify the input device for my USB keyboard's LED backlight — `input8::scrolllock` of class `leds`. Therefore, to turn on the backlight, I run the command as root:
+First, I installed the [`brightnessctl`](https://archlinux.org/packages/?name=brightnessctl) package, then run the `brightnessctl --list` command both after plugging in and unplugged my USB keyboard, so I could identify the input device for my USB keyboard's LED backlight — `input8::scrolllock` and `input8::capslock` of class `leds`. Therefore, to turn on the backlight, I run the command as root:
 
 ```shell
 echo 1 > /sys/class/leds/input8::scrolllock/brightness
+echo 1 > /sys/class/leds/input8::capslock/brightness
 ```
 
 The command works, but when I restart my PC system, the brightness setting will also get reset. Fortunately, when I searched the web for how to turn on keyboard backlight on reboot, I discovered a solution: creating a systemd service for the keyboard backlight. Shout-out to xircon on the EndeavourOS forums for the [solution](https://forum.endeavouros.com/t/how-to-have-keyboard-backlights-turned-on-at-boot/54220/16).
@@ -32,6 +34,7 @@ Then, I add the following as the content of the script:
 #!/usr/bin/env bash
 
 echo 1 > /sys/class/leds/input8::scrolllock/brightness
+echo 1 > /sys/class/leds/input8::capslock/brightness
 ```
 
 After saving the script and exiting the editor, I made the script executable:
