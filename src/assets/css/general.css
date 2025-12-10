@@ -68,12 +68,12 @@ blockquote > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin);
 code {
     font-family: var(--ff-monospace);
     word-break: break-word;
+    font-size: 0.85em;
 }
 
 :not(pre) > code {
     padding: 0.125em 0.25em;
     background-color: var(--clr-code-bg);
-    font-size: 0.85em;
 }
 
 pre {
