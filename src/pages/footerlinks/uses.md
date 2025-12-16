@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2025-12-14T11:43:37+0800
+update: 2025-12-16T10:17:23+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -44,7 +44,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Input method: [Fcitx](https://fcitx-im.org/) on PC, and Gboard on smartphone
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
 - System information fetcher: [fastfetch](https://github.com/fastfetch-cli/fastfetch) and [hyfetch](https://github.com/hykilpikonna/hyfetch) on PC
-- File manager: [Dolphin](https://apps.kde.org/en-gb/dolphin/) (GUI) and [ranger](https://ranger.fm/) (terminal) on PC, and [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) on smartphone
+- File manager: [Dolphin](https://apps.kde.org/en-gb/dolphin/) (GUI) and [superfile](https://superfile.dev/) (terminal) on PC, and [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) on smartphone
 
 ### Terminal
 
