@@ -1,3 +1,3 @@
 export default {
-    tags: "header links"
+	tags: "header links"
 }

@@ -1,9 +1,9 @@
 /* Utility Classes */
 .heading--main {
-    padding: 1rem 0;
-    font-size: var(--fs-h1);
-    font-weight: 700;
-    color: var(--clr-accent-600);
+	padding: 1rem 0;
+	font-size: var(--fs-h1);
+	font-weight: 700;
+	color: var(--clr-accent-600);
 }
 
 .text-center { text-align: center; }
@@ -13,30 +13,30 @@
 .update-info { margin-top: 3em; }
 
 .inline-icon {
-    display: inline-block;
-    vertical-align: -10%;
-    height: 0.9em;
-    fill: currentColor;
+	display: inline-block;
+	vertical-align: -10%;
+	height: 0.9em;
+	fill: currentColor;
 }
 a > .inline-icon { padding-inline-end: .25em; }
 
 .grid-center {
-    display: grid;
-    place-content: center;
+	display: grid;
+	place-content: center;
 }
 
 .hidden { display: none; }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    white-space: nowrap;
-    border: 0;
-    outline: 0;
-    outline-offset: 0;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	white-space: nowrap;
+	border: 0;
+	outline: 0;
+	outline-offset: 0;
 }

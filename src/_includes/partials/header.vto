@@ -4,57 +4,57 @@
 {{ set navPages = collections["header links"] |> eleventyNavigation }}
 {{ for entry of navPages }}
 <li><a
-    {{ if entry.url == page.url }} aria-current="page"{{ /if }}
-    class="header__link {{ if (currentUrl.includes('/blog') && entry.url.includes('/blog'))
-        || (currentUrl.includes('/projects') && entry.url.includes('/projects'))
-        }} link--active{{ /if }}"
-    href="{{ entry.url }}">
-        {{ entry.title }}
+	{{ if entry.url == page.url }} aria-current="page"{{ /if }}
+	class="header__link {{ if (currentUrl.includes('/blog') && entry.url.includes('/blog'))
+		|| (currentUrl.includes('/projects') && entry.url.includes('/projects'))
+		}} link--active{{ /if }}"
+	href="{{ entry.url }}">
+		{{ entry.title }}
 </a></li>
 {{ /for }}
 {{ /set }}
 
 <header class="header">
-    <a class="header__title" {{ if currentUrl === '/' }}aria-current="page"{{ /if }} href="/">
-        <img class="header__logo" src="/assets/favicon/HC-favicon.svg" alt="Helen Chong initials logo, to the home page">
-    </a>
-    <nav aria-labelledby="top-nav-title">
-        <p class="visually-hidden" id="top-nav-title">Main</p>
-        <ul class="header__navmenu header__links">{{ navLinks }}</ul>
-        <button class="header__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
-            <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm306.7 69.1L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
-            Explore
-        </button>
-    </nav>
-    <div popover id="nav-menu" class="header__popover">
-        <ul class="header__navmenu">{{ navLinks  }}</ul>
-    </div>
+	<a class="header__title" {{ if currentUrl === '/' }}aria-current="page"{{ /if }} href="/">
+		<img class="header__logo" src="/assets/favicon/HC-favicon.svg" alt="Helen Chong initials logo, to the home page">
+	</a>
+	<nav aria-labelledby="top-nav-title">
+		<p class="visually-hidden" id="top-nav-title">Main</p>
+		<ul class="header__navmenu header__links">{{ navLinks }}</ul>
+		<button class="header__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+			<svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm306.7 69.1L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+			Explore
+		</button>
+	</nav>
+	<div popover id="nav-menu" class="header__popover">
+		<ul class="header__navmenu">{{ navLinks  }}</ul>
+	</div>
 </header>
 
 {{ css }}
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 0.5em 1em;
-    padding: 1rem 1.5rem;
-    background-color: var(--clr-body-bg);
-    box-shadow: var(--bs-main);
-    z-index: 998;
-    position: static;
-    top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5em 1em;
+	padding: 1rem 1.5rem;
+	background-color: var(--clr-body-bg);
+	box-shadow: var(--bs-main);
+	z-index: 998;
+	position: static;
+	top: 0;
 }
 
 .header__title {
-    color: var(--clr-accent-600);
-    font-size: 2rem;
-    margin: 0;
+	color: var(--clr-accent-600);
+	font-size: 2rem;
+	margin: 0;
 }
 
 .header__logo {
-    aspect-ratio: 1 / 1;
-    height: 1.3em;
+	aspect-ratio: 1 / 1;
+	height: 1.3em;
 }
 
 .header__title:hover > *,
@@ -66,72 +66,72 @@
 .header__title:focus > * { transform: scale(1.25); }
 
 .header__toggle {
-    border: 0.125em solid var(--clr-accent-700);
-    border-radius: 0.2em;
-    background-color: var(--clr-body-bg);
-    color: var(--clr-accent-700);
-    font-size: 1.5rem;
-    font-weight: 600;
-    box-shadow: -4px 4px 0px var(--clr-accent-700);
-    display: none;
-    align-items: center;
-    gap: 0.15em;
-    padding-left: 0.25em;
-    padding-right: 0.26em;
+	border: 0.125em solid var(--clr-accent-700);
+	border-radius: 0.2em;
+	background-color: var(--clr-body-bg);
+	color: var(--clr-accent-700);
+	font-size: 1.5rem;
+	font-weight: 600;
+	box-shadow: -4px 4px 0px var(--clr-accent-700);
+	display: none;
+	align-items: center;
+	gap: 0.15em;
+	padding-left: 0.25em;
+	padding-right: 0.26em;
 }
 
 .header__toggle svg { fill: var(--clr-accent-700); }
 .header__toggle:focus {
-    outline: 0.15em solid var(--clr-accent-700);
-    outline-offset: 0.1em;
+	outline: 0.15em solid var(--clr-accent-700);
+	outline-offset: 0.1em;
 }
 
 .header__navmenu {
-    list-style-type: "";
-    padding: 0;
-    margin: 0;
-    font-weight: 600;
-    color: var(--clr-accent-600);
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em 1em;
+	list-style-type: "";
+	padding: 0;
+	margin: 0;
+	font-weight: 600;
+	color: var(--clr-accent-600);
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em 1em;
 }
 
 .header__links { display: flex; }
 
 .header__popover {
-    background-color: var(--clr-body-bg);
-    border: 0.15em solid var(--clr-accent-600);
-    padding: 1.5em;
-    box-shadow: var(--bs-main);
-    max-width: 80%;
+	background-color: var(--clr-body-bg);
+	border: 0.15em solid var(--clr-accent-600);
+	padding: 1.5em;
+	box-shadow: var(--bs-main);
+	max-width: 80%;
 }
 
 .header__popover::backdrop {
-    background-color: black;
-    opacity: 0.5;
+	background-color: black;
+	opacity: 0.5;
 }
 
 .header__navmenu [aria-current="page"],
 .link--active { color: var(--clr-link-hover); }
 
 .header__link {
-    position: relative;
-    font-size: 1.15em;
-    text-decoration: none;
+	position: relative;
+	font-size: 1.15em;
+	text-decoration: none;
 }
 
 .header__link::after {
-    content: "";
-    left: 0px;
-    bottom: -4px;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    background-color: var(--clr-link-hover);
-    transform: scaleX(0);
-    transition: transform 0.3s ease 0s;
+	content: "";
+	left: 0px;
+	bottom: -4px;
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	background-color: var(--clr-link-hover);
+	transform: scaleX(0);
+	transition: transform 0.3s ease 0s;
 }
 
 .header__link:hover::after,
@@ -139,26 +139,26 @@
 .link--active::after { transform: scaleX(1); }
 
 .header__link:focus {
-    outline: 0.2em solid var(--clr-accent-600);
-    outline-offset: 0.1em;
+	outline: 0.2em solid var(--clr-accent-600);
+	outline-offset: 0.1em;
 }
 
 @supports selector([popover]) {
-    .header__toggle { display: flex; }
-    .header__links { display: none; }
-    .header__navmenu { margin: 0; }
-    .header { position: sticky; }
+	.header__toggle { display: flex; }
+	.header__links { display: none; }
+	.header__navmenu { margin: 0; }
+	.header { position: sticky; }
 }
 
 /* For larger screen sizes */
 @media (min-width: 640px) {
-    .header__title { margin-bottom: 0; }
+	.header__title { margin-bottom: 0; }
 }
 
 @media only screen and (min-width: 530px) {
-    .header { position: sticky; }
-    .header__navmenu { margin: 0; }
-    .header__toggle, .header__popover { display: none; }
-    .header__links { display: flex; }
+	.header { position: sticky; }
+	.header__navmenu { margin: 0; }
+	.header__toggle, .header__popover { display: none; }
+	.header__links { display: flex; }
 }
 {{ /css }}

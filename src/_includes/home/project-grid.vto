@@ -1,8 +1,8 @@
 <section class="section--home">
-    <h2 class="heading--home">Featured Projects</h2>
-    <div class="project-grid">
-        {{ set projectList = collections.projects |> itemLimit(3) }}
-        {{ include "partials/project-card.vto" }}
-    </div>
-    <a class="home__btn-link" href="/projects">More Projects</a>
+	<h2 class="heading--home">Featured Projects</h2>
+	<div class="project-grid">
+		{{ set projectList = collections.projects |> itemLimit(3) }}
+		{{ include "partials/project-card.vto" }}
+	</div>
+	<a class="home__btn-link" href="/projects">More Projects</a>
 </section>

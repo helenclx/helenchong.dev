@@ -1,97 +1,97 @@
 /* Project Styles */
 .project__heading {
-    padding: 1rem 0;
-    font-size: 2.5rem;
+	padding: 1rem 0;
+	font-size: 2.5rem;
 }
 
 .project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
 }
 
 .project-card {
-    box-shadow: var(--bs-main);
-    border-radius: 0.5em;
-    border: 0.15em solid var(--clr-accent-700);
+	box-shadow: var(--bs-main);
+	border-radius: 0.5em;
+	border: 0.15em solid var(--clr-accent-700);
 }
 
 .project-card__image-wrapper img {
-    width: 100%;
-    height: auto;
-    border-top-left-radius: 0.375em;
-    border-top-right-radius: 0.375em;
-    transition: transform 0.3s ease 0s;
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 0.375em;
+	border-top-right-radius: 0.375em;
+	transition: transform 0.3s ease 0s;
 }
 
 .project-card__image-wrapper:hover img {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .project-card__body { padding: 1em; }
 
 .project-card__title {
-    margin-bottom: 1rem;
-    font-size: 1.7rem;
-    line-height: 1.3;
+	margin-bottom: 1rem;
+	font-size: 1.7rem;
+	line-height: 1.3;
 }
 
 .project-card__title a:focus { outline: 0.15em solid var(--clr-txt-default); }
 
 .project-card__tags {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
 }
 
 .project-card__tag {
-    display: flex;
-    padding: 0.25rem 0.5rem;
-    border-radius: 9999px;
-    font-size: 0.7em;
-    background-color: var(--clr-accent-100);
-    color: var(--clr-accent-800);
+	display: flex;
+	padding: 0.25rem 0.5rem;
+	border-radius: 9999px;
+	font-size: 0.7em;
+	background-color: var(--clr-accent-100);
+	color: var(--clr-accent-800);
 }
 
 .project-card__summary {
-    margin-bottom: 1rem;
-    color: var(--clr-slate-600);
+	margin-bottom: 1rem;
+	color: var(--clr-slate-600);
 }
 
 .project-card__link {
-    font-weight: 600;
-    color: var(--clr-accent-600);
-    margin-bottom: 0.6em;
+	font-weight: 600;
+	color: var(--clr-accent-600);
+	margin-bottom: 0.6em;
 }
 
 .project-card__link:focus { outline: 0.15em solid var(--clr-accent-700); }
 
 .project-card__link-icon {
-    display: inline-block;
-    vertical-align: text-bottom;
-    width: auto;
-    height: 1.2em;
-    margin-left: -0.2em;
+	display: inline-block;
+	vertical-align: text-bottom;
+	width: auto;
+	height: 1.2em;
+	margin-left: -0.2em;
 }
 
 /* Project Page Styles */
 .project-list {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    max-width: 42rem;
-    margin: 0 auto 4rem auto;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	max-width: 42rem;
+	margin: 0 auto 4rem auto;
 }
 
 .project--page {
-    margin: 0 auto;
-    max-width: 60rem;
+	margin: 0 auto;
+	max-width: 60rem;
 }
 
 .project__image-wrapper { margin-bottom: 1.5rem; }
 
 .project__image-wrapper img {
-    margin-bottom: 2rem;
-    border-radius: 0.25rem;
+	margin-bottom: 2rem;
+	border-radius: 0.25rem;
 }

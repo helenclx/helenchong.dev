@@ -7,12 +7,12 @@ toc: true
 
 {{ function linkRoll(siteName, siteUrl, feedUrl) }}
 <li>
-    <a href="{{ siteUrl }}">{{ siteName }}</a>
-    {{ if feedUrl }}
-    <a href="{{ feedUrl }}" class="linkroll__feed">
-    <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
-    Feed</a>
-    {{ /if }}
+	<a href="{{ siteUrl }}">{{ siteName }}</a>
+	{{ if feedUrl }}
+	<a href="{{ feedUrl }}" class="linkroll__feed">
+	<svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+	Feed</a>
+	{{ /if }}
 </li>
 {{ /function }}
 
@@ -20,233 +20,233 @@ toc: true
 
 {{ headingAnchor 3 }}Developers and Tech People{{ /headingAnchor }}
 <ul>
-    {{ linkRoll("Adrian Roselli", "https://adrianroselli.com/",
-        "https://adrianroselli.com/feed"
-    ) }}
-    {{ linkRoll("Ahmad Shadeed", "https://ishadeed.com/",
-        "https://ishadeed.com/feed.xml"
-    ) }}
-    {{ linkRoll("Aleksandr Hovhannisyan", "https://www.aleksandrhovhannisyan.com/",
-        "https://www.aleksandrhovhannisyan.com/feed.xml"
-    ) }}
-    {{ linkRoll("Alex Chan", "https://alexwlchan.net/",
-        "https://alexwlchan.net/atom.xml"
-    ) }}
-    {{ linkRoll("Alex Russell", "https://infrequently.org/",
-        "https://infrequently.org/feed/"
-    ) }}
-    {{ linkRoll("Andy Bell", "https://andy-bell.co.uk/",
-        "https://andy-bell.co.uk/feed.xml"
-    ) }}
-    {{ linkRoll("Angie Jones", "https://angiejones.tech/") }}
-    {{ linkRoll("Ben Myers", "https://benmyers.dev/",
-        "https://benmyers.dev/feed.xml"
-    ) }}
-    {{ linkRoll("Blake Watson", "https://blakewatson.com/",
-        "https://blakewatson.com/feed.xml"
-    ) }}
-    {{ linkRoll("Bob Monsour", "https://www.bobmonsour.com/",
-        "https://www.bobmonsour.com/feed.xml"
-    ) }}
-    {{ linkRoll("Chen Hui Jing", "https://chenhuijing.com/",
-        "https://chenhuijing.com/feed.xml"
-    ) }}
-    {{ linkRoll("Chris Burnell", "https://chrisburnell.com/",
-        "https://chrisburnell.com/feed.xml"
-    ) }}
-    {{ linkRoll("Chris Coyier", "https://chriscoyier.net/",
-        "https://chriscoyier.net/feed/"
-    ) }}
-    {{ linkRoll("David Bushell", "https://dbushell.com/",
-        "https://dbushell.com/rss.xml"
-    ) }}
-    {{ linkRoll("Cory Dransfeldt", "https://coryd.dev/",
-        "https://feedpress.me/coryd-all"
-    ) }}
-    {{ linkRoll("Elly Loel", "https://ellyloel.com/",
-        "https://www.ellyloel.com/feed.atom"
-    ) }}
-    {{ linkRoll("Eric Bailey", "https://ericwbailey.website/",
-        "https://ericwbailey.website/feed/feed.xml"
-    ) }}
-    {{ linkRoll("Fynn Becker", "https://fynn.be/",
-        "https://fynn.be/feed.xml"
-    ) }}
-    {{ linkRoll("Heather Buchel", "https://heather-buchel.com/",
-        "https://heather-buchel.com/feed/feed.xml"
-    ) }}
-    {{ linkRoll("Heydon Pickering", "https://heydonworks.com/",
-        "https://heydonworks.com/feed.xml"
-    ) }}
-    {{ linkRoll("Hidde de Vries", "https://hidde.blog/",
-        "https://hidde.blog/feed"
-    ) }}
-    {{ linkRoll("Jens Oliver Meiert", "https://meiert.com/en/",
-        "https://meiert.com/en/feed/"
-    ) }}
-    {{ linkRoll("Josh Collinsworth", "https://joshcollinsworth.com/",
-        "https://joshcollinsworth.com/api/rss.xml"
-    ) }}
-    {{ linkRoll("Josh W. Comeau", "https://www.joshwcomeau.com/",
-        "https://www.joshwcomeau.com/rss.xml"
-    ) }}
-    {{ linkRoll("Karolina Szczur", "https://karolinaszczur.com/",
-        "https://karolinaszczur.com/feed/feed.xml"
-    ) }}
-    {{ linkRoll("Kitty Giraudel", "https://kittygiraudel.com/",
-        "https://kittygiraudel.com/rss/index.xml"
-    ) }}
-    {{ linkRoll("Lea Rosema", "https://lea.codes/",
-        "https://lea.codes/rss.xml"
-    ) }}
-    {{ linkRoll("Lene Saile", "https://www.lenesaile.com/",
-        "https://www.lenesaile.com/en/feed.xml"
-    ) }}
-    {{ linkRoll("Manuel Matuzović", "https://www.matuzo.at/",
-        "https://www.matuzo.at/feed_all.xml"
-    ) }}
-    {{ linkRoll("Melanie Kat", "https://melkat.blog/",
-        "https://melkat.blog/rss.xml"
-    ) }}
-    {{ linkRoll("Mayank", "https://www.mayank.co/",
-        "https://mayank.co/blog/rss.xml"
-    ) }}
-    {{ linkRoll("Miriam Eric Suzanne", "https://www.miriamsuzanne.com/",
-        "https://www.miriamsuzanne.com/feed.xml"
-    ) }}
-    {{ linkRoll("Mu-An Chiou", "https://muan.co/",
-        "https://muan.co/notes.xml"
-    ) }}
-    {{ linkRoll("Nic Chan", "https://www.nicchan.me/",
-        "https://www.nicchan.me/feed.xml"
-    ) }}
-    {{ linkRoll("Olu Niyi-Awosusi", "https://olu.online/",
-        "https://olu.online/feed/"
-    ) }}
-    {{ linkRoll("Robb Knight", "https://rknight.me/",
-        "https://rknight.me/subscribe/everything/atom.xml"
-    ) }}
-    {{ linkRoll("Robb Owen", "http://robbowen.digital/",
-        "https://robbowen.digital/feed.xml"
-    ) }}
-    {{ linkRoll("Sara Joy", "https://sarajoy.dev/",
-        "https://sarajoy.dev/rss.xml"
-    ) }}
-    {{ linkRoll("Seirdy", "https://seirdy.one/",
-        "https://seirdy.one/atom.xml"
-    ) }}
-    {{ linkRoll("Sia Karamalegos", "https://sia.codes/",
-        "https://sia.codes/feed/feed.xml"
-    ) }}
-    {{ linkRoll("Sara Soueidan", "https://sarasoueidan.com/",
-        "https://www.sarasoueidan.com/blog/index.xml"
-    ) }}
-    {{ linkRoll("Scott O’Hara", "https://scottohara.me/",
-        "https://www.scottohara.me/feed.xml"
-    ) }}
-    {{ linkRoll("Stefan Bohacek", "https://stefanbohacek.com/",
-        "https://stefanbohacek.com/feed"
-    ) }}
-    {{ linkRoll("Stephanie Eckles", "https://thinkdobecreate.com/",
-        "https://thinkdobecreate.com/feed/"
-    ) }}
-    {{ linkRoll("Steven Woodson", "https://stevenwoodson.com/",
-        "https://stevenwoodson.com/feed/feed.xml"
-    ) }}
-    {{ linkRoll("Tyler Sticka", "https://tylersticka.com/",
-        "https://tylersticka.com/journal/feed.xml"
-    ) }}
-    {{ linkRoll("Zach Leatherman", "https://www.zachleat.com/",
-        "https://www.zachleat.com/web/feed/"
-    ) }}
+	{{ linkRoll("Adrian Roselli", "https://adrianroselli.com/",
+		"https://adrianroselli.com/feed"
+	) }}
+	{{ linkRoll("Ahmad Shadeed", "https://ishadeed.com/",
+		"https://ishadeed.com/feed.xml"
+	) }}
+	{{ linkRoll("Aleksandr Hovhannisyan", "https://www.aleksandrhovhannisyan.com/",
+		"https://www.aleksandrhovhannisyan.com/feed.xml"
+	) }}
+	{{ linkRoll("Alex Chan", "https://alexwlchan.net/",
+		"https://alexwlchan.net/atom.xml"
+	) }}
+	{{ linkRoll("Alex Russell", "https://infrequently.org/",
+		"https://infrequently.org/feed/"
+	) }}
+	{{ linkRoll("Andy Bell", "https://andy-bell.co.uk/",
+		"https://andy-bell.co.uk/feed.xml"
+	) }}
+	{{ linkRoll("Angie Jones", "https://angiejones.tech/") }}
+	{{ linkRoll("Ben Myers", "https://benmyers.dev/",
+		"https://benmyers.dev/feed.xml"
+	) }}
+	{{ linkRoll("Blake Watson", "https://blakewatson.com/",
+		"https://blakewatson.com/feed.xml"
+	) }}
+	{{ linkRoll("Bob Monsour", "https://www.bobmonsour.com/",
+		"https://www.bobmonsour.com/feed.xml"
+	) }}
+	{{ linkRoll("Chen Hui Jing", "https://chenhuijing.com/",
+		"https://chenhuijing.com/feed.xml"
+	) }}
+	{{ linkRoll("Chris Burnell", "https://chrisburnell.com/",
+		"https://chrisburnell.com/feed.xml"
+	) }}
+	{{ linkRoll("Chris Coyier", "https://chriscoyier.net/",
+		"https://chriscoyier.net/feed/"
+	) }}
+	{{ linkRoll("David Bushell", "https://dbushell.com/",
+		"https://dbushell.com/rss.xml"
+	) }}
+	{{ linkRoll("Cory Dransfeldt", "https://coryd.dev/",
+		"https://feedpress.me/coryd-all"
+	) }}
+	{{ linkRoll("Elly Loel", "https://ellyloel.com/",
+		"https://www.ellyloel.com/feed.atom"
+	) }}
+	{{ linkRoll("Eric Bailey", "https://ericwbailey.website/",
+		"https://ericwbailey.website/feed/feed.xml"
+	) }}
+	{{ linkRoll("Fynn Becker", "https://fynn.be/",
+		"https://fynn.be/feed.xml"
+	) }}
+	{{ linkRoll("Heather Buchel", "https://heather-buchel.com/",
+		"https://heather-buchel.com/feed/feed.xml"
+	) }}
+	{{ linkRoll("Heydon Pickering", "https://heydonworks.com/",
+		"https://heydonworks.com/feed.xml"
+	) }}
+	{{ linkRoll("Hidde de Vries", "https://hidde.blog/",
+		"https://hidde.blog/feed"
+	) }}
+	{{ linkRoll("Jens Oliver Meiert", "https://meiert.com/en/",
+		"https://meiert.com/en/feed/"
+	) }}
+	{{ linkRoll("Josh Collinsworth", "https://joshcollinsworth.com/",
+		"https://joshcollinsworth.com/api/rss.xml"
+	) }}
+	{{ linkRoll("Josh W. Comeau", "https://www.joshwcomeau.com/",
+		"https://www.joshwcomeau.com/rss.xml"
+	) }}
+	{{ linkRoll("Karolina Szczur", "https://karolinaszczur.com/",
+		"https://karolinaszczur.com/feed/feed.xml"
+	) }}
+	{{ linkRoll("Kitty Giraudel", "https://kittygiraudel.com/",
+		"https://kittygiraudel.com/rss/index.xml"
+	) }}
+	{{ linkRoll("Lea Rosema", "https://lea.codes/",
+		"https://lea.codes/rss.xml"
+	) }}
+	{{ linkRoll("Lene Saile", "https://www.lenesaile.com/",
+		"https://www.lenesaile.com/en/feed.xml"
+	) }}
+	{{ linkRoll("Manuel Matuzović", "https://www.matuzo.at/",
+		"https://www.matuzo.at/feed_all.xml"
+	) }}
+	{{ linkRoll("Melanie Kat", "https://melkat.blog/",
+		"https://melkat.blog/rss.xml"
+	) }}
+	{{ linkRoll("Mayank", "https://www.mayank.co/",
+		"https://mayank.co/blog/rss.xml"
+	) }}
+	{{ linkRoll("Miriam Eric Suzanne", "https://www.miriamsuzanne.com/",
+		"https://www.miriamsuzanne.com/feed.xml"
+	) }}
+	{{ linkRoll("Mu-An Chiou", "https://muan.co/",
+		"https://muan.co/notes.xml"
+	) }}
+	{{ linkRoll("Nic Chan", "https://www.nicchan.me/",
+		"https://www.nicchan.me/feed.xml"
+	) }}
+	{{ linkRoll("Olu Niyi-Awosusi", "https://olu.online/",
+		"https://olu.online/feed/"
+	) }}
+	{{ linkRoll("Robb Knight", "https://rknight.me/",
+		"https://rknight.me/subscribe/everything/atom.xml"
+	) }}
+	{{ linkRoll("Robb Owen", "http://robbowen.digital/",
+		"https://robbowen.digital/feed.xml"
+	) }}
+	{{ linkRoll("Sara Joy", "https://sarajoy.dev/",
+		"https://sarajoy.dev/rss.xml"
+	) }}
+	{{ linkRoll("Seirdy", "https://seirdy.one/",
+		"https://seirdy.one/atom.xml"
+	) }}
+	{{ linkRoll("Sia Karamalegos", "https://sia.codes/",
+		"https://sia.codes/feed/feed.xml"
+	) }}
+	{{ linkRoll("Sara Soueidan", "https://sarasoueidan.com/",
+		"https://www.sarasoueidan.com/blog/index.xml"
+	) }}
+	{{ linkRoll("Scott O’Hara", "https://scottohara.me/",
+		"https://www.scottohara.me/feed.xml"
+	) }}
+	{{ linkRoll("Stefan Bohacek", "https://stefanbohacek.com/",
+		"https://stefanbohacek.com/feed"
+	) }}
+	{{ linkRoll("Stephanie Eckles", "https://thinkdobecreate.com/",
+		"https://thinkdobecreate.com/feed/"
+	) }}
+	{{ linkRoll("Steven Woodson", "https://stevenwoodson.com/",
+		"https://stevenwoodson.com/feed/feed.xml"
+	) }}
+	{{ linkRoll("Tyler Sticka", "https://tylersticka.com/",
+		"https://tylersticka.com/journal/feed.xml"
+	) }}
+	{{ linkRoll("Zach Leatherman", "https://www.zachleat.com/",
+		"https://www.zachleat.com/web/feed/"
+	) }}
 </ul>
 
 {{ headingAnchor 3 }}Software and Web Development{{ /headingAnchor }}
 <ul>
-    {{ linkRoll("The 11ty Bundle Blog", "https://11tybundle.dev/blog/",
-        "https://11tybundle.dev/feed.xml"
-    ) }}
-    {{ linkRoll("The 11ty Bundle Firehose", "https://11tybundle.dev/",
-        "https://11tybundle.dev/firehosefeed.xml"
-    ) }}
-    {{ linkRoll("Cloud Four", "https://cloudfour.com/",
-        "https://cloudfour.com/feed/"
-    ) }}
-    {{ linkRoll("CSS { In Real Life }", "https://css-irl.info/",
-        "https://css-irl.info/rss.xml"
-    ) }}
-    {{ linkRoll("CSS-Tricks", "https://css-tricks.com/",
-        "https://css-tricks.com/feed/"
-    ) }}
-    {{ linkRoll("Eleventy Firehose", "https://www.11ty.dev/firehose/",
-        "https://www.11ty.dev/firehose/firehose.rss"
-    ) }}
-    {{ linkRoll("THE Eleventy Meetup", "https://11tymeetup.dev/",
-        "https://11tymeetup.dev/feed.xml"
-    ) }}
-    {{ linkRoll("FED Mentor", "https://fedmentor.dev/",
-        "https://fedmentor.dev/feed/feed.xml"
-    ) }}
-    {{ linkRoll("freeCodeCamp.org", "https://www.freecodecamp.org/news/",
-        "https://www.freecodecamp.org/news/rss/"
-    ) }}
-    {{ linkRoll("Frontend Dogma", "https://frontenddogma.com/",
-        "https://frontenddogma.com/feed/"
-    ) }}
-    {{ linkRoll("Go Make Things", "https://gomakethings.com/",
-        "https://gomakethings.com/feed/index.xml"
-    ) }}
-    {{ linkRoll("HTMHell", "https://www.htmhell.dev/",
-        "https://www.htmhell.dev/feed.xml"
-    ) }}
-    {{ linkRoll("Inclusive Components", "https://inclusive-components.design/",
-        "https://inclusive-components.design/rss"
-    ) }}
-    {{ linkRoll("Kevin Powell", "https://www.kevinpowell.co/") }}
-    {{ linkRoll("Modern CSS Solutions", "https://moderncss.dev/",
-        "https://moderncss.dev/feed/"
-    ) }}
-    {{ linkRoll("Neatnik Notes", "https://notes.neatnik.net/",
-        "https://notes.neatnik.net/atom.xml"
-    ) }}
-    {{ linkRoll("Piccalilli", "https://piccalil.li/",
-        "https://piccalil.li/feed.xml"
-    ) }}
-    {{ linkRoll("The Spicy Web", "https://www.spicyweb.dev/",
-        "https://www.spicyweb.dev/feed.xml"
-    ) }}
-    {{ linkRoll("Plain Vanilla", "https://www.spicyweb.dev/",
-        "https://plainvanillaweb.com/blog/feed.xml"
-    ) }}
-    {{ linkRoll("Smashing Magazine", "https://www.smashingmagazine.com/",
-        "https://www.smashingmagazine.com/feed/"
-    ) }}
-    {{ linkRoll("WordPress Accessibility Day", "https://wpaccessibility.day/",
-        "https://wpaccessibility.day/feed/"
-    ) }}
+	{{ linkRoll("The 11ty Bundle Blog", "https://11tybundle.dev/blog/",
+		"https://11tybundle.dev/feed.xml"
+	) }}
+	{{ linkRoll("The 11ty Bundle Firehose", "https://11tybundle.dev/",
+		"https://11tybundle.dev/firehosefeed.xml"
+	) }}
+	{{ linkRoll("Cloud Four", "https://cloudfour.com/",
+		"https://cloudfour.com/feed/"
+	) }}
+	{{ linkRoll("CSS { In Real Life }", "https://css-irl.info/",
+		"https://css-irl.info/rss.xml"
+	) }}
+	{{ linkRoll("CSS-Tricks", "https://css-tricks.com/",
+		"https://css-tricks.com/feed/"
+	) }}
+	{{ linkRoll("Eleventy Firehose", "https://www.11ty.dev/firehose/",
+		"https://www.11ty.dev/firehose/firehose.rss"
+	) }}
+	{{ linkRoll("THE Eleventy Meetup", "https://11tymeetup.dev/",
+		"https://11tymeetup.dev/feed.xml"
+	) }}
+	{{ linkRoll("FED Mentor", "https://fedmentor.dev/",
+		"https://fedmentor.dev/feed/feed.xml"
+	) }}
+	{{ linkRoll("freeCodeCamp.org", "https://www.freecodecamp.org/news/",
+		"https://www.freecodecamp.org/news/rss/"
+	) }}
+	{{ linkRoll("Frontend Dogma", "https://frontenddogma.com/",
+		"https://frontenddogma.com/feed/"
+	) }}
+	{{ linkRoll("Go Make Things", "https://gomakethings.com/",
+		"https://gomakethings.com/feed/index.xml"
+	) }}
+	{{ linkRoll("HTMHell", "https://www.htmhell.dev/",
+		"https://www.htmhell.dev/feed.xml"
+	) }}
+	{{ linkRoll("Inclusive Components", "https://inclusive-components.design/",
+		"https://inclusive-components.design/rss"
+	) }}
+	{{ linkRoll("Kevin Powell", "https://www.kevinpowell.co/") }}
+	{{ linkRoll("Modern CSS Solutions", "https://moderncss.dev/",
+		"https://moderncss.dev/feed/"
+	) }}
+	{{ linkRoll("Neatnik Notes", "https://notes.neatnik.net/",
+		"https://notes.neatnik.net/atom.xml"
+	) }}
+	{{ linkRoll("Piccalilli", "https://piccalil.li/",
+		"https://piccalil.li/feed.xml"
+	) }}
+	{{ linkRoll("The Spicy Web", "https://www.spicyweb.dev/",
+		"https://www.spicyweb.dev/feed.xml"
+	) }}
+	{{ linkRoll("Plain Vanilla", "https://www.spicyweb.dev/",
+		"https://plainvanillaweb.com/blog/feed.xml"
+	) }}
+	{{ linkRoll("Smashing Magazine", "https://www.smashingmagazine.com/",
+		"https://www.smashingmagazine.com/feed/"
+	) }}
+	{{ linkRoll("WordPress Accessibility Day", "https://wpaccessibility.day/",
+		"https://wpaccessibility.day/feed/"
+	) }}
 </ul>
 
 {{ headingAnchor 2 }}Podroll{{ /headingAnchor }}
 <ul>
-    {{ linkRoll("freeCodeCamp Podcast", "https://freecodecamp.libsyn.com/",
-        "http://feeds.libsyn.com/110110/rss"
-    ) }}
-    {{ linkRoll("The Scrimba Podcast", "https://podcast.scrimba.com/",
-        "https://feeds.transistor.fm/scrimba"
-    ) }}
-    {{ linkRoll("Underrepresented in Tech", "https://www.underrepresentedintech.com/",
-        "https://www.underrepresentedintech.com/feed/"
-    ) }}
+	{{ linkRoll("freeCodeCamp Podcast", "https://freecodecamp.libsyn.com/",
+		"http://feeds.libsyn.com/110110/rss"
+	) }}
+	{{ linkRoll("The Scrimba Podcast", "https://podcast.scrimba.com/",
+		"https://feeds.transistor.fm/scrimba"
+	) }}
+	{{ linkRoll("Underrepresented in Tech", "https://www.underrepresentedintech.com/",
+		"https://www.underrepresentedintech.com/feed/"
+	) }}
 </ul>
 
 {{ css }}
 .linkroll__feed {
-    display: inline-block;
-    background-color: var(--clr-accent-100);
-    font-size: 0.8em;
-    padding: 0.1em 0.4em;
-    border-radius: 0.2em;
-    text-decoration: none;
-    margin-left: 0.2em;
+	display: inline-block;
+	background-color: var(--clr-accent-100);
+	font-size: 0.8em;
+	padding: 0.1em 0.4em;
+	border-radius: 0.2em;
+	text-decoration: none;
+	margin-left: 0.2em;
 }
 {{ /css }}

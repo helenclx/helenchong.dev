@@ -16,19 +16,19 @@ eleventyNavigation:
 
 <p>Aside from the email contact form below, you can contact me through these othermethods:</p>
 <ul>
-    <li>Email me directly to <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ sitemeta.siteAuthor.emailEncoded }}</a> (<a href=https://keys.openpgp.org/search?q=contact%40helenchong.dev>PGP key</a>)</li>
-    <li>Fediverse: Ping me or send me a private mention to my Mastodon account at <a href="{{ sitemeta.siteAuthor.fediverse.url }}">{{ sitemeta.siteAuthor.fediverse.handle }}</a></li>
-    <li>Signal: Message <code>{{ sitemeta.siteAuthor.signal }}</code></li>
+	<li>Email me directly to <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">{{ sitemeta.siteAuthor.emailEncoded }}</a> (<a href=https://keys.openpgp.org/search?q=contact%40helenchong.dev>PGP key</a>)</li>
+	<li>Fediverse: Ping me or send me a private mention to my Mastodon account at <a href="{{ sitemeta.siteAuthor.fediverse.url }}">{{ sitemeta.siteAuthor.fediverse.handle }}</a></li>
+	<li>Signal: Message <code>{{ sitemeta.siteAuthor.signal }}</code></li>
 </ul>
 
 <h2>Email Contact Form</h2>
 {{ set letterbirdUser = "helenchongdev" }}
 <section class="contact">
-    <script data-letterbirduser="{{ letterbirdUser }}" src="https://letterbird.co/embed/v1.js"></script>
-    <noscript>
-        <h3>You Have Disabled JavaScript</h3>
-        <p>Looks like you have disabled JavaScript, preventing this contact form from being displayed on this page. You may visit <a href="https://letterbird.co/{{ letterbirdUser }}">my Letterbird contact form page</a> to reach out to me.</p>
-    </noscript>
+	<script data-letterbirduser="{{ letterbirdUser }}" src="https://letterbird.co/embed/v1.js"></script>
+	<noscript>
+		<h3>You Have Disabled JavaScript</h3>
+		<p>Looks like you have disabled JavaScript, preventing this contact form from being displayed on this page. You may visit <a href="https://letterbird.co/{{ letterbirdUser }}">my Letterbird contact form page</a> to reach out to me.</p>
+	</noscript>
 </section>
 
 {{ css }}.contact { margin-top: 1em; }{{ /css }}

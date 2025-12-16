@@ -1,63 +1,63 @@
 /* Skip to content button */
 .skip-btn a {
-    position: absolute;
-    display: inline-block;
-    top: -1000px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    overflow: hidden;
-    transition: top 0.5s ease;
-    background: var(--clr-body-bg);
-    z-index: 1000;
-    font-size: 1.25rem;
-    padding: 0.3em 0.7em;
+	position: absolute;
+	display: inline-block;
+	top: -1000px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	overflow: hidden;
+	transition: top 0.5s ease;
+	background: var(--clr-body-bg);
+	z-index: 1000;
+	font-size: 1.25rem;
+	padding: 0.3em 0.7em;
 }
 
 .skip-btn a:focus {
-    top: 0;
-    transition: top 0.3s ease;
-    outline: 0.2em solid var(--clr-accent-600);
+	top: 0;
+	transition: top 0.3s ease;
+	outline: 0.2em solid var(--clr-accent-600);
 }
 
 /* Inline lists */
 .inline-list {
-    justify-self: center;
-    list-style-type: "";
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 0 var(--sz-list-gap);
-    flex-wrap: wrap;
-    justify-content: center;
+	justify-self: center;
+	list-style-type: "";
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 0 var(--sz-list-gap);
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .inline-list li:not(:last-child)::after {
-    content: '•';
-    padding-left: 0.5em;
+	content: '•';
+	padding-left: 0.5em;
 }
 
 /* Web widgets */
 .widgets {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 * + .widgets { margin-top: var(--sz-list-gap); }
 
 /* Site buttons */
 .site-btns {
-    align-items: center;
-    gap: var(--sz-list-gap);
+	align-items: center;
+	gap: var(--sz-list-gap);
 }
 
 /* Breadcumbs */
 .breadcrumbs {
-    display: flex;
-    gap: 0.5em;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: var(--fs-main-txt);
+	display: flex;
+	gap: 0.5em;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: var(--fs-main-txt);
 }
 
 /* Remove external link icon from Website Carbon badge */
@@ -65,19 +65,19 @@
 
 /* Button to copy code snippets */
 .cc-btn {
-    font-size: 0.8em;
-    display: flex;
-    align-items: center;
-    gap: 0.2em;
-    border: 0.115em solid var(--clr-code-border);
-    border-radius: 0.2em;
+	font-size: 0.8em;
+	display: flex;
+	align-items: center;
+	gap: 0.2em;
+	border: 0.115em solid var(--clr-code-border);
+	border-radius: 0.2em;
 }
 
 /* Social links */
 .socials {
-    display: flex;
-    padding: 0;
-    gap: var(--sz-list-gap) 1.2em;
-    flex-wrap: wrap;
-    justify-content: center;
+	display: flex;
+	padding: 0;
+	gap: var(--sz-list-gap) 1.2em;
+	flex-wrap: wrap;
+	justify-content: center;
 }

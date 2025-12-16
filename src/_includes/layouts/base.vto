@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="{{ sitemeta.siteLang }}" id="top">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Open Graph meta data -->
-        <meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
-        <meta name="generator" content="{{ eleventy.generator }}">
-        <meta name="author" content="{{ sitemeta.siteAuthor.name }}">
-        <meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
-        <meta property="og:site_name" content="{{ sitemeta.siteName }}" />
-        <meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
-        <meta name="description" content="{{ desc || sitemeta.siteDescription }}">
-        <meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
-        <meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
-        <meta name="theme-color" content="#8200cd">
-        <!-- Fonts -->
-        {{ include "partials/fonts.vto" }}
-        <!-- Feeds -->
-        <link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title }}" href="{{ sitemeta.feedPath }}">
-        <!-- CSS -->
-        {{ include "partials/css.vto" }}
-        <!-- Verifications -->
-        <link rel="authorization_/point" href="https://indieauth.com/auth">
-        <!-- JavaScript -->
-        {{ include "partials/js.vto" }}
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Open Graph meta data -->
+		<meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta name="author" content="{{ sitemeta.siteAuthor.name }}">
+		<meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
+		<meta property="og:site_name" content="{{ sitemeta.siteName }}" />
+		<meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
+		<meta name="description" content="{{ desc || sitemeta.siteDescription }}">
+		<meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
+		<meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
+		<meta name="theme-color" content="#8200cd">
+		<!-- Fonts -->
+		{{ include "partials/fonts.vto" }}
+		<!-- Feeds -->
+		<link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title }}" href="{{ sitemeta.feedPath }}">
+		<!-- CSS -->
+		{{ include "partials/css.vto" }}
+		<!-- Verifications -->
+		<link rel="authorization_/point" href="https://indieauth.com/auth">
+		<!-- JavaScript -->
+		{{ include "partials/js.vto" }}
 
-        <title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
-    </head>
-    <body>
-        <div class="skip-btn"><a href="#content">Skip to content</a></div>
-        {{ include "partials/header.vto" }}
-        <main id="content">
-            {{ content }}
-        </main>
-        {{ include "partials/footer.vto" }}
-    </body>
+		<title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
+	</head>
+	<body>
+		<div class="skip-btn"><a href="#content">Skip to content</a></div>
+		{{ include "partials/header.vto" }}
+		<main id="content">
+			{{ content }}
+		</main>
+		{{ include "partials/footer.vto" }}
+	</body>
 </html>

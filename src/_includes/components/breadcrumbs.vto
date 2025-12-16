@@ -1,9 +1,9 @@
 {{ if isArticle || hasBreadcrumbs }}
 <nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
-    <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
-    {{ set breadcrumbNavPages = collections.all |> eleventyNavigationBreadcrumb(eleventyNavigation.key || pageTitle || title) }}
-    {{ for entry of breadcrumbNavPages }}
-    <a href="{{ entry.url }}">{{ entry.title }}</a> <span aria-hidden="true">➔</span>
-    {{ /for }}
+	<h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+	{{ set breadcrumbNavPages = collections.all |> eleventyNavigationBreadcrumb(eleventyNavigation.key || pageTitle || title) }}
+	{{ for entry of breadcrumbNavPages }}
+	<a href="{{ entry.url }}">{{ entry.title }}</a> <span aria-hidden="true">➔</span>
+	{{ /for }}
 </nav>
 {{ /if }}

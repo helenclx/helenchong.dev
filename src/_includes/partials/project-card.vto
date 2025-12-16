@@ -7,29 +7,29 @@
 
 {{ for project of projectList }}
 <article class="project-card">
-    <div class="project-card__image-wrapper">
-        {{# <img src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}"> #}}
-        <img src="{{ src project.data.image }}"
-            srcset="{{ srcset project.data.image }}"
-            sizes="{{ resProjectImgSizes }}"
-            alt="{{ project.data.imageAlt }}"
-            width="{{ project.data.imageWidth }}"
-            height="{{ project.data.imageHeight }}"
-            loading="lazy"
-        >
-    </div>
-    <div class="project-card__body">
-        <div class="project-card__tags">
-            {{ for tag of project.data.tech }}
-            <span class="project-card__tag">{{ tag }}</span>
-            {{ /for }}
-        </div>
-        <h{{headingLevel}} class="project-card__title">{{ project.data.title }}</h{{headingLevel}}>
-        <p class="project-card__summary">{{ project.data.summary }}</p>
-        <p>
-            <svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-            <a class="project-card__link" href="{{ project.url }}">Project case study of {{ project.data.title }}</a>
-        </p>
-    </div>
+	<div class="project-card__image-wrapper">
+		{{# <img src="{{ project.data.image }}" alt="{{ project.data.imageAlt }}"> #}}
+		<img src="{{ src project.data.image }}"
+			srcset="{{ srcset project.data.image }}"
+			sizes="{{ resProjectImgSizes }}"
+			alt="{{ project.data.imageAlt }}"
+			width="{{ project.data.imageWidth }}"
+			height="{{ project.data.imageHeight }}"
+			loading="lazy"
+		>
+	</div>
+	<div class="project-card__body">
+		<div class="project-card__tags">
+			{{ for tag of project.data.tech }}
+			<span class="project-card__tag">{{ tag }}</span>
+			{{ /for }}
+		</div>
+		<h{{headingLevel}} class="project-card__title">{{ project.data.title }}</h{{headingLevel}}>
+		<p class="project-card__summary">{{ project.data.summary }}</p>
+		<p>
+			<svg aria-hidden="true" class="inline-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+			<a class="project-card__link" href="{{ project.url }}">Project case study of {{ project.data.title }}</a>
+		</p>
+	</div>
 </article>
 {{ /for }}

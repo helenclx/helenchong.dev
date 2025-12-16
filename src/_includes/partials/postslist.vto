@@ -1,15 +1,15 @@
 <ul class="blog__postlist">
-    {{ for post of postList }}
-    <li>
-        <p class="blog__postlist--title">
-            <a href="{{ post.url }}">
-                {{ if post.data.title }}{{ post.data.title }}
-                {{ else }}
-                <code>{{ post.url }}</code>
-                {{ /if }}
-            </a>
-        </p>
-        <p><time datetime="{{ post.date }}">{{ post.date |> formatDate }}</time></p>
-    </li>
-    {{ /for }}
+	{{ for post of postList }}
+	<li>
+		<p class="blog__postlist--title">
+			<a href="{{ post.url }}">
+				{{ if post.data.title }}{{ post.data.title }}
+				{{ else }}
+				<code>{{ post.url }}</code>
+				{{ /if }}
+			</a>
+		</p>
+		<p><time datetime="{{ post.date }}">{{ post.date |> formatDate }}</time></p>
+	</li>
+	{{ /for }}
 </ul>

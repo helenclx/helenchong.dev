@@ -3,65 +3,65 @@ layout: layouts/base
 ---
 
 <header class="main__header">
-    {{ include "components/breadcrumbs.vto" }}
+	{{ include "components/breadcrumbs.vto" }}
 
-    <h1 class="heading--main">{{ pageTitle || title }}</h1>
+	<h1 class="heading--main">{{ pageTitle || title }}</h1>
 
-    {{ if tags && tags.includes("posts") }}
-    <div class="blog__post--info">
-        <p>
-            <span class="text-bold">{{ content |> wordcount |> thousands }} words</span>.
-            <span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date |> formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
-        </p>
-        {{ if updated }}
-        <p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated |> formatDate }}</time></p>
-        {{ /if }}
-        <p><span class="text-bold">Topics:</span>
-            {{ for topic of topics }}
-            <a href="/blog/topics/{{ topic |> slugify }}">{{ topic }}</a>{{ if topics.indexOf(topic) !== topics.length - 1 }}, {{ /if }}
-            {{ /for }}
-        </p>
-    </div>
-    {{ /if }}
+	{{ if tags && tags.includes("posts") }}
+	<div class="blog__post--info">
+		<p>
+			<span class="text-bold">{{ content |> wordcount |> thousands }} words</span>.
+			<span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{ date |> formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
+		</p>
+		{{ if updated }}
+		<p><span class="text-bold">Last Updated:</span> <time datetime="{{ updated }}">{{ updated |> formatDate }}</time></p>
+		{{ /if }}
+		<p><span class="text-bold">Topics:</span>
+			{{ for topic of topics }}
+			<a href="/blog/topics/{{ topic |> slugify }}">{{ topic }}</a>{{ if topics.indexOf(topic) !== topics.length - 1 }}, {{ /if }}
+			{{ /for }}
+		</p>
+	</div>
+	{{ /if }}
 </header>
 
 <content-wrapper>
-    {{ if toc }}
-    {{ include "components/toc.vto" }}
-    {{ /if }}
+	{{ if toc }}
+	{{ include "components/toc.vto" }}
+	{{ /if }}
 
-    {{ set contentEl = isArticle ? "article" : "div" }}
-    <{{contentEl}} class="prose">
-        {{ content }}
+	{{ set contentEl = isArticle ? "article" : "div" }}
+	<{{contentEl}} class="prose">
+		{{ content }}
 
-    {{ if tags && tags.includes("posts") }}
-    {{ if collections.posts.length > 1 }}
-    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
-        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
-            {{ set previousPost = collections.posts |> getPreviousCollectionItem }}
-            {{ set nextPost = collections.posts |> getNextCollectionItem }}
-            {{ if nextPost || previousPost }}
-            <ul class="blog__post--nextprev">
-                {{ if previousPost }}
-                <li class="blog__post--prev">
-                    <p>Previous Post:</p>
-                    <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
-                </li>
-                {{ /if }}
-                {{ if nextPost }}
-                <li class="blog__post--next">
-                    <p>Next Post:</p>
-                    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-                </li>
-                {{ /if }}
-            </ul>
-            {{ /if }}
-        </nav>
-    {{ /if }}
-    {{ /if }}
-    </{{contentEl}}>
+	{{ if tags && tags.includes("posts") }}
+	{{ if collections.posts.length > 1 }}
+	<nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+		<h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+			{{ set previousPost = collections.posts |> getPreviousCollectionItem }}
+			{{ set nextPost = collections.posts |> getNextCollectionItem }}
+			{{ if nextPost || previousPost }}
+			<ul class="blog__post--nextprev">
+				{{ if previousPost }}
+				<li class="blog__post--prev">
+					<p>Previous Post:</p>
+					<a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+				</li>
+				{{ /if }}
+				{{ if nextPost }}
+				<li class="blog__post--next">
+					<p>Next Post:</p>
+					<a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+				</li>
+				{{ /if }}
+			</ul>
+			{{ /if }}
+		</nav>
+	{{ /if }}
+	{{ /if }}
+	</{{contentEl}}>
 
-    {{ if tags && tags.includes("blog pages") }}
-    {{ include "partials/blognav.vto" }}
-    {{ /if }}
+	{{ if tags && tags.includes("blog pages") }}
+	{{ include "partials/blognav.vto" }}
+	{{ /if }}
 </content-wrapper>

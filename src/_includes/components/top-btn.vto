@@ -2,54 +2,54 @@
 
 <a href="#top" class="top-btn" aria-label="{{ topLinkTitle }}">Top</a>
 <noscript>
-    <p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
+	<p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
 </noscript>
 
 {{ css }}
 .top-btn, .top-btn:hover { color: var(--clr-top-btn-txt); }
 
 .top-btn {
-    position: fixed;
-    bottom: 0.5rem;
-    right: 0.5rem;
-    z-index: 999;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 700;
+	position: fixed;
+	bottom: 0.5rem;
+	right: 0.5rem;
+	z-index: 999;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 700;
 
-    background-color: var(--clr-top-btn-bg);
-    border-radius: 50em;
-    height: 3.25rem;
-    aspect-ratio: 1 / 1;
-    display: none;
-    gap: 0.1em;
-    justify-items: center;
+	background-color: var(--clr-top-btn-bg);
+	border-radius: 50em;
+	height: 3.25rem;
+	aspect-ratio: 1 / 1;
+	display: none;
+	gap: 0.1em;
+	justify-items: center;
 }
 
 .top-btn.show { display: grid; }
 
 .top-btn::before {
-    content: "";
-    display: block;
-    border-bottom: 0.6rem solid currentColor;
-    border-left: 0.6rem solid transparent;
-    border-right: 0.6rem solid transparent;
+	content: "";
+	display: block;
+	border-bottom: 0.6rem solid currentColor;
+	border-left: 0.6rem solid transparent;
+	border-right: 0.6rem solid transparent;
 }
 
 .top-btn:focus {
-    outline: 0.25em solid var(--clr-top-btn-bg);
-    outline-offset: 0.15em;
+	outline: 0.25em solid var(--clr-top-btn-bg);
+	outline-offset: 0.15em;
 }
 
 .top-link::before,
 .top-link::after {
-    --arrow-margin: 0.3em;
-    content: "";
-    display: inline-block;
-    border-bottom: 0.7rem solid currentColor;
-    border-left: 0.5rem solid transparent;
-    border-right: 0.5rem solid transparent;
+	--arrow-margin: 0.3em;
+	content: "";
+	display: inline-block;
+	border-bottom: 0.7rem solid currentColor;
+	border-left: 0.5rem solid transparent;
+	border-right: 0.5rem solid transparent;
 }
 
 .top-link::before { margin: 0 var(--arrow-margin) 0 0; }
@@ -61,14 +61,14 @@ const topButton = document.querySelector(".top-btn");
 const scrollOffset = 400;
 
 window.onscroll = () => {
-    if (document.body.scrollTop > scrollOffset || document.documentElement.scrollTop > scrollOffset) {
-        topButton.classList.add("show");
-    } else {
-        topButton.classList.remove("show");
-    }
+	if (document.body.scrollTop > scrollOffset || document.documentElement.scrollTop > scrollOffset) {
+		topButton.classList.add("show");
+	} else {
+		topButton.classList.remove("show");
+	}
 };
 
 topButton.addEventListener('click', () => {
-    window.scrollTo({ top: 0, left: 0 });
+	window.scrollTo({ top: 0, left: 0 });
 });
 {{ /js }}

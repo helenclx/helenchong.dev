@@ -3,26 +3,26 @@ layout: layouts/base
 hasBreadcrumbs: true
 ---
 <div class="project--page">
-    <header class="main__header">
-        {{ include "components/breadcrumbs.vto" }}
+	<header class="main__header">
+		{{ include "components/breadcrumbs.vto" }}
 
-        <h1 class="heading--main">{{ title }}</h1>
-    </header>
+		<h1 class="heading--main">{{ title }}</h1>
+	</header>
 
-    <article class="project">
-        <div class="project__image-wrapper">
-            {{# <img src="{{ image }}" alt="{{ imageAlt }}"> #}}
-            <img src="{{ src image }}"
-                srcset="{{ srcset image }}"
-                sizes="(min-width: 1080px) 1020px, calc(94.74vw + 16px)"
-                alt="{{ imageAlt }}"
-                width="{{ imageWidth }}"
-                height="{{ imageHeight }}"
-                loading="lazy"
-            >
-        </div>
-        <div class="project__content prose">
-            {{ content }}
-        </div>
-    </article>
+	<article class="project">
+		<div class="project__image-wrapper">
+			{{# <img src="{{ image }}" alt="{{ imageAlt }}"> #}}
+			<img src="{{ src image }}"
+				srcset="{{ srcset image }}"
+				sizes="(min-width: 1080px) 1020px, calc(94.74vw + 16px)"
+				alt="{{ imageAlt }}"
+				width="{{ imageWidth }}"
+				height="{{ imageHeight }}"
+				loading="lazy"
+			>
+		</div>
+		<div class="project__content prose">
+			{{ content }}
+		</div>
+	</article>
 </div>

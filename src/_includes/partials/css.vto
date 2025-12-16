@@ -1,13 +1,13 @@
 {{ set cssFiles = [
-    "global",
-    "a11y-syntax-highlighting",
-    "general",
-    "home",
-    "components",
-    "projects",
-    "content",
-    "blog",
-    "utility"
+	"global",
+	"a11y-syntax-highlighting",
+	"general",
+	"home",
+	"components",
+	"projects",
+	"content",
+	"blog",
+	"utility"
 ] }}
 {{ for file of cssFiles }}
 <link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
