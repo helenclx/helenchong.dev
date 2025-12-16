@@ -2,7 +2,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import { siteLang, feedPath, siteAuthor, siteUrl, siteBlog } from "../_data/sitemeta.js";
 
 export default function(eleventyConfig) {
-    eleventyConfig.addPlugin(feedPlugin, {
+	eleventyConfig.addPlugin(feedPlugin, {
 		type: "atom",
 		outputPath: feedPath,
 		collection: {
@@ -19,10 +19,10 @@ export default function(eleventyConfig) {
 				email: siteAuthor.email,
 			}
 		},
-        templateData: {
+		templateData: {
 			eleventyNavigation: {
 				key: "RSS Feed",
-                parent: "Blog",
+				parent: "Blog",
 				order: 4
 			}
 		},
