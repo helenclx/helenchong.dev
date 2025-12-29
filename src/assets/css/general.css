@@ -81,7 +81,8 @@ pre {
     max-width: 90vw;
     overflow: auto;
     padding: 1rem;
+    tab-size: 2;
+    white-space: pre;
 }
 
-pre > code { white-space: pre; }
 details:focus { outline-offset: 0.2em; }

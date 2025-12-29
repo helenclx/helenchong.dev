@@ -10,17 +10,17 @@ hasCodeBlock: true
 {{ set demoHeight = "23rem" }}
 
 {{ set disabilityPrideCss }}.disability-pride-flag {
-    background:
-        linear-gradient(
-            37deg,
-            #595959 0 35%,
-            #CF7280 30% 41%,
-            #EEDE77 30% 47%,
-            #E8E8E8 30% 53%,
-            #7bc2e0 30% 59%,
-            #3BB07D 30% 65%,
-            #595959 0
-        );
+	background:
+		linear-gradient(
+			37deg,
+			#595959 0 35%,
+			#CF7280 30% 41%,
+			#EEDE77 30% 47%,
+			#E8E8E8 30% 53%,
+			#7bc2e0 30% 59%,
+			#3BB07D 30% 65%,
+			#595959 0
+		);
 }{{ /set }}
 
 {{ css }}

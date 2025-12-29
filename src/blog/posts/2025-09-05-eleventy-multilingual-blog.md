@@ -107,12 +107,12 @@ To generate language switcher for my blog's home page, first I configured the li
 
 ```js
 export const siteLang = {
-    en: {
-		    home: 'English homepage'
-    },
-    zh: {
-		    home: '简体中文首页'
-    }
+	en: {
+			home: 'English homepage'
+	},
+	zh: {
+			home: '简体中文首页'
+	}
 };
 ```
 
@@ -120,11 +120,11 @@ Then use the `locale_url` filter in my header partial:
 
 ```django
 {% for lang, values in sitemeta.siteLang %}
-    {% if lang !== page.lang %}
-    <a href="{{ "/" | locale_url(lang) }}" lang="{{ lang }}" hreflang="{{ lang }}">
-        <span lang="{{ sitemeta.siteLang[lang].code }}">{{ sitemeta.siteLang[lang].home }}</span>
-    </a>
-    {% endif %}
+	{% if lang !== page.lang %}
+	<a href="{{ "/" | locale_url(lang) }}" lang="{{ lang }}" hreflang="{{ lang }}">
+		<span lang="{{ sitemeta.siteLang[lang].code }}">{{ sitemeta.siteLang[lang].home }}</span>
+	</a>
+	{% endif %}
 {% endfor %}
 ```
 
