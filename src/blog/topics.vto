@@ -4,18 +4,18 @@ title: Blog Post Topics
 tags: blog pages
 hasBreadcrumbs: true
 eleventyNavigation:
-    key: Blog Topics
-    title: Topics
-    parent: Blog
-    order: 2
+  key: Blog Topics
+  title: Topics
+  parent: Blog
+  order: 2
 ---
 
 <ul>
-    {{ for topic of collections.topics }}
+	{{ for topic of collections.topics }}
 	{{ set topicUrl }}/blog/topics/{{ topic |> slugify }}/{{ /set }}
 	{{ set topicPostCount = collections.posts |> filterByTopic(topic) |> itemCount }}
 	<li><a href="{{ topicUrl }}">{{ topic }}</a> ({{ topicPostCount }} posts)</li>
-    {{ /for }}
+	{{ /for }}
 </ul>
 
 <p>See all blog posts in the <a href="posts.vto">archive</a>.</p>

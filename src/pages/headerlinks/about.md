@@ -3,8 +3,8 @@ title: About
 isArticle: true
 toc: true
 eleventyNavigation:
-    key: About
-    order: 1
+  key: About
+  order: 1
 ---
 
 ## Introduction

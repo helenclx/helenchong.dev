@@ -4,10 +4,10 @@ layout: layouts/content
 tags: blog pages
 hasBreadcrumbs: true
 eleventyNavigation:
-    key: Blog Posts
-    title: Archive
-    parent: Blog
-    order: 3
+  key: Blog Posts
+  title: Archive
+  parent: Blog
+  order: 3
 ---
 {{ set postList = collections.posts |> toReversed }}
 {{ include "partials/postslist.vto" }}
