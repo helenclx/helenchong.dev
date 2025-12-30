@@ -2,45 +2,45 @@
 /* Custom Properties   */
 /* ------------------- */
 :root {
-    color-scheme: light dark;
+	color-scheme: light dark;
 
-    --clr-body-bg: light-dark(#fefefe, #121212);
-    --clr-txt-default: light-dark(#000, #fff);
+	--clr-body-bg: light-dark(#fefefe, #121212);
+	--clr-txt-default: light-dark(#000, #fff);
 
-    --clr-slate-300: light-dark(#5d5d5d, #f8f8f8);
-    --clr-slate-600: light-dark(#383838, #f6f6f6);
-    --clr-accent-100: light-dark(#f1d9ff, #4c004c);
-    --clr-accent-600: light-dark(#a200ff, #da85ff);
-    --clr-accent-700: light-dark(#8200cd, #cb7aff);
-    --clr-accent-800: light-dark(#5a008e, #d09dff);
+	--clr-slate-300: light-dark(#5d5d5d, #f8f8f8);
+	--clr-slate-600: light-dark(#383838, #f6f6f6);
+	--clr-accent-100: light-dark(#f1d9ff, #4c004c);
+	--clr-accent-600: light-dark(#a200ff, #da85ff);
+	--clr-accent-700: light-dark(#8200cd, #cb7aff);
+	--clr-accent-800: light-dark(#5a008e, #d09dff);
 
-    --clr-link-hover: light-dark(#c83c00, #fe6625);
-    --clr-code-bg: light-dark(#ededed, #3a3a3a);
-    --clr-code-border: light-dark(#616161, #868686);
-    --clr-top-btn-bg: #4153b6;
-    --clr-top-btn-txt: #fff;
+	--clr-link-hover: light-dark(#c83c00, #fe6625);
+	--clr-code-bg: light-dark(#ededed, #3a3a3a);
+	--clr-code-border: light-dark(#616161, #868686);
+	--clr-top-btn-bg: #4153b6;
+	--clr-top-btn-txt: #fff;
 
-    --ff-regular: 'IBM Plex Sans', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-    --ff-heading: 'Work Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-    --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--ff-regular: 'IBM Plex Sans', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+	--ff-heading: 'Work Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+	--ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
-    --fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
-    --fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
-    --fs-h2: clamp(1.9rem, 1.786rem + 0.571vw, 2.3rem);
-    --fs-h3: clamp(1.7rem, 1.614rem + 0.429vw, 2rem);
-    --fs-h4: clamp(1.6rem, 1.543rem + 0.286vw, 1.8rem);
-    --fs-main-txt: 1.12em;
-    --fs-profile: 1.2em;
-    --fs-bloglist-title: 1.2em;
+	--fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
+	--fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
+	--fs-h2: clamp(1.9rem, 1.786rem + 0.571vw, 2.3rem);
+	--fs-h3: clamp(1.7rem, 1.614rem + 0.429vw, 2rem);
+	--fs-h4: clamp(1.6rem, 1.543rem + 0.286vw, 1.8rem);
+	--fs-main-txt: 1.12em;
+	--fs-profile: 1.2em;
+	--fs-bloglist-title: 1.2em;
 
-    --sz-main-padding: clamp(1em, 5%, 1.5em);
-    --sz-paragraph-margin: 1.15em;
-    --sz-list-gap: 0.5em;
-    --sz-content-bottom: 4em;
+	--sz-main-padding: clamp(1em, 5%, 1.5em);
+	--sz-paragraph-margin: 1.15em;
+	--sz-list-gap: 0.5em;
+	--sz-content-bottom: 4em;
 
-    --bs-main: 0 10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(162, 162, 162, 0.5)),
-        0 4px 6px -4px light-dark(rgb(0 0 0 / 0.2), rgba(129, 129, 129, 0.5));
-    --bs-footer: 0 -10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(215, 215, 215, 0.5));
+	--bs-main: 0 10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(162, 162, 162, 0.5)),
+		0 4px 6px -4px light-dark(rgb(0 0 0 / 0.2), rgba(129, 129, 129, 0.5));
+	--bs-footer: 0 -10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(215, 215, 215, 0.5));
 }
 
 /* ------------------- */
@@ -48,51 +48,51 @@
 /* ------------------- */
 
 @layer reset {
-    *, *::before, *::after {
-        box-sizing: border-box;
-    }
+	*, *::before, *::after {
+		box-sizing: border-box;
+	}
 
-    * {
-        margin: 0;
-    }
+	* {
+		margin: 0;
+	}
 
-    body {
-        min-height: 100vh;
-        line-height: 1.5;
-    }
+	body {
+		min-height: 100vh;
+		line-height: 1.5;
+	}
 
-    h1, h2, h3, h4, h5, h6,
-    button, input, label {
-        line-height: 1.1;
-    }
+	h1, h2, h3, h4, h5, h6,
+	button, input, label {
+		line-height: 1.1;
+	}
 
-    p, h1, h2, h3, h4, h5, h6 {
+	p, h1, h2, h3, h4, h5, h6 {
 		overflow-wrap: break-word;
 	}
 
-    h1, h2, h3, h4, h5, h6 {
-        text-wrap: balance;
-    }
+	h1, h2, h3, h4, h5, h6 {
+		text-wrap: balance;
+	}
 
-    img, picture, video, canvas {
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
+	img, picture, video, canvas {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
 
-    input, button, textarea, select {
-        font: inherit;
-    }
+	input, button, textarea, select {
+		font: inherit;
+	}
 
-    textarea:not([rows]) {
-        min-height: 10em;
-    }
+	textarea:not([rows]) {
+		min-height: 10em;
+	}
 
-    :target {
-        scroll-margin-block: 5ex;
-    }
+	:target {
+		scroll-margin-block: 5ex;
+	}
 
-    [popover] {
-        margin: auto;
-    }
+	[popover] {
+		margin: auto;
+	}
 }
