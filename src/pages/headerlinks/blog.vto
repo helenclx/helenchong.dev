@@ -2,63 +2,63 @@
 title: Blog
 tags: blog pages
 pagination:
-    data: collections.posts
-    size: 5
-    alias: postList
-    reverse: true
+  data: collections.posts
+  size: 5
+  alias: postList
+  reverse: true
 permalink: "/{{ page.fileSlug }}{{ if pagination.pageNumber > 0 }}/page/{{ pagination.pageNumber + 1 }}{{ /if }}/"
 eleventyNavigation:
-    key: Blog
-    order: 2
+  key: Blog
+  order: 2
 eleventyComputed:
-    pageTitle: "{{ sitemeta.siteBlog.title }}"
+  pageTitle: "{{ sitemeta.siteBlog.title }}"
 ---
 
 <p>Welcome to my developer blog! My blog is a place for me to document my developer journey and talk about various tech topics. Enjoy your stay!</p>
 
 <h2>Blog Posts</h2>
 <ul class="blog__posts">
-    {{ for post of postList }}
-    <li class="blog__post">
-        <h3 class="blog__post--title">
-            <a href="{{ post.url }}">
-                {{ if post.data.title }}{{ post.data.title }}
-                {{ else }}
-                    <code>{{ post.url }}</code>
-                {{ /if }}
-            </a>
-        </h3>
-        <p><time datetime="{{ post.date }}" class="blog__post--time">{{ post.date |> formatDate }}</time></p>
-        <p>{{ post.data.desc }}</p>
-    </li>
-    {{ /for }}
+	{{ for post of postList }}
+	<li class="blog__post">
+		<h3 class="blog__post--title">
+			<a href="{{ post.url }}">
+				{{ if post.data.title }}{{ post.data.title }}
+				{{ else }}
+					<code>{{ post.url }}</code>
+				{{ /if }}
+			</a>
+		</h3>
+		<p><time datetime="{{ post.date }}" class="blog__post--time">{{ post.date |> formatDate }}</time></p>
+		<p>{{ post.data.desc }}</p>
+	</li>
+	{{ /for }}
 </ul>
 
 {{ include "components/pagination-oldnew.vto" }}
 
 {{ css }}
-    .blog__posts, .blog__post { display: grid; }
+	.blog__posts, .blog__post { display: grid; }
 
-    .blog__posts {
-        list-style-type: none;
-        padding: 0;
-        margin: 1.5em 0 0 0;
-    }
+	.blog__posts {
+		list-style-type: none;
+		padding: 0;
+		margin: 1.5em 0 0 0;
+	}
 
-    .blog__post {
-        --bdr-blogpost: 0.15em solid var(--clr-accent-600);
-        gap: 0.6em;
-        padding: 1.5em 0;
-        border-bottom: var(--bdr-blogpost);
-    }
+	.blog__post {
+		--bdr-blogpost: 0.15em solid var(--clr-accent-600);
+		gap: 0.6em;
+		padding: 1.5em 0;
+		border-bottom: var(--bdr-blogpost);
+	}
 
-    .blog__post:first-of-type { border-top: var(--bdr-blogpost); }
+	.blog__post:first-of-type { border-top: var(--bdr-blogpost); }
 
-    .blog__post--title {
-        font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
-        line-height: 1.3;
-        margin-bottom: 0 !important;
-    }
+	.blog__post--title {
+		font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
+		line-height: 1.3;
+		margin-bottom: 0 !important;
+	}
 
-    .blog__post--time { font-weight: 700; }
+	.blog__post--time { font-weight: 700; }
 {{ /css }}
