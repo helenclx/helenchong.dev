@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2025-12-16T10:21:21+0800
+update: 2026-01-01T08:31:37+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -28,7 +28,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Operating Systems
 
-- PC: [Arch Linux](https://archlinux.org/) with [KDE Plasma](https://kde.org/plasma-desktop/) desktop environment
+- PC:
+	- Linux distribution: [Arch Linux](https://archlinux.org/)
+	- Desktop environment: [KDE Plasma](https://kde.org/plasma-desktop/), with the [Karousel](https://github.com/peterfajdiga/karousel) script for scrollable tiling window management
 - Virtual private server: [Debian](https://www.debian.org/) Stable
 - Smartphone: Xiaomi HyperOS 2.0, based on Android 15
 - Smartwatch: Xiaomi HyperOS 2.0
