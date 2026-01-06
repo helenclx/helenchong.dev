@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-01-01T08:31:37+0800
+update: 2026-01-06T23:51:44+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -126,8 +126,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Markdown viewer: [ghostwriter](https://ghostwriter.kde.org/)
 - E-book viewer: [Foliate](https://johnfactotum.github.io/foliate/) on PC, and [Librera Reader](https://librera.mobi/) FDroid on smartphone
 - Comic reader: [YACReader](https://www.yacreader.com/)
-- Screenshot tool: [Spectacle](https://invent.kde.org/plasma/spectacle)
-- Screen recorder: [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (also used for taking video game screenshots)
+- Screenshot tool: [Spectacle](https://invent.kde.org/plasma/spectacle) and [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (for video games)
+- Screen recorder: [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) and [asciinema](https://asciinema.org/) (for the terminal)
 - Image converter: [ImageMagick](https://www.imagemagick.org/)
 - Media converter: [FFmpeg](https://ffmpeg.org/)
 - Video and audio downloader: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
