@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-01-06T23:51:44+0800
+update: 2026-01-07T21:31:47+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -118,7 +118,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Media
 
-- Image viewer: [Gwenview](https://apps.kde.org/gwenview/) (GUI) and [chafa](https://github.com/hpjansson/chafa) (CLI) on PC, and [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) on smartphone
+- Image viewer:
+	- PC: [Gwenview](https://apps.kde.org/gwenview/) (GUI), [kitty's icat](https://sw.kovidgoyal.net/kitty/kittens/icat/) (CLI), and [mpv](https://mpv.io/) (CLI)
+	= Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
 - Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
