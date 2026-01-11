@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-01-07T21:31:47+0800
+update: 2026-01-11T17:37:09+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -20,9 +20,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### General
 
 - Fonts:
-    - Sans serif: [Readex Pro](https://fonts.google.com/specimen/Readex+Pro)
+		- Sans-serif: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)
     - Serif: [Literata](https://github.com/googlefonts/literata)
-    - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) and [Maple Mono](https://font.subf.dev/) (with Nerd Font and Chinese character support)
+    - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) (default) and [Maple Mono](https://font.subf.dev/) (for Nerd Font and Chinese character support)
     - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
 - Colour scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve accent)
 
