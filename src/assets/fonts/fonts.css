@@ -1,97 +1,96 @@
 /* IBM Plex Sans */
 @font-face {
-    font-display: swap;
-    font-family: 'IBM Plex Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'IBM Plex Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'IBM Plex Sans';
-    font-style: italic;
-    font-weight: 600;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600italic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 600;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-600italic.woff2') format('woff2');
 }
-
 @font-face {
-    font-display: swap;
-    font-family: 'IBM Plex Sans';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'IBM Plex Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
 }
 
 /* Work Sans */
 @font-face {
-    font-display: swap;
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-regular.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-regular.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Work Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Work Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-italic.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Work Sans';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Work Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: url('/assets/fonts/ibm-plex-sans/ibm-plex-sans-v19-latin-700italic.woff2') format('woff2');
 }
 
 /* Intel One Mono */
 @font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Regular.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Intel One Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/assets/fonts/intel-one-mono/IntelOneMono-Regular.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Italic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Intel One Mono';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/assets/fonts/intel-one-mono/IntelOneMono-Italic.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: normal;
-    font-weight: 600;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Medium.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Intel One Mono';
+	font-style: normal;
+	font-weight: 600;
+	src: url('/assets/fonts/intel-one-mono/IntelOneMono-Medium.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: italic;
-    font-weight: 600;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-MediumItalic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Intel One Mono';
+	font-style: italic;
+	font-weight: 600;
+	src: url('/assets/fonts/intel-one-mono/IntelOneMono-MediumItalic.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Bold.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Intel One Mono';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/assets/fonts/intel-one-mono/IntelOneMono-Bold.woff2') format('woff2');
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-BoldItalic.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Intel One Mono';
+	font-style: italic;
+	font-weight: 700;
+	src: url('/assets/fonts/intel-one-mono/IntelOneMono-BoldItalic.woff2') format('woff2');
 }
