@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-01-13T10:55:35+0800
+update: 2026-01-16T18:02:57+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -137,8 +137,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Art and Design
 
-- Photo editor: [Affinity](https://www.affinity.studio/) (installed with [rum](https://gitlab.com/xkero/rum) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Rum/Guide.md)) and [GNU Image Manipulation Program](https://www.gimp.org/)
-- Vector graphic editor: [Affinity](https://www.affinity.studio/) (installed with [rum](https://gitlab.com/xkero/rum) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Rum/Guide.md)) and [Inkscape](https://inkscape.org/)
+- Photo editor: [Affinity](https://www.affinity.studio/) (installed and run with [WINE](https://www.winehq.org/) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Wine/Guide.md)) and [GNU Image Manipulation Program](https://www.gimp.org/)
+- Vector graphic editor: [Affinity](https://www.affinity.studio/) (installed and run with [WINE](https://www.winehq.org/) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Wine/Guide.md)) and [Inkscape](https://inkscape.org/)
 - Drawing: [Krita](https://krita.org/)
 - Video editor: [Kdenlive](https://kdenlive.org/)
 - Audio editor: [Tenacity](https://tenacityaudio.org/)
