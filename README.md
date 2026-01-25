@@ -6,7 +6,7 @@ More technical information about this website can be found the website's [coloph
 
 ## Run Locally
 
-Requirement: [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/).
+Requirement: [pnpm](https://pnpm.io/).
 
 1. Clone this repository locally
 	```
