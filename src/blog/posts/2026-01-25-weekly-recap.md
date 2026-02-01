@@ -2,7 +2,7 @@
 title: "Weekly Recap: 25 January 2026"
 desc: "January 19 to 25, 2026: Student showcase preparation, Neko-like website widgets, and web browser de-bloating tool."
 date: 2026-01-25T18:07:01+0800
-topics: [42 the school]
+topics: [weekly recap, 42 the school]
 ---
 ## Preparing for Student Showcase Presentation
 
