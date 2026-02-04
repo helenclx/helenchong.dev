@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-01-25T11:39:09+0800
+update: 2026-02-04T09:34:12+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -56,7 +56,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - [Konsole](https://konsole.kde.org/) (KDE apps' built-in terminal)
     - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) (for when I use a screen reader)
 - Shell prompt customisation: [Starship](https://starship.rs/)
-- Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
+- Terminal workspace manager: [Zellij](https://zellij.dev/)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
 - Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 - Command line cheatsheet: [tealdeer](https://github.com/tealdeer-rs/tealdeer) and [cheat.sh](https://cheat.sh/)
