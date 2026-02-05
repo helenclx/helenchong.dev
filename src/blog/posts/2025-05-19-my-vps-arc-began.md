@@ -3,7 +3,7 @@ title: My Virtual Private Server Arc Has Officially Begun
 desc: I have officially joined the "self-hosting on a VPS" club.
 date: 2025-05-19T23:46:33+0800
 updated: 2025-05-28T06:38:31+0800
-topics: ["vps", "self-hosting"]
+topics: ["virtual private server", "self-hosting"]
 toc: true
 ---
 It is official — not only I have a virtual private server (VPS), but also I have started self-hosting things on a VPS, including all my websites.
