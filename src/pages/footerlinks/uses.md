@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-02-04T09:34:12+0800
+update: 2026-02-12T21:41:34+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -107,7 +107,6 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Password manager: [BitWarden](https://bitwarden.com/) and [KeePassXC](https://keepassxc.org/)
 - Multi-factor authenticator: [Ente Auth](https://ente.io/auth/)
 - Cloud storage encryption: [Cryptomator](https://cryptomator.org/)
-- OpenPGP: [GnuPG](https://www.gnupg.org/) with [Kleopatra](https://apps.kde.org/kleopatra/)
 
 ### Software Development
 
