@@ -21,3 +21,7 @@ Requirement: [pnpm](https://pnpm.io/).
 	pnpm dev
 	```
 1. Open http://localhost:8080/ in your browser
+
+## Licence
+
+The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license, and the underlying source code used to format and display that content is licensed under the [GNU Affero General Public License 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
