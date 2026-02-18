@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-01-26T00:55:41+0800
+updated: 2026-02-18T12:06:22+0800
 toc: true
 ---
 How this website is built.
@@ -12,7 +12,7 @@ How this website is built.
 * JavaScript package manager: [pnpm](https://pnpm.io/).
 * Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
-* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong.dev) and the [repository's GitHub mirror](https://github.com/helenclx/helenchong.dev).
+* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}, [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link} and [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}.
 
 ## Host and Domain
 
