@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-02-12T21:41:34+0800
+update: 2026-03-13T12:33:06+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -100,7 +100,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Tasks: Nextcloud (The Good Cloud instance) with Mozilla Thunderbird
 - Personal finance: [Actual Budget](https://actualbudget.org/) (my own instance)
 - Spellchecker: [LanguageTool](https://languagetool.org/)
-- Translator: [Mozhi](https://codeberg.org/aryak/mozhi) (my own instance)
+- Translator: [Mozhi](https://codeberg.org/aryak/mozhi) (my own instance) and [DeepL Translator](https://www.deepl.com/en/translator)
+- Break time reminder: [Stretchly](https://hovancik.net/stretchly/)
 
 ### Security
 
