@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-03-13T12:33:06+0800
+update: 2026-03-18T22:49:07+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -64,7 +64,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
 - `find` command alternative: [fd](https://github.com/sharkdp/fd)
 - `grep` command alternative: [ripgrep](https://github.com/BurntSushi/ripgrep) (rg)
-- `ls` command alternative: [eza](https://github.com/eza-community/eza)
+- `ls` command alternative: [lsd](https://github.com/lsd-rs/lsd)
 
 ### Internet
 
