@@ -6,7 +6,7 @@ More technical information about this website can be found the website's [coloph
 
 ## Run Locally
 
-Requirement: [pnpm](https://pnpm.io/).
+Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone this repository locally
 	```
@@ -14,11 +14,11 @@ Requirement: [pnpm](https://pnpm.io/).
 	```
 1. Install dependencies
 	```
-	pnpm install
+	npm install
 	```
 1. Run the project
 	```
-	pnpm dev
+	npm run dev
 	```
 1. Open http://localhost:8080/ in your browser
 
