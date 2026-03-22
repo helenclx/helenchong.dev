@@ -61,7 +61,7 @@ RewriteRule ^$ /en/ [L,R=302]
 
 Unfortunately, when I switched to hosting my websites, including Galaxy Garden, on a VPS with Caddy as the web server, I could not find a guide for redirecting website visitors to their preferred language in Caddy with its configuration file called Caddyfile. Therefore, I needed to figure the solution out myself, by reading Caddy's documentations and discover which Caddyfile features I can use for that purpose.
 
-Eventually, I found a way — by using Caddyfile's [`header_regexp` marcher](https://caddyserver.com/docs/caddyfile/matchers#header-regexp) as well as [`handle`](https://caddyserver.com/docs/caddyfile/directives/handle) and [`redir` directives](https://caddyserver.com/docs/caddyfile/directives/redir):
+Eventually, I found a way — by using Caddyfile's [`header_regexp` matcher](https://caddyserver.com/docs/caddyfile/matchers#header-regexp) as well as [`handle`](https://caddyserver.com/docs/caddyfile/directives/handle) and [`redir` directives](https://caddyserver.com/docs/caddyfile/directives/redir):
 
 ```Caddyfile
 # Redirect visitors to the Chinese version if their preferred language is Chinese (zh)
