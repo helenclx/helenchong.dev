@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-03-21T21:52:49+0800
+updated: 2026-03-23T20:17:44+0800
 toc: true
 ---
 How this website is built.
@@ -22,12 +22,15 @@ How this website is built.
 
 Previously, this website was hosted on GitHub Pages until 30 July 2024, [Hostinger](https://www.hostinger.com/my)'s premium shared hosting plan until 14 May 2025, and a VPS I rented from [Chunkserve](https://chunkserve.com/) until 27 May 2025.
 
-## Plugins
+## Dependencies
+
+In addition to Eleventy, this website depends on the following software packages to build:
+
+### Eleventy Official Plugins
 
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 * Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
-* [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
 
@@ -39,9 +42,14 @@ Previously, this website was hosted on GitHub Pages until 30 July 2024, [Hosting
 ### markdown-it Plugins
 
 Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.
+
 * [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 * [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
+
+### Additional npm Packages
+
+* [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ## Self-hosted Resources
 
