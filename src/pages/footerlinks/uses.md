@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-03-18T22:49:07+0800
+update: 2026-04-23T00:56:36+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -54,7 +54,6 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Terminal emulator:
     - [kitty](https://sw.kovidgoyal.net/kitty/) (default)
     - [Konsole](https://konsole.kde.org/) (KDE apps' built-in terminal)
-    - [GNOME Terminal](https://wiki.gnome.org/Apps/Terminal) (for when I use a screen reader)
 - Shell prompt customisation: [Starship](https://starship.rs/)
 - Terminal workspace manager: [Zellij](https://zellij.dev/)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
