@@ -38,7 +38,7 @@ That said, I am still not completely ruling out the possibility of me using GNU 
 
 I started learning the keyboard shortcuts and commands in Vim by typing the `vimtutor` tutorial in the terminal of my Windows Subsystem for Linux (WSL) with Ubuntu. I had realised that learning by doing is the best way for me to learn programming, so I appreciate tutorials like vimtutor that allows me to learn and practice by doing.
 
-Even when just trying out Vim's keyboard shortcuts and commands in the tutorial, I already had a much with Vim. Finally trying out Vim myself has certainly made me appreciate it a lot, and see why would developers choose Vim as their code editor of choice. Doing all the coding in keyboard reduces the context switch that would come with using a mouse, combined with Vim's minimal interface, it allows for a coding environment with fewer distractions.
+Even when just trying out Vim's keyboard shortcuts and commands in the tutorial, I already had a great time with Vim. Finally trying out Vim myself has certainly made me appreciate it a lot, and see why would developers choose Vim as their code editor of choice. Doing all the coding in keyboard reduces the context switch that would come with using a mouse, combined with Vim's minimal interface, it allows for a coding environment with fewer distractions.
 
 Even after completing vimtutor, sometimes I still revisit the tutorial to refresh my memory of certain Vim shortcuts and commands.
 
