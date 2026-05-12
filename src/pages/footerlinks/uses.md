@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-04-23T00:56:36+0800
+update: 2026-05-12T21:29:34+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -75,7 +75,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - VPN: [Proton VPN](https://protonvpn.com/)
 - IRC client: [The Lounge](https://thelounge.chat/) (my own instance), [Halloy](https://halloy.chat/) on PC, and [Goguma](https://codeberg.org/emersion/goguma) on smartphone
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
-- YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
+- YouTube client: [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
 - Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
     - Reddit: [Redlib](https://github.com/redlib-org/redlib)
     - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
