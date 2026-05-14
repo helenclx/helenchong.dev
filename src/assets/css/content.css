@@ -25,7 +25,7 @@ content-wrapper { gap: 1rem; }
 
 .sidebar--sticky {
 	position: sticky;
-	top: 6em;
+	top: 1em;
 }
 
 /* Heading Wrapper and Anchor */
