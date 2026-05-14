@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-03-23T20:17:44+0800
+updated: 2026-05-15T06:11:23+0800
 toc: true
 ---
 How this website is built.
@@ -76,7 +76,6 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
 
-* Display a "scroll to top" button at the bottom right corner of the screen after scrolling down a page far enough.
 * My [contact page](/contact) includes a JavaScript embed of my email contact form powered by [Letterbird](https://letterbird.co/).
 * Add buttons to copy code snippets to pages with code blocks.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
