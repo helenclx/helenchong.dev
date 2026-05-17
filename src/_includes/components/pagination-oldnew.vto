@@ -56,33 +56,3 @@ Newer{{ /set }}
 		</li>
 	</ul>
 </nav>
-
-{{ css }}
-.pagination__wrapper {
-	display: grid;
-	place-content: center;
-	margin-top: 3em;
-}
-
-.pagination {
-	list-style-type: "";
-	padding: 0;
-	margin: 0;
-	display: flex;
-	gap: 0.5em;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.pagination li {
-	text-align: center;
-	padding: 0.3em 0.7em;
-}
-
-.pagination li:has(a) { border: 0.15em solid var(--clr-accent-700); }
-.pagination li:has(a):hover { border-color: var(--clr-link-hover); }
-.pagination li:has(a):hover > a { color: var(--clr-link-hover); }
-.pagination li:has(a):focus-within { outline: 0.2em solid var(--clr-accent-700); }
-.pagination li a { text-decoration: none; }
-.pagination li a:focus { outline: none; }
-{{ /css }}
