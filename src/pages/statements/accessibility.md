@@ -1,10 +1,9 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2026-01-03T11:23:06+0800
+updated: 2026-05-21T22:51:45+0800
 ---
-
-I take accessibility seriously. I want visitors to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
+I take accessibility seriously. I want visitors to have the best possible experience of browsing my website, regardless of technology and ability. Therefore, I strive to design this website to be inclusive of disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
 High-level overview of the accessibility features of this site:
 
