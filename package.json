@@ -24,7 +24,7 @@
 		"eleventy-plugin-wordcount-extended": "^0.2.1",
 		"luxon": "^3.7.2",
 		"markdown-it-anchor": "^9.2.0",
-		"markdown-it-attrs": "^4.3.1",
+		"markdown-it-attrs": "^4.5.0",
 		"markdown-it-bracketed-spans": "^1.0.1"
 	}
 }
