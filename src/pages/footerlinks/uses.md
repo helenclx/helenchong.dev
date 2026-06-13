@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-05-19T19:49:06+0800
+update: 2026-06-13T10:14:42+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -39,7 +39,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Configuration files manager: [Yet Another Dotfile Manger](https://yadm.io/) (yadm) ([my dotfiles repository](https://git.helenchong.dev/helenchong/dotfiles))
 - Package manager:
-    - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [yay](https://github.com/Jguer/yay), and [Flatpak](https://flatpak.org/)
+    - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [paru](https://github.com/Morganamilo/paru), and [Flatpak](https://flatpak.org/)
     - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
 - Debloater: [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official) on smartphone
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
