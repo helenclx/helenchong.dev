@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-06-13T10:14:42+0800
+update: 2026-06-15T18:16:25+0800
 toc: true
 ---
 Below is a non-exhaustive list of the hardware and software that I use.
@@ -112,7 +112,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup ([my Neovim and LazyVim configurations](https://git.helenchong.dev/helenchong/LazyVim))
 - Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
-- Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Gitea instance](https://git.helenchong.dev/)
+- Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Forgejo instance](https://git.helenchong.dev/)
     - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### Media

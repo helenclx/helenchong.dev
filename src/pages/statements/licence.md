@@ -1,7 +1,7 @@
 ---
 title: Licence
 keyword: licence notice
-updated: 2026-02-18T12:01:10+0800
+updated: 2026-06-15T18:22:58+0800
 ---
 This website, {{ sitemeta.siteDomain }}, its source code and its content are licensed under a dual licence model. This means different licences apply to different parts of this website.
 
@@ -26,7 +26,7 @@ Under the following conditions:
 - The authors are not liable for any damages.
 
 The complete source code and licence text of this website can be found on:
-- [My self-hosted Gitea instance](https://git.helenchong.dev/helenchong/helenchong.dev)
+- [My self-hosted Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev)
 - [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}
 - [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link}
 - [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}
