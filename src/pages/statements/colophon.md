@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-05-15T06:11:23+0800
+updated: 2026-06-15T18:08:49+0800
 toc: true
 ---
 How this website is built.
@@ -12,11 +12,11 @@ How this website is built.
 * JavaScript runtime: [Node.js](https://nodejs.org/).
 * Templating languages: [Vento](https://vento.js.org/) and Markdown.
 * Tested web browsers: Mozilla Firefox, Vivaldi, W3m and Lynx.
-* Source code available on [my Gitea instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}, [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link} and [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}.
+* Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}, [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link} and [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}.
 
 ## Host and Domain
 
-* Hosted on a virtual private server (VPS) I rented from [DeluxHost](https://deluxhost.net/).
+* Hosted on a virtual private server (VPS) I rented from [Chunkserve](https://chunkserve.com/).
 * Web server: [Caddy](https://caddyserver.com/).
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
