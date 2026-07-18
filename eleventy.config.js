@@ -3,16 +3,16 @@ import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
-import pluginWordcount from "eleventy-plugin-wordcount-extended";
 import { VentoPlugin } from "eleventy-plugin-vento";
+import pluginWordcount from "eleventy-plugin-wordcount-extended";
 
 // Custom configurations
-import markdownItConfig from "./src/_config/markdown-it.js";
 import feedsConfig from "./src/_config/feeds.js";
 import filesConfig from "./src/_config/files.js";
-import topicsConfig from "./src/_config/topics.js";
 import filtersConfig from "./src/_config/filters.js";
+import markdownItConfig from "./src/_config/markdown-it.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
+import topicsConfig from "./src/_config/topics.js";
 
 export default function (eleventyConfig) {
 	// ----- Installed Plugins
