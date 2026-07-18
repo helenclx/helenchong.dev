@@ -26,5 +26,8 @@
 		"markdown-it-anchor": "^9.2.1",
 		"markdown-it-attrs": "^5.0.0",
 		"markdown-it-bracketed-spans": "^1.0.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.4"
 	}
 }
