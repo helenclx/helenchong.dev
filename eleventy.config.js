@@ -2,6 +2,7 @@
 import { InputPathToUrlTransformPlugin } from "@11ty/eleventy";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginTOC from "@uncenter/eleventy-plugin-toc";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
 import { VentoPlugin } from "eleventy-plugin-vento";
 import pluginWordcount from "eleventy-plugin-wordcount-extended";
@@ -18,6 +19,11 @@ export default function (eleventyConfig) {
 	// ----- Installed Plugins
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 	eleventyConfig.addPlugin(pluginEleventyNavigation);
+	eleventyConfig.addPlugin(pluginTOC, {
+		tags: ["h2", "h3", "h4", "h5", "h6"],
+		wrapper: (toc) =>
+			`<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`,
+	});
 	eleventyConfig.addPlugin(pluginEmbedEverything, {
 		youtube: {
 			options: {

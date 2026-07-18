@@ -1,27 +1,11 @@
 /* CONFIGURATION FOR MARKDOWN TEMPLATES */
-// Installed plugins
-import pluginTOC from "@uncenter/eleventy-plugin-toc";
-import embedEverything from "eleventy-plugin-embed-everything";
-
-// Configure slug filter
-import slugify from "slugify";
-
-// markdown-it plugins
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItBracketedSpans from "markdown-it-bracketed-spans";
+import slugify from "slugify";
 
 export default function (eleventyConfig) {
-	// Installed plugins
-	eleventyConfig.addPlugin(pluginTOC, {
-		tags: ["h2", "h3", "h4", "h5", "h6"],
-		wrapper: (toc) => {
-			return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
-		},
-	});
-	eleventyConfig.addPlugin(embedEverything, { add: ["soundcloud"] });
-
 	// Configure markdown-it-anchor plugins
 	eleventyConfig.setLibrary("md", markdownIt().use(markdownItAnchor));
 	const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
@@ -62,7 +46,7 @@ export default function (eleventyConfig) {
 	};
 
 	/* Markdown Overrides */
-	let markdownLibrary = markdownIt({
+	const markdownLibrary = markdownIt({
 		html: true,
 		linkify: true,
 	})
