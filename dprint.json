@@ -1,16 +1,10 @@
 {
 	"useTabs": true,
-	"typescript": {},
-	"json": {},
 	"markdown": {},
-	"malva": {},
 	"markup": {},
-	"excludes": ["**/node_modules", "**/*-lock.json", "LICENSE*"],
+	"excludes": ["LICENSE*", "**/node_modules"],
 	"plugins": [
-		"https://plugins.dprint.dev/typescript-0.96.1.wasm",
-		"https://plugins.dprint.dev/json-0.23.0.wasm",
 		"https://plugins.dprint.dev/markdown-0.22.1.wasm",
-		"https://plugins.dprint.dev/g-plane/malva-v0.16.0.wasm",
 		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.27.3.wasm"
 	]
 }
