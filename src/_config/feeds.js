@@ -1,10 +1,10 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import {
-	siteLang,
 	feedPath,
 	siteAuthor,
-	siteUrl,
 	siteBlog,
+	siteLang,
+	siteUrl,
 } from "../_data/sitemeta.js";
 
 export default function (eleventyConfig) {
@@ -19,7 +19,7 @@ export default function (eleventyConfig) {
 			language: siteLang,
 			title: siteBlog.title,
 			subtitle: siteBlog.desc,
-			base: siteUrl + "/blog/",
+			base: `${siteUrl}/blog/`,
 			author: {
 				name: siteAuthor.name,
 				email: siteAuthor.email,
