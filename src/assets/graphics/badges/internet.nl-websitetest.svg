@@ -5,6 +5,7 @@
 	xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 >
+	<title>inter.nl website test</title>
 	<defs>
 		<circle id="a" cx="15" cy="15" r="15" />
 		<mask id="b" fill="#fff">
