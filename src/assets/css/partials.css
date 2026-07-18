@@ -298,7 +298,7 @@
 	gap: 0.7em;
 	flex-direction: column;
 	justify-content: center;
-	align-tems: center;
+	align-items: center;
 	box-shadow: var(--bs-footer);
 }
 
