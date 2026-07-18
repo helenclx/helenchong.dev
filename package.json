@@ -9,7 +9,13 @@
 	"scripts": {
 		"build": "npx @11ty/eleventy",
 		"build-quiet": "npm run build -- --quiet",
-		"dev": "npm run build-quiet -- --serve"
+		"dev": "npm run build-quiet -- --serve",
+		"lint": "npm run lint:biome && npm run lint:dprint",
+		"lint:biome": "npx @biomejs/biome check .",
+		"lint:dprint": "npx dprint check",
+		"format": "npm run format:biome && npm run format:dprint",
+		"format:biome": "npx @biomejs/biome format --write",
+		"format:dprint": "npx dprint fmt"
 	},
 	"type": "module",
 	"dependencies": {
