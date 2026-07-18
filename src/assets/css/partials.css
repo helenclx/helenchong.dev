@@ -21,15 +21,16 @@
 	height: 1.3em;
 }
 
+.header__title > * {
+	transition: transform 0.2s ease-out;
+}
+
 .header__title:hover > *,
 .header__title:focus,
 .header__title:focus > * {
 	outline: 0;
 }
 
-.header__title > * {
-	transition: transform 0.2s ease-out;
-}
 .header__title:hover > *,
 .header__title:focus > * {
 	transform: scale(1.25);
