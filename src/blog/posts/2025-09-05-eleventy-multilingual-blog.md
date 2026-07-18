@@ -8,6 +8,7 @@ toc: true
 hasCodeBlock: true
 templateEngineOverride: md
 ---
+
 ## Introduction
 
 Aside from this developer blog, I have a personal blog, [Galaxy Garden](https://blog.helenchong.omg.lol/), where I blog about non-tech stuff. Another notable feature that sets Galaxy Garden apart from my developer blog is that the former is available in more than one language, specifically English and Simplified Chinese.
@@ -89,6 +90,7 @@ You may not want your web server configuration file to be part of your Eleventy 
 When you try to build your Eleventy website, Eleventy will throw an error when you try to write to a file without a file extension, such as `Caddyfile`. To [allow missing file extensions](https://www.11ty.dev/docs/permalinks/#allow-missing-file-extensions-using-data-cascade) for your web server configuration file, set `eleventyAllowMissingExtension: true` in the frontmatter of your web server configuration file template. If you use `.htaccess` however, you do not need to include this frontmatter property, because Eleventy [explicitly allows generating `.htaccess` without a file extension](https://github.com/11ty/eleventy/blob/0c89371802c45dcdc635c797192ccd2ad96693c9/src/TemplateMap.js#L20).
 
 Here is the frontmatter code based on my recommendations for your web server configuration file template:
+
 ```yml
 ---
 permalink: "{{ page.filePathStem }}"

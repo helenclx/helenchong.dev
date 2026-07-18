@@ -5,6 +5,7 @@ date: 2025-05-21T20:45:16+0800
 topics: ["eleventy", "vento", "nunjucks"]
 toc: true
 ---
+
 I have used the static site generator [Eleventy](https://www.11ty.dev/) to build my websites for a year since [April 2024](2024-04-11-rebuilding-my-developer-portfolio-with-eleventy.md). A noteworthy feature of Eleventy is its support for multiple template languages, though [Liquid](https://liquidjs.com/) and [Nunjucks](https://mozilla.github.io/nunjucks/) seem to be the most popular choices among Eleventy users, as both languages not only receive built-in support from Eleventy without a third-party plugin, but also are the most documented in Eleventy's official documentation.
 
 ## Nunjucks: My Original Go-To Template Language in Eleventy
@@ -83,6 +84,7 @@ Not to mention both Vento and eleventy-plugin-vento are well-maintained by their
 In conclusion, I love Vento and I am happy that I made the switch from Nunjucks to Vento.
 
 Special thanks to:
+
 - Óscar for creating and maintaining Vento.
 - Noel for creating and maintaining eleventy-plugin-vento, as well as helping me troubleshoot the issue with Eleventy's i18n plugin not handling custom template engines.
 - Both uncenter and Noel for helping me solve my issue with using eleventy-plugin-vento with other Eleventy plugins that provide filters and shortcodes.

@@ -1,16 +1,20 @@
-{{ set cssFiles = [
-	"global",
-	"a11y-syntax-highlighting",
-	"general",
-	"partials",
-	"home",
-	"components",
-	"projects",
-	"content",
-	"blog",
-	"utility"
-] }}
+{{
+	set cssFiles = [
+		"global",
+		"a11y-syntax-highlighting",
+		"general",
+		"partials",
+		"home",
+		"components",
+		"projects",
+		"content",
+		"blog",
+		"utility"
+	]
+}}
 {{ for file of cssFiles }}
-<link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
+	<link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
 {{ /for }}
-<style>{{ getBundle "css" }}</style>
+<style>
+{{ getBundle "css" }}
+</style>

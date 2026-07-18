@@ -4,6 +4,7 @@ desc: "My local campus of 42 the computer science school was holding a roadshow,
 date: 2026-02-01T22:06:13+0800
 topics: [42 the school]
 ---
+
 My school, 42 Malaysia, just held a roadshow event on February 27 and 28, 2026.
 
 Two weeks ago, I and two other classmates were invited by the staff of my local campus of 42 Malaysia to take part in a student showcase during the roadshow event, then in last week we joined a session hosted by the campus staff to prepare for our presentation, by giving us guidelines for how to present in the event, such as what to include in our slideshows and speech..

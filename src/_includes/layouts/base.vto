@@ -7,17 +7,34 @@
 		<meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		<meta name="author" content="{{ sitemeta.siteAuthor.name }}">
-		<meta name="fediverse:creator" content="{{ sitemeta.siteAuthor.fediverse.handle }}">
+		<meta
+			name="fediverse:creator"
+			content="{{ sitemeta.siteAuthor.fediverse.handle }}"
+		>
 		<meta property="og:site_name" content="{{ sitemeta.siteName }}" />
-		<meta property="og:type" content="{{ tags && tags.includes("posts") ? "article" : "website" }}">
+		<meta
+			property="og:type"
+			content='{{ tags && tags.includes("posts") ? "article" : "website" }}'
+		>
 		<meta name="description" content="{{ desc || sitemeta.siteDescription }}">
-		<meta property="og:url" content="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}">
-		<meta property="og:image" content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png">
+		<meta
+			property="og:url"
+			content="{{ sitemeta.siteUrl }}{{ page.url ? page.url : '' }}"
+		>
+		<meta
+			property="og:image"
+			content="{{ sitemeta.siteUrl }}/assets/graphics/helenchong-meta-img.png"
+		>
 		<meta name="theme-color" content="#8200cd">
 		<!-- Fonts -->
 		{{ include "partials/fonts.vto" }}
 		<!-- Feeds -->
-		<link rel="alternate" type="application/rss+xml" title="{{ sitemeta.siteBlog.title }}" href="{{ sitemeta.feedPath }}">
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="{{ sitemeta.siteBlog.title }}"
+			href="{{ sitemeta.feedPath }}"
+		>
 		<!-- CSS -->
 		{{ include "partials/css.vto" }}
 		<!-- Verifications -->
@@ -25,7 +42,9 @@
 		<!-- JavaScript -->
 		{{ include "partials/js.vto" }}
 
-		<title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
+		<title>
+			{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}
+		</title>
 	</head>
 	<body>
 		<div class="skip-btn"><a href="#content">Skip to content</a></div>

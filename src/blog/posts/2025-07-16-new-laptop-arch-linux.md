@@ -5,6 +5,7 @@ date: 2025-07-16T10:05:54+0800
 topics: ['linux', 'life updates']
 toc: true
 ---
+
 For 7 years since February 2018, I had been using my first gaming laptop, an Acer Helios 300, as my personal computer, including doing everything with this very website. Now in July 2025, I bought myself a new gaming laptop, an Asus TUF Gaming A15.
 
 I ordered my new gaming laptop from Asus' official brand store in Malaysia through Shopee on July 6, then the new laptop was delivered to my home on July 10.
@@ -12,6 +13,7 @@ I ordered my new gaming laptop from Asus' official brand store in Malaysia throu
 ## My Gaming Laptop History
 
 My previous laptop was bought in February 2018, and it had experienced many major changes throughout the years:
+
 - In around 2020, I replaced the 1 TB internal hard disk drive (HDD) with a 2 TB one.
 - In November 2023, the laptop's solid-state drive (SSD) started showing signs of age and then broke down, thus I asked for professional help with replacing the 256 GB SSD (which is paltry by today's standards, but back in 2018 SSDs were still considered a luxury) with a 1 TB one with Windows 11 installed.
 - In June 2024, I broke the laptop's internal speaker when I raised the system volume too quickly during a heavy rain outside my house that was louder than the sound from the laptop, so I had to plug in and use external speakers to hear the sound from my laptop again.

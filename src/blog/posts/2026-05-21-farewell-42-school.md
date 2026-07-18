@@ -4,6 +4,7 @@ desc: My farewell to 42 the computer science school, as my local campus is trans
 date: 2026-05-21T13:25:35+0800
 topics: [42 the school]
 ---
+
 My journey at 42 the computer science school is coming to an end.
 
 On 14 May 2026, the staff of my local campus of 42 made a major announcement: Starting from 29 May 2026, my local campus of 42 will transition to a satellite campus. This means that from this date onwards, us students will no longer have access to the campus and its facilities, and our student progress will be paused on 42's intranet. If we want to continue our student progress, our option is submitting a request to transfer to another 42 campus, which could be another 42 campus in Malaysia, by the end of June.

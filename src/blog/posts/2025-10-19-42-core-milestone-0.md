@@ -4,6 +4,7 @@ desc: I have completed Milestone 0, the very first milestone in 42 the computer 
 date: 2025-10-19T09:55:19+0800
 topics: ['42 the school']
 ---
+
 On 6 October 2025, I returned to school by officially attending the core programme of my local campus of [42 the computer science school](/topics/42-the-school/), after having [passed the school's 26-day bootcamp named the Piscine](2025-05-16-i-have-passed-42-piscine.md) in May.
 
 On 16 October 2025, I completed Milestone 0, the very first milestone of the core programme, by completing and passing the first project in 42's core curriculum.

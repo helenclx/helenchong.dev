@@ -1,4 +1,4 @@
 export default {
 	layout: "layouts/slashpage",
-	tags: "footer links"
-}
+	tags: "footer links",
+};

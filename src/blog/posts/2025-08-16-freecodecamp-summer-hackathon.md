@@ -4,6 +4,7 @@ desc: In July, I participated in freeCodeCamp's 2025 Summer Hackathon, and devel
 date: 2025-08-16T23:50:16+0800
 topics: ['freecodecamp', 'hackathon']
 ---
+
 Last month in July 2025, I participated in [freeCodeCamp](https://www.freecodecamp.org/)'s 2025 Summer Hackathon, which took place in the freeCodeCamp Discord server throughout July. I applied in June, and then got selected as a participant in the hackathon.
 
 I applied to participate because I wanted to gain more experience in building programming projects. I started my journey to teach myself web development beyond a hobby with freeCodeCamp, and July happens to be my birth month as well, so it is meaningful to me to gain the opportunity to participate in freeCodeCamp’s hackathon. It helps that their community is queer-inclusive too, with the community manager, [Naomi Carrigan](https://nhcarrigan.com/), being transfeminine herself. This freeCodeCamp hackathon was not my first time participating in a team software project, but it was my first time participating in an event that officially calls itself a hackathon.

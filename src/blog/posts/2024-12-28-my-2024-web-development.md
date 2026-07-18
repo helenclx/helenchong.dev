@@ -32,7 +32,6 @@ Initially, this website was hosted on GitHub pages, but as I learned more advanc
 
 Eventually, after researching alternative web hosting options, I finally [migrated all my static and PHP websites to Hostinger's shared hosting plan](2024-07-31-migrating-to-hostinger.md) in July. I have used Hostinger since then, and I am satisfied with it.
 
-
 ## Completed a CS50 Course
 
 On 23 May 2024, I [completed CS50’s Introduction to Computer Science](2024-05-27-cs50x-course-completed.md), also known as CS50x, course. The course is not specific to web development, but it has taught me the knowledge I need to become a better developer and programmer.

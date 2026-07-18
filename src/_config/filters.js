@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
 	// Filter: Format dates
 	eleventyConfig.addFilter("formatDate", (date) => {
 		const dateFormat = "d LLLL yyyy";
@@ -16,7 +16,7 @@ export default function(eleventyConfig) {
 	});
 
 	// Filter: Collection item count
-	eleventyConfig.addFilter("itemCount", (array) => array.length );
+	eleventyConfig.addFilter("itemCount", (array) => array.length);
 
 	// Filter: Thousands separator
 	eleventyConfig.addFilter("thousands", (num) => {

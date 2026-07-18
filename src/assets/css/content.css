@@ -1,5 +1,10 @@
-.main__header, content-wrapper { display: grid; }
-content-wrapper { gap: 1rem; }
+.main__header,
+content-wrapper {
+	display: grid;
+}
+content-wrapper {
+	gap: 1rem;
+}
 
 .main__header {
 	padding: 3em var(--sz-main-padding);
@@ -16,12 +21,22 @@ content-wrapper { gap: 1rem; }
 	margin-block-start: var(--sz-paragraph-margin);
 }
 
-.prose > * + h2, .prose > * + .h2,
-.prose > h3,  .prose > * + .h3,
-.prose > h4, .prose > h5, .prose > h6 { margin-block-start: 2em; }
+.prose > * + h2,
+.prose > * + .h2,
+.prose > h3,
+.prose > * + .h3,
+.prose > h4,
+.prose > h5,
+.prose > h6 {
+	margin-block-start: 2em;
+}
 
-.bio { max-width: 65ch; }
-.right-sidebar { padding: 0 clamp(1em, 5%, 1.5em) var(--sz-content-bottom); }
+.bio {
+	max-width: 65ch;
+}
+.right-sidebar {
+	padding: 0 clamp(1em, 5%, 1.5em) var(--sz-content-bottom);
+}
 
 .sidebar--sticky {
 	position: sticky;
@@ -35,7 +50,9 @@ content-wrapper { gap: 1rem; }
 	align-items: baseline;
 }
 
-* + .heading-wrapper { margin-block-start: 1.8em; }
+* + .heading-wrapper {
+	margin-block-start: 1.8em;
+}
 
 .heading-anchor {
 	order: -1;
@@ -48,7 +65,10 @@ content-wrapper { gap: 1rem; }
 }
 
 /* Blog Pages */
-.blog__posts, .blog__post { display: grid; }
+.blog__posts,
+.blog__post {
+	display: grid;
+}
 
 .blog__posts {
 	list-style-type: none;
@@ -63,7 +83,9 @@ content-wrapper { gap: 1rem; }
 	border-bottom: var(--bdr-blogpost);
 }
 
-.blog__post:first-of-type { border-top: var(--bdr-blogpost); }
+.blog__post:first-of-type {
+	border-top: var(--bdr-blogpost);
+}
 
 .blog__post--title {
 	font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
@@ -71,16 +93,24 @@ content-wrapper { gap: 1rem; }
 	margin-bottom: 0 !important;
 }
 
-.blog__post--time { font-weight: 700; }
+.blog__post--time {
+	font-weight: 700;
+}
 
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
 	content-wrapper {
-		grid-template-areas: 'leftbar article rightbar';
+		grid-template-areas: "leftbar article rightbar";
 		grid-template-columns: 1fr minmax(min(60ch, 40vw), 2.5fr) 1fr;
 	}
 
-	.prose { grid-area: article; }
-	.left-sidebar { grid-area: leftbar; }
-	.right-sidebar { grid-area: rightbar; }
+	.prose {
+		grid-area: article;
+	}
+	.left-sidebar {
+		grid-area: leftbar;
+	}
+	.right-sidebar {
+		grid-area: rightbar;
+	}
 }

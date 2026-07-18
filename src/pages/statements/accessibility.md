@@ -3,28 +3,29 @@ title: Accessibility
 keyword: accessibility statement
 updated: 2026-05-21T22:51:45+0800
 ---
+
 I take accessibility seriously. I want visitors to have the best possible experience of browsing my website, regardless of technology and ability. Therefore, I strive to design this website to be inclusive of disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 Level AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
 High-level overview of the accessibility features of this site:
 
-* Responsive design and mobile-friendly layout.
-* Semantic HTML, enhanced by Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA).
-* Sufficient colour contrast between text and background colours.
-* Alt text for all non-decorative images.
-* Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused.
-* Logical content and heading flow.
-* Links to skip to the main content or the top of the page.
-* Sufficient font size that can be enlarged without breaking the site layout.
-* No auto-playing audio or video.
-* A button below code blocks to copy code snippets with one click. (Requires JavaScript enabled in the browser)
+- Responsive design and mobile-friendly layout.
+- Semantic HTML, enhanced by Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA).
+- Sufficient colour contrast between text and background colours.
+- Alt text for all non-decorative images.
+- Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused.
+- Logical content and heading flow.
+- Links to skip to the main content or the top of the page.
+- Sufficient font size that can be enlarged without breaking the site layout.
+- No auto-playing audio or video.
+- A button below code blocks to copy code snippets with one click. (Requires JavaScript enabled in the browser)
 
 I use the following tools to test my site for accessibility:
 
-* WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
-* [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
-* [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
-* [Orca](https://orca.gnome.org/) screen reader for Linux
-* TalkBack screen reader for Android
+- WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
+- [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
+- [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
+- [Orca](https://orca.gnome.org/) screen reader for Linux
+- TalkBack screen reader for Android
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 

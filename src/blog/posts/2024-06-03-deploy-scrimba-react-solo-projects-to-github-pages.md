@@ -83,6 +83,7 @@ jobs:
 ```
 
 This set-up made my Scrimba React solo projects live at the following links:
+
 - [Digital Business Card](https://helenclx.github.io/Scrimba-React-Solo-Projects/1-digital-business-card/)
 - [Travel Journal](https://helenclx.github.io/Scrimba-React-Solo-Projects/2-travel-journal/)
 - [Quizzical](https://helenclx.github.io/Scrimba-React-Solo-Projects/3-quizzical/)
@@ -103,10 +104,9 @@ After finished creating the HTML and CSS of the home page, I wrote an extra step
       cp -r 2-travel-journal/screenshot.png deploy/2-travel-journal/
       cp -r 3-quizzical/screenshot-start.png 3-quizzical/screenshot-questions.png 3-quizzical/screenshot-answers.png deploy/3-quizzical/
 ```
+
 What this step does is creating a "deploy" folder and then copy the home page's HTML, CSS to the "deploy" folder, and copy the project screenshots to the folder of each project.
 
 Here is the final code of my GitHub action TAML file to deploy my Scrimba React solo projects in [my Scrimba React solo projects repository](https://github.com/helenclx/Scrimba-React-Solo-Projects/blob/home/.github/workflows/gh-pages.yml).
 
 Now that I have successfully deployed my Scrimba React solo projects to GitHub Pages, I can finally delete those projects from Netlify and free up more monthly bandwidth for my other projects that I actually want to deploy to Netlify.
-
-

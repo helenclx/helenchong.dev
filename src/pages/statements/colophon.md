@@ -4,21 +4,22 @@ keyword: colophon page
 updated: 2026-06-15T18:08:49+0800
 toc: true
 ---
+
 How this website is built.
 
 ## Technology
 
-* Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
-* JavaScript runtime: [Node.js](https://nodejs.org/).
-* Templating languages: [Vento](https://vento.js.org/) and Markdown.
-* Tested web browsers: Mozilla Firefox, Vivaldi, W3m and Lynx.
-* Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}, [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link} and [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}.
+- Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
+- JavaScript runtime: [Node.js](https://nodejs.org/).
+- Templating languages: [Vento](https://vento.js.org/) and Markdown.
+- Tested web browsers: Mozilla Firefox, Vivaldi, W3m and Lynx.
+- Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}, [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link} and [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}.
 
 ## Host and Domain
 
-* Hosted on a virtual private server (VPS) I rented from [Chunkserve](https://chunkserve.com/).
-* Web server: [Caddy](https://caddyserver.com/).
-* The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
+- Hosted on a virtual private server (VPS) I rented from [Chunkserve](https://chunkserve.com/).
+- Web server: [Caddy](https://caddyserver.com/).
+- The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
 Previously, this website was hosted on GitHub Pages until 30 July 2024, [Hostinger](https://www.hostinger.com/my)'s premium shared hosting plan until 14 May 2025, and a VPS I rented from [Chunkserve](https://chunkserve.com/) until 27 May 2025.
 
@@ -28,57 +29,57 @@ In addition to Eleventy, this website depends on the following software packages
 
 ### Eleventy Official Plugins
 
-* Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
-* Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
-* Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
+- Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
+- Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
+- Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
 
 ### Eleventy Community Plugins
 
-* [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
-* [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
-* [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
-* [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
+- [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
+- [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
+- [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
+- [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 
 ### markdown-it Plugins
 
 Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.
 
-* [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
-* [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
-* [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
+- [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
+- [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
+- [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 
 ### Additional npm Packages
 
-* [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
+- [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ## Self-hosted Resources
 
-* Eric Bailey's [a11y-syntax-highlighting](https://github.com/ericwbailey/a11y-syntax-highlighting) a11y-light-on-light-dark-on-dark CSS stylesheet for Prism.js
+- Eric Bailey's [a11y-syntax-highlighting](https://github.com/ericwbailey/a11y-syntax-highlighting) a11y-light-on-light-dark-on-dark CSS stylesheet for Prism.js
 
 ### Fonts
 
-* [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) — default body font. CSS stylesheet and WOFF2 font format generated by [google-webfonts-helper](https://gwfh.mranftl.com/fonts).
-* [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) — default heading font. CSS stylesheet and WOFF2 font format generated by [google-webfonts-helper](https://gwfh.mranftl.com/fonts).
-* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) — monospaced font.
+- [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans) — default body font. CSS stylesheet and WOFF2 font format generated by [google-webfonts-helper](https://gwfh.mranftl.com/fonts).
+- [Work Sans](https://github.com/weiweihuanghuang/Work-Sans) — default heading font. CSS stylesheet and WOFF2 font format generated by [google-webfonts-helper](https://gwfh.mranftl.com/fonts).
+- [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) — monospaced font.
 
 ## Writing
 
- - [Obsidian](https://obsidian.md/) for drafting and writing web pages and blog posts.
- - My custom Python script for creating new blog post files.
+- [Obsidian](https://obsidian.md/) for drafting and writing web pages and blog posts.
+- My custom Python script for creating new blog post files.
 
 ## Inspiration for Making This Website
 
-* Gerard Hynes' Eleventy portfolio website tutorial: ["Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website"](https://www.freecodecamp.org/news/learn-eleventy/).
-* Raymond Camden Eleventy blog tutorial: ["A Complete Guide to Building a Blog with Eleventy"](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html).
-* Eleventy's official [blog starter project](https://github.com/11ty/eleventy-base-blog).
+- Gerard Hynes' Eleventy portfolio website tutorial: ["Learn the Eleventy Static Site Generator by Building and Deploying a Portfolio Website"](https://www.freecodecamp.org/news/learn-eleventy/).
+- Raymond Camden Eleventy blog tutorial: ["A Complete Guide to Building a Blog with Eleventy"](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html).
+- Eleventy's official [blog starter project](https://github.com/11ty/eleventy-base-blog).
 
 ## JavaScript
 
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
 
-* My [contact page](/contact) includes a JavaScript embed of my email contact form powered by [Letterbird](https://letterbird.co/).
-* Add buttons to copy code snippets to pages with code blocks.
-* Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
-* [Website Carbon Badge](https://www.websitecarbon.com/badge/), which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.
+- My [contact page](/contact) includes a JavaScript embed of my email contact form powered by [Letterbird](https://letterbird.co/).
+- Add buttons to copy code snippets to pages with code blocks.
+- Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
+- [Website Carbon Badge](https://www.websitecarbon.com/badge/), which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.
 
 You can still access most of the content of this site with JavaScript disabled, but the above components will not work as intended.

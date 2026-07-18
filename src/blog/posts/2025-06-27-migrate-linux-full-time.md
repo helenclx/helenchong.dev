@@ -5,6 +5,7 @@ date: 2025-06-27T21:39:00+0800
 topics: ['linux']
 toc: true
 ---
+
 It is official — I am a full-time Linux user now, since I have switched from Windows to Fedora Linux as my personal computer's operating system, with KDE Plasma as the desktop environment.
 
 This was not my first attempt to use Linux on desktop, but for the first time since my first time getting my hands on Linux in 2020, I decided to make Linux fully replace Windows for my daily PC use.

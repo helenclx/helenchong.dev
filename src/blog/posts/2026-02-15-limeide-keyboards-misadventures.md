@@ -4,6 +4,7 @@ desc: As I had troubles with the backlight of my Limeide GTX300 mechanical keybo
 date: 2026-02-15T21:19:02+0800
 topics: [keyboards]
 ---
+
 On the past Sunday, the RGB backlight of my Limeide GTX300 USB mechanical gaming keyboard that is plugged in to my main computer, which is a gaming laptop, suddenly stopped working.
 
 When I ordered and received Limeide GTX300 from a Malaysian store through Shopee back in September 2025, I did not expect that the RGB backlight did not work out-of-the-box on my Arch Linux operating system, so I had to [configure my Linux system manually to get the RGB backlight working](2025-09-26-limeide-gtx300-backlight-linux.md) after searching the web for solutions.

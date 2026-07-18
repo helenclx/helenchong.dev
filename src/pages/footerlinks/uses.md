@@ -4,6 +4,7 @@ desc: A non-exhaustive list of hardware and software that I use.
 update: 2026-06-15T18:16:25+0800
 toc: true
 ---
+
 Below is a non-exhaustive list of the hardware and software that I use.
 
 You can find more /uses pages on [uses.tech](https://uses.tech/).
@@ -20,17 +21,17 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### General
 
 - Fonts:
-		- Sans-serif: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)
-    - Serif: [Literata](https://github.com/googlefonts/literata)
-    - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) (default) and [Maple Mono](https://font.subf.dev/) (for Nerd Font and Chinese character support)
-    - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
+  - Sans-serif: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans)
+  - Serif: [Literata](https://github.com/googlefonts/literata)
+  - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) (default) and [Maple Mono](https://font.subf.dev/) (for Nerd Font and Chinese character support)
+  - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
 - Colour scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve accent)
 
 ### Operating Systems
 
 - PC:
-	- Linux distribution: [Arch Linux](https://archlinux.org/)
-	- Desktop environment: [KDE Plasma](https://kde.org/plasma-desktop/), with the [Karousel](https://github.com/peterfajdiga/karousel) script for scrollable tiling window management
+  - Linux distribution: [Arch Linux](https://archlinux.org/)
+  - Desktop environment: [KDE Plasma](https://kde.org/plasma-desktop/), with the [Karousel](https://github.com/peterfajdiga/karousel) script for scrollable tiling window management
 - Virtual private server: [Debian](https://www.debian.org/) Stable
 - Smartphone: Xiaomi HyperOS 2.0, based on Android 15
 - Smartwatch: Xiaomi HyperOS 2.0
@@ -39,8 +40,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Configuration files manager: [Yet Another Dotfile Manger](https://yadm.io/) (yadm) ([my dotfiles repository](https://git.helenchong.dev/helenchong/dotfiles))
 - Package manager:
-    - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [paru](https://github.com/Morganamilo/paru), and [Flatpak](https://flatpak.org/)
-    - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
+  - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [paru](https://github.com/Morganamilo/paru), and [Flatpak](https://flatpak.org/)
+  - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
 - Debloater: [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official) on smartphone
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
 - Input method: [Fcitx](https://fcitx-im.org/) on PC, and Gboard on smartphone
@@ -52,8 +53,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Command line shell: [Fish](https://fishshell.com/) (default) and [Bash](https://www.gnu.org/software/bash/)
 - Terminal emulator:
-    - [kitty](https://sw.kovidgoyal.net/kitty/) (default)
-    - [Konsole](https://konsole.kde.org/) (KDE apps' built-in terminal)
+  - [kitty](https://sw.kovidgoyal.net/kitty/) (default)
+  - [Konsole](https://konsole.kde.org/) (KDE apps' built-in terminal)
 - Shell prompt customisation: [Starship](https://starship.rs/)
 - Terminal workspace manager: [Zellij](https://zellij.dev/)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
@@ -77,20 +78,20 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
 - YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
 - Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
-    - Reddit: [Redlib](https://github.com/redlib-org/redlib)
-    - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
-    - Goodreads: [BiblioReads](https://github.com/nesaku/BiblioReads)
-    - Fandom.com: [BreezeWiki](https://breezewiki.com/)
+  - Reddit: [Redlib](https://github.com/redlib-org/redlib)
+  - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
+  - Goodreads: [BiblioReads](https://github.com/nesaku/BiblioReads)
+  - Fandom.com: [BreezeWiki](https://breezewiki.com/)
 
 ### Productivity
 
 - Notes:
-	- [Obsidian](https://obsidian.md/) for writing, project management and personal knowledge base
-	- [Standard Notes](https://standardnotes.com/) for quick notes
+  - [Obsidian](https://obsidian.md/) for writing, project management and personal knowledge base
+  - [Standard Notes](https://standardnotes.com/) for quick notes
 - Cloud storage:
-	- [pCloud](https://www.pcloud.com/) (Lifetime paid plan)
-	- [Tresorit](https://tresorit.com/) (free plan) for storing my most important files
-	- [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance, free plan) for storing my Obsidian vaults and notes
+  - [pCloud](https://www.pcloud.com/) (Lifetime paid plan)
+  - [Tresorit](https://tresorit.com/) (free plan) for storing my most important files
+  - [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance, free plan) for storing my Obsidian vaults and notes
 - File synchronisation: [Syncthing](https://syncthing.net/)
 - Bookmarks: [Floccus](https://floccus.org/) with Nextcloud Files WebDAV, and my own instance of [Linkding](https://linkding.link/)
 - Text editor: [KWrite](https://apps.kde.org/kwrite/)
@@ -113,13 +114,13 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup ([my Neovim and LazyVim configurations](https://git.helenchong.dev/helenchong/LazyVim))
 - Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Forgejo instance](https://git.helenchong.dev/)
-    - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
+  - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### Media
 
 - Image viewer:
-	- PC: [Gwenview](https://apps.kde.org/gwenview/) (GUI), [kitty's icat](https://sw.kovidgoyal.net/kitty/kittens/icat/) (CLI), and [mpv](https://mpv.io/) (CLI)
-	= Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
+  - PC: [Gwenview](https://apps.kde.org/gwenview/) (GUI), [kitty's icat](https://sw.kovidgoyal.net/kitty/kittens/icat/) (CLI), and [mpv](https://mpv.io/) (CLI)
+    = Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
 - Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)

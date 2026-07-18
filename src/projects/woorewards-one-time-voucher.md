@@ -10,6 +10,7 @@ date: 2023-01-01
 ---
 
 ## Project Links
+
 - [Download Plugin](https://github.com/helenclx/woorewards-addon-one-time-voucher/releases)
 - [Project Repository](https://github.com/helenclx/woorewards-addon-one-time-voucher)
 

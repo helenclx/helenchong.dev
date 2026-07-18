@@ -16,6 +16,7 @@ The next day, I started implementing the feature to buy stocks by setting up and
 On the third day of me doing the Finance problem, I successfully implemented the features to buy stocks and displaying the user’s owned stocks on the index page. My work on this project allowed me to refresh my knowledge and skills of SQL, by creating new tables, inserting new rows into tables, and updating data of existing tables. I also got more practice in working with Flask by dynamically render HTML elements via Python.
 
 On 5 March 2024, I successfully implemented not only the last required features to sell stocks and display transaction history, but also additional features, namely to add cash to the user’s account and change the user’s password. On my last day working on the Finance assignment specifically, I learned about:
+
 - Set the timestamp based on local time zone in SQL
 - The flash message function in Flask
 - Use both the `round()` and `float()` functions to round a number to a certain amount of decimals

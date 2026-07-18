@@ -1,5 +1,7 @@
 /* Home page sections */
-.home--container { margin: 0 auto 2em; }
+.home--container {
+	margin: 0 auto 2em;
+}
 
 .section--home {
 	display: grid;
@@ -62,7 +64,9 @@
 	font-size: 1.125rem;
 }
 
-.profile__link { font-weight: bold; }
+.profile__link {
+	font-weight: bold;
+}
 
 /* For larger screen sizes */
 @media (min-width: 640px) {

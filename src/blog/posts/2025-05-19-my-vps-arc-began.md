@@ -6,6 +6,7 @@ updated: 2025-05-28T06:38:31+0800
 topics: ["virtual private server", "self-hosting"]
 toc: true
 ---
+
 It is official — not only I have a virtual private server (VPS), but also I have started self-hosting things on a VPS, including all my websites.
 
 I had heard of the concept of self-hosting even before making my first website from scratch in 2022. When I became more aware of digital privacy, I had learned that people can host alternatives to mainstream tech services, but while I learned to switch to using more privacy-friendly software as much as possible, I did not have enough tech proficiently to self-host yet.

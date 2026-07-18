@@ -9,6 +9,7 @@ tech: ["JavaScript", "API", "Firebase"]
 ---
 
 ## Project Links
+
 - [Project Repository](https://github.com/helenclx/Scrimba-Frontend-Solo-Projects)
 
 ## Introduction

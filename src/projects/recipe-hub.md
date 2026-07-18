@@ -10,6 +10,7 @@ date: 2023-01-02
 ---
 
 ## Project Links
+
 - [Live Project](https://chingu-voyages.github.io/v46-tier1-team-01/Food-Recipe/)
 - [Project Repository](https://github.com/chingu-voyages/v46-tier1-team-01)
 

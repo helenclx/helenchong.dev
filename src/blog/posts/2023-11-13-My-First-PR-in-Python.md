@@ -15,8 +15,8 @@ When I started using the `extract_translation` script to data mine in-game dialo
 
 I have had little experience with writing Python scripts, so I saw this as a great learning opportunity for me to put my Python knowledge and skills into practice. After forking the cbpickaxe repository, looking into the code and a lot of web searching, I discovered that in the original code, printing the output of the IDs with missing strings only has one key (`id`) in its list, and does not have any locale key to display the corresponding strings. Therefore, I started thinking of possible solutions from there:
 
-* Check if the string ID does not have the locale key, by using this condition: `if locale not in row.keys()`
-* Check if the string ID only has one key (id), by using this condition: `if len(row.keys()) == 1`
+- Check if the string ID does not have the locale key, by using this condition: `if locale not in row.keys()`
+- Check if the string ID only has one key (id), by using this condition: `if len(row.keys()) == 1`
 
 After trying both possible methods, I eventually settled for the second one, because it allowed me to write cleaner and more succinct code, while the first required me to write more bloated code, mainly due to having to repeat the block of code for searching and reading strings from in-game data, as refactoring it into a function meant losing the definition of the locale variable.
 

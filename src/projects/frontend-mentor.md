@@ -9,6 +9,7 @@ tech: ["JavaScript", "API"]
 ---
 
 ## Project Links
+
 - [Project Site](https://helenclx.github.io/Frontend-Mentor-Challenges/)
 - [Project Repository](https://github.com/helenclx/Frontend-Mentor-Challenges)
 

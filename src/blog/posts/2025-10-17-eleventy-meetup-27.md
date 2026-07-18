@@ -4,6 +4,7 @@ desc: I spoke at THE Eleventy Meetup again; this time about building a multiling
 date: 2025-10-17T11:52:36+0800
 topics: ['eleventy', 'speaking']
 ---
+
 On 15 October 2025, I spoke at [Episode 27](https://11tymeetup.dev/events/ep-27-11ty-at-the-museum-and-multilingual-blogs/) of [THE Eleventy Meetup](https://11tymeetup.dev/), about building a multilingual blog with Eleventy.
 
 This marked my second time speaking at THE Eleventy Meetup, after [Episode 19 of the meetup](2024-09-27-eleventy-meetup-19-first-talk.md) in September 2024, which was also when I spoke at a tech event for the first time.

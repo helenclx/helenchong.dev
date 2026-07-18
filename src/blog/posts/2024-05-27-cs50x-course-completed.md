@@ -14,6 +14,7 @@ You can watch a demonstration of CS50 Flask Blog in this video:
 https://www.youtube.com/watch?v=eH8Tq57KzXs
 
 CS50 Flask Blog includes the following features:
+
 - Create a user account with a password
 - Write, edit and delete blog posts
 - Rich text editor for writing and editing blog posts

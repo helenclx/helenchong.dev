@@ -5,6 +5,7 @@ date: 2025-09-19T19:08:36+0800
 topics: ['omg.lol']
 toc: true
 ---
+
 19 September 2025 marks the first anniversary of my membership of [omg.lol](https://home.omg.lol/), a web platform consists of various services. Happy omg.lol Birthday to me! 🥳
 
 On this day in 2024, I joined omg.lol after successfully bidding a lifetime membership during omg.lol's fundraising campaign for St. Jude, then a month later, I celebrated the [one-month anniversary of my omg.lol membership](2024-10-19-omg-lol-membership-one-month-anniversary.md) with a blog post, which also explained how I discovered omg.lol.

@@ -14,7 +14,9 @@ eleventyComputed:
     parent: Blog Topics
 ---
 {{ set postCount = collections.posts |> filterByTopic(topic) |> itemCount }}
-<h2 class="blog__cat--title">{{ postCount }} Posts Filed Under "{{ topic }}"</h2>
+<h2 class="blog__cat--title">
+	{{ postCount }} Posts Filed Under "{{ topic }}"
+</h2>
 
 {{ set postList = collections.posts |> filterByTopic(topic) |> toReversed }}
 {{ include "partials/postslist.vto" }}

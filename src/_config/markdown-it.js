@@ -1,6 +1,6 @@
 /* CONFIGURATION FOR MARKDOWN TEMPLATES */
 // Installed plugins
-import pluginTOC from '@uncenter/eleventy-plugin-toc';
+import pluginTOC from "@uncenter/eleventy-plugin-toc";
 import embedEverything from "eleventy-plugin-embed-everything";
 
 // Configure slug filter
@@ -12,22 +12,22 @@ import markdownItAnchor from "markdown-it-anchor";
 import markdownItAttrs from "markdown-it-attrs";
 import markdownItBracketedSpans from "markdown-it-bracketed-spans";
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
 	// Installed plugins
 	eleventyConfig.addPlugin(pluginTOC, {
-		tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
+		tags: ["h2", "h3", "h4", "h5", "h6"],
 		wrapper: (toc) => {
 			return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
 		},
 	});
-	eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
+	eleventyConfig.addPlugin(embedEverything, { add: ["soundcloud"] });
 
 	// Configure markdown-it-anchor plugins
-	eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
+	eleventyConfig.setLibrary("md", markdownIt().use(markdownItAnchor));
 	const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
 		class: "heading-anchor",
-		assistiveText: title => `Permalink to section '${title}'`,
-		visuallyHiddenClass: 'visually-hidden',
+		assistiveText: (title) => `Permalink to section '${title}'`,
+		visuallyHiddenClass: "visually-hidden",
 	});
 	const markdownItAnchorOptions = {
 		level: [2, 3, 4, 5],
@@ -39,18 +39,22 @@ export default function(eleventyConfig) {
 			}),
 		tabIndex: false,
 		permalink(slug, opts, state, idx) {
-			state.tokens.splice(idx, 0,
+			state.tokens.splice(
+				idx,
+				0,
 				Object.assign(new state.Token("div_open", "div", 1), {
 					// Add class "header-wrapper [h1 or h2 or h3]"
 					attrs: [["class", `heading-wrapper ${state.tokens[idx].tag}`]],
 					block: true,
-				})
+				}),
 			);
 
-			state.tokens.splice(idx + 4, 0,
+			state.tokens.splice(
+				idx + 4,
+				0,
 				Object.assign(new state.Token("div_close", "div", -1), {
 					block: true,
-				})
+				}),
 			);
 
 			linkAfterHeader(slug, opts, state, idx + 1);
@@ -65,7 +69,7 @@ export default function(eleventyConfig) {
 		.set({ fuzzyLink: false })
 		.use(markdownItAnchor, markdownItAnchorOptions)
 		.use(markdownItAttrs)
-		.use(markdownItBracketedSpans)
+		.use(markdownItBracketedSpans);
 
 	/* This is the part that tells 11ty to swap to our custom config */
 	eleventyConfig.setLibrary("md", markdownLibrary);

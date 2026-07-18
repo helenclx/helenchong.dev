@@ -20,9 +20,15 @@
 	--clr-top-btn-bg: #4153b6;
 	--clr-top-btn-txt: #fff;
 
-	--ff-regular: 'IBM Plex Sans', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-	--ff-heading: 'Work Sans', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-	--ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--ff-regular:
+		"IBM Plex Sans", Avenir, Montserrat, Corbel, "URW Gothic", source-sans-pro,
+		sans-serif;
+	--ff-heading:
+		"Work Sans", Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+		source-sans-pro, sans-serif;
+	--ff-monospace:
+		"Intel One Mono", ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+		Consolas, "DejaVu Sans Mono", monospace;
 
 	--fs-base: clamp(1.05rem, 1.013rem + 0.186vw, 1.18rem);
 	--fs-h1: clamp(2.2rem, 2.057rem + 0.714vw, 2.7rem);
@@ -38,9 +44,11 @@
 	--sz-list-gap: 0.5em;
 	--sz-content-bottom: 4em;
 
-	--bs-main: 0 10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(162, 162, 162, 0.5)),
+	--bs-main:
+		0 10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(162, 162, 162, 0.5)),
 		0 4px 6px -4px light-dark(rgb(0 0 0 / 0.2), rgba(129, 129, 129, 0.5));
-	--bs-footer: 0 -10px 15px -3px light-dark(rgba(0, 0, 0, 0.3), rgba(215, 215, 215, 0.5));
+	--bs-footer: 0 -10px 15px -3px
+		light-dark(rgba(0, 0, 0, 0.3), rgba(215, 215, 215, 0.5));
 }
 
 /* ------------------- */
@@ -48,7 +56,9 @@
 /* ------------------- */
 
 @layer reset {
-	*, *::before, *::after {
+	*,
+	*::before,
+	*::after {
 		box-sizing: border-box;
 	}
 
@@ -61,26 +71,50 @@
 		line-height: 1.5;
 	}
 
-	h1, h2, h3, h4, h5, h6,
-	button, input, label {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	button,
+	input,
+	label {
 		line-height: 1.1;
 	}
 
-	p, h1, h2, h3, h4, h5, h6 {
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		overflow-wrap: break-word;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		text-wrap: balance;
 	}
 
-	img, picture, video, canvas {
+	img,
+	picture,
+	video,
+	canvas {
 		max-width: 100%;
 		height: auto;
 		display: block;
 	}
 
-	input, button, textarea, select {
+	input,
+	button,
+	textarea,
+	select {
 		font: inherit;
 	}
 

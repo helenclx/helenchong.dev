@@ -12,9 +12,15 @@ eleventyNavigation:
 
 <ul>
 	{{ for topic of collections.topics }}
-	{{ set topicUrl }}/blog/topics/{{ topic |> slugify }}/{{ /set }}
-	{{ set topicPostCount = collections.posts |> filterByTopic(topic) |> itemCount }}
-	<li><a href="{{ topicUrl }}">{{ topic }}</a> ({{ topicPostCount }} posts)</li>
+		{{ set topicUrl }}/blog/topics/{{ topic |> slugify }}/{{ /set }}
+		{{
+			set topicPostCount = collections.posts
+			|> filterByTopic(topic)
+			|> itemCount
+		}}
+		<li>
+			<a href="{{ topicUrl }}">{{ topic }}</a> ({{ topicPostCount }} posts)
+		</li>
 	{{ /for }}
 </ul>
 

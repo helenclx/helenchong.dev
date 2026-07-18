@@ -5,6 +5,7 @@ date: 2025-09-12T19:18:40+0800
 topics: ['bun', 'node.js', 'javascript', 'eleventy']
 hasCodeBlock: true
 ---
+
 Starting from today, I am no longer using Bun, the JavaScript runtime.
 
 I had used Bun to build all my websites that are made with the static site generator [Eleventy](https://www.11ty.dev/). I enjoyed using Bun because it was indeed fast, and I found its name and logo adorable. I even openly praised Bun during [my first talk at THE Eleventy meetup in September 2024](2024-09-27-eleventy-meetup-19-first-talk.md).

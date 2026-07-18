@@ -4,7 +4,7 @@ import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
 import pluginWordcount from "eleventy-plugin-wordcount-extended";
-import { VentoPlugin } from 'eleventy-plugin-vento';
+import { VentoPlugin } from "eleventy-plugin-vento";
 
 // Custom configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
@@ -14,7 +14,7 @@ import topicsConfig from "./src/_config/topics.js";
 import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
 	// ----- Installed Plugins
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 	eleventyConfig.addPlugin(pluginEleventyNavigation);
@@ -23,10 +23,12 @@ export default function(eleventyConfig) {
 			options: {
 				lazy: true,
 				recommendSelfOnly: true,
-			}
-		}
+			},
+		},
 	});
-	eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
+	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
+		preAttributes: { tabindex: 0 },
+	});
 	eleventyConfig.addPlugin(pluginWordcount);
 
 	// ----- Custom configurations
@@ -51,7 +53,7 @@ export default function(eleventyConfig) {
 		markdownTemplateEngine: "vto",
 		htmlTemplateEngine: "vto",
 		dir: {
-			input: "src"
-		}
+			input: "src",
+		},
 	};
-};
+}

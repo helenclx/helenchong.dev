@@ -14,23 +14,31 @@ eleventyComputed:
   pageTitle: "{{ sitemeta.siteBlog.title }}"
 ---
 
-<p>Welcome to my developer blog! My blog is a place for me to document my developer journey and talk about various tech topics. Enjoy your stay!</p>
+<p>
+	Welcome to my developer blog! My blog is a place for me to document my
+	developer journey and talk about various tech topics. Enjoy your stay!
+</p>
 
 <h2>Blog Posts</h2>
 <ul class="blog__posts">
 	{{ for post of postList }}
-	<li class="blog__post">
-		<h3 class="blog__post--title">
-			<a href="{{ post.url }}">
-				{{ if post.data.title }}{{ post.data.title }}
-				{{ else }}
-					<code>{{ post.url }}</code>
-				{{ /if }}
-			</a>
-		</h3>
-		<p><time datetime="{{ post.date }}" class="blog__post--time">{{ post.date |> formatDate }}</time></p>
-		<p>{{ post.data.desc }}</p>
-	</li>
+		<li class="blog__post">
+			<h3 class="blog__post--title">
+				<a href="{{ post.url }}">
+					{{ if post.data.title }}{{ post.data.title }}
+					{{ else }}
+						<code>{{ post.url }}</code>
+					{{ /if }}
+				</a>
+			</h3>
+			<p>
+				<time datetime="{{ post.date }}" class="blog__post--time">{{
+					post.date
+					|> formatDate
+				}}</time>
+			</p>
+			<p>{{ post.data.desc }}</p>
+		</li>
 	{{ /for }}
 </ul>
 

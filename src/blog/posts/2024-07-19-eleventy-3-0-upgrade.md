@@ -62,7 +62,7 @@ It was finally time to go all way in using ESM in my projects that use JavaScrip
 
 The first step was to add `"type": "module"` to my `package.json`, to make my Eleventy project environment support ESM.
 
-Fun fact: When you create a `package.json` file with Bun, ``"type": "module"`` will be added by default. This actually tripped me up when I created my Eleventy 2.0 website with Bun, and made me learn about the differences between CommonJS and ESM the hard way, so I had to remove `"type": "module"`. Therefore, it feels good to have `"type": "module"` back to my `package.json` file.
+Fun fact: When you create a `package.json` file with Bun, `"type": "module"` will be added by default. This actually tripped me up when I created my Eleventy 2.0 website with Bun, and made me learn about the differences between CommonJS and ESM the hard way, so I had to remove `"type": "module"`. Therefore, it feels good to have `"type": "module"` back to my `package.json` file.
 
 Fortunately, Visual Studio Code, my go-to code editor, can automatically convert the CommonJS syntax of the imports in my Eleventy configuration files and the exports of the Eleventy configuration functions to ESM. Visual Studio Code also converts the `module.exports` syntax in my website metadata file, by assigning `const` variables and adding the `export` declaration, which allows me to use the variables and their values in other variables in the same file, without using the `this` keyword. For example:
 

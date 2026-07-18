@@ -10,17 +10,17 @@ hasCodeBlock: true
 {{ set demoHeight = "23rem" }}
 
 {{ set disabilityPrideCss }}.disability-pride-flag {
-	background:
-		linear-gradient(
-			37deg,
-			#595959 0 35%,
-			#CF7280 30% 41%,
-			#EEDE77 30% 47%,
-			#E8E8E8 30% 53%,
-			#7bc2e0 30% 59%,
-			#3BB07D 30% 65%,
-			#595959 0
-		);
+background:
+linear-gradient(
+37deg,
+#595959 0 35%,
+#CF7280 30% 41%,
+#EEDE77 30% 47%,
+#E8E8E8 30% 53%,
+#7bc2e0 30% 59%,
+#3BB07D 30% 65%,
+#595959 0
+);
 }{{ /set }}
 
 {{ css }}
@@ -48,7 +48,7 @@ I was inspired to code a Disbility Pride flag background in CSS by other people'
 
 Since Ann Magill released the Disability Pride flag to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdohome/zero/1.0/), I am doing the same to my responsive Disability Pride Flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.
 
-You can also check out [my CodePen demo](https://codepen.io/helenclx/pen/VwJjBmB)  for my responsive Disability Pride flag CSS background and play with the code.
+You can also check out [my CodePen demo](https://codepen.io/helenclx/pen/VwJjBmB) for my responsive Disability Pride flag CSS background and play with the code.
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="VwJjBmB" data-pen-title="Disability Pride Flag CSS Background" data-editable="true" data-user="helenclx" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/helenclx/pen/VwJjBmB">
