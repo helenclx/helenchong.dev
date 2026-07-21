@@ -52,13 +52,5 @@
 		src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js"
 		defer
 	></script>
+	<script src="/assets/js/website-carbon-badge.js" defer></script>
 </section>
-
-{{ js }}
-const darkModePreference = window.matchMedia("(prefers-color-scheme: dark)");
-const websiteCarbonBadge = document.getElementById("wcb"); if (window.matchMedia
-&& darkModePreference.matches) { websiteCarbonBadge.classList.add("wcb-d"); }
-darkModePreference.addEventListener("change", (event) => { if (event.matches) {
-websiteCarbonBadge.classList.add("wcb-d"); } else {
-websiteCarbonBadge.classList.remove("wcb-d"); } });
-{{ /js }}
