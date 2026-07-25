@@ -7,28 +7,15 @@ topics: ["css", "disability pride"]
 hasCodeBlock: true
 ---
 
-{{ set demoHeight = "23rem" }}
-
-{{ set disabilityPrideCss }}.disability-pride-flag {
-background:
-linear-gradient(
-37deg,
-#595959 0 35%,
-#CF7280 30% 41%,
-#EEDE77 30% 47%,
-#E8E8E8 30% 53%,
-#7bc2e0 30% 59%,
-#3BB07D 30% 65%,
-#595959 0
-);
-}{{ /set }}
-
 {{ css }}
-{{ disabilityPrideCss }}
-.disability-pride-flag.demo { height: {{ demoHeight }}; }
+.disability-pride-flag.demo { height: 23rem; }
 {{ /css }}
 
-<div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
+<div
+	class="disability-pride-flag demo"
+	role="img"
+	aria-label="Demo of the Disability Pride flag coded in CSS"
+></div>
 
 Happy [Disability Pride Month](https://en.wikipedia.org/wiki/Disability_Pride_Month)! To celebrate the occasion, I did a small project: a responsive Disability Pride flag CSS background! For those who do not know, this [Disability Pride flag](https://www.womansday.com/life/a43964487/disability-pride-flag/) was created by [Ann Magill](https://capri0mni.dreamwidth.org/837596.html) and released in 2021.
 
@@ -37,7 +24,18 @@ My Disability Pride flag CSS background is done with a combination of the CSS [`
 Here is the CSS snippet for a responsive Disability Pride Flag background:
 
 ```css
-{{ disabilityPrideCss }}
+.disability-pride-flag {
+	background: linear-gradient(
+		37deg,
+		#595959 0 35%,
+		#cf7280 30% 41%,
+		#eede77 30% 47%,
+		#e8e8e8 30% 53%,
+		#7bc2e0 30% 59%,
+		#3bb07d 30% 65%,
+		#595959 0
+	);
+}
 ```
 
 After copying the above snippet in a CSS stylesheet or the HTML `<style>` tags, to apply the background to an HTML element, simply add the CSS class name `disability-pride-flag` (you can rename the class name if you want) to the HTML element's `class` attribute.
