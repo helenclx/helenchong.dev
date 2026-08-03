@@ -21,7 +21,7 @@ It has been almost a year since Galaxy Garden was [launched on 8 October 2024](h
 
 Galaxy Garden started after I joined [omg.lol](https://home.omg.lol/) with a lifetime membership in September 2024. omg.lol had [become one of my favourite online communities](2024-10-19-omg-lol-membership-one-month-anniversary.md). The bloggers in the omg.lol community ended up inspiring me to start a personal blog again, which led to the launch of Galaxy Garden.
 
-My history with blogging went as far back as the 2000s when I was a teenager. Back then, I blogged in Mandarin Chinese, which is my native language, and there used to be a community of Malaysian Chinese bloggers. However, I gradually abandoned my teenage blog due to various major changes both on the web and in my life, such as the rise of social media and me attending university. That said, blogging was my first foray into expressing myself on the World Wide Web.
+My history with blogging went as far back as the 2000s when I was a teenager. Back then, I blogged in Mandarin Chinese, which is my native language, and there used to be a community of Chinese Malaysian bloggers. However, I gradually abandoned my teenage blog due to various major changes both on the web and in my life, such as the rise of social media and me attending university. That said, blogging was my first foray into expressing myself on the World Wide Web.
 
 Therefore, when I got inspired by other bloggers in the omg.lol community and other parts of the independent web to return to my personal blogging roots, I decided that I wanted to blog in both English and Mandarin Chinese, written in Simplified Chinese as that is what is taught in Chinese schools and classes in Malaysia. In addition, blogging in Mandarin Chinese would give me more opportunities to continue practising writing in the language.
 
@@ -155,7 +155,7 @@ As for my workflow for blogging in multiple languages, I typically start with dr
 
 ## Wrapping Up
 
-Making a multilingual blog has been a learning experience, both content- and technical-wise. However, I am happy to have made my own, as I am proud to be multilingual, thanks to my upbringing as a Malaysian Chinese person. I had written about my experience with the World Wide Web, which English is the _lingua franca_ of, from the [perspective of a multilingual person](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/) on my personal blog.
+Making a multilingual blog has been a learning experience, both content- and technical-wise. However, I am happy to have made my own, as I am proud to be multilingual, thanks to my upbringing as a Chinese Malaysian. I had written about my experience with the World Wide Web, which English is the _lingua franca_ of, from the [perspective of a multilingual person](https://blog.helenchong.omg.lol/en/posts/2024-10-25-indieweb-carnival-multilingualism/) on my personal blog.
 
 You can check out my English-Simplified Chinese bilingual personal blog on [blog.helenchong.omg.lol](http://blog.helenchong.omg.lol/), and its source code on [my self-hosted Forgejo instance](https://git.helenchong.dev/helenchong/helenchong-blog).
 
