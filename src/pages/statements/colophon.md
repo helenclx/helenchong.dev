@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-07-18T20:35:29+0800
+updated: 2026-08-11T16:26:42+0800
 toc: true
 ---
 
@@ -18,7 +18,7 @@ How this website is built.
 
 ## Host and Domain
 
-- Hosted on a virtual private server (VPS) I rented from [Chunkserve](https://chunkserve.com/).
+- Hosted on a virtual private server (VPS) I rented from [Deluxhost](https://deluxhost.net/).
 - Web server: [Caddy](https://caddyserver.com/).
 - The domain name, {{ sitemeta.siteDomain }}, was registered on 29 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
 
