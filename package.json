@@ -35,9 +35,9 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.9",
-		"dprint": "^0.55.2"
+		"dprint": "^0.56.0"
 	},
 	"allowScripts": {
-		"dprint@0.55.2": true
+		"dprint@0.56.0": true
 	}
 }
