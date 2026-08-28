@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-06-15T18:16:25+0800
+update: 2026-08-28T18:58:32+0800
 toc: true
 ---
 
@@ -74,7 +74,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [Miniflux](https://miniflux.app/) (my own instance), and [Capy Reader](https://capyreader.com/) on smartphone
 - VPN: [Proton VPN](https://protonvpn.com/)
-- IRC client: [The Lounge](https://thelounge.chat/) (my own instance), [Halloy](https://halloy.chat/) on PC, and [Goguma](https://codeberg.org/emersion/goguma) on smartphone
+- IRC client: [Halloy](https://halloy.chat/) on PC, and [Goguma](https://codeberg.org/emersion/goguma) on smartphone
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
 - YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
 - Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
@@ -111,8 +111,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Software Development
 
-- Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup ([my Neovim and LazyVim configurations](https://git.helenchong.dev/helenchong/LazyVim))
-- Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
+- Code editors: [Helix](https://helix-editor.com/), [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Forgejo instance](https://git.helenchong.dev/)
   - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
