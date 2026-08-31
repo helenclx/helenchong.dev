@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-update: 2026-08-28T18:58:32+0800
+update: 2026-08-31T13:10:05+0800
 toc: true
 ---
 
@@ -53,7 +53,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Command line shell: [Fish](https://fishshell.com/) (default) and [Bash](https://www.gnu.org/software/bash/)
 - Terminal emulator:
-  - [kitty](https://sw.kovidgoyal.net/kitty/) (default)
+  - [Ghostty](https://ghostty.org/) (default)
   - [Konsole](https://konsole.kde.org/) (KDE apps' built-in terminal)
 - Shell prompt customisation: [Starship](https://starship.rs/)
 - Terminal workspace manager: [Zellij](https://zellij.dev/)
@@ -118,7 +118,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Media
 
 - Image viewer:
-  - PC: [Gwenview](https://apps.kde.org/gwenview/) (GUI), [kitty's icat](https://sw.kovidgoyal.net/kitty/kittens/icat/) (CLI), and [mpv](https://mpv.io/) (CLI)
+  - PC: [Gwenview](https://apps.kde.org/gwenview/) (GUI), [chafa](https://hpjansson.org/chafa/) (CLI), and [mpv](https://mpv.io/) (CLI)
     = Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library: [Elisa](https://apps.kde.org/elisa/) on PC, and [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player) on smartphone
