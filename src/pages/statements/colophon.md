@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-08-11T16:26:42+0800
+updated: 2026-09-04T18:54:26+0800
 toc: true
 ---
 
@@ -14,7 +14,7 @@ How this website is built.
 - Templating languages: [Vento](https://vento.js.org/) and Markdown.
 - Code linters and formatters: [Biome](https://biomejs.dev/) and [dprint](https://dprint.dev/) (with the [Markdown](https://github.com/dprint/dprint-plugin-markdown) and [markup-fmt](https://github.com/g-plane/markup_fmt) plugins).
 - Tested web browsers: Mozilla Firefox, Vivaldi, W3m and Lynx.
-- Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link}, [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link} and [GitHub](https://github.com/helenclx/helenchong.dev){class=external-link}.
+- Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link} and [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link}{class=external-link}.
 
 ## Host and Domain
 
