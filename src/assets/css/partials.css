@@ -192,58 +192,6 @@
 	margin-left: 0.2em;
 }
 
-/* TABLE OF CONTENTS */
-.toc__wrapper {
-	max-height: 93vh;
-	overflow-x: auto;
-	padding: 0.3em 1.3rem 1.5em;
-}
-
-.toc__heading {
-	font-size: 1.4rem;
-	font-weight: 700;
-}
-
-.toc__wrapper[open] > .toc__heading {
-	margin-bottom: 0.5em;
-}
-
-.toc ol,
-.toc ol ol {
-	display: grid;
-	gap: 0.7em;
-}
-
-.toc ol {
-	border-top: 0.1em solid var(--clr-txt-default);
-	padding-left: 1.3em;
-	padding-top: 1em;
-}
-
-.toc ol ol {
-	border-top: none;
-	list-style-type: disc;
-	padding-left: 1em;
-	padding-top: 0.5em;
-	margin: 0;
-}
-
-.toc ol a {
-	font-size: 1.1em;
-	padding-left: 0.3em;
-}
-
-.toc ol ol a {
-	padding: 0;
-	font-size: 1em;
-}
-
-@media only screen and (min-width: 60rem) {
-	.toc__wrapper {
-		padding-bottom: var(--sz-content-bottom);
-	}
-}
-
 /* PAGINATION */
 .pagination__wrapper {
 	display: grid;
@@ -272,14 +220,14 @@
 .pagination li:has(a):hover {
 	border-color: var(--clr-link-hover);
 }
+.pagination li a {
+	text-decoration: none;
+}
 .pagination li:has(a):hover > a {
 	color: var(--clr-link-hover);
 }
 .pagination li:has(a):focus-within {
 	outline: 0.2em solid var(--clr-accent-700);
-}
-.pagination li a {
-	text-decoration: none;
 }
 .pagination li a:focus {
 	outline: none;

@@ -24,10 +24,6 @@
 	transition: transform 0.3s ease 0s;
 }
 
-.project-card__image-wrapper:hover img {
-	transform: scale(1.05);
-}
-
 .project-card__body {
 	padding: 1em;
 }
@@ -102,4 +98,8 @@
 .project__image-wrapper img {
 	margin-bottom: 2rem;
 	border-radius: 0.25rem;
+}
+
+.project-card__image-wrapper:hover img {
+	transform: scale(1.05);
 }
