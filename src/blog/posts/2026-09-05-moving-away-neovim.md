@@ -3,6 +3,7 @@ title: Moving Away from Neovim
 desc: After daily driving Neovim as my main code editor for more than a year, I have switched to Emacs, after learning about Neovim leadership's fascist sympathies.
 date: 2026-09-05T20:01:18+0800
 topics: [neovim, emacs, helix editor]
+toc: true
 ---
 
 In April 2025, I wrote a blog post about [switching from Visual Studio Code to Neovim](2025-04-03-i-use-neovim-btw.md) as my main editor. The post has a [section](2025-04-03-i-use-neovim-btw.md/#side-note-gnu-emacs) about [GNU  Emacs](https://www.gnu.org/software/emacs/), with me mentioning not completely ruling out the possibility of me using Emacs one day.
