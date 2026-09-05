@@ -2,7 +2,8 @@
 title: I Use (Neo)Vim BTW
 desc: I have officially joined the Vim ecosystem and switched to Neovim as my main code editor.
 date: 2025-04-03T20:22:21+0800
-topics: ["vim", "neovim", "42 the school", "vs code"]
+updated: 2026-09-05T20:17:28+0800
+topics: ["vim", "neovim", "42 the school", "visual studio code"]
 toc: true
 ---
 
@@ -59,3 +60,7 @@ As part of my efforts to transition to the Vim ecosystem as my main code editor,
 Finally, as I settled in Vim and Neovim, I uninstalled most extensions in Visual Studio Code, officially marking my switch from VS Code to Neovim as my main code editor.
 
 Hello, Vim and Neovim!
+
+## Update, 5 September 2026: Moving Away from Neovim
+
+Unfortunately, after daily driving Neovim for more than a year, I have decided to move away from Neovim and am unable to endorse Neovim any more, due to the Neovim leadership's fascist tendencies. Read my blog post, ["Moving Away from Neovim"](2026-09-05-moving-away-neovim.md) for more details.
