@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-06T10:54:21+0800
+updated: 2026-09-06T20:55:56+0800
 toc: true
 ---
 
@@ -118,8 +118,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Media
 
 - Image viewer:
-  - PC: [Gwenview](https://apps.kde.org/gwenview/) (GUI), [chafa](https://hpjansson.org/chafa/) (CLI), and [mpv](https://mpv.io/) (CLI)
-    = Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
+  - PC: [nomacs](https://nomacs.org/) (GUI), [chafa](https://hpjansson.org/chafa/) (CLI), and [mpv](https://mpv.io/) (CLI)
+  - Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library:
 	- PC: [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) and [Elisa](https://apps.kde.org/elisa/)
