@@ -6,7 +6,7 @@ topics: [neovim, emacs, helix editor]
 toc: true
 ---
 
-In April 2025, I wrote a blog post about [switching from Visual Studio Code to Neovim](2025-04-03-i-use-neovim-btw.md) as my main editor. The post has a [section](2025-04-03-i-use-neovim-btw.md/#side-note-gnu-emacs) about [GNU  Emacs](https://www.gnu.org/software/emacs/), with me mentioning not completely ruling out the possibility of me using Emacs one day.
+In April 2025, I wrote a blog post about [switching from Visual Studio Code to Neovim](2025-04-03-i-use-neovim-btw.md) as my main editor. The post has a [section](2025-04-03-i-use-neovim-btw.md/#side-note-gnu-emacs) about [GNU Emacs](https://www.gnu.org/software/emacs/), with me mentioning not completely ruling out the possibility of me using Emacs one day.
 
 A year later, the day has come: I am officially an Emacs user.
 
@@ -20,7 +20,7 @@ Then, on 28 August 2026, I woke up to upsetting news that Neovim is run by fasci
 
 You can check out the [entire thread of the GitHub issue in question](https://github.com/neovim/neovim.github.io/issues/501) for yourself.
 
-The revelation that a piece of software I use on a daily basis is run by a fascist sympathiser is devastating. As core developer, Keyes' reaction throughout this whole debacle was a damning indictment of his character. He could have reacted to concerns about platforming a known white supremacist like DHH by immediately removing the DHH quote and acknowledged his mistake, but instead he accused people who raised those concerns a "drive-by mob" who mostly are not even Neovim users. I cannot in good conscience endorse a software project run by fascists and fascist sympathisers, so I decided to look for alternative code editors to switch from Neovim. Keyes might not have *explicitly* said he agreed with DHH or not during this entire fiasco, but neutrality in the face of fascist rhetoric is a position that helps fascists because it is still allowing fascists to have platforms.
+The revelation that a piece of software I use on a daily basis is run by a fascist sympathiser is devastating. As core developer, Keyes' reaction throughout this whole debacle was a damning indictment of his character. He could have reacted to concerns about platforming a known white supremacist like DHH by immediately removing the DHH quote and acknowledged his mistake, but instead he accused people who raised those concerns a "drive-by mob" who mostly are not even Neovim users. I cannot in good conscience endorse a software project run by fascists and fascist sympathisers, so I decided to look for alternative code editors to switch from Neovim. Keyes might not have _explicitly_ said he agreed with DHH or not during this entire fiasco, but neutrality in the face of fascist rhetoric is a position that helps fascists because it is still allowing fascists to have platforms.
 
 There is much more to be said about the worrying trend of fascists and fascist sympathisers in free and open-source software (FOSS). I highly recommend reading Abhiram Kuchibhotla's blog post ["The Chudification of Open Source"](https://foss.life/notes/2026/the-chudification-of-open-source/) on the subject, with the Neovim debacle cited as the one of such incidents, and possible ways to solve it.
 
