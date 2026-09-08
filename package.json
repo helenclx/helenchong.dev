@@ -10,12 +10,14 @@
 		"build": "npx @11ty/eleventy",
 		"build-quiet": "npm run build -- --quiet",
 		"dev": "npm run build-quiet -- --serve",
-		"lint": "npm run lint:biome && npm run lint:dprint",
 		"lint:biome": "npx @biomejs/biome lint",
+		"lint:rumdl": "npx rumdl check",
 		"lint:dprint": "npx dprint check",
-		"format": "npm run format:biome && npm run format:dprint",
+		"lint": "npm run lint:biome && npm run lint:rumdl && npm run lint:dprint",
 		"format:biome": "npx @biomejs/biome format --write",
-		"format:dprint": "npx dprint fmt"
+		"format:rumdl": "npx rumdl fmt",
+		"format:dprint": "npx dprint fmt",
+		"format": "npm run format:biome && npm run format:dprint && npm run format:dprint"
 	},
 	"type": "module",
 	"dependencies": {
@@ -35,7 +37,8 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.12",
-		"dprint": "^0.57.4"
+		"dprint": "^0.57.4",
+		"rumdl": "^0.2.68"
 	},
 	"allowScripts": {
 		"dprint@0.57.4": true

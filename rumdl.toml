@@ -1,0 +1,10 @@
+[global]
+disable = ["MD013"]
+exclude = [
+    ".git",
+    "node_modules",
+    "LICENSE.md",
+]
+
+[per-file-ignores]
+"src/**/*.md" = ["MD026", "MD033", "MD034", "MD036", "MD041", "MD057"]

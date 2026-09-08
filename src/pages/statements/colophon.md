@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2026-09-04T18:54:26+0800
+updated: 2026-09-08T17:53:49+0800
 toc: true
 ---
 
@@ -12,7 +12,7 @@ How this website is built.
 - Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 - JavaScript runtime: [Node.js](https://nodejs.org/).
 - Templating languages: [Vento](https://vento.js.org/) and Markdown.
-- Code linters and formatters: [Biome](https://biomejs.dev/) and [dprint](https://dprint.dev/) (with the [Markdown](https://github.com/dprint/dprint-plugin-markdown) and [markup-fmt](https://github.com/g-plane/markup_fmt) plugins).
+- Code linters and formatters: [Biome](https://biomejs.dev/), [rumdl](https://rumdl.dev/), and [dprint](https://dprint.dev/) with the [markup-fmt](https://github.com/g-plane/markup_fmt) plugin.
 - Tested web browsers: Mozilla Firefox, Vivaldi, W3m and Lynx.
 - Source code available on [my Forgejo instance](https://git.helenchong.dev/helenchong/helenchong.dev), [SourceTube](https://source.tube/helenchong/helenchong.dev){class=external-link} and [Codeberg](https://codeberg.org/helenchong/helenchong.dev){class=external-link}{class=external-link}.
 

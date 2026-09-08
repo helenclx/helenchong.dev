@@ -9,18 +9,24 @@ More technical information about this website can be found the website's [coloph
 Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone this repository locally
-   ```
+
+   ```sh
    git clone https://git.helenchong.dev/helenchong/helenchong.dev.git
    ```
+
 1. Install dependencies
-   ```
+
+   ```sh
    npm install
    ```
+
 1. Run the project
-   ```
+
+   ```sh
    npm run dev
    ```
-1. Open http://localhost:8080/ in your browser
+
+1. Open <http://localhost:8080/> in your browser
 
 ## Licence
 
