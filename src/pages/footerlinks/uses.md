@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-06T20:55:56+0800
+updated: 2026-09-10T00:41:30+0800
 toc: true
 ---
 
@@ -113,7 +113,6 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Code editors: [GNU Emacs](https://www.gnu.org/software/emacs/) with [Doom Emacs](https://github.com/doomemacs), [Helix](https://helix-editor.com/), [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Version control: [Git](https://git-scm.com/)
-  - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### Media
 
