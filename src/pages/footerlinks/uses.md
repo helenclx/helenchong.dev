@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-10T00:41:30+0800
+updated: 2026-09-16T23:26:32+0800
 toc: true
 ---
 
@@ -52,9 +52,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Terminal
 
 - Command line shell: [Fish](https://fishshell.com/) (default) and [Bash](https://www.gnu.org/software/bash/)
-- Terminal emulator:
-  - [Ghostty](https://ghostty.org/) (default)
-  - [Konsole](https://konsole.kde.org/) (KDE apps' built-in terminal)
+- Terminal emulator: [Konsole](https://konsole.kde.org/)
 - Shell prompt customisation: [Starship](https://starship.rs/)
 - Terminal workspace manager: [Zellij](https://zellij.dev/)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
