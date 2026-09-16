@@ -36,7 +36,7 @@
 		"markdown-it-bracketed-spans": "^1.0.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.12",
+		"@biomejs/biome": "2.5.14",
 		"dprint": "^0.57.4",
 		"rumdl": "^0.2.68"
 	},
