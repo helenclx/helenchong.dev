@@ -91,4 +91,4 @@ Hello, Eleventy 3.0! 👋
 
 I was invited to speak at [THE Eleventy Meetup Episode 19](https://11tymeetup.dev/events/ep-19-migrating-to-3-0-and-blogging-with-storyblok/) on 26 September 2024, by giving a talk based on this blog post! You can watch my talk at THE Eleventy Meetup's YouTube Channel.
 
-https://www.youtube.com/watch?v=qgFNl_oAyQY
+{{ youtube "https://www.youtube.com/watch?v=qgFNl_oAyQY" }}

@@ -163,4 +163,4 @@ You can check out my English-Simplified Chinese bilingual personal blog on [blog
 
 I was invited to speak at [THE Eleventy Meetup Episode 27](https://11tymeetup.dev/events/ep-27-11ty-at-the-museum-and-multilingual-blogs/) on 15 October 2025, by giving a talk based on this blog post! You can watch my talk at THE Eleventy Meetup's YouTube Channel.
 
-https://www.youtube.com/watch?v=9VmjX0muGkk
+{{ youtube "https://www.youtube.com/watch?v=9VmjX0muGkk" }}

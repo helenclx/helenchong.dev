@@ -17,6 +17,6 @@ Once again, thank you [Sia Karamalegos](https://sia.codes/) for organising THE E
 
 You can watch my talk, "Building a Multilingual Blog with Eleventy", at THE Eleventy Meetup Episode 27 at THE Eleventy Meetup's YouTube channel:
 
-https://www.youtube.com/watch?v=9VmjX0muGkk
+{{ youtube "https://www.youtube.com/watch?v=9VmjX0muGkk" }}
 
 You can also read [my blog post about using Eleventy to build a multilngual blog](2025-09-05-eleventy-multilingual-blog.md) that my talk was based on.

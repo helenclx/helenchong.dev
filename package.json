@@ -27,7 +27,6 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
 		"@uncenter/eleventy-plugin-toc": "^2.1.2",
 		"@zachleat/details-utils": "^3.0.0",
-		"eleventy-plugin-embed-everything": "^1.21.2",
 		"eleventy-plugin-vento": "^6.0.0",
 		"eleventy-plugin-wordcount-extended": "^0.2.1",
 		"luxon": "^3.7.2",

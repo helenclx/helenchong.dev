@@ -11,7 +11,7 @@ After finishing [Week 9 of CS50x](2024-04-15-cs50x-week-9-completed.md), I began
 
 You can watch a demonstration of CS50 Flask Blog in this video:
 
-https://www.youtube.com/watch?v=eH8Tq57KzXs
+{{ youtube "https://www.youtube.com/watch?v=eH8Tq57KzXs" }}
 
 CS50 Flask Blog includes the following features:
 

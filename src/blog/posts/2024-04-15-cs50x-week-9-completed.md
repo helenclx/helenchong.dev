@@ -26,6 +26,6 @@ Finally, I completed and submitted the Finance problem from Week 9 of CS50’s I
 
 Here is a video demonstration of my completed Finance project:
 
-https://www.youtube.com/watch?v=AYkO59_Ojb4
+{{ youtube "https://www.youtube.com/watch?v=AYkO59_Ojb4" }}
 
 Working on this assignment allowed me to practice and learn SQL, Python and Flask a lot. By finishing Week 9 of the CS50x, I reached another milestone.

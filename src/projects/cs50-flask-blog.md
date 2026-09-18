@@ -11,7 +11,7 @@ date: 2023-01-03
 
 ## Video Demo
 
-https://www.youtube.com/watch?v=eH8Tq57KzXs
+{{ youtube "https://www.youtube.com/watch?v=eH8Tq57KzXs" }}
 
 ## Introduction
 

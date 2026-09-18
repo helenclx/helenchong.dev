@@ -17,4 +17,4 @@ Thank you [Sia Karamalegos](https://sia.codes/) for organising Episode 19 of THE
 
 You can watch my talk, "Eleventy Journey From 2.0 to 3.0", at THE Eleventy Meetup Episode 19 at THE Eleventy Meetup's YouTube channel:
 
-https://www.youtube.com/watch?v=qgFNl_oAyQY
+{{ youtube "https://www.youtube.com/watch?v=qgFNl_oAyQY" }}
