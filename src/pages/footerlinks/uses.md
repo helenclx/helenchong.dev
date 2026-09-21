@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-16T23:26:32+0800
+updated: 2026-09-21T13:13:06+0800
 toc: true
 ---
 
@@ -119,7 +119,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
   - Smartphone: [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library:
-  - PC: [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) and [Elisa](https://apps.kde.org/elisa/)
+  - PC:
+    - [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) as clients
+    - [Elisa](https://apps.kde.org/elisa/)
   - Smartphone: [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player)
 - Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
 - PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
