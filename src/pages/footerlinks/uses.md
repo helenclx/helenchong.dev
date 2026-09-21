@@ -109,7 +109,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Software Development
 
-- Code editors: [GNU Emacs](https://www.gnu.org/software/emacs/) with [Doom Emacs](https://github.com/doomemacs), [Helix](https://helix-editor.com/), [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
+- Code editors: [GNU Emacs](https://www.gnu.org/software/emacs/) with [Doom Emacs](https://doomemacs.org/), [Helix](https://helix-editor.com/), [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Version control: [Git](https://git-scm.com/)
 
 ### Media
