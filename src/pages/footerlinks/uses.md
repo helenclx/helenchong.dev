@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-21T13:13:06+0800
+updated: 2026-09-26T20:11:48+0800
 toc: true
 ---
 
@@ -68,10 +68,10 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Web browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
 - Search engine: [Ecosia](https://www.ecosia.org/)
-- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
-- Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
-- Feed reader: [Miniflux](https://miniflux.app/) (my own instance), and [Capy Reader](https://capyreader.com/) on smartphone
-- VPN: [Proton VPN](https://protonvpn.com/)
+- E-mail service: [Purelymail](https://purelymail.com/) (primary, [advanced pricing](https://purelymail.com/advancedpricing) plan), [Proton Mail](https://proton.me/mail) (free plan) and Gmail (free plan)
+- E-mail client: [Mozilla Thunderbird](https://www.thunderbird.net/)
+- Feed reader: [Miniflux](https://miniflux.app/) (my own instance)
+- VPN: [Proton VPN](https://protonvpn.com/) (free plan)
 - IRC client: [Halloy](https://halloy.chat/) on PC, and [Goguma](https://codeberg.org/emersion/goguma) on smartphone
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
 - YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
@@ -84,12 +84,14 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 ### Productivity
 
 - Notes:
-  - [Obsidian](https://obsidian.md/) for writing, project management and personal knowledge base
-  - [Standard Notes](https://standardnotes.com/) for quick notes
+  - [Org Mode](https://orgmode.org/) for project management and personal knowledge base
+  - [Obsidian](https://obsidian.md/) for taking notes in Markdown format on PC
+  - [Standard Notes](https://standardnotes.com/) for cross-platform quick notes
+  - [Markor](https://github.com/gsantner/markor) for taking notes in Org or Markdown format on Android
 - Cloud storage:
   - [pCloud](https://www.pcloud.com/) (Lifetime paid plan)
   - [Tresorit](https://tresorit.com/) (free plan) for storing my most important files
-  - [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance, free plan) for storing my Obsidian vaults and notes
+  - [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance, free plan) for storing my Org Mode files and Obsidian vault, as well as syncing files via the WebDAV protocol
 - File synchronisation: [Syncthing](https://syncthing.net/)
 - Bookmarks: [Floccus](https://floccus.org/) with Nextcloud Files WebDAV, and my own instance of [Linkding](https://linkding.link/)
 - Text editor: [KWrite](https://apps.kde.org/kwrite/)
@@ -97,8 +99,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Calendar: [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) with [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Tasks: Nextcloud (The Good Cloud instance) with Mozilla Thunderbird
 - Personal finance: [Actual Budget](https://actualbudget.org/) (my own instance)
-- Spellchecker: [LanguageTool](https://languagetool.org/)
-- Translator: [Mozhi](https://codeberg.org/aryak/mozhi) (my own instance) and [DeepL Translator](https://www.deepl.com/en/translator)
+- Spell checker: [LanguageTool](https://languagetool.org/) and [GNU Aspell](http://aspell.net/)
+- Translator: [DeepL Translator](https://www.deepl.com/en/translator)
 - Break time reminder: [Stretchly](https://hovancik.net/stretchly/)
 
 ### Security
