@@ -5,7 +5,7 @@ date: 2026-09-19T18:13:44+0800
 topics: [pyomglol, omg.lol, python]
 ---
 
-![PyOmgLol logo, consisted of a pink heart with a dark brown "P" letter at the centre, and a pink text that reads "PyOmgLol"](https://cdn.some.pics/pyomglol/6aae4b742fd53.svg)
+![PyOmgLol logo, consisted of a pink heart with a dark brown "P" letter at the centre, and a pink text that reads "PyOmgLol"](https://cdn.some.pics/pyomglol/6ab9a7a9353b0.svg)
 
 Today (17 September 2026) is the second anniversary of my [omg.lol](https://home.omg.lol/) membership. To celebrate the occasion, I am happy to announce my new project: PyOmgLol, an unofficial cross-platform client for omg.lol!
 
