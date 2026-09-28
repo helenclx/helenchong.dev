@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-26T20:11:48+0800
+updated: 2026-09-28T19:01:06+0800
 toc: true
 ---
 
@@ -107,6 +107,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Password manager: [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (my own instance) and [KeePassXC](https://keepassxc.org/)
 - Multi-factor authenticator: [Ente Auth](https://ente.io/auth/)
+- File encryption: [age](https://github.com/FiloSottile/age)
 - Cloud storage encryption: [Cryptomator](https://cryptomator.org/)
 
 ### Software Development
