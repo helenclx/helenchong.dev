@@ -39,10 +39,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
-		"dprint": "^0.58.0",
+		"dprint": "^0.60.1",
 		"rumdl": "^0.2.78"
 	},
 	"allowScripts": {
-		"dprint@0.58.0": true
+		"dprint@0.60.1": true
 	}
 }
