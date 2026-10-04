@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-09-28T19:01:06+0800
+updated: 2026-10-04T19:40:35+0800
 toc: true
 ---
 
@@ -48,6 +48,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
 - System information fetcher: [fastfetch](https://github.com/fastfetch-cli/fastfetch) and [hyfetch](https://github.com/hykilpikonna/hyfetch) on PC
 - File manager: [Dolphin](https://apps.kde.org/en-gb/dolphin/) (GUI) and [superfile](https://superfile.dev/) (terminal) on PC, and [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) on smartphone
+- Cross-device communication: [KDE Connect](https://kdeconnect.kde.org/)
 
 ### Terminal
 
@@ -75,9 +76,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - IRC client: [Halloy](https://halloy.chat/) on PC, and [Goguma](https://codeberg.org/emersion/goguma) on smartphone
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
 - YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
-- Front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
+- Web front-ends: [LibRedirect](https://libredirect.github.io/) browser extension for redirecting web pages.
   - Reddit: [Redlib](https://github.com/redlib-org/redlib)
-  - Stack Overflow: [AnonymousOverflow](https://github.com/httpjamesm/AnonymousOverflow)
   - Goodreads: [BiblioReads](https://github.com/nesaku/BiblioReads)
   - Fandom.com: [BreezeWiki](https://breezewiki.com/)
 
@@ -123,8 +123,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library:
   - PC:
-    - [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) as clients
-    - [Elisa](https://apps.kde.org/elisa/)
+    - [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) (CLI) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (TUI) as clients
+    - [Elisa](https://apps.kde.org/elisa/) (GUI)
   - Smartphone: [Simple Music Player](https://github.com/SimpleMobileTools/Simple-Music-Player)
 - Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
 - PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
