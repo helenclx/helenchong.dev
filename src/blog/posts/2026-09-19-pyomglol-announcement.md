@@ -7,7 +7,7 @@ topics: [pyomglol, omg.lol, python]
 
 ![PyOmgLol logo, consisted of a pink heart with a dark brown "P" letter at the centre, and a pink text that reads "PyOmgLol"](https://cdn.some.pics/pyomglol/6ace08465af19.svg)
 
-Today (17 September 2026) is the second anniversary of my [omg.lol](https://home.omg.lol/) membership. To celebrate the occasion, I am happy to announce my new project: PyOmgLol, an unofficial cross-platform client for omg.lol!
+Today (19 September 2026) is the second anniversary of my [omg.lol](https://home.omg.lol/) membership. To celebrate the occasion, I am happy to announce my new project: PyOmgLol, an unofficial cross-platform client for omg.lol!
 
 I joined omg.lol since the platform's fundraising campaign for St. Jude in 2024, and I have not regretted it. I have been enjoying the various features omg.lol provides, and the omg.lol community is one of my favourite online communities.
 
