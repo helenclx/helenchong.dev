@@ -3,6 +3,6 @@
 	"markup": {},
 	"excludes": ["LICENSE*", "**/node_modules", "src/Caddyfile*"],
 	"plugins": [
-		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.27.5.wasm"
+		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.27.6.wasm"
 	]
 }
