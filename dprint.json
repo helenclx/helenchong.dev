@@ -2,7 +2,5 @@
 	"useTabs": true,
 	"markup": {},
 	"excludes": ["LICENSE*", "**/node_modules", "src/Caddyfile*"],
-	"plugins": [
-		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.27.6.wasm"
-	]
+	"plugins": ["https://plugins.dprint.dev/g-plane/markup_fmt-v0.27.6.wasm"]
 }
