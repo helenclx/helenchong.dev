@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-10-18T19:59:30+0800
+updated: 2026-10-23T19:44:11+0800
 toc: true
 ---
 
@@ -103,6 +103,40 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Translator: [DeepL Translator](https://www.deepl.com/en/translator)
 - Break time reminder: [Stretchly](https://hovancik.net/stretchly/)
 
+### File Viewers
+
+- Image viewer:
+  - PC: [nomacs](https://nomacs.org/) (GUI), [chafa](https://hpjansson.org/chafa/) (CLI), and [mpv](https://mpv.io/) (CLI)
+  - Smartphone: [Fossify Gallery](https://www.fossify.org/apps/gallery/)
+- PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
+- Markdown viewer: [ghostwriter](https://ghostwriter.kde.org/)
+- E-book viewer: [Foliate](https://johnfactotum.github.io/foliate/) on PC, and [Librera Reader](https://librera.mobi/) FDroid on smartphone
+- Comic reader: [YACReader](https://www.yacreader.com/)
+
+### Multimedia
+
+- Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
+- Music library:
+  - PC:
+    - [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) (CLI) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (TUI) as clients
+    - [Elisa](https://apps.kde.org/elisa/) (GUI)
+  - Smartphone: [Fossify Music Player](https://www.fossify.org/apps/music-player/)
+- Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
+- Screenshot tool: [Spectacle](https://invent.kde.org/plasma/spectacle) and [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (for video games)
+- Screen recorder: [OBS Studio](https://obsproject.com/), [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (for video games), and [asciinema](https://asciinema.org/) (for the terminal)
+- Image converter: [ImageMagick](https://www.imagemagick.org/)
+- Media converter: [FFmpeg](https://ffmpeg.org/)
+- Video and audio downloader: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- Audio effects: [Easy Effects](https://github.com/wwmm/easyeffects)
+
+### Graphic and Multimedia Editors
+
+- Image editor: [GNU Image Manipulation Program](https://www.gimp.org/)
+- Vector graphic editor: [Inkscape](https://inkscape.org/)
+- Drawing: [Krita](https://krita.org/)
+- Video editor: [Kdenlive](https://kdenlive.org/)
+- Audio editor: [Tenacity](https://tenacityaudio.org/)
+
 ### Security
 
 - Password manager: [Vaultwarden](https://github.com/dani-garcia/vaultwarden) (my own instance) and [KeePassXC](https://keepassxc.org/)
@@ -114,34 +148,3 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Code editors: [GNU Emacs](https://www.gnu.org/software/emacs/) with [Doom Emacs](https://doomemacs.org/), [Helix](https://helix-editor.com/), [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Version control: [Git](https://git-scm.com/)
-
-### Media
-
-- Image viewer:
-  - PC: [nomacs](https://nomacs.org/) (GUI), [chafa](https://hpjansson.org/chafa/) (CLI), and [mpv](https://mpv.io/) (CLI)
-  - Smartphone: [Fossify Gallery](https://www.fossify.org/apps/gallery/)
-- Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
-- Music library:
-  - PC:
-    - [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) (CLI) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (TUI) as clients
-    - [Elisa](https://apps.kde.org/elisa/) (GUI)
-  - Smartphone: [Fossify Music Player](https://www.fossify.org/apps/music-player/)
-- Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
-- PDF viewer: [Okular](https://okular.kde.org/) on PC, and [MJ PDF](https://gitlab.com/mudlej_android/mj_pdf_reader) on smartphone
-- Markdown viewer: [ghostwriter](https://ghostwriter.kde.org/)
-- E-book viewer: [Foliate](https://johnfactotum.github.io/foliate/) on PC, and [Librera Reader](https://librera.mobi/) FDroid on smartphone
-- Comic reader: [YACReader](https://www.yacreader.com/)
-- Screenshot tool: [Spectacle](https://invent.kde.org/plasma/spectacle) and [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (for video games)
-- Screen recorder: [OBS Studio](https://obsproject.com/), [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (for video games), and [asciinema](https://asciinema.org/) (for the terminal)
-- Image converter: [ImageMagick](https://www.imagemagick.org/)
-- Media converter: [FFmpeg](https://ffmpeg.org/)
-- Video and audio downloader: [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- Audio effects: [Easy Effects](https://github.com/wwmm/easyeffects)
-
-### Art and Design
-
-- Photo editor: [Affinity](https://www.affinity.studio/) (installed and run with [WINE](https://www.winehq.org/) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Wine/Guide.md)) and [GNU Image Manipulation Program](https://www.gimp.org/)
-- Vector graphic editor: [Affinity](https://www.affinity.studio/) (installed and run with [WINE](https://www.winehq.org/) based on [AffinityOnLinux's guide](https://github.com/seapear/AffinityOnLinux/blob/main/Guides/Wine/Guide.md)) and [Inkscape](https://inkscape.org/)
-- Drawing: [Krita](https://krita.org/)
-- Video editor: [Kdenlive](https://kdenlive.org/)
-- Audio editor: [Tenacity](https://tenacityaudio.org/)
