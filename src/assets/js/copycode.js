@@ -15,7 +15,7 @@ function createCopyBtn(blockIndex) {
 async function copyCode(block) {
 	const code = document.querySelector(`[data-block-id="${block}"]`);
 	const doCopy = async () =>
-		await navigator.clipboard.writeText(code?.innerText ?? "");
+		await navigator.clipboard.writeText(code?.textContent ?? "");
 
 	if (!navigator.userAgent.includes("Firefox")) {
 		const result = await navigator.permissions.query({
