@@ -2,7 +2,7 @@
 title: Turn On Limeide GTX300 Keyboard Backlight On Linux
 desc: The backlight of my new Limeide GX300 USB keyboard did not get turned on on my Linux system out of the box. Here is how I solved it.
 date: 2025-09-26T19:38:23+0800
-topics: ['keyboards', 'linux']
+topics: ["keyboards", "linux"]
 hasCodeBlock: true
 ---
 

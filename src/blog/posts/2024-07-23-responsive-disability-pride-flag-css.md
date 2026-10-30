@@ -11,11 +11,7 @@ hasCodeBlock: true
 .disability-pride-flag.demo { height: 23rem; }
 {{ /css }}
 
-<div
-	class="disability-pride-flag demo"
-	role="img"
-	aria-label="Demo of the Disability Pride flag coded in CSS"
-></div>
+<div class="disability-pride-flag demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
 
 Happy [Disability Pride Month](https://en.wikipedia.org/wiki/Disability_Pride_Month)! To celebrate the occasion, I did a small project: a responsive Disability Pride flag CSS background! For those who do not know, this [Disability Pride flag](https://www.womansday.com/life/a43964487/disability-pride-flag/) was created by [Ann Magill](https://capri0mni.dreamwidth.org/837596.html) and released in 2021.
 
@@ -25,16 +21,16 @@ Here is the CSS snippet for a responsive Disability Pride Flag background:
 
 ```css
 .disability-pride-flag {
-	background: linear-gradient(
-		37deg,
-		#595959 0 35%,
-		#cf7280 30% 41%,
-		#eede77 30% 47%,
-		#e8e8e8 30% 53%,
-		#7bc2e0 30% 59%,
-		#3bb07d 30% 65%,
-		#595959 0
-	);
+  background: linear-gradient(
+    37deg,
+    #595959 0 35%,
+    #cf7280 30% 41%,
+    #eede77 30% 47%,
+    #e8e8e8 30% 53%,
+    #7bc2e0 30% 59%,
+    #3bb07d 30% 65%,
+    #595959 0
+  );
 }
 ```
 
@@ -49,9 +45,14 @@ Since Ann Magill released the Disability Pride flag to the public domain under [
 You can also check out [my CodePen demo](https://codepen.io/helenclx/pen/VwJjBmB) for my responsive Disability Pride flag CSS background and play with the code.
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="VwJjBmB" data-pen-title="Disability Pride Flag CSS Background" data-editable="true" data-user="helenclx" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/helenclx/pen/VwJjBmB">
-  Disability Pride Flag CSS Background</a> by Helen Chong (<a href="https://codepen.io/helenclx">@helenclx</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span
+    >See the Pen
+    <a href="https://codepen.io/helenclx/pen/VwJjBmB">
+      Disability Pride Flag CSS Background</a
+    >
+    by Helen Chong (<a href="https://codepen.io/helenclx">@helenclx</a>) on
+    <a href="https://codepen.io">CodePen</a>.</span
+  >
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 

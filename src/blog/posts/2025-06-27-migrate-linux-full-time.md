@@ -2,7 +2,7 @@
 title: I am Officially a Full-Time Linux User
 desc: I have migrated to using Linux, not only on my virtual private servers, but also my personal computer desktop.
 date: 2025-06-27T21:39:00+0800
-topics: ['linux']
+topics: ["linux"]
 toc: true
 ---
 

@@ -2,7 +2,7 @@
 title: THE Eleventy Meetup Episode 27
 desc: I spoke at THE Eleventy Meetup again; this time about building a multilingual blog.
 date: 2025-10-17T11:52:36+0800
-topics: ['eleventy', 'speaking']
+topics: ["eleventy", "speaking"]
 ---
 
 On 15 October 2025, I spoke at [Episode 27](https://11tymeetup.dev/events/ep-27-11ty-at-the-museum-and-multilingual-blogs/) of [THE Eleventy Meetup](https://11tymeetup.dev/), about building a multilingual blog with Eleventy.

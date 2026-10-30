@@ -2,7 +2,7 @@
 title: Ditching the Bun JavaScript Runtime
 desc: I have stopped using Bun, the JavaScript runtime, including for all my websites.
 date: 2025-09-12T19:18:40+0800
-topics: ['bun', 'node.js', 'javascript', 'eleventy']
+topics: ["bun", "node.js", "javascript", "eleventy"]
 hasCodeBlock: true
 ---
 

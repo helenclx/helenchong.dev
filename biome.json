@@ -6,7 +6,7 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"includes": ["**", "!**/*.md"],
+		"includes": ["**", "!**/LICENSE*"],
 		"ignoreUnknown": false
 	},
 	"formatter": {
@@ -23,6 +23,11 @@
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "double"
+		}
+	},
+	"markdown": {
+		"parser": {
+			"frontmatter": true
 		}
 	},
 	"assist": {

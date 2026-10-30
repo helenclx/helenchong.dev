@@ -2,7 +2,7 @@
 title: freeCodeCamp 2025 Summer Hackathon
 desc: In July, I participated in freeCodeCamp's 2025 Summer Hackathon, and developed a full-stack web app with my team.
 date: 2025-08-16T23:50:16+0800
-topics: ['freecodecamp', 'hackathon']
+topics: ["freecodecamp", "hackathon"]
 ---
 
 Last month in July 2025, I participated in [freeCodeCamp](https://www.freecodecamp.org/)'s 2025 Summer Hackathon, which took place in the freeCodeCamp Discord server throughout July. I applied in June, and then got selected as a participant in the hackathon.

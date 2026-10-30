@@ -98,11 +98,11 @@ After finished creating the HTML and CSS of the home page, I wrote an extra step
 # index page and assets
 - name: Deploy index page and assets
   run: |
-      mkdir -p deploy
-      cp -r index.html style.css deploy/
-      cp -r 1-digital-business-card/screenshot.png deploy/1-digital-business-card/
-      cp -r 2-travel-journal/screenshot.png deploy/2-travel-journal/
-      cp -r 3-quizzical/screenshot-start.png 3-quizzical/screenshot-questions.png 3-quizzical/screenshot-answers.png deploy/3-quizzical/
+    mkdir -p deploy
+    cp -r index.html style.css deploy/
+    cp -r 1-digital-business-card/screenshot.png deploy/1-digital-business-card/
+    cp -r 2-travel-journal/screenshot.png deploy/2-travel-journal/
+    cp -r 3-quizzical/screenshot-start.png 3-quizzical/screenshot-questions.png 3-quizzical/screenshot-answers.png deploy/3-quizzical/
 ```
 
 What this step does is creating a "deploy" folder and then copy the home page's HTML, CSS to the "deploy" folder, and copy the project screenshots to the folder of each project.

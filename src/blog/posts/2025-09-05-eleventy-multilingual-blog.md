@@ -3,7 +3,7 @@ title: Building a Multilingual Blog with Eleventy
 desc: My experience with making my English-Simplified Chinese bilingual personal blog with Eleventy and its official internalisation plugin.
 date: 2025-09-05T21:10:05+0800
 updated: 2026-06-15T18:17:34+0800
-topics: ['eleventy', 'internalisation']
+topics: ["eleventy", "internalisation"]
 toc: true
 hasCodeBlock: true
 templateEngineOverride: md
@@ -95,7 +95,7 @@ Here is the frontmatter code based on my recommendations for your web server con
 ---
 permalink: "{{ page.filePathStem }}"
 eleventyExcludeFromCollections: true
-eleventyAllowMissingExtension: true  # not necessary if you use .htaccess
+eleventyAllowMissingExtension: true # not necessary if you use .htaccess
 ---
 ```
 
@@ -109,12 +109,12 @@ To generate language switcher for my blog's home page, first I configured the li
 
 ```js
 export const siteLang = {
-	en: {
-			home: 'English homepage'
-	},
-	zh: {
-			home: '简体中文首页'
-	}
+  en: {
+    home: "English homepage",
+  },
+  zh: {
+    home: "简体中文首页",
+  },
 };
 ```
 

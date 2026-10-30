@@ -2,7 +2,7 @@
 title: Happy 1st Anniversary to My omg.lol Membership
 desc: It has been a year since I joined omg.lol. To celebrate the occasion, I decided to review how I use various services of omg.lol.
 date: 2025-09-19T19:08:36+0800
-topics: ['omg.lol']
+topics: ["omg.lol"]
 toc: true
 ---
 

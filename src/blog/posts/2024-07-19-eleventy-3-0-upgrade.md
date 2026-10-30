@@ -70,11 +70,12 @@ Fortunately, Visual Studio Code, my go-to code editor, can automatically convert
 export const siteDomain = "helenchong.dev";
 export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
 export const siteAuthor = {
-    name: "Helen Chong",
-    email: "contact@helenchong.dev",
-    url: siteUrl + "/about"
+  name: "Helen Chong",
+  email: "contact@helenchong.dev",
+  url: siteUrl + "/about",
 };
-export const siteDescription = siteAuthor.name + "'s developer portfolio and blog website.";
+export const siteDescription =
+  siteAuthor.name + "'s developer portfolio and blog website.";
 ```
 
 However, I needed to manually change the `require()` functions inside the Eleventy configuration function, by using the `import` declaration at the top of the file, and assign them variables.

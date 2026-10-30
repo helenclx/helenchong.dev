@@ -2,7 +2,7 @@
 title: A New Laptop and Now I Use Arch BTW
 desc: I just purchased a new laptop for myself, and I took the opportunity to start using Arch Linux for the first time.
 date: 2025-07-16T10:05:54+0800
-topics: ['linux', 'life updates']
+topics: ["linux", "life updates"]
 toc: true
 ---
 
