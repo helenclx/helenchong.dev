@@ -1,0 +1,26 @@
+<div class="blog__post--info">
+	<p>
+		<span class="text-bold">{{ content |> wordcount |> thousands }}
+			words</span>.
+		<span class="text-bold">Posted:</span> <time datetime="{{ date }}">{{
+			date
+			|> formatDate
+		}}</time> by {{ sitemeta.siteAuthor.name }}
+	</p>
+	{{ if updated }}
+		<p>
+			<span class="text-bold">Last Updated:</span> <time
+				datetime="{{ updated }}"
+			>{{ updated |> formatDate }}</time>
+		</p>
+	{{ /if }}
+	<p>
+		<span class="text-bold">Topics:</span>
+		{{ for topic of topics }}
+			<a href="/blog/topics/{{ topic |> slugify }}">{{ topic }}</a>{{
+				if topics.indexOf(topic) !== topics.length - 1
+			}},
+			{{ /if }}
+		{{ /for }}
+	</p>
+</div>
