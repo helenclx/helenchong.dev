@@ -109,12 +109,12 @@ To generate language switcher for my blog's home page, first I configured the li
 
 ```js
 export const siteLang = {
-  en: {
-    home: "English homepage",
-  },
-  zh: {
-    home: "简体中文首页",
-  },
+	en: {
+		home: "English homepage",
+	},
+	zh: {
+		home: "简体中文首页",
+	},
 };
 ```
 
@@ -141,11 +141,11 @@ Here is how to implement it in Nunjucks:
 ```django
 {% set altLangs = page.url | locale_links %}
 {% if altLangs.length > 0 %}
-This page is also available in:
-{% for link in page.url | locale_links %}
-{%- if not loop.first %},{% endif %}
-<a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
-{% endfor %}
+	This page is also available in:
+	{% for link in page.url | locale_links %}
+		{%- if not loop.first %},{% endif %}
+		<a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{link.label}}</a>
+	{% endfor %}
 {% endif %}
 ```
 

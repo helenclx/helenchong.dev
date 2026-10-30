@@ -21,16 +21,16 @@ Here is the CSS snippet for a responsive Disability Pride Flag background:
 
 ```css
 .disability-pride-flag {
-  background: linear-gradient(
-    37deg,
-    #595959 0 35%,
-    #cf7280 30% 41%,
-    #eede77 30% 47%,
-    #e8e8e8 30% 53%,
-    #7bc2e0 30% 59%,
-    #3bb07d 30% 65%,
-    #595959 0
-  );
+	background: linear-gradient(
+		37deg,
+		#595959 0 35%,
+		#cf7280 30% 41%,
+		#eede77 30% 47%,
+		#e8e8e8 30% 53%,
+		#7bc2e0 30% 59%,
+		#3bb07d 30% 65%,
+		#595959 0
+	);
 }
 ```
 
