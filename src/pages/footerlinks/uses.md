@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-10-27T06:47:37+0800
+updated: 2026-11-01T11:16:04+0800
 toc: true
 ---
 
@@ -99,8 +99,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Calendar: [Nextcloud](https://nextcloud.com/) ([The Good Cloud](https://thegood.cloud/) instance) with [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Tasks: Nextcloud (The Good Cloud instance) with Mozilla Thunderbird
 - Personal finance: [Actual Budget](https://actualbudget.org/) (my own instance)
-- Spell checker: [LanguageTool](https://languagetool.org/) and [GNU Aspell](http://aspell.net/)
-- Translator: [DeepL Translator](https://www.deepl.com/en/translator)
+- Spell checker: [GNU Aspell](http://aspell.net/)
+- Grammar checker: [Harper](https://writewithharper.com/)
+- Translator: [DeepL Translator](https://www.deepl.com/en/translator) and [LibreTranslate](https://libretranslate.com/)
 - Break time reminder: [Stretchly](https://hovancik.net/stretchly/)
 
 ### File Viewers
