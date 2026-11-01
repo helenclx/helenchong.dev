@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-11-01T11:16:04+0800
+updated: 2026-11-01T20:03:46+0800
 toc: true
 ---
 
@@ -69,10 +69,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Web browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
 - Search engine: [Ecosia](https://www.ecosia.org/)
-- E-mail service: [Purelymail](https://purelymail.com/) (primary, [advanced pricing](https://purelymail.com/advancedpricing) plan), [Proton Mail](https://proton.me/mail) (free plan) and Gmail (free plan)
+- E-mail service: [Purelymail](https://purelymail.com/) (primary, [advanced pricing](https://purelymail.com/advancedpricing) plan), [Mailfence](https://mailfence.com/) (free plan) and Gmail (free plan)
 - E-mail client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [Miniflux](https://miniflux.app/) (my own instance), and [Read You](https://github.com/ReadYouApp/ReadYou) on smartphone
-- VPN: [Proton VPN](https://protonvpn.com/) (free plan)
 - IRC client: [Halloy](https://halloy.chat/) on PC, and [Goguma](https://codeberg.org/emersion/goguma) on smartphone
 - Mastodon client: [Tokodon](https://apps.kde.org/tokodon/) on PC, and [Moshidon](https://github.com/LucasGGamerM/moshidon) on smartphone
 - YouTube client: [yt-x](https://github.com/Benexl/yt-x) (terminal) and [FreeTube](https://freetubeapp.io/) (GUI) on desktop, and [PipePipe](https://pipepipe.dev/) on smartphone
