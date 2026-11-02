@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2026-11-01T20:03:46+0800
+updated: 2026-11-02T11:15:06+0800
 toc: true
 ---
 
@@ -117,9 +117,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - Video and audio player: [mpv](https://mpv.io/) on PC, and [mpv-android](https://github.com/mpv-android/mpv-android) on smartphone
 - Music library:
-  - PC:
-    - [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) (CLI) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (TUI) as clients
-    - [Elisa](https://apps.kde.org/elisa/) (GUI)
+  - PC: [Music Plyaer Daemon (MPD)](https://www.musicpd.org/) with [MPC](https://www.musicpd.org/clients/mpc/) (CLI) and [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) (TUI) as clients
   - Smartphone: [Fossify Music Player](https://www.fossify.org/apps/music-player/)
 - Podcast management and client: [PinePods](https://www.pinepods.online/) (my own instance)
 - Screenshot tool: [Spectacle](https://invent.kde.org/plasma/spectacle) and [GPU Screen Recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) (for video games)
